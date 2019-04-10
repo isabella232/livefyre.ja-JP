@@ -1,0 +1,22 @@
+---
+description: アプリケーションではなく、Studioから機能するコンテンツを選択できます。
+seo-description: アプリケーションではなく、Studioから機能するコンテンツを選択できます。
+seo-title: Studioから機能するコンテンツを選択
+solution: Experience Manager
+title: Studioから機能するコンテンツを選択
+uuid: 50cb620c- ef45-4ccb-829f- f5b2e3c521dd
+translation-type: tm+mt
+source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+
+---
+
+
+# Studioから機能するコンテンツを選択{#select-content-to-feature-from-studio}
+
+アプリケーションではなく、Studioから機能するコンテンツを選択できます。
+
+1. Studioから、コンテンツの横に **[!UICONTROL +]** ある記号をクリックします。
+1. ドロップダウンリストから **[!UICONTROL Featured]** タグを選択します。
+1. をクリック **[!UICONTROL Enter]** して、コンテンツの一部を表示します。
+
+   タグが保存され、コンテンツの横に表示されます。1. コンテンツの一部を表示しないようにするには、コンテンツ **[!UICONTROL x]** の要素に表示されている **[!UICONTROL Featured]** タグをクリックします。
