@@ -34,13 +34,13 @@ Livefyre Identityが次の電子メールを送信します。
 
 **Body:**
 
-Yahhere *< username>*，
+Ed *& amp;lt;username& amp;gt;*、
 
-< network name>に *プロファイルのパスワードを変更するリクエストがあり*ました。
+プロファイルのパスワードを変更するリクエストがあり *ました。lt;ネットワーク名およびamp;gt;*.
 
-If you requested this, please click the following link to choose a new password: *<password reset URL>*.
+これをリクエストした場合は、次のリンクをクリックして新しいパスワードを選択してください。 *& amp;lt;password reset URL& amp;gt;*.
 
-*<ユーザー名>*、 *<ネットワーク名>*、 *<パスワードリセットURL>* は、サイト訪問者とネットワークに基づいて動的に生成されます。
+*& amp;lt;ユーザー名およびamp;gt;*、 *amp;lt;ネットワーク名およびamp;gt;*およびamp; *amp;lt;password reset URL& amp;gt;* は、サイト訪問者とネットワークに基づいて動的に生成されます。
 
 ## Verification Email {#section_ak5_xhs_p1b}
 
@@ -52,17 +52,17 @@ If you requested this, please click the following link to choose a new password:
 
 **Body:**
 
-Hello *< username>*，
+ダウンロード *（& amp）;lt;username& amp;gt;*、
 
-アカウントを確認するには、次のリンクをクリックしてください（またはブラウザに貼り付けてください）。 *<検証URL>*.
+アカウントを確認するには、次のリンクをクリックしてください（またはブラウザに貼り付けてください）。 *& amp;lt;verification URL& amp;gt;*.
 
 このリンクは24時間で有効期限が切れます。
 
 ありがとうございました。
 
-*<顧客名>* チーム
+amp（ *& amp）;lt;顧客名およびamp;gt;* チーム
 
-*<ユーザー名>*、 *<ネットワークネーム>*、 *<検証URL>* は、サイト訪問者とネットワークに基づいて動的に生成されます。
+*& amp;lt;ユーザー名およびamp;gt;*、 *amp;lt;ネットワーク名およびamp;gt;*およびamp; *amp;lt;verification URL& amp;gt;* は、サイト訪問者とネットワークに基づいて動的に生成されます。
 
 ## ユーザーへの電子メールの検証の送信 {#section_vyv_yhs_p1b}
 
@@ -81,15 +81,15 @@ Hello *< username>*，
 
 お知らせメールは次のようになります。
 
-**件名:** <顧客名>へ *ようこそ*
+**件名:** amp to *& amp;lt;顧客名およびamp;gt;*
 
 **Body:**
 
-Hello *< username>*，
+ダウンロード *（& amp）;lt;username& amp;gt;*、
 
-< customer name>に *アカウントが作成され*ました。
+アカウントが作成され *ました。lt;顧客名およびamp;gt;*.
 
-このアカウントは *、<参照URL>* のIPアドレス *< IPアドレス>から作成されまし*た。
+このアカウントは、amp（ *& amp）に作成されました。lt;referralURL& amp;gt;* from IP address *& amp;lt;IPアドレスおよびamp;gt;*.
 
 これを行った場合、この電子メールを安全に無視できます。
 
@@ -97,9 +97,9 @@ Hello *< username>*，
 
 感謝する
 
-*「顧客名」* チーム
+amp（ *& amp）;quot;顧客名およびamp;quot;* チーム
 
-*"Username", "customer name", "referral URL",* and "IP Address" are all dynamically generated based on the site visitor and your network.
+*& amp;quot;ユーザー名およびamp;quot;、amp;quot;顧客名およびamp;quot;、amp;quot;referralURL& amp;quot;および* amp; amp;quot;IPアドレスおよびamp;quot;は、サイト訪問者とネットワークに基づいて動的に生成されます。
 
 ## ユーザーへのお知らせメールの送信 {#section_kjp_c3s_p1b}
 
