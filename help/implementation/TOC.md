@@ -125,7 +125,7 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
    + [アイコンを変更（@mention）](c-app-customizations/c-change-mention-icon.md)
    + [コンテンツをハイライト](c-app-customizations/c-highlight-content.md)
    + [日付と時間のスタンプのカスタマイズ](c-app-customizations/c-date-time-stamp.md)
-   + 機能コンテンツ
+   + 機能コンテンツx
       + [機能コンテンツ](c-app-customizations/t-feature-content.md)
       + [Studioでのコンテンツの配置を有効にする](c-app-customizations/t-enable-featuring-content-in-studio.md)
       + [アプリから機能するコンテンツを選択](c-app-customizations/t-select-content-to-feature.md)
@@ -134,10 +134,10 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
       + [機能API](c-app-customizations/c-feature-apis.md)
    + [AuthDelegateを使用してJanfyreにJanrainを接続](c-app-customizations/c-connecting-janrain-to-livefyre-using-authdelegate.md)
    + [重点APIを使用した重点的な特集コンテンツ](c-app-customizations/c-aggregated-featured-content-using-the-featured-apis.md)
-   + スタイルコンテンツ
+   + スタイルコンテンツx
       + [スタイルユーザーグループのコンテンツ](c-app-customizations/c-style-user-group-content.md)
       + [グループへのユーザーの追加](c-app-customizations/c-adding-users-to-groups.md)
-   + カスタムスタイルの適用
+   + カスタムスタイルの適用x
       + [カスタムスタイルの適用](c-app-customizations/c-applying-custom-styles-.md)
       + [カスタムボタンを追加](c-app-customizations/t-add-custom-buttons.md)
    + JavaScriptイベント

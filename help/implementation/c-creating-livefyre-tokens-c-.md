@@ -1,6 +1,6 @@
 ---
-description: "C#"言語を使用してLivefyreトークンを生成する方法について説明します。
-seo-description: "C#"言語を使用してLivefyreトークンを生成する方法について説明します。
+description: C#言語を使用してLivefyreトークンを生成する方法について説明します。
+seo-description: C#言語を使用してLivefyreトークンを生成する方法について説明します。
 seo-title: Livefyreトークン"C#"を作成
 solution: Experience Manager
 title: Livefyreトークン"C#"を作成
