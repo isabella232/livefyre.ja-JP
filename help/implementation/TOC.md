@@ -3,7 +3,7 @@ product: livefyre
 audience: エンドユーザー
 user-guide-title: Experience Manager Livefyre導入ガイド
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
 
 ---
 
@@ -11,8 +11,9 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
 # Experience Manager Livefyre導入ガイド {#implementation}
 
 + [Livefyre導入ガイド](home.md)
-+ [Livefyre統合の手引き](c-getting-started/c-getting-started.md)
-   + 導入 {#implementation-process}
++ 導入 {#getting-started}
+   + [Livefyre統合の手引き](c-getting-started/c-getting-started.md)
+   + 実装プロセス {#implementation-process}
       + [実装プロセス](c-getting-started/c-implementation-process/c-implementation-process.md)
       + [アプリケーションの統合タイプ](c-getting-started/c-implementation-process/c-app-integration-types.md)
       + [アプリの実装](c-getting-started/designer-app-implementation.md)
@@ -25,7 +26,7 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
       + [User Authトークン](c-getting-started/c-implementation-process/c-user-auth-token.md)
       + [CollectionMetaトークンを使用したコレクションの作成](t-create-a-collectionmeta-token.md)
       + [チェックサムの作成](c-creating-a-checksum.md)
-+ ID統合
++ ID統合 {#identity-integration}
    + [ID統合](t-about-identity-integration/t-about-identity-integration.md)
    + [認証パッケージ](t-about-identity-integration/c-authorization-package.md)
    + [AuthDelegateオブジェクト](t-about-identity-integration/c-building-an-auth-delegate.md)
@@ -43,7 +44,7 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
 + Livefyre ID {#livefyre-identity}
    + [Livefyre ID](c-livefyre-identity-comp/c-livefyre-identity-comp.md)
    + [Livefyre IDの有効化](c-livefyre-identity-comp/t-enable-livefyre-identity.md)
-   + Livefyre IDを使用したソーシャルアプリの使用
+   + Livefyre IDを使用したソーシャルアプリの使用 {#use-social-apps-with-livefyre-identity}
       + [ソーシャルアプリの作成](c-livefyre-identity-comp/t-create-your-social-apps.md)
       + [Livefyre IDで使用するFacebookアプリの作成](c-livefyre-identity-comp/t-create-a-facebook-app-for-use-with-livefyre-identity.md)
       + [Livefyre IDで使用するGoogleプロジェクトの作成](c-livefyre-identity-comp/t-create-a-google-project-for-use-with-livefyre-identity.md)
@@ -113,7 +114,7 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
    + [マップ](c-app-integrations/c-map-integration.md)
    + [メディアウォール](c-app-integrations/c-media-wall-integration.md)
    + [トレンド](c-app-integrations/c-trending-integration.md)
-+ アプリのカスタマイズ {#app-customtizations}
++ アプリのカスタマイズ {#app-customizations}
    + [アプリのカスタマイズ](c-app-customizations/c-app-customizations.md)
    + [表示オプションの変更](c-app-customizations/c-change-display-options.md)
    + [CSSクラス](c-app-customizations/c-css-classes.md)
@@ -125,7 +126,7 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
    + [アイコンを変更（@mention）](c-app-customizations/c-change-mention-icon.md)
    + [コンテンツをハイライト](c-app-customizations/c-highlight-content.md)
    + [日付と時間のスタンプのカスタマイズ](c-app-customizations/c-date-time-stamp.md)
-   + 機能コンテンツx
+   + 機能コンテンツ {#feature-content}
       + [機能コンテンツ](c-app-customizations/t-feature-content.md)
       + [Studioでのコンテンツの配置を有効にする](c-app-customizations/t-enable-featuring-content-in-studio.md)
       + [アプリから機能するコンテンツを選択](c-app-customizations/t-select-content-to-feature.md)
@@ -134,13 +135,13 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
       + [機能API](c-app-customizations/c-feature-apis.md)
    + [AuthDelegateを使用してJanfyreにJanrainを接続](c-app-customizations/c-connecting-janrain-to-livefyre-using-authdelegate.md)
    + [重点APIを使用した重点的な特集コンテンツ](c-app-customizations/c-aggregated-featured-content-using-the-featured-apis.md)
-   + スタイルコンテンツx
+   + スタイルコンテンツ {#style-content}
       + [スタイルユーザーグループのコンテンツ](c-app-customizations/c-style-user-group-content.md)
       + [グループへのユーザーの追加](c-app-customizations/c-adding-users-to-groups.md)
-   + カスタムスタイルの適用x
+   + カスタムスタイルの適用 {#apply-custom-styles}
       + [カスタムスタイルの適用](c-app-customizations/c-applying-custom-styles-.md)
       + [カスタムボタンを追加](c-app-customizations/t-add-custom-buttons.md)
-   + JavaScriptイベント
+   + JavaScriptイベント {#javascript-events}
       + [JavaScriptイベントの定義と例](c-app-customizations/c-javascript-events.md)
       + [ビジュアライゼーションアプリのJavaScriptイベント](c-app-customizations/c-javascript-events-for-visualization-apps.md)
       + [MediaウォールのJavaScriptイベント](c-app-customizations/c-javascript-events-media-wall.md)
