@@ -6,7 +6,7 @@ solution: Experience Manager
 title: Collectionクラスメソッド
 uuid: fd3163c6-981f-44b3- a7ba-6b4e85b0830d
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

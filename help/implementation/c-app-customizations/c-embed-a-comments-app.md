@@ -6,7 +6,7 @@ solution: Experience Manager
 title: コメントアプリの埋め込み
 uuid: e4982ad3- cab1-4805- a55c-594cca3b7203
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 268dc91369d346a254b7120706264eb91da8257e
 
 ---
 

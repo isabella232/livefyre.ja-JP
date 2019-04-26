@@ -6,7 +6,7 @@ solution: Experience Manager
 title: ツイートのジョブ数と頻度
 uuid: b9edfb1e- e6cf-4a48-8756-05f5f18d8799
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

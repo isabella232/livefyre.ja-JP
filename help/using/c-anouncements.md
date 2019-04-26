@@ -6,7 +6,7 @@ solution: Experience Manager
 title: お知らせ
 uuid: c05963db-4d96-494e- bdb3- da3570a14dfe
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 2e2c1a018e5ec58a3649bc27679d53390ffcc8ca
 
 ---
 

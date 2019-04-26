@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 権限リクエストの管理
 uuid: e8f7f73e- da8a-43dc- b5d2-63485872cdca
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 ---
 

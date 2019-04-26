@@ -5,7 +5,7 @@ seo-title: カスタムの誘い文句（CTA:コールトゥアクション）�
 title: カスタムの誘い文句（CTA:コールトゥアクション）ボタン
 uuid: 8c653799-1602-4e38- a2bc-6de0f99c40ff
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

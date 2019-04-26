@@ -4,7 +4,7 @@ solution: Experience Manager
 title: アプリの埋め込み
 uuid: e75cab0e-04ea-4b04-89ed- fea1183ecf63
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

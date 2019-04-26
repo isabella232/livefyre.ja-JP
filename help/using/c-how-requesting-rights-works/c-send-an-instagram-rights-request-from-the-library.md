@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 部分的に自動化されたInstagramの権利リクエストの送信
 uuid: 18cf88ab- af0d-4a40-93d2- adfbdbdd21d5
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: e60a58bf949e6e4f6f4f8d2fad1bd8985a593677
 
 ---
 

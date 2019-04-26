@@ -6,7 +6,7 @@ solution: Experience Manager
 title: フィルムストリップのカスタマイズ
 uuid: 99f8b697-4aa3-4813- bcac- d0e0bdee252d
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: bd989c97ae5cf06a5ac3deec215f865b0fe95d16
 
 ---
 

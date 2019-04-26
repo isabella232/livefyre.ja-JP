@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 認証機能
 uuid: 6f1236a0-7766-47c6- b6b5-1e6b8f1c0781
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

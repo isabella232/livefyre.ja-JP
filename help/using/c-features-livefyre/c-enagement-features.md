@@ -6,7 +6,7 @@ solution: Experience Manager
 title: エンゲージメント機能
 uuid: 5841a183-62c0-40ae-9xf-884bffb7c39b
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 ---
 

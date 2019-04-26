@@ -6,7 +6,7 @@ solution: Experience Manager
 title: コメントまたはライブブログアプリへのポールの追加
 uuid: eedb63c1-7d31-40d9- ab3e- b15765cbe804
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

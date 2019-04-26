@@ -6,7 +6,7 @@ solution: Experience Manager
 title: getCollectionContentコレクションメソッド
 uuid: 270depa5-4de5-4d3b- a751-79e6b9c4fd93
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

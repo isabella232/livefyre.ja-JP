@@ -6,7 +6,7 @@ solution: Experience Manager
 title: ユーザーのスタジオ権限の管理
 uuid: 15c395c8- a9bb-4b0b-9586-61ac36810730
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

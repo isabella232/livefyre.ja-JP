@@ -5,7 +5,7 @@ seo-title: 機能API
 title: 機能API
 uuid: eac3a156-0b60-4ffa-8b6f- e451eb03da77
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

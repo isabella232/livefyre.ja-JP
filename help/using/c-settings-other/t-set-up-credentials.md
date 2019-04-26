@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 秘密鍵証明書の設定
 uuid: 688af27e-97ba-4bff-8edd-6be82f48e6c7
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 ---
 

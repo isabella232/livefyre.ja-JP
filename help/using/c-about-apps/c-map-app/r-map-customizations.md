@@ -6,7 +6,7 @@ solution: Experience Manager
 title: カスタマイズのマッピング
 uuid: 3a3bffde-5d1b-41da-9aa8- d25b43d0df76
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

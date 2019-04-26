@@ -6,7 +6,7 @@ solution: Experience Manager
 title: Embedly 統合
 uuid: 1f27e32c- c2c3-4f7c-93de- c9c7bf783d6a
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 ---
 

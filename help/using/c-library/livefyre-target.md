@@ -5,7 +5,7 @@ seo-title: Adobe Experience Manager LivefyreをAdobe Targetで使用する
 title: Adobe Experience Manager LivefyreをAdobe Targetで使用する
 uuid: 98108ddb-5710-4331-891b-7e1bbb106059
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 78399019741620ad8e16d2ba04db7f766631fe74
 
 ---
 

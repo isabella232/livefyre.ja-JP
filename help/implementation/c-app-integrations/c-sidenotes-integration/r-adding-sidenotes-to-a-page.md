@@ -6,7 +6,7 @@ solution: Experience Manager
 title: ページに対するSideosingの追加
 uuid: 6499c45a-3773-4adb- a6c7-22a628309afd
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: bd989c97ae5cf06a5ac3deec215f865b0fe95d16
 
 ---
 

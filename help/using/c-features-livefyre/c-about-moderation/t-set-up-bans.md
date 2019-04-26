@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 禁止IPアドレス
 uuid: 4d21b53e-4cf7-4da3-8910-9716709721f5
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

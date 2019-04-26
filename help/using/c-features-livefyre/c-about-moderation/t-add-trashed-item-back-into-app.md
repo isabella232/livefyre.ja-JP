@@ -5,7 +5,7 @@ seo-title: オーバーレイ項目をアプリに追加
 title: オーバーレイ項目をアプリに追加
 uuid: 96c5db19-999f-476f- a96c- ad101028d484
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

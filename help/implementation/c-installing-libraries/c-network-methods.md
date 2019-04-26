@@ -6,7 +6,7 @@ solution: Experience Manager
 title: ネットワークメソッド
 uuid: f237fad-36b5-4ea1- bfdd-55194d3306e1
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

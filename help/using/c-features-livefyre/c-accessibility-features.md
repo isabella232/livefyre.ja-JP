@@ -6,7 +6,7 @@ solution: Experience Manager
 title: アクセシビリティ機能
 uuid: e04970d5- f45d-40e0-807e- ae88a9386ef7
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

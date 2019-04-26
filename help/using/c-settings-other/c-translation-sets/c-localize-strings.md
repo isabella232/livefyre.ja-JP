@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 文字列のローカライズ
 uuid: c0ab352d-5d3a-45d7- bbd0- aed165835646
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 ---
 

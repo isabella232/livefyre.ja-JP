@@ -5,7 +5,7 @@ seo-title: Livefyre IDで使用するGitHub IDアプリケーションの作成
 title: Livefyre IDで使用するGitHub IDアプリケーションの作成
 uuid: cf56164c-1521-4a42-89cb-39483764807e
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

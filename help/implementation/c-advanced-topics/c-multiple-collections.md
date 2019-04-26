@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 複数のコレクション
 uuid: 9675ffd7-1a59-42a1- b3ba-40af1744felet1
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 5bf937c8cb1a9ca12216ee1884142b8787ff063e
 
 ---
 

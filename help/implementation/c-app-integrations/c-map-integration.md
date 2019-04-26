@@ -6,7 +6,7 @@ solution: Experience Manager
 title: マップ
 uuid: 1c3e399d- a610-4b80- a3b2- a5502b31480d
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

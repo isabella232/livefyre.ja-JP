@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 重点APIを使用した重点的な特集コンテンツ
 uuid: e9c9ff26-37b6-4328- af85- aa550e7ffdfd
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

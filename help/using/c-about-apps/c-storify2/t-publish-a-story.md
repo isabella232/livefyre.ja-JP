@@ -6,7 +6,7 @@ solution: Experience Manager
 title: ストーリーの投稿
 uuid: 2fbf0ab3- ae59-4cd-8a4d- e076bb5e477a
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

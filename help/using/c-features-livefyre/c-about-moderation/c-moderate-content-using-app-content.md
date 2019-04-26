@@ -5,7 +5,7 @@ seo-title: アプリコンテンツを使用したコンテンツのモデレー
 title: アプリコンテンツを使用したコンテンツのモデレート
 uuid: 1c648128- e7ef-4836- afe5- ev52de30e7e
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 ---
 

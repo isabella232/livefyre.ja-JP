@@ -6,7 +6,7 @@ solution: Experience Manager
 title: すべてのストリームルールのストリームルールオプション
 uuid: 4072ee83-31e7-4de6-918c-134b8b8032e1
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 8bdb537b38d78dba033d6671b710c2a61934d6b2
 
 ---
 

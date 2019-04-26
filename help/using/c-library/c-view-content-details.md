@@ -5,7 +5,7 @@ seo-title: コンテンツの詳細の表示
 title: コンテンツの詳細の表示
 uuid: bca8dcb7-31d6-475c-9898-1b6436d2457d
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

@@ -6,7 +6,7 @@ solution: Experience Manager
 title: ビルドサーバー側トークン
 uuid: 8313f26e-5ceb-414e- a61a-480bb7a8ba66
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 5bf937c8cb1a9ca12216ee1884142b8787ff063e
 
 ---
 

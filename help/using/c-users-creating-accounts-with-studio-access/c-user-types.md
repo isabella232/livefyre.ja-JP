@@ -6,7 +6,7 @@ solution: Experience Manager
 title: ユーザーの役割と権限
 uuid: d9261fartain- ae60-40d8-9816-25aef541506f
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 30aa5cce5e7567208362cc35caeb7b7260c42f3b
 
 ---
 

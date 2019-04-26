@@ -5,7 +5,7 @@ seo-title: セーフルール
 title: セーフルール
 uuid: 2f91d0d4- dffe-4651-88af-79bbb96c1b5c
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 ---
 

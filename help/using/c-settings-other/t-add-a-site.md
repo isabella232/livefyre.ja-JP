@@ -6,7 +6,7 @@ solution: Experience Manager
 title: ネットワークへのサイトの追加
 uuid: a4a3fdb2-94be-48d9-9523- c97617190e53
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

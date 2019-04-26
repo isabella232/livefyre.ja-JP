@@ -6,7 +6,7 @@ solution: Experience Manager
 title: チャット
 uuid: d6761a69- efa5-4ad3- abaf-1ba8e6c17f94
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
 
 ---
 

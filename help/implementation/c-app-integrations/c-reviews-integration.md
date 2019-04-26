@@ -6,7 +6,7 @@ solution: Experience Manager
 title: レビュー
 uuid: b740ee28- f6f9-4ae7-9fe7-61a5cde97bbb
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 987e682f9c7cd94543fd269f386fd2a971ee9934
 
 ---
 

@@ -6,7 +6,7 @@ solution: Experience Manager
 title: アセットの詳細の表示
 uuid: 06a19bca- d7b9-431b- abc4-9d6f154901b9
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

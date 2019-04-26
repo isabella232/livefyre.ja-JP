@@ -6,7 +6,7 @@ solution: Experience Manager
 title: Live Blog
 uuid: 5ca373f1-2008-45ab-9ec2-1e295af4e368
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 987e682f9c7cd94543fd269f386fd2a971ee9934
 
 ---
 

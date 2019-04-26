@@ -6,7 +6,7 @@ solution: Experience Manager
 title: コンテンツ動作の機能
 uuid: 4a1c6d6e-8785-49e8- aaf5-6fa4576d7232
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 ---
 

@@ -6,7 +6,7 @@ solution: Experience Manager
 title: リスナー数
 uuid: fdd7cfe4- ae69-4d31- baa2-8978368fc3e8
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

@@ -6,7 +6,7 @@ solution: Experience Manager
 title: ナビゲーションガイドへのタイトルの追加
 uuid: 9b8de96d-76c3-46d0-97ce-338b01f49ca7
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

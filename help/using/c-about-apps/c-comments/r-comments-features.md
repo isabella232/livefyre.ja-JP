@@ -6,7 +6,7 @@ solution: Experience Manager
 title: コメント機能
 uuid: ec00fcc9-1b5e-4d0b- b1da-95f9f26b4cc1
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 ---
 

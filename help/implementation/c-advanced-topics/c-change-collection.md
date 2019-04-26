@@ -6,7 +6,7 @@ solution: Experience Manager
 title: コレクションの変更
 uuid: 81c8a554-375f-4659-9e25-5b3618824633
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 5bf937c8cb1a9ca12216ee1884142b8787ff063e
 
 ---
 

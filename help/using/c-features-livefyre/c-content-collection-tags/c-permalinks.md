@@ -6,7 +6,7 @@ solution: Experience Manager
 title: Permalks
 uuid: 40ef30ec- dc3e-47fe-87a9- f9073cd4c4ff
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 ---
 

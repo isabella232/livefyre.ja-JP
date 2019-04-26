@@ -6,7 +6,7 @@ solution: Experience Manager
 title: アプリイベントを示す
 uuid: afca4b03- c370-41ca- aa12-45bc357517ca
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 987e682f9c7cd94543fd269f386fd2a971ee9934
 
 ---
 

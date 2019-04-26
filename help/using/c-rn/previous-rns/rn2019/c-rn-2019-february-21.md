@@ -6,7 +6,7 @@ solution: Experience Manager
 title: リリースノート
 uuid: 34e64943- dea6-46ac-9fcc-8feepab6aa42
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 4051e0d55c7fa1cf02d8b01c239d040c0a3baf14
 
 ---
 

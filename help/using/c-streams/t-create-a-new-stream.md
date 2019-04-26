@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 新しいストリームの作成
 uuid: 2874660b- d26b-4e21- b24e-484744e2303a
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 ---
 

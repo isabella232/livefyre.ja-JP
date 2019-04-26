@@ -6,7 +6,7 @@ solution: Experience Manager
 title: アセットライブラリからのアセットの手動付与または権限の失効
 uuid: 1f70ab9a-239d-4a9c- a17c- d2bc54ff3859
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

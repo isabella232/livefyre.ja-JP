@@ -6,7 +6,7 @@ solution: Experience Manager
 title: コメント数を表示
 uuid: 0f39b25e-11e0-4945- be71-55fb4798b6c7
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: c287e7a880f956f0444af746adee682571fe5a72
 
 ---
 

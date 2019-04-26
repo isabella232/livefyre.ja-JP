@@ -6,7 +6,7 @@ solution: Experience Manager
 title: クラスとメソッド
 uuid: 2e7327d8-0f92-485c- b607- a566894b3561
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

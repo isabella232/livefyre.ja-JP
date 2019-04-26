@@ -6,7 +6,7 @@ solution: Experience Manager
 title: Map Features
 uuid: fdom5f0c-8292-4f59- bac1- c96c01e96ff5
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

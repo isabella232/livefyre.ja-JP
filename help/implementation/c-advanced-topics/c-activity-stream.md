@@ -6,7 +6,7 @@ solution: Experience Manager
 title: アクティビティストリーム
 uuid: f40deec1-58ab-41c9- aac4- d2d8c9192bb9
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

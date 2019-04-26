@@ -6,7 +6,7 @@ solution: Experience Manager
 title: Livefyre IDで使用するMicrosoft Live Identityアプリケーションの作成
 uuid: 0c13e1bc-817f-43ed-85d5-09c9e95b6234
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

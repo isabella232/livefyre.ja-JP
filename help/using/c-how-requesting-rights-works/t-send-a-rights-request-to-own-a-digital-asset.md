@@ -6,7 +6,7 @@ solution: Experience Manager
 title: Twitter権限リクエストの送信
 uuid: bf3e84a6- dc67-47bc-9707- bd30882cbbf0
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 ---
 
