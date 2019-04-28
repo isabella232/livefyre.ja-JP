@@ -181,13 +181,13 @@ Livefyre Remote ProfilesをCaptureユーザー管理システムと同期させ�
 
 1. Janrainからアクセスコードを入手します。
 
-   アクセスコードを取得するには、必要な資格情報を指定し、user_ typeを"user"として指定し、現在のユーザーのuuidとしてuuidを更新します。詳しくは、 [https://developers.janrain.com/rest-api/methods/authentication/access-codes-and-tokens/getauthorizationcode/](https://developers.janrain.com/rest-api/methods/authentication/access-codes-and-tokens/getauthorizationcode/)を参照してください。
+   アクセスコードを取得するには、必要な資格情報を指定し、user_ typeを&quot;user&quot;として指定し、現在のユーザーのuuidとしてuuidを更新します。詳しくは、 [https://developers.janrain.com/rest-api/methods/authentication/access-codes-and-tokens/getauthorizationcode/](https://developers.janrain.com/rest-api/methods/authentication/access-codes-and-tokens/getauthorizationcode/)を参照してください。
 
-1. アクセストークンのアクセスコードをトレードします。必要な資格情報を指定し、手順1から受け取ったアクセスコードを、gant_ typeを"authorizment_ code"と指定します。
+1. アクセストークンのアクセスコードをトレードします。必要な資格情報を指定し、手順1から受け取ったアクセスコードを、gant_ typeを&quot;authorizment_ code&quot;と指定します。
 
    詳しくは、 [https://developers.janrain.com/rest-api/methods/authentication/oauth/token/](https://developers.janrain.com/rest-api/methods/authentication/oauth/token/)を参照してください。
 
-1. Livefyre"Ping to Pull Capture"エンドポイントをヒットします。
+1. Livefyre&quot;Ping to Pull Capture&quot;エンドポイントをヒットします。
 
    エンドポイントURL: [!DNL https://{networkName}/api/v1.1/private/capture/profile_updated/?jrtoken={token}] ここ ***で、{networkName}は*** Livefyreによって提供されるネットワーク名で、jrtokenは手順2のJanrainから受け取ったトークンです。
 

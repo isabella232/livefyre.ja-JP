@@ -1,6 +1,6 @@
 ---
-description: null
-seo-description: null
+description: 'null'
+seo-description: 'null'
 seo-title: BuildCollectionサイトのメソッド
 solution: Experience Manager
 title: BuildCollectionサイトのメソッド

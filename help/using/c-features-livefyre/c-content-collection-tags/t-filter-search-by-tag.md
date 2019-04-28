@@ -15,7 +15,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Studioでコンテンツ検索をコレクションタグ別にフィルターします。
 
-1. パネルの検索ドロップダウンで選択 **[!UICONTROL Tag]****[!UICONTROL Collections]** します。
+1. パネルの検索ドロップダウンで選択 **[!UICONTROL Tag]** **[!UICONTROL Collections]** します。
 1. 検索のタグを入力するか、コレクションの下 **[!UICONTROL Tag]** にあるリストをクリックします。
 
    選択したタグを持つすべてのコレクションがリストに表示されます。

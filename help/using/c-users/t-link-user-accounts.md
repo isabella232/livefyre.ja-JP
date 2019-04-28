@@ -22,8 +22,8 @@ LivefyreのアカウントをLivefyreアカウントにリンクして、単一�
 アカウントをリンクするには:
 
 1. ネットワーク上のLivefyreユーザープロファイルを作成した後、Studioにログインします。
-1. に **[!UICONTROL Users]**移動し、ユーザープロファイルを見つけて、ダブルクリックして詳細を表示します。
-1. **[!UICONTROL Connect account]**をクリックします。
+1. に **[!UICONTROL Users]** 移動し、ユーザープロファイルを見つけて、ダブルクリックして詳細を表示します。
+1. **[!UICONTROL Connect account]** をクリックします。
 1. 開くウィンドウで、このアカウントにリンクするユーザーアカウントを選択します。
-1. 情報を **[!UICONTROL Link Profile]** 確認し、をクリック **[!UICONTROL Link]**します。 ![](assets/UsersConnectAccount-1024x311.png)
+1. 情報を **[!UICONTROL Link Profile]** 確認し、をクリック **[!UICONTROL Link]** します。 ![](assets/UsersConnectAccount-1024x311.png)
 

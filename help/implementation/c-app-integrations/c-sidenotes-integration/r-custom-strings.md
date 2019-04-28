@@ -1,6 +1,6 @@
 ---
-description: null
-seo-description: null
+description: 'null'
+seo-description: 'null'
 seo-title: カスタム文字列を指定
 title: カスタム文字列を指定
 uuid: 73745273- d3fb-4569-8910- d149fb37a7b4
@@ -46,7 +46,7 @@ new Livefyre.Sidenotes({
 | errorDuplicate | メモも同様ですが、2回投稿することはできません。 |
 | errorGeneral | エラーが発生しました。再試行してください。 |
 | errorServer | サーバーに問題がありました。再試行しますか? |
-| facebookShareReption | "{title}"で指定 |
+| facebookShareReption | &quot;{title}&quot;で指定 |
 | menuAuthSignInMsg | {action}にサインインしている必要があります |
 | menuAuthSignInBtn | サインイン |
 | menubackBtn | 戻る |
@@ -81,7 +81,7 @@ new Livefyre.Sidenotes({
 | NotificationFlag | フラグ付き |
 | permalLinkbackBtn | すべて |
 | permalLinkTitle | Permalink |
-| QuestionDescription | 文章、段落、画像、引用符でコメントを直接読み取りおよび書き込みできるようになりました。<br><br>テキストをハイライトし、"fycon- write"アイコンをクリックするか、各段落の最後にある"fycon- action- view"アイコンをクリックします。 |
+| QuestionDescription | 文章、段落、画像、引用符でコメントを直接読み取りおよび書き込みできるようになりました。<br><br>テキストをハイライトし、&quot;fycon- write&quot;アイコンをクリックするか、各段落の最後にある&quot;fycon- action- view&quot;アイコンをクリックします。 |
 | QuestionModeText | 「なじみのある」という理由では、適切に認識されません。 |
 | QuestionTitle | Sitesizeとは何ですか。 |
 | queueCommentsSpural | {number}新しいサイト紹介 |
@@ -96,5 +96,5 @@ new Livefyre.Sidenotes({
 | sliderWriteText | どう思いますか。タップして書き込み |
 | ThreadCollapseBtn | 折りたたみ |
 | ThreadExpandbtnMultiple | {number}返信を展開 |
-| ThreadExpandbtnSingic | "1件の返信」を展開 |
+| ThreadExpandbtnSingic | &quot;1件の返信」を展開 |
 | ThreadReplyBn | 会話への返信 |

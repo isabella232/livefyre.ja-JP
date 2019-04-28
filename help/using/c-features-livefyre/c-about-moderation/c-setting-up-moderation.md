@@ -28,10 +28,10 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 * 特定のタイプのコンテンツに自動的にフラグを付けるルールを設定します。
 
-   * サイト訪問者フラグによってフラグ付けされるコンテンツのフラグルールを設定します **[!UICONTROL Settings > Moderation > Rules]**
-   * 安全なルールの設定 **[!UICONTROL Settings > Moderation > Rules]**
-   * 特定のTwitterユーザーを **[!UICONTROL Settings > Streams]**
-   * 使用するIPアドレスの禁止 **[!UICONTROL Settings > Bans]**
+   * サイト訪問者フラグによってフラグ付けされるコンテンツのフラグルールを設定します **[!UICONTROL Settings > Moderation > Rules]** 
+   * 安全なルールの設定 **[!UICONTROL Settings > Moderation > Rules]** 
+   * 特定のTwitterユーザーを **[!UICONTROL Settings > Streams]** 
+   * 使用するIPアドレスの禁止 **[!UICONTROL Settings > Bans]** 
    * 国別IP地域をリクエストによって禁止する。禁止されているコンテンツはスパムとしてマークされます。
 
 * ネットワークまたはサイトの下の **[!UICONTROL Settings > Moderation > Rules]** 不敬リストで、不敬と見なす単語のリストを作成します。
@@ -39,7 +39,7 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 不敬なリスト、セーフフィルター、ルールを設定したら、コンテンツをモデレートし、ストリーム内でセーフフィルターを適用するかどうかを選択できます。詳しくは、すべてのストリームルールの [ストリームルールオプション](/help/using/c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)を参照してください。
 
-コンテンツを **[!UICONTROL Approved]****[!UICONTROL Pending]**、など **[!UICONTROL Junk]**のようにLivefyreによってマークします。コンテンツの開始場所、公開場所、システムで設定したルールによって異なります。次の表では、Livefyreアクションについて詳しく説明します。これらの要素について詳しくは、以下を参照してください。
+コンテンツを **[!UICONTROL Approved]** **[!UICONTROL Pending]**、など **[!UICONTROL Junk]** のようにLivefyreによってマークします。コンテンツの開始場所、公開場所、システムで設定したルールによって異なります。次の表では、Livefyreアクションについて詳しく説明します。これらの要素について詳しくは、以下を参照してください。
 
 ## モデレートの仕組み
 
@@ -82,7 +82,7 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 ## バルクフィルター {#section_lyk_ktx_vy}
 
-一括フィルターは、短い期間内にすべてのLivefyreネットワークに投稿された繰り返しコンテンツを検索します。検出された場合、このコンテンツはバルクとしてフラグ付けされ、デフォルトで粉砕されます。バルクコンテンツはユーザ生成である場合がありますが、"TouchDown"などです。は、一般的なフットボールゲームの際に、チャットで繰り返し投稿されます。ほとんどの場合、スパムキャンペーンに起因します。このフィルターは言語に依存せず、任意の言語で動作します。一括フィルターをカスタマイズするには、Livefyreサポートにご連絡いただく必要があります。
+一括フィルターは、短い期間内にすべてのLivefyreネットワークに投稿された繰り返しコンテンツを検索します。検出された場合、このコンテンツはバルクとしてフラグ付けされ、デフォルトで粉砕されます。バルクコンテンツはユーザ生成である場合がありますが、&quot;TouchDown&quot;などです。は、一般的なフットボールゲームの際に、チャットで繰り返し投稿されます。ほとんどの場合、スパムキャンペーンに起因します。このフィルターは言語に依存せず、任意の言語で動作します。一括フィルターをカスタマイズするには、Livefyreサポートにご連絡いただく必要があります。
 
 ## ルール {#section_gqz_ksk_f1b}
 
@@ -99,7 +99,7 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 * ****[!UICONTROL Trash it:]はフラグ付きのコメントをごみ箱に送信します。
 * **[!UICONTROL Bozo it:]** により、ポスターを除くすべてのユーザーからフラグ付きコメントが非表示になります。
-* **[!UICONTROL Pending:]** は、コンテンツを保留中として設定します。「 **[!UICONTROL Settings > ModQ]**事前モデレート」を"ON"に設定した場合、それはMOQになります。そうしないと、アプリケーションのコンテンツのみに含まれます。
+* **[!UICONTROL Pending:]** は、コンテンツを保留中として設定します。「 **[!UICONTROL Settings > ModQ]** 事前モデレート」を&quot;ON&quot;に設定した場合、それはMOQになります。そうしないと、アプリケーションのコンテンツのみに含まれます。
 
 >[!NOTE]
 >
@@ -112,7 +112,7 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 1. Adobe Livefyreサポートプロフェッショナルに連絡して、モデレートのRecommendations機能を有効にします。
 1. ネットワーク設定でモデレートのレコメンデーションを設定します。
 
-   以下の **[!UICONTROL Livefyre Recommends Trash]** 設定を使用して、モデレートのレコメンデーションを設定 **[!UICONTROL Network Settings]**します。
+   以下の **[!UICONTROL Livefyre Recommends Trash]** 設定を使用して、モデレートのレコメンデーションを設定 **[!UICONTROL Network Settings]** します。
 
    ![](assets/image_mod_reco_trash.png)
 

@@ -27,7 +27,7 @@ source-git-commit: d77b633b9892e3ea4aaec860317887f1fdf66830
 
 >[!NOTE]
 >
->Janrain Engingを使用しているお客様は、自社のエンゲージメントドメインと"APIキー」のみを提供する必要があります。
+>Janrain Engingを使用しているお客様は、自社のエンゲージメントドメインと&quot;APIキー」のみを提供する必要があります。
 
 管理コンソールの統合設定パネルを使用して、次のソーシャル資格情報を入力または更新します。
 
@@ -46,7 +46,7 @@ Twitterの資格情報は、Twitter App Dashboardから利用できます。こ�
 
 次のように指定する必要があります。
 
-* Twitterアプリの「コールバックURL"フィールドに値を入力します。このフィールドは単純なプレースホルダーにすることができますが、空白のままにすることはできません。
+* Twitterアプリの「コールバックURL&quot;フィールドに値を入力します。このフィールドは単純なプレースホルダーにすることができますが、空白のままにすることはできません。
 * アプリケーションの種類を読み取りおよび ******書き込み** アクセスの両方に設定します。
 * Twitter AppのWebサイトURLがLivefyre Coreアプリと同じホストドメインにあることを確認します。
 
@@ -56,12 +56,12 @@ Twitterの資格情報は、Twitter App Dashboardから利用できます。こ�
 
 ## LinkedIn {#section_lfz_zxl_b1b}
 
-LinkedIn資格情報は、LinkedInアプリケーションのAPIキーの"OAuthキー」セクションから利用できます。
+LinkedIn資格情報は、LinkedInアプリケーションのAPIキーの&quot;OAuthキー」セクションから利用できます。
 
 * LinkedInの開発者ページ [https://developer.linkedin.com/からアカウントにサインイン](https://developer.linkedin.com/)します。
-* 右上の名前にマウスポインターを置き、ドロップダウンメニューから"APIキー」を選択します。
+* 右上の名前にマウスポインターを置き、ドロップダウンメニューから&quot;APIキー」を選択します。
 * アプリケーションのタイトルをクリックします。
-* "OAuthキー」セクションからAPIキーおよびシークレットキーの値を取得します
+* &quot;OAuthキー」セクションからAPIキーおよびシークレットキーの値を取得します
 
 ## Facebook {#section_zyb_gpl_b1b}
 

@@ -24,7 +24,7 @@ HotSuiteダッシュボードから、Experience Manager Livefyreを使用して
 
 1. Hotsuite App DirectoryからAdobe Experience Manager Livefyreをインストールします。
 
-1. ホームSuiteダッシュボードで、"Adobeと **のログイン」をクリック**します。
+1. ホームSuiteダッシュボードで、&quot;Adobeと **のログイン」をクリック**します。
 
    ![](assets/hootsuite-login.png)
 
@@ -77,7 +77,7 @@ HotSuiteダッシュボードから、Experience Manager Livefyreを使用して
 >
 >共有ボタンは、権限を付与されたアセットをフィルタリングする場合にのみ表示されます。
 
-「割り当て」 ![](assets/assign.png) アイコンをクリックして、現在の項目をHotSuiteチームメンバーの1つに割り当てます。項目が既に割り当てられている場合は、" ![](assets/resolve.png)
+「割り当て」 ![](assets/assign.png) アイコンをクリックして、現在の項目をHotSuiteチームメンバーの1つに割り当てます。項目が既に割り当てられている場合は、&quot; ![](assets/resolve.png)
 
 アイコンが表示されます。クリックして現在の割り当てを解決します。
 
@@ -99,7 +99,7 @@ HotSuiteダッシュボードから、Experience Manager Livefyreを使用して
 
    ![](assets/hootsuite-menu-icon.png)
 
-1. "AEM Livefyreに **送信」を選択**します。
+1. &quot;AEM Livefyreに **送信」を選択**します。
 1. アセットを保存する1つまたは複数のライブラリを選択します。
 
    ![](assets/hootsuite-save.png)

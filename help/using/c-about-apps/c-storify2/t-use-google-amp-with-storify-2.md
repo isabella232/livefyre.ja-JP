@@ -1,8 +1,6 @@
 ---
-description: Livefyre APIを使用して、コンテンツをインタラクティブでSEOフレンドリーに維持するために、Storify2ページにGoogle
-  AMP機能を追加します。
-seo-description: Livefyre APIを使用して、コンテンツをインタラクティブでSEOフレンドリーに維持するために、Storify2ページにGoogle
-  AMP機能を追加します。
+description: Livefyre APIを使用して、コンテンツをインタラクティブでSEOフレンドリーに維持するために、Storify2ページにGoogle AMP機能を追加します。
+seo-description: Livefyre APIを使用して、コンテンツをインタラクティブでSEOフレンドリーに維持するために、Storify2ページにGoogle AMP機能を追加します。
 seo-title: Google AMPをStorify2と連携させる
 solution: Experience Manager
 title: Google AMPをStorify2と連携させる

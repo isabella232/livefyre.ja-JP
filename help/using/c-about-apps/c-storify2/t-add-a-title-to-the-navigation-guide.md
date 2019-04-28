@@ -16,5 +16,5 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 ナビゲーションガイドにタイトルを付けて、サイト訪問者にコンテンツを明確にします。
 
 1. Storify2のストーリーを開きます。
-1. Storify2App Designerで **[!UICONTROL Navigation Guide]** 、切り替えを切り替えます。
+1. Storify2App Designerで **[!UICONTROL Navigation Guide]**、切り替えを切り替えます。
 1. 「タイトルを追加」という単語が入力されたフィールドにタイトルを入力します。

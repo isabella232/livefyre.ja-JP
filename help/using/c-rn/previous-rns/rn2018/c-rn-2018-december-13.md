@@ -29,15 +29,15 @@ source-git-commit: 6d0f9feb17ca65391242e95651a89d734d297cb2
 * Instagramのビジネスアカウントごとに、7日ごとに最大30個の一意のハッシュタグを検索します。
 
 * エラーを回避するために、Livefyreは場所ベースのフィルターを使用してInstagramストリームルールを削除します。
-* **[!UICONTROL Business User Search]**:入力作成者によってInstagram投稿を検索します。
+* **[!UICONTROL Business User Search]** :入力作成者によってInstagram投稿を検索します。
 
    >[!NOTE]
    >
-   >ビジネスユーザーごとにInstagramを検索するには、ユーザーとInstagramのコンテンツ作成者の両方がInstagramのビジネスアカウントを持っている必要があります。Adobe Livefyre StudioでInstagramのビジネスアカウントを設定する方法について詳しくは、"Studio Accessによるアカウント [の作成」を参照](/help/using/c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)してください。
+   >ビジネスユーザーごとにInstagramを検索するには、ユーザーとInstagramのコンテンツ作成者の両方がInstagramのビジネスアカウントを持っている必要があります。Adobe Livefyre StudioでInstagramのビジネスアカウントを設定する方法について詳しくは、&quot;Studio Accessによるアカウント [の作成」を参照](/help/using/c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)してください。
 
 * ライブラリで、次の機能を使用してInstagramをハッシュタグで検索できるようになりました。
 
-   * **[!UICONTROL Top Tags Search]**:特定のハッシュタグでタグ付けされた最も人気のあるメディアを検索します。トップタグは、以下に示す条件によって決定されます。 [](https://developers.facebook.com/docs/instagram-api/reference/hashtag/top-media)
-   * **[!UICONTROL Recent Tags Search]**:ハッシュタグを使用して、最新の投稿を検索します。
+   * **[!UICONTROL Top Tags Search]** :特定のハッシュタグでタグ付けされた最も人気のあるメディアを検索します。トップタグは、以下に示す条件によって決定されます。 [](https://developers.facebook.com/docs/instagram-api/reference/hashtag/top-media)
+   * **[!UICONTROL Recent Tags Search]** :ハッシュタグを使用して、最新の投稿を検索します。
 
 更新されたInstagram機能について詳しくは、ここで説明するウェビナーのビデオを [参照](https://youtu.be/wRkGc3obaOA)してください。

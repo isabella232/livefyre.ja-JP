@@ -1,8 +1,6 @@
 ---
-description: カウントタイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_
-  or_ update（）を実行します。
-seo-description: カウントタイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_
-  or_ update（）を実行します。
+description: カウントタイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_ or_ update（）を実行します。
+seo-description: カウントタイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_ or_ update（）を実行します。
 seo-title: BuildCountingCollectionサイトのメソッド
 title: BuildCountingCollectionサイトのメソッド
 uuid: e293d66a-0025-4230-997e-295ce4625713

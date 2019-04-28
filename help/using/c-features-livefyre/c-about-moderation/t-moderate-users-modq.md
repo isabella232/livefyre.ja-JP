@@ -23,16 +23,16 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 登録されているLivefyreユーザーごとに次の情報が表示されます。
 
-* **[!UICONTROL Username]**:ユーザーのネットワーク名。
-* **[!UICONTROL Display name]**:ネットワークの表示名。
-* **[!UICONTROL Avatar]**:ネットワークのアバター。
-* **[!UICONTROL Total number of posts]** ネットワーク全体の作成者による:を参照してください。合計は、承認済み、保留中、Bozo'd、またはTrashedで表示されます。
-* **[!UICONTROL Total #Flags]**:この発言者の投稿に適用されたフラグの総数です。
-* **[!UICONTROL Join date]**:ユーザーがネットワーク上でユーザーアカウントを作成した日付。
-* **[!UICONTROL Email]**:表示される電子メールアドレス。
-* **[!UICONTROL IP Address]**:Livefyreによって決定されるIPアドレス。
-* **[!UICONTROL Bio]**:ユーザーの説明。
-* **[!UICONTROL Bans]**:には、ユーザーが禁止されているサイトまたはBozo'dが表示されます。
-* **[!UICONTROL Whitelists]**:ユーザーがホワイトリストに登録されたサイトを一覧表示します。
+* **[!UICONTROL Username]** :ユーザーのネットワーク名。
+* **[!UICONTROL Display name]** :ネットワークの表示名。
+* **[!UICONTROL Avatar]** :ネットワークのアバター。
+* **[!UICONTROL Total number of posts]** ネットワーク全体の作成者による:を参照してください。合計は、承認済み、保留中、Bozo&#39;d、またはTrashedで表示されます。
+* **[!UICONTROL Total #Flags]** :この発言者の投稿に適用されたフラグの総数です。
+* **[!UICONTROL Join date]** :ユーザーがネットワーク上でユーザーアカウントを作成した日付。
+* **[!UICONTROL Email]** :表示される電子メールアドレス。
+* **[!UICONTROL IP Address]** :Livefyreによって決定されるIPアドレス。
+* **[!UICONTROL Bio]** :ユーザーの説明。
+* **[!UICONTROL Bans]** :には、ユーザーが禁止されているサイトまたはBozo&#39;dが表示されます。
+* **[!UICONTROL Whitelists]** :ユーザーがホワイトリストに登録されたサイトを一覧表示します。
 
 「アプリのコンテンツ」タブでユーザーをモデレートする方法について詳しくは、「アプリのコンテンツを使用した [モデレート」を](/help/using/c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content)参照してください。

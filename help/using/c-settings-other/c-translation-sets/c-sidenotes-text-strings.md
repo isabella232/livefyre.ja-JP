@@ -95,7 +95,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | menuFlagOptionOffTopic | トピックなし |
 |  | menuFlagOptionスパム | スパム |
 |  | menuFlagTitle | フラグの設定 |
-|  | facebookShareReption | "{title}"について |
+|  | facebookShareReption | &quot;{title}&quot;について |
 | モバイルユーザーオプション | sliderCommentTempt | of |
 |  | sliderInviterAd | 読み取り |
 |  | sliderInviteWrite | 書き込み |

@@ -1,8 +1,6 @@
 ---
-description: Sideisingタイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_
-  or_ update（）を実行します。
-seo-description: Sideisingタイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_
-  or_ update（）を実行します。
+description: Sideisingタイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_ or_ update（）を実行します。
+seo-description: Sideisingタイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_ or_ update（）を実行します。
 seo-title: BuildSiteNotesCollectionサイトのメソッド
 solution: Experience Manager
 title: BuildSiteNotesCollectionサイトのメソッド

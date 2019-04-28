@@ -19,7 +19,7 @@ source-git-commit: 0d2ff61b1db6100de1d59e6e20c1175f015a78c5
 
 ## 例
 
-このアイコンを変更するには、スタイルシートに以下のCSSを追加します。<*your resource*> urlを選択した画像のURLに置き換えて、デフォルトのLivefyreバッジを置き換えます。
+このアイコンを変更するには、スタイルシートに以下のCSSを追加します。&lt;*your resource*&gt; urlを選択した画像のURLに置き換えて、デフォルトのLivefyreバッジを置き換えます。
 
 ```
 .fyre-editor-container .fyre-editor-toolbar > .fyre-mention-menu .fyre-mention-item .fyre-mention-item-livefyre { 

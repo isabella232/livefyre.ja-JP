@@ -15,7 +15,7 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 Livefyreアプリの文字列のカスタマイズ
 
-LivefyreアプリケーションのほとんどのHTML要素のテキスト文字列はカスタマイズできます。これにより、任意の有効なUTF-8文字列に"Post As"ボタン、"Comment Count"テキスト、"Sign In"ボタンなどのレンダリングされたHTML要素のテキストを柔軟に変更できます。この機能を使用して、ストリームの実装に個性を追加したり、ユーザーベースのアプリ内の言語をローカライズしたりします。
+LivefyreアプリケーションのほとんどのHTML要素のテキスト文字列はカスタマイズできます。これにより、任意の有効なUTF-8文字列に&quot;Post As&quot;ボタン、&quot;Comment Count&quot;テキスト、&quot;Sign In&quot;ボタンなどのレンダリングされたHTML要素のテキストを柔軟に変更できます。この機能を使用して、ストリームの実装に個性を追加したり、ユーザーベースのアプリ内の言語をローカライズしたりします。
 
 * コメント、チャット、ライブブログ
 
@@ -112,7 +112,7 @@ var customStrings = {
 |  | sortHTThreads | ホットスレッド |
 |  | sortSeparator |  |  |
 |  | streamSort | ロード中 |
-|  | topCommentsContentNotFoundMsg | まだ「いいね!"が足りません。 |
+|  | topCommentsContentNotFoundMsg | まだ「いいね!&quot;が足りません。 |
 |  | hotThreadsContentNotFoundMsg | まだスレッドが足りません。 |
 |  | streamRefreshMsg | 新機能を参照してください。 |
 | フッターオプション | archiveHeaderTitle | アーカイブから |
@@ -273,7 +273,7 @@ var customStrings = {
 | キー | デフォルトテキスト |  |
 |---|---|---|
 | モーダルを編集 | Studio管理者、ユーザーマネージャーまたはモデレーターが利用可能 |  |
-| @（@メンション） | </>（カスタムHTMLウィンドウを開きます）。 |  |
+| @（@メンション） | &lt;/&gt;（カスタムHTMLウィンドウを開きます）。 |  |
 |  | customHTMLDialogTitle（モーダルのヘッダーとして表示） | カスタムHTMLの追加 |
 
 ![](assets/strings_moderatoreditmodal-150x49.png)
@@ -323,7 +323,7 @@ var customStrings = {
 | errorAuthError | この会話にコメントを投稿する権限がありません |
 | errorCommentSnowAllowed | コメントはこの会話では使用できません |
 | errorDefault | エラーが発生しました。再試行してください。 |
-| errorDuplicate | コメントを「いいね!"するだけで、2回投稿することはできません。 |
+| errorDuplicate | コメントを「いいね!&quot;するだけで、2回投稿することはできません。 |
 | errorEditDuplicate | コメントの本文を編集するときは、本文を変更する必要があります。 |
 | errorEditNotAllowed | この会話に対するコメントの編集は許可されていません。 |
 | errorEditTimeExced | コメント編集期間が有効期限切れです。 |

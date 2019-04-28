@@ -15,5 +15,5 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ナビゲーションガイドを画面の特定の領域に合わせることを選択します。
 
-1. Storify2App Designerで **[!UICONTROL Navigation Guide]** 、切り替えを切り替えます。
+1. Storify2App Designerで **[!UICONTROL Navigation Guide]**、切り替えを切り替えます。
 1. **[!UICONTROL Stickiness]** 切り替えを切り替えます。

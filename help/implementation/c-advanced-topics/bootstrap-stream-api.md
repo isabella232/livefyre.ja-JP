@@ -27,7 +27,7 @@ BootstrapはLivefyreアプリケーションのすべてのコンテンツです
 
 リクエスト: `https://{networkName}.bootstrap.fyre.co/bs3/v3.1/{network}/{siteId}/{b64articleId}/N.json`
 
-例えば、サンプルアプリケーションに120のコンテンツがあるとします。コンテンツ"1"はコンテンツの最も古い部分で、コンテンツ"70"は最新のコンテンツです。
+例えば、サンプルアプリケーションに120のコンテンツがあるとします。コンテンツ&quot;1&quot;はコンテンツの最も古い部分で、コンテンツ&quot;70&quot;は最新のコンテンツです。
 
 * `Init` を指定すると、コンテンツの120~70部分が降順で読み込まれます。 [https://data.livefyre.com/bs3/v3.1/dharam.fyre.co/384931/NTU1NQ==/init](https://data.livefyre.com/bs3/v3.1/dharam.fyre.co/384931/NTU1NQ==/init)
 
@@ -44,7 +44,7 @@ BootstrapはLivefyreアプリケーションのすべてのコンテンツです
 Stream APIとは何ですか。
 ストリームは、約30秒間開いておくことを意図したロングポーリングです。ロングポーリング手法の説明については、こちらを参照してください。 [https://stackoverflow.com/questions/11077857/what-are-long-polling-websockets-server-sent-events-sse-and-comet](https://stackoverflow.com/questions/11077857/what-are-long-polling-websockets-server-sent-events-sse-and-comet)
 
-この長期間のポーリングエンドポイントは、新しいコンテンツ（例えば、ユーザーがコメントを投稿した場合など）をストリーミングします。コンテンツのステータス変更（例えば、モデレーターは、コンテンツのコメント、「いいね!"など）やモデレートの変更をLivefyreアプリに変更します。
+この長期間のポーリングエンドポイントは、新しいコンテンツ（例えば、ユーザーがコメントを投稿した場合など）をストリーミングします。コンテンツのステータス変更（例えば、モデレーターは、コンテンツのコメント、「いいね!&quot;など）やモデレートの変更をLivefyreアプリに変更します。
 
 新しいコンテンツストリームがない場合、ストリームAPIへのリクエストは、30秒後に予測タイムアウトを持つ30秒（ロングポーリング）にする必要があります。
 
@@ -58,16 +58,16 @@ APIリファレンス: [https://api.livefyre.com/docs/apis/by-category/collectio
 
 以下の例は、Comments Appに基づいています。
 
-最初のコメント「最初のコメント」が最初に投稿されました。"2番目のコメント」が後に投稿された。
+最初のコメント「最初のコメント」が最初に投稿されました。&quot;2番目のコメント」が後に投稿された。
 
 First Comment Stream API応答:
 
 `{"timeout":true,"parked":true,"h":"ct239.dsr.livefyre.com"}`
 
-応答 `maxEventId` は"1520289700953369"です。これは、エンドポイントをポーリングして更新を取得する `lastEventId` ために使用されるものです（2番目のコメント）は、この応答のすべての更新後に発生します。
+応答 `maxEventId` は&quot;1520289700953369&quot;です。これは、エンドポイントをポーリングして更新を取得する `lastEventId` ために使用されるものです（2番目のコメント）は、この応答のすべての更新後に発生します。
 
 2番目のコメントストリームAPI応答:
 
 `{"timeout":true,"parked":true,"h":"ct239.dsr.livefyre.com"}`
 
-応答の `maxEventID` "1520289700953369"が、次のアップデートのストリームAPI応答を構築 `lastEventID` するために使用されます。
+応答の `maxEventID` &quot;1520289700953369&quot;が、次のアップデートのストリームAPI応答を構築 `lastEventID` するために使用されます。

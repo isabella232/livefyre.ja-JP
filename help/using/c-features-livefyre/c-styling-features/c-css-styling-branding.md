@@ -19,8 +19,8 @@ Livefyreアプリケーションには、広範なCSSスタイルインターフ
 スタイル設定オプションには次のものがあります。
 
 * **[!UICONTROL Styling the Stream:]** Livefyreストリームは、ブランドやサイトの他の部分に合わせてスタイル設定およびカスタマイズできます。詳しくは、CSSのカスタマイズを参照してください。
-* **[!UICONTROL Styling the Comment Editor:]** コメントエディターは、フォントの色、サイズ、ファミリーを変更するか、コメントボックスの背景色を変更してカスタマイズできます。詳しくは、「エディターCSS"を参照してください。
-* **[!UICONTROL Moving the Livefyre Logo:]** Livefyreロゴのデフォルトの場所はストリームの最上部にありますが、この画像は削除され、ストリームの下部にある小さい"Powered by Livefyre"ロゴに置き換えられます。詳しくは、Livefyreロゴの移行を参照してください。
+* **[!UICONTROL Styling the Comment Editor:]** コメントエディターは、フォントの色、サイズ、ファミリーを変更するか、コメントボックスの背景色を変更してカスタマイズできます。詳しくは、「エディターCSS&quot;を参照してください。
+* **[!UICONTROL Moving the Livefyre Logo:]** Livefyreロゴのデフォルトの場所はストリームの最上部にありますが、この画像は削除され、ストリームの下部にある小さい&quot;Powered by Livefyre&quot;ロゴに置き換えられます。詳しくは、Livefyreロゴの移行を参照してください。
 * **[!UICONTROL Hiding elements of the stream:]** ストリームの要素は、自分のコミュニティに関連していない場合は非表示にできます。削除できる要素には、返信ボタン、プロファイルメニューの編集、ログアウトメニュー、コメント通知者およびユーザーアバターが含まれます。これらの要素の削除について詳しくは、「アプリ要素の非表示」を参照してください。
 * **[!UICONTROL Customizing the Friend Tagging Logo:]** デフォルトでは、ページ上のストリームにコメントしたすべてのユーザーの「友達タギング」ドロップダウンリストにLivefyreのロゴが表示されます。この画像を独自のロゴに置き換えるには、Studioでのブランディングを参照してください。
 

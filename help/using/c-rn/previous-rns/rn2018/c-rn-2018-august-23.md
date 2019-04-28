@@ -18,7 +18,7 @@ source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
 ## 新機能 {#section_syx_mdt_wcb}
 
 * FileStackを介してLivefyre Studioライブラリにアップロードされたコンテンツにスマートタグ機能を追加しました（すべてのアセットのアップロード機能）。
-* "Work For Work（SBW）」と"Not Safe For Work（NSBW）」の切り替えがストリームに追加されました。
+* &quot;Work For Work（SBW）」と&quot;Not Safe For Work（NSBW）」の切り替えがストリームに追加されました。
 
 ## 雑誌号 {#section_ehw_ndt_wcb}
 

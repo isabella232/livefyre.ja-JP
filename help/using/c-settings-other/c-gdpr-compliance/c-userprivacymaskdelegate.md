@@ -6,7 +6,7 @@ solution: Experience Manager
 title: UserPrivacyMaskDelegate
 uuid: 8e5a2750- bf45-4e70- a5f9-37f5e7c61f8e
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
 
 ---
 

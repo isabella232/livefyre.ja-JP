@@ -24,7 +24,7 @@ var app = Livefyre.Sidenotes(convConfig);
 });
 ```
 
-Livefyreイベントについて詳しくは、"Reference"セクションのJavaScriptイベントページを参照してください。
+Livefyreイベントについて詳しくは、&quot;Reference&quot;セクションのJavaScriptイベントページを参照してください。
 
 | キー | 説明 |
 |--- |--- |
@@ -32,6 +32,6 @@ Livefyreイベントについて詳しくは、"Reference"セクションのJava
 | siindes. commentFlag | コメントがフラグ付けされたときに発生します。データには次のものがあります。 <br><ul><li>`targetId`:フラグ付きのコメントのID</li><li>`type`:フラグタイプ文字列 `(offensive, off-topic, spam, disagree)`</li></ul> |
 | `sidenotes.commentPosted` | コメントが投稿されたときに発生します。データには次のものがあります。 <br><ul><li> `authorId`:コメントの作成者のID </li><li>`bodyHtml`:コメント本文 </li><li> `parent`:コメントの親のID、またはnull</li></ul> |
 | `sidenotes.commentShared` | コメントが共有されたときに発生します。データには次のものがあります。 <br><ul><li>`targetId`:共有されたコメントのID </li><li> `sharedToFacebook`:コメントがFacebookに共有されているかどうか </li><li>`sharedToTwitter`:コメントがTwitterに共有されているかどうか</li></ul> |
-| `sidenotes.commentVoted` | コメントが投票されたときに発生します。データには次のものがあります。 <br><ul><li>`targetId`:投票したコメントのID </li><li> `targetAuthorId`:コメントが投票された発言者のID</li><li> `type`:投票タイプ:0:'clear'，1:'up投票'または2:'down投票'</li></ul> |
+| `sidenotes.commentVoted` | コメントが投票されたときに発生します。データには次のものがあります。 <br><ul><li>`targetId`:投票したコメントのID </li><li> `targetAuthorId`:コメントが投票された発言者のID</li><li> `type`:投票タイプ:0:&#39;clear&#39;，1:&#39;up投票&#39;または2:&#39;down投票&#39;</li></ul> |
 | `sidenotes.userLoggedIn` | ユーザーがログインすると起動します。データには次のものがあります。 <br><ul><li>`avatar`:ユーザーのアバターURL </li><li>`displayName`:ユーザーの表示名</li><li>`id`:IDのID</li><li> `isModerator`:ユーザーが現在のコレクションのモデレーターかどうか</li></ul> |
 | `sidenotes.userLoggedOut` | ユーザーがログアウトしたときに発生する |

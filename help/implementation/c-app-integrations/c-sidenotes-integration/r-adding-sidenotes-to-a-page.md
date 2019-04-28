@@ -1,6 +1,6 @@
 ---
-description: null
-seo-description: null
+description: 'null'
+seo-description: 'null'
 seo-title: ページに対するSideosingの追加
 solution: Experience Manager
 title: ページに対するSideosingの追加
@@ -23,7 +23,7 @@ Livefyreには、ページにSideindingを配置するためのいくつかの�
 
 ## セレクター {#section_wyj_4sv_sy}
 
-セレクターオプションを使用すると、ページ上のコンテンツを検索できます。このオプションの値によって、使用する要素を動的に判断できます。セレクター文字列（"# content p，# content img'など）、jQueryオブジェクト（ `$(‘#content’)`など）、DOM要素の配列、または2つのプロパティを持つオブジェクト）を指定できます。を含めて除外します。次に、Socializeアプリは、指定した要素またはページ上の一致する要素を使用します。プロパティを含めて除外する場合は、まずページを解析して、includeプロパティのすべてのエレメントを探し、excludeプロパティにある要素をすべて削除します。
+セレクターオプションを使用すると、ページ上のコンテンツを検索できます。このオプションの値によって、使用する要素を動的に判断できます。セレクター文字列（&quot;# content p，# content img&#39;など）、jQueryオブジェクト（ `$(‘#content’)`など）、DOM要素の配列、または2つのプロパティを持つオブジェクト）を指定できます。を含めて除外します。次に、Socializeアプリは、指定した要素またはページ上の一致する要素を使用します。プロパティを含めて除外する場合は、まずページを解析して、includeプロパティのすべてのエレメントを探し、excludeプロパティにある要素をすべて削除します。
 
 ## アンカー {#section_ehq_psv_sy}
 

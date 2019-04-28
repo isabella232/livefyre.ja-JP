@@ -15,8 +15,8 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 新しいStorify2ストーリーを作成します。
 
-1. **[!UICONTROL New App]**をクリックします。
-1. **[!UICONTROL Storify 2]**をクリックします。
-1. を入力 **[!UICONTROL App Title]**します。
-1. aを選択 **[!UICONTROL Site]**します。
-1. **[!UICONTROL Create]**をクリックします。
+1. **[!UICONTROL New App]** をクリックします。
+1. **[!UICONTROL Storify 2]** をクリックします。
+1. を入力 **[!UICONTROL App Title]** します。
+1. aを選択 **[!UICONTROL Site]** します。
+1. **[!UICONTROL Create]** をクリックします。

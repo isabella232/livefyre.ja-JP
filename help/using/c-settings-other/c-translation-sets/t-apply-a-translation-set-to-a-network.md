@@ -1,6 +1,6 @@
 ---
-description: null
-seo-description: null
+description: 'null'
+seo-description: 'null'
 seo-title: 変換セットのネットワークへの適用
 solution: Experience Manager
 title: 変換セットのネットワークへの適用

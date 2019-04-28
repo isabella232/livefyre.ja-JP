@@ -28,8 +28,8 @@ Instagramのビジネスアカウントでは、有効期限が切れるFacebook
 * Instagramコンテンツを検索すると、Instagramトークンが期限切れになったことを示すウィンドウが左下に表示されます。他のInstagramアカウントを設定した場合、Livefyreはリスト内の次のInstagramアカウントを使用してInstagramを自動的に検索します。
 * 特定の期限切れのInstagramアカウントを使用して権限をリクエストする場合、エラーが表示されます。別のInstagramアカウントを選択するか、期限切れのアカウントのトークンを更新して、再度リクエストをクリックする必要があります。
 * 期限切れのInstagramアカウントを使用してストリームが機能しない。
-* 有効期限切れのトークンが含まれているアカウント **[!UICONTROL Network Settings]** > **[!UICONTROL Social Accounts]** エラー警告アイコン（ ![](assets/warningError.png)
+* 有効期限切れのトークンが含まれているアカウント **[!UICONTROL Network Settings]** &gt; **[!UICONTROL Social Accounts]** エラー警告アイコン（ ![](assets/warningError.png)
 
    ).
 
-トークンを更新するには **[!UICONTROL Network Settings]** 、/ **[!UICONTROL Social Accounts]** >のアカウントの横にある「更新トークン」をクリック **[!UICONTROL Instagram Accounts]**します。
+トークンを更新するには **[!UICONTROL Network Settings]**、/ **[!UICONTROL Social Accounts]** &gt;のアカウントの横にある「更新トークン」をクリック **[!UICONTROL Instagram Accounts]** します。

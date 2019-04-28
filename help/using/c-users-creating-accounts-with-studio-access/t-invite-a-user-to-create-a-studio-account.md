@@ -25,8 +25,8 @@ Studio Managerおよび管理者は、新しいユーザーまたは既存のユ
 >
 >1人のユーザーに複数のユーザーの役割を与えることができます。付与できるユーザーの役割および権限について詳しくは [、ユーザーの役割と権限](../c-users-creating-accounts-with-studio-access/c-user-types.md#c_user_types) を参照してください。
 
-1. **[!UICONTROL Users]** ページから、 **[!UICONTROL Invite to Studio.]**
-1. 開く **[!UICONTROL Invite user]** ダイアログから、またはを選択 **[!UICONTROL Existing User]****[!UICONTROL New User]**します。
-1. 既存のユーザーを招待するには、 **[!UICONTROL Username]**入力した **[!UICONTROL User ID]****[!UICONTROL Email Address]** フィールドを入力します。新しいユーザーを招待するには、を入力 **[!UICONTROL Email address]**します。
+1. **[!UICONTROL Users]** ページから、 **[!UICONTROL Invite to Studio.]** 
+1. 開く **[!UICONTROL Invite user]** ダイアログから、またはを選択 **[!UICONTROL Existing User]** **[!UICONTROL New User]** します。
+1. 既存のユーザーを招待するには、 **[!UICONTROL Username]** 入力した **[!UICONTROL User ID]** **[!UICONTROL Email Address]** フィールドを入力します。新しいユーザーを招待するには、を入力 **[!UICONTROL Email address]** します。
 1. 必要に応じて、パーソナライズされた招待を入力 **[!UICONTROL Add message]** します。
 1. 新しいアカウントのアクセスレベルを選択し、をクリック **[!UICONTROL Invite]** して招待を発行します。

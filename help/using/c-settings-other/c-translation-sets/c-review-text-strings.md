@@ -98,7 +98,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | WasreviewURPfulmobile | 役に立つか。 |
 |  | OwnWasReviewPaful | [便利です。](https://d.pr/i/Q0mA) |
 |  | ReviewWasful | [はい](https://d.pr/i/Q0mA) |
-|  | HelpFulldivider | [& amp;vert;](https://d.pr/i/Q0mA) |
+|  | HelpFulldivider | [&amp; amp;vert;](https://d.pr/i/Q0mA) |
 |  | ReviewWasNoSupport | [いいえ](https://d.pr/i/Q0mA) |
 | 投票モーダル | videTitle | このレビューは役に立ちましたか。 |
 |  | videDown投票 | いいえ |
@@ -137,7 +137,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | errorAuthError | この会話にはレビューを投稿する権限がありません |
 |  | errorCommentSnowAllowed | 現時点ではレビューを投稿できません |
 |  | errorDismisseOwnComment | 自分のレビューには気をつけることはできません |
-|  | errorDuplicate | レビューを「いいね!"するだけで、2回投稿することはできません。 |
+|  | errorDuplicate | レビューを「いいね!&quot;するだけで、2回投稿することはできません。 |
 |  | errorEditDuplicate | 編集時にレビューの本文を変更する必要があります。 |
 |  | errorEditNotAllowed | この会話ではレビューを編集できません。 |
 |  | errorEditTimeExced | レビューの編集期間が有効期限切れです。 |

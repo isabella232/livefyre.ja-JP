@@ -17,7 +17,7 @@ Livefyreアプリを一から作成して、カスタマイズしたエクスペ
 
 Livefyreアプリは、BootstrapおよびStream APIを使用してLivefyreとSocialデータを利用して作成できます。
 
-認証を必要とするLivefyreアプリケーションの場合は、サポートされているサードパーティ認証プラットフォームに関する情報の"ID統合」を参照してください。
+認証を必要とするLivefyreアプリケーションの場合は、サポートされているサードパーティ認証プラットフォームに関する情報の&quot;ID統合」を参照してください。
 
 会話アプリ（コメント、チャット、Liveブログ、Sidees）を実装するには:
 
@@ -33,11 +33,11 @@ b. Livefyre. js埋め込みコード構造を使用してLivefyreアプリケー
 
    * Live Blogアプリの統合方法について詳しくは [、Live Blog](/help/using/c-about-apps/c-liveblog-app/c-liveblog-app.md)を参照してください。
 
-   * Socialアプリを統合する方法については [、"Sideinding](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md)」を参照してください。
+   * Socialアプリを統合する方法については [、&quot;Sideinding](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md)」を参照してください。
 
 1. 認証統合を実行します。
 a. Livefyreにユーザーデータを渡すためのユーザー認証トークンを作成します。
-b. サードパーティのユーザーおよび認証プラットフォームを統合します。サポートされているプラットフォームのリストについては [、"ID統合](/help/implementation/t-about-identity-integration/t-about-identity-integration.md)」を参照してください。
+b. サードパーティのユーザーおよび認証プラットフォームを統合します。サポートされているプラットフォームのリストについては [、&quot;ID統合](/help/implementation/t-about-identity-integration/t-about-identity-integration.md)」を参照してください。
 
 1. アプリのカスタマイズを実行します。アプリのカスタマイズオプションを使用して、ブランドとスタイルに一致し、カスタム機能を追加できます。
 
@@ -55,7 +55,7 @@ b. Livefyre. js埋め込みコード構造を使用してLivefyreアプリケー
 
 1. 認証統合を実行します。
 a. ユーザー認証トークンを作成して、Livefyreにユーザーデータを渡すことができます。
-b. サードパーティのユーザーおよび認証プラットフォームを統合します。サポートされているプラットフォームのリストについては [、"ID統合](/help/implementation/t-about-identity-integration/t-about-identity-integration.md)」を参照してください。
+b. サードパーティのユーザーおよび認証プラットフォームを統合します。サポートされているプラットフォームのリストについては [、&quot;ID統合](/help/implementation/t-about-identity-integration/t-about-identity-integration.md)」を参照してください。
 
 >[!NOTE]
 >

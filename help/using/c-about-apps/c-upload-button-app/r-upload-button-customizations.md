@@ -20,17 +20,17 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 埋め込みコードを使用して、アップロードボタンを有効にします。
 
 * **[!UICONTROL Destination.]** アップロードボタンからコンテンツを表示するために使用するアプリを選択します。調査、トレンド、またはStorify2にアップロードボタンを表示できません。「モデレート」ボタンを使用してコンテンツユーザーをモデレートするには、「モデレート」に宛先を設定します。
-* **[!UICONTROL Style Options]**
+* **[!UICONTROL Style Options]** 
 
    * **[!UICONTROL Corners.]** 丸いボタンまたは四角形の角を設定します。
 
-* **[!UICONTROL Configuration]**
+* **[!UICONTROL Configuration]** 
 
    * **[!UICONTROL Allow User Posts.]** エンドユーザーがアップロードボタンを使用してテキスト、写真、ビデオを投稿できるかどうかを選択します。エンドユーザーが認証されていない場合、アップロードボタンを使用できません。
    * **[!UICONTROL Include Title.]** エンドユーザーがアップロードするコンテンツのタイトルを入力できるようにします。デフォルトでは、エンドユーザーはコメントを作成できます。これを有効にすると、エンドユーザーがアップロードするコンテンツの一部としてタイトルとコメントが作成されます。
    * **[!UICONTROL Require Media.]** アップロードボタンを使用してコンテンツを投稿するには、エンドユーザーが写真またはビデオをアップロードする必要があります。
 
-* **[!UICONTROL Text Configuration]**
+* **[!UICONTROL Text Configuration]** 
 
    * **[!UICONTROL Upload Button Text.]** アップロードボタンに表示するテキストを設定します。
    * **[!UICONTROL Comment Modal Title.]** エンドユーザーがアップロードボタンをクリックしたときに表示されるウィンドウのタイトル。
@@ -46,7 +46,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 以下を使用して、「アップロード」ボタンをカスタマイズできます。
 
-* **[!UICONTROL Style]** およびすべてのアプリの **[!UICONTROL Config]** オプション **[!UICONTROL App Designer]**を参照してください。詳しく **[!UICONTROL Style]** は **[!UICONTROL Config]** 、 **[!UICONTROL App Designer]**
+* **[!UICONTROL Style]** およびすべてのアプリの **[!UICONTROL Config]** オプション **[!UICONTROL App Designer]** を参照してください。詳しく **[!UICONTROL Style]** は **[!UICONTROL Config]**、 **[!UICONTROL App Designer]** 
 
 * 統合ツール。統合ツールを使用してアプリケーションをカスタマイズする方法について詳しくは、アプリ統合を参照してください。
 

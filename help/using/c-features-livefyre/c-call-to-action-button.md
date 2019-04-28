@@ -1,6 +1,6 @@
 ---
-description: null
-seo-description: null
+description: 'null'
+seo-description: 'null'
 seo-title: カスタムの誘い文句（CTA:コールトゥアクション）ボタン
 title: カスタムの誘い文句（CTA:コールトゥアクション）ボタン
 uuid: 8c653799-1602-4e38- a2bc-6de0f99c40ff
@@ -27,15 +27,15 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 タスクコンテキスト
 
-1. Livefyre Studioで、をクリック **[!UICONTROL Settings]**します。
-1. 左側のレールで、をクリック **[!UICONTROL CTAs]**します。
+1. Livefyre Studioで、をクリック **[!UICONTROL Settings]** します。
+1. 左側のレールで、をクリック **[!UICONTROL CTAs]** します。
 
-   CTAライブラリが表示されます。ここでcTAを作成してフォルダー内に整理できます。1. **[!UICONTROL Create CTA]**をクリックします。
-1. 目的のカスタマイズを含むフィールドに入力し、"CTAを作成」画面の下部にボタンプレビューを表示します。
+   CTAライブラリが表示されます。ここでcTAを作成してフォルダー内に整理できます。1. **[!UICONTROL Create CTA]** をクリックします。
+1. 目的のカスタマイズを含むフィールドに入力し、&quot;CTAを作成」画面の下部にボタンプレビューを表示します。
 
    ![](assets/cta-button-create.png)
 
-1. **[!UICONTROL Create]**をクリックします。
+1. **[!UICONTROL Create]** をクリックします。
 
    CTAボタンを任意のアセットに追加できるようになりました。
 
@@ -43,13 +43,13 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Livefyre Studioの任意のコンテンツにCTAボタンを追加します。
 
-1. Livefyre Studioで **[!UICONTROL Library]** 、/ **[!UICONTROL All Assets]**に移動します。
+1. Livefyre Studioで **[!UICONTROL Library]**、/ **[!UICONTROL All Assets]** に移動します。
 1. CTAボタンを追加するアセットを1つまたは複数選択します。
-1. **[!UICONTROL CTAs]**をクリックします。
+1. **[!UICONTROL CTAs]** をクリックします。
 
    ![](assets/cta-button-create2.png)
 
-1. リストから目的のCTAボタンを選択し、をクリック **[!UICONTROL Add]**します。
+1. リストから目的のCTAボタンを選択し、をクリック **[!UICONTROL Add]** します。
 
    選択したアセットにCTAボタンが表示されるようになりました。
 

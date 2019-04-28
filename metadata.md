@@ -7,10 +7,10 @@ getting-started-title: 導入
 getting-started-url: https://docs.adobe.com/content/help/en/livefyre/implementation/c-getting-started/implementation-process/c-implementation-process.html
 tutorials-title: チュートリアル
 tutorials-url: https://helpx.adobe.com/experience-manager/kt/index/aem-6-4-videos.html
-mini-toc-levels: 2
+mini-toc-levels: '2'
 git-repo: https://github.com/AdobeDocs/livefyre.en
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
 
 ---
 

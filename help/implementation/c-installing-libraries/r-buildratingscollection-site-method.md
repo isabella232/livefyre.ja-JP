@@ -1,8 +1,6 @@
 ---
-description: レーティングタイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_
-  or_ update（）を実行します。
-seo-description: レーティングタイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_
-  or_ update（）を実行します。
+description: レーティングタイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_ or_ update（）を実行します。
+seo-description: レーティングタイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_ or_ update（）を実行します。
 seo-title: BuiltDratingsCollectionサイトメソッド
 title: BuiltDratingsCollectionサイトメソッド
 uuid: 5eea2ba3-48e1-4cd2- aa73- ea81788af1df

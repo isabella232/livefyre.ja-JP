@@ -16,7 +16,7 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 ## コンテンツのモデレート {#section_md5_sqm_zz}
 
-アプリのコンテンツパネルを使用して、リストされているコンテンツのモデレート、ステータスの変更、作成者のステータスの変更、メモの追加を行います。コンテンツをモデレートするには、リストされているコンテンツにマウスポインターを置き、利用可能なマーカーを変更するか **[!UICONTROL pulldown]** 、メニューを使用して個別または複数の選択したコンテンツのステータスを変更します。
+アプリのコンテンツパネルを使用して、リストされているコンテンツのモデレート、ステータスの変更、作成者のステータスの変更、メモの追加を行います。コンテンツをモデレートするには、リストされているコンテンツにマウスポインターを置き、利用可能なマーカーを変更するか **[!UICONTROL pulldown]**、メニューを使用して個別または複数の選択したコンテンツのステータスを変更します。
 
 ![](assets/PublishedActionsMenu-1024x402.png)
 
@@ -60,6 +60,6 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 ## Livefyreユーザーのモデレート {#section_grw_mqm_zz}
 
-Livefyreユーザーがプルダウンメニューを開くためのユーザー名にマウスを移動すると、リストのリストを表示 **[!UICONTROL Ban the User]****[!UICONTROL More Info]**、表示または表示 **[!UICONTROL Comments]**できます。このメニューをクリックすると、Studio **[!UICONTROL Users]** のページでユーザーの情報カードが開きます。
+Livefyreユーザーがプルダウンメニューを開くためのユーザー名にマウスを移動すると、リストのリストを表示 **[!UICONTROL Ban the User]** **[!UICONTROL More Info]**、表示または表示 **[!UICONTROL Comments]** できます。このメニューをクリックすると、Studio **[!UICONTROL Users]** のページでユーザーの情報カードが開きます。
 
 **[!UICONTROL Users]** ページ内のユーザーをモデレートする方法について詳しくは、「ユーザーの [モデレート」を参照](/help/using/c-features-livefyre/c-about-moderation/t-moderate-users-modq.md#t_moderate_users_modq)してください。

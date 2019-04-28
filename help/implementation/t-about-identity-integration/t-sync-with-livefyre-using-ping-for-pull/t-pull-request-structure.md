@@ -39,5 +39,5 @@ https://example.yoursite.com/some_path/?id={id}&lftoken={UserAuthToken}
 
    * 存在しないか `lftoken` 、検証に失敗した場合は、エンドポイントがプロファイル情報で応答することを許可しないでください。代わりに、403（Forbidden）ステータスコードに応答し、応答本文を使用しないでください。
 
-1. `userAuthToken` はユーザーのLivefyre `buildUserAuthToken` メソッドによって生成され、ユーザーIDは"system"になります。このユーザーは、新規ネットワークごとに作成される最初のユーザーです。
+1. `userAuthToken` はユーザーのLivefyre `buildUserAuthToken` メソッドによって生成され、ユーザーIDは&quot;system&quot;になります。このユーザーは、新規ネットワークごとに作成される最初のユーザーです。
 1. ページをテストするには、Ping for [Pull](https://livefyre-p4p-wizard.herokuapp.com/home) Testerを使用して、すべてが期待どおりに動作することを確認してください。

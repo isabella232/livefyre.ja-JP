@@ -1,8 +1,6 @@
 ---
-description: レビュータイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_
-  or_ update（）を実行します。
-seo-description: レビュータイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_
-  or_ update（）を実行します。
+description: レビュータイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_ or_ update（）を実行します。
+seo-description: レビュータイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_ or_ update（）を実行します。
 seo-title: builreReviewsCollectionサイトのメソッド
 solution: Experience Manager
 title: builreReviewsCollectionサイトのメソッド

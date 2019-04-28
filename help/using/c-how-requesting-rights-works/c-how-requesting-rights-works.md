@@ -16,14 +16,14 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 ライブラリ、アプリケーションコンテンツ、MOQおよびAEMコマースから利用できる権限ステータスは次のとおりです。
 
-* **[!UICONTROL Granted]**. 作成者がコンテンツの再利用権を付与すると、アセットのステータスが変更 **[!UICONTROL Granted]**されます。
+* **[!UICONTROL Granted]**. 作成者がコンテンツの再利用権を付与すると、アセットのステータスが変更 **[!UICONTROL Granted]** されます。
 
-* **[!UICONTROL Expired]**. 作成者の返信用にInstagramストリームとTwitterストリームを14日間監視します。14日後にリクエストが期限切れになると、権限リクエストのステータスが変更され、 **[!UICONTROL Expired]**2回目のリクエストを送信したり、ライブラリからアイテムを削除したりできます。
-* **[!UICONTROL Requested]**. ライブラリからのコンテンツの要求権限。一度に1つ以上のアセットに対してこれを実行できます。権限を要求すると、アセットステータスがLivefyreによって設定 **[!UICONTROL Requested]**されます。
-* **[!UICONTROL Needs Review]**. 作成者が# ApprovalHashTagを含まないメモを返信した場合、アセットのステータスが変更 **[!UICONTROL Needs Review]**されます。
+* **[!UICONTROL Expired]**. 作成者の返信用にInstagramストリームとTwitterストリームを14日間監視します。14日後にリクエストが期限切れになると、権限リクエストのステータスが変更され、 **[!UICONTROL Expired]** 2回目のリクエストを送信したり、ライブラリからアイテムを削除したりできます。
+* **[!UICONTROL Requested]**. ライブラリからのコンテンツの要求権限。一度に1つ以上のアセットに対してこれを実行できます。権限を要求すると、アセットステータスがLivefyreによって設定 **[!UICONTROL Requested]** されます。
+* **[!UICONTROL Needs Review]**. 作成者が# ApprovalHashTagを含まないメモを返信した場合、アセットのステータスが変更 **[!UICONTROL Needs Review]** されます。
 
 * **[!UICONTROL Request Failed]**. 要求が送信できませんでした（期限切れトークンなど）。
-* **[!UICONTROL Request Pending]**. "Rights Request"をキューに一度に送信しないようにキューに入れます。
+* **[!UICONTROL Request Pending]**. &quot;Rights Request&quot;をキューに一度に送信しないようにキューに入れます。
 
 TwitterおよびInstagramから取得したアセットに対する権限を要求できます。権限をリクエストするには、アセットをライブラリに保存する必要があります。
 

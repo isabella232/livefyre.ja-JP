@@ -1,8 +1,6 @@
 ---
-description: ブログタイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_
-  or_ update（）を実行します。
-seo-description: ブログタイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_
-  or_ update（）を実行します。
+description: ブログタイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_ or_ update（）を実行します。
+seo-description: ブログタイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_ or_ update（）を実行します。
 seo-title: buildbLogCollectionサイトのメソッド
 solution: Experience Manager
 title: buildbLogCollectionサイトのメソッド

@@ -15,15 +15,15 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 カルーセルアプリのサイズ、幅およびインタラクションオプションを変更します。
 
-すべてのアプリの使用および **[!UICONTROL Style]****[!UICONTROL Config]** オプション **[!UICONTROL App Designer]**。すべてのアプリの標準 **[!UICONTROL Style]** および **[!UICONTROL Config]** オプションについて詳しくは、アプリのカスタマイズを参照 **[!UICONTROL App Designer]**してください。
+すべてのアプリの使用および **[!UICONTROL Style]** **[!UICONTROL Config]** オプション **[!UICONTROL App Designer]** 。すべてのアプリの標準 **[!UICONTROL Style]** および **[!UICONTROL Config]** オプションについて詳しくは、アプリのカスタマイズを参照 **[!UICONTROL App Designer]** してください。
 
 アプリデザイナーの次の追加オプションを使用して、カルーセルをカスタマイズできます。
 
-* **[!UICONTROL Max Number of Items]**
+* **[!UICONTROL Max Number of Items]** 
 
    カルーセルに表示する項目の数を設定します。初期設定は50です。
 
-* **[!UICONTROL Orientation]**
+* **[!UICONTROL Orientation]** 
 
    **[!UICONTROL Responsive]**. コンピューターの画面のみ
 
@@ -41,8 +41,8 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
    * **[!UICONTROL Show call-to-action in tile]**. 誘い文句（CTA:コールトゥアクション）ボタンを表示するのではなく、誘い文句（CTA:コールトゥアクション）ボタンを並べて表示するかどうかを選択します。
    * **[!UICONTROL Call-to-action indication text]** ユーザーにカードのクリックを促し、誘い文句（CTA:コールトゥアクション）モーダルを開くように促すテキストです。
-   * **[!UICONTROL Call-to-action header text]** コンテンツモーダルの「誘い文句（CTA:コールトゥアクション）」ボタンの上にあるヘッダーに表示する単語です。デフォルトのテキストは"Shop These products"です。」.
-   * **[!UICONTROL Call-to-action button text]** コンテンツモーダルの「誘い文句（CTA:コールトゥアクション）」ボタンに表示する単語です。デフォルトのテキストは"Buy Now"です。」.
+   * **[!UICONTROL Call-to-action header text]** コンテンツモーダルの「誘い文句（CTA:コールトゥアクション）」ボタンの上にあるヘッダーに表示する単語です。デフォルトのテキストは&quot;Shop These products&quot;です。」.
+   * **[!UICONTROL Call-to-action button text]** コンテンツモーダルの「誘い文句（CTA:コールトゥアクション）」ボタンに表示する単語です。デフォルトのテキストは&quot;Buy Now&quot;です。」.
    * **[!UICONTROL Product display options]** 「誘い文句（CTA:コールトゥアクション） **[!UICONTROL Photo]** 」ボタンを **[!UICONTROL Product name]** 表示するかどうかを選択します。
    >[!NOTE]
    >
@@ -53,7 +53,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 
 
-* **[!UICONTROL Embed App in multiple pages]**
+* **[!UICONTROL Embed App in multiple pages]** 
 
    * **[!UICONTROL Filter UGC by Product ID]**. 複数の製品ページ用に1つのアプリを作成するには、このオプションを選択します。製品固有のUGCを各製品ページのアプリにフィルターします。1つまたは複数のフォルダーを選択して、特定のコレクションをアプリに関連付けることができます。
    * **[!UICONTROL Select Product folders]**. UGCのフィルターに使用する最上位の製品フォルダーを選択します。複数のフォルダを選択するには、CtrlまたはCommandキーを押しながらクリックします。Livefyreはフォルダーを使用して、そのフォルダー内のどの製品を様々なページのアプリに表示するかを判断します。

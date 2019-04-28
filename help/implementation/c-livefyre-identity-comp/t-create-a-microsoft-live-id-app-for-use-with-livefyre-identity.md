@@ -24,11 +24,11 @@ Livefyre IDで使用するMicrosoft Live Identityアプリケーションを作�
 
 1. Microsoft Liveアカウントにhttps://apps.dev.microsoft.comを [作成またはサインインします](https://apps.dev.microsoft.com/)
 1. Livefyre IDで使用する既存のアプリケーションを作成するか、既存のアプリケーションを選択します。
-1. をクリック **[!UICONTROL Add Platform]**し、プラットフォームタイプとして"Web"を選択します。
-1. **[!UICONTROL Allow Implicit Flow]** このオプションがチェックされていることを確認し、"{network- name}"ではなくネットワーク名を使用してリダイレクトURLを入力します。 `https://identy.livefyre.com/{network-name}.fyre.co/api/v.1.0/public/profile/social/complete/mslive_fyre`を参照してください。
+1. をクリック **[!UICONTROL Add Platform]** し、プラットフォームタイプとして&quot;Web&quot;を選択します。
+1. **[!UICONTROL Allow Implicit Flow]** このオプションがチェックされていることを確認し、&quot;{network- name}&quot;ではなくネットワーク名を使用してリダイレクトURLを入力します。 `https://identy.livefyre.com/{network-name}.fyre.co/api/v.1.0/public/profile/social/complete/mslive_fyre`を参照してください。
 1. 秘密鍵を取得するための新しいパスワード/キーペアを生成します。
-1. で **[!UICONTROL Livefyre Integration Settings Livefyre Identity Microsoft Live]****[!UICONTROL Enable Microsoft Live Login]** 、切り替えをに切り替え **[!UICONTROL On]**ます。
+1. で **[!UICONTROL Livefyre Integration Settings Livefyre Identity Microsoft Live]** **[!UICONTROL Enable Microsoft Live Login]**、切り替えをに切り替え **[!UICONTROL On]** ます。
 1. Microsoft Live Client IDとMicrosoft Live Clientシークレットを入力します。
-1. **[!UICONTROL Save Settings]**をクリックします。
+1. **[!UICONTROL Save Settings]** をクリックします。
 
 Microsoft Live Identityのアプリケーションの詳細ページには、Studioの統合設定ページで使用するアプリケーションのクライアントID（Consumer Key）およびクライアントシークレット（Consumer Secret）が表示されます。

@@ -17,41 +17,41 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 >[!NOTE]
 >
->"Storify2Apps"にリストされているほとんどの設定は、有効になっている場合、Socialのオプションを制御します。
+>&quot;Storify2Apps&quot;にリストされているほとんどの設定は、有効になっている場合、Socialのオプションを制御します。
 
-* **[!UICONTROL Tags]**
+* **[!UICONTROL Tags]** 
 
    タグを使用すると、Studioでアプリをより簡単に検索できます。
 
-* **[!UICONTROL Allow New Content]**
+* **[!UICONTROL Allow New Content]** 
 
    新しいSipsをストーリーに追加することを許可します。
 
-* **[!UICONTROL Article URL]**
+* **[!UICONTROL Article URL]** 
 
    SocialSyncおよびpermalksに使用するURLです。
 
-* **[!UICONTROL Premoderate Content]**
+* **[!UICONTROL Premoderate Content]** 
 
    Socialが公開される前に、モデレーターの承認を要求します。
 
-* **[!UICONTROL Display Media]**
+* **[!UICONTROL Display Media]** 
 
    写真およびビデオのクリック可能なサムネールを表示します。
 
-* **[!UICONTROL Premoderate Media]**
+* **[!UICONTROL Premoderate Media]** 
 
    Sideisingのメディアコンテンツが公開される前に、モデレーターの承認が必要です。
 
-* **[!UICONTROL Queue New Content]**
+* **[!UICONTROL Queue New Content]** 
 
    ライブストリーミングを無効にして、新しいコンテンツおよび返信をキューに追加します。
 
-* **[!UICONTROL Throttle Content]**
+* **[!UICONTROL Throttle Content]** 
 
    大量のトラフィック下に表示される投稿数をインテリジェントに減らすことができます。
 
-* **[!UICONTROL Allow Bulk Content]**
+* **[!UICONTROL Allow Bulk Content]** 
 
    一致するテキストを含む複数の投稿を許可します。
 

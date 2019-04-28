@@ -26,7 +26,7 @@ Livefyreは、作成するすべてのコレクションに一意の識別子を
 | siteID | 文字列（オプション） | サイトのID（使用可能なサイト [!UICONTROL Studio > Settings > Integration Settings > Credentials] ）。ライブラリを使用してCollectionMetaトークンを作成する場合はオプションです。 |
 | siteKey | 文字列（オプション） | サイトの秘密鍵（{!UACROL Studio/設定/統合設定/秘密鍵証明書]）。 |
 | articleId | 文字列（オプション） | コレクションの一意のID。 |
-| title | 文字列（オプション） | コレクションに適用するタイトル。通常、これはアプリを表示するページのタイトルに対応します。<br>次に例を示します。「統合は非常に楽しい!"<br>注意:タイトルの最大文字長は255文字です。タイトルフィールドはHTMLエンティティをサポートしていません。UTF-8を使用して特殊文字をエンコードしてください。 |
+| title | 文字列（オプション） | コレクションに適用するタイトル。通常、これはアプリを表示するページのタイトルに対応します。<br>次に例を示します。「統合は非常に楽しい!&quot;<br>注意:タイトルの最大文字長は255文字です。タイトルフィールドはHTMLエンティティをサポートしていません。UTF-8を使用して特殊文字をエンコードしてください。 |
 | url | 文字列（オプション） | このコレクションに付加する正規の絶対URLです。このURLは、FacebookおよびTwitter、電子メール通知およびLivefyre Studioで共有されたコンテンツからアプリに戻るリンクを生成するために使用されます。<br>注意:ローカルでテストする場合、有効なベースURLドメインを使用します（例:有効: `https://customer.com`;;無効: `https://localhost:5995`）を参照してください。 |
 | タグ | 文字列（オプション） | 単一のキーワードまたはフレーズのコンマ区切りリスト。Studioを使用してコレクションをタグで検索します。</br>注意:タグにスペースを含めることはできません。UIにスペースを表示する場合は、アンダースコアを使用します。 |
 | 拡張子 | JSON（オプション） | コレクションに渡されるJSON形式のパラメーターセットです。 |
@@ -97,7 +97,7 @@ collection.data.tags = 'tags'
 collection_meta_token = collection.build_collection_meta_token 
 ```
 
->[!NOTE] {importance="high"}
+>[!NOTE] {importance=&quot;high&quot;}
 >
 >Livefyreは、作成したCollectionMetaトークンを受け取り、SiteID（Livefyre提供）とArticleID（顧客指定）を組み合わせて一意性を決定します。
 

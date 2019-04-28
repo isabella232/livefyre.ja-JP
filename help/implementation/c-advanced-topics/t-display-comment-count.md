@@ -41,7 +41,7 @@ Livefyreでは `CommentCount.js` 、サイト上のコレクションのコン�
    </span>
    ```
 
-   >[!NOTE] {importance="high"}
+   >[!NOTE] {importance=&quot;high&quot;}
    >
    >`CommentCount.js` コードは、実際の数で更新する数値をチェックします。タグ間に数値を含めることもできます。
 

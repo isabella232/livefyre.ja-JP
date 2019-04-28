@@ -23,6 +23,6 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 1. ライブラリ内のアセットを検索します。
 1. サイトに公開するアセットを選択します。
-1. **[!UICONTROL Publish]**をクリックします。
+1. **[!UICONTROL Publish]** をクリックします。
 
    **[!UICONTROL Publish to App]** ダイアログが表示されます。選択したアセットを公開するアプリケーションを選択します。

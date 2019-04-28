@@ -15,9 +15,9 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 Livefyreで新しいストリームを作成して、アプリケーションまたはフォルダーにコンテンツを追加します。
 
-1. 新しいストリームを作成するには、" **[!UICONTROL Streams > Create Stream.]**
-1. aを入力 **[!UICONTROL Stream Name]**します。
-1. 以下を選択 **[!UICONTROL Stream Destination]**します。 **[!UICONTROL App]****[!UICONTROL Folder]** または、ストリームの宛先を選択します。
+1. 新しいストリームを作成するには、&quot; **[!UICONTROL Streams > Create Stream.]** 
+1. aを入力 **[!UICONTROL Stream Name]** します。
+1. 以下を選択 **[!UICONTROL Stream Destination]** します。 **[!UICONTROL App]** **[!UICONTROL Folder]** または、ストリームの宛先を選択します。
 
    * 「アプリ」を選択して、「公開」をクリックしたときに、ストリームに含まれるすべてのコンテンツを選択したアプリにプッシュします。
    * 「フォルダー」を選択して、ストリームに含まれるすべてのコンテンツを選択したフォルダーに継続的にプッシュします。

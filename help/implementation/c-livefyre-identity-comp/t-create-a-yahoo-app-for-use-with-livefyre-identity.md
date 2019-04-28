@@ -23,12 +23,12 @@ Yahoo!でLivefyre IDを使用できます。ユーザがYahoo!を使用できる
 Yahoo!を作成するにはアプリケーションをLivefyre IDで使用する場合:
 
 1. [https://developer.yahoo.com/apps/に移動](https://developer.yahoo.com/apps/)し、Yahoo!にサインインします。アカウントを作成するか、Livefyre IDで使用する既存のアプリを選択します。
-1. 選択 **[!UICONTROL Application Type: Web Application]**します。
-1. Enter **[!UICONTROL Callback Domain:]**`https://identity.livefyre.com`
-1. 「 **[!UICONTROL API Permissions: Profiles (Social Directory)]** および **[!UICONTROL Read Public]**」を選択します。
+1. 選択 **[!UICONTROL Application Type: Web Application]** します。
+1. Enter **[!UICONTROL Callback Domain:]** `https://identity.livefyre.com`
+1. 「 **[!UICONTROL API Permissions: Profiles (Social Directory)]** および **[!UICONTROL Read Public]** 」を選択します。
 
    完了すると、Yahooのアプリの詳細ページに、Studioの統合設定ページで使用するアプリケーションのクライアントID（消費者キー）とクライアントシークレット（消費者シークレット）が一覧表示されます。
 
    >[!NOTE]
    >
-   >Yahoo!を有効にする場合Yahoo!アプリケーションで、「クライアントID"フィールドと「クライアントシークレット」フィールドをStudioの空白にした場合、LivefyreはOpenIDを使用してこれらのユーザーをLivefyreアプリケーションにログインします。この場合、OAuthおよびカスタムブランディングは使用できません。
+   >Yahoo!を有効にする場合Yahoo!アプリケーションで、「クライアントID&quot;フィールドと「クライアントシークレット」フィールドをStudioの空白にした場合、LivefyreはOpenIDを使用してこれらのユーザーをLivefyreアプリケーションにログインします。この場合、OAuthおよびカスタムブランディングは使用できません。

@@ -78,7 +78,7 @@ CSSを使用して、単に初期設定のCSSを独自のスタイルシート�
 | . s- upload- image- caption | ストーリーエディターを使用してアップロードされた画像およびビデオのキャプション |
 | . s- element- video | ビデオ要素 |
 | . s- element- quotes | 引用要素（例:ツイートのw/テキストのみ） |
-| . s- element- quote- image | "w/image"要素の見積もりツイートのw/image |
+| . s- element- quote- image | &quot;w/image&quot;要素の見積もりツイートのw/image |
 | . s- element- quotes- video | w/video要素の見積もり:ツイートのw/ビデオ） |
 | . s- link- body | 引用符内のリンクプレビュー（例:ツイートのW/リンクプレビュー |
 
@@ -92,4 +92,4 @@ CSSを使用して、単に初期設定のCSSを独自のスタイルシート�
 |---|---|
 | . s- post- footer | 投稿のフッター。 |
 | . s- sireize a | 投稿のフッターにあるSocatesボタン。 |
-| . s- like | 投稿のフッターにある「いいね!"ボタン。 |
+| . s- like | 投稿のフッターにある「いいね!&quot;ボタン。 |

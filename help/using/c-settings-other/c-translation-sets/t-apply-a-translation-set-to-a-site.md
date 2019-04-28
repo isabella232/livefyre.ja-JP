@@ -1,6 +1,6 @@
 ---
-description: null
-seo-description: null
+description: 'null'
+seo-description: 'null'
 seo-title: 翻訳セットのサイトへの適用
 solution: Experience Manager
 title: 翻訳セットのサイトへの適用

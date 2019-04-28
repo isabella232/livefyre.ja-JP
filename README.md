@@ -1,5 +1,5 @@
 ---
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
 translation-type: tm+mt
 
 ---
@@ -13,7 +13,7 @@ translation-type: tm+mt
 
 ## Adobeコンテンツへの貢献事項について
 
-["Adobe Docs寄稿者ガイド](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)」を参照してください。
+[&quot;Adobe Docs寄稿者ガイド](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)」を参照してください。
 
 どのような貢献度が貢献しているか、およびどのように貢献したいかによって異なります。
 
@@ -43,7 +43,7 @@ Adobe Experience Cloudソリューションの技術者、プログラムマネ�
 
 ## markdownを使用してトピックをフォーマットする方法
 
-このリポジトリのすべての記事はGitHubフレーズダウンダウンを使用します。マーケティングに詳しい場合は、以下を参照してください。
+このリポジトリのすべての記事はGitHubフレーズダウンダウンを使用します。マークダウンついて詳しくない場合は、以下を参照してください。
 
 * [マーケティングの基本](https://help.github.com/articles/markdown-basics/)
 * [印刷可能なマーチャンダイジングシート](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
@@ -52,5 +52,5 @@ Adobe Experience Cloudソリューションの技術者、プログラムマネ�
 
 公開リポジトリでは、自動ラベルがプルリクエストに割り当てられ、プルリクエストワークフローの管理と、プルリクエストの処理状況の把握に役立つようになります。
 
-* **作成者に送信される変更**:作成者が保留中のプル要求を通知しました。
+* **Change sent to author**：保留中のプルリクエストの通知が作成者に送信されました。
 * **Ready- to- merge**:プルリクエストレビューチームによるレビューの準備ができました。

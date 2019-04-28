@@ -24,6 +24,6 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
    >
    >画像には、フォルダーに保存されているコンテンツの画像のみ関連付けることができます。画像に関連付けるには、画像の権限が必要です。
 
-1. からクリック **[!UICONTROL Products]****[!UICONTROL Bulk Actions Menu]**します。
+1. からクリック **[!UICONTROL Products]** **[!UICONTROL Bulk Actions Menu]** します。
 1. コンテンツ **[!UICONTROL Product Folder]** に関連付ける製品をクリックします。
 1. 1つまたは複数の製品の横にあるチェックボックスをクリックしてコンテンツに関連付け、をクリック **[!UICONTROL Add]** して関連付けを保存します。

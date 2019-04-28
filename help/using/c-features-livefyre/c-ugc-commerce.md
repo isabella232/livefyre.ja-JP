@@ -66,8 +66,8 @@ AEMコマースユーザーは、既存の製品カタログをLivefyreにシー
 >
 >既存のファイルを含むフォルダーにファイルをアップロードすると、そのフォルダー内のすべてのファイルが削除され、新しいファイルで上書きされます。
 
-1. 次の場所へ移動 **[!UICONTROL Network Settings > Products.]**
-1. 既存のを作成 **[!UICONTROL Product Folder]** または使用 **[!UICONTROL Product Folder]**します。
+1. 次の場所へ移動 **[!UICONTROL Network Settings > Products.]** 
+1. 既存のを作成 **[!UICONTROL Product Folder]** または使用 **[!UICONTROL Product Folder]** します。
 
 1. 選択 **[!UICONTROL Product Folder]** するには、をクリックします。
 1. ボタンを **[!UICONTROL Upload Products]** クリックします。
@@ -93,7 +93,7 @@ AEMコマースユーザーは、既存の製品カタログをLivefyreにシー
 | isFolder | ブール値 | trueの場合、製品はフォルダー（紳士用、女性用など）のように扱われます。 |
 | parentID | 文字列 | 製品が存在するフォルダーを定義します。 |
 | description | 文字列 | 製品の説明。 |
-| price | 文字列 | 製品の価値。例えば、"23.36"と入力します。 |
+| price | 文字列 | 製品の価値。例えば、&quot;23.36&quot;と入力します。 |
 | sku | 文字列 | 商品の在庫保持装置（SKU）。 |
 | url | 文字列 | 製品ページへのリンク。 |
 | 有効にする | ブール値 | 値Trueは、製品がアクティブであることを意味します。 |

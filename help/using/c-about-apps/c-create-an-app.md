@@ -18,14 +18,14 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 新しいアプリを作成するには:
 
 1. アプリページ **[!UICONTROL +New App]** からクリックし、プルダウンメニューからアプリのタイプを選択します。
-1. **[!UICONTROL New App]** ダイアログボックスが表示されます。Enter an **[!UICONTROL App Title]**， select a **[!UICONTROL Site]**， and click **[!UICONTROL Create]** to open the App Overview page.
+1. **[!UICONTROL New App]** ダイアログボックスが表示されます。Enter an **[!UICONTROL App Title]** ， select a **[!UICONTROL Site]** ， and click **[!UICONTROL Create]** to open the App Overview page.
 
 アプリサマリページには、4つのタブがあります。
 
-* **[!UICONTROL App Summary]**:には、アプリのコンテンツとステータスの概要が記載されており、サイト上のアプリにアクセスして埋め込みコードを生成するツールが提供されます。
-* **[!UICONTROL Designer]**:では、フォント、カラースキーム、アプリ固有の設定オプションなど、アプリのデザインオプションを選択できます。
-* **[!UICONTROL Streams]**:には、アプリのコンテンツのすべてのストリームソースが表示されます。ストリームのタイトルをクリックすると、ストリームの詳細ページが開き、そこから編集できます。
-* **[!UICONTROL Settings]**:では、アプリにコンテンツを追加するためのルールや、表示するコンテンツのタイプなど、アプリ固有の設定を選択できます。タブを **[!UICONTROL Settings]** クリックして、アプリのネットワーク設定とサイト設定を上書きします。
+* **[!UICONTROL App Summary]** :には、アプリのコンテンツとステータスの概要が記載されており、サイト上のアプリにアクセスして埋め込みコードを生成するツールが提供されます。
+* **[!UICONTROL Designer]** :では、フォント、カラースキーム、アプリ固有の設定オプションなど、アプリのデザインオプションを選択できます。
+* **[!UICONTROL Streams]** :には、アプリのコンテンツのすべてのストリームソースが表示されます。ストリームのタイトルをクリックすると、ストリームの詳細ページが開き、そこから編集できます。
+* **[!UICONTROL Settings]** :では、アプリにコンテンツを追加するためのルールや、表示するコンテンツのタイプなど、アプリ固有の設定を選択できます。タブを **[!UICONTROL Settings]** クリックして、アプリのネットワーク設定とサイト設定を上書きします。
 
 ## アプリリスト {#section_eyp_ykt_bbb}
 
@@ -33,17 +33,17 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 アプリリストページには、次の情報が表示されます。
 
-* **[!UICONTROL Title]**:アプリのタイトルが表示され、アプリの種類を示すアイコンが表示されます。
-* **[!UICONTROL Site]**:アプリの位置をサイト別に表示します。
-* **[!UICONTROL Content Count]**:アプリに投稿されたコンテンツの個数が表示されます。
-* **[!UICONTROL Date Modified]**:App Designerでアプリが最後に変更されたときのリストです。
-* **[!UICONTROL Embed Code (</>)]**:アイコンをクリックして、アプリの埋め込みコードを生成します。
+* **[!UICONTROL Title]** :アプリのタイトルが表示され、アプリの種類を示すアイコンが表示されます。
+* **[!UICONTROL Site]** :アプリの位置をサイト別に表示します。
+* **[!UICONTROL Content Count]** :アプリに投稿されたコンテンツの個数が表示されます。
+* **[!UICONTROL Date Modified]** :App Designerでアプリが最後に変更されたときのリストです。
+* **[!UICONTROL Embed Code (</>)]** :アイコンをクリックして、アプリの埋め込みコードを生成します。
 
 ## アプリのカスタマイズ {#section_lvj_xlt_bbb}
 
-"App Designer"タブを使用して、アプリをカスタマイズするため **[!UICONTROL Style]** のオプションを選択および **[!UICONTROL Configuration]** オプションできます。
+&quot;App Designer&quot;タブを使用して、アプリをカスタマイズするため **[!UICONTROL Style]** のオプションを選択および **[!UICONTROL Configuration]** オプションできます。
 
-**[!UICONTROL Style]** すべてのアプリタイプでオプションが一貫しています。 **[!UICONTROL Configuration]** オプションはアプリによって異なります。**[!UICONTROL Style]****[!UICONTROL Configuration]** ペインの下部に、アプリケーションのLivefyreアプリのバージョンが一覧表示されます。
+**[!UICONTROL Style]** すべてのアプリタイプでオプションが一貫しています。 **[!UICONTROL Configuration]** オプションはアプリによって異なります。**[!UICONTROL Style]** **[!UICONTROL Configuration]** ペインの下部に、アプリケーションのLivefyreアプリのバージョンが一覧表示されます。
 
 **スタイルオプションの選択**
 
@@ -57,7 +57,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ## アプリの更新 {#section_iwb_4bz_vcb}
 
-新しいバージョンのアプリケーションが存在する場合は **[!UICONTROL Update]** 、ボタンが表示されます。
+新しいバージョンのアプリケーションが存在する場合は **[!UICONTROL Update]**、ボタンが表示されます。
 
 ボタンをクリックして最新のリリースバージョンに更新します。アプリケーションを更新して、利用可能なすべての機能強化およびバグ修正を使用します。更新後、アプリに対して行った変更（存在する場合）をプレビューし、更新を承認または拒否します。
 
@@ -72,7 +72,7 @@ UGCからのコンバージョンを推進するための誘い文句（CTA:コ�
    MosaicまたはMediaウォールで使用可能なカスタマイズについて詳しくは、 [モザイクのカスタマイズ](/help/using/c-about-apps/c-mosaic-app/c-mosaic-customizations.md) または [メディアウォールのカスタマイズ](../c-about-apps/c-media-wall-app/r-media-wall-customizations.md#r_media_wall_customizations)を参照してください。
 1. アプリケーションのDesignerを開きます。
 1. Designerのセクションまで **[!UICONTROL Call-to-Action Button]** スクロールします。
-1. に切り替え **[!UICONTROL Call-to-Action Button]****[!UICONTROL on]**ます。
+1. に切り替え **[!UICONTROL Call-to-Action Button]** **[!UICONTROL on]** ます。
 
 1. 誘い文句（CTA:コールトゥアクション）ボタンオプションを設定します。
 
@@ -84,29 +84,29 @@ App Designerでは、複数の配信形式でアプリをプレビューした�
 
 プレビューモードでは、次のオプションを使用できます。
 
-* **[!UICONTROL Preview Options]**:プルダウンメニューを使用して、プレビュー形式（モバイル、タブレット、デスクトップ）と、アプリのストリーム **[!UICONTROL Sample Data]** データを選択します。
+* **[!UICONTROL Preview Options]** :プルダウンメニューを使用して、プレビュー形式（モバイル、タブレット、デスクトップ）と、アプリのストリーム **[!UICONTROL Sample Data]** データを選択します。
 
 * 
 
 >[!NOTE]
 >
->アプリの「ストリーム」を選択解除 **[!UICONTROL Sample Data]**し、「ストリーム」が有効になっていない場合、プレビューモードでコンテンツは表示されません。
+>アプリの「ストリーム」を選択解除 **[!UICONTROL Sample Data]** し、「ストリーム」が有効になっていない場合、プレビューモードでコンテンツは表示されません。
 
-* **[!UICONTROL Share]**:アプリを新しいブラウザータブで開き、URLを生成します。このURLを使用して、友達、同僚、非Studioユーザーのアプリケーションを確認し、異なるブラウザーやデバイスでテストできます。
+* **[!UICONTROL Share]** :アプリを新しいブラウザータブで開き、URLを生成します。このURLを使用して、友達、同僚、非Studioユーザーのアプリケーションを確認し、異なるブラウザーやデバイスでテストできます。
 
    >[!NOTE]
    >
    >アプリのレビューバージョンに投稿されたコンテンツは、アプリに追加されます。このコンテンツを公開済みアプリに表示しない場合は、 **「公開**」をクリックする前に削除する必要があります。
 
-* **[!UICONTROL Exit Preview]**:編集モードに戻ります。
+* **[!UICONTROL Exit Preview]** :編集モードに戻ります。
 
 >[!NOTE]
 >
->プレビューモードは完全にインタラクティブで、アプリのユーザーエクスペリエンスをテストできます。有効 **[!UICONTROL Allow user posts]**にすると、プレビューリンクを持つユーザーは、ボタンを **[!UICONTROL What’s on your mind]** クリックして、テストバージョンにコンテンツを投稿できます。Studioには、投稿されたコンテンツが表示されます。
+>プレビューモードは完全にインタラクティブで、アプリのユーザーエクスペリエンスをテストできます。有効 **[!UICONTROL Allow user posts]** にすると、プレビューリンクを持つユーザーは、ボタンを **[!UICONTROL What’s on your mind]** クリックして、テストバージョンにコンテンツを投稿できます。Studioには、投稿されたコンテンツが表示されます。
 
 ## アプリの投稿 {#section_df1_smt_bbb}
 
-変更を加えると、App Designerによって自動的にアプリが保存されます。これにより **[!UICONTROL Publish]** 、埋め込みコードを生成したり、現在公開されているバージョンのアプリケーションを最新バージョンで更新したりできます。
+変更を加えると、App Designerによって自動的にアプリが保存されます。これにより **[!UICONTROL Publish]**、埋め込みコードを生成したり、現在公開されているバージョンのアプリケーションを最新バージョンで更新したりできます。
 
 >[!NOTE]
 >
@@ -136,16 +136,16 @@ App Designerでは、複数の配信形式でアプリをプレビューした�
 
 「アプリの概要」タブでは次のことができます。
 
-* **[!UICONTROL See on Site]**:サイトでアプリを開きます。
-* **[!UICONTROL Embed code]**:公開済みアプリでのみ利用可能で、発行済みのアプリの埋め込みコードを生成するためのクリック可能なリンクを提供します。
+* **[!UICONTROL See on Site]** :サイトでアプリを開きます。
+* **[!UICONTROL Embed code]** :公開済みアプリでのみ利用可能で、発行済みのアプリの埋め込みコードを生成するためのクリック可能なリンクを提供します。
 
    >[!NOTE]
    >
    >この埋め込みコードを使用して、コメントまたはLiveブログアプリにポールを追加します。詳しくは、カスタムインタラクション/カスタムHTMLを参照してください。
 
-* **[!UICONTROL View Content]**:コンテンツページを開きます。このページには、アプリに投稿されたすべてのコンテンツが表示されます。
-* **[!UICONTROL Moderate]**:アプリのモデレートを待機するすべてのコンテンツをリストするMOQを開きます。
-* **[!UICONTROL Developer Info]**:アプリのコレクションID、記事ID、サイトIDが表示されます。
+* **[!UICONTROL View Content]** :コンテンツページを開きます。このページには、アプリに投稿されたすべてのコンテンツが表示されます。
+* **[!UICONTROL Moderate]** :アプリのモデレートを待機するすべてのコンテンツをリストするMOQを開きます。
+* **[!UICONTROL Developer Info]** :アプリのコレクションID、記事ID、サイトIDが表示されます。
 
 ## Studioを使用したサイトへのアプリの埋め込み {#section_w3h_1nt_bbb}
 
@@ -168,7 +168,7 @@ Livefyre Studioのアプリケーションリストからアプリケーショ�
 
 アプリケーションを削除するには:
 
-1. **[!UICONTROL Apps]**をクリックします。
+1. **[!UICONTROL Apps]** をクリックします。
 1. 削除するアプリケーションの名前の右側にある省略記号をクリックします。
 1. をクリック **[!UICONTROL Delete App]** して、アプリを削除します。
 

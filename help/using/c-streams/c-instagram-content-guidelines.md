@@ -15,7 +15,7 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 Instagramからコンテンツをキュレーションする場合は、ガイドラインとベストプラクティスに従う必要があります。
 
-*Instagramのビジネスアカウント* を設定して **[!UICONTROL By Author]** 、そのフィールドを使用してInstagramの別のビジネスアカウントからInstagramストリームを作成する必要があります。**[!UICONTROL By Author]** フィールドで識別するユーザーアカウントは、ビジネスアカウントである必要があります。
+*Instagramのビジネスアカウント* を設定して **[!UICONTROL By Author]**、そのフィールドを使用してInstagramの別のビジネスアカウントからInstagramストリームを作成する必要があります。**[!UICONTROL By Author]** フィールドで識別するユーザーアカウントは、ビジネスアカウントである必要があります。
 
 LivefyreでInstagram業務アカウントを設定する方法について詳しくは、Instagramアカウント [について](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)を参照してください。
 

@@ -19,9 +19,9 @@ Facebookページルールを使用して、Facebookページから投稿され�
 
 Facebookページルールを作成してFacebookページからアプリまたはフォルダーにコンテンツを取り込むには、次のようにフィルタリングします。
 
-* **[!UICONTROL Facebook Page]**
+* **[!UICONTROL Facebook Page]** 
 
-   * ページ **[!UICONTROL Name]** を入力します。URLの末尾のテキストのみを入力します。**次に例を示します。** コンテンツを追加する `https://facebook.com/KellysSuperFunFanPage`には、フィールドに *"KellisSuperFandPagePage* 」と入力 **[!UICONTROL Name]** します。
+   * ページ **[!UICONTROL Name]** を入力します。URLの末尾のテキストのみを入力します。**次に例を示します。** コンテンツを追加する `https://facebook.com/KellysSuperFunFanPage`には、フィールドに *&quot;KellisSuperFandPagePage* 」と入力 **[!UICONTROL Name]** します。
 
    * ページ投稿にユーザーコメントを含める場合にオンに **[!UICONTROL Include Facebook Comments for each post]** します。
    * 他 **[!UICONTROL Only Show Author Posts]** のユーザーからの投稿を除外する場合にオンにします。

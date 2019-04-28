@@ -1,6 +1,6 @@
 ---
-description: null
-seo-description: null
+description: 'null'
+seo-description: 'null'
 seo-title: ソーシャルアプリの作成
 solution: Experience Manager
 title: ソーシャルアプリの作成

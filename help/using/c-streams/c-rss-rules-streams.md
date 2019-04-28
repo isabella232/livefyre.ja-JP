@@ -22,8 +22,8 @@ RSSルールを作成して、RSSフィードからアプリまたはフォル�
 * **[!UICONTROL URL]** 」を参照してください。
 * **[!UICONTROL Include recent items.]** これが次のように設定されている場合:
 
-   * **[!UICONTROL Enabled]**の場合、発行日に関係なく、フィード内の最初の50コンテンツアイテムがストリームに追加されます。
-   * **[!UICONTROL Disabled]**の場合、フィード内の最初の50コンテンツアイテムがストリームルール作成日以降と同じパブリケーション日でストリームに追加されます。
+   * **[!UICONTROL Enabled]** の場合、発行日に関係なく、フィード内の最初の50コンテンツアイテムがストリームに追加されます。
+   * **[!UICONTROL Disabled]** の場合、フィード内の最初の50コンテンツアイテムがストリームルール作成日以降と同じパブリケーション日でストリームに追加されます。
 
 * **[!UICONTROL Extract post information from item link (when disabled, post information is extracted from XML).]** アイテムリンクまたはXMLからの情報の取り込み。
 
@@ -35,6 +35,6 @@ Livefyreは、以下のRSS仕様に基づいてRSSフィードを解析します
 * [メディアRSS](https://en.wikipedia.org/wiki/Media_RSS)
 * [Atomフィード](https://validator.w3.org/feed/docs/atom.html)
 
-Livefyreはこれらの仕様に準拠していないフィードを読み取りません。そのコンテンツはストリームに取り込まれません。"WC3Feed Validation Service"を使用して、RSSフィードの構文をチェックし、有効であることを確認します。
+Livefyreはこれらの仕様に準拠していないフィードを読み取りません。そのコンテンツはストリームに取り込まれません。&quot;WC3Feed Validation Service&quot;を使用して、RSSフィードの構文をチェックし、有効であることを確認します。
 
 すべてのストリームルール用の追加ストリームルールオプションについては、すべてのストリームルールの [ストリームルールオプションを参照](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)してください。

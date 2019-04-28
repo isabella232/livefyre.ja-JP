@@ -15,5 +15,5 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 コンテンツを機能させるには、まず、Studioで「重点コメントを有効にする」設定を有効にする必要があります。
 
-1. 移動 **[!UICONTROL Studio > Settings > Network Settings > Default Settings]**先
+1. 移動 **[!UICONTROL Studio > Settings > Network Settings > Default Settings]** 先
 1. **[!UICONTROL Enable Featured Comments]** 設定を切り替えて、エディターの上で最近特集したコメントをハイライト表示できます。

@@ -1,7 +1,6 @@
 ---
 description: 会話アプリ（Comments、Chat、Live Blog、Reviews、Sidenotes など）用に JavaScript をバインドできるものに対して使用できるイベントです。
-seo-description: 会話アプリ（Comments、Chat、Live Blog、Reviews、Sidenotes など）用に JavaScript
-  をバインドできるものに対して使用できるイベントです。
+seo-description: 会話アプリ（Comments、Chat、Live Blog、Reviews、Sidenotes など）用に JavaScript をバインドできるものに対して使用できるイベントです。
 seo-title: 会話アプリのJavaScriptイベント
 solution: Experience Manager
 title: 会話アプリのJavaScriptイベント
@@ -30,7 +29,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 | Post | X | X | X | X |  | 該当なし | 該当なし |
 | 投稿済み | X | X | X | X | X | 該当なし | 該当なし |
 | Twitterの返信 | X | X | X | 該当なし | 該当なし | 該当なし | 該当なし |
-| Twitterの「いいね!" | X | X | X | 該当なし | 該当なし | 該当なし | 該当なし |
+| Twitterの「いいね!&quot; | X | X | X | 該当なし | 該当なし | 該当なし | 該当なし |
 | LLF | X | X | X | X | 該当なし | 該当なし | 該当なし |
 | LLF異なり | X | X | X | X | 該当なし | 該当なし | 該当なし |
 | 投稿で共有 | X | X |  | X | 該当なし | 該当なし | 該当なし |

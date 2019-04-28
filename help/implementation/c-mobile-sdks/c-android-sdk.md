@@ -23,7 +23,7 @@ Livefyreも、このSDKに基づいた [アプリケーション](https://github
 
 >[!NOTE]
 >
->Livefyre Android SDKをインストールする前に、Android SDKを [環境に](https://developer.android.com/sdk/index.html) インストールしておく必要があります。Android Developer docs>の説明に従って、Android SDKパッケージを追加する必要もあります。
+>Livefyre Android SDKをインストールする前に、Android SDKを [環境に](https://developer.android.com/sdk/index.html) インストールしておく必要があります。Android Developer docs&gt;の説明に従って、Android SDKパッケージを追加する必要もあります。
 >[SDKパッケージの追加](https://developer.android.com/sdk/installing/adding-packages.html)
 
 すべての推奨パッケージをインストールするには、Android SDK Manager（Android StudioまたはEclipseツールバーから利用可能）を使用します。Android Support Repositoryも含めます。
@@ -34,11 +34,11 @@ EclipseでLivefyre Android SDKをプロジェクトに追加するには:
 
 1. GitHubから最新 [のStreamHub- Android- SDK](https://github.com/Livefyre/StreamHub-Android-SDK) を入手してください。
 1. 既存のプロジェクトから開始するか、新しいプロジェクトを作成します。
-1. StreamHub- Android- SDKをワークスペースに読み込むには、に移動 **[!UICONTROL File > Import > General > Existing Project into Workspace]**します。
+1. StreamHub- Android- SDKをワークスペースに読み込むには、に移動 **[!UICONTROL File > Import > General > Existing Project into Workspace]** します。
 1. StreamHub- Android- SDKを参照して選択します。これで、パッケージエクスプローラーに表示されます。
-1. プロジェクトを右クリックし、"Android"タブを選択 **[!UICONTROL Properties,]** します。
-1. 「ライブラリ」セクションで、 **[!UICONTROL Add button,]** ライブラリのリストから"StreamHub- Android- SDK"を選択します。
-1. **[!UICONTROL Apply]** 「および **[!UICONTROL OK]**」をクリックします。
+1. プロジェクトを右クリックし、&quot;Android&quot;タブを選択 **[!UICONTROL Properties,]** します。
+1. 「ライブラリ」セクションで、 **[!UICONTROL Add button,]** ライブラリのリストから&quot;StreamHub- Android- SDK&quot;を選択します。
+1. **[!UICONTROL Apply]** 「および **[!UICONTROL OK]** 」をクリックします。
 
 ## Android Studio {#section_vpw_klv_zz}
 
@@ -46,13 +46,13 @@ Android StudioでLivefyre Android SDKをプロジェクトに追加するには:
 
 1. GitHubから最新 [のStreamHub- Android- SDK](https://github.com/Livefyre/StreamHub-Android-SDK) を入手してください。
 1. 既存のプロジェクトから開始するか、新しいプロジェクトを作成します。
-1. プロジェクトを右クリックして、を選択 **[!UICONTROL Open Module Settings]**します。
+1. プロジェクトを右クリックして、を選択 **[!UICONTROL Open Module Settings]** します。
 1. ウィンドウの左上隅にある **[!UICONTROL +]** ボタンを選択します。
-1. 選択（ **[!UICONTROL Import Existing Project.]** 新しいバージョンのAndroid Studioでは、以下を検索 **[!UICONTROL Import Existing Project]** できます） **[!UICONTROL More Modules]**。
+1. 選択（ **[!UICONTROL Import Existing Project.]** 新しいバージョンのAndroid Studioでは、以下を検索 **[!UICONTROL Import Existing Project]** できます） **[!UICONTROL More Modules]** 。
 
 1. StreamHub- Android- SDKを参照して選択します。
 
-Android Studioでは、SDKをバージョンのgradleに変換することが要求される場合があります。その場合は、を選択 **[!UICONTROL next]****[!UICONTROL finish]**します。
+Android Studioでは、SDKをバージョンのgradleに変換することが要求される場合があります。その場合は、を選択 **[!UICONTROL next]** **[!UICONTROL finish]** します。
 
 依存関係下の **プロジェクトフォルダー/app folder/build. gradle** ファイルに移動して、次の依存関係を追加します。
 

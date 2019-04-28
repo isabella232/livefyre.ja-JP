@@ -15,5 +15,5 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 画面上のナビゲーションガイドの場所を指定します。
 
-1. Storify2App Designerで **[!UICONTROL Navigation Guide]** 、切り替えを切り替えます。
+1. Storify2App Designerで **[!UICONTROL Navigation Guide]**、切り替えを切り替えます。
 1. **[!UICONTROL Orientation]** ドロップダウンから上、左または右を選択します。

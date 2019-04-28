@@ -15,7 +15,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Livefyreアプリにカスタムアクションを追加します。
 
-Livefyreでは、コンテンツの一部に、既存のアクションボタン（および **[!UICONTROL Share]****[!UICONTROL Flag]**など）の横にカスタムボタンを追加できます。
+Livefyreでは、コンテンツの一部に、既存のアクションボタン（および **[!UICONTROL Share]** **[!UICONTROL Flag]** など）の横にカスタムボタンを追加できます。
 
 モバイルデバイスでボタンを表示するかどうかを定義するには、mobile引数を使用します。
 

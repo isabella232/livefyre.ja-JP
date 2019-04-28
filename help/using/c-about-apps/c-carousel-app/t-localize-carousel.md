@@ -1,6 +1,6 @@
 ---
-description: null
-seo-description: null
+description: 'null'
+seo-description: 'null'
 seo-title: カルーセルのローカライズ
 solution: Experience Manager
 title: カルーセルのローカライズ

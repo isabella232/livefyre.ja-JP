@@ -77,7 +77,7 @@ HTML構造:
 </div>
 ```
 
-"|「並べ替え」オプションを区切ります。
+&quot;|「並べ替え」オプションを区切ります。
 
 ```
 .fyre-stream-sort .fyre-stream-sort-bar { 
@@ -99,7 +99,7 @@ HTML構造:
 | . fyre- comment- date | 「投稿後の時間」エレメントに付加されるタグ。 |
 | . fyre- comment- media | メディアコンテンツの周囲のバウンディングボックス。 |
 | . fyre- comment- actions | コメントに対して実行するアクションの周囲のバウンディングボックス。 |
-| . fyre- comment- like | 「いいね!"リンクの周囲のバウンディングボックス。 |
+| . fyre- comment- like | 「いいね!&quot;リンクの周囲のバウンディングボックス。 |
 | . fyre- comment- reply | 「返信」リンクの周囲のバウンディングボックス。 |
 
 ## 重点コメントCSS {#section_m2v_mrh_xz}

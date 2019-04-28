@@ -19,10 +19,10 @@ Studioによって追加されたユーザータグごとに、Livefyreは2つ�
 
 User TagをCSSクラスに変換するとき:
 
-* Livefyreによって2つのクラスが作成されます。fyre- author- tag-***< your_ group>*** and fyre- tag- author-***< your_ group>***.どちらもコンテンツのスタイル設定に使用できます。
+* Livefyreによって2つのクラスが作成されます。fyre- author- tag-***&lt; your_ group&gt;*** and fyre- tag- author-***&lt; your_ group&gt;***.どちらもコンテンツのスタイル設定に使用できます。
 
 * タグに含まれるスペースは、アンダースコアに変換されます。次に例を示します。「お気に入りユーザー」はお気に入り_ userになります。
-* グループ名に含まれるUnicode文字は変換されず、クラス名にUnicodeとして表示されます。次に例を示します。ユーザーグループ"modérateur"は、fyre- comment- author- tag- modérateurになります。
+* グループ名に含まれるUnicode文字は変換されず、クラス名にUnicodeとして表示されます。次に例を示します。ユーザーグループ&quot;modérateur&quot;は、fyre- comment- author- tag- modérateurになります。
 
 ユーザーグループを作成したら、LivefyreのCSSクラスを使用してコンテンツのカスタムスタイル設定を適用します。
 
@@ -68,7 +68,7 @@ CSSルールを作成して、グループのバッジを表示またはスタ�
 }
 ```
 
-選択したタグに関連付けられているアカウントから投稿された各項目のフォントと背景のスタイルを設定するには、CSSクラスfyre- author- tag-***< your_ group>***またはfyre- tag- author-***< your_ group>***を使用します。
+選択したタグに関連付けられているアカウントから投稿された各項目のフォントと背景のスタイルを設定するには、CSSクラスfyre- author- tag-***&lt; your_ group&gt;***またはfyre- tag- author-***&lt; your_ group&gt;***を使用します。
 
 ```
 .fyre-comment-author-tag-<your_group> .fyre-comment-author-tag { 

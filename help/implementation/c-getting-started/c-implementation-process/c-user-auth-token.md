@@ -1,7 +1,6 @@
 ---
 description: この節では、ユーザーのアプリケーションへのログインに必要なUser Authenticationトークンを作成するUserAuth JSONオブジェクトの生成方法について説明します。
-seo-description: この節では、ユーザーのアプリケーションへのログインに必要なUser Authenticationトークンを作成するUserAuth
-  JSONオブジェクトの生成方法について説明します。
+seo-description: この節では、ユーザーのアプリケーションへのログインに必要なUser Authenticationトークンを作成するUserAuth JSONオブジェクトの生成方法について説明します。
 seo-title: User Authトークン
 solution: Experience Manager
 title: User Authトークン

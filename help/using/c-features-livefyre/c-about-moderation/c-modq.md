@@ -76,7 +76,7 @@ modqは2つのタブ付きパネルに分割されます。
    * User Flag:スパム、オフトピック、不快、および非同意。
 
 * **[!UICONTROL Flag origin:]** 一覧表示されているフラグのソースです。セーフ、ユーザー名、Livefyreのいずれかです。
-* **[!UICONTROL More info:]** には、「いいね!"の数、ユーザーフラグ、返信、コンテンツに適用されたすべてのタグなど、コンテンツの詳細が表示されます。サイトをクリックすると、コンテンツが配置されているサイトの最上位ページが開きます。タイムスタンプをクリックすると、ページ上のコンテキスト内のコンテンツのスレッドビューが開きます。
+* **[!UICONTROL More info:]** には、「いいね!&quot;の数、ユーザーフラグ、返信、コンテンツに適用されたすべてのタグなど、コンテンツの詳細が表示されます。サイトをクリックすると、コンテンツが配置されているサイトの最上位ページが開きます。タイムスタンプをクリックすると、ページ上のコンテキスト内のコンテンツのスレッドビューが開きます。
 
 ## Modqのフィルターオプション {#section_r2c_qc2_yy}
 
@@ -84,7 +84,7 @@ modqウィンドウの左上にあるをクリック **[!UICONTROL Filter]** す
 
 タブ **[!UICONTROL Items]** と **[!UICONTROL Streams Premoderation]** タブには、様々なフィルターオプションを使用できます。
 
-The following options are available for the ModQ under both **[!UICONTROL Items]** and **[!UICONTROL Streams Premoderation]**:
+The following options are available for the ModQ under both **[!UICONTROL Items]** and **[!UICONTROL Streams Premoderation]** :
 
 * **[!UICONTROL App]**. 「アプリの検索」フィールドを使用して、アプリ別に結果をフィルターします。複数のアプリを選択できます。
 * **[!UICONTROL System Flags]**. スパム、違反、安全、事前モデレートルールなどのルールによってコンテンツをフィルターします。
@@ -98,17 +98,17 @@ The following options are available for the ModQ under both **[!UICONTROL Items]
 * **[!UICONTROL Rights Requests.]** チェックボックスをクリックして、権限が付与されたコンテンツのみを表示します。
 * **[!UICONTROL Entered the queue.]** コンテンツがMOQに送信された時間枠でコンテンツをフィルターします。コンテンツのコンテンツがMOQに送信されると、そのコンテンツがアプリに投稿された時刻とは限りません。
 
-次のオプションを、下のMOQで使用 **[!UICONTROL Streams Premoderation]**できます。
+次のオプションを、下のMOQで使用 **[!UICONTROL Streams Premoderation]** できます。
 
 * **[!UICONTROL Social Source]** コンテンツの発信元となるソーシャルソースによってコンテンツをフィルターします。例えば、ソーシャルソースのオプションには、Twitter、Instagram、FacebookおよびRSSが含まれます。
 
-次のオプションは、下のMOQで使用 **[!UICONTROL Items]**できます。
+次のオプションは、下のMOQで使用 **[!UICONTROL Items]** できます。
 
 **[!UICONTROL Moderation Recommendations]**. 自動モデレートレコメンデーションによって提示されるレコメンデーションによってコンテンツをフィルターします。
 
 次の画像は、Moderation RecommendationsがModq内でどのように表示されるかを示しています。 ![](assets/mod_reco1.png)
 
-イン **[!UICONTROL Network Settings > Moderation]** サイトと **[!UICONTROL Network Settings > ModQ]**インサイトの設定時に、モデレートレコメンデーションが提供されます。
+イン **[!UICONTROL Network Settings > Moderation]** サイトと **[!UICONTROL Network Settings > ModQ]** インサイトの設定時に、モデレートレコメンデーションが提供されます。
 
 ## Modqで使用できるアクション {#section_h4g_wrn_z1b}
 
@@ -130,13 +130,13 @@ modq内のコンテンツの各部分に対して実行する内容を決定で�
 
 >[!NOTE]
 >
->コンテンツの一部をごみ箱に書き出すと、コンテンツの一部とコンテンツへのすべての返信が、MOQから完全に削除されます。コンテンツの断片化された部分をアプリに配置するには、"Trashed [Item back in an App](/help/using/c-features-livefyre/c-about-moderation/t-add-trashed-item-back-into-app.md#t_add_trashed_item_back_into_app)」を参照してください。
+>コンテンツの一部をごみ箱に書き出すと、コンテンツの一部とコンテンツへのすべての返信が、MOQから完全に削除されます。コンテンツの断片化された部分をアプリに配置するには、&quot;Trashed [Item back in an App](/help/using/c-features-livefyre/c-about-moderation/t-add-trashed-item-back-into-app.md#t_add_trashed_item_back_into_app)」を参照してください。
 
 コンテンツが既に目的の状態になっている場合、ごみ箱、ボットまたは承認を選択すると、状態が確認され、リストから項目が削除されます。コンテンツの一部をモデレートすると、すぐにそのコンテンツがキューから削除され、他のモデレーターのキューでアクティベートが解除されます。
 
 >[!NOTE]
 >
->ストリームコンテンツがBoszo'dになっていないことがあります。ストリーミングストリームコンテンツは、ストリームから完全に削除され、元に戻すことはできません。
+>ストリームコンテンツがBoszo&#39;dになっていないことがあります。ストリーミングストリームコンテンツは、ストリームから完全に削除され、元に戻すことはできません。
 
 コンテンツはモデレートされるとモデレーターのModqから削除され、作成者はストリーム内から編集できなくなります。モデレーターが項目を閉じる場合、またはユーザーがコメントを削除した場合、リアルタイムで他のモデレーターのキューに灰色表示されます。コンテンツが灰色表示になっている場合、 **[!UICONTROL Clear Moderated]** そのボタンはページに表示され、モデレーターはリストからそれを削除し、他のモデレーターアクティビティに関係なくページ上の場所を維持できます。
 
@@ -144,11 +144,11 @@ modq内のコンテンツの各部分に対して実行する内容を決定で�
 
 この設定セクションを使用して、コンテンツがTrashedとしてマークされている場合に使用できるオプションを選択します。
 
-* ****[!UICONTROL Confirm Trash]**** このオプションを有効にすると、コンテンツをごみ箱に設定する際に、モデレーターによってアクションが確認されます。有効にすると、コンテンツ **[!UICONTROL Trash]** に対して選択するダイアログが表示され、 **[!UICONTROL Reason for Moderation]**入力を求めるダイアログが **[!UICONTROL Note]** 表示されます。
+* ****[!UICONTROL Confirm Trash]** ** このオプションを有効にすると、コンテンツをごみ箱に設定する際に、モデレーターによってアクションが確認されます。有効にすると、コンテンツ **[!UICONTROL Trash]** に対して選択するダイアログが表示され、 **[!UICONTROL Reason for Moderation]** 入力を求めるダイアログが **[!UICONTROL Note]** 表示されます。
 
    （この設定はネットワークレベル **[!UICONTROL only]** で使用でき、ネットワーク下のすべてのサイトに適用されます）。
 
-* ****[!UICONTROL Hide Replies]**** 親コメントがTrashedまたはBozo'dの場合に自動的に返信するには、このオプションを有効にします。
+* ****[!UICONTROL Hide Replies]** ** 親コメントがTrashedまたはBozo&#39;dの場合に自動的に返信するには、このオプションを有効にします。
 
 ## Modqでのユーザーステータスの変更 {#section_tmw_lg1_z1b}
 

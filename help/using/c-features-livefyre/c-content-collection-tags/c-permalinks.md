@@ -27,7 +27,7 @@ bit. ly URL短縮サービスを使用して、コンテンツの固定リンク
 
 会話を共有する際にコメント用にカスタムのカスタムリンクを作成する場合、標準のLivefyre短縮URL（fyre. it）ではなく、Bitlyアカウントを使用することがあります。Bitlyアカウントを使用すると、ユーザーがpermalinkをクリックしたときにサイト上のコンテンツを訪問するように通知することができます。
 
-この機能を実装するには、先 **[!UICONTROL Studio > Settings > Integration Settings > Social Sharing]**に移動し、Bitly APIキーとユーザー名を入力します。
+この機能を実装するには、先 **[!UICONTROL Studio > Settings > Integration Settings > Social Sharing]** に移動し、Bitly APIキーとユーザー名を入力します。
 
 >[!NOTE]
 >

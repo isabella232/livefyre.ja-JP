@@ -25,27 +25,27 @@ Media Wallはライブ画像やその他のコンテンツをリアルタイム�
 * ビデオ:Quicktime/MOV、MP4、MPEG、WebM
 * オーディオ:WAV、WAVE、X- MS- WMA、FAC、OGG、MPEG
 
-* **[!UICONTROL Items to load]**
+* **[!UICONTROL Items to load]** 
 
    表示されるコンテンツアイテムの初期数を設定します。
 
 * **[!UICONTROL Load content with animation.]** このオプションをオンにすると、アニメーションのあるページ上のメディアウォールが読み込まれます。このオプションをオフにすると、ページ上のメディアウォールをアニメーションなしで読み込みます。
 * **[!UICONTROL Number of columns.]** メディアウォールの列数を設定します。ウィンドウまたはブラウザーのサイズに関係なく、列数は同じままです。「自動」を選択すると、列の数が調整され、画面サイズに最適化された列数が表示されます。
 * **[!UICONTROL Fit content to width]**. このオプションをオフにすると、コンテンツは四角形にトリミングされます。このオプションをオンにすると、カード全体に画像全体が表示されるかどうか、カード全体が表示されます。
-* **[!UICONTROL Include content modal]**
+* **[!UICONTROL Include content modal]** 
 
    ストリーム内の写真をクリックして、オーバーレイウィンドウで画像を開くことができます。
 
 * **[!UICONTROL Require rights]**. このオプションを有効にすると、権限リクエストステータスのコンテンツのみが表示されます。
 * **[!UICONTROL Hide social branding when rights granted]** このスイッチをオンにすると、コンテンツの一部に対する権限が付与されたときに、元のソーシャルメディアネットワーク（TwitterまたはInstagram）のロゴが削除されます。
 
-* **[!UICONTROL Upload Button]**
+* **[!UICONTROL Upload Button]** 
 
    * **[!UICONTROL Allow user posts]**. ユーザーがアップロードボタンでテキスト、写真またはビデオを投稿できるようにするかどうかを選択します。
    * **[!UICONTROL Require Media]**. 「アップロード」ボタンを使用して写真またはビデオコンテンツのみをアップロードできるように、オンに切り替えます。
    * 次の「アップロードボタン」フィールドのデフォルトのテキストを編集できます。
 
-      * **[!UICONTROL Upload Button Text]**. アップロードボタンのテキスト。デフォルトのテキストは"?
+      * **[!UICONTROL Upload Button Text]**. アップロードボタンのテキスト。デフォルトのテキストは&quot;?
       * **[!UICONTROL Comment Modal Title]**. モーダルサイト訪問者がコンテンツを投稿するために使用するタイトル。デフォルトのテキストは「コメントを投稿」です。
       * **[!UICONTROL Comment Modal Button]**. ボタンサイト訪問者がコンテンツを投稿するためのテキスト。デフォルトのテキストは「コメントを投稿」です。
 
@@ -58,8 +58,8 @@ Media Wallはライブ画像やその他のコンテンツをリアルタイム�
       >
       >コンテンツに対する権限が付与されていない場合でもコンテンツが表示されますが、コンテンツの権利が付与されていない限り、「誘い文句（CTA:コールトゥアクション）」ボタンはコンテンツと共に表示されません。
 
-   * **[!UICONTROL Call-to-action header text]** コンテンツモーダルの「誘い文句（CTA:コールトゥアクション）」ボタンの上にあるヘッダーに表示する単語です。デフォルトの言い回しは、"Shopこれらの製品」です。」.
-   * **[!UICONTROL Call-to-action button text]** コンテンツモーダルの「誘い文句（CTA:コールトゥアクション）」ボタンに表示する単語です。デフォルトのテキストは"Buy Now"です。」.
+   * **[!UICONTROL Call-to-action header text]** コンテンツモーダルの「誘い文句（CTA:コールトゥアクション）」ボタンの上にあるヘッダーに表示する単語です。デフォルトの言い回しは、&quot;Shopこれらの製品」です。」.
+   * **[!UICONTROL Call-to-action button text]** コンテンツモーダルの「誘い文句（CTA:コールトゥアクション）」ボタンに表示する単語です。デフォルトのテキストは&quot;Buy Now&quot;です。」.
    * **[!UICONTROL Product display options]** 「誘い文句（CTA:コールトゥアクション）」ボタンで写真と製品名を表示するかどうかを選択します。
 
       >[!NOTE]
@@ -76,7 +76,7 @@ Media Wallはライブ画像やその他のコンテンツをリアルタイム�
 
 次を使用してメディアウォールをカスタマイズできます。
 
-* **[!UICONTROL Style]** およびすべてのアプリの **[!UICONTROL Config]** オプション **[!UICONTROL App Designer]**を参照してください。すべてのアプリの標準 **[!UICONTROL Style]** および **[!UICONTROL Config]** オプションについて詳しくは、アプリのカスタマイズを参照 **[!UICONTROL App Designer]**してください。
+* **[!UICONTROL Style]** およびすべてのアプリの **[!UICONTROL Config]** オプション **[!UICONTROL App Designer]** を参照してください。すべてのアプリの標準 **[!UICONTROL Style]** および **[!UICONTROL Config]** オプションについて詳しくは、アプリのカスタマイズを参照 **[!UICONTROL App Designer]** してください。
 
-* 統合ツール。統合ツールを使用してMediaウォールをカスタマイズする方法について詳しくは、 ["Mediaウォール統合](/help/implementation/c-app-integrations/c-media-wall-integration.md) 」を参照してください。
+* 統合ツール。統合ツールを使用してMediaウォールをカスタマイズする方法について詳しくは、 [&quot;Mediaウォール統合](/help/implementation/c-app-integrations/c-media-wall-integration.md) 」を参照してください。
 

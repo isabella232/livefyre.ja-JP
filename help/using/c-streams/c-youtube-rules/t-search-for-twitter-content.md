@@ -18,7 +18,7 @@ Social検索を使用して、アセットライブラリに含めるTwitterコ�
 
 ライブラリに新しいアセットを追加すると、ライブラリに既に含まれているアセットはチェックマーク付きでマークされます。
 
-1. 先に移動 **[!UICONTROL Social Search]**します。
+1. 先に移動 **[!UICONTROL Social Search]** します。
 1. Twitterコンテンツを検索 **[!UICONTROL Twitter]** する場合に選択します。
 1. キーワード、#ハッシュタグまたは@人を入力します。検索バーの右プルダウンメニューから検索タイプを選択して、検索を絞り込むことができます。
 
@@ -28,9 +28,9 @@ Social検索を使用して、アセットライブラリに含めるTwitterコ�
 
 1. 検索条件を入力したら、をクリック **[!UICONTROL Show Filter]** して検索を絞り込むことができます。
 
-   * **[!UICONTROL Sort By:]** を使用すると、返された結果をソートするか、またはその結果を並べ替えるかを選択 **[!UICONTROL Recently Added]****[!UICONTROL Most Popular]**できます。
+   * **[!UICONTROL Sort By:]** を使用すると、返された結果をソートするか、またはその結果を並べ替えるかを選択 **[!UICONTROL Recently Added]** **[!UICONTROL Most Popular]** できます。
 
-   * **[!UICONTROL Only Include:]** を使用すると、返されるコンテンツのみに含ま **[!UICONTROL Links]** れるコンテンツのみを制限 **[!UICONTROL Media]**できます。
+   * **[!UICONTROL Only Include:]** を使用すると、返されるコンテンツのみに含ま **[!UICONTROL Links]** れるコンテンツのみを制限 **[!UICONTROL Media]** できます。
 
    * **[!UICONTROL Tweet Types:]** を使用するとリツイートのみに戻ります。
    * **[!UICONTROL Location:]** では、ジオグァードコンテンツを含める半径を定義できます。「ロケーション」モーダルを使用して市区町村を入力し、スライダーバーを使用してコンテンツをソースにする半径を定義します。
@@ -42,4 +42,4 @@ Social検索を使用して、アセットライブラリに含めるTwitterコ�
 
 >=返された結果は、最新から最小に一覧表示されます。
 
-検索に一致する項目がグリッド表示に表示されます。アイテムにマウスポインターを **[!UICONTROL View Details]**置き、アセットライブラリまたはアプリケーション **[!UICONTROL Publish]** に追加します。
+検索に一致する項目がグリッド表示に表示されます。アイテムにマウスポインターを **[!UICONTROL View Details]** 置き、アセットライブラリまたはアプリケーション **[!UICONTROL Publish]** に追加します。

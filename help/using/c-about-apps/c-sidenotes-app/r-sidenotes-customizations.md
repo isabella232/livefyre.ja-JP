@@ -17,7 +17,7 @@ Socialアプリのサイズ、幅およびインタラクションオプショ�
 
 次を使用してサイトをカスタマイズできます。
 
-* **[!UICONTROL Style]** およびすべてのアプリの **[!UICONTROL Config]** オプション **[!UICONTROL App Designer]**を参照してください。すべてのアプリの標準 **[!UICONTROL Style]** および **[!UICONTROL Config]** オプションについて詳しくは、アプリのカスタマイズを参照 **[!UICONTROL App Designer]**してください。
+* **[!UICONTROL Style]** およびすべてのアプリの **[!UICONTROL Config]** オプション **[!UICONTROL App Designer]** を参照してください。すべてのアプリの標準 **[!UICONTROL Style]** および **[!UICONTROL Config]** オプションについて詳しくは、アプリのカスタマイズを参照 **[!UICONTROL App Designer]** してください。
 
 * 統合ツール。統合ツールを使用してアプリをカスタマイズする方法について詳しくは、「調査」を参照してください。
 

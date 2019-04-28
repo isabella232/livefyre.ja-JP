@@ -26,7 +26,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 次を使用してコメントをカスタマイズできます。
 
-* **[!UICONTROL Style]** およびすべてのアプリの **[!UICONTROL Config]** オプション **[!UICONTROL App Designer]**を参照してください。すべてのアプリの標準 **[!UICONTROL Style]** および **[!UICONTROL Config]** オプションについて詳しくは、アプリのカスタマイズを参照 **[!UICONTROL App Designer]**してください。
+* **[!UICONTROL Style]** およびすべてのアプリの **[!UICONTROL Config]** オプション **[!UICONTROL App Designer]** を参照してください。すべてのアプリの標準 **[!UICONTROL Style]** および **[!UICONTROL Config]** オプションについて詳しくは、アプリのカスタマイズを参照 **[!UICONTROL App Designer]** してください。
 
 * 統合ツール。統合ツールを使用したアプリのカスタマイズ方法について詳しくは、「トレンド」を参照してください。
 

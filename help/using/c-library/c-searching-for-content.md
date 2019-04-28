@@ -21,5 +21,5 @@ Web上の任意のURLからコンテンツを追加します。ページに埋�
 
 >[!NOTE]
 >
->"URL"フィールドを使用してInstagram検索を行う場合、作成者は"Instagram"として返されます。
+>&quot;URL&quot;フィールドを使用してInstagram検索を行う場合、作成者は&quot;Instagram&quot;として返されます。
 

@@ -1,6 +1,6 @@
 ---
-description: null
-seo-description: null
+description: 'null'
+seo-description: 'null'
 seo-title: Livefyre Analyticsイベント
 solution: Experience Manager
 title: Livefyre Analyticsイベント
@@ -58,13 +58,13 @@ Report Suite Managerを使用してレポートで使用するカスタムイベ
 | Twitter_ Reply | Twitterでユーザーが返信した時間 |
 | Twitter_ Like | コンテンツが共有された場所:リツイート |
 | Livefyre_ Like | アプリケーションでのLIivefyreの機能の使用 |
-| Livefyre_ Different | ユーザーが「いいね!"を取り消したときの「いいね!"の取り消し |
+| Livefyre_ Different | ユーザーが「いいね!&quot;を取り消したときの「いいね!&quot;の取り消し |
 | shareOnPost | ユーザーがコンテンツを投稿して投稿機能で共有を使用するたび |
 | ShareButtonClick | ユーザーがコメントの共有ボタンをクリックするたびに |
 | ShareTwitter | Twitterで共有をクリックしたとき |
-| ShareFacebook | "Facebookで共有」がクリックされたとき |
-| shareURL | "URLで共有」テキスト領域が選択/コピーされたとき。 |
-| expandReplies | ユーザーが"+"または「展開」リンクをクリックすると、上位レベルの投稿に対するすべての返信が表示されます |
+| ShareFacebook | &quot;Facebookで共有」がクリックされたとき |
+| shareURL | &quot;URLで共有」テキスト領域が選択/コピーされたとき。 |
+| expandReplies | ユーザーが&quot;+&quot;または「展開」リンクをクリックすると、上位レベルの投稿に対するすべての返信が表示されます |
 | collapseLeilies | ユーザーが-または折りたたみリンクをクリックして最上位レベルの投稿上のすべての返信を表示するとき |
 | flagClick | ユーザーがフラグモーダルを開くたびに |
 | flagスパム | ユーザーがコンテンツをスパムとしてフラグ付けする場合 |
@@ -72,12 +72,12 @@ Report Suite Managerを使用してレポートで使用するカスタムイベ
 | フラグ付き攻撃 | ユーザーがコンテンツに不快なフラグを付けたとき |
 | flagOffTopic | ユーザーがコンテンツをトピックとしてフラグ付けしたとき |
 | flagCancel | フラグを送信するときにユーザーがXまたは「キャンセル」をクリックしたとき |
-| followCollection | 会話にはいつでも入ります（レビューでは"I'm relite""）。 |
+| followCollection | 会話にはいつでも入ります（レビューでは&quot;I&#39;m relite&quot;&quot;）。 |
 | unfollowCollection | 会話の後に |
 | requestMore | ユーザーがアプリケーションにより多くのコンテンツをロードしたとき（高速度にするために必要） |
 | modalView | ユーザーがモーダルでコンテンツを表示するときにいつでもクリック |
 | TwitterResetTweetClick | コンテンツが共有された場所:リツイート |
-| postButtonClick | ユーザーが投稿をクリックすると（"Whats（お客様の心）」）。」）ボタン |
+| postButtonClick | ユーザーが投稿をクリックすると（&quot;Whats（お客様の心）」）。」）ボタン |
 | ログイン | ユーザーがログインしたときにいつでも |
 | ログアウト | ユーザーがログアウトしたときのいつでも |
 

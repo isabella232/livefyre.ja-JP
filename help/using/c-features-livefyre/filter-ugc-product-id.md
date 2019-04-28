@@ -20,25 +20,25 @@ source-git-commit: 76efa427b59a709009a3c2d3744ea65e0c959816
 
 1. 変更するアプリを選択します。
 
-1. 左側のパネルで"Designer"タブを選択します。
+1. 左側のパネルで&quot;Designer&quot;タブを選択します。
 
-1. 有効 **[!UICONTROL Filter UGC by Product ID]**化
+1. 有効 **[!UICONTROL Filter UGC by Product ID]** 化
 
 ![](assets/filter-ugc-product-id.png)
 
 1. UGCをフィルターする製品または製品を含むトップレベルの製品フォルダを選択します。
 複数のフォルダを選択するには、CtrlまたはCommandキーを押しながらクリックします。
 
-1. 無効 **[!UICONTROL Show related content]**にします。
+1. 無効 **[!UICONTROL Show related content]** にします。
 有効にすると `data-lf-attr-product` 、属性を使用してフィルターされたコンテンツが最初に表示され、その後にアプリ内の他のすべてのコンテンツが表示されます。
 
-1. **[!UICONTROL Publish]**をクリックします。
+1. **[!UICONTROL Publish]** をクリックします。
 
 1. フィルタリングする製品IDを、結果のコードに挿入します。
 
 >[!NOTE]
 >
->製品IDを探すには、に移動 **[!UICONTROL Settings > Products]**します。目的の製品を見つけて選択し、IDを表示します。
+>製品IDを探すには、に移動 **[!UICONTROL Settings > Products]** します。目的の製品を見つけて選択し、IDを表示します。
 
 例えば、Mediaウォールアプリ用に次のコードが生成されます。
 

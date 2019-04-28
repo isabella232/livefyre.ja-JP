@@ -48,7 +48,7 @@ Livefyre.require(['fyre.conv#3'], function (Review) {
 });
 ```
 
-"Building `CollectionMeta` 」セクションに記述されているとおり、 `CollectionMeta` エンコードされたJSONオブジェクトです。上記の例では、JSONオブジェクトはJWTエンコード前に次の形式を使用します。
+&quot;Building `CollectionMeta` 」セクションに記述されているとおり、 `CollectionMeta` エンコードされたJSONオブジェクトです。上記の例では、JSONオブジェクトはJWTエンコード前に次の形式を使用します。
 
 ```
 { 

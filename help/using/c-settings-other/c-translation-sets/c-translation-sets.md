@@ -115,7 +115,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | WasreviewURPfulmobile | 役に立つか。 |
 |  | OwnWasReviewPaful | [便利です。](https://d.pr/i/Q0mA) |
 |  | ReviewWasful | [はい](https://d.pr/i/Q0mA) |
-|  | HelpFulldivider | [& amp;vert;](https://d.pr/i/Q0mA) |
+|  | HelpFulldivider | [&amp; amp;vert;](https://d.pr/i/Q0mA) |
 |  | ReviewWasNoSupport | [いいえ](https://d.pr/i/Q0mA) |
 | 投票モーダル | videTitle | このレビューは役に立ちましたか。 |
 |  | videDown投票 | いいえ |
@@ -154,7 +154,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | errorAuthError | この会話にはレビューを投稿する権限がありません |
 |  | errorCommentSnowAllowed | 現時点ではレビューを投稿できません |
 |  | errorDismisseOwnComment | 自分のレビューには気をつけることはできません |
-|  | errorDuplicate | レビューを「いいね!"するだけで、2回投稿することはできません。 |
+|  | errorDuplicate | レビューを「いいね!&quot;するだけで、2回投稿することはできません。 |
 |  | errorEditDuplicate | 編集時にレビューの本文を変更する必要があります。 |
 |  | errorEditNotAllowed | この会話ではレビューを編集できません。 |
 |  | errorEditTimeExced | レビューの編集期間が有効期限切れです。 |
@@ -235,7 +235,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | commentSearchCount | 投票数 |
 |  | commentSearchCounting | 投票 |
 |  | dataTimeMinutePrefix | m |
-|  | dataTimeMons | 配列。デフォルト=[ '1月'、'2月'、'3月'、'4月'、'5月'、'月'、'月'、'月'、'8月'、'11月'、'12月'、'12月' ] |
+|  | dataTimeMons | 配列。デフォルト=[ &#39;1月&#39;、&#39;2月&#39;、&#39;3月&#39;、&#39;4月&#39;、&#39;5月&#39;、&#39;月&#39;、&#39;月&#39;、&#39;月&#39;、&#39;8月&#39;、&#39;11月&#39;、&#39;12月&#39;、&#39;12月&#39; ] |
 |  | QuestionDescription | 文章、段落、画像、引用符でコメントを直接読み取りおよび書き込みできるようになりました。<br><br><span class="&rdquo;lf-highlight-text&rdquo;">テキスト</span> をハイライトしてアイコンを <span class="&rdquo;fycon-write&rdquo;"></span> クリックするか、各段落の最後に <span class="&rdquo;fycon-action-view&rdquo;"></span> あるアイコンをクリックします。 |
 |  | QuestionModeText | 「なじみのある」という理由では、適切に認識されません。 |
 |  | QuestionTitle | Sitesizeとは何ですか。 |
@@ -256,7 +256,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | menuFlagOptionOffTopic | トピックなし |
 |  | menuFlagOptionスパム | スパム |
 |  | menuFlagTitle | フラグの設定 |
-|  | facebookShareReption | "{title}"について |
+|  | facebookShareReption | &quot;{title}&quot;について |
 | モバイルユーザーオプション | sliderCommentTempt | of |
 |  | sliderInviterAd | 読み取り |
 |  | sliderInviteWrite | 書き込み |

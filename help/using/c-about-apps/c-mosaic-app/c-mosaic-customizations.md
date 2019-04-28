@@ -15,7 +15,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Mosaicアプリケーションのサイズ、幅、操作オプションを変更します。
 
-すべてのアプリの使用および **[!UICONTROL Style]****[!UICONTROL Config]** オプション **[!UICONTROL App Designer]**。詳しく **[!UICONTROL Style]** は **[!UICONTROL Config]** 、 **[!UICONTROL App Designer.]**
+すべてのアプリの使用および **[!UICONTROL Style]** **[!UICONTROL Config]** オプション **[!UICONTROL App Designer]** 。詳しく **[!UICONTROL Style]** は **[!UICONTROL Config]**、 **[!UICONTROL App Designer.]** 
 
 App Designerの次の追加オプションを使用して、Mosaicをカスタマイズできます。
 
@@ -41,9 +41,9 @@ App Designerの次の追加オプションを使用して、Mosaicをカスタ�
    * **[!UICONTROL Show call-to-action in tile]**. サイト訪問者がカードをクリックしてより大きいウィンドウでコンテンツを開く場合にのみ、誘い文句（CTA:コールトゥアクション）ボタンをフィルムストリップタイルに表示するかどうかを選択します。
    * **[!UICONTROL Call-to-action indication text]** ユーザーにカードのクリックを促し、誘い文句（CTA:コールトゥアクション）モーダルを開くように促すテキストです。
 
-   * **[!UICONTROL Call-to-action header text]** コンテンツモーダルの「誘い文句（CTA:コールトゥアクション）」ボタンの上にあるヘッダーに表示する単語です。デフォルトの言い回しは、"Shopこれらの製品」です。」.
+   * **[!UICONTROL Call-to-action header text]** コンテンツモーダルの「誘い文句（CTA:コールトゥアクション）」ボタンの上にあるヘッダーに表示する単語です。デフォルトの言い回しは、&quot;Shopこれらの製品」です。」.
 
-   * **[!UICONTROL Call-to-action button text]** 誘い文句（CTA:コールトゥアクション）ボタンのテキストをカスタマイズします。デフォルトのテキストは"Buy Now"です。
+   * **[!UICONTROL Call-to-action button text]** 誘い文句（CTA:コールトゥアクション）ボタンのテキストをカスタマイズします。デフォルトのテキストは&quot;Buy Now&quot;です。
 
    * **[!UICONTROL Product display options]** 「誘い文句（CTA:コールトゥアクション） **[!UICONTROL Photo]** 」ボタンを **[!UICONTROL Product name]** 表示するかどうかを選択します。
 
@@ -57,4 +57,4 @@ App Designerの次の追加オプションを使用して、Mosaicをカスタ�
    * **[!UICONTROL Select Product folders]**. UGCのフィルターに使用する最上位の製品フォルダーを選択します。複数のフォルダを選択するには、CtrlまたはCommandキーを押しながらクリックします。Livefyreはフォルダーを使用して、そのフォルダー内のどの製品を様々なページのアプリに表示するかを判断します。
    * **[!UICONTROL Show related content]**. これを切り替えると、アプリに投稿されたコンテンツが表示されますが、別の製品IDでタグ付けされます。アプリに固有のコンテンツが表示された後、Livefyreはその製品に関連付けられていない他の製品やコンテンツのコンテンツを表示します。Livefyreは、最初に同じ製品IDを持つコンテンツを優先順位付けし、その後、他の製品IDと共にアプリに投稿されたコンテンツを、製品IDなしでアプリに公開します。
 
-Livefyre. jsを使用したモザイクのカスタマイズ方法について詳しくは [、"Mosaic Options](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md) 」を参照してください。
+Livefyre. jsを使用したモザイクのカスタマイズ方法について詳しくは [、&quot;Mosaic Options](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md) 」を参照してください。

@@ -45,39 +45,39 @@ Livefyre検索フィールドではワイルドカードがサポートされて
 
 ![](assets/PublishedState-1024x367.png)
 
-**[!UICONTROL Quick Filters]** プルダウンを使用して、返されたコンテンツを **[!UICONTROL All Content]****[!UICONTROL All Sidenotes]****[!UICONTROL Approved]****[!UICONTROL Approved & Flagged]****[!UICONTROL Pending]****[!UICONTROL Rights Requests]** 、またはステータスに絞り込みます。次に **[!UICONTROL Filter by]** 、オプションを選択し、検索を絞り込むために使用できるチェックボックスまたは入力フィールドを使用します。
+**[!UICONTROL Quick Filters]** プルダウンを使用して、返されたコンテンツを **[!UICONTROL All Content]** **[!UICONTROL All Sidenotes]** **[!UICONTROL Approved]** **[!UICONTROL Approved & Flagged]** **[!UICONTROL Pending]** **[!UICONTROL Rights Requests]**、またはステータスに絞り込みます。次に **[!UICONTROL Filter by]**、オプションを選択し、検索を絞り込むために使用できるチェックボックスまたは入力フィールドを使用します。
 
-プルダウンメニューを使用して、リスト内のコンテンツを **[!UICONTROL Newest]****[!UICONTROL Oldest]****[!UICONTROL Recently updated]****[!UICONTROL Most flags]****[!UICONTROL Most liked]**、または、または
+プルダウンメニューを使用して、リスト内のコンテンツを **[!UICONTROL Newest]** **[!UICONTROL Oldest]** **[!UICONTROL Recently updated]** **[!UICONTROL Most flags]** **[!UICONTROL Most liked]**、または、または
 
 ## オプションでフィルター {#section_aqn_xqm_zz}
 
 バーを **[!UICONTROL Filter by]** 使用して、次のオプションを使用してフィルターします。
 
-* **状態** コンテンツの現在のモデレート状態でフィルターできます。** [!UICONTROL All Content]** **[!UICONTROL Approved]****[!UICONTROL Pending]**、 **[!UICONTROL Bozo]**または.
+* **状態** コンテンツの現在のモデレート状態でフィルターできます。** [!UICONTROL All Content]** **[!UICONTROL Approved]** **[!UICONTROL Pending]**、 **[!UICONTROL Bozo]** または.
 
-* **ソース** コンテンツのソースでフィルターできます。ユーザー生成コンテンツをストリームに直接投稿する **[!UICONTROL Livefyre]** 場合に選択します。それら **[!UICONTROL Facebook]****[!UICONTROL Twitter]**のソースからアプリに取り込まれたコンテンツを選択するか、また **[!UICONTROL RSS]** は含めます。
+* **ソース** コンテンツのソースでフィルターできます。ユーザー生成コンテンツをストリームに直接投稿する **[!UICONTROL Livefyre]** 場合に選択します。それら **[!UICONTROL Facebook]** **[!UICONTROL Twitter]** のソースからアプリに取り込まれたコンテンツを選択するか、また **[!UICONTROL RSS]** は含めます。
 
-* **フラグ** 選択フラグを使用すると、安全（不敬、スパム、また **[!UICONTROL User Flags]** は悪意のあるモデレート）によって適用される **[!UICONTROL System Flags]** （不問、スパム、または悪意のあるモデレート）ことで、フィルターを適用でき **[!UICONTROL Moderation Recommendations]**ます。 ![](assets/appcontentfilter.png)
+* **フラグ** 選択フラグを使用すると、安全（不敬、スパム、また **[!UICONTROL User Flags]** は悪意のあるモデレート）によって適用される **[!UICONTROL System Flags]** （不問、スパム、または悪意のあるモデレート）ことで、フィルターを適用でき **[!UICONTROL Moderation Recommendations]** ます。 ![](assets/appcontentfilter.png)
 
 * **日付/時間** コンテンツが最初に表示 **[!UICONTROL Created]** された（またはSocialSyncまたはストリームを通じてアプリに取り込まれた）とき、または最後 **[!UICONTROL Modified]** （編集、フラグ付け、状態が変更された場合）によって、サイトを分割できます。
 
-* **作成者** は、発言者 **[!UICONTROL IP]** のアドレス（ユーザーパネルまたは発言者 **[!UICONTROL Display Name]** が投稿したコンテンツの上）または **[!UICONTROL User ID]**（ユーザーパネルに表示されているコンテンツ）でフィルタリングできます。
+* **作成者** は、発言者 **[!UICONTROL IP]** のアドレス（ユーザーパネルまたは発言者 **[!UICONTROL Display Name]** が投稿したコンテンツの上）または **[!UICONTROL User ID]** （ユーザーパネルに表示されているコンテンツ）でフィルタリングできます。
 
-* **「次を含む」で** は、最近の90日間のコンテンツをフィルター **[!UICONTROL Keyword]****[!UICONTROL Content Tag]**できます。メディアを含むコンテンツのみを返す **[!UICONTROL Media]** チェックボックスを選択します。（すべてのコンテンツを検索するには、リスト内のすべてのコンテンツを下にスクロールして、をクリック **[!UICONTROL Search full data]**します）。
+* **「次を含む」で** は、最近の90日間のコンテンツをフィルター **[!UICONTROL Keyword]** **[!UICONTROL Content Tag]** できます。メディアを含むコンテンツのみを返す **[!UICONTROL Media]** チェックボックスを選択します。（すべてのコンテンツを検索するには、リスト内のすべてのコンテンツを下にスクロールして、をクリック **[!UICONTROL Search full data]** します）。
 
    **注意:** 複数のキーワードおよびコンテンツタグ検索はサポートされていません。複数のキーワードまたはタグを入力すると、最後の単語が検索に使用されます。
 
    コンテンツタグで検索する場合、検索フィールドに入力すると、推奨タグが自動入力されます。検索結果は、タグが割り当てられているすべてのコンテンツを返します。（このフィールドを使用して特集コンテンツを検索するか、Studioの特集コンテンツの **[!UICONTROL Featured]** ラベルをクリックします）。
 
-   **注意:** タグ名の前にマイナス（-）記号を使用して、そのタグを含まないコンテンツを検索します。次に例を示します。"- Miley"を検索して、"Mily"タグを含まないすべてのコンテンツを検索します。
+   **注意:** タグ名の前にマイナス（-）記号を使用して、そのタグを含まないコンテンツを検索します。次に例を示します。&quot;- Miley&quot;を検索して、&quot;Mily&quot;タグを含まないすべてのコンテンツを検索します。
 
 * **App** Allows you to filter by **[!UICONTROL Collection ID]**, **[!UICONTROL App Tag]**, or **Parent ID**. 親IDでフィルタリングすると、入力コンテンツIDに対する返信であるすべてのコンテンツが返されます。（複数のタグでフィルターするには、タグをコンマで区切って入力します）。
 
-* **Rights** Requestステータスでフィルターできます。** [!UICONTROL Requested]** **[!UICONTROL Granted]****[!UICONTROL Replied]**、 **[!UICONTROL Expired]**または.
+* **Rights** Requestステータスでフィルターできます。** [!UICONTROL Requested]** **[!UICONTROL Granted]** **[!UICONTROL Replied]**、 **[!UICONTROL Expired]** または.
 
 ## Bozo Content {#section_afl_vqm_zz}
 
-アプリでは **[!UICONTROL Bozo]** 、コンテンツはコンテンツの作成者にのみ表示されます。これにより、ユーザーは自分のコンテンツを承認され、他のすべてのユーザーおよびモデレーターから非表示にすることができます。
+アプリでは **[!UICONTROL Bozo]**、コンテンツはコンテンツの作成者にのみ表示されます。これにより、ユーザーは自分のコンテンツを承認され、他のすべてのユーザーおよびモデレーターから非表示にすることができます。
 
 >[!NOTE]
 >
@@ -101,9 +101,9 @@ Livefyre検索フィールドではワイルドカードがサポートされて
 
 * **[!UICONTROL Flags & Reports:]** すべてのユーザーフラグ、コンテンツにフラグを付けたユーザーのアバター、およびコンテンツ（コンテンツにフラグを付けたときにユーザーによって追加されたメモ）を表示します。
 * **[!UICONTROL Add a note:]** を使用すると、メモを追加したり、他の管理者やモデレーターに表示したりできます。
-* **[!UICONTROL Request Rights:]** によって **[!UICONTROL New Rights Request]** 、Rights Requestが発行されるダイアログが開きます。
+* **[!UICONTROL Request Rights:]** によって **[!UICONTROL New Rights Request]**、Rights Requestが発行されるダイアログが開きます。
 
-* ****[!UICONTROL Save as Asset:]を開くと **[!UICONTROL Advanced Options]** 、選択したアイテムをアセットライブラリに保存したり、アプリケーションに投稿したり、作成者から再利用権限を要求したりできます。
+* ****[!UICONTROL Save as Asset:]を開くと **[!UICONTROL Advanced Options]**、選択したアイテムをアセットライブラリに保存したり、アプリケーションに投稿したり、作成者から再利用権限を要求したりできます。
 
 ![](assets/PublishedMoreInfo-1024x462.png)
 
@@ -111,7 +111,7 @@ Livefyre検索フィールドではワイルドカードがサポートされて
 
 コンテンツのタグ付けを行うと、コンテンツを分類して整理したり、コンテンツを整理したり、特集どおりにコンテンツをマークしたりできます。
 
-タグを追加するには、コンテンツの下にあるプラス（ **[!UICONTROL +]**）アイコンをクリックします。新しいタグを入力するか、既存のタグのリストから選択します。
+タグを追加するには、コンテンツの下にあるプラス（**[!UICONTROL +]**）アイコンをクリックします。新しいタグを入力するか、既存のタグのリストから選択します。
 
 ![](assets/PublishedAddTag-1024x338.png)
 
@@ -135,7 +135,7 @@ Livefyre検索フィールドではワイルドカードがサポートされて
 
 * 機能を停止するには、コンテンツ **[!UICONTROL x]** の一部に表示されている **[!UICONTROL Featured]** タグをクリックします。
 
-* コメント、ライブブログまたはレビューアプリ内で、特集するコンテンツの上にカーソルを移動し、をクリック **[!UICONTROL Feature]**します。機能を停止するには、コンテンツの上にマウスポインターを置いて、をクリック **[!UICONTROL Unfeature]**します。
+* コメント、ライブブログまたはレビューアプリ内で、特集するコンテンツの上にカーソルを移動し、をクリック **[!UICONTROL Feature]** します。機能を停止するには、コンテンツの上にマウスポインターを置いて、をクリック **[!UICONTROL Unfeature]** します。
 
 >[!NOTE]
 >

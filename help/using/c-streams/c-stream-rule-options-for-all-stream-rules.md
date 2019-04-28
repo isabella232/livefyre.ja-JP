@@ -19,11 +19,11 @@ source-git-commit: 8bdb537b38d78dba033d6671b710c2a61934d6b2
 
 * キーワードを入力すると、Livefyreは自動的にBoolean演算子 **OR** を使用します。*例えば、ケーキ* または *レシピ*のある投稿を検索するには、ケーキを入力 **して、フィールドに *レシピ* を入力 **[!UICONTROL keyword]** します。
 
-* 正確なフレーズテキストを引用符で囲むことで、正確なフレーズを検索できます。For example, to search for the exact phrase *cake recipe*, enter *"cake recipe"* in the **[!UICONTROL keyword]** field.
+* 正確なフレーズテキストを引用符で囲むことで、正確なフレーズを検索できます。For example, to search for the exact phrase *cake recipe*, enter *&quot;cake recipe&quot;* in the **[!UICONTROL keyword]** field.
 
 * ブール値と完全一致フレーズの検索は、1つのストリームルール内で組み合わせることができます。例えば、各フレーズを一度に入力して *、ケーキ*、 *レシピ*、 *「ケーキレシピ」* を検索できます。
 
-**[!UICONTROL Additional Filters]**:
+**[!UICONTROL Additional Filters]** :
 
 * **[!UICONTROL Media]**. 次のいずれかを選択します。
 
@@ -36,9 +36,9 @@ source-git-commit: 8bdb537b38d78dba033d6671b710c2a61934d6b2
 * **[!UICONTROL Products]**. 製品タグを追加して、製品カタログの製品と共に、ストリームルールに一致させます。
 * **[!UICONTROL Premoderate]**. 次のいずれかを選択します。
 
-   * **[!UICONTROL On]**. すべての受信ルールコンテンツのモデレートModeredコンテンツは、Modqの"Streams"セクションから表示できます。**[!UICONTROL On]** は、アプリ設定の設定よりも優先されます。
+   * **[!UICONTROL On]**. すべての受信ルールコンテンツのモデレートModeredコンテンツは、Modqの&quot;Streams&quot;セクションから表示できます。**[!UICONTROL On]** は、アプリ設定の設定よりも優先されます。
    * **[!UICONTROL Off]**. 受信ルールコンテンツを事前モデレートしないでください。**[!UICONTROL Off]** は、アプリ設定の設定よりも優先されます。
-   * **[!UICONTROL Inherited (Off)]**. サイトの事前モデレート設定を使用します（下の） **[!UICONTROL Site Settings]**。
+   * **[!UICONTROL Inherited (Off)]**. サイトの事前モデレート設定を使用します（下の） **[!UICONTROL Site Settings]** 。
 
 * **[!UICONTROL SAFE Rules]**. 次のいずれかを選択します。
    * **[!UICONTROL Apply SAFE Rules]**. すべてのセーフルールをこのストリームに適用します。

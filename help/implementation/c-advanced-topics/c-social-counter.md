@@ -13,7 +13,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # ソーシャルカウンター{#social-counter}
 
-キュレーションされたソーシャルアイテムの数をカウントします。使用可能なエンドポイントの一覧については、"Livefyre [APIリファレンス](https://api.livefyre.com/docs) 」の節を参照してください。
+キュレーションされたソーシャルアイテムの数をカウントします。使用可能なエンドポイントの一覧については、&quot;Livefyre [APIリファレンス](https://api.livefyre.com/docs) 」の節を参照してください。
 
 SocialカウンターAPIは、特定のコレクション内の一致するキュレーションルールのカウントを、一定期間の間隔で返します。
 

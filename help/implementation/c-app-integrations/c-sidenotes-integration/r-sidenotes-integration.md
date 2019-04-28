@@ -53,7 +53,7 @@ Livefyre.require(['sidenotes#1', 'auth'], function (Sidenotes, Auth) {
 </html>
 ```
 
-"Building `collectionMeta` 」セクションに記述されているとおり、 `collectionMeta` エンコードされたJSONオブジェクトです。上記の例では、JSONオブジェクトはJWTエンコード前に次の形式を使用しています。
+&quot;Building `collectionMeta` 」セクションに記述されているとおり、 `collectionMeta` エンコードされたJSONオブジェクトです。上記の例では、JSONオブジェクトはJWTエンコード前に次の形式を使用しています。
 
 ```
 { 

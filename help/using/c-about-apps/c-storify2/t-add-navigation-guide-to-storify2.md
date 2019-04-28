@@ -16,4 +16,4 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 ストーリーの横にある目立つ場所に永続的な投稿のリストを作成するために、Storify2アプリケーションにナビゲーションガイドを追加します。
 
 1. Storify2のストーリーを開きます。
-1. Storify2App Designerで **[!UICONTROL Navigation Guide]** 、切り替えを切り替えます。
+1. Storify2App Designerで **[!UICONTROL Navigation Guide]**、切り替えを切り替えます。

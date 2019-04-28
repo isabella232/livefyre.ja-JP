@@ -29,7 +29,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ## コメント通知者の非表示 {#section_cmy_cvx_vy}
 
-バーの **[!UICONTROL x]****[!UICONTROL New Comments]** 右下隅をクリックして、そのページの通知通知を閉じます。ページを更新し、通知者が再度表示されるようにします。
+バーの **[!UICONTROL x]** **[!UICONTROL New Comments]** 右下隅をクリックして、そのページの通知通知を閉じます。ページを更新し、通知者が再度表示されるようにします。
 
 CSSのカスタマイズを使用して、ネットワーク全体で通知ウィジェットを非表示にします。
 

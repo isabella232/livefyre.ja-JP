@@ -23,15 +23,15 @@ Instagramのソーシャルアカウントには、Adobe Livefyreの使用方法
 
 ソーシャルアカウントを設定するには:
 
-1. 次の場所へ移動 **[!UICONTROL Settings >]****[!UICONTROL Network Settings.]**
-1. 下 **[!UICONTROL Social Accounts]** のセクションに移動 **[!UICONTROL Network Settings]**します。
+1. 次の場所へ移動 **[!UICONTROL Settings >]** **[!UICONTROL Network Settings.]** 
+1. 下 **[!UICONTROL Social Accounts]** のセクションに移動 **[!UICONTROL Network Settings]** します。
 1. 追加するソーシャルアカウントのタイプ **[!UICONTROL Add Account]** をクリックします。Livefyreのアカウントを認証するためのダイアログボックスがポップアップ表示されます。
 
    ![](assets/i_settings_social_insta.png)
 
    >[!NOTE]
    >
-   >Instagramのビジネスアカウントを設定すると、Facebookログイン画面が表示されます。通常どおりログインを続行します。 ![](assets/i_insta_biz_facebook_dialog.png) >
+   >Instagramのビジネスアカウントを設定すると、Facebookログイン画面が表示されます。通常どおりログインを続行します。 ![](assets/i_insta_biz_facebook_dialog.png) &gt;
 
 1. クリック **[!UICONTROL Authorize App]** して続行してください。
-1. アカウント **[!UICONTROL Display Name]** を追加し、をクリック **[!UICONTROL Save Settings.]**します。アカウント情報ボックスのヘッダー内を **[!UICONTROL Social Account]** クリックして、アカウントを折りたたみます。
+1. アカウント **[!UICONTROL Display Name]** を追加し、をクリック **[!UICONTROL Save Settings.]** します。アカウント情報ボックスのヘッダー内を **[!UICONTROL Social Account]** クリックして、アカウントを折りたたみます。

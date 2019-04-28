@@ -14,12 +14,12 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 MOQでアイテムをごみ箱に入れた場合、Social検索を使用してアプリに追加できます。
 
-1. に移動 **[!UICONTROL Library]**します。
-1. 選択 **[!UICONTROL Social Search]**します。
+1. に移動 **[!UICONTROL Library]** します。
+1. 選択 **[!UICONTROL Social Search]** します。
 1. （ **[!UICONTROL Social Source]** 例えば、TwitterやInstagram）を選択します。
 1. ハッシュタグを入力します。
 1. コンテンツを選択します。
 1. コンテンツの右下隅にある3つのドットを選択します。
 1. をクリック **[!UICONTROL Publish]** して、コンテンツを正しいアプリに投稿します。
 
-   WARNING:modqでは選択 **[!UICONTROL Bulk Clear]** しないでください。選択 **[!UICONTROL Bulk Clear]**すると、すべてのコンテンツがModqから削除されます。コンテンツをMOQに追加するには、レビューと承認のためにソーシャル検索を実行する必要があります。
+   WARNING:modqでは選択 **[!UICONTROL Bulk Clear]** しないでください。選択 **[!UICONTROL Bulk Clear]** すると、すべてのコンテンツがModqから削除されます。コンテンツをMOQに追加するには、レビューと承認のためにソーシャル検索を実行する必要があります。

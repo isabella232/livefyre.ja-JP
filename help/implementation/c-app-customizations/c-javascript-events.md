@@ -1,7 +1,6 @@
 ---
 description: 会話アプリ（Comments、Chat、Live Blog、Reviews、Sidenotes など）用に JavaScript をバインドできるものに対して使用できるイベントです。
-seo-description: 会話アプリ（Comments、Chat、Live Blog、Reviews、Sidenotes など）用に JavaScript
-  をバインドできるものに対して使用できるイベントです。
+seo-description: 会話アプリ（Comments、Chat、Live Blog、Reviews、Sidenotes など）用に JavaScript をバインドできるものに対して使用できるイベントです。
 seo-title: JavaScriptイベントの定義と例
 solution: Experience Manager
 title: JavaScriptイベントの定義と例
@@ -16,7 +15,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 会話アプリ（Comments、Chat、Live Blog、Reviews、Sidenotes など）用に JavaScript をバインドできるものに対して使用できるイベントです。
 
-Livefyreアプリでユーザーアクティビティを追跡するためのJavaScriptイベントがLivefyreに提供されています。例えば、ユーザーがTwitterやFacebookにコンテンツを「いいね!"または共有したり、新しいコンテンツが投稿されたときにページを更新したりできます。
+Livefyreアプリでユーザーアクティビティを追跡するためのJavaScriptイベントがLivefyreに提供されています。例えば、ユーザーがTwitterやFacebookにコンテンツを「いいね!&quot;または共有したり、新しいコンテンツが投稿されたときにページを更新したりできます。
 
 また、サードパーティの分析統合（Adobe Analytics JS、Google Analytics、Dynamic Tag Managementなど）にイベントを追加して、アプリイベントを追跡することもできます。詳しくは、サードパーティの統合マネージャーと協力して、適切なイベントを提供してください。
 
@@ -71,7 +70,7 @@ data = {
 
 ## CommentHapped {#section_vc1_r1p_xz}
 
-ユーザーがコメントを「いいね!"しました。
+ユーザーがコメントを「いいね!&quot;しました。
 
 ```
 data = { 

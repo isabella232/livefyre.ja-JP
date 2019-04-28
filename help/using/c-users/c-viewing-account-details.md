@@ -29,7 +29,7 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 ユーザータグをアカウントに追加して、タグ付きユーザーをより簡単に検索したり、タグ付きユーザーのコンテンツをサイト上の他のユーザーのコンテンツと慎重に区別したりできます。
 
-ユーザータグを使用して、サイト上の他のコンテンツとは異なるコンテンツのスタイルを設定する方法について詳しくは、を参照 **[!UICONTROL App Customizations > Style User Group Content]**してください。
+ユーザータグを使用して、サイト上の他のコンテンツとは異なるコンテンツのスタイルを設定する方法について詳しくは、を参照 **[!UICONTROL App Customizations > Style User Group Content]** してください。
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 コンテンツがBoszoのコンテンツになるので、禁止されているユーザーは不適切なコンテンツを投稿し続けることができますが、他のコミュニティには表示されなくなります。
 
-詳しく **[!UICONTROL Studio > App Content > Bozo Content]**は、を参照してください。
+詳しく **[!UICONTROL Studio > App Content > Bozo Content]** は、を参照してください。
 
 ## ホワイトリストのユーザー {#section_kr4_ptp_vz}
 

@@ -15,7 +15,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 JavaScriptイベントを使用して、Mediaウォールで発生したイベントをリスニングし、選択した分析ツールに送信します。
 
-Livefyreアプリでユーザーアクティビティを追跡するためのJavaScriptイベントがLivefyreに提供されています。例えば、ユーザーがTwitterやFacebookにコンテンツを「いいね!"または共有したり、新しいコンテンツが投稿されたときにページを更新したりできます。
+Livefyreアプリでユーザーアクティビティを追跡するためのJavaScriptイベントがLivefyreに提供されています。例えば、ユーザーがTwitterやFacebookにコンテンツを「いいね!&quot;または共有したり、新しいコンテンツが投稿されたときにページを更新したりできます。
 
 イベントの受信方法の例を以下に示します。コード `console.log` に置き換えて、Analytics統合（Dynamic Tag Management、Adobe Analytics JS、Google Analyticsなど）にイベントをマッピングして送信します。
 
@@ -37,10 +37,10 @@ document.body.addEventListener('insights', function (data) {
 | `RequestMore` | ユーザがメディアウォールにコンテンツを読み込むとき。 |
 | `TwitterReplyClick` | ユーザーがMediaウォールからTwitterの返信ボタンをクリックしたとき。 |
 | `TwitterRetweetClick` | ユーザがMediaウォールからTwitterリツイートボタンをクリックしたとき。 |
-| `TwitterLikeClick` | ユーザーがMediaウォールから"Twitterのいいね!"または「お気に入り」ボタンをクリックしたとき。 |
+| `TwitterLikeClick` | ユーザーがMediaウォールから&quot;Twitterのいいね!&quot;または「お気に入り」ボタンをクリックしたとき。 |
 | `ModalView` | ユーザがクリックして、より大きなモーダルウィンドウでMediaウォールコンテンツを表示する場合。 |
-| `Like` | ユーザがMediaウォールから「いいね!"ボタンをクリックしたとき。 |
+| `Like` | ユーザがMediaウォールから「いいね!&quot;ボタンをクリックしたとき。 |
 | `ShareButtonClick` | Mediaウォールカードの共有ボタンをユーザーがクリックしたとき。 |
-| `ShareURL` | "URLで共有」テキスト領域がメディアウォールから選択/コピーされたとき。 |
-| `ShareFacebook` | "Facebookで共有」がクリックされると、Mediaウォールからクリックされます。 |
-| `ShareTwitter` | "Twitterで共有」がクリックされると、Mediaウォールからクリックされます。 |
+| `ShareURL` | &quot;URLで共有」テキスト領域がメディアウォールから選択/コピーされたとき。 |
+| `ShareFacebook` | &quot;Facebookで共有」がクリックされると、Mediaウォールからクリックされます。 |
+| `ShareTwitter` | &quot;Twitterで共有」がクリックされると、Mediaウォールからクリックされます。 |

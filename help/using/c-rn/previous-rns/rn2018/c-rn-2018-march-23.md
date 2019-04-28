@@ -24,7 +24,7 @@ source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
    1. クライアントOAuth設定の **[!UICONTROL Valid OAuth redirect URIs]** フィールドに次のURLを追加します。正しい `<networkname>` ネットワーク名に置き換えます。
       `https://identity.livefyre.com/<networkname>/api/v1.0/public/profile/social/complete/facebook_fyre`
 
-   1. に切り替え **[!UICONTROL Use Strict Mode for Redirect URI]****[!UICONTROL Yes]**ます。
+   1. に切り替え **[!UICONTROL Use Strict Mode for Redirect URI]** **[!UICONTROL Yes]** ます。
 
 * **UATの新機能:** ストリーム内のスマートタグの信頼性しきい値を選択できるようになりました。タグに精度スコア（0~100）を設定すると、取得するアセットの正確性を制御できます。
 

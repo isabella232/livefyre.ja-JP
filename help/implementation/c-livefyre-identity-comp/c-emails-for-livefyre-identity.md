@@ -1,6 +1,6 @@
 ---
-description: null
-seo-description: null
+description: 'null'
+seo-description: 'null'
 seo-title: Livefyre IDの電子メール
 solution: Experience Manager
 title: Livefyre IDの電子メール
@@ -22,7 +22,7 @@ Livefyre Identityが次の電子メールを送信します。
 * [お知らせメール](#c_emails_for_livefyre_identity/section_z2v_zhs_p1b)
    * [お知らせメールのユーザへの送信](#c_emails_for_livefyre_identity/section_kjp_c3s_p1b)
 
-すべてのLivefyre ID電子メールのルック&フィールを **[!UICONTROL Integration Settings > Email Notifications.]**
+すべてのLivefyre ID電子メールのルック&amp;フィールを **[!UICONTROL Integration Settings > Email Notifications.]** 
 
 ## パスワードリセット電子メール {#section_nd1_whs_p1b}
 
@@ -34,13 +34,13 @@ Livefyre Identityが次の電子メールを送信します。
 
 **Body:**
 
-Ed *& amp;lt;username& amp;gt;*、
+Yahhere *&lt; username&gt;*，
 
-プロファイルのパスワードを変更するリクエストがあり *ました。lt;ネットワーク名およびamp;gt;*.
+&lt; network name&gt;に *プロファイルのパスワードを変更するリクエストがあり*ました。
 
-これをリクエストした場合は、次のリンクをクリックして新しいパスワードを選択してください。 *& amp;lt;password reset URL& amp;gt;*.
+If you requested this, please click the following link to choose a new password: *&lt;password reset URL&gt;*.
 
-*& amp;lt;ユーザー名およびamp;gt;*、 *amp;lt;ネットワーク名およびamp;gt;*およびamp; *amp;lt;password reset URL& amp;gt;* は、サイト訪問者とネットワークに基づいて動的に生成されます。
+*&lt;ユーザー名&gt;*、 *&lt;ネットワーク名&gt;*、 *&lt;パスワードリセットURL&gt;* は、サイト訪問者とネットワークに基づいて動的に生成されます。
 
 ## Verification Email {#section_ak5_xhs_p1b}
 
@@ -52,17 +52,17 @@ Ed *& amp;lt;username& amp;gt;*、
 
 **Body:**
 
-ダウンロード *（& amp）;lt;username& amp;gt;*、
+Hello *&lt; username&gt;*，
 
-アカウントを確認するには、次のリンクをクリックしてください（またはブラウザに貼り付けてください）。 *& amp;lt;verification URL& amp;gt;*.
+アカウントを確認するには、次のリンクをクリックしてください（またはブラウザに貼り付けてください）。 *&lt;検証URL&gt;*.
 
 このリンクは24時間で有効期限が切れます。
 
 ありがとうございました。
 
-amp（ *& amp）;lt;顧客名およびamp;gt;* チーム
+*&lt;顧客名&gt;* チーム
 
-*& amp;lt;ユーザー名およびamp;gt;*、 *amp;lt;ネットワーク名およびamp;gt;*およびamp; *amp;lt;verification URL& amp;gt;* は、サイト訪問者とネットワークに基づいて動的に生成されます。
+*&lt;ユーザー名&gt;*、 *&lt;ネットワークネーム&gt;*、 *&lt;検証URL&gt;* は、サイト訪問者とネットワークに基づいて動的に生成されます。
 
 ## ユーザーへの電子メールの検証の送信 {#section_vyv_yhs_p1b}
 
@@ -81,15 +81,15 @@ amp（ *& amp）;lt;顧客名およびamp;gt;* チーム
 
 お知らせメールは次のようになります。
 
-**件名:** amp to *& amp;lt;顧客名およびamp;gt;*
+**件名:** &lt;顧客名&gt;へ *ようこそ*
 
 **Body:**
 
-ダウンロード *（& amp）;lt;username& amp;gt;*、
+Hello *&lt; username&gt;*，
 
-アカウントが作成され *ました。lt;顧客名およびamp;gt;*.
+&lt; customer name&gt;に *アカウントが作成され*ました。
 
-このアカウントは、amp（ *& amp）に作成されました。lt;referralURL& amp;gt;* from IP address *& amp;lt;IPアドレスおよびamp;gt;*.
+このアカウントは *、&lt;参照URL&gt;* のIPアドレス *&lt; IPアドレス&gt;から作成されまし*た。
 
 これを行った場合、この電子メールを安全に無視できます。
 
@@ -97,18 +97,18 @@ amp（ *& amp）;lt;顧客名およびamp;gt;* チーム
 
 感謝する
 
-amp（ *& amp）;quot;顧客名およびamp;quot;* チーム
+*「顧客名」* チーム
 
-*& amp;quot;ユーザー名およびamp;quot;、amp;quot;顧客名およびamp;quot;、amp;quot;referralURL& amp;quot;および* amp; amp;quot;IPアドレスおよびamp;quot;は、サイト訪問者とネットワークに基づいて動的に生成されます。
+*&quot;Username&quot;, &quot;customer name&quot;, &quot;referral URL&quot;,* and &quot;IP Address&quot; are all dynamically generated based on the site visitor and your network.
 
 ## ユーザーへのお知らせメールの送信 {#section_kjp_c3s_p1b}
 
 ユーザーがアカウントにサインアップした後、ユーザーにお知らせメールを送信できます。Studioは、検証電子メールを設定した場合、検証電子メールの送信後にこの電子メールを送信します。お知らせメールを送信するには:
 
 1. Studioで、ギアアイコンをクリックしてネットワーク設定を変更します。
-1. クリック **[!UICONTROL Integration Settings > Livefyre Identity]**
+1. クリック **[!UICONTROL Integration Settings > Livefyre Identity]** 
 
-1. 先に移動 **[!UICONTROL Email Settings]**します。
+1. 先に移動 **[!UICONTROL Email Settings]** します。
 
 1. をクリック **[!UICONTROL Send Welcome Emails To New Users]** して電子メールの送信を有効にします。
 1. 電子メール **[!UICONTROL Network Email]** の *ロゴ、電子メールアドレス*として使用する電子メールアドレス、**電子メール**アドレス（**電子メール表示名**）に使用する表示名の設定に移動します。

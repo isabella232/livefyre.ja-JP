@@ -19,27 +19,27 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Mapアプリからは、次のオプションを使用できます。
 
-* **[!UICONTROL Cluster number]**
+* **[!UICONTROL Cluster number]** 
 
    アプリ内の各コンテンツクラスター上に表示される数字のカラーを設定します。
 
-* **[!UICONTROL Show zoom controls]**
+* **[!UICONTROL Show zoom controls]** 
 
    マップのズームレベルをユーザーが制御できるようにします。
 
-* **[!UICONTROL Allow panning]**
+* **[!UICONTROL Allow panning]** 
 
    マップのパンを有効にし、マップをドラッグして再配置することができます。
 
-* **[!UICONTROL Enable content modal]**
+* **[!UICONTROL Enable content modal]** 
 
    ユーザーがコンテンツの一部をクリックしてポップアップウィンドウで開くことができます。
 
-* **[!UICONTROL Enable clustering]**
+* **[!UICONTROL Enable clustering]** 
 
    ユーザーのズームに合わせて、クリック可能なコンテンツのグループを作成します。
 
-* **[!UICONTROL Embedded height / Embedded width]**
+* **[!UICONTROL Embedded height / Embedded width]** 
 
    マップがサイトに埋め込まれるピクセルサイズを設定できます。（オプション）。
 
@@ -47,13 +47,13 @@ Mapアプリからは、次のオプションを使用できます。
    >
    >Web開発者がページ上でマップ **[!UICONTROL height]** を定義している場合、これらの値は上書きされ、マップはレスポンシブデザインサイズ設定規則に従います。高さを定義していない場合、これらの値が使用され、マップはセットサイズ（レスポンシブデザイン）に配置されます。これらのフィールドが空白の場合、値はデフォルトで600px幅に設定され、マップはレスポンシブになりません。
 
-* **[!UICONTROL Location]**
+* **[!UICONTROL Location]** 
 
    マップを中央に配置する場所を入力します。プレビューマップの下にあるスライダを使用して、ズームを定義します。
 
 マップアプリは次のようにカスタマイズできます。
 
-* **[!UICONTROL Style]** およびすべてのアプリの **[!UICONTROL Config]** オプション **[!UICONTROL App Designer]**を参照してください。すべてのアプリの標準 **[!UICONTROL Style]** および **[!UICONTROL Config]** オプションについて詳しくは、アプリのカスタマイズを参照 **[!UICONTROL App Designer]**してください。
+* **[!UICONTROL Style]** およびすべてのアプリの **[!UICONTROL Config]** オプション **[!UICONTROL App Designer]** を参照してください。すべてのアプリの標準 **[!UICONTROL Style]** および **[!UICONTROL Config]** オプションについて詳しくは、アプリのカスタマイズを参照 **[!UICONTROL App Designer]** してください。
 
 * 統合ツール。統合ツールを使用してアプリケーションをカスタマイズする方法について詳しくは、マップを参照してください。
 

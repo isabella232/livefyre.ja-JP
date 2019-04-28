@@ -21,7 +21,7 @@ Livefyre. jsを使用してLivefyreアプリのページ全体の認証を追加
 
 既存の認証システムを使用して、ユーザーがアプリケーションにログインしてアプリケーションとやり取りできるようにするために使用 `Livefyre.js` します。
 
-1. ページで認証を有効にするには、 `Livefyre.js` WebページまたはWebサイトテンプレートの *< head>* 要素に追加します。
+1. ページで認証を有効にするには、 `Livefyre.js` WebページまたはWebサイトテンプレートの *&lt; head&gt;* 要素に追加します。
 
    ```
    <script src="//cdn.livefyre.com/Livefyre.js"></script>
@@ -37,9 +37,9 @@ Livefyre. jsを使用してLivefyreアプリのページ全体の認証を追加
 
 認証を有効にするには、認証 `AuthDelegate` を作成して認証に `Livefyre.js` 渡します。
 
-"1つ `AuthDelegate` 」は、ユーザーがログイン、ログアウトおよび表示する方法を決定するオブジェクトです。
+&quot;1つ `AuthDelegate` 」は、ユーザーがログイン、ログアウトおよび表示する方法を決定するオブジェクトです。
 
-1. を作成 `AuthDelegate`します。作成する方法は、ID `AuthDelegate` プロバイダーによって異なります。詳しくは、"ID統合」を参照してください。
+1. を作成 `AuthDelegate`します。作成する方法は、ID `AuthDelegate` プロバイダーによって異なります。詳しくは、&quot;ID統合」を参照してください。
 
 1. 認証 `AuthDelegate` を `Livefyre.js` 渡します。最も単純な `AuthDelegate` ログは、ユーザーがアプリケーションから委任ログインメソッドをトリガーした場合に限ります。
 

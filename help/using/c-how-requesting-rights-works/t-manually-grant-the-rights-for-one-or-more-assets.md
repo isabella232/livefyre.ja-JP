@@ -1,6 +1,6 @@
 ---
-description: null
-seo-description: null
+description: 'null'
+seo-description: 'null'
 seo-title: アセットライブラリからのアセットの手動付与または権限の失効
 solution: Experience Manager
 title: アセットライブラリからのアセットの手動付与または権限の失効
@@ -17,8 +17,8 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 >
 >コンテンツの一部に手動で権限を付与することは、コンテンツを所有していることを意味します。コンテンツを所有していることを確認せずに、手動で権限を付与しないでください。
 
-1. にアクセスするには **[!UICONTROL Library]** 、をクリック **[!UICONTROL Asset Library]**します。
+1. にアクセスするには **[!UICONTROL Library]**、をクリック **[!UICONTROL Asset Library]** します。
 1. フォルダーを開き、TwitterまたはInstagramから保存したコンテンツの一部をクリックします。コンテンツの要素のアイコンを見ると、コンテンツがどこにあるかがわかります。例えば、TwitterのコンテンツにTwitterのロゴがあるとします。
-1. コンテンツカードの上にマウスポインターを置いたときに表示される省略記号アイコンをクリック **[!UICONTROL More Options]**します。
+1. コンテンツカードの上にマウスポインターを置いたときに表示される省略記号アイコンをクリック **[!UICONTROL More Options]** します。
 1. をクリック **[!UICONTROL Rights]** して **[!UICONTROL Rights options]** ウィンドウを開きます。
-1. **[!UICONTROL Manually Grant Rights]**をクリックします。
+1. **[!UICONTROL Manually Grant Rights]** をクリックします。

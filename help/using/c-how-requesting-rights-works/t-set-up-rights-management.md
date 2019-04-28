@@ -21,7 +21,7 @@ Rights Request Settingsを定義するには、InstagramまたはTwitter用に1�
 >
 >Rights Managementはネットワークレベルでのみ設定できます。サイト固有の権限管理を設定することはできません。
 
-1. Livefyre Studio内で、に移動 **[!UICONTROL Network]****[!UICONTROL Settings > Rights Management]**します。
+1. Livefyre Studio内で、に移動 **[!UICONTROL Network]** **[!UICONTROL Settings > Rights Management]** します。
 
    >[!NOTE]
    >
@@ -55,4 +55,4 @@ Rights Request Settingsを定義するには、InstagramまたはTwitter用に1�
          * 送信する前にこのメモをパーソナライズするようモデレーターに促し、ネットワークの要求にスパムがタグ付けされないようにします。
 
 1. をクリック **[!UICONTROL Save Settings]** して、Rights Requestアカウントを追加します。
-アセットライブラリから権限リクエストを送信します。アセット [ライブラリからの権限リクエストの送信方法について詳しくは、"Rights Request](../c-how-requesting-rights-works/t-send-a-rights-request-to-own-a-digital-asset.md#t_send_a_rights_request_to_own_a_digital_asset) の送信」を参照してください。
+アセットライブラリから権限リクエストを送信します。アセット [ライブラリからの権限リクエストの送信方法について詳しくは、&quot;Rights Request](../c-how-requesting-rights-works/t-send-a-rights-request-to-own-a-digital-asset.md#t_send_a_rights_request_to_own_a_digital_asset) の送信」を参照してください。
