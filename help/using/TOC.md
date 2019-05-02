@@ -3,7 +3,7 @@ product: livefyre
 audience: エンドユーザー
 user-guide-title: Experience Manager Livefyreユーザーガイド
 translation-type: tm+mt
-source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
+source-git-commit: 4952830655e904cfba7d2dd98338c7fda02c4250
 
 ---
 
@@ -208,6 +208,7 @@ source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
    + [Rights Managementの設定](c-how-requesting-rights-works/t-set-up-rights-management.md)
    + [Twitter権限リクエストの送信](c-how-requesting-rights-works/t-send-a-rights-request-to-own-a-digital-asset.md)
    + [部分的に自動化されたInstagramの権利リクエストの送信](c-how-requesting-rights-works/c-send-an-instagram-rights-request-from-the-library.md)
+   + [Instagram Rights Requestを手動で送信](c-how-requesting-rights-works/c-send-instagram-manual-rights-request.md)
    + [権限アクティビティ履歴の表示](c-how-requesting-rights-works/c-view-rights-activity-history.md)
    + [アセットライブラリから保留中の権限リクエストでコンテンツを管理](c-how-requesting-rights-works/t-manage-content-with-pending-rights-request.md)
    + [アセットライブラリからのアセットの手動付与または権限の失効](c-how-requesting-rights-works/t-manually-grant-the-rights-for-one-or-more-assets.md)
@@ -251,6 +252,7 @@ source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
       + [プライバシーリクエストFAQ](c-settings-other/c-gdpr-compliance/c-privacy-request-faqs.md)
       + [プライバシーリクエストの作成](c-settings-other/c-gdpr-compliance/c-privacy-requests.md)
       + [プライバシーレポートの表示](c-settings-other/c-gdpr-compliance/c-view-a-privacy-report.md)
+      + [UserPrivacyOptOut](c-settings-other/c-gdpr-compliance/c-userprivacyoptout.md)
 + リリースノート {#release-notes}
    + [最新リリースノート](c-rn/c-rn.md)
    + リリースノート2019 {#rn2019}
@@ -268,8 +270,8 @@ source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
       + [2018年9月27日](c-rn/previous-rns/rn2018/c-rn-2018-septemer-27.md)
       + [2018年9月6日](c-rn/previous-rns/rn2018/c-rn-2018-september-6.md)
       + [2018年8月24日](c-rn/previous-rns/rn2018/c-rn-2018-august-23.md)
-      + [2018年8月10日](c-rn/previous-rns/rn2018/c-rn-2018-august-9.md)
-      + [2018 年 6 月 14 日](c-rn/previous-rns/rn2018/c-rn-2018-june-14.md)
+      + [2018 年 8 月 10 日](c-rn/previous-rns/rn2018/c-rn-2018-august-9.md)
+      + [2018年6月14日](c-rn/previous-rns/rn2018/c-rn-2018-june-14.md)
       + [2018 年 5 月 25 日](c-rn/previous-rns/rn2018/c-rn-2018-may-24.md)
       + [2018年5月18日](c-rn/previous-rns/rn2018/c-rn-2018-may-17.md)
       + [2018 年 5 月 11 日](c-rn/previous-rns/rn2018/c-rn2018-may-10.md)
