@@ -4,7 +4,7 @@ seo-description: Adobe Livefyreの最新リリースノートです。
 seo-title: Adobe Livefyreの最新リリースノート
 title: Livefyreの最新リリースノート
 translation-type: tm+mt
-source-git-commit: 5fce2796795e855504cfbaf18328704484d89fa6
+source-git-commit: 9500a4ac5d3cdaeb5909c06d406b006108d39fee
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 5fce2796795e855504cfbaf18328704484d89fa6
 
 >[!NOTE]
 >
->Livefyreは2019年4月11日にアドビのセキュリティ規格に準拠してTLS1.1（およびそれ以前）のサポートを終了します。統合に関する問題が発生した場合は、prioritysupport@livefyre.comまでお問い合わせください。最終的なhttp非推奨の日付については、今後のリリースノートを参照してください。
+>5月23日木曜日にLivefyreが実稼働環境でHTTP（ポート80）を無効にします。これにより、セキュリティの更新がアドビセキュリティ標準に準拠して行われます。統合に関する問題が発生した場合は、 [prioritysupport@livefyre.com](mailto:prioritysupport@livefyre.com) までお問い合わせください。
 
 ## 強化された機能
 
