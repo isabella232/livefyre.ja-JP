@@ -5,7 +5,7 @@ seo-title: デバイスとブラウザのサポート
 title: デバイスとブラウザのサポート
 uuid: 338f78b2-051d-4831- a0b9- e987f92660ce
 translation-type: tm+mt
-source-git-commit: fc4a7e50b936211a6e7c338715b410e221f0b5f7
+source-git-commit: 28a7b0c1d5d71635941ecbd7693ad0427dac9893
 
 ---
 
@@ -21,7 +21,7 @@ Livefyreは、以下のデバイス、オペレーティングシステムおよ
 | **デスクトップブラウザー** |  |  |  |  |
 | Chrome | ✓ | ✓ | ✓ | ✓ |
 | Edge | ✓ | ✓ | ✓ | ✓ |
-| IE11 | ✓ | ✓ | X | ✓ |
+| IE11 | 制限付き | 制限付き | 制限付き | 制限付き |
 | Firefox14+ | ✓ | ✓ | ✓ | ✓ |
 | Safari7. x | ✓ | ✓ | ✓ | ✓ |
 |  |  |  |  |  |
