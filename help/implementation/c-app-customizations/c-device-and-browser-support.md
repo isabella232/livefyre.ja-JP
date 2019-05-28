@@ -5,7 +5,7 @@ seo-title: デバイスとブラウザのサポート
 title: デバイスとブラウザのサポート
 uuid: 338f78b2-051d-4831- a0b9- e987f92660ce
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: fc4a7e50b936211a6e7c338715b410e221f0b5f7
 
 ---
 
@@ -21,15 +21,15 @@ Livefyreは、以下のデバイス、オペレーティングシステムおよ
 | **デスクトップブラウザー** |  |  |  |  |
 | Chrome | ✓ | ✓ | ✓ | ✓ |
 | Edge | ✓ | ✓ | ✓ | ✓ |
-| IE11 | ✓ | ✓ | ✓ | ✓ |
+| IE11 | ✓ | ✓ | X | ✓ |
 | Firefox14+ | ✓ | ✓ | ✓ | ✓ |
 | Safari7. x | ✓ | ✓ | ✓ | ✓ |
 |  |  |  |  |  |
 | **デバイス** |  |  |  |  |
-| Android Browser2.3+ | 制限付き | 制限付き | 該当なし | 制限付き |
-| Android4.1以降のGoogle Chrome | 制限付き | 制限付き | 該当なし | 制限付き |
-| iOSの以前のバージョン（iPhone4S+/iPad2+） | 制限付き | 制限付き | 該当なし | 制限付き |
-| iOSの現在のバージョン（iPhone4S+/iPad2+） | ✓ | ✓ | 該当なし | ✓ |
+| Android Browser2.3+ | 制限付き | 制限付き | なし | 制限付き |
+| Android4.1以降のGoogle Chrome | 制限付き | 制限付き | なし | 制限付き |
+| iOSの以前のバージョン（iPhone4S+/iPad2+） | 制限付き | 制限付き | なし | 制限付き |
+| iOSの現在のバージョン（iPhone4S+/iPad2+） | ✓ | ✓ | なし | ✓ |
 
 >[!NOTE]
 >
