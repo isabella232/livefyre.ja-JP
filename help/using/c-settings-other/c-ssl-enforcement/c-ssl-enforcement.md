@@ -6,7 +6,7 @@ solution: Experience Manager
 title: SSLの実施
 uuid: e64af8c2-3ab6-4034- b385-0e552d828c6e
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: 7dc3ac6725a27460cecfa6051549da85370ca053
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 これは、Livefyreのお客様に影響を与える可能性があります。
 
-* CRM、CMS、Wordpressまたはその他のクライアントからのサーバー間呼び出し。
+* CRM、CMS、WordPressまたはその他のクライアントからのサーバー間呼び出し。
 * モバイル統合（AndroidおよびiOSアプリ）
 * カスタムアプリケーションまたはカスタムコード
 
@@ -27,7 +27,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 1. すべてのLivefyreユーザーは、すべてのトラフィックについて、次のようなHTTPS経由のすべてのAPIと通信する必要があります。
 
-   * サーバーからサーバーへの統合（CRM、CMS、Wordpressなど）
+   * サーバーからサーバーへの統合（CRM、CMS、WordPressなど）
    * モバイル統合（AndroidおよびiOSアプリ）
    * カスタムアプリケーション（StreamHub SDKまたは直接コード化）
 
