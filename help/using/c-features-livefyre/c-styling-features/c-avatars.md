@@ -5,7 +5,7 @@ seo-title: アバター
 title: アバター
 uuid: bf20f3bc-3dcc-4e16- a629-3380d1a7a3f2
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: 7dc3ac6725a27460cecfa6051549da85370ca053
 
 ---
 
@@ -29,15 +29,6 @@ AvatarreはLivefyreで非同期に読み込まれます。ユーザーが最初�
 ## Gragatars {#section_mqh_p1f_wy}
 
 LivefyreはGrilatarの使用をサポートしています。ユーザーがユーザープロファイルの一部としてカスタムアバターを持っていない場合、LivefyreはそのユーザーのGragatarをチェックします。Grilatarがない場合、デフォルトのアバターが使用されます。
-
-Livefyre WordPressプラグインを使用してコメントが埋め込まれている場合、次の条件を満たすと、ユーザーのGragatarが使用されます。
-
-* GrilatarはWordPress管理パネルでアクティブ化されています
-* ユーザーにGragatarアカウントがあり、
-* カスタムアバターは提供されていません。
-
-詳しくは、WordPressのGragatarドキュメントを参照してください。
-
 
 
 この機能を使用するアプリ:
