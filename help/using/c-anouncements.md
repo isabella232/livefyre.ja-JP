@@ -6,7 +6,7 @@ solution: Experience Manager
 title: お知らせ
 uuid: c05963db-4d96-494e- bdb3- da3570a14dfe
 translation-type: tm+mt
-source-git-commit: 0a9327777b309fd2153487061b6258938357c62d
+source-git-commit: ee7c27508aac1dbd5466e600d1e1eb09f465c9ed
 
 ---
 
@@ -17,7 +17,7 @@ LivefyreとLivefyre Studioのお知らせ2019年6月6日以降。
 
 ## 2019年6月6日
 
-一般的に、Facebookは、可能な限り変更の高度な通知を提供していますが、昨日は、Livefyre内のFacebookおよびInstagramコンテンツへのアクセスを無効にするための迅速な意思決定を行いました。この変更により、FacebookコンテンツやInstagramコンテンツをストリーム、検索、共有することはできません。この変更についてはお客様にお知らせいたしません。
+一般的に、Facebookは、可能な限り変更の高度な通知を提供していますが、昨日は、Livefyre内のFacebookおよびInstagramコンテンツへのアクセスを無効にするための迅速な意思決定を行いました。この変更により、FacebookコンテンツやInstagramコンテンツをストリーム、検索、共有することはできません。この変更についてのお客様のご意見をお待ちしておりません。
 
 現時点では、FacebookおよびInstagramコンテンツにアクセスする方法がまだあることに注意してください。
 
