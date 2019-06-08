@@ -6,7 +6,7 @@ solution: Experience Manager
 title: お知らせ
 uuid: c05963db-4d96-494e- bdb3- da3570a14dfe
 translation-type: tm+mt
-source-git-commit: 8624bacfaf584f305e6bbfc444653d179fdd34dc
+source-git-commit: 1319d79718960b112f7c711b5afabfa04dc2a5c0
 
 ---
 
@@ -14,6 +14,18 @@ source-git-commit: 8624bacfaf584f305e6bbfc444653d179fdd34dc
 # お知らせ{#announcements}
 
 LivefyreとLivefyre Studioのお知らせ2019年6月6日以降。
+
+## 2019年6月8日
+
+Instagramのストリームと検索がLivefyreで復元されたことをお知らせいたします。InstagramコンテンツのSocial検索を使用して再開したり、フォルダーやアプリにストリーミングInstagramコンテンツを再開したりできます。コンテンツのストリーミングを再び開始するには、次の手順を実行する必要があります。
+* Livefyreにログイン
+* 訪問設定を再認証し、Instagram Businessアカウントに関連付けられているアクセストークンを更新する
+* コンテンツのストリーミングが再び開始されるまで1~2時間待ちます
+* 問題が発生した場合はサポートにお問い合わせください
+
+Facebookのストリームはまだ復元されていませんが、この機能を復元するためにFacebookで積極的に作業を行っており、さらに詳しく情報が更新されます。
+
+この予期しないサービスの中断を継続していただき、ありがとうございます。
 
 ## 2019年6月6日
 
