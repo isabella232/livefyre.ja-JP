@@ -6,14 +6,18 @@ solution: Experience Manager
 title: お知らせ
 uuid: c05963db-4d96-494e- bdb3- da3570a14dfe
 translation-type: tm+mt
-source-git-commit: 1319d79718960b112f7c711b5afabfa04dc2a5c0
+source-git-commit: 087a40bf77c3b630acb661b58ffa8cfdedc0aec0
 
 ---
 
 
 # お知らせ{#announcements}
 
-LivefyreとLivefyre Studioのお知らせ2019年6月6日以降。
+## 2019年6月11日
+
+Facebook BanpageコンテンツがLivefyre内のフォルダーやアプリにストリーミングされることをお知らせいたします。このコンテンツのフローを有効にするために必要なアクションはありません。
+
+予期しない障害が発生した間は、大変申し訳ございません。
 
 ## 2019年6月8日
 
