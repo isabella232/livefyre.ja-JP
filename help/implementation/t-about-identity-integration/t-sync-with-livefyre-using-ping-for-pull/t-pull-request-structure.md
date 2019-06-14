@@ -6,7 +6,7 @@ solution: Experience Manager
 title: プルリクエストの構造
 uuid: bf6b9e45- d08a-48e6- acc6- e4fa56428d25
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: cf447db2cb3498fcb01b511848faeee4d1e48481
 
 ---
 
@@ -40,4 +40,3 @@ https://example.yoursite.com/some_path/?id={id}&lftoken={UserAuthToken}
    * 存在しないか `lftoken` 、検証に失敗した場合は、エンドポイントがプロファイル情報で応答することを許可しないでください。代わりに、403（Forbidden）ステータスコードに応答し、応答本文を使用しないでください。
 
 1. `userAuthToken` はユーザーのLivefyre `buildUserAuthToken` メソッドによって生成され、ユーザーIDは&quot;system&quot;になります。このユーザーは、新規ネットワークごとに作成される最初のユーザーです。
-1. ページをテストするには、Ping for [Pull](https://livefyre-p4p-wizard.herokuapp.com/home) Testerを使用して、すべてが期待どおりに動作することを確認してください。
