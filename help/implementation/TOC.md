@@ -3,7 +3,7 @@ product: livefyre
 audience: エンドユーザー
 user-guide-title: Experience Manager Livefyre導入ガイド
 translation-type: tm+mt
-source-git-commit: 4952830655e904cfba7d2dd98338c7fda02c4250
+source-git-commit: f3e4942cab98960259ddf6d2f4fd878e74599d9f
 
 ---
 
@@ -47,7 +47,6 @@ source-git-commit: 4952830655e904cfba7d2dd98338c7fda02c4250
    + Livefyre IDを使用したソーシャルアプリの使用 {#use-social-apps-with-livefyre-identity}
       + [ソーシャルアプリの作成](c-livefyre-identity-comp/t-create-your-social-apps.md)
       + [Livefyre IDで使用するFacebookアプリの作成](c-livefyre-identity-comp/t-create-a-facebook-app-for-use-with-livefyre-identity.md)
-      + [Livefyre IDで使用するGoogleプロジェクトの作成](c-livefyre-identity-comp/t-create-a-google-project-for-use-with-livefyre-identity.md)
       + [Livefyre IDで使用するためのTwitterアプリの作成](c-livefyre-identity-comp/t-create-a-twitter-app-for-use-with-livefyre-identity.md)
       + [Yahoo!の作成!Livefyre IDで使用するアプリケーション](c-livefyre-identity-comp/t-create-a-yahoo-app-for-use-with-livefyre-identity.md)
       + [Livefyre IDで使用するMicrosoft Live Identityアプリケーションの作成](c-livefyre-identity-comp/t-create-a-microsoft-live-id-app-for-use-with-livefyre-identity.md)
