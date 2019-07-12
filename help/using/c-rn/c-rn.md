@@ -4,24 +4,25 @@ seo-description: Adobe Livefyreの最新リリースノートです。
 seo-title: Adobe Livefyreの最新リリースノート
 title: Livefyreの最新リリースノート
 translation-type: tm+mt
-source-git-commit: 9500a4ac5d3cdaeb5909c06d406b006108d39fee
+source-git-commit: 0efc365d4496bd44142ad1513f51163f24676084
 
 ---
 
 
-# 現在のリリースノート {#current-release-notes}
+# Current Release Notes {#current-release-notes}
 
-**2019年3月21日アップデートのリリースノートです。**
+**2019年7月11日のリリースノートです。**
 
->[!NOTE]
->
->5月23日木曜日にLivefyreが実稼働環境でHTTP（ポート80）を無効にします。これにより、セキュリティの更新がアドビセキュリティ標準に準拠して行われます。統合に関する問題が発生した場合は、 [prioritysupport@livefyre.com](mailto:prioritysupport@livefyre.com) までお問い合わせください。
+## 機能強化
 
-## 強化された機能
-
-* デフォルトで「アクションへの呼び出し」ボタンの有効化を実装しました。
-
+* v7からv7.1にAutoTaggerモデルを更新。
 
 ## バグの修正
 
-* MOQで「未定義」のInstagram投稿を削除できない問題を修正しました。
+* 7日の制限により、30個のハッシュタグ検索を超えてInstagramコンテンツを検索すると、ユーザーが&quot;401Unauthorized&quot;エラーを発生させていた問題を修正しました。
+* 製品フィルターされたコンテンツを使用して、メディアのウォールで「もっと読み込み」を実行すると、期待どおりに既存のコンテンツの下にコンテンツが配置されていた問題を修正しました。
+* 期限切れのCDNリンクが原因でInstagram投稿が削除される問題を修正しました。
+* 調査アプリで、不適切なフォーマットを使用して調査質問および回答オプションが表示される問題を修正しました。
+* サポートされなくなったFacebookコンテンツインポートのドキュメントを削除しました。
+* ユーザーがコンテンツを事前入力するTwitterストリームを承認できなかった問題を修正しました。
+* アップロードメディアAPIを介してアップロードされたビデオが. mp4から. undefinedに変換されていた問題を修正しました。
