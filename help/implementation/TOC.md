@@ -3,7 +3,7 @@ product: livefyre
 audience: エンドユーザー
 user-guide-title: Experience Manager Livefyre導入ガイド
 translation-type: tm+mt
-source-git-commit: f3e4942cab98960259ddf6d2f4fd878e74599d9f
+source-git-commit: d2a3bad7f0009d04be0e17802d17409f16c1b779
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: f3e4942cab98960259ddf6d2f4fd878e74599d9f
 # Experience Manager Livefyre導入ガイド {#implementation}
 
 + [Livefyre導入ガイド](home.md)
-+ 導入 {#getting-started}
++ はじめに {#getting-started}
    + [Livefyre統合の手引き](c-getting-started/c-getting-started.md)
    + 実装プロセス {#implementation-process}
       + [実装プロセス](c-getting-started/c-implementation-process/c-implementation-process.md)
@@ -98,8 +98,7 @@ source-git-commit: f3e4942cab98960259ddf6d2f4fd878e74599d9f
 + アプリ統合 {#app-integrations}
    + [チャット](c-app-integrations/c-app-integratios-chat.md)
    + コメント {#comments}
-      + [コメント](c-app-integrations/c-comments-integration/c-comments-integration.md)
-      + [コメントの広告](c-app-integrations/c-comments-integration/c-ads-in-comments-integration.md)
+      + [Comments](c-app-integrations/c-comments-integration/c-comments-integration.md)
    + [Live Blog](c-app-integrations/c-live-blog-integration.md)
    + [レビュー](c-app-integrations/c-reviews-integration.md)
    + Ssiindes {#sidenotes}
@@ -141,7 +140,7 @@ source-git-commit: f3e4942cab98960259ddf6d2f4fd878e74599d9f
    + カスタムスタイルの適用 {#apply-custom-styles}
       + [カスタムスタイルの適用](c-app-customizations/c-applying-custom-styles-.md)
       + [カスタムボタンを追加](c-app-customizations/t-add-custom-buttons.md)
-   + JavaScriptイベント {#javascript-events}
+   + Javascript Events {#javascript-events}
       + [JavaScriptイベントの定義と例](c-app-customizations/c-javascript-events.md)
       + [ビジュアライゼーションアプリのJavaScriptイベント](c-app-customizations/c-javascript-events-for-visualization-apps.md)
       + [MediaウォールのJavaScriptイベント](c-app-customizations/c-javascript-events-media-wall.md)
