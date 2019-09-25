@@ -4,7 +4,7 @@ seo-description: カルーセルアプリのサイズ、幅およびインタラ
 seo-title: Studioを使用したカルーセルのカスタマイズ
 solution: Experience Manager
 title: Studioを使用したカルーセルのカスタマイズ
-uuid: 24f080fc-37bf-40d4-8c1a- a502ee8ac978
+uuid: 24f080fc-37bf-40d4-8c1a-a502ee8ac978
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -15,46 +15,46 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 カルーセルアプリのサイズ、幅およびインタラクションオプションを変更します。
 
-すべてのアプリの使用および **[!UICONTROL Style]** **[!UICONTROL Config]** オプション **[!UICONTROL App Designer]** 。すべてのアプリの標準 **[!UICONTROL Style]** および **[!UICONTROL Config]** オプションについて詳しくは、アプリのカスタマイズを参照 **[!UICONTROL App Designer]** してください。
+すべてのアプリでは、 **[!UICONTROL Style]** とのオ **[!UICONTROL Config]** プションが使用されま **[!UICONTROL App Designer]**&#x200B;す。 の標準およびすべてのアプリのオプションについて詳しくは、ア **[!UICONTROL Style]** プリのカ **[!UICONTROL Config]** スタマイズを参照してくださ **[!UICONTROL App Designer]**&#x200B;い。
 
-アプリデザイナーの次の追加オプションを使用して、カルーセルをカスタマイズできます。
+カルーセルは、App Designerの次の追加オプションを使用してカスタマイズできます。
 
-* **[!UICONTROL Max Number of Items]** 
+* **[!UICONTROL Max Number of Items]**
 
-   カルーセルに表示する項目の数を設定します。初期設定は50です。
+   カルーセルに表示する項目数を設定します。 デフォルトは 50 です。
 
-* **[!UICONTROL Orientation]** 
+* **[!UICONTROL Orientation]**
 
-   **[!UICONTROL Responsive]**. コンピューターの画面のみ
+   **[!UICONTROL Responsive]**. コンピューター画面のみ
 
-   * コンテンツが600ピクセルを超える場合、水平方向に表示
-   * コンテンツが600ピクセル未満の場合、垂直方向に表示
-   * **垂直方向。** コンピューター画面または携帯端末の場合。携帯端末では、カードは画面サイズに合わせて縮小されます。
+   * コンテンツが600ピクセルを超える場合は、横方向に表示されます。
+   * コンテンツが600ピクセル未満の場合は、垂直方向に表示されます。
+   * **バーティカル.** コンピューター画面またはモバイルデバイスの場合。 モバイルデバイスでは、カードは画面のサイズに合わせて縮小されます。
 
-* **[!UICONTROL Call-to-action button]** 「誘い文句（CTA:コールトゥアクション）」ボタンを製品カタログと共に使用して、ユーザーを製品またはサイトに誘導し、さらにアクションをとることができます。
+* **[!UICONTROL Call-to-action button]** 商品カタログに対して「誘い文句（CTA：コールトゥアクション）」ボタンを使用すると、ユーザーを商品やサイトに誘導して、さらなるアクションを実行できます。
 
-   * **[!UICONTROL Call-to-action button]** 切り替えをオンに切り替えて、誘い文句（CTA:コールトゥアクション）ボタンを表示します。
-   * **[!UICONTROL Require rights to display products]** 切り替えをオンに切り替えて、コンテンツの所有者がコンテンツに対して誘い文句（CTA:コールトゥアクション）ボタンを表示する前にコンテンツの権利を付与していることを求めます。
+   * **[!UICONTROL Call-to-action button]** トグルをオンに切り替えて、誘い文句（CTA：コールトゥアクション）ボタンを表示します。
+   * **[!UICONTROL Require rights to display products]** オンに切り替えると、コンテンツに対して誘い文句（CTA：コールトゥアクション）ボタンが表示される前に、コンテンツ所有者がコンテンツに対する権限を付与する必要があります。
    >[!NOTE]
    >
-   >コンテンツに対する権限が付与されていない場合でもコンテンツが表示されますが、コンテンツの権利が付与されない限り、誘い文句（CTA:コールトゥアクション）ボタンはコンテンツと共に表示されません。
+   >コンテンツに対する権限が付与されていない場合でも、コンテンツは表示されますが、コンテンツに対する権限が付与されていない限り、誘い文句（CTA：コールトゥアクション）ボタンはコンテンツと共に表示されません。
 
-   * **[!UICONTROL Show call-to-action in tile]**. 誘い文句（CTA:コールトゥアクション）ボタンを表示するのではなく、誘い文句（CTA:コールトゥアクション）ボタンを並べて表示するかどうかを選択します。
-   * **[!UICONTROL Call-to-action indication text]** ユーザーにカードのクリックを促し、誘い文句（CTA:コールトゥアクション）モーダルを開くように促すテキストです。
-   * **[!UICONTROL Call-to-action header text]** コンテンツモーダルの「誘い文句（CTA:コールトゥアクション）」ボタンの上にあるヘッダーに表示する単語です。デフォルトのテキストは&quot;Shop These products&quot;です。」.
-   * **[!UICONTROL Call-to-action button text]** コンテンツモーダルの「誘い文句（CTA:コールトゥアクション）」ボタンに表示する単語です。デフォルトのテキストは&quot;Buy Now&quot;です。」.
-   * **[!UICONTROL Product display options]** 「誘い文句（CTA:コールトゥアクション） **[!UICONTROL Photo]** 」ボタンを **[!UICONTROL Product name]** 表示するかどうかを選択します。
+   * **[!UICONTROL Show call-to-action in tile]**. サイトの訪問者がカードをクリックして大きなウィンドウでコンテンツを開いた場合にのみ、誘い文句（CTA：コールトゥアクション）ボタンを表示する代わりに、誘い文句（CTA：コールトゥアクション）ボタンをタイルに表示するかどうかを選択します。
+   * **[!UICONTROL Call-to-action indication text]** ユーザーがカードをクリックして誘い文句（CTA：コールトゥアクション）モーダルを開くように促すテキストです。
+   * **[!UICONTROL Call-to-action header text]** コンテンツモーダルの誘い文句（CTA：コールトゥアクション）ボタンの上のヘッダーに表示する単語。 デフォルトのテキストは「Shop these products:」です。
+   * **[!UICONTROL Call-to-action button text]** コンテンツモーダルの誘い文句（CTA：コールトゥアクション）ボタンに表示する単語。 デフォルトのテキストは「Buy Now:」です。
+   * **[!UICONTROL Product display options]** とを表示するかどうかを選択し **[!UICONTROL Photo]** 、「誘い文 **[!UICONTROL Product name]** 句（CTA：コールトゥアクション）」ボタンを使用します。
    >[!NOTE]
    >
-   >「写真」ボタンと「製品名」ボタンは、有効になっているときに青色でハイライト表示されます。
+   >「写真」ボタンと「製品名」ボタンが有効な場合は、両方とも青色でハイライト表示されます。
 
-   * **[!UICONTROL Product URL referral tracking]** 切り替えをオンに切り替えて、このアプリから関連付けられている製品ページに照会を追跡します。
-   * **[!UICONTROL Referral tracking key-value pairs]** パラメーターを追加して、アプリコンテンツから関連する製品ページへの照会トラッキングをさらに指定します。
+   * **[!UICONTROL Product URL referral tracking]** 切り替えをオンにして、このアプリから関連製品ページへのリファラルを追跡します。
+   * **[!UICONTROL Referral tracking key-value pairs]** 関連する製品ページに、アプリのコンテンツからの参照追跡をさらに指定するパラメーターを追加します。
 
 
 
-* **[!UICONTROL Embed App in multiple pages]** 
+* **[!UICONTROL Embed App in multiple pages]**
 
-   * **[!UICONTROL Filter UGC by Product ID]**. 複数の製品ページ用に1つのアプリを作成するには、このオプションを選択します。製品固有のUGCを各製品ページのアプリにフィルターします。1つまたは複数のフォルダーを選択して、特定のコレクションをアプリに関連付けることができます。
-   * **[!UICONTROL Select Product folders]**. UGCのフィルターに使用する最上位の製品フォルダーを選択します。複数のフォルダを選択するには、CtrlまたはCommandキーを押しながらクリックします。Livefyreはフォルダーを使用して、そのフォルダー内のどの製品を様々なページのアプリに表示するかを判断します。
-   * **[!UICONTROL Show related content]**. これを切り替えると、アプリに投稿されたコンテンツが表示されますが、別の製品IDでタグ付けされます。アプリに固有のコンテンツが表示された後、Livefyreはその製品に関連付けられていない他の製品やコンテンツのコンテンツを表示します。Livefyreは、最初に同じ製品IDを持つコンテンツを優先順位付けし、その後、他の製品IDと共にアプリに投稿されたコンテンツを、製品IDなしでアプリに公開します。
+   * **[!UICONTROL Filter UGC by Product ID]**. 複数の製品ページに対して1つのアプリを作成する場合は、このオプションを選択します。 製品固有のUGCを、各製品ページでアプリにフィルターします。 1つ以上のフォルダーを選択して、特定のコレクションをアプリに関連付けることができます。
+   * **[!UICONTROL Select Product folders]**. UGCのフィルターに使用する最上位の製品フォルダーを選択します。 複数のフォルダを選択するには、CtrlキーまたはCommandキーを押しながらクリックします。 Livefyreは、このフォルダーを使用して、そのフォルダー内のどの製品を様々なページのアプリに表示するかを決定します。
+   * **[!UICONTROL Show related content]**. これを切り替えて、アプリに投稿したコンテンツを、異なる製品IDでタグ付けして表示します。 アプリの製品固有のコンテンツが表示された後、Livefyreは他の製品のコンテンツと、製品に関連付けられていないコンテンツを表示します。 Livefyreは、最初に同じ製品IDを持つコンテンツを優先し、次に他の製品IDを持つアプリにコンテンツを公開し、次に製品IDを持たないアプリにコンテンツを公開します。
