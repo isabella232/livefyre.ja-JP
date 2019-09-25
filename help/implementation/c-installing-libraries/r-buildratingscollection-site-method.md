@@ -1,18 +1,18 @@
 ---
-description: レーティングタイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_ or_ update（）を実行します。
-seo-description: レーティングタイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_ or_ update（）を実行します。
-seo-title: BuiltDratingsCollectionサイトメソッド
-title: BuiltDratingsCollectionサイトメソッド
-uuid: 5eea2ba3-48e1-4cd2- aa73- ea81788af1df
+description: Ratings型としてインスタンス化されたCollectionオブジェクトを返します。 Collectionオブジェクトからcreate_or_update()を実行し、ビルドプロセスを完了します。
+seo-description: Ratings型としてインスタンス化されたCollectionオブジェクトを返します。 Collectionオブジェクトからcreate_or_update()を実行し、ビルドプロセスを完了します。
+seo-title: buildRatingsCollectionサイトメソッド
+title: buildRatingsCollectionサイトメソッド
+uuid: 5eea2ba3-48e1-4cd2-aa73-ea81788af1df
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# BuiltDratingsCollectionサイトメソッド{#buildratingscollection-site-method}
+# buildRatingsCollectionサイトメソッド{#buildratingscollection-site-method}
 
-レーティングタイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_ or_ update（）を実行します。
+Ratings型としてインスタンス化されたCollectionオブジェクトを返します。 Collectionオブジェクトからcreate_or_update()を実行し、ビルドプロセスを完了します。
 
 | 変数 | タイプ | 説明 |
 |--- |--- |--- |
@@ -44,7 +44,7 @@ $collection = site->buildRatingsCollection(title, articleId, url);
 collection = site.build_ratings_collection(title, articleId, url) 
 ```
 
-## ルビの例 {#section_enh_gds_rz}
+## Rubyの例 {#section_enh_gds_rz}
 
 ```
 collection = site.build_ratings_collection(title, articleId, url) 
