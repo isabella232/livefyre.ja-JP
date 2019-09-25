@@ -1,9 +1,9 @@
 ---
 description: C 系言語の `C#` 言語を使用して Livefyre トークンを生成する方法について説明します。
 seo-description: C 系言語の `C#` 言語を使用して Livefyre トークンを生成する方法について説明します。
-seo-title: Livefyreトークン"C#"を作成
+seo-title: Livefyreトークン'C#'の作成
 solution: Experience Manager
-title: Livefyreトークン"C#"を作成
+title: Livefyreトークン'C#'の作成
 uuid: c5e05625-8550-4b51-9211-134600e20ec7
 translation-type: tm+mt
 source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
@@ -11,36 +11,36 @@ source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
 ---
 
 
-# Livefyre Tokens C\#の作成 {#creating-livefyre-tokens-c}
+# Livefyreトークンの作成C\# {#creating-livefyre-tokens-c}
 
 C 系言語の ``C#`` 言語を使用して Livefyre トークンを生成する方法について説明します。
 
-既存のドキュメントおよびサンプルコードを活用して、トークンを作成 `C#.NET` するためのメソッドを作成できます。
+従来のドキュメントとサンプルコードを活用して、トークンを作成す `C#.NET` るメソッドを記述できます。
 
-Livefyreの公式ライブラリを参照するには、Javaライブラリを [開発者](https://github.com/Livefyre/livefyre-java-utils) の `C#` 基礎として使用してください。
+Livefyreの公式ライブラリを参照するには、開発者の出発点 [として](https://github.com/Livefyre/livefyre-java-utils) Javaライブラリを使用 `C#` します。
 
-また、コマンドラインから [Node. jsライブラリ](https://github.com/Livefyre/livefyre-nodejs-utils) を使用して、自分自身の参照トークンを生成し、メソッド構造を理解することもできます。
+コマンドラインから [Node.js Libraryを使用して](https://github.com/Livefyre/livefyre-nodejs-utils) 、参照トークンを自分で生成し、メソッドの構造を理解することもできます。
 
 * [コレクションメタトークンにジャンプ](https://gist.github.com/gibron/56cb9c7060bf4816c4c5#the-collectionMeta-token)
-* [認証トークンへのジャンプ](https://gist.github.com/gibron/56cb9c7060bf4816c4c5#the-auth-token)
+* [認証トークンに移動](https://gist.github.com/gibron/56cb9c7060bf4816c4c5#the-auth-token)
 
 ## 依存関係 {#section_c15_fnh_xz}
 
-* トークンを生成するには、プロジェクトで [JWT ngetパッケージ](https://www.nuget.org/packages/JWT) が必要です。
-* このページのコードサンプルは [、Newtonsoft JSON](https://www.nuget.org/packages/newtonsoft.json/) パッケージを使用します。
+* トークンを生成するに [は](https://www.nuget.org/packages/JWT) 、プロジェクトにJWT Nugetパッケージが必要です。
+* このページのコードサンプルでは [Newtonsoft JSONパッケージを使用します](https://www.nuget.org/packages/newtonsoft.json/) 。
 
-## CollectionMetaトークン {#section_dzt_4mh_xz}
+## CollectionMeta Token {#section_dzt_4mh_xz}
 
-このCollectionMetaトークンは、ページにコメントを埋め込むときにLivefyreに渡され、新しいコレクションに必要なメタデータをシステムに提供します。さらに、このデータのMD5 `checksum` を作成し、Livefyreはメタデータが変更されたかどうかを確認します。（記事のタイトルまたはURLが編集された場合など）。
+ページにコメントを埋め込むと、CollectionMeta TokenがLivefyreに渡され、新しいコレクションに必要なメタデータがアドビのシステムに提供されます。 また、このデータのMD5を作成し、Livefyre `checksum` がメタデータが変更されたかどうかを確認します。 （例：記事のタイトルやURLが編集された場合）。
 
-このトークンは、 `Site Key`Livefyreの担当コンサルタントによってあなたに提供されたトークンで署名されます。
+このトークンは、Livefyreのテクニカルア `Site Key`カウントマネージャーから提供された、お客様と共に署名されます。
 
-関連トピック:
+以下のページも参照してください。
 
-* 公式CollectionMetaトークンドキュメント
-* [サンプルの例](https://gist.github.com/pcolombo/dbbea020618c521a2bd5)
+* 公式CollectionMeta Token Docs
+* [要旨の例](https://gist.github.com/pcolombo/dbbea020618c521a2bd5)
 
-1. コレクションのメタデータを含む辞書を構築します。この手順で必要なフィールドの一部を追加します。ここで、ArticleIDを追加する前に、このオブジェクトのチェックサムを作成してください。
+1. コレクションのメタデータを含む辞書を作成します。 この手順では、必要なフィールドの一部のみを追加します。これは、articleIdを追加する前に、このオブジェクトのチェックサムを作成するためです。
 
    ```
        // Site Key provided by Livefyre 
@@ -54,10 +54,10 @@ Livefyreの公式ライブラリを参照するには、Javaライブラリを [
        };
    ```
 
-   * **title** *required*:コレクションのタイトル。通常は記事のタイトルです。最大長は255文字です。htmlエンティティはサポートしません。UTF-8を使用して特殊文字をエンコードしてください。
-   * **URL***が必要*:記事の正規URL。これは、コメント共有およびソーシャル同期機能によって使用され、管理ダッシュボードから記事へのリンクです。ローカルでテストする場合、Livefyreはドメインとして&quot;localhost&quot;を受け入れません。
-   * **タグ** の *オプション*:Livefyreダッシュボードでコレクションに追加するタグのコンマ区切りリストです。タグにスペースを含めることはできません。管理ダッシュボードにスペースを表示するには、アンダースコアを使用します。
-   * **type***オプション*:作成するコレクションのタイプを示す文字列。有効な値は次のとおりです。
+   * **title** *required*: コレクションのタイトル。通常は記事のタイトルです。 最大長は255文字です。 htmlエンティティをサポートしません。 UTF-8を使用して特殊文字をエンコードしてください。
+   * **url** *required*: 記事の正規URL。 これは、コメントの共有機能とソーシャル同期機能、および管理ダッシュボードから記事へのリンクによって使用されます。 ローカルでテストする場合、Livefyreは「localhost」をドメインとして受け入れないことに注意してください。
+   * **tags** *optional*: Livefyreダッシュボードでコレクションに追加するタグのコンマ区切りリストです。 タグにスペースを含めることはできません。 アンダースコアは、管理ダッシュボードにスペースを表示する場合に使用します。
+   * **type** optional **: 作成するコレクションの種類を示す文字列です。 有効値は次のとおりです。
 
       * `reviews`
       * `sidenotes`
@@ -66,10 +66,10 @@ Livefyreの公式ライブラリを参照するには、Javaライブラリを [
       * `livecomments`
       * `liveblog`
       * `livechat`
-      指定しなかった場合、デフォルトでLiveCommentsコレクションが作成されます。
+      指定しなかった場合、LiveCommentsコレクションがデフォルトで作成されます。
 
 
-1. JSONはこの辞書をエンコードし、md5チェックサムを生成します。
+1. JSONはこのディクショナリをエンコードし、そのmd5チェックサムを生成します。
 
    ```
           var metaStr = JsonConvert.SerializeObject(meta); 
@@ -90,32 +90,32 @@ Livefyreの公式ライブラリを参照するには、Javaライブラリを [
        } 
    ```
 
-1. **ArticleID** を辞書に追加します。**チェックサム** はCollectionMetaトークンには含まれませんが、sendConfig jsオブジェクトのseaprateパラメーターとして送信する必要があります。
+1. articleIdを辞 **書に追** 加します。 checksum **はcollectionMetaトークンに渡されませんが** 、convConfig jsオブジェクト内のseaprateパラメーターとして送信する必要があります。
 
    ```
        meta.Add("articleId", "article-abcde00001"); 
    ```
 
-   * **articleID***が必要*:Livefyreサイト内のコレクションの一意の識別子。通常、CMSで使用される一意のarticleIDです。（例: WordPress投稿ID）この値は変更しないでください。Livefyreは、SiteIDとArticleIDの組み合わせによって一意のコレクションを識別します。
+   * **articleId** required **: Livefyreサイト内のコレクションの一意の識別子。 通常、CMSで使用される一意のarticleIdです。 （例えば、WordPress投稿ID）この値は変更しないでください。 Livefyreは、siteIdとarticleIdの組み合わせによって一意のコレクションを識別します。
 
-1. Livefyreが提供するSite Keyを使用して、辞書の署名付きJWTトークンを生成します。JWTパッケージはデフォルトでHS256を使用しないので、正しいハッシュアルゴリズムを指定する必要があります。
+1. Livefyreから提供されたサイトキーを使用して、辞書の署名済みJWTトークンを生成します。 JWTパッケージはデフォルトでHS256を使用しないので、正しいハッシュアルゴリズムを指定する必要があります。
 
    ```
        string token = JWT.JsonWebToken.Encode(meta, siteSecret, JWT.JwtHashAlgorithm.HS256);
    ```
 
-## User Authトークン {#section_g1d_43h_xz}
+## ユーザー認証トークン {#section_g1d_43h_xz}
 
-ユーザー認証トークンは、Livefyreへのユーザーへの署名に使用されます。ユーザーがサイトにサインインすると、そのページ上のLivefyreウィジェットに渡されるUser Authトークンが生成されます。（認証プロセスについて詳しくは、リモートプロファイルを参照してください）。
+ユーザー認証トークンは、Livefyreへのユーザーの署名に使用されます。 ユーザーがサイトにログインすると、そのサイトで、ページ上のLivefyreウィジェットに渡されるユーザー認証トークンが生成されます。 （認証プロセスについて詳しくは、「リモートプロファイル」を参照してください。）
 
-このトークンにはネットワーク名（network. fyre. co）が必要で、Livefyreのテクニカルアカウントマネージャーから提供されるネットワークキーで署名されています。
+このトークンは、お客様のネットワーク名(network.fyre.co)が必要で、Livefyreのテクニカルアカウントマネージャーから提供される、お客様のネットワークキーを使用して署名されています。
 
-関連トピック:
+以下のページも参照してください。
 
-* 公的認証トークンドキュメント
-* [サンプルの例](https://gist.github.com/pcolombo/7d7403172c28734c87e2)
+* 公式認証トークンドキュメント
+* [要旨の例](https://gist.github.com/pcolombo/7d7403172c28734c87e2)
 
-1. 必要な情報を含むディコトーンを作成します。
+1. 必要な情報を含む辞書を作成します。
 
    ```
        string networkKey = "ABCDEF1234"; 
@@ -128,12 +128,12 @@ Livefyreの公式ライブラリを参照するには、Javaライブラリを [
            }; 
    ```
 
-   * **domain:** ネットワークの名前（Livefyreが提供します）例mynetwork. fyre. co
-   * **user_ id:** サイトのプロファイルシステムにおけるユーザーの一意のユーザーID。英数字のみ（A~ Z、a~ z、0~9）にする必要があります。システムユーザーIDに無効なCharaactersが含まれている場合は、ユーザーIDのmd5ハッシュまたはbase64エンコードバージョンのLivefyreを送信することを検討してください。（アカウントマネージャーにお問い合わせください。）
-   * **有効期限:** トークンが期限切れになる日付（エポック時間）。これは、サイト上のログインのセッション時間と一致する必要があります。これにより、Livefyreのログイン状態がサイトのサインイン状態と同期し続けるようになります。
-   * **display_ name:** プロファイルシステムに表示されるユーザーの表示名。コメントストリームに表示する必要があります。
+   * **** ドメイン：ネットワークの名前（Livefyreから提供）例：mynetwork.fyre.co
+   * **** user_id:サイトのプロファイルシステム内のユーザーの一意のユーザーID。 英数字のみ(A ～ Z、a ～ z、0 ～ 9)。 システムのユーザーIDに無効な文字が含まれている場合は、ユーザーIDのmd5ハッシュまたはbase64でエンコードされたバージョンのLivefyreを送信することを検討してください。 （この操作を行う場合は、担当のアカウントマネージャーにお知らせください。）
+   * **** expires:トークンが期限切れになる日付（エポック時間）。 Livefyreのログイン状態がサイトのログイン状態と同期するように、これはサイトのログインセッション時間と一致する必要があります。
+   * **** display_name:コメントストリームに表示する必要がある、プロファイルシステム内のユーザーの表示名。
 
-1. Livefyreが提供するネットワークキーを使用して、辞書の署名付きJWTトークンを生成します。JWTパッケージはデフォルトでHS256を使用しないので、正しいハッシュアルゴリズムを指定する必要があります。
+1. Livefyreから提供されたネットワークキーを使用して、辞書の署名済みJWTトークンを生成します。 JWTパッケージはデフォルトでHS256を使用しないので、正しいハッシュアルゴリズムを指定する必要があります。
 
    ```
           string token = JWT.JsonWebToken.Encode(payload, networkKey, JWT.JwtHashAlgorithm.HS256);
