@@ -1,23 +1,20 @@
 ---
 description: 新しいSiteオブジェクトを返します。
 seo-description: 新しいSiteオブジェクトを返します。
-seo-title: getSiteネットワーク方法
+seo-title: getSiteネットワークメソッド
 solution: Experience Manager
-title: getSiteネットワーク方法
-uuid: 67de781e-5240-4be5-9e93- c614828e0bb5
+title: getSiteネットワークメソッド
+uuid: 67de781e-5240-4be5-9e93-c614828e0bb5
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# getSiteネットワーク方法{#getsite-network-method}
+# getSiteネットワークメソッド{#getsite-network-method}
 
 新しいSiteオブジェクトを返します。
-| Variable| Type| Description|
-|——|——|——|
-| siteID| String| theコレクションが属するWebサイトまたはアプリケーションのLivefyre- provided ID。次に例を示します。303617.|
-| siteKey| String| theSiteIDのLivefyreが提供する秘密鍵。|
+|変数|型|説明||—|—|—||siteId|String|コレクションが属するWebサイトまたはアプリケーションのLivefyreが提供するID。 例：303617。  ||siteKey|String|Livefyreが提供するsiteIdの秘密キー。  |
 
 ## Javaの例 {#section_nyl_ycs_rz}
 
@@ -43,7 +40,7 @@ $site = $network->getSite(siteId, siteKey);
 site = network.get_site(siteId, siteKey) 
 ```
 
-## ルビの例 {#section_enh_gds_rz}
+## Rubyの例 {#section_enh_gds_rz}
 
 ```
 site = network.get_site(siteId, siteKey) 
