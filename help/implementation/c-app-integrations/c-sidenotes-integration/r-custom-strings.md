@@ -1,18 +1,18 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: カスタム文字列を指定
-title: カスタム文字列を指定
-uuid: 73745273- d3fb-4569-8910- d149fb37a7b4
+seo-title: カスタム文字列をサイト化
+title: カスタム文字列をサイト化
+uuid: 73745273-d3fb-4569-8910-d149fb37a7b4
 translation-type: tm+mt
 source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
 
 ---
 
 
-# カスタム文字列を指定{#sidenotes-custom-strings}
+# カスタム文字列をサイト化{#sidenotes-custom-strings}
 
-カスタム文字列は、Sokesコンストラクターに挿入されたオブジェクトを通して適用され、アプリケーションで使用されるデフォルトの文字列に優先します。これらは、スタイルや言語仕様に合わせて言語の任意の部分をカスタマイズするために使用できます。文字列は自動的にデフォルトと結合されます。
+カスタム文字列は、Sidentsコンストラクターに挿入されたオブジェクトを通じて適用され、アプリケーションを通じて使用されるデフォルト文字列を上書きします。 これらは、言語の任意の部分を、スタイルや言語の仕様に合わせてカスタマイズするために使用できます。 文字列は自動的にデフォルトとマージされます。
 
 ```
 var customStrings = { 
@@ -25,76 +25,76 @@ new Livefyre.Sidenotes({
 
 | キー | デフォルト |
 |---|---|
-| appName | Ssiindes |
-| CommentModeratorTag | Mod |
-| CommentPendingTag | 保留中 |
+| appName | サイデン |
+| commentModeratorTag | Mod |
+| commentPendingTag | 保留 |
 | commentReadMoreLink | 詳細情報 |
 | commentReplyLink | {number}件の返信を参照 |
 | commentReplyLinkSing | 「返信」を参照 |
-| commentSearchCount | 投票数 |
-| commentSearchCounting | 投票 |
-| editorPlaceHolder | どう思いますか。 |
-| editorPostBtn | 投稿の開始 |
-| editorPostBnMobile | Post |
+| commentVoteCount | 票 |
+| commentVoteCountSing | 件の投票 |
+| editorPlaceholder | どう思う？ |
+| editorPostBtn | 投稿のサイト |
+| editorPostBtnMobile | 投稿 |
 | editorPosting | 投稿中… |
-| editorReplyBtn | 返信の返信 |
+| editorReplyBtn | 返信を投稿 |
 | editorReplyTitle | 返信の書き込み |
-| editorTitle | メモを記入 |
-| EmptyImageBlockSpt | どう思いますか。 |
-| EmptyTextBlockTXT | + |
-| errorConnection | Uh- oo.適切な接続がないと思われます。 |
-| errorDuplicate | メモも同様ですが、2回投稿することはできません。 |
-| errorGeneral | エラーが発生しました。再試行してください。 |
-| errorServer | サーバーに問題がありました。再試行しますか? |
-| facebookShareReption | &quot;{title}&quot;で指定 |
-| menuAuthSignInMsg | {action}にサインインしている必要があります |
+| editorTitle | メモの書き込み |
+| emptyImageBlockTxt | どう思う？ |
+| emptyTextBlockTxt | + |
+| errorConnection | ああ。 君は良い関係がないようだ |
+| errorDuplicate | お客様のメモも気に入っていますが、2回投稿することはできません。 |
+| errorGeneral | エラーが発生しました. もう一度お試しください。 |
+| errorServer | サーバーで問題が発生しました。 もう一度？ |
+| facebookShareCaption | "{title}"のサイドノート |
+| menuAuthSignedInMsg | {action}にサインインする必要があります |
 | menuAuthSignInBtn | サインイン |
-| menubackBtn | 戻る |
+| menuBackBtn | 戻る |
 | menuConfirmAccept | はい、{action} |
 | menuConfirmCancel | キャンセル |
-| menuConfirmTitle | よろしいですか。 |
-| menuetOptionApprove | 承認 |
-| menuetOptionDelete | 削除 |
-| menuetOptionEdit | 編集 |
-| menuetOptionFlag | フラグ |
-| menuetOptionShare | 共有 |
-| menuetCpostedAt | {date}に投稿 |
-| menuGetCtitle | 詳細情報 |
-| menuFlagOptionInside | 同意しない |
-| menuFlagOption不快 | 不快な不快行為 |
-| menuFlagOptionOffTopic | トピックなし |
-| menuFlagOptionスパム | スパム |
-| menuFlagTitle | フラグの設定 |
-| menuInfoCopyright | © Livefyre， Inc.2014 |
+| menuConfirmTitle | よろしいですか？ |
+| menuEtcOptionApprove | 承認 |
+| menuEtcOptionDelete | 削除 |
+| menuEtcOptionEdit | 編集 |
+| menuEtcOptionFlag | Flag |
+| menuEtcOptionShare | 共有 |
+| menuEtcPostedAt | 投稿日： {date} |
+| menuEtcTitle | 詳細情報 |
+| menuFlagOptionDisagree | 同意しない |
+| menuFlagOptionOffense | 不快な |
+| menuFlagOptionOffTopic | トピック外 |
+| menuFlagOptionSpam | スパム |
+| menuFlagTitle | フラグの設定… |
+| menuInfoCopyright | © Livefyre, Inc. 2014 |
 | menuInfoHelp | ヘルプ |
-| menuInLiativeFyLink | Livefyre.comにアクセス |
-| menuRepliesViewReply | 会話への返信 |
-| menuRepliesViewTitle | 詳細情報 |
-| MenuHareOptionFacebook | Facebook |
-| menuHareOptionLink | Permalinkのコピー |
-| menuHasOptionLinkComplete | コピー |
-| MenuHaveOptionLinkFailed | コピー失敗 |
-| MenuHareOptionTwitter | Twitter |
-| menusHasTitle | 共有 |
-| NotificationApproved | 承認済み |
-| NotificationDeleted | 削除済み |
-| NotificationFlag | フラグ付き |
-| permalLinkbackBtn | すべて |
-| permalLinkTitle | Permalink |
-| QuestionDescription | 文章、段落、画像、引用符でコメントを直接読み取りおよび書き込みできるようになりました。<br><br>テキストをハイライトし、&quot;fycon- write&quot;アイコンをクリックするか、各段落の最後にある&quot;fycon- action- view&quot;アイコンをクリックします。 |
-| QuestionModeText | 「なじみのある」という理由では、適切に認識されません。 |
-| QuestionTitle | Sitesizeとは何ですか。 |
-| queueCommentsSpural | {number}新しいサイト紹介 |
-| queueCommentsSingular | 1つの新しいサイト |
-| queueRepliceMultiple | {number}新しい返信 |
-| queueRepliceSingular | 1新しい返信 |
-| replyBtn | Reply |
-| signIntoPost | サインインしてサイトを開く |
-| sliderCommentTempt | of |
-| sliderInviterAd | 読み取り |
+| menuInfoLivefyreLink | Livefyre.comにアクセス |
+| menuRepliesViewReply | 会話に返信 |
+| menuRepliesViewTitle | 詳細 |
+| menuShareOptionFacebook | Facebook |
+| menuShareOptionLink | パーマリンクをコピー |
+| menuShareOptionLinkComplete | コピー済み |
+| menuShareOptionLinkFailed | コピー失敗 |
+| menuShareOptionTwitter | Twitter |
+| menuShareTitle | 共有 |
+| notificationApproved | 承認済み |
+| notificationDeleted | 削除済み |
+| notificationFlagged | フラグあり |
+| permalinkBackBtn | すべて |
+| permalinkTitle | パーマリンク |
+| questionExplation | 文章、段落、画像、引用符に対するコメントの読み取りと書き込みを直接行えるようになりました。<br><br>テキストをハイライトし、「fycon-write」アイコンをクリックするか、各段落の末尾にある「fycon-action-view」アイコンをクリックします。 |
+| questionMockText | 「親しみ深い」ものは、「親しみ深い」という理由だけで、正しく知られていません。 |
+| questionTitle | 「サイド」とは |
+| queuedCommentsPlural | {number}新しいサイド |
+| queuedCommentsSingular | 新しいサイトを1つ |
+| queuedRepliesPlural | {number}件の新しい返信 |
+| queuedRepliesSingular | 1件の新しい返信 |
+| replyBtn | 返信 |
+| signInToPost | サインインしてサイドを書き込む |
+| sliderCommentTally | of |
+| sliderInviteRead | 詳しくは、 |
 | sliderInviteWrite | 書き込み |
-| sliderWriteText | どう思いますか。タップして書き込み |
-| ThreadCollapseBtn | 折りたたみ |
-| ThreadExpandbtnMultiple | {number}返信を展開 |
-| ThreadExpandbtnSingic | &quot;1件の返信」を展開 |
-| ThreadReplyBn | 会話への返信 |
+| sliderWriteText | どう思う？ タップして書き込み |
+| threadCollapseBtn | 折りたたみ |
+| threadExpandBtnPlural | {number}件の返信を展開 |
+| threadExpandBtnSingular | 1件の返信を展開 |
+| threadReplyBtn | 会話に返信 |
