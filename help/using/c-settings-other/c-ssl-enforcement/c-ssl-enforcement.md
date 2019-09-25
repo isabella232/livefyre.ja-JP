@@ -1,87 +1,87 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: SSLの実施
+seo-title: SSL強制
 solution: Experience Manager
-title: SSLの実施
-uuid: e64af8c2-3ab6-4034- b385-0e552d828c6e
+title: SSL強制
+uuid: e64af8c2-3ab6-4034-b385-0e552d828c6e
 translation-type: tm+mt
 source-git-commit: 7dc3ac6725a27460cecfa6051549da85370ca053
 
 ---
 
 
-# SSLの実施{#ssl-enforcement}
+# SSL強制{#ssl-enforcement}
 
-データのセキュリティ保護を確実に行うために、HTTPSを使用することは推奨されません。Adobe Livefyreは、2018年8月末までにHTTPおよびセキュアSSL/TLS暗号を完全に無効にします。これは、ユーザーおよびユーザーのプライバシーを保護するために設計されたAdobe Standardです。
+データを安全に保つため、HTTPは非推奨となります。HTTPSをお勧めします。 Adobe Livefyreは、2018年8月末までに、すべてのHTTP暗号および安全でないSSL/TLS暗号を完全に無効にします。 これは、ユーザーとユーザーのプライバシーを保護するために設計されたAdobe Standardです。
 
-## 誰が影響を受けているか {#section_jf2_4yz_kcb}
+## 誰が影響を受けるの？ {#section_jf2_4yz_kcb}
 
-これは、Livefyreのお客様に影響を与える可能性があります。
+これは、次のようなLivefyreのお客様に影響を与える可能性があります。
 
-* CRM、CMS、WordPressまたはその他のクライアントからのサーバー間呼び出し。
+* CRM、CMS、WordPressまたは他のクライアントからのサーバー間呼び出し。
 * モバイル統合（AndroidおよびiOSアプリ）
 * カスタムアプリケーションまたはカスタムコード
 
-## 必要な操作 {#section_unv_dc5_kcb}
+## 必要なアクションについて{#section_unv_dc5_kcb}
 
-1. すべてのLivefyreユーザーは、すべてのトラフィックについて、次のようなHTTPS経由のすべてのAPIと通信する必要があります。
+1. Livefyreのすべてのお客様は、以下を含むすべてのトラフィックについて、HTTPS経由ですべてのAPIと通信する必要があります。
 
-   * サーバーからサーバーへの統合（CRM、CMS、WordPressなど）
+   * サーバー間統合（CRM、CMS、WordPressなど）
    * モバイル統合（AndroidおよびiOSアプリ）
-   * カスタムアプリケーション（StreamHub SDKまたは直接コード化）
+   * カスタムアプリケーション（Streamhub SDKまたは直接コード化）。
 
-1. サーバーからサーバーおよびモバイルHTTPクライアントはTLS1.2をサポートする必要がある
-1. ホスト名 `{*}.<network>.fyre.co``<network>.{*}.fyre.co`の変更例えば、ホスト名 `example.network.fyre.co` が `network.`example. fyre. coに変更されたとします。次に例を示します。
+1. サーバー間およびモバイルHTTPクライアントはTLS 1.2をサポートする必要があります。
+1. ホスト名をからに変 `{*}.<network>.fyre.co` 更しま `<network>.{*}.fyre.co`す。 例えば、ホスト名は `example.network.fyre.co` example.fyre.co `network.`に変更されます。 次に例を示します。
 
-   * `bootstrap.<network_name>.fyre.co` to `<network_name>.bootstrap.fyre.co`
+   * `bootstrap.<network_name>.fyre.co` を   `<network_name>.bootstrap.fyre.co`
 
-   * `quill.<network_name>.fyre.co` to `<network_name>.quill.fyre.co`
+   * `quill.<network_name>.fyre.co` を   `<network_name>.quill.fyre.co`
 
-   * `admin.<network_name>.fyre.co` to `<network_name>.admin.fyre.co`
+   * `admin.<network_name>.fyre.co` を   `<network_name>.admin.fyre.co`
 
-## 変更をおこなったかどうかを知るにはどうしますか。 {#section_sqk_5d5_kcb}
+## 変更を行ったかどうかを知るにはどうしたらよいですか。 {#section_sqk_5d5_kcb}
 
-既にHTTPSを使用している可能性がありますが、Livefyreは次の場合に特に確認することをお勧めします。
+既にHTTPSを使用している場合もありますが、特に次の場合は、Livefyreで再確認することをお勧めします。
 
 * CMSまたはCRMからのサーバー間呼び出し。
-* カスタムコードまたはJavaScriptまたはモバイルのカスタムアプリ用SDKを使用します。
+* JavaScriptまたはモバイルのカスタムアプリに対するカスタムコードまたはSDKの使用。
 * 統合が1年以上経っている場合。
-* スタック内の技術が1年より古い場合。
+* スタック内の技術が1年以上古い場合。
 
-HTTPSを使用している場合でも、APIクライアントがTLS1.2をサポートしていることを確認する必要があります。
+HTTPSを既に使用している場合でも、APIクライアントがTLS 1.2をサポートしていることを確認する必要があります。
 
-## APIクライアントがTLS1.2をサポートしていることを確認する方法を教えてください。 {#section_nd1_j25_kcb}
+## APIクライアントがTLS 1.2をサポートしていることを確認する方法を教えてください。 {#section_nd1_j25_kcb}
 
-サイトの開発で働いている人は、次のことができます。
+サイトの開発に携わる人は、次のことができます。
 
-* クライアントソフトウェアを特定します。
-* バージョンを特定します。
-* APIクライアントがTLS1.2をサポートするようにするためのドキュメントを読みます。
-* 必要に応じてデバッグモードを有効にします。
+* クライアントソフトウェアを識別します。
+* バージョンを識別します。
+* APIクライアントがTLS 1.2をサポートしていることを確認するドキュメントを読みます。
+* 必要に応じてデバッグモードをオンにします。
 
-## TLS1.2のJavaサポート {#section_lwn_rwk_ycb}
+## TLS 1.2のJavaサポート {#section_lwn_rwk_ycb}
 
-Java8以降のOracleおよびOpenJDK JVMは、デフォルトでTLS1.2をすべてのSSL接続に使用するように設定されています。Java8以降を使用する場合は、追加のアクションを実行する必要はありません。
+Java 8以降用のOracleおよびOpenJDK JVMは、デフォルトで、すべてのSSL接続にTLS 1.2を使用するように設定されています。 Java 8以降を使用する場合は、追加のアクションを実行する必要はありません。
 
-TLS1.2を有効にする方法については、Java7以前のユーザーにお問い合わせください。
+Java 7以前のバージョンをご利用のお客様は、TLS 1.2を有効にする方法に関する公開ドキュメントを参照してください。
 
 ## ホスト名を変更する必要があるのはなぜですか。 {#section_d5q_p25_kcb}
 
-Livefyreにはドメインに `{*}.<network>.fyre.co` SSL証明書はありません。URLをHTTPSに変更するだけでアプリケーションが破損します。
+LivefyreはドメインにSSL証明書を持ってい `{*}.<network>.fyre.co` ません。 単にURLをHTTPSに変更するだけで、アプリケーションが壊れます。
 
-## 最新バージョンのLivefyre SDKにアップグレードする必要がありますか? {#section_dw5_s25_kcb}
+## 最新バージョンのLivefyre SDKにアップグレードする必要がありますか。 {#section_dw5_s25_kcb}
 
-いいえ。コードにはパッチを適用できます。コードにパッチを適用するには、いくつかの静的文字列を変更し、コードを再構築します。HTTPクライアントが古くなっている場合は、それをアップグレードしたり、別のものを使用したりする必要があります。
+いいえ。代わりに、コードにパッチを適用できます。 コードにパッチを適用するには、静的な文字列を変更し、コードを再構築します。 HTTPクライアントが古い場合は、それもアップグレードするか、別のクライアントを使用する必要があります。
 
-## この時間はどのくらいですか。 {#section_lgd_v25_kcb}
+## これにはどのくらい時間がかかりますか。 {#section_lgd_v25_kcb}
 
-この所要時間は、設定によって異なります。シンプルな実装の場合、確認にはほとんど時間がかかりません。多数のカスタマイズがある場合は、更新されたコードをテストして、サーバーまたは新しいアプリケーションをApp Storeにデプロイする必要があります。最良の結果を得るには、作業の最初の監査を実行して、長期的な作業を計画できるようにすることをお勧めします。
+この処理にかかる時間は、設定によって異なります。 簡単な実装を行う場合は、確認にほとんど時間がかかりません。 多くのカスタマイズを行っている場合は、更新されたコードをテストしてサーバーにデプロイするか、新しいアプリをアプリストアにデプロイする必要があります。 最良の結果を得るために、最初に作業を監査し、長期の作業を計画することをお勧めします。
 
-## この作業を完了するためのタイムラインは何ですか。 {#section_kgk_w25_kcb}
+## この作業を完了するタイムラインは何ですか。 {#section_kgk_w25_kcb}
 
-Livefyreは、2018年8月末までにアドビのサービスにポート80（HTTP）を無効にし、443（HTTPS）への接続のみをサポートします。HTTPを使用しようとするブラウザーなどのクライアントは失敗します。
+Livefyreは、2018年8月末までにアドビのサービスに対するポート80(HTTP)を無効にし、443(HTTPS)への接続のみをサポートします。 HTTPを使用しようとするブラウザーや他のクライアントは失敗します。
 
-## この作業を終了する必要があるのはいつですか。 {#section_rvb_x25_kcb}
+## 私はいつこの仕事を終える必要がありますか。 {#section_rvb_x25_kcb}
 
-すべてのお客様は、2018年7月末までにHTTPSを使用する必要があります。このデッドラインを満たすことができない場合は、prioritysupport@livefyre.comでチームにお問い合わせください。
+2018年7月末までに、すべてのお客様がHTTPSを使用する必要があります。 この期限に間に合わない場合は、prioritysupport@livefyre.comで当社のチームにお問い合わせください。
