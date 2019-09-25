@@ -1,9 +1,9 @@
 ---
-description: Livefyreでこのコレクションを作成または更新しようとしました。このCollectionオブジェクトを返します。
-seo-description: Livefyreでこのコレクションを作成または更新しようとしました。このCollectionオブジェクトを返します。
-seo-title: CreateOrUpdate収集方法
+description: Livefyreを使用して、このコレクションを作成または更新しようとします。 このコレクションオブジェクトを返します。
+seo-description: Livefyreを使用して、このコレクションを作成または更新しようとします。 このコレクションオブジェクトを返します。
+seo-title: createOrUpdateコレクションメソッド
 solution: Experience Manager
-title: CreateOrUpdate収集方法
+title: createOrUpdateコレクションメソッド
 uuid: 1fff82d3-4b05-46a0-95ca-3eb4a6256cf8
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
@@ -11,9 +11,9 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 ---
 
 
-# CreateOrUpdate収集方法{#createorupdate-collection-method}
+# createOrUpdateコレクションメソッド{#createorupdate-collection-method}
 
-Livefyreでこのコレクションを作成または更新しようとしました。このCollectionオブジェクトを返します。
+Livefyreを使用して、このコレクションを作成または更新しようとします。 このコレクションオブジェクトを返します。
 
 ## Javaの例 {#section_nyl_ycs_rz}
 
@@ -39,7 +39,7 @@ $collection->createOrUpdate();
 collection.create_or_update() 
 ```
 
-## ルビの例 {#section_enh_gds_rz}
+## Rubyの例 {#section_enh_gds_rz}
 
 ```
 collection.create_or_update 
