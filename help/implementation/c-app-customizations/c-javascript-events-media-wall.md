@@ -1,23 +1,23 @@
 ---
-description: JavaScriptイベントを使用して、Mediaウォールで発生したイベントをリスニングし、選択した分析ツールに送信します。
-seo-description: JavaScriptイベントを使用して、Mediaウォールで発生したイベントをリスニングし、選択した分析ツールに送信します。
-seo-title: MediaウォールのJavaScriptイベント
+description: JavaScriptイベントを使用して、Media wallで発生するイベントをリッスンし、選択したAnalyticsツールに送信します。
+seo-description: JavaScriptイベントを使用して、Media wallで発生するイベントをリッスンし、選択したAnalyticsツールに送信します。
+seo-title: メディアウォールのJavaScriptイベント
 solution: Experience Manager
-title: MediaウォールのJavaScriptイベント
-uuid: 8abc0529-4640-476a- b207-91b2c70101f0
+title: メディアウォールのJavaScriptイベント
+uuid: 8afc0529-4640-476a-b207-91b2c70101f0
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# MediaウォールのJavaScriptイベント{#javascript-events-for-media-wall}
+# メディアウォールのJavaScriptイベント{#javascript-events-for-media-wall}
 
-JavaScriptイベントを使用して、Mediaウォールで発生したイベントをリスニングし、選択した分析ツールに送信します。
+JavaScriptイベントを使用して、Media wallで発生するイベントをリッスンし、選択したAnalyticsツールに送信します。
 
-Livefyreアプリでユーザーアクティビティを追跡するためのJavaScriptイベントがLivefyreに提供されています。例えば、ユーザーがTwitterやFacebookにコンテンツを「いいね!&quot;または共有したり、新しいコンテンツが投稿されたときにページを更新したりできます。
+Livefyreは、Livefyreアプリでのユーザーアクティビティを追跡するJavaScriptイベントを提供します。 例えば、ユーザーがTwitterやFacebookにコンテンツを「いいね！」したり共有したりした場合や、新しいコンテンツが投稿された場合に、ページを更新したい場合があります。
 
-イベントの受信方法の例を以下に示します。コード `console.log` に置き換えて、Analytics統合（Dynamic Tag Management、Adobe Analytics JS、Google Analyticsなど）にイベントをマッピングして送信します。
+イベントの受け取り方法の例を次に示します。 イベ `console.log` ントをマッピングし、Analytics統合（Dynamic Tag Management、Adobe Analytics JS、Google Analyticsなど）に送信するコードで置き換えます。
 
 ```
 document.body.addEventListener('insights', function (data) { 
@@ -25,22 +25,22 @@ document.body.addEventListener('insights', function (data) {
 });
 ```
 
-サポートされているMediaウォールイベントのリスト:
+サポートされるMedia wallイベントのリスト：
 
 ## メディアウォールイベント
 
-| イベント | Definition |
+| イベント | 定義 |
 |---|---|
-| `Init` | ページにメディアウォールが含まれるとき。 |
-| `Load` | メディアウォールが位置に関係なくページに読み込まれたとき。 |
-| `PostButtonClick` | ユーザがMediaウォールの「アップロード」ボタンをクリックしたとき。 |
-| `RequestMore` | ユーザがメディアウォールにコンテンツを読み込むとき。 |
-| `TwitterReplyClick` | ユーザーがMediaウォールからTwitterの返信ボタンをクリックしたとき。 |
-| `TwitterRetweetClick` | ユーザがMediaウォールからTwitterリツイートボタンをクリックしたとき。 |
-| `TwitterLikeClick` | ユーザーがMediaウォールから&quot;Twitterのいいね!&quot;または「お気に入り」ボタンをクリックしたとき。 |
-| `ModalView` | ユーザがクリックして、より大きなモーダルウィンドウでMediaウォールコンテンツを表示する場合。 |
-| `Like` | ユーザがMediaウォールから「いいね!&quot;ボタンをクリックしたとき。 |
-| `ShareButtonClick` | Mediaウォールカードの共有ボタンをユーザーがクリックしたとき。 |
-| `ShareURL` | &quot;URLで共有」テキスト領域がメディアウォールから選択/コピーされたとき。 |
-| `ShareFacebook` | &quot;Facebookで共有」がクリックされると、Mediaウォールからクリックされます。 |
-| `ShareTwitter` | &quot;Twitterで共有」がクリックされると、Mediaウォールからクリックされます。 |
+| `Init` | メディアウォールがページに含まれる場合。 |
+| `Load` | 位置に関係なく、ページにメディアウォールが読み込まれたとき。 |
+| `PostButtonClick` | ユーザがメディアウォールの「アップロード」ボタンをクリックしたとき。 |
+| `RequestMore` | ユーザがメディアウォールに読み込むコンテンツの数が増えるとき。 |
+| `TwitterReplyClick` | ユーザーがメディアウォールから「Twitter返信」ボタンをクリックしたとき。 |
+| `TwitterRetweetClick` | ユーザーがメディアウォールから「Twitterリツイート」ボタンをクリックしたとき。 |
+| `TwitterLikeClick` | ユーザーがメディアウォールから「Twitterの「いいね！」/「お気に入り」ボタンをクリックしたとき。 |
+| `ModalView` | ユーザがクリックして、大きいモーダルウィンドウでMedia wallコンテンツを表示したとき。 |
+| `Like` | ユーザがMedia wallから「いいね！」ボタンをクリックしたとき。 |
+| `ShareButtonClick` | ユーザーがMedia Wallカードの共有ボタンをクリックするたびに表示されます。 |
+| `ShareURL` | 「URLに共有」テキスト領域がメディアウォールから選択またはコピーされている場合。 |
+| `ShareFacebook` | メディアウォールから「Facebookに共有」をクリックした場合。 |
+| `ShareTwitter` | メディアウォールから「Twitterで共有」をクリックした場合。 |
