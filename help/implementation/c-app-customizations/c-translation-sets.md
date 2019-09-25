@@ -4,7 +4,7 @@ seo-description: 翻訳セットを使用すると、アプリの代替言語を
 seo-title: 翻訳セット
 solution: Experience Manager
 title: 翻訳セット
-uuid: 8ba66a61-5520-482a- bc0b- e4f6b57f1744
+uuid: 8ba66a61-5520-482a-bc0b-e4f6b57f1744
 translation-type: tm+mt
 source-git-commit: 366b7248c2f3b6994fa10419599e66fa1c8e5e48
 
@@ -19,27 +19,27 @@ source-git-commit: 366b7248c2f3b6994fa10419599e66fa1c8e5e48
 c_translation_sets.dita
 -->
 
-翻訳設定を使用して、様々な言語のアプリをローカライズしたり、Studioのある場所から複数のアプリの代替テキストを指定したりできます。例えば、すべてのスペイン語サイトですべてのアプリフィールドにスペイン語を使用することができます。また、すべてのフィールドがサイトやネットワークの音声と雰囲気に一致するようにテキストを変更することもできます。
+翻訳設定を使用して、様々な言語でアプリをローカライズしたり、Studioの1つの場所から複数のアプリの代替テキストを指定したりします。 例えば、すべてのスペイン語サイトで、すべてのアプリフィールドにスペイン語を使用するように設定できます。 また、テキストを変更して、すべてのフィールドがサイトやネットワークの音声と操作性に一致するようにすることもできます。
 
-Storeify2以外のすべてのアプリの翻訳設定を指定できます。ローカライズできるフィールドについて詳しくは、「文字列 [のローカライズ](/help/using/c-settings-other/c-translation-sets/c-localize-strings.md)」を参照してください。
+Storify 2を除くすべてのアプリに対して翻訳設定を指定できます。 ローカライズ可能なフィールドの詳細については、「文字列をローカライズ [する」を参照してくださ](/help/using/c-settings-other/c-translation-sets/c-localize-strings.md)い。
 
-コメント、ライブブログおよびチャットは、翻訳セット内で同じ文字列を共有します。
+コメント、ライブブログ、およびチャットは、翻訳セット内で同じ文字列セットを共有します。
 
-ネットワーク、サイト、アプリ、またはAPIを使用して、翻訳セットを指定します。
+ネットワーク、サイト、アプリ、またはAPIを使用する翻訳セットを指定します。
 
-異なるレベルの翻訳セットは、次のパターンに従って互いに上書きします。
+異なるレベルの変換セットは、このパターンに従って互いに上書きされます。
 
-* API翻訳セットは、どのレベル（アプリ、ネットワーク、サイト）でも翻訳セットより優先されます。
-* アプリ翻訳セットは、ネットワークレベルとサイトレベルの翻訳セットを上書きします。
-* サイトレベルの翻訳セットは、ネットワークレベルの翻訳セットを上書きします。
+* API変換セットは、任意のレベル（アプリ、ネットワーク、サイト）のすべての変換セットより優先されます。
+* アプリ翻訳セットは、ネットワークレベルおよびサイトレベルの翻訳セットよりも優先されます。
+* サイトレベルの翻訳セットは、ネットワークレベルの翻訳セットよりも優先されます。
 
-## レビューテキスト文字列 {#c-review-text-strings}
+## テキスト文字列の確認 {#c-review-text-strings}
 
-Livefyreレビューのテキスト文字列のカスタマイズ
+Livefyre Reviews用のテキスト文字列のカスタマイズを参照してください。
 
-このページには、レビューアプリでのカスタマイズに使用できる文字列の一覧と説明が記載されています。ここに示す文字列は、Livefyreコアアプリのデフォルト文字列と、文字列のカスタマイズに一覧表示されているデフォルトの文字列の上書きです。重複がリストされている場合、これらのテーブルに一覧表示されている文字列は、レビューアプリのデフォルトです。
+このページには、Reviewアプリケーションのカスタマイズに使用できる文字列の一覧と説明が含まれています。 ここに示す文字列は、Livefyreコアアプリのデフォルト文字列に加えて、文字列のカスタマイズに表示される文字列よりも優先されます。 重複が表示される場合は、これらの表に示す文字列がレビューアプリのデフォルトの文字列になります。
 
-* 導入
+* 実装
 * レビュー/評価インターフェイス
 * ストリーム情報
 * 作成者/コンテンツ情報
@@ -47,9 +47,9 @@ Livefyreレビューのテキスト文字列のカスタマイズ
 * 投稿関数
 * エラー
 
-## 導入 {#section-vsy-1k4-xz}
+## 実装 {#section-vsy-1k4-xz}
 
-この機能を実装するには、オーバーライドする文字列の1-1オブジェクトマッピングをJavascript設定オブジェクトに渡します。フィールドを指定しない場合、デフォルトのテキストが使用されます。
+この機能を実装するには、上書きする文字列の1 ～ 1個のオブジェクトマッピングをJavaScript設定オブジェクトに渡します。 フィールドを指定しない場合は、デフォルトのテキストが使用されます。
 
 例：
 
@@ -66,146 +66,146 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 
 ## レビュー/評価インターフェイス {#section_iyv_zj4_xz}
 
-レビューおよびレーティングユーザーインターフェイスで使用できる文字列。
+レビューと評価のユーザーインターフェイスで使用できる文字列です。
 
-| 要素 | キー | デフォルトテキスト |
+| 要素 | キー | デフォルトのテキスト |
 | --------------- | ------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | ボタン |  |  |
-|  | editViewBtn | レビューの編集 |
-|  | ReviewBtn | レビューの書き込み |
-|  | ReviewSclosed | レビュー終了 |
+|  | editReviewBtn | レビューの編集 |
+|  | reviewBtn | レビューの書き込み |
+|  | reviewsClosed | 終了したレビュー |
 |  | showReviewBtn | レビューを表示 |
-|  | フォロー | 関心があること |
-|  | ShareText | レビューを作成しました。チェックアウトしてください。 |
-| レーティングツールチップ |  |  |
-|  | rateingValues | 配列。デフォルト=[「不十分」、「不十分」、「公平」、「公平」、「平均」、「平均」、「良好」、「良好」、「優れた」、「優れた」]、 |
-|  |  | 注意:各星の左側と右側の両方を同じ名前に割り当てるには、配列内の値を複製する必要があります。 |
+|  | フォロー | 興味がある |
+|  | shareText | 私はただレビューを書いただけです。 見ろ！ |
+| 評価ツールチップ |  |  |
+|  | ratingValues | 配列. デフォルト=[‘Poor’, ‘Poor’, ‘Fair’, ‘Fair’, ‘Average’, ‘Average’, ‘Good’, ‘Excelrent’, ‘Excelrent’]; |
+|  |  | 注意：各星の左半分と右半分の両方に同じ名前を割り当てるには、配列内の値を複製する必要があります。 |
 | 評価サブパーツ |  |  |
-|  | ragingSubpartPlaceholder | 配列。デフォルト=[] |
-|  | ragingSubpartTitles | 配列。デフォルト=[] |
-|  | reviewStreamTitle | デフォルトでは空白です。レビューの概要セクションのタイトル。 |
-| Misc |  |  |
-|  | averageSetting | 平均ユーザー評価 |
-|  | breakDownHeader | 評価分類 |
-|  | 役立つ | % s/% sが役に立ちました |
-|  | HelpfulMultiple | % s/% sが役に立ちました |
-|  | OutOf | / |
-|  | rateingType | 星形 |
+|  | ratingSubpartPlaceholders | 配列. デフォルト = [] |
+|  | ratingSubpartTitles | 配列. デフォルト = [] |
+|  | reviewStreamTitle | デフォルトでは空白です。 レビューの概要セクションのタイトル。 |
+| その他 |  |  |
+|  | averageRating | 平均ユーザー評価 |
+|  | breakdownHeader | 評価の内訳 |
+|  | 役立つ | %s/%sが役に立ちました |
+|  | hempluralPlural | %s/%sが役に立ちました |
+|  | outOf | / |
+|  | ratingType | 星 |
 
 ## ストリーム情報 {#section_wmv_yj4_xz}
 
 コンテンツストリーム情報および表示に使用できる文字列。
 
-| 要素 | キー | デフォルトテキスト |
+| 要素 | キー | デフォルトのテキスト |
 |---|---|---|
 | *並べ替え* |  |  |
 |  | sortBy | *デフォルトでは空白です。* |
-|  | sortHighestRate | [最高レーティング](https://d.pr/i/huTd) |
-|  | sortLoaded | [最低評価](https://d.pr/i/huTd) |
-|  | sortOmsful | [最も役に立つ](https://d.pr/i/huTd) |
-| *ストリームの不一致。* |  |  |
-|  | showMore | 表示を増やす |
-| *高速度ストリーム* |  |  |
-|  | newComment | 新しいレビュー |
+|  | sortHighestRated | [最高評価](https://d.pr/i/huTd) |
+|  | sortLowestRated | [最低評価](https://d.pr/i/huTd) |
+|  | sortMostHemplive | [最も役に立つ](https://d.pr/i/huTd) |
+| *ストリームその他* |  |  |
+|  | showMore | 詳細を表示 |
+| *高速ストリーム* |  |  |
+|  | newComment | 新規レビュー |
 |  | newComments | 新しいレビュー |
 | *リスナー数* |  |  |
-|  | listenerCount | リスニングするユーザー |
-|  | listenerCountMultiple | 訪問者 |
+|  | listenerCount | 聞く人 |
+|  | listenerCountPlural | 聞く人 |
 | *コメント数* |  |  |
-|  | commentCountLabel | libeReviews |
-|  | commentCountLabelMultiple | libeReviews |
-| *コメント通知のカウント* |  |  |
-|  | CommentNofier | 新しいレビュー |
-|  | CommentNoIdentifierMultiple | 新しいレビュー |
+|  | commentCountLabel | LiveReviews |
+|  | commentCountLabelPlural | LiveReviews |
+| *コメント通知数* |  |  |
+|  | commentNotifier | 新規レビュー |
+|  | commentNotifierPlural | 新しいレビュー |
 
 ## 作成者/コンテンツ情報 {#section_osx_xj4_xz}
 
-作成者および個々のコンテンツ情報に使用できるステリング。
+発言者および個々のコンテンツ情報に関する設定。
 
-| 要素 | キー | デフォルトテキスト |
+| 要素 | キー | デフォルトのテキスト |
 |---|---|---|
-| *スレッドアウトアウト* |  |  |
-|  | ReviewsContentNotFoundMsg | [このレビューは表示されません](https://d.pr/i/svXs) |
+| *スレッド分割* |  |  |
+|  | reviewsContentNotFoundMsg | [このレビューは表示されなくなりました](https://d.pr/i/svXs) |
 |  | backToComments | レビューに戻る |
 
 ## ユーザーアクション {#section_tlx_wj4_xz}
 
-ユーザーアクションで使用できる文字列:フラグ付け、共有、既存のコンテンツの便利なマーク付け。
+ユーザーアクションに使用できる文字列：既存のコンテンツにフラグを付け、共有し、役立つものとしてマークする。
 
-| 要素 | キー | デフォルトテキスト |
+| 要素 | キー | デフォルトのテキスト |
 |---|---|---|
 | *コメントフッター* |  |  |
-|  | WasreviewPaful | [役に立つか。](https://d.pr/i/Q0mA) |
-|  | WasreviewURPfulmobile | 役に立つか。 |
-|  | OwnWasReviewPaful | [便利です。](https://d.pr/i/Q0mA) |
-|  | ReviewWasful | [はい](https://d.pr/i/Q0mA) |
-|  | HelpFulldivider | [&amp; amp;vert;](https://d.pr/i/Q0mA) |
-|  | ReviewWasNoSupport | [いいえ](https://d.pr/i/Q0mA) |
+|  | wasReviewHenvelupe | [役に立つ？](https://d.pr/i/Q0mA) |
+|  | wasReviewHenpliceMobile | 役に立つ？ |
+|  | ownWasReviewHenpled | [役に立ちました。](https://d.pr/i/Q0mA) |
+|  | reviewWasHenvelupe | [○](https://d.pr/i/Q0mA) |
+|  | helpDivider | [&amp;vert;](https://d.pr/i/Q0mA) |
+|  | reviewWasNotHemple | [×](https://d.pr/i/Q0mA) |
 | *投票モーダル* |  |  |
-|  | videTitle | このレビューは役に立ちましたか。 |
-|  | videDown投票 | いいえ |
-|  | videePrivacTitle | この返信は役に立ちましたか。 |
-|  | videTitle | このコメントは役に立ちましたか。 |
-|  | videup投票 | はい |
+|  | voteTitle | このレビューは役に立ちましたか？ |
+|  | voteDownvote | × |
+|  | voteReplyTitle | この返事は役に立ちましたか。 |
+|  | voteTitle | このコメントは役に立ちましたか？ |
+|  | voteUpvote | ○ |
 | *フラグモーダル* |  |  |
-|  | flagTitle | フラグ% sのレビュー |
-|  | flagSuccessMsg | レビューがフラグ付けされました。 |
-| *Mobile Mobile* |  |  |
-|  | flagConfirmationMessage | % sのレビューを% sとしてフラグ付けしますか? |
+|  | flagTitle | フラグ%sのレビュー |
+|  | flagSuccessMsg | レビューにフラグが付けられました。 |
+| *フラグモバイル* |  |  |
+|  | flagConfirmationMessage | %sのレビューに%sのフラグを付けますか？ |
 | *メンションモーダル* |  |  |
-|  | mentContextDefaultText | Livefyreレビューであなたに問い合わせました。 |
+|  | mentionDefaultText | ライブフィレのレビューで言った！ |
 | *共有モーダル* |  |  |
-|  | shareTitle | 共有レビュー |
+|  | shareTitle | レビューを共有 |
 
 ## 投稿関数 {#section_yl1_wj4_xz}
 
-ユーザーがレビューを投稿するために使用できる文字列。
+レビューを投稿するユーザーが使用できる文字列。
 
-| 要素 | キー | デフォルトテキスト |
+| 要素 | キー | デフォルトのテキスト |
 |---|---|---|
-| *エディター* |  |  |
-|  | bodyPlaceHolder | レビューの書き込み… |
+| *編集者* |  |  |
+|  | bodyPlaceholder | レビューの書き込み… |
 |  | postEditButton | 編集 |
 |  | postEditCancelButton | キャンセル |
-|  | postAsButton | レビューのレビュー対象 |
-|  | postButton | 投稿のレビュー |
-|  | postReplayButton | 投稿先… |
-|  | postReplyButton | Post |
+|  | postAsButton | レビュー後の形式 |
+|  | postButton | レビュー後 |
+|  | postReplyAsButton | 投稿… |
+|  | postReplyButton | 投稿 |
 |  | shareButton | 共有 |
-|  | titlePlaceHolder | タイトル… |
+|  | titlePlaceholder | タイトル… |
 
 ## エラー {#section_jbc_vj4_xz}
 
 一般的なエラーメッセージに使用できる文字列。
 
-| 要素 | キー | デフォルトテキスト |
+| 要素 | キー | デフォルトのテキスト |
 |---|---|---|
 | エラー |  |  |
-|  | errorAlreadyPost | 1つのレビューのみ投稿できます。 |
-|  | errorAuthError | この会話にはレビューを投稿する権限がありません |
-|  | errorCommentSnowAllowed | 現時点ではレビューを投稿できません |
-|  | errorDismisseOwnComment | 自分のレビューには気をつけることはできません |
-|  | errorDuplicate | レビューを「いいね!&quot;するだけで、2回投稿することはできません。 |
-|  | errorEditDuplicate | 編集時にレビューの本文を変更する必要があります。 |
-|  | errorEditNotAllowed | この会話ではレビューを編集できません。 |
-|  | errorEditTimeExced | レビューの編集期間が有効期限切れです。 |
-|  | errorEmpty | 空のレビューを投稿しようとしています。 |
-|  | errorEmptyTitle | 空のタイトルを投稿しようとしています |
-|  | errorFieldDating | 星レーティング |
+|  | errorAlreadyPosted | レビューは1つだけ投稿できます。 |
+|  | errorAuthError | この会話に対するレビューを投稿する権限がありません |
+|  | errorCommentsNotAllowed | 現時点ではレビューを投稿できません |
+|  | errorDislikeOwnComment | 自分の考えを嫌うことはできない |
+|  | errorDuplicate | レビューを好む限り、2回投稿することはできません。 |
+|  | errorEditDuplicate | レビューの本文は、編集時に変更する必要があります。 |
+|  | errorEditNotAllowed | この会話のレビューを編集することはできません。 |
+|  | errorEditTimeExceeded | レビュー編集期間が終了しました。 |
+|  | errorEmpty | 空のレビューを投稿しようとしている可能性があります。 |
+|  | errorEmptyTitle | 空のタイトルを投稿しようとしているようです |
+|  | errorFieldRating | 星評価 |
 |  | errorFieldReview | レビュー |
 |  | errorFieldTitle | title |
-|  | errorMaxChars | レビューが長すぎます。編集して再試行してください。 |
+|  | errorMaxChars | レビューが長すぎます。 編集して、もう一度お試しください。 |
 |  | errorMissingFields | Please enter a |
-|  | errorRatingEmpty | 空の評価は送信できません |
-|  | errorRatingNotSet | すべてのレーティングを設定する必要があります |
-|  | errorRatingNotValid | レーティングはオブジェクトである必要があります |
+|  | errorRatingEmpty | 空の評価を送信することはできません |
+|  | errorRatingNotSet | すべての評価を設定する必要があります |
+|  | errorRatingNotValid | 評価はオブジェクトである必要があります |
 |  | errorShowMore | レビューの読み込み中にエラーが発生しました。 |
-|  | errorTitleMacChars | タイトルが長すぎます。編集して再試行してください。 |
-|  | errorVideOwnerComment | 自分のレビューに投票することはできません |
+|  | errorTitleMaxChars | 申し訳ございません。肩書が長すぎます。 編集して、もう一度お試しください。 |
+|  | errorVoteOwnComment | 自分のレビューに対して投票することはできません |
 
-## テキスト文字列を指定 {#c_sidenotes_text_strings}
+## テキスト文字列を表示 {#c_sidenotes_text_strings}
 
-Livefyre Sosemesのテキスト文字列のカスタマイズ
+Livefyreサイドのテキスト文字列のカスタマイズ
 
 <!-- 
 
@@ -213,10 +213,10 @@ c_sidenotes_text_strings.dita
 
  -->
 
-このページでは、アプリのカスタマイズに使用できるすべての文字列を一覧表示し、説明します。Livefyreアプリケーションで使用できる文字列について詳しくは、文字列のカスタマイズを参照してください。
+このページには、サイドアプリのカスタマイズに使用できるすべての文字列の一覧と説明が表示されます。 コアLivefyreアプリで使用できる文字列について詳しくは、文字列のカスタマイズを参照してください。
 
-* 導入
-* Auth
+* 実装
+* 認証
 * ストリーム情報
 * 作成者/コンテンツ情報
 * ユーザーアクション
@@ -224,9 +224,9 @@ c_sidenotes_text_strings.dita
 * モデレーターインターフェイス
 * エラー
 
-## 導入 {#section_wp2_ql4_xz}
+## 実装 {#section_wp2_ql4_xz}
 
-この機能を実装するには、オーバーライドする文字列の1-1オブジェクトマッピングをJavascript設定オブジェクトに渡します。フィールドを指定しない場合、デフォルトのテキストが使用されます。
+この機能を実装するには、上書きする文字列の1 ～ 1個のオブジェクトマッピングをJavaScript設定オブジェクトに渡します。 フィールドを指定しない場合は、デフォルトのテキストが使用されます。
 
 例：
 
@@ -242,129 +242,129 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 );
 ```
 
-## 認証 {#section_pqf_3l4_xz}
+## Authentication {#section_pqf_3l4_xz}
 
-認証プロセスで使用できる文字列、および認証済みのユーザーメニューから使用できます。
+認証プロセスで使用できる文字列、および認証済みユーザーメニューから使用できます。
 
-| 要素 | キー | デフォルトテキスト |
+| 要素 | キー | デフォルトのテキスト |
 |---|---|---|
 | *認証メニュー文字列* |  |  |
 |  | menuAuthSignInBtn | サインイン |
-|  | menuAuthSignInMsg | {action}にサインインしている必要があります |
-|  | menuUserEditProfile | プロファイルを編集 |
-|  | menuUserAdmin | 管理コンソール |
+|  | menuAuthSignedInMsg | {action}にサインインする必要があります |
+|  | menuUserEditProfile | プロファイルの編集 |
+|  | menuUserAdmin | Admin Console |
 |  | menuUserLogout | サインアウト |
-|  | menuUserbackBtn | すべて |
+|  | menuUserBackBtn | すべて |
 
 ## ストリーム情報 {#section_wpy_gl4_xz}
 
 コンテンツストリーム情報および表示に使用できる文字列。
 
-| 要素 | キー | デフォルトテキスト |
+| 要素 | キー | デフォルトのテキスト |
 |---|---|---|
-| *情報メニューオプション* |  |  |
-|  | menuInfoCopyright | © Livefyre， Inc.2014 |
+| *情報メニューのオプション* |  |  |
+|  | menuInfoCopyright | © Livefyre, Inc. 2014 |
 |  | menuInfoHelp | ヘルプ |
-|  | menuInLiativeFyLink | Livefyre.comにアクセス |
+|  | menuInfoLivefyreLink | Livefyre.comにアクセス |
 
 ## 作成者/コンテンツ情報 {#section_dhb_gl4_xz}
 
-作成者および個々のコンテンツ情報に使用できるステリング。
+発言者および個々のコンテンツ情報に関する設定。
 
-| 要素 | キー | デフォルトテキスト |
+| 要素 | キー | デフォルトのテキスト |
 |---|---|---|
-|  | CommentModeratorTag | Mod |
-|  | CommentPendingTag | 保留中 |
+|  | commentModeratorTag | Mod |
+|  | commentPendingTag | 保留 |
 |  | commentReadMoreLink | 詳細情報 |
 |  | commentReplyLink | {number}件の返信を参照 |
 |  | commentReplyLinkSing | 「返信」を参照 |
-|  | commentSearchCount | 投票数 |
-|  | commentSearchCounting | 投票 |
-|  | dataTimeMinutePrefix | m |
-|  | dataTimeMons | *配列。デフォルト=*[ &#39;1月&#39;、&#39;2月&#39;、&#39;3月&#39;、&#39;4月&#39;、&#39;5月&#39;、&#39;5月&#39;、&#39;月&#39;、&#39;月&#39;、&#39;月&#39;、&#39;11月&#39;、&#39;12月&#39;、&#39;12月&#39; ] |
-|  | QuestionDescription | 文章、段落、画像、引用符でコメントを直接読み取りおよび書き込みできるようになりました。<br>テキストをハイライトしてアイコンをクリックするか、各段落の最後にあるアイコンをクリックします。 |
-|  | QuestionModeText | 「なじみのある」という理由では、適切に認識されません。 |
-|  | QuestionTitle | Sitesizeとは何ですか。 |
+|  | commentVoteCount | 票 |
+|  | commentVoteCountSing | 件の投票 |
+|  | datetimeMinutePrefix | m |
+|  | datetimeMonths | *配列. Default = *[ ‘January’, ‘February’, ‘March’, ‘April’, ‘May’, ‘June’, ‘July’, ‘August’, ‘September’, ‘October’, ‘November’, ‘December’ ] |
+|  | questionExplation | 文章、段落、画像、引用符に対するコメントの読み取りと書き込みを直接行えるようになりました。 <br>テキストをハイライト表示し、アイコンをクリックするか、各段落の末尾にあるアイコンをクリックします。 |
+|  | questionMockText | 「親しみ深い」ものは、「親しみ深い」という理由だけで、正しく知られていません。 |
+|  | questionTitle | 「サイド」とは |
 
 ## ユーザーアクション {#section_qxd_fl4_xz}
 
-ユーザーアクションで使用できる文字列:既存のコンテンツのフラグ付け、共有、およびいいね!。
+ユーザーアクションに使用できる文字列：既存のコンテンツにフラグを付け、共有し、「いいね！」をクリックします。
 
-| 要素 | キー | デフォルトテキスト |
+| 要素 | キー | デフォルトのテキスト |
 |---|---|---|
-| *返信メニューオプション* |  |  |
-|  | menuRepliesViewTitle | 詳細情報 |
-|  | menuRepliesViewReply | 会話への返信 |
-| *共有メニューオプション* |  |  |
-|  | MenuHareOptionFacebook | Facebook |
-|  | MenuHareOptionTwitter | Twitter |
-|  | menusHasTitle | 共有 |
+| *返信メニューのオプション* |  |  |
+|  | menuRepliesViewTitle | 詳細 |
+|  | menuRepliesViewReply | 会話に返信 |
+| *共有メニューのオプション* |  |  |
+|  | menuShareOptionFacebook | Facebook |
+|  | menuShareOptionTwitter | Twitter |
+|  | menuShareTitle | 共有 |
 | *フラグメニューオプション* |  |  |
-|  | menuFlagOptionInside | 同意しない |
-|  | menuFlagOption不快 | 不快な不快行為 |
-|  | menuFlagOptionOffTopic | トピックなし |
-|  | menuFlagOptionスパム | スパム |
-|  | menuFlagTitle | フラグの設定 |
-|  | facebookShareReption | &quot;{title}&quot;について |
+|  | menuFlagOptionDisagree | 同意しない |
+|  | menuFlagOptionOffense | 不快な |
+|  | menuFlagOptionOffTopic | トピック外 |
+|  | menuFlagOptionSpam | スパム |
+|  | menuFlagTitle | フラグの設定… |
+|  | facebookShareCaption | 「{title}」のサイド |
 | *モバイルユーザーオプション* |  |  |
-|  | sliderCommentTempt | of |
-|  | sliderInviterAd | 読み取り |
+|  | sliderCommentTally | of |
+|  | sliderInviteRead | 詳しくは、 |
 |  | sliderInviteWrite | 書き込み |
-|  | sliderLoading | 読み込み中… |
-|  | sliderWriteText | どう思いますか。タップして書き込みます。 |
+|  | sliderLoading | ロードしています… |
+|  | sliderWriteText | どう思う？ タップして書き込みます。 |
 
 ## 投稿関数 {#section_xzf_2l4_xz}
 
-コンテンツを投稿するために使用できる文字列。
+ユーザーがコンテンツを投稿する際に使用できる文字列です。
 
-| 要素 | キー | デフォルトテキスト |
+| 要素 | キー | デフォルトのテキスト |
 |---|---|---|
-|  | editedEditBtn | 保存 |
-|  | editedEditPosting | 保存中… |
-|  | editedEditAppTitle | 返信を編集 |
-|  | editedEditTitle | サイトビューを編集 |
-|  | editorPlaceHolder | どう思いますか。 |
-|  | editorPostBtn | 投稿の開始 |
-|  | editorPostBnMobile | Post |
+|  | editorEditBtn | 保存 |
+|  | editorEditPosting | 保存中… |
+|  | editorEditReplyTitle | 返信の編集 |
+|  | editorEditTitle | サイトの編集 |
+|  | editorPlaceholder | どう思う？ |
+|  | editorPostBtn | 投稿のサイト |
+|  | editorPostBtnMobile | 投稿 |
 |  | editorPosting | 投稿中… |
-|  | editorReplyBtn | 返信の返信 |
+|  | editorReplyBtn | 返信を投稿 |
 |  | editorReplyTitle | 返信の書き込み |
-|  | editorTitle | Sideesを書き込み |
-|  | EmptyImageBlockSpt | どう思いますか。 |
-|  | EmptyTextBlockTXT | + |
-|  | replyBtn | Reply |
-|  | ThreadReplyBn | 会話への返信 |
-| *メニューオプションの削除* |  |  |
+|  | editorTitle | 書き込みサイト |
+|  | emptyImageBlockTxt | どう思う？ |
+|  | emptyTextBlockTxt | + |
+|  | replyBtn | 返信 |
+|  | threadReplyBtn | 会話に返信 |
+| *削除メニューオプション* |  |  |
 |  | menuConfirmAccept | はい、{action} |
 |  | menuConfirmCancel | キャンセル |
-|  | menuConfirmTitle | よろしいですか。 |
+|  | menuConfirmTitle | よろしいですか？ |
 | *Etcメニューオプション* |  |  |
-|  | menuetOptionApprove | 承認 |
-|  | menuetOptionDelete | 削除 |
-|  | menuetOptionEdit | 編集 |
-|  | menuetOptionFlag | フラグ |
-|  | menuetOptionShare | 共有 |
-|  | menuetCpostedAt | {date}に投稿 |
-|  | menuGetCtitle | 詳細情報 |
+|  | menuEtcOptionApprove | 承認 |
+|  | menuEtcOptionDelete | 削除 |
+|  | menuEtcOptionEdit | 編集 |
+|  | menuEtcOptionFlag | Flag |
+|  | menuEtcOptionShare | 共有 |
+|  | menuEtcPostedAt | 投稿日： {date} |
+|  | menuEtcTitle | 詳細情報 |
 
 ## モデレーターインターフェイス {#section_o5f_dl4_xz}
 
-ユーザー認証モデレーターインターフェイスで使用できる文字列。
+ユーザー認証モデレーターインターフェイスで使用できる文字列です。
 
-| 要素 | キー | デフォルトテキスト |
+| 要素 | キー | デフォルトのテキスト |
 |---|---|---|
-| *その他メニューからの確認メッセージ* |  |  |
-|  | NotificationApproved | 承認済み |
-|  | NotificationDeleted | 削除済み |
-|  | NotificationFlag | フラグ付き |
+| *「詳細」メニューからの確認メッセージ* |  |  |
+|  | notificationApproved | 承認済み |
+|  | notificationDeleted | 削除済み |
+|  | notificationFlagged | フラグあり |
 
 ## エラー {#section_gtk_cl4_xz}
 
 一般的なエラーメッセージに使用できる文字列。
 
-| 要素 | キー | デフォルトテキスト |
+| 要素 | キー | デフォルトのテキスト |
 |---|---|---|
-|  | errorConnection | Uh- oo.適切な接続がないと思われます。 |
-|  | errorDuplicate | メモも同様ですが、2回投稿することはできません。 |
-|  | errorGeneral | エラーが発生しました。再試行してください。 |
-|  | errorServer | サーバーに問題がありました。再試行しますか? |
+|  | errorConnection | ああ。 君は良い関係がないようだ |
+|  | errorDuplicate | お客様のメモも気に入っていますが、2回投稿することはできません。 |
+|  | errorGeneral | エラーが発生しました. もう一度お試しください。 |
+|  | errorServer | サーバーで問題が発生しました。 もう一度？ |
