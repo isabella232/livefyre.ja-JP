@@ -1,21 +1,21 @@
 ---
 description: ネイティブモバイルアプリにLivefyreを追加します。
 seo-description: ネイティブモバイルアプリにLivefyreを追加します。
-seo-title: モバイルSDK
+seo-title: モバイル SDK
 solution: Experience Manager
-title: モバイルSDK
-uuid: 84c7ca1c-3401-492a- bfa5-62b996947a44
+title: モバイル SDK
+uuid: 84c7ca1c-3401-492a-bfa5-62b996947a44
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# モバイルSDK{#mobile-sdks}
+# モバイル SDK{#mobile-sdks}
 
 ネイティブモバイルアプリにLivefyreを追加します。
 
-実行する予定のカスタマイズ範囲に応じて、モバイル導入に使用できるオプションはいくつかあります。
+モバイル実装には、行う予定のカスタマイズの範囲に応じて、次のいくつかのオプションを使用できます。
 
 * モバイルWebアプリ
 * Livefyre AndroidまたはiOS SDK
@@ -23,44 +23,44 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ## モバイルWebアプリ {#section_t2k_vpb_11b}
 
-モバイルデバイス上でWebページを開くお客様には、モバイル用に最適化されたLivefyreコンテンツストリームが自動的に取得されます。このコンテンツストリームは、タッチイベントを処理するための画面サイズや変更の低減に合わせて最適化されます。
+モバイルデバイスでWebページを開いた顧客は、縮小された画面サイズに合わせたスタイル設定や、タッチイベントを処理するための変更など、モバイル用に最適化されたLivefyreコンテンツストリームを自動的に取得します。
 
 >[!NOTE]
 >
->Android WebViewでLivefyreアプリケーションを使用する場合、Android [WebSettings. setDomStorageEnabled](https://developer.android.com/reference/android/webkit/WebSettings.html) パラメーターをtrueに設定する必要があります。LocalStorageが有効になっていない場合、LivefyreはLivefyreアプリケーションにユーザーをログインできません。
+>Android webViewでLivefyre appを使用する場合は、Android [WebSettings.setDomStorageEnabled](https://developer.android.com/reference/android/webkit/WebSettings.html) パラメーターをtrueに設定する必要があります。 localStorageが有効になっていない場合、LivefyreはユーザーをLivefyreアプリにログインできません。
 
-モバイル用に最適化するために、Livefyreでは、コメント、ライブブログおよびチャットアプリの機能セットを次のように制限しています。
+Livefyreでは、モバイル用に最適化するために、コメント、ライブブログ、およびチャットアプリの機能セットに次のものが含まれるように制限されています。
 
-* Post
+* 投稿
 * 編集
-* フラグ
-* いいね!
-* Reply
+* Flag
+* いいね！
+* 返信
 * リスナー数
 * コメント数
-* インライン保留中のモデレート
+* インライン保留モデレート
 * ホバーカード
 * 上位のコメント
 * ホットスレッド
 * Queue Comments
 
-モバイルWebアプリで、作成者の名前をクリックすると、新しいページにhoverardの情報が表示されます。
+モバイルWebアプリで、発言者の名前をクリックすると、新しいページにカード情報が開きます。
 
 ## Livefyre Android SDKまたはiOS SDK {#section_zdz_spb_11b}
 
-Livefyreも2つのモバイルSDKを提供しています。iOS SDKおよびAndroid SDK。これらのSDKは、HTTPエンドポイントの周りにラッパーを備えており、データの送受信の簡単な方法を提供します。これらのSDKにはインターフェイスがありません。これにより、モバイルアプリ内でコンテンツの表示と使用を柔軟に柔軟に行うことができます。
+また、Livefyreは2つのモバイルSDKを提供します。ios SDKとAndroid SDKの2つのURLが含まれます。 これらのSDKは、データの送受信をより簡単にするために構築された、HTTPエンドポイントの周囲のラッパーです。 これらのSDKにはインターフェイスが備わっていないので、モバイルアプリ内でのコンテンツの表示方法と使用方法を柔軟に指定できます。
 
-AndroidおよびiOS SDKでは、コメント、ライブブログおよびチャットの次の機能がサポートされています。
+AndroidおよびiOS SDKは、コメント、ライブブログ、およびチャットに関して次の機能をサポートしています。
 
-| iOSの機能: | Android機能: |
+| iOSの機能： | Androidの機能： |
 |--- |--- |
-| <ul><li> Post </li><li>編集 </li><li>フラグ </li><li>いいね! </li><li>Reply </li><li>ホットスレッド</li></ul> | <ul><li>Post </li><li>編集 </li><li>いいね! </li><li>Reply </li><li>ホットスレッド</li></ul> |
+| <ul><li> 投稿 </li><li>編集 </li><li>Flag </li><li>いいね！ </li><li>返信 </li><li>ホットスレッド</li></ul> | <ul><li>投稿 </li><li>編集 </li><li>いいね！ </li><li>返信 </li><li>ホットスレッド</li></ul> |
 
 ## HTTP API {#section_yqb_qpb_11b}
 
-HTTP APIは、Livefyreプラットフォーム上の会話やコンテンツを作成できるエンドポイントのグループです。また、すべてのLivefyreがデフォルトのストリームから提供されます。このソリューションにはエンジニアリングチームからのさらなる開発時間が必要ですが、Livefyre製品スイートを使用する際は柔軟性が高くなり、ネイティブモバイル統合が可能になります。
+HTTP APIは、Livefyreプラットフォーム上で会話やコンテンツを作成できるエンドポイントのグループです。 また、すべてのLivefyreを初期状態のストリームにパワーを与えます。 このソリューションは、エンジニアリングチームによる開発時間が長くなりますが、Livefyre製品スイートを使用する際の柔軟性が高まり、ネイティブモバイル統合が可能になります。
 
 >[!IMPORTANT]
 >
->**モバイルクライアント内にユーザー認証トークン** を作成しないでください。これは、保護されていないアプリケーション内にLivefyreシークレットネットワークキーを公開する必要があるからです。より強力で安全なソリューションについては、「ユーザー認証トークン」の節を参照してください。
+>**ユーザー認証トークンは** 、モバイルクライアント内で作成しないでください。作成すると、保護されていないアプリ内でLivefyre秘密ネットワークキーを公開する必要があります。 より堅牢で安全なソリューションについては、「ユーザー認証トークン」の節を参照してください。
 
