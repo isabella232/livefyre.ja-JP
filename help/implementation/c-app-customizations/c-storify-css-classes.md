@@ -1,34 +1,34 @@
 ---
-description: 統合アプリケーションで使用できるCSSクラス。
-seo-description: 統合アプリケーションで使用できるCSSクラス。
-seo-title: Storify CSSクラス
+description: Storify Appsで使用できるCSSクラス。
+seo-description: Storify Appsで使用できるCSSクラス。
+seo-title: CSSクラスの保存
 solution: Experience Manager
-title: Storify CSSクラス
-uuid: 168a0db0- a209-417a- ba91- a33b4d411c8d
+title: CSSクラスの保存
+uuid: 168a0db0-a209-417a-ba91-a33b4d411c8d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Storify CSSクラス{#storify-css-classes}
+# CSSクラスの保存{#storify-css-classes}
 
-統合アプリケーションで使用できるCSSクラス。
+Storify Appsで使用できるCSSクラス。
 
-CSSを使用して、単に初期設定のCSSを独自のスタイルシートで上書きするだけで、ページとの統合をより完全に行うために、Storifyアプリケーションをカスタマイズします。ここでは、使用可能なCSSのカスタマイズについて説明します。
+CSSを使用してStorify Appsをカスタマイズし、独自のスタイルシートで初期設定のCSSを上書きするだけで、ページとの統合をより完全に行うことができます。 この節では、使用可能なCSSのカスタマイズについて説明します。
 
-## 作成者エレメント {#section_tdy_hsh_xz}
+## 作成者要素 {#section_tdy_hsh_xz}
 
-投稿の作成者アバター、発言者名およびタイムスタンプのスタイル設定をカスタマイズできます。
+投稿の発言者のアバター、発言者名およびタイムスタンプのスタイル設定をカスタマイズできます。
 
 ![](assets/StorifyAuthorCSS.png)
 
 | クラス | 説明 |
 |---|---|
-| . s- author- name | 作成者 |
-| . s- author- avatar | 発言者のアバター。 |
-| . s- img | 発言者のアバター画像。 |
-| . s- timestamp | 日付コンテンツのタイムスタンプが投稿されました。 |
+| .s-author-name | 作成者 |
+| .s-author-avatar | 発言者のアバター。 |
+| .s-img | 発言者のアバター画像。 |
+| .s-timestamp | 投稿された日付コンテンツのタイムスタンプ。 |
 
 ## ヘッダー要素 {#section_nbv_gsh_xz}
 
@@ -38,18 +38,18 @@ CSSを使用して、単に初期設定のCSSを独自のスタイルシート�
 
 | **クラス** | **説明** |
 |---|---|
-| . super- header | メインヘッダ |
-| . outside- header | メインヘッダー行1 |
-| . s-カウントダウン | メインヘッダー行1カウントダウンタイマー |
-| . s- lity | メインヘッダー行1「ライブ」ステータス |
-| . base- header | メインヘッダー行2 |
-| . s- dropdown | メインヘッダー行2並べ替えドロップダウントリガー |
-| . s- dropdown- menu | メインヘッダー行2の並べ替えドロップダウンメニュー。 |
-| . s- dropdown- thirangle | メインヘッダー行2の並べ替えドロップダウンメニューのキャレット。 |
-| . s- dropdown- option | メインヘッダー行2の並べ替えドロップダウンメニュー項目。 |
-| . s- views | メインヘッダー行2のビュー数。 |
-| . s- share- buttonボタン | メインヘッダー行2共有ボタン |
-| . s- share- menu | メインヘッダー行2共有メニュー |
+| .super-header | メインヘッダー |
+| .outer-header | メインヘッダー行1 |
+| .s-countdown | メインヘッダー行1カウントダウンタイマー |
+| 活性 | メインヘッダー行1「ライブ」ステータス |
+| .base-header | メインヘッダー行2 |
+| .s-dropdown | メインヘッダー行2並べ替えドロップダウントリガー |
+| .s-dropdown-menu | メインヘッダー行2並べ替えドロップダウンメニュー |
+| .s-dropdown-triangle | メインヘッダー行2並べ替えドロップダウンメニューキャレット。 |
+| .s-dropdown-option | メインヘッダー行2並べ替えドロップダウンメニュー項目 |
+| .s-views | メインヘッダー行2ビュー数。 |
+| .s-share-buttonボタン | メインヘッダー行2 「共有」ボタン。 |
+| .s-share-menu | メインヘッダー行2の共有メニュー。 |
 
 ## 投稿要素 {#section_lrs_fsh_xz}
 
@@ -59,37 +59,37 @@ CSSを使用して、単に初期設定のCSSを独自のスタイルシート�
 
 | **クラス** | **説明** |
 |---|---|
-| . s- livelog | ストーリー要素全体のコンテナ |
-| . s- post | 投稿コンテナ |
-| . s-モーダル- content | 投稿モーダルコンテナ |
-| . s- element- content | 投稿内のすべてのコンテンツ要素 |
-| . s- element- text ul | テキスト要素 |
-| . s- element- text h2 | テキスト要素のヘッドライン |
-| . s- element- text p | テキスト要素の段落 |
-| . s- element- text ul | テキスト要素の番号付けされていないリスト |
-| . s- element- text ol | テキスト要素番号付きリスト |
-| . s- element- text li | テキスト要素のリスト項目 |
-| . s- element- text blockquote | ブロック引用 |
-| . s- element- text blockquote:before | ブロック引用の開始アイコン |
-| . s- element- text blockquote:after | ブロック引用の終わりのアイコン |
-| . s- element- image | インライン画像要素コンテナ |
-| . s- img | `<img>` element |
-| . s- image- caption | ソーシャルメディアに存在する画像およびビデオのキャプション（例:Instagram画像） |
-| . s- upload- image- caption | ストーリーエディターを使用してアップロードされた画像およびビデオのキャプション |
-| . s- element- video | ビデオ要素 |
-| . s- element- quotes | 引用要素（例:ツイートのw/テキストのみ） |
-| . s- element- quote- image | &quot;w/image&quot;要素の見積もりツイートのw/image |
-| . s- element- quotes- video | w/video要素の見積もり:ツイートのw/ビデオ） |
-| . s- link- body | 引用符内のリンクプレビュー（例:ツイートのW/リンクプレビュー |
+| .s-liveblog | Story要素全体のコンテナ |
+| .s-post | 投稿コンテナ |
+| .s-modal-content | ポストモーダルコンテナ |
+| .s-element-content | 投稿内のすべてのコンテンツ要素 |
+| .s-element-text ul | テキスト要素 |
+| .s-element-text h2 | テキスト要素のヘッドライン |
+| .s-element-text p | テキスト要素の段落 |
+| .s-element-text ul | テキスト要素の番号なしリスト |
+| .s-element-text ol | テキスト要素の順序付きリスト |
+| .s-element-text li | テキスト要素のリスト項目 |
+| .s-element-text blockquote | Blockquote |
+| .s-element-text blockquote:before | ブロック引用の先頭のアイコン |
+| .s-element-text blockquote:after | ブロック引用符の終わりのアイコン |
+| .s-element-image | インライン画像要素コンテナ |
+| .s-img | `<img>` element |
+| .s-image-caption | ソーシャルメディア上の画像やビデオのキャプション(例：Instagram画像) |
+| .s-upload-image-caption | ストーリーエディターでアップロードした画像およびビデオのキャプション |
+| .s-element-video | ビデオ要素 |
+| .s-element-quote | 見積もり要素(例：ツイート（テキストのみ） |
+| .s-element-quote-image | イメージ要素を含む引用(例：ツイート（画像付き） |
+| .s-element-quote-video | ビデオ要素を含む見積もり(例：ツイート（ビデオを含む） |
+| .s-link-body | 見積もり内のリンクプレビュー(例：ツイート（リンクプレビューを含む） |
 
 ## フッター要素 {#section_ozc_zrh_xz}
 
-個々の投稿ごとにフッターセクションをカスタマイズできます。
+個々の投稿のフッターセクションをカスタマイズできます。
 
 ![](assets/storify_CSS_footer.png)
 
 | **クラス** | **説明** |
 |---|---|
-| . s- post- footer | 投稿のフッター。 |
-| . s- sireize a | 投稿のフッターにあるSocatesボタン。 |
-| . s- like | 投稿のフッターにある「いいね!&quot;ボタン。 |
+| .s-post-footer | 投稿のフッター。 |
+| .s-sidenat | 投稿のフッターの「サイト」ボタン。 |
+| .sに似た | 投稿のフッターの「いいね！」ボタン。 |
