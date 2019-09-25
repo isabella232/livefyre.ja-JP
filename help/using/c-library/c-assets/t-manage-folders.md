@@ -1,39 +1,39 @@
 ---
-description: Studioには、フォルダーを管理するためのいくつかのオプションがあります。
-seo-description: Studioには、フォルダーを管理するためのいくつかのオプションがあります。
-seo-title: アセットフォルダを管理
+description: Studioには、フォルダを管理するためのオプションがいくつか用意されています。
+seo-description: Studioには、フォルダを管理するためのオプションがいくつか用意されています。
+seo-title: アセットフォルダの管理
 solution: Experience Manager
-title: アセットフォルダを管理
-uuid: 9ce510df-4f7a-4178- b2c4-7d59e4868add
+title: アセットフォルダの管理
+uuid: 9ce510df-4f7a-4178-b2c4-7d59e4868add
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# アセットフォルダを管理{#manage-asset-folders}
+# アセットフォルダの管理{#manage-asset-folders}
 
-Studioには、フォルダーを管理するためのいくつかのオプションがあります。
+Studioには、フォルダを管理するためのオプションがいくつか用意されています。
 
 フォルダとアセットを管理するには、次のオプションを使用できます。
 
-* **[!UICONTROL Favorite:]** ページ上部のフォルダー名の横にある星形アイコンをクリックして、フォルダにタグを付け、 **[!UICONTROL Favorites]** リストに追加します。
+* **[!UICONTROL Favorite:]** ページ上部のフォルダー名の横にある星形のアイコンをクリックして、フォルダーにタグを付け、リストに追加し **[!UICONTROL Favorites]** ます。
 
-* **[!UICONTROL Upload Asset:]** ファイルピッカーウィンドウが開き、デスクトップ、Flickr、URLまたはその他の場所からコンテンツを検索してアップロードし、アセットライブラリに追加します。
-* **[!UICONTROL Create New Subfolder:]** 現在選択されているフォルダ内にサブフォルダーを作成できます。サブフォルダーは親フォルダーのアクセス権を継承し、そのアクセスは個別に管理できません。
+* **[!UICONTROL Upload Asset:]** ファイルパッカーウィンドウが開き、デスクトップ、Flickr、URL、またはその他の場所からコンテンツを検索してアップロードし、アセットライブラリに追加できます。
+* **[!UICONTROL Create New Subfolder:]** 現在選択されているフォルダー内にサブフォルダーを作成できます。 サブフォルダは親フォルダのアクセス権限を継承し、そのアクセスを個別に管理することはできません。
 * **[!UICONTROL Trash Folder:]** アセットライブラリからフォルダとそのコンテンツを削除します。
 
    >[!NOTE]
    >
-   >フォルダの所有者のみがごみ箱フォルダに保存できます。
+   >フォルダの所有者のみがごみ箱フォルダを作成できます。
 
-* **[!UICONTROL Manage Access:]** フォルダーへのアクセスを制御できます。** [!UICONTROL Open]**また **[!UICONTROL Restricted]** は.ネットワーク内のすべてのStudioユーザーがフォルダーとそのコンテンツにアクセスできるようにする場合に選択 **[!UICONTROL Open]** します。選択 **[!UICONTROL Restricted]** して、選択したユーザーグループへのアクセスを制限します。
+* **[!UICONTROL Manage Access:]** フォルダ** [!UICONTROL Open]**またはへのアクセスを制御できます **[!UICONTROL Restricted]**。 ネットワ **[!UICONTROL Open]** ーク内のすべてのStudioユーザがフォルダとそのコンテンツにアクセスできるようにする場合に選択します。 選択し **[!UICONTROL Restricted]** たユーザーのグループへのアクセスを制限する場合に選択します。
 
    >[!NOTE]
    >
-   >フォルダーにアクセスする権限を持つユーザーのみがアクセスを管理できます。
+   >フォルダーへのアクセス権限を持つユーザーのみがアクセスを管理できます。
 
 * **[!UICONTROL Rename:]** フォルダの名前を変更できます。
 
 1. フォルダを選択します。
-1. ウィンドウの上部にあるボタンを使用して、フォルダを管理します。
+1. ウィンドウ上部のボタンを使用して、フォルダを管理します。
