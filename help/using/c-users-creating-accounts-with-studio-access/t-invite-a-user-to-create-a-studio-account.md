@@ -1,32 +1,32 @@
 ---
-description: Studio Managerおよび管理者は、新しいユーザーまたは既存のユーザーを招待して、Studioアカウントを作成できます。
-seo-description: Studio Managerおよび管理者は、新しいユーザーまたは既存のユーザーを招待して、Studioアカウントを作成できます。
-seo-title: ユーザーを招待してStudioアカウントを作成する
+description: Studio Managersと管理者は、新しいユーザーまたは既存のユーザーを招待してStudioアカウントを作成できます。
+seo-description: Studio Managersと管理者は、新しいユーザーまたは既存のユーザーを招待してStudioアカウントを作成できます。
+seo-title: Studioアカウントを作成するためのユーザーの招待
 solution: Experience Manager
-title: ユーザーを招待してStudioアカウントを作成する
-uuid: 2cfa4639-1624-4a28- a06d- b6b0180bf3b0
+title: Studioアカウントを作成するためのユーザーの招待
+uuid: 2cfa4639-1624-4a28-a06d-b6b0180bf3b0
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# ユーザーを招待してStudioアカウントを作成する{#invite-a-user-to-create-a-studio-account}
+# Studioアカウントを作成するためのユーザーの招待{#invite-a-user-to-create-a-studio-account}
 
-Studio Managerおよび管理者は、新しいユーザーまたは既存のユーザーを招待して、Studioアカウントを作成できます。
+Studio Managersと管理者は、新しいユーザーまたは既存のユーザーを招待してStudioアカウントを作成できます。
 
-ネットワークのLivefyre Technicalアカウントマネージャーが、最初のStudioアカウントの招待状を送信して、Studio Administratorアカウントを作成します。LivefyreテクニカルアカウントマネージャーがStudio管理者アカウントの作成に使用する電子メールアドレスを入力します。
-
->[!NOTE]
->
->他のユーザーを招待してStudioに参加する場合は、自分の所有者と同じまたはそれ未満の権限レベルを持つアカウントを作成します。
+ネットワーク用のLivefyreテクニカルアカウントマネージャーが、Studio Administratorアカウントの作成を求める最初のStudioアカウントの招待を送信します。 Livefyre Technical Account ManagerがStudio Administratorアカウントの作成に使用する電子メールアドレスを指定します。
 
 >[!NOTE]
 >
->1人のユーザーに複数のユーザーの役割を与えることができます。付与できるユーザーの役割および権限について詳しくは [、ユーザーの役割と権限](../c-users-creating-accounts-with-studio-access/c-user-types.md#c_user_types) を参照してください。
+>Studioに他のユーザーを招待する場合は、自分と同じかそれ未満の権限レベルを持つアカウントを作成します。
 
-1. **[!UICONTROL Users]** ページから、 **[!UICONTROL Invite to Studio.]** 
-1. 開く **[!UICONTROL Invite user]** ダイアログから、またはを選択 **[!UICONTROL Existing User]** **[!UICONTROL New User]** します。
-1. 既存のユーザーを招待するには、 **[!UICONTROL Username]** 入力した **[!UICONTROL User ID]** **[!UICONTROL Email Address]** フィールドを入力します。新しいユーザーを招待するには、を入力 **[!UICONTROL Email address]** します。
-1. 必要に応じて、パーソナライズされた招待を入力 **[!UICONTROL Add message]** します。
-1. 新しいアカウントのアクセスレベルを選択し、をクリック **[!UICONTROL Invite]** して招待を発行します。
+>[!NOTE]
+>
+>1人のユーザーに複数のユーザーの役割を付与できます。 付与で [きるユーザーの役割と権限について詳しくは](../c-users-creating-accounts-with-studio-access/c-user-types.md#c_user_types) 、「ユーザーの役割と権限」を参照してください。
+
+1. ページで、 **[!UICONTROL Users]** 「 **[!UICONTROL Invite to Studio.]**
+1. 表示されるダ **[!UICONTROL Invite user]** イアログで、またはを選 **[!UICONTROL Existing User]** 択しま **[!UICONTROL New User]**&#x200B;す。
+1. 既存のユーザーを招待するには、表示されるフ **[!UICONTROL Username]**&#x200B;ィールド **[!UICONTROL User ID]**&#x200B;に、、 **[!UICONTROL Email Address]** またはを入力します。 新しいユーザーを招待するには、ユーザーを入力しま **[!UICONTROL Email address]**&#x200B;す。
+1. 必要に応 **[!UICONTROL Add message]** じて、をクリックしてパーソナライズされた招待を入力します。
+1. 新しいアカウントのアクセスレベルを選択し、をクリックして招 **[!UICONTROL Invite]** 待を発行します。
