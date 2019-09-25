@@ -16,42 +16,42 @@ Instagramからコンテンツを取り込むストリームルールを作成�
 
 >[!NOTE]
 >
->Instagramストリームを作成する前に **[!UICONTROL Social Accounts]**、そのセクションに少なくとも1つのInstagramビジネスアカウントを追加する必要 **[!UICONTROL Network Settings]** があります。Instagramアカウントの設定方法について詳しくは、Instagramアカウント [について](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)を参照してください。
+>Instagramストリームを作成する前に、少なくとも1つのInstagramビジネスアカウントをのセクションに追加する必要 **[!UICONTROL Social Accounts]** がありま **[!UICONTROL Network Settings]**&#x200B;す。 Instagramアカウントの設定方法について詳しくは、Instagramアカウントにつ [いてを参照してください](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)。
 
 @メンションまたはハッシュタグに基づいてInstagramルールを作成します。
 
 >[!NOTE]
 >
->すべてのInstagramルールには、少なくとも1つのハッシュタグが必要です。ルールのキーワードとユーザー名を追加すると、両方のエントリを含むコンテンツが返されます。
+>すべてのInstagramルールには、少なくとも1つのハッシュタグが必要です。 キーワードとルールのユーザ名を追加すると、両方のエントリを含むコンテンツが返されます。
 
-Instagramのルールを作成してInstagramフィードからアプリまたはフォルダーにコンテンツを取り込むには、次のようにフィルタリングします。
+Instagramのフィードからコンテンツを取り込むためのInstagramルールを作成するには、次のフィルターを使用します。
 
-* **[!UICONTROL Words]** 
+* **[!UICONTROL Words]**
 
-   * Instagramストリームに含める **[!UICONTROL hashtags]** か、除外するように入力します。両方 **[!UICONTROL Contains]** の **[!UICONTROL Does not contain]** フィールドとフィールドの値を指定すると、最初の画像を含む画像が返され、2つ目のフィールドは含まれません。
+   * Instagramスト **[!UICONTROL hashtags]** リームに含めるか、除外するかを入力します。 との両方のフィールドに値を指 **[!UICONTROL Contains]** 定すると、 **[!UICONTROL Does not contain]** 最初の値を含み、2番目の値を含まない画像が返されます。
 
-   * 例えば、キー **[!UICONTROL Contains]** ワード&quot;Giants&quot;、&quot;Poey&quot;、 **[!UICONTROL Does not contain]** キーワード&quot;Domedger&quot;を入力すると、&quot;Giants&quot;または&quot;Poey&quot;という単語を含むすべての投稿が返され、&quot;Didger&quot;という単語は含まれません。
+   * 例えば、キーワードGiants、Posey **[!UICONTROL Contains]****[!UICONTROL Does not contain]** およびキーワードDodgerを入力すると、GiantsまたはPoseyという語を含み、Dodgerという語を含まないすべての投稿が返されます。
 
       >[!NOTE]
       >
-      >Instagramルールは、発言者のコメントに一覧表示されたハッシュタグを含む投稿を返します。この投稿はストリームに表示されません。
+      >Instagramルールは、発言者のコメントにリストされたハッシュタグを含む投稿を返しますが、この投稿はストリームに表示されない場合があります。
 
-* **[!UICONTROL Mentions]** 
+* **[!UICONTROL Mentions]**
 
-   * ストリーム **[!UICONTROL @mentions]** に取り込むか、ストリームから除外します。
+   * ストリー **[!UICONTROL @mentions]** ムに取り込むか、ストリームから除外するかを入力します。
 
-* **[!UICONTROL Authors]** 
+* **[!UICONTROL Authors]**
 
    >[!NOTE]
    >
-   >Instagramストリームルールで作成者検索を使用するには、LivefyreでInstagramのビジネスアカウントが設定されている必要があります。LivefyreでのInstagramビジネスアカウントの設定について詳しくは、Instagramアカウント [について](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)を参照してください。
+   >Instagramストリームルールで作成者検索を使用するには、LivefyreでInstagramビジネスアカウントを設定する必要があります。 LivefyreでのInstagramビジネスアカウントの設定について詳しくは、Instagramアカウントにつ [いてを参照してください](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)。
 
-   * を入力 **[!UICONTROL @usernames]** してストリームに取り込みます。**@ username** に関連付けられているアカウントは、Instagramのビジネスアカウントである必要があります。
+   * ストリー **[!UICONTROL @usernames]** ムに取り込むためのEnterを入力します。 @usernameに関連付けられているアカウ **ントは** 、Instagramのビジネスアカウントである必要があります。
 
-   * ストリームから除外する **@ username** を入力します。
+   * ストリームか **ら除外する** @usernamesを入力します。
 
-* **[!UICONTROL Additional Filters]** 
+* **[!UICONTROL Additional Filters]**
 
-   * ストリームを含める **[!UICONTROL All Content]** か、ストリーム **[!UICONTROL Videos Only]** **[!UICONTROL Photos Only]** に含めるかを選択します。
+   * ストリームに含めるか、含めるか、含め **[!UICONTROL All Content]**&#x200B;るか、 **[!UICONTROL Videos Only]**&#x200B;またはストリ **[!UICONTROL Photos Only]** ームに含めるかを選択します。
 
-すべてのストリームルール用の追加ストリームルールオプションについては、すべてのストリームルールの [ストリームルールオプションを参照](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)してください。
+すべてのストリームルールに対する追加のストリームルールオプションについては、「すべてのストリ [ームルールのストリームルールオプション」を参照してくださ](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)い。
