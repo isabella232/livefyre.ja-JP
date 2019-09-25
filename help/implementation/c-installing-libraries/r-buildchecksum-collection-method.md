@@ -1,17 +1,17 @@
 ---
 description: このコレクションのチェックサムを返します。
 seo-description: このコレクションのチェックサムを返します。
-seo-title: BuildChecksumコレクションメソッド
+seo-title: buildChecksumコレクションメソッド
 solution: Experience Manager
-title: BuildChecksumコレクションメソッド
-uuid: 692e8e13-6218-4e38- abc8-7cf49bebde9c
+title: buildChecksumコレクションメソッド
+uuid: 692e8e13-6218-4e38-abc8-7cf49bebde9c
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# BuildChecksumコレクションメソッド{#buildchecksum-collection-method}
+# buildChecksumコレクションメソッド{#buildchecksum-collection-method}
 
 このコレクションのチェックサムを返します。
 
@@ -21,7 +21,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 collection.buildChecksum(); 
 ```
 
-サンプル出力:
+出力例：
 
 ```
 6e2e4faf7b95f896260fe695eafb34ba 
@@ -33,7 +33,7 @@ collection.buildChecksum();
 collection.buildChecksum(); 
 ```
 
-サンプル出力:
+出力例：
 
 ```
 6e2e4faf7b95f896260fe695eafb34ba 
@@ -45,7 +45,7 @@ collection.buildChecksum();
 $collection->buildChecksum(); 
 ```
 
-サンプル出力:
+出力例：
 
 ```
 6e2e4faf7b95f896260fe695eafb34ba 
@@ -57,19 +57,19 @@ $collection->buildChecksum();
 collection.build_checksum() 
 ```
 
-サンプル出力:
+出力例：
 
 ```
 6e2e4faf7b95f896260fe695eafb34ba 
 ```
 
-## ルビの例 {#section_enh_gds_rz}
+## Rubyの例 {#section_enh_gds_rz}
 
 ```
 collection.build_checksum
 ```
 
-サンプル出力:
+出力例：
 
 ```
 6e2e4faf7b95f896260fe695eafb34ba 
