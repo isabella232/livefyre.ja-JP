@@ -1,10 +1,10 @@
 ---
-description: ユーザーグループのカスタムスタイルコンテンツを作成するには、まずアカウントにユーザータグを追加し、CSSを使用してコンテンツのスタイルを設定する必要があります。
-seo-description: ユーザーグループのカスタムスタイルコンテンツを作成するには、まずアカウントにユーザータグを追加し、CSSを使用してコンテンツのスタイルを設定する必要があります。
+description: ユーザーグループのカスタムスタイルコンテンツを作成するには、最初にユーザータグをアカウントに追加し、次にCSSを使用してコンテンツのスタイルを設定する必要があります。
+seo-description: ユーザーグループのカスタムスタイルコンテンツを作成するには、最初にユーザータグをアカウントに追加し、次にCSSを使用してコンテンツのスタイルを設定する必要があります。
 seo-title: カスタムスタイルの適用
 solution: Experience Manager
 title: カスタムスタイルの適用
-uuid: 0556aa2f-4fcd-4bde- abb5-479ec682f573
+uuid: 0556aa2f-4fcd-4bde-abb5-479ec682f573
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,28 +13,28 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # カスタムスタイルの適用{#applying-custom-styles}
 
-ユーザーグループのカスタムスタイルコンテンツを作成するには、まずアカウントにユーザータグを追加し、CSSを使用してコンテンツのスタイルを設定する必要があります。
+ユーザーグループのカスタムスタイルコンテンツを作成するには、最初にユーザータグをアカウントに追加し、次にCSSを使用してコンテンツのスタイルを設定する必要があります。
 
-Studioによって追加されたユーザータグごとに、Livefyreは2つのCSSクラスを作成します。これらのクラスは共に、グループのコンテンツのスタイル設定に使用できます。
+StudioまたはPingでPull用に追加された各ユーザータグに対して、Livefyreは2つのCSSクラスを作成し、両方を使用してグループのコンテンツのスタイルを設定できます。
 
-User TagをCSSクラスに変換するとき:
+ユーザタグをCSSクラスに変換する場合：
 
-* Livefyreによって2つのクラスが作成されます。fyre- author- tag-***&lt; your_ group&gt;*** and fyre- tag- author-***&lt; your_ group&gt;***.どちらもコンテンツのスタイル設定に使用できます。
+* Livefyreは2つのクラスを作成します。fyre-author-tag-***&lt;your_group&gt;***およびfyre-tag-author-**&lt;your_group&gt;***. 両方を使用して、コンテンツのスタイルを設定できます。
 
-* タグに含まれるスペースは、アンダースコアに変換されます。次に例を示します。「お気に入りユーザー」はお気に入り_ userになります。
-* グループ名に含まれるUnicode文字は変換されず、クラス名にUnicodeとして表示されます。次に例を示します。ユーザーグループ&quot;modérateur&quot;は、fyre- comment- author- tag- modérateurになります。
+* タグに含まれるスペースはすべてアンダースコアに変換されます。 例：「お気に入りユーザー」がfavorite_userになります。
+* グループ名に含まれるUnicode文字は変換されず、クラス名にUnicodeとして表示されます。 例：ユーザーグループ「moderateur」がfyre-comment-author-tag-moderateurになります。
 
-ユーザーグループを作成したら、LivefyreのCSSクラスを使用してコンテンツのカスタムスタイル設定を適用します。
+ユーザーグループを作成したら、LivefyreのCSSクラスを使用して、コンテンツのカスタムスタイル設定を適用します。
 
-## モデレーター（および所有者）のスタイルコンテンツの設定 {#section_vjv_2cv_xz}
+## モデレーター（および所有者）のスタイルコンテンツ {#section_vjv_2cv_xz}
 
-* CSSクラス. fyre-モデレーターを使用します。
+* CSSクラス.fyre-moderatorを使用します。
 
    >[!NOTE]
    >
    >所有者もモデレーターなので、このクラスはストリーム内のコンテンツにも適用されます。
 
-* CSSルールを作成して、グループのバッジを表示またはスタイル設定します。
+* グループのバッジを表示またはスタイル設定するCSSルールを作成します。
 
    ```
    .fyre-moderator { 
@@ -48,7 +48,7 @@ User TagをCSSクラスに変換するとき:
 
 ## ユーザーグループのスタイルコンテンツ {#section_ghn_s1v_xz}
 
-CSSルールを作成して、グループのバッジを表示またはスタイル設定します。
+グループのバッジを表示またはスタイル設定するCSSルールを作成します。
 
 ```
 <span class="fyre-comment-author-tag fyre-comment-author-tag-writer fyre-comment-plus" data-fyre-author-tag="staff">Staff Writer</span>
@@ -68,7 +68,7 @@ CSSルールを作成して、グループのバッジを表示またはスタ�
 }
 ```
 
-選択したタグに関連付けられているアカウントから投稿された各項目のフォントと背景のスタイルを設定するには、CSSクラスfyre- author- tag-***&lt; your_ group&gt;***またはfyre- tag- author-***&lt; your_ group&gt;***を使用します。
+CSSクラスfyre-author-tag-***&lt;your_group&gt;***またはfyre-tag-author-**&lt;your_group&gt;****を使用して、選択したタグに関連付けられたアカウントから投稿された各項目のフォントと背景のスタイルを設定します。
 
 ```
 .fyre-comment-author-tag-<your_group> .fyre-comment-author-tag { 
