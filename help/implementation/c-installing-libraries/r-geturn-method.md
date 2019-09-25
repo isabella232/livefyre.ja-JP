@@ -1,17 +1,17 @@
 ---
 description: このメソッドは、このネットワークのURNを返します。
 seo-description: このメソッドは、このネットワークのURNを返します。
-seo-title: getBoinネットワークメソッド
+seo-title: getUrnネットワークメソッド
 solution: Experience Manager
-title: getBoinネットワークメソッド
-uuid: e525bc54- d4df-490f- bd6a- f524f7ef211
+title: getUrnネットワークメソッド
+uuid: e525bc54-d4df-490f-bd6a-f524f7eff211
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# getBoinネットワークメソッド{#geturn-network-method}
+# getUrnネットワークメソッド{#geturn-network-method}
 
 このメソッドは、このネットワークのURNを返します。
 
@@ -21,7 +21,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 network.getUrn(); 
 ```
 
-サンプル出力:
+出力例：
 
 ```
 "urn:livefyre:network=`example.fyre.co`" 
@@ -33,7 +33,7 @@ network.getUrn();
 network.getUrn(); 
 ```
 
-サンプル出力:
+出力例：
 
 ```
 "urn:livefyre:network=`example.fyre.co`" 
@@ -45,7 +45,7 @@ network.getUrn();
 $network->getUrn(); 
 ```
 
-サンプル出力:
+出力例：
 
 ```
 "urn:livefyre:network=`example.fyre.co`" 
@@ -57,19 +57,19 @@ $network->getUrn();
 network.urn 
 ```
 
-サンプル出力:
+出力例：
 
 ```
 "urn:livefyre:network=`example.fyre.co`" 
 ```
 
-## ルビの例 {#section_enh_gds_rz}
+## Rubyの例 {#section_enh_gds_rz}
 
 ```
 network.urn 
 ```
 
-サンプル出力:
+出力例：
 
 ```
 "urn:livefyre:network=`example.fyre.co`" 
