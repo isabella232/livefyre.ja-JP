@@ -1,9 +1,9 @@
 ---
-description: Sideisingタイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_ or_ update（）を実行します。
-seo-description: Sideisingタイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_ or_ update（）を実行します。
-seo-title: BuildSiteNotesCollectionサイトのメソッド
+description: Sident型としてインスタンス化されたCollectionオブジェクトを返します。 Collectionオブジェクトからcreate_or_update()を実行し、ビルドプロセスを完了します。
+seo-description: Sident型としてインスタンス化されたCollectionオブジェクトを返します。 Collectionオブジェクトからcreate_or_update()を実行し、ビルドプロセスを完了します。
+seo-title: buildSitenotesCollectionサイトメソッド
 solution: Experience Manager
-title: BuildSiteNotesCollectionサイトのメソッド
+title: buildSitenotesCollectionサイトメソッド
 uuid: 2bfbc032-4c0c-48d2-8ce6-02460b38bd6c
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
@@ -11,9 +11,9 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 ---
 
 
-# BuildSiteNotesCollectionサイトのメソッド{#buildsitenotescollection-site-method}
+# buildSitenotesCollectionサイトメソッド{#buildsitenotescollection-site-method}
 
-Sideisingタイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_ or_ update（）を実行します。
+Sident型としてインスタンス化されたCollectionオブジェクトを返します。 Collectionオブジェクトからcreate_or_update()を実行し、ビルドプロセスを完了します。
 
 | 変数 | タイプ | 説明 |
 |--- |--- |--- |
@@ -45,7 +45,7 @@ $collection = site->buildSidenotesCollection(title, articleId, url);
 collection = site.build_sidenotes_collection(title, articleId, url) 
 ```
 
-## ルビの例 {#section_enh_gds_rz}
+## Rubyの例 {#section_enh_gds_rz}
 
 ```
 collection = site.build_sidenotes_collection(title, articleId, url) 
