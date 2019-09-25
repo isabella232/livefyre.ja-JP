@@ -1,10 +1,10 @@
 ---
-description: ライブラリの使用例を示します。
-seo-description: ライブラリの使用例を示します。
+description: ライブラリの使用に関する例をいくつか示します。
+seo-description: ライブラリの使用に関する例をいくつか示します。
 seo-title: 例
 solution: Experience Manager
 title: 例
-uuid: 94e38dab-6234-43a2- a840-13a87f0237f1
+uuid: 94e38dab-6234-43a2-a840-13a87f0237f1
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,7 +13,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # 例{#examples}
 
-ライブラリの使用例を示します。
+ライブラリの使用に関する例をいくつか示します。
 
 ## Javaの例 {#section_nyl_ycs_rz}
 
@@ -358,7 +358,7 @@ class LivefyreExample(object):
       collection_urn = sidenotes_collection.urn
 ```
 
-## ルビの例 {#section_enh_gds_rz}
+## Rubyの例 {#section_enh_gds_rz}
 
 ```
 require 'livefyre' 
