@@ -1,10 +1,10 @@
 ---
-description: コメントアプリを埋め込むと、コアアプリを埋め込むプロセスに従います。
-seo-description: コメントアプリを埋め込むと、コアアプリを埋め込むプロセスに従います。
+description: Commentsアプリの埋め込みは、コアアプリの埋め込みのプロセスに従います。
+seo-description: Commentsアプリの埋め込みは、コアアプリの埋め込みのプロセスに従います。
 seo-title: コメントアプリの埋め込み
 solution: Experience Manager
 title: コメントアプリの埋め込み
-uuid: e4982ad3- cab1-4805- a55c-594cca3b7203
+uuid: e4982ad3-cab1-4805-a55c-594cca3b7203
 translation-type: tm+mt
 source-git-commit: 268dc91369d346a254b7120706264eb91da8257e
 
@@ -13,9 +13,9 @@ source-git-commit: 268dc91369d346a254b7120706264eb91da8257e
 
 # コメントアプリの埋め込み{#embed-a-comments-app}
 
-コメントアプリを埋め込むと、コアアプリを埋め込むプロセスに従います。
+Commentsアプリの埋め込みは、コアアプリの埋め込みのプロセスに従います。
 
-「アプリの埋め込み」で [説明されているコアアプリを埋め込むための、コメントアプリの埋め込み手順](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
+コメントアプリの埋め込みは、アプリの埋め込みで説明されているコアアプリの埋め込みの [プロセスに従います](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
 
 ## 例
 
@@ -54,7 +54,7 @@ source-git-commit: 268dc91369d346a254b7120706264eb91da8257e
 </html>
 ```
 
-CollectionMetaセクションの作成に記載されているとおり、CollectionMetaはエンコードされたJSONオブジェクトです。上記の例では、JSONオブジェクトはJWTエンコード前に次の形式を使用します。
+「Building CollectionMeta」セクションで述べたように、CollectionMetaはエンコードされたJSONオブジェクトです。 上の例では、JSONオブジェクトはJWTエンコードされる前に次の形式をとります。
 
 ```
 { 
