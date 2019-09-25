@@ -1,19 +1,19 @@
 ---
-description: ブログタイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_ or_ update（）を実行します。
-seo-description: ブログタイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_ or_ update（）を実行します。
-seo-title: buildbLogCollectionサイトのメソッド
+description: Blog型としてインスタンス化されたCollectionオブジェクトを返します。 Collectionオブジェクトからcreate_or_update()を実行し、ビルドプロセスを完了します。
+seo-description: Blog型としてインスタンス化されたCollectionオブジェクトを返します。 Collectionオブジェクトからcreate_or_update()を実行し、ビルドプロセスを完了します。
+seo-title: buildBlogCollectionサイトメソッド
 solution: Experience Manager
-title: buildbLogCollectionサイトのメソッド
-uuid: 6a5ec6b9- bc32-467a- aba6- a57c6defe067
+title: buildBlogCollectionサイトメソッド
+uuid: 6a5ec6b9-bc32-467a-abe6-a57c6defe067
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# buildbLogCollectionサイトのメソッド{#buildblogcollection-site-method}
+# buildBlogCollectionサイトメソッド{#buildblogcollection-site-method}
 
-ブログタイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_ or_ update（）を実行します。
+Blog型としてインスタンス化されたCollectionオブジェクトを返します。 Collectionオブジェクトからcreate_or_update()を実行し、ビルドプロセスを完了します。
 
 | 変数 | タイプ | 説明 |
 |--- |--- |--- |
@@ -45,7 +45,7 @@ $collection = site->buildBlogCollection(title, articleId, url);
 collection = site.build_blog_collection(title, articleId, url) 
 ```
 
-## ルビの例 {#section_enh_gds_rz}
+## Rubyの例 {#section_enh_gds_rz}
 
 ```
 collection = site.build_blog_collection(title, articleId, url) 
