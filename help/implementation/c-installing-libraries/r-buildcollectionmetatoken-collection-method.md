@@ -1,19 +1,19 @@
 ---
-description: このコレクションの暗号化されたCollectionMetaトークンを返します。
-seo-description: このコレクションの暗号化されたCollectionMetaトークンを返します。
-seo-title: BuildCollectionMetaTokenコレクションメソッド
+description: このコレクションの暗号化されたcollectionMetaトークンを返します。
+seo-description: このコレクションの暗号化されたcollectionMetaトークンを返します。
+seo-title: buildCollectionMetaTokenコレクションメソッド
 solution: Experience Manager
-title: BuildCollectionMetaTokenコレクションメソッド
-uuid: 533c68c3- c014-4fc3-8114- a57af0e44d85
+title: buildCollectionMetaTokenコレクションメソッド
+uuid: 533c68c3-c014-4fc3-8114-a57af0e44d85
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# BuildCollectionMetaTokenコレクションメソッド{#buildcollectionmetatoken-collection-method}
+# buildCollectionMetaTokenコレクションメソッド{#buildcollectionmetatoken-collection-method}
 
-このコレクションの暗号化されたCollectionMetaトークンを返します。
+このコレクションの暗号化されたcollectionMetaトークンを返します。
 
 ## Javaの例 {#section_nyl_ycs_rz}
 
@@ -21,7 +21,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 collection.buildCollectionMetaToken(); 
 ```
 
-サンプル出力:
+出力例：
 
 ```
 eyJhbGciOiJIUzI1NiJ9.eyJ0aXRsZSI6InRlc3QiLCJ1cmwiOiJodHRwOi8vd3d3LnRlc3QuY29tIiwidGFncyI6InRlc3RUYWdzIiwiYXJ0aWNsZUlkIjoidGVzdElkIiwidHlwZSI6InJldmlld3MifQ.QB5SnOTVrVXo5RhzJeExEHpCZdxSoxnF7D4QIVQCWsA 
@@ -33,7 +33,7 @@ eyJhbGciOiJIUzI1NiJ9.eyJ0aXRsZSI6InRlc3QiLCJ1cmwiOiJodHRwOi8vd3d3LnRlc3QuY29tIiw
 collection.buildCollectionMetaToken();
 ```
 
-サンプル出力:
+出力例：
 
 ```
 eyJhbGciOiJIUzI1NiJ9.eyJ0aXRsZSI6InRlc3QiLCJ1cmwiOiJodHRwOi8vd3d3LnRlc3QuY29tIiwidGFncyI6InRlc3RUYWdzIiwiYXJ0aWNsZUlkIjoidGVzdElkIiwidHlwZSI6InJldmlld3MifQ.QB5SnOTVrVXo5RhzJeExEHpCZdxSoxnF7D4QIVQCWsA 
@@ -45,7 +45,7 @@ eyJhbGciOiJIUzI1NiJ9.eyJ0aXRsZSI6InRlc3QiLCJ1cmwiOiJodHRwOi8vd3d3LnRlc3QuY29tIiw
 $collection->buildCollectionMetaToken(); 
 ```
 
-サンプル出力:
+出力例：
 
 ```
 eyJhbGciOiJIUzI1NiJ9.eyJ0aXRsZSI6InRlc3QiLCJ1cmwiOiJodHRwOi8vd3d3LnRlc3QuY29tIiwidGFncyI6InRlc3RUYWdzIiwiYXJ0aWNsZUlkIjoidGVzdElkIiwidHlwZSI6InJldmlld3MifQ.QB5SnOTVrVXo5RhzJeExEHpCZdxSoxnF7D4QIVQCWsA
@@ -57,19 +57,19 @@ eyJhbGciOiJIUzI1NiJ9.eyJ0aXRsZSI6InRlc3QiLCJ1cmwiOiJodHRwOi8vd3d3LnRlc3QuY29tIiw
 collection.build_collection_meta_token() 
 ```
 
-サンプル出力:
+出力例：
 
 ```
 eyJhbGciOiJIUzI1NiJ9.eyJ0aXRsZSI6InRlc3QiLCJ1cmwiOiJodHRwOi8vd3d3LnRlc3QuY29tIiwidGFncyI6InRlc3RUYWdzIiwiYXJ0aWNsZUlkIjoidGVzdElkIiwidHlwZSI6InJldmlld3MifQ.QB5SnOTVrVXo5RhzJeExEHpCZdxSoxnF7D4QIVQCWsA
 ```
 
-## ルビの例 {#section_enh_gds_rz}
+## Rubyの例 {#section_enh_gds_rz}
 
 ```
 collection.build_collection_meta_token 
 ```
 
-サンプル出力:
+出力例：
 
 ```
 eyJhbGciOiJIUzI1NiJ9.eyJ0aXRsZSI6InRlc3QiLCJ1cmwiOiJodHRwOi8vd3d3LnRlc3QuY29tIiwidGFncyI6InRlc3RUYWdzIiwiYXJ0aWNsZUlkIjoidGVzdElkIiwidHlwZSI6InJldmlld3MifQ.QB5SnOTVrVXo5RhzJeExEHpCZdxSoxnF7D4QIVQCWsA
