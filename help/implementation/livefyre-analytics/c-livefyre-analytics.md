@@ -1,27 +1,27 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Livefyreを他のAnalyticsツールと共に使用
+seo-title: 他のAnalyticsツールでのLivefyreの使用
 solution: Experience Manager
-title: Livefyreを他のAnalyticsツールと共に使用
-uuid: 26c835f6- aced-41f7- aober-418afce8a829
+title: 他のAnalyticsツールでのLivefyreの使用
+uuid: 26c835f6-aced-41f7-aabe-418afce8a829
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Livefyreを他のAnalyticsツールと共に使用{#use-livefyre-with-other-analytics-tool}
+# 他のAnalyticsツールでのLivefyreの使用{#use-livefyre-with-other-analytics-tool}
 
-解析ツールを使用して、Livefyreアプリとのユーザーインタラクションにデータを収集できます。Adobe Analyticsまたは選択したツールを使用できます。
+解析ツールを使用して、Livefyre Appsでのユーザーの操作に関するデータを収集できます。 Adobe Analyticsまたは任意のツールを使用できます。
 
-（Adobe Analyticsではなく）任意のツールでLivefyreを使用するには、このページに説明されている手順に従います。
+（Adobe Analyticsではなく）選択したツールでLivefyreを使用するには、このページで説明する手順に従います。
 
 ## 手順1:イベントハンドラーの設定 {#section_ngm_gzl_pdb}
 
-Livefyreアプリを使用するページにイベントハンドラーを設定します。これにより、Analyticsで使用できるページ上のアプリからデータを収集できます。
+Livefyre Appsを使用するページにイベントハンドラーを設定します。 これにより、分析に使用できる、そのページ上のアプリからデータを収集できます。
 
-ページにLivefyre. jsを追加して、イベントハンドラーを設定します。Livefyre. jsは非同期で読み込まれます。ファイルサイズを小さくし、読み込みパフォーマンスを向上させるために、解析はすぐには使用できません。データが利用可能になるまで、Analyticsオブジェクトをポーリングする必要があります。このスクリプトをページの任意の場所に配置するか、独自のコンパイルスクリプト内にバンドルします。
+ページにLivefyre.jsを追加して、イベントハンドラーを設定します。 Livefyre.jsは非同期で読み込みます。 ファイルサイズを小さくして読み込みパフォーマンスを向上させるため、解析を今すぐ利用することはできません。 データが利用可能になるまで、Analyticsオブジェクトをポーリングする必要があります。 このスクリプトは、ページ上の任意の場所に配置するか、独自のコンパイル済みスクリプト内にバンドルします。
 
 ```
 /** 
@@ -53,9 +53,9 @@ pollForAnalytics();
 
 ## 手順2:ハンドラー関数の実装
 
-Livefyre. analytics機能をページで利用できるようになると、Analyticsの受信者関数を実装して、受信したイベントを任意の分析プロバイダーに送信できます。
+ページでLivefyre.analytics機能が使用可能になったら、analyticsHandler関数を実装して、受信したイベントを任意のAnalyticsプロバイダーに送信します。
 
-1. Analyticsハンドラーは、個別に実行して送信する必要があるイベントの配列、またはプロバイダーがサポートしている場合はバッチとして送信する必要があります。
-1. ハンドラーによって受け取ったイベントデータを、Analyticsプロバイダーが必要とする形式にマップします。
-1. データをAnalyticsプロバイダーに送信します。
+1. 解析ハンドラーは、個別に、またはプロバイダーがサポートしている場合はバッチとして、繰り返し送信する必要があるイベントの配列を受け取ります。
+1. ハンドラーが受け取ったイベントデータを、Analyticsプロバイダーが必要とする形式にマップします。
+1. Analyticsプロバイダーにデータを送信します。
 
