@@ -1,24 +1,24 @@
 ---
-description: サイト上のLivefyreのパワーに使用されるLivefyreライブラリ。
-seo-description: サイト上のLivefyreのパワーに使用されるLivefyreライブラリ。
+description: サイトでLivefyreを動力付与するために使用するコアLivefyreライブラリ。
+seo-description: サイトでLivefyreを動力付与するために使用するコアLivefyreライブラリ。
 seo-title: updateAnchorsメソッド
 solution: Experience Manager
-title: Livefyre. js
+title: Livefyre.js
 uuid: null
 translation-type: tm+mt
-source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
 # updateAnchorsメソッド {#updateAnchorsMethod}
 
-ページに動的にsidindedコンテンツを追加するには、updateAnchorsメソッドを使用します。
+ページに動的にサイド付きコンテンツを追加するには、updateAnchorsメソッドを使用します。
 
-このメソッドはページ番号付けに役立ちます。また、ページにサイトを動的に追加する場合は、その他のケースでも使用できます。このメソッドは、一致する要素の新しいアンカーを定義し、1つの引数を取ります。newSelector.
+このメソッドは、ページネーションや、サイト表示可能なコンテンツが動的にページに追加される場合に役立ちます。 このメソッドは、一致した要素に対して新しいアンカーを定義し、単一の引数を取ります。newSelectors.
 
-**newSelector**.Sideingに追加するセレクター。セレクター文字列、jQueryオブジェクト、または要素の配列（アプリケーションの構築時に渡されるセレクター引数によって受け入れられたタイプのいずれか）を使用できます。
-フォーマット:
+**newSelectors**. サイドに追加するセレクターです。 これは、セレクター文字列、jQueryオブジェクト、または要素の配列（アプリの構築中に渡されるセレクター引数で受け取る任意の型）です。
+形式：
 
 ```
 app.updateAnchors(newSelectors);
