@@ -1,8 +1,8 @@
 ---
-description: カウントタイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_ or_ update（）を実行します。
-seo-description: カウントタイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_ or_ update（）を実行します。
-seo-title: BuildCountingCollectionサイトのメソッド
-title: BuildCountingCollectionサイトのメソッド
+description: Counting型としてインスタンス化されたCollectionオブジェクトを返します。 Collectionオブジェクトからcreate_or_update()を実行し、ビルドプロセスを完了します。
+seo-description: Counting型としてインスタンス化されたCollectionオブジェクトを返します。 Collectionオブジェクトからcreate_or_update()を実行し、ビルドプロセスを完了します。
+seo-title: buildCountingCollectionサイトメソッド
+title: buildCountingCollectionサイトメソッド
 uuid: e293d66a-0025-4230-997e-295ce4625713
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
@@ -10,9 +10,9 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 ---
 
 
-# BuildCountingCollectionサイトのメソッド{#buildcountingcollection-site-method}
+# buildCountingCollectionサイトメソッド{#buildcountingcollection-site-method}
 
-カウントタイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_ or_ update（）を実行します。
+Counting型としてインスタンス化されたCollectionオブジェクトを返します。 Collectionオブジェクトからcreate_or_update()を実行し、ビルドプロセスを完了します。
 
 | 変数 | タイプ | 説明 |
 |--- |--- |--- |
@@ -44,7 +44,7 @@ $collection = site->buildCountingCollection(title, articleId, url);
 collection = site.build_counting_collection(title, articleId, url) 
 ```
 
-## ルビの例 {#section_enh_gds_rz}
+## Rubyの例 {#section_enh_gds_rz}
 
 ```
 collection = site.build_counting_collection(title, articleId, url) 
