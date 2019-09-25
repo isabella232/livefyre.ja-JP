@@ -4,7 +4,7 @@ seo-description: YouTubeルールからコンテンツを取り込むストリ�
 seo-title: YouTubeルール
 solution: Experience Manager
 title: YouTubeルール
-uuid: ec6a3780-7119-45c3-8ab2- fb0f9803d161
+uuid: ec6a3780-7119-45c3-8ab2-fb0f9803d161
 translation-type: tm+mt
 source-git-commit: 30aa5cce5e7567208362cc35caeb7b7260c42f3b
 
@@ -17,22 +17,22 @@ YouTubeルールからコンテンツを取り込むストリームルールを�
 
 ユーザー、チャネルまたはプレイリストに基づいてYouTubeルールを作成します。
 
-YouTubeからアプリまたはフォルダーにコンテンツを取り込むためのYouTubeルールを作成するには、次のようにフィルタリングします。
+YouTubeからYouTubeにコンテンツを取り込むためのYouTubeルールを作成するには、次の条件でフィルターできます。
 
-* **[!UICONTROL User]** 
-   * ストリーム内のユーザーからビデオを含める **[!UICONTROL User]** ためのバニティ文字列を入力します。
-   * 例えば、入力するユーザーフィードのURLが、単純に入力 `https://www.youtube.com/user/livefyresupport``livefyresupport`するとします。
+* **[!UICONTROL User]**
+   * ユーザーからのビデオをストリー **[!UICONTROL User]** ムに含めるバニティ文字列を入力します。
+   * 例えば、入力するユーザーフィードのURLが次の場合は、単に `https://www.youtube.com/user/livefyresupport`と入力します `livefyresupport`。
 
-* **[!UICONTROL Channel]** 
-   * ストリーム内のチャネルからビデオを含める **[!UICONTROL Channel]** ためのバニティ文字列を入力します。
-   * 例えば、入力するチャネルフィードのURLが、単純に入力 `https://www.youtube.com/channel/UCeNZlh03MyUkjRlLFpVQxsg``UCeNZlh03MyUkjRlLFpVQxsg`するとします。
+* **[!UICONTROL Channel]**
+   * チャネルからのビデオをストリームに **[!UICONTROL Channel]** 含めるには、のバニティ文字列を入力します。
+   * 例えば、入力するチャネルフィードのURLが次の場合は、単に `https://www.youtube.com/channel/UCeNZlh03MyUkjRlLFpVQxsg`と入力します `UCeNZlh03MyUkjRlLFpVQxsg`。
 
-* **[!UICONTROL Playlist]** 
-   * ストリーム内のプレイリストからビデオを含める **[!UICONTROL Playlist]** ためのバニティ文字列を入力します。
-   * 例えば、入力するプレイリストフィード `https://www.youtube.com/playlist?list=PLFE5670C92BDAC201`のURLが `PLFE5670C92BDAC201`
+* **[!UICONTROL Playlist]**
+   * 再生リストのビデオをストリーム **[!UICONTROL Playlist]** に含めるバニティ文字列を入力します。
+   * 例えば、入力するプレイリストフィードのURLが次の場合は、単に `https://www.youtube.com/playlist?list=PLFE5670C92BDAC201`「 `PLFE5670C92BDAC201`
 
-* **[!UICONTROL Include recent items.]** これが次のように設定されている場合:
-   * **[!UICONTROL Enabled]** の場合、発行日に関係なく、フィード内の最初の15コンテンツアイテムがストリームに追加されます。
-   * **[!UICONTROL Disabled]** の場合、フィードの最初の15コンテンツアイテムがストリームルール作成日以降と同じパブリケーション日でストリームに追加されます。
+* **[!UICONTROL Include recent items.]** これを次に設定すると、
+   * **[!UICONTROL Enabled]**&#x200B;に設定されている場合、Livefyreは、投稿日に関係なく、フィード内の最初の15個のコンテンツ項目をストリームに追加します。
+   * **[!UICONTROL Disabled]**&#x200B;に設定されている場合、Livefyreは、ストリームルール作成日以降と同じ発行日を持つストリームに、フィード内の最初の15個のコンテンツ項目を追加します。
 
-すべてのストリームルール用の追加ストリームルールオプションについては、すべてのストリームルールの [ストリームルールオプションを参照](../../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)してください。
+すべてのストリームルールに対する追加のストリームルールオプションについては、「すべてのストリ [ームルールのストリームルールオプション」を参照してくださ](../../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)い。
