@@ -1,27 +1,27 @@
 ---
-description: コアアプリケーションと同様のプロセスに従って、アプリをSocializeに統合します。
-seo-description: コアアプリケーションと同様のプロセスに従って、アプリをSocializeに統合します。
-seo-title: Sidees統合
+description: コアアプリケーションと同様のプロセスに従って、Sidentアプリを統合します。
+seo-description: コアアプリケーションと同様のプロセスに従って、Sidentアプリを統合します。
+seo-title: サイド統合
 solution: Experience Manager
-title: Sidees統合
-uuid: 4aa14ada-402a-482d- b43e-96f37afa6c53
+title: サイド統合
+uuid: 4aa14ada-402a-482d-b43e-96f37afa6c53
 translation-type: tm+mt
 source-git-commit: fcee9dc152e7f8284e64248fdcc5bf81d39618ff
 
 ---
 
 
-# Sidees統合{#sidenotes-integration}
+# サイド統合{#sidenotes-integration}
 
-コアアプリケーションと同様のプロセスに従って、アプリをSocializeに統合します。
+コアアプリケーションと同様のプロセスに従って、Sidentアプリを統合します。
 
-原則として、コアアプリケーション統合が完了している場合、 `collectionMeta` オブジェクトを生成するために記述されたコードは、Sideingで再利用できます。
+一般的に、コアアプリケーションの統合が完了すると、オブジェクトを生成するために書き込まれたコードは、Sidentに対し `collectionMeta` て再利用できるようになります。
 
-（オプション）フィールドのSideingによって作成された委任を指定することで、既存 `auth``auth``fyre.conv` のデリゲートを再利用 `authDelegate` することもできます。
+また、（オプション）フィールドで作成し `auth` た代理オブジェクトを[サ `auth` イド]に指定す `fyre.conv` ることで、既存の代理オブジェクトを再利用することもで `authDelegate` きます。
 
 >[!NOTE]
 >
->siposingを使用すると、 `network`コンストラクター `siteId``articleId` の他の部分で個別に渡す代わりに、単一のオブジェクトを含めることができます。
+>Sidentを使用すると、コンストラク `network`ターの他の部分に別々に渡すのではなく、、、お `siteId``articleId` よびを単一のオブジェクトに含めることができます。
 
 ```
 <!DOCTYPE html> 
@@ -53,7 +53,7 @@ Livefyre.require(['sidenotes#1', 'auth'], function (Sidenotes, Auth) {
 </html>
 ```
 
-&quot;Building `collectionMeta` 」セクションに記述されているとおり、 `collectionMeta` エンコードされたJSONオブジェクトです。上記の例では、JSONオブジェクトはJWTエンコード前に次の形式を使用しています。
+「Building」の節で説明したように、はエ `collectionMeta` ンコードさ `collectionMeta` れたJSONオブジェクトです。 上の例では、JSONオブジェクトはJWTエンコードされる前に次の形式をとります。
 
 ```
 { 
@@ -65,11 +65,11 @@ Livefyre.require(['sidenotes#1', 'auth'], function (Sidenotes, Auth) {
 }
 ```
 
-詳しくは `collectionMeta` 、トークンを参照してください。
+詳しくは、トークンを参照してくだ `collectionMeta` さい。
 
 ## モバイル設定
 
-Socialは、モバイルデバイスでの使用に最適化されています。Livefyreアプリケーションのモバイルバージョンで最良の結果を得るには、ユーザーにスケーラブルなオプションを設定しないでください。次に例を示します。
+サイドは、モバイルデバイスでの使用に最適化されました。 モバイルバージョンのLivefyre appで最良の結果を得るには、ユーザースケーラブルオプションを「いいえ」に設定します。 次に例を示します。
 
 ```
 <meta name="viewport" content="width=device-width, user-scalable=no">
