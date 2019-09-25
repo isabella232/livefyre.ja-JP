@@ -1,9 +1,9 @@
 ---
-description: レビュータイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_ or_ update（）を実行します。
-seo-description: レビュータイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_ or_ update（）を実行します。
-seo-title: builreReviewsCollectionサイトのメソッド
+description: Reviews型としてインスタンス化されたCollectionオブジェクトを返します。 Collectionオブジェクトからcreate_or_update()を実行し、ビルドプロセスを完了します。
+seo-description: Reviews型としてインスタンス化されたCollectionオブジェクトを返します。 Collectionオブジェクトからcreate_or_update()を実行し、ビルドプロセスを完了します。
+seo-title: buildReviewsCollectionサイトメソッド
 solution: Experience Manager
-title: builreReviewsCollectionサイトのメソッド
+title: buildReviewsCollectionサイトメソッド
 uuid: 88af4c68-57de-4ae9-9394-550c94ede48f
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
@@ -11,9 +11,9 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 ---
 
 
-# builreReviewsCollectionサイトのメソッド{#buildreviewscollection-site-method}
+# buildReviewsCollectionサイトメソッド{#buildreviewscollection-site-method}
 
-レビュータイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_ or_ update（）を実行します。
+Reviews型としてインスタンス化されたCollectionオブジェクトを返します。 Collectionオブジェクトからcreate_or_update()を実行し、ビルドプロセスを完了します。
 
 | 変数 | タイプ | 説明 |
 |--- |--- |--- |
@@ -46,7 +46,7 @@ $collection = site->buildReviewsCollection(title, articleId, url);
 collection = site.build_reviews_collection(title, articleId, url) 
 ```
 
-## ルビの例 {#section_enh_gds_rz}
+## Rubyの例 {#section_enh_gds_rz}
 
 ```
 collection = site.build_reviews_collection(title, articleId, url) 
