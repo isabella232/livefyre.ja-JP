@@ -1,9 +1,9 @@
 ---
-description: 作成するすべてのコレクションを識別する一意のトークンをサーバー上で作成します。
-seo-description: 作成するすべてのコレクションを識別する一意のトークンをサーバー上で作成します。
-seo-title: CollectionMetaトークン
+description: 作成するすべてのコレクションを識別する一意のトークンをサーバー上に作成します。
+seo-description: 作成するすべてのコレクションを識別する一意のトークンをサーバー上に作成します。
+seo-title: CollectionMeta Token
 solution: Experience Manager
-title: CollectionMetaトークン
+title: CollectionMeta Token
 uuid: d5db0b0f-2807-4392-874a-94ac3c1e7550
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
@@ -11,25 +11,25 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 ---
 
 
-# CollectionMetaトークン{#collectionmeta-token}
+# CollectionMeta Token{#collectionmeta-token}
 
-作成するすべてのコレクションを識別する一意のトークンをサーバー上で作成します。
+作成するすべてのコレクションを識別する一意のトークンをサーバー上に作成します。
 
-Livefyreは、作成するすべてのコレクションに一意の識別子を割り当てます。Livefyreは、次のようなタイトル、URLおよびその他のパラメーターを割り当てます。
+Livefyreは、作成するすべてのコレクションに一意の識別子を割り当てます。 Livefyreは、タイトル、URLおよび次のような他のパラメーターを割り当てます。
 
-## CollectionMetaトークンのパラメーター
+## collectionMetaトークンのパラメーター
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | タイプ | 説明 |
 |--- |--- |--- |
-| NetworkName | 文字列（オプション） | Livefyreネットワークの名前（{!UACROL Studio/設定/統合設定/秘密鍵証明書]）。これは、ライブラリを使用してCollectionMetaトークンを作成する場合にオプションです。 |
-| NetworkKey | 文字列（オプション） | 特定のネットワークの秘密鍵（Studio/設定/統合設定/秘密鍵証明書から利用可能）。これは、ライブラリを使用してCollectionMetaトークンを作成する場合にオプションです。 |
-| siteID | 文字列（オプション） | サイトのID（使用可能なサイト [!UICONTROL Studio > Settings > Integration Settings > Credentials] ）。ライブラリを使用してCollectionMetaトークンを作成する場合はオプションです。 |
-| siteKey | 文字列（オプション） | サイトの秘密鍵（{!UACROL Studio/設定/統合設定/秘密鍵証明書]）。 |
+| networkName | 文字列（オプション） | Livefyreネットワークの名前（{!UICONTROL Studio/設定/統合設定/資格情報]から入手できます）。 ライブラリを使用してcollectionMetaトークンを作成する場合は、このオプションです。 |
+| networkKey | 文字列（オプション） | 特定のネットワークの秘密キー（Studio/設定/統合設定/秘密鍵証明書から使用可能）。 ライブラリを使用してcollectionMetaトークンを作成する場合は、このオプションです。 |
+| siteId | 文字列（オプション） | サイトのID(から利用でき [!UICONTROL Studio > Settings > Integration Settings > Credentials] ます)。 ライブラリを使用してcollectionMetaトークンを作成する場合はオプションです。 |
+| siteKey | 文字列（オプション） | サイトの秘密キー（{!UICONTROL Studio/設定/統合設定/資格情報]から利用できます）。 |
 | articleId | 文字列（オプション） | コレクションの一意のID。 |
-| title | 文字列（オプション） | コレクションに適用するタイトル。通常、これはアプリを表示するページのタイトルに対応します。<br>次に例を示します。「統合は非常に楽しい!&quot;<br>注意:タイトルの最大文字長は255文字です。タイトルフィールドはHTMLエンティティをサポートしていません。UTF-8を使用して特殊文字をエンコードしてください。 |
-| url | 文字列（オプション） | このコレクションに付加する正規の絶対URLです。このURLは、FacebookおよびTwitter、電子メール通知およびLivefyre Studioで共有されたコンテンツからアプリに戻るリンクを生成するために使用されます。<br>注意:ローカルでテストする場合、有効なベースURLドメインを使用します（例:有効: `https://customer.com`;;無効: `https://localhost:5995`）を参照してください。 |
-| タグ | 文字列（オプション） | 単一のキーワードまたはフレーズのコンマ区切りリスト。Studioを使用してコレクションをタグで検索します。</br>注意:タグにスペースを含めることはできません。UIにスペースを表示する場合は、アンダースコアを使用します。 |
-| 拡張子 | JSON（オプション） | コレクションに渡されるJSON形式のパラメーターセットです。 |
+| title | 文字列（オプション） | コレクションに適用するタイトル。 通常、これはアプリを表示するページのタイトルに対応します。 <br>例：「統合はとても楽しい！」<br>注意： タイトルの最大文字長は255文字です。 タイトルフィールドはHTMLエンティティをサポートしていません。 UTF-8を使用して特殊文字をエンコードしてください。 |
+| url | 文字列 (オプション) | このコレクションに添付する正規の絶対URLです。 このURLは、FacebookやTwitterで共有されたコンテンツ、電子メール通知およびLivefyre studioからアプリへのリンクを生成するために使用されます。 <br>注意： ローカルでテストする場合は、有効なベースURLドメインを使用します(例：有効： `https://customer.com`;無効： `https://localhost:5995`)。 |
+| タグ | 文字列（オプション） | 単一のキーワードまたはフレーズのコンマ区切りリスト。 Studioを使用してタグでコレクションを検索します。  </br>注意：タグにスペースを含めることはできません。 UIにスペースを表示する場合は、アンダースコアを使用します。 |
+| extensions | JSON（オプション） | コレクションに渡すJSON形式のパラメーターのセットです。 |
 
 ## Java {#section_orz_m4n_sz}
 
@@ -84,7 +84,7 @@ collection.data.tags = 'tags'
 collection_meta_token = collection.build_collection_meta_token()
 ```
 
-## ルビ {#section_l5n_qrj_tz}
+## Ruby {#section_l5n_qrj_tz}
 
 ```
 require 'livefyre' 
@@ -97,7 +97,7 @@ collection.data.tags = 'tags'
 collection_meta_token = collection.build_collection_meta_token 
 ```
 
->[!NOTE] {importance=&quot;high&quot;}
+>[!NOTE] {importance="high"}
 >
->Livefyreは、作成したCollectionMetaトークンを受け取り、SiteID（Livefyre提供）とArticleID（顧客指定）を組み合わせて一意性を決定します。
+>Livefyreは、構築したcollectionMetaトークンを受け取り、siteId（Livefyreが提供）とarticleId（顧客が指定）を組み合わせて一意性を判定します。
 
