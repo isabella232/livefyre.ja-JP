@@ -1,6 +1,6 @@
 ---
-description: このメソッドは、このネットワークのユーザーに対してURNを返します。
-seo-description: このメソッドは、このネットワークのユーザーに対してURNを返します。
+description: このメソッドは、このネットワークのユーザーのURNを返します。
+seo-description: このメソッドは、このネットワークのユーザーのURNを返します。
 seo-title: getUrnForUserネットワークメソッド
 solution: Experience Manager
 title: getUrnForUserネットワークメソッド
@@ -13,11 +13,11 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # getUrnForUserネットワークメソッド{#geturnforuser-network-method}
 
-このメソッドは、このネットワークのユーザーに対してURNを返します。
+このメソッドは、このネットワークのユーザーのURNを返します。
 
 | 変数 | タイプ | 説明 |
 |--- |--- |--- |
-| userId | 文字列 | INTERTEで使用するuserIdです。 |
+| userId | 文字列 | URNで使用するuserIdです。 |
 
 ## Javaの例 {#section_nyl_ycs_rz}
 
@@ -25,7 +25,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 network.getUrnForUser(userId);
 ```
 
-サンプル出力:
+出力例：
 
 ```
 "urn:livefyre:network=`example.fyre.co`:user=tester" 
@@ -37,7 +37,7 @@ network.getUrnForUser(userId);
 network.getUrnForUser(userId);
 ```
 
-サンプル出力:
+出力例：
 
 ```
 "urn:livefyre:network=`example.fyre.co`:user=tester" 
@@ -49,7 +49,7 @@ network.getUrnForUser(userId);
 $network->getUrnForUser(userId); 
 ```
 
-サンプル出力:
+出力例：
 
 ```
 "urn:livefyre:network=`example.fyre.co`:user=tester" 
@@ -61,19 +61,19 @@ $network->getUrnForUser(userId);
 network.get_urn_for_user(userId) 
 ```
 
-サンプル出力:
+出力例：
 
 ```
 "urn:livefyre:network=`example.fyre.co`:user=tester" 
 ```
 
-## ルビの例 {#section_enh_gds_rz}
+## Rubyの例 {#section_enh_gds_rz}
 
 ```
 network.get_urn_for_user(userId) 
 ```
 
-サンプル出力:
+出力例：
 
 ```
 "urn:livefyre:network=`example.fyre.co`:user=tester" 
