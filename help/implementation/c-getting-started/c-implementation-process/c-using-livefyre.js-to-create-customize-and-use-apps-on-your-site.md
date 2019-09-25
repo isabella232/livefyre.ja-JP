@@ -2,7 +2,7 @@
 seo-title: アプリの埋め込み
 solution: Experience Manager
 title: アプリの埋め込み
-uuid: e75cab0e-04ea-4b04-89ed- fea1183ecf63
+uuid: e75caf0e-04ea-4b04-89ed-fea1183ecf63
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -11,15 +11,15 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # アプリの埋め込み{#embed-an-app}
 
-Livefyre. js埋め込みコード構造を使用して、LivefyreアプリをWebページに追加します。
+Livefyre.js埋め込みコード構造を使用して、LivefyreアプリをWebページに追加します。
 
-このドキュメントは、技術的なオーディエンスを対象としています。アプリケーションに関する技術的でない情報について [](/help/using/c-about-apps/c-about-apps.md)説明します。
+このドキュメントは、技術者を対象としています。 アプリ [に関する技術的な情報以外](/help/using/c-about-apps/c-about-apps.md)。
 
-ここでは、サイトにLivefyreアプリを埋め込むために必要なコード構造について説明します。
+ここでは、Livefyreアプリをサイトに埋め込むためにページテンプレートに含める必要があるコード構造について説明します。
 
-1. Livefyreプレースホルダを使用して.htmlファイルを作成します。
+1. Livefyreプレースホルダーを使用して.htmlファイルを作成します。
 
-   選択したテキストエディターで新しい.htmlファイルを作成します。アプリケーションを埋め込むプレースホルダLivefyre `<div>` 要素を作成します。
+   任意のテキストエディターで新しい.htmlファイルを作成します。 アプリが埋め込まれるプ `<div>` レースホルダーLivefyre要素を作成します。
 
    ```
    <html> 
@@ -30,9 +30,9 @@ Livefyre. js埋め込みコード構造を使用して、LivefyreアプリをWeb
    </html>
    ```
 
-1. Livefyre. jsライブラリを含めます。
+1. Livefyre.jsライブラリを含めます。
 
-   その後、Livefyre JSライブラリをインクルードします。要素内の `<script>` 要素に次の参照を配置 `<head>` します。次に、ブラウザーでページを開き、ブラウザーのWebインスペクタを使用してLivefyreが読み込まれていることを確認します。
+   次に、Livefyre JSライブラリを含めます。 要素内の要素に次の参照 `<script>` を配置し `<head>` ます。 次に、ブラウザーでページを開き、ブラウザーのWebインスペクターを使用して、Livefyreが読み込まれていることを確認します。
 
    ```
    <head> 
@@ -40,9 +40,9 @@ Livefyre. js埋め込みコード構造を使用して、LivefyreアプリをWeb
    </head> 
    ```
 
-1. Livefyreアプリを作成します。
+1. Livefyreアプリの作成を参照してください。
 
-   使用するLivefyreパッケージを渡すことで、コアアプリとSDKアプリケーションの両方を構築するために使用 `Livefyre.require` します。
+   使用す `Livefyre.require` る予定のLivefyreパッケージを渡して、コアアプリとSDKアプリの両方を作成するために使用します。
 
    1. コアアプリの作成を参照してください。
 
@@ -56,7 +56,7 @@ Livefyre. js埋め込みコード構造を使用して、LivefyreアプリをWeb
 
    1. SDKアプリを作成します。
 
-      メディアウォールやフィードなどのSDKアプリを作成するには、次の構造を使用します。
+      Media wallやFeedなどのSDKアプリを作成するには、次の構造を使用します。
 
       ```
              Livefyre.require(['app#{version_number}'], 
@@ -74,6 +74,6 @@ Livefyre. js埋め込みコード構造を使用して、LivefyreアプリをWeb
       }); 
       ```
 
-      詳しく [は、特定のアプリ](/help/using/c-about-apps/c-about-apps.md)を参照してください。予期しない統合を避けるために、最新バージョンのパッケージ（Livefyre. require経由で [](https://cdn.livefyre.com/packages.html)見つけることができる）に固定することをお勧めします。
+      特定のア [プリに関する詳細を参照してください](/help/using/c-about-apps/c-about-apps.md)。 予期しない統合の破損を防ぐため、パッケージの最新のメジャーバージョン( [Livefyre.require](https://cdn.livefyre.com/packages.html))にピン留めすることをお勧めします。
 
-次へ:ユーザーがコメントを投稿できるようにするには、サイトに認証を追加します。
+次：ユーザーがコメントを投稿できるように、サイトに認証を追加します。
