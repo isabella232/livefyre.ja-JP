@@ -1,10 +1,10 @@
 ---
-description: FacebookでLivefyre IDを使用すると、ユーザーはFacebookログインを使用してサイト上のアプリとやり取りできます。
-seo-description: FacebookでLivefyre IDを使用すると、ユーザーはFacebookログインを使用してサイト上のアプリとやり取りできます。
+description: Livefyre IdentityをFacebookと共に使用して、ユーザーがFacebookのログインを使用してサイト上のアプリとやり取りできるようにすることができます。
+seo-description: Livefyre IdentityをFacebookと共に使用して、ユーザーがFacebookのログインを使用してサイト上のアプリとやり取りできるようにすることができます。
 seo-title: Livefyre IDで使用するFacebookアプリの作成
 solution: Experience Manager
 title: Livefyre IDで使用するFacebookアプリの作成
-uuid: a7f7be4e-8986-4e79-831a-0bb0ae555599
+uuid: a7f7be4e-8986-4e79-831a-0bb0ae55599
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,32 +13,32 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Livefyre IDで使用するFacebookアプリの作成{#create-a-facebook-app-for-use-with-livefyre-identity}
 
-FacebookでLivefyre IDを使用すると、ユーザーはFacebookログインを使用してサイト上のアプリとやり取りできます。
+Livefyre IdentityをFacebookと共に使用して、ユーザーがFacebookのログインを使用してサイト上のアプリとやり取りできるようにすることができます。
 
-ユーザーがFacebook資格情報を使用してログインできるようにするには、Livefyreには以下のFacebookアプリの情報が必要です。
+ユーザーがFacebookの資格情報を使用してログインできるようにするには、Livefyreで次のFacebookアプリの情報が必要です。
 
-* アプリID
-* アプリシークレット
+* アプリケーション ID
+* アプリの秘密
 
-Livefyre IDで使用するFacebookアプリを作成するには:
+Livefyre idで使用するFacebookアプリを作成するには：
 
-1. [https://developers.facebook.com/appsに移動](https://developers.facebook.com/apps)します。
+1. https://developers.facebook.com/appsに移動し [ます](https://developers.facebook.com/apps)。
 1. Facebook開発者アカウントにログインします。
-1. Livefyre IDで使用する既存のアプリケーションをクリック **[!UICONTROL Add New App]** または選択します。
-1. **[!UICONTROL Settings]** **[!UICONTROL Basic]** をクリックしてから、**[!UICONTROL Contact Email]** アドレス **[!UICONTROL Display Name]**、およびを入力 **[!UICONTROL Privacy Policy URL]** **[!UICONTROL Terms of Service URL]** します。
-1. 横のプラス記号（**[!UICONTROL +]**）をクリック **[!UICONTROL Products]** します。
-1. **[!UICONTROL Set Up]** 下 **[!UICONTROL Facebook Login]** のをクリックします。
-1. をクリック **[!UICONTROL Settings]** し、次の設定を行います。
+1. Livefyre IDで使 **[!UICONTROL Add New App]** 用する既存のアプリをクリックまたは選択します。
+1. をクリッ **[!UICONTROL Settings]**&#x200B;クし、次にをクリックし **[!UICONTROL Basic]**&#x200B;ます。 住所、、お **[!UICONTROL Contact Email]** よびを **[!UICONTROL Display Name]**&#x200B;入力 **[!UICONTROL Privacy Policy URL]**&#x200B;します **[!UICONTROL Terms of Service URL]**。
+1. の横のプラス記号( **[!UICONTROL +]**)をクリックしま **[!UICONTROL Products]**&#x200B;す。
+1. の下のをクリッ **[!UICONTROL Set Up]** クしま **[!UICONTROL Facebook Login]**&#x200B;す。
+1. をクリ **[!UICONTROL Settings]** ックし、次の設定を行います。
 
-   * に設定 **[!UICONTROL Client OAuth Login]** **[!UICONTROL Yes]** します。
-   * に設定 **[!UICONTROL Web OAuth Login]** **[!UICONTROL Yes]** します。
-   * に設定 **[!UICONTROL Use Strict Mode for Redirect URIs]** **[!UICONTROL Yes]** します。
-   * に設定 **[!UICONTROL Enforce HTTPS for Web OAuth Login]** **[!UICONTROL Yes]** します。
-   * 下 **[!UICONTROL Valid OAuth redirect URLs]** で、URLを追加します `https://identity.livefyre.com/{networkName}/api/v1.0/public/profile/social/complete/facebook_fyre` （ここで `{networkName}` Livefyreによって提供されるネットワーク名）。
+   * Set **[!UICONTROL Client OAuth Login]** to **[!UICONTROL Yes]**.
+   * Set **[!UICONTROL Web OAuth Login]** to **[!UICONTROL Yes]**.
+   * Set **[!UICONTROL Use Strict Mode for Redirect URIs]** to **[!UICONTROL Yes]**.
+   * Set **[!UICONTROL Enforce HTTPS for Web OAuth Login]** to **[!UICONTROL Yes]**.
+   * で、URL **[!UICONTROL Valid OAuth redirect URLs]**&#x200B;を追加しま `https://identity.livefyre.com/{networkName}/api/v1.0/public/profile/social/complete/facebook_fyre` す(ここ `{networkName}` では、Livefyreが提供するネットワーク名です)。
 
-1. 下 **[!UICONTROL App Review]** の
+1. Under **[!UICONTROL App Review]**:
 
-   * アプリを公開にします。
-   * **[!UICONTROL Approved Items]** **[!UICONTROL Login Permissions]** 必ず、for include `email`、 `public_profile``user_friends`および
+   * アプリを公開します。
+   * forが、、および **[!UICONTROL Approved Items]** を含むこ **[!UICONTROL Login Permissions]** とを確 `email`認し `public_profile`てくださ `user_friends`い。
 
-完了すると、Facebook開発者のダッシュボードページに、Studioの統合設定で使用するアプリIDとアプリシークレットが一覧表示されます。
+完了すると、Facebook開発者用ダッシュボードページに、Studioの統合設定で使用するアプリIDとアプリシークレットが表示されます。
