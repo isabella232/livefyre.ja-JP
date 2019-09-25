@@ -1,19 +1,19 @@
 ---
-description: ナビゲーションガイドでサイト訪問者が閲覧できる投稿の数を設定します。
-seo-description: ナビゲーションガイドでサイト訪問者が閲覧できる投稿の数を設定します。
-seo-title: ナビゲーションガイドの投稿数の設定
+description: ナビゲーションガイドで、サイトの訪問者に表示できる投稿の数を設定します。
+seo-description: ナビゲーションガイドで、サイトの訪問者に表示できる投稿の数を設定します。
+seo-title: ナビゲーションガイドでの投稿数の設定
 solution: Experience Manager
-title: ナビゲーションガイドの投稿数の設定
-uuid: 8bee47a-7f9f-48dd- ac6e- a2f47f56148b
+title: ナビゲーションガイドでの投稿数の設定
+uuid: 8bae47a-7f9f-48dd-ac6e-a2f47f56148b
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# ナビゲーションガイドの投稿数の設定{#set-the-number-of-posts-in-the-navigation-guide}
+# ナビゲーションガイドでの投稿数の設定{#set-the-number-of-posts-in-the-navigation-guide}
 
-ナビゲーションガイドでサイト訪問者が閲覧できる投稿の数を設定します。
+ナビゲーションガイドで、サイトの訪問者に表示できる投稿の数を設定します。
 
-1. Storify2App Designerで **[!UICONTROL Navigation Guide]**、切り替えを切り替えます。
-1. **[!UICONTROL Max Number of Guide Posts]** フィールドに数値を入力します。このフィールドを設定しない場合、Livefyreのデフォルト値は最大10です。
+1. Storify 2 App Designerで、切り替えをオンにし **[!UICONTROL Navigation Guide]** ます。
+1. フィールドに数値を入力し **[!UICONTROL Max Number of Guide Posts]** ます。 このフィールドを設定しない場合、Livefyreはデフォルトで最大値を10に設定します。
