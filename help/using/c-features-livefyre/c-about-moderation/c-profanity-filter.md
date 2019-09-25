@@ -1,90 +1,90 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 不敬フィルタの使用
+seo-title: 不敬な言葉のフィルターの使用
 solution: Experience Manager
-title: 不敬フィルタの使用
-uuid: b0b1fbae- c88c-403c-9b91- df6620675f39
+title: 不敬な言葉のフィルターの使用
+uuid: b0b1fbae-c88c-403c-9b91-df6620675f39
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# 不敬フィルタの使用{#using-the-profanity-filter}
+# 不敬な言葉のフィルターの使用{#using-the-profanity-filter}
 
-Livefyreアプリケーションに投稿されたすべてのコンテンツに不敬の有無がチェックされます。違反のリストに含まれている単語がコンテンツまたはユーザーの表示名に含まれている場合、そのコンテンツには「浪費」というフラグが付けられ、事前モデレート、ルール、MOQまたはアプリのコンテンツの一般検索でフィルターできます。
-
->[!NOTE]
->
->Studio管理者およびマネージャーのコンテンツには違反ルールのチェックが適用されず、モデレーターによって投稿されたコンテンツはフラグ付けされません。
-
-Livefyreにはデフォルトの浪費的なリストが用意されています。このリストをネットワークレベルで適用したり、独自のリストを提供したり、2つの集計を使用したりできます。ネットワーク内の個々のサイトはネットワーク違反リストを継承することも、サイト固有のリストを使用することもできます。
-
-ネットワークデフォルトの独自の違反リストを提供するには、Livefyreアカウントマネージャーにお送りください。
-
-## 悪意のあるフィルタリングの有効化 {#section_yqc_qsk_f1b}
-
-ネットワークレベルとサイトレベルの両方で不当なフィルターを有効化および設定します。ネットワークレベルで違反フィルターを無効にすると、ネットワークから継承されるすべてのサイトに対して悪意のあるフィルターが自動的に無効になります。
+Livefyreアプリに投稿されたすべてのコンテンツに不敬な言葉が含まれていないか確認されます。 不敬な言葉遣いのリストに含まれる単語がコンテンツまたはユーザーの表示名に含まれている場合、そのコンテンツに「不敬な態度」というフラグが付けられ、アプリコンテンツでのプリモデレート、ルール、ModQまたは一般検索をフィルターできます。
 
 >[!NOTE]
 >
->Livefyre経由で渡されるコンテンツは、不敬のためにチェックされます。デフォルトの安全な不敬リストまたはカスタムの不敬リストに含まれている単語を含むコンテンツが見つかった場合、「浪費」フラグが付けられます。Livefyreを自動的にこれらの項目に対してアクションに設定するには **[!UICONTROL Enable Profanity Checking]**、に移動 **[!UICONTROL ON]** します。
+>Studio管理者とマネージャーのコンテンツは、「不敬なルール」チェックの対象とはならず、モデレーターが投稿したコンテンツにはフラグが付きません。
 
-## ネットワークの悪意のあるフィルタの有効化 {#section_twd_ssk_f1b}
+Livefyreには、デフォルトの不敬な言葉のリストが用意されています。 このリストは、ネットワークレベルで適用するか、独自のリストを指定するか、またはこれら2つの集計を使用するかを選択できます。 ネットワーク内の個々のサイトは、ネットワークの不敬事項リストを継承するか、サイト固有にカスタマイズされたリストを使用する場合があります。
 
-1. ネットワークのプルダウンメニュー **[!UICONTROL Network]** から選択します。
-1. 移動 **[!UICONTROL Settings > Network Settings > Moderation]** 先
-1. 下 **[!UICONTROL Profanity List]** にスクロールして、に設定 **[!UICONTROL Enable Profanity Checking]** **[!UICONTROL ON]** します。
+To provide your own custom profanity list as your network default, please send it to your Livefyre account manager.
 
-1. フィールドを **[!UICONTROL Update Network Profanity List]** 使用してリストに単語を追加するか、または単語をクリックしてリストから削除します。
+## Enabling Profanity Filtering {#section_yqc_qsk_f1b}
+
+Enable and configure the profanity filter at both the network and site level. Disable the profanity filter at the network level to automatically disable the profanity filter for all sites that inherit from the network.
 
 >[!NOTE]
 >
->ネットワークレベルのアドホックリストを編集しても、既に配置されているサイトレベルのリストには影響しません。ネットワークからの変更を確実にサイトに反映させるには、変更が行われた後にサイト **[!UICONTROL Restore Network List]** を選択します。
+>All content passing through Livefyre is checked for profanity. If content is found which includes words contained on the default SAFE profanity list or in your custom Profanity list, it is flagged “Profanity.” To set Livefyre to automatically take action on these items, turn  to .**[!UICONTROL Enable Profanity Checking]****[!UICONTROL ON]**
 
-## サイトの違反フィルターの有効化 {#section_fld_wsk_f1b}
+## Enable the Profanity Filter for a Network {#section_twd_ssk_f1b}
 
-1. ネットワークのプルダウンメニューからサイトを選択します。
-1. 移動 **[!UICONTROL Settings > Site Settings > Moderation]** 先
-1. 下にスクロールして、 **[!UICONTROL Profanity List]** **[!UICONTROL Enable Profanity Checking]** に設定 **[!UICONTROL ON]** します。
+1. Select  from the network pulldown menu.**[!UICONTROL Network]**
+1. 移動 **[!UICONTROL Settings > Network Settings > Moderation]**.
+1. Scroll down to the , and set  to .**[!UICONTROL Profanity List]****[!UICONTROL Enable Profanity Checking]****[!UICONTROL ON]**
+
+1. Use the  field to add words to the list, or click a word to remove it from the list.**[!UICONTROL Update Network Profanity List]**
+
+>[!NOTE]
+>
+>ネットワークレベルの不敬な言葉のリストを編集しても、既に設定されているサイトレベルのリストには影響しません。 To ensure that changes from the network are made to the site, select  for the site after the changes have been made.**[!UICONTROL Restore Network List]**
+
+## Enable the Profanity Filter for a Site {#section_fld_wsk_f1b}
+
+1. Select the site from the network pulldown menu.
+1. 移動 **[!UICONTROL Settings > Site Settings > Moderation]**.
+1. をスクロールし、を **[!UICONTROL Profanity List]** 設定し **[!UICONTROL Enable Profanity Checking]** ます **[!UICONTROL ON]**。
 
 1. 次のいずれかのオプションを選択します。
 
-   * ネットワークから不敬リストを継承するには（これは一般的ではありません）、に設定 **[!UICONTROL Use Site Profanity List]** **[!UICONTROL OFF]** します。
+   * ネットワークから不敬な言葉のリストを継承するには（一般的ではありません）、に設 **[!UICONTROL Use Site Profanity List]** 定しま **[!UICONTROL OFF]**&#x200B;す。
 
-   * サイト用に特別なリストを編集するには、目的のフィールドを開くように設定 **[!UICONTROL Use Site Profanity List]** **[!UICONTROL On]** します。 **[!UICONTROL Update Profanity List]** ここで、リストを編集できます。
+   * To edit the Profanity List specifically for the site, set  to  to open the  field, where you can edit the list:**[!UICONTROL Use Site Profanity List]****[!UICONTROL On]****[!UICONTROL Update Profanity List]**
 
       * 単語を削除するには、その単語をクリックします。
-      * 単語を追加するには **[!UICONTROL Add new word]**、ボックスとヒットに単語を入力 **[!UICONTROL Return]** します。
+      * 単語を追加するには、ボックスに単語を入力し、 **[!UICONTROL Add new word]** ヒットしま **[!UICONTROL Return]**&#x200B;す。
 
-      * 単語がリストに含まれているかどうかを確認するには、ボックスに **[!UICONTROL Test profanity filter]** 単語を入力します。
-   * ネットワーク違反リストを再読み込みしてサイトに適用するには、をクリック **[!UICONTROL Restore Network List]** します。
-   * リストからすべてのコンテンツを消去して最初から開始するには、をクリック **[!UICONTROL Clear List]** します。
+      * 単語がリストに含まれているかどうかを確認するには、ボックスにその単語を入力 **[!UICONTROL Test profanity filter]** します。
+   * ネットワークの不敬な言葉のリストを再度読み込んでサイトに適用するには、をクリックしま **[!UICONTROL Restore Network List]**&#x200B;す。
+   * リストからすべてのコンテンツを消去し、最初から開始するには、をクリックしま **[!UICONTROL Clear List]**&#x200B;す。
 
 
-## 不敬を含むコンテンツの操作 {#section_epy_dtk_f1b}
+## 不敬な言葉を含むコンテンツの操作 {#section_epy_dtk_f1b}
 
-悪意のあるリストを使用して、コンテンツ検索をフィルタリングし、Modq用の事前モデレートルールを作成します。
+不敬な言葉のリストを使用して、コンテンツ検索のフィルタリングやModQのモデレート前のルールの作成に役立てます。
 
-不敬を含むコンテンツを検索するには、先 **[!UICONTROL Library > App Content]** に移動して **[!UICONTROL Filter by Flags]** **[!UICONTROL Profanity]** チェックボックスをオンにします。選択したサイトまたはネットワークの不敬フィルターによってキャプチャされたすべてのコンテンツが表示されます。このリストには、SocialSyncとストリームを使用してアプリに取り込まれたコンテンツが含まれます。
+不敬な言葉を含むコンテンツを検索するには、に移動し、チェ **[!UICONTROL Library > App Content]**&#x200B;ックボ **[!UICONTROL Filter by Flags]** ックスをオンに **[!UICONTROL Profanity]** します。 選択したサイトまたはネットワークに対して不敬な言葉のフィルターによって取り込まれたコンテンツがすべて表示されます。 このリストには、SocialSyncとStreamsを使用してアプリに取り込まれたコンテンツが含まれます。
 
-事前モデレートルールを作成するには、Studioから選択 **[!UICONTROL Settings > Network Settings > Moderation]** します。違反フィルターが有効になると、新しいルールが表示され、フラグを付けたり、不敬を含むコンテンツを事前モデレートしたりできます。デフォルトでは、このルールはコンテンツを自動的に有効にし **[!UICONTROL Premoderate]**、いずれかまた **[!UICONTROL Trash it]** は **[!UICONTROL Bozo it]** いずれかに変更できます。
+プリモデレートルールを作成するには、Studioからを選択しま **[!UICONTROL Settings > Network Settings > Moderation]**&#x200B;す。 不敬な言葉のフィルターが有効になると、新しいルールが表示され、不敬な言葉を含むコンテンツにフラグを付けたりモデレート前のコンテンツを設定したりできます。 デフォルトでは、このルールはプロファ **[!UICONTROL Premoderate]** イルコンテンツを自動的に有効にし、これをまたはに変更 **[!UICONTROL Trash it]** できま **[!UICONTROL Bozo it]**&#x200B;す。
 
 >[!NOTE]
 >
->単一のコンテンツの一部が、複数のルールタイプ（セーフルールやフラグルールの両方）の対象となる場合、より厳密に適用されます。次に例を示します。事前モデレートルールでコンテンツの一部を事前モデレートするように指示している場合、セーフルールではごみ箱が表示されます。
+>1つのコンテンツに複数のルールタイプが適用される場合（SAFEルールとフラグルールの両方など）は、より厳密に適用されます。 例：プリモデレートルールで「コンテンツの一部をプレモデレート」と表示され、「セーフルール」で「ごみ箱」と表示される場合は、「トラッシュ」されます。
 
-## ネットワークの不敬リストの表示と更新 {#section_qdb_btk_f1b}
+## ネットワークの不敬な言葉のリストの表示と更新 {#section_qdb_btk_f1b}
 
-1. 移動 **[!UICONTROL Settings > Network Settings > Moderation]** 先
-1. **[!UICONTROL Profanity List]** 下にスクロールします。
-1. **[!UICONTROL Enable Profanity Checking]** ネットワーク **[!UICONTROL On]** に対して有効になっているList（Livefyreデフォルトまたはアップロードしたカスタムリスト）を表示し、編集するには、に設定します。リストは次の方法で編集できます。
+1. 移動 **[!UICONTROL Settings > Network Settings > Moderation]**.
+1. セクションまで下にスクロ **[!UICONTROL Profanity List]** ールします。
+1. Set  to  to display the List enabled for your network (Livefyre default, or your uploaded custom list) and edit it. **[!UICONTROL Enable Profanity Checking]****[!UICONTROL On]** You can edit the list in the following ways:
    * 単語を削除するには、その単語をクリックします。
-   * 単語を追加するには **[!UICONTROL Add new word]**、ボックスとヒットに単語を入力 **[!UICONTROL Return]** します。
-   * 単語がリストに含まれているかどうかを確認するには、ボックスに **[!UICONTROL Test profanity filter]** 単語を入力します。
+   * 単語を追加するには、ボックスに単語を入力し、 **[!UICONTROL Add new word]** ヒットしま **[!UICONTROL Return]**&#x200B;す。
+   * 単語がリストに含まれているかどうかを確認するには、ボックスにその単語を入力 **[!UICONTROL Test profanity filter]** します。
 
 >[!NOTE]
 >
->Studio管理者およびモデレーターのみが、不敬リストを編集できます。
+>Studio管理者とモデレーターのみが、不敬な言葉のリストを編集できます。
 
