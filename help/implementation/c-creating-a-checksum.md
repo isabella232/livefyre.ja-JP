@@ -4,7 +4,7 @@ seo-description: Livefyreライブラリを使用してチェックサムを作�
 seo-title: チェックサムの作成
 solution: Livefyre
 title: チェックサムの作成
-uuid: 2dddeada-7a6d-434a-8db8- dc179935f810
+uuid: 2ddedaa-7a6d-434a-8db8-dc179935f810
 translation-type: tm+mt
 source-git-commit: 6545445016517af1f1bbb071761d773ba5a9a597
 
@@ -68,7 +68,7 @@ collection.data.tags = 'tags'
 collection_meta_token = collection.build_collection_meta_token()
 ```
 
-## ルビ {#section_a3y_ypj_tz}
+## Ruby {#section_a3y_ypj_tz}
 
 ```
 require 'livefyre' 
