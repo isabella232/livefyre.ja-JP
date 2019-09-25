@@ -1,10 +1,10 @@
 ---
-description: リリースノートを参照してください。
-seo-description: リリースノートを参照してください。
+description: 2018年11月16日リリースのリリースノートです。
+seo-description: 2018年11月16日リリースのリリースノートです。
 seo-title: リリースノート
 solution: Experience Manager
 title: リリースノート
-uuid: 34e64943- dea6-46ac-9fcc-8feepab6aa42
+uuid: 34e64943-dea6-46ac-9fc-8febeab6aa42
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
 
@@ -13,45 +13,45 @@ source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
 
 # リリースノート{#release-notes}
 
-リリースノートを参照してください。
+2018年11月16日リリースのリリースノートです。
 
 ## 新機能 {#section_syx_mdt_wcb}
 
 このリリースの実稼働版では、次の新機能がリリースされました。
 
-* **Instagram検索とストリームの更新。***Instagramのビジネスアカウントは次の* 目的に使用できます。
+* **Instagramの検索とストリームに対する更新です。** Instagramのビジネスアカウントを使 *用して、次の操作を行うことができ* ます。
 
-   * ユーザーによってInstagramソーシャル検索を実行します（ユーザーはInstagramのビジネスアカウントである必要があります）。
+   * ユーザーによるInstagramソーシャル検索を実行します（ユーザーはInstagramのビジネスアカウントである必要もあります）。
 
-   * 特定のInstagramユーザーアカウント（アカウントも含む）からInstagramストリームを作成し、独自のアカウントを作成する必要があります。
+   * 特定のInstagramユーザーアカウントからInstagramストリームを作成します（アカウントは、自分のアカウントもビジネスアカウントにする必要があります）。
 
-   * 部分的に自動化されたワークフローを使用して、Instagramからのアセットの権限を要求します。
+   * 部分的に自動化されたワークフローを使用して、Instagramにアセットの権限を要求します。
 
-   * Instagramからの設定や、Instagramからの権限の要求に必要なInstagramアカウントのタイプについて詳しくは、Instagramアカウント [について](/help/using/c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md)を参照してください。
+   * Instagramに対して設定および要求権限を行う必要があるInstagramアカウントの種類について詳しくは、Instagramアカウントにつ [いてを参照してくださ](/help/using/c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md)い。
 
-* **ビジネスアカウントベースの検索に対する使用権限リクエスト応答の自動監視。** ビジネスアカウントベースの検索のみ——Livefyreの応答リクエストを自動的に監視し、Livefyreのアクティビティ履歴を更新できます。
+* **ビジネスアカウントベースの検索に対する使用権限リクエスト応答の自動監視。** For business accounts-based searches only--the ability to automatically monitor responses to rights requests and update the activity history in Livefyre is available.
 
-Instagramアカウントの権限をリクエストする方法について詳しくは、Instagram [Rights Requestの手動](/help/using/c-how-requesting-rights-works/c-send-instagram-manual-rights-request.md) 送信および [部分的に自動化されたInstagram Rights Requestの送信を参照](/help/using/c-how-requesting-rights-works/c-send-an-instagram-rights-request-from-the-library.md)してください。
+Instagramアカウントの権限を要求する方法について詳しくは、Instagram権限要求を手動で送信 [する](/help/using/c-how-requesting-rights-works/c-send-instagram-manual-rights-request.md) 、および部 [分的に自動化されたInstagram権限要求の送信を参照してください](/help/using/c-how-requesting-rights-works/c-send-an-instagram-rights-request-from-the-library.md)。
 
-* **Adobe Targetの統合。** Adobe Targetとの統合が追加され、LivefyreアプリケーションをAdobe Targetオファーライブラリに直接共有できるようになりました。LivefyreとAdobe Targetの併用について詳しくは [、Targetのドキュメント](https://marketing.adobe.com/resources/help/en_US/livefyre/livefyre-target.html)を参照してください。
+* **Adobe Target の統合.** Adobe targetとの統合が追加され、LivefyreアプリをAdobe targetオファーライブラリと直接共有できるようになりました。 Adobe targetでのLivefyreの使用について詳しくは、 [Targetのドキュメントを参照してください](https://marketing.adobe.com/resources/help/en_US/livefyre/livefyre-target.html)。
 
-## 雑誌号 {#section_ehw_ndt_wcb}
+## タスク {#section_ehw_ndt_wcb}
 
-このリリースでは、次の表の問題が解決しました。
+次の表に示す問題は、このリリースで解決されました。
 
-### 実稼働リリース
+### 実稼働版リリース
 
 | 問題のタイプ | コンポーネント | リリースノート |
 |--- |--- |--- |
-| 雑誌号 | AppService:Livefyre ID | [クリックすると、Studio/統合設定/Livefyre] Identityの「ログインモーダル」のロゴがデフォルトの画像にリセットされませんでした。 |
-| 雑誌号 | ライブラリ | ライブラリにアップロードされたビデオが、アセットの詳細で表示されなかった問題を修正しました。 |
-| 雑誌号 | ストリーム | 製品がストリームルールに表示されない問題を修正しました。 |
-| 雑誌号 | ストリーム | 製品タグがストリームルールで使用できない問題を修正しました。 |
-| 機能強化 | Studio | Livefyre Studioに製品IDが表示されない問題を修正しました。 |
-| 雑誌号 | Studio:Modq | 削除されたコンテンツが削除後もMOQに表示される問題を修正しました。 |
+| 問題 | AppService:Livefyre ID | クリックすると [UICONTROL Reset to Default] （デフォルトにリセット）が、Studio/統合設定/Livefyre IDの「ログインモーダル」の下のロゴをデフォルトの画像にリセットしなかった問題を修正しました。 |
+| 問題 | ライブラリ | ビデオがライブラリにアップロードされ、アセットの詳細で表示されると、正しく表示されない問題を修正しました。 |
+| 問題 | ストリーム | 製品がストリームルールに表示されない問題を修正しました。 |
+| 問題 | ストリーム | ストリームルールで製品タグが使用できない問題を修正しました。 |
+| 機能強化 | スタジオ | 製品IDがLivefyre studioに表示されない問題を修正しました。 |
+| 問題 | スタジオ：ModQ | 削除されたコンテンツが削除後もModQに表示され続ける問題を修正しました。 |
 
 ### UATリリース
 
 | **問題のタイプ** | **コンポーネント** | **リリースノート** |
 |---|---|---|
-| 雑誌号 | Socialコンポーネント:カルーセル | IE11およびMozilla Firefoxで共有リンクが応答してURLを期待どおりにコピーしなかった問題を修正しました。 |
+| 問題 | Socialコンポーネント：カルーセル | IE11およびMozilla Firefoxで、共有リンクが期待どおりに応答し、URLをコピーしない問題を修正しました。 |
