@@ -3,7 +3,7 @@ description: l
 seo-description: l
 seo-title: 上位のコメント
 title: 上位のコメント
-uuid: 23c4a766- b3e8-4fab- a7f9-78cdb601652a
+uuid: 23c4a766-b3e8-4fab-a7f9-78cdb601652a
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -12,21 +12,21 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # 上位のコメント{#top-comments}
 
-上位のコメントには、会話内で最も好評なコメント25件が表示されます。**[!UICONTROL Top Comments]** コレクションには、25の最頻使用コメントがコレクションに表示されます。元の投稿が最も「いいね!&quot;を受け取り、その返信ではない場合、その投稿は一覧表示されます。返信が最も「いいね!&quot;の数を受け取ると、そのすぐ上の親の投稿も表示されます。このリストはリアルタイムではありません。また、ページが更新されたとき、または別の並べ替えビュー（**[!UICONTROL Newest]** **[!UICONTROL Oldest]** または）が選択されている場合にのみ更新されます。
+上位のコメントは、会話で最も「いいね！」が多い25件のコメントを示します。 この表 **[!UICONTROL Top Comments]** 示では、コレクション内で「いいね！」が最も多い25件のコメントが表示されます。 元の投稿が最も「いいね！」を受け取った場合、その投稿は表示されますが、返信は表示されません。 返信が最も「いいね！」を受け取る場合は、最上位レベルの投稿に至る直接の親も表示されます。 このリストはリアルタイムではなく、ページが更新されたか、別の並べ替えビュー(または&#x200B;**[!UICONTROL Newest]** )が選択された場 **[!UICONTROL Oldest]**&#x200B;合にのみ更新されます。
 
-ユーザーが **[!UICONTROL Top Comments]** ビューの表示中にコメントエディターからコメントを投稿した場合、ユーザーは **[!UICONTROL Newest]** ビューに戻ります。「いいね!&quot;のいずれかのコメントに対してユーザーが「いいね!&quot;をしたり返信したりすると、そのユーザーが閲覧できる **[!UICONTROL Top Comments]** ようにストリームが表示されます。
+ユーザーがビューの表示中にコメントエディターからコメントを投 **[!UICONTROL Top Comments]** 稿した場合、そのユーザーはビューに切り替わ **[!UICONTROL Newest]** ります。 ユーザーが「人気のコメント」の1つに「いいね！」したり返信したりした場合、そのユーザーに表 **[!UICONTROL Top Comments]** 示されるビューにストリーミングします。
 
-パフォーマンスを最適化するために、Livefyreは最大2分間データをキャッシュします。表示される最新の「いいね!&quot;に若干の遅延が生じる可能性があります。
+パフォーマンスを最適化するために、Livefyreはデータを最大2分間キャッシュします。 最近の「いいね！」には若干の遅れが生じる可能性があります。
 
-「いいね!&quot;を入力したコレクションにコメントがない場合、ユーザーにはメッセージ **[!UICONTROL There are not enough likes yet]** とリンクが表示 **[!UICONTROL See what’s new]** されます。
+コレクションに「いいね！」のあるコメントがない場合、ユーザーにはメッセージとリ **[!UICONTROL There are not enough likes yet]**&#x200B;ンクが表示されま **[!UICONTROL See what’s new]**&#x200B;す。
 
 >[!NOTE]
 >
->上位のコメントとホットスレッドが同じコレクションに含まれていないことがあります。
+>上位のコメントとホットスレッドは同じコレクションに含めることができません。
 
-トップコメントビューの有効化については、を参照 **[!UICONTROL Studio > Network Settings]** してください。
+上位のコメントビューの有効化の詳細については、を参照してくださ **[!UICONTROL Studio > Network Settings]**&#x200B;い。
 
-この機能を使用するアプリ:
+この機能を使用するアプリ：
 
-* [コメント](/help/using/c-about-apps/c-comments/c-comments.md)
+* [Comments](/help/using/c-about-apps/c-comments/c-comments.md)
 
