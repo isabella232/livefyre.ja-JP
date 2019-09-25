@@ -1,10 +1,10 @@
 ---
-description: 「アップロード」ボタンのサイズ、幅およびインタラクションオプションを変更します。
-seo-description: 「アップロード」ボタンのサイズ、幅およびインタラクションオプションを変更します。
+description: アップロードボタンのサイズ、幅およびインタラクションオプションを変更します。
+seo-description: アップロードボタンのサイズ、幅およびインタラクションオプションを変更します。
 seo-title: アップロードボタンのカスタマイズ
 solution: Experience Manager
 title: アップロードボタンのカスタマイズ
-uuid: d820bfg-8c76-4864-9e70-55394010c35d
+uuid: d820bbec-8c76-4864-9e70-55394010c35d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,40 +13,40 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # アップロードボタンのカスタマイズ{#upload-button-customizations}
 
-「アップロード」ボタンのサイズ、幅およびインタラクションオプションを変更します。
+アップロードボタンのサイズ、幅およびインタラクションオプションを変更します。
 
-## アップロードボタンを統合
+## 統合アップロードボタン
 
 埋め込みコードを使用して、アップロードボタンを有効にします。
 
-* **[!UICONTROL Destination.]** アップロードボタンからコンテンツを表示するために使用するアプリを選択します。調査、トレンド、またはStorify2にアップロードボタンを表示できません。「モデレート」ボタンを使用してコンテンツユーザーをモデレートするには、「モデレート」に宛先を設定します。
-* **[!UICONTROL Style Options]** 
+* **[!UICONTROL Destination.]** 「アップロード」ボタンからコンテンツの表示に使用するアプリを選択します。 「アップロード」ボタンは、「ポーリング」、「トレンド」または「Storify 2」に表示できません。 「アップロード」ボタンを使用して、ユーザーがアップロードするコンテンツをモデレートする場合は、アップロード先を「モデレート」に設定します。
+* **[!UICONTROL Style Options]**
 
-   * **[!UICONTROL Corners.]** 丸いボタンまたは四角形の角を設定します。
+   * **[!UICONTROL Corners.]** ボタンの角を丸めるか四角にするかを設定します。
 
-* **[!UICONTROL Configuration]** 
+* **[!UICONTROL Configuration]**
 
-   * **[!UICONTROL Allow User Posts.]** エンドユーザーがアップロードボタンを使用してテキスト、写真、ビデオを投稿できるかどうかを選択します。エンドユーザーが認証されていない場合、アップロードボタンを使用できません。
-   * **[!UICONTROL Include Title.]** エンドユーザーがアップロードするコンテンツのタイトルを入力できるようにします。デフォルトでは、エンドユーザーはコメントを作成できます。これを有効にすると、エンドユーザーがアップロードするコンテンツの一部としてタイトルとコメントが作成されます。
-   * **[!UICONTROL Require Media.]** アップロードボタンを使用してコンテンツを投稿するには、エンドユーザーが写真またはビデオをアップロードする必要があります。
+   * **[!UICONTROL Allow User Posts.]** エンドユーザーがテキスト、写真、ビデオの投稿に「アップロード」ボタンを使用できるかどうかを選択します。 エンドユーザが認証されていない場合は、「アップロード」ボタンを使用できません。
+   * **[!UICONTROL Include Title.]** エンドユーザーがアップロードしたコンテンツでタイトルを入力できるようにします。 デフォルトでは、エンドユーザーはコメントを付けることができます。 これを有効にすると、コンテンツの一部としてのタイトルとコメントがエンドユーザーによってアップロードされます。
+   * **[!UICONTROL Require Media.]** 「アップロード」ボタンを使用してコンテンツを投稿するには、エンドユーザーが写真またはビデオをアップロードする必要があります。
 
-* **[!UICONTROL Text Configuration]** 
+* **[!UICONTROL Text Configuration]**
 
-   * **[!UICONTROL Upload Button Text.]** アップロードボタンに表示するテキストを設定します。
-   * **[!UICONTROL Comment Modal Title.]** エンドユーザーがアップロードボタンをクリックしたときに表示されるウィンドウのタイトル。
-   * **[!UICONTROL Comment Modal Button.]** エンドユーザーがアップロードボタンをクリックした後にコンテンツをアップロードするウィンドウに表示されるテキスト。
-   * **[!UICONTROL Comment Modal Title Input.]** エンドユーザーがアップロード時にタイトルを入力できるようにします。「タイトルを含める」を選択すると、ここに表示されるコンテンツを変更できます。
-   * **[!UICONTROL Comment Modal Message Input.]** エンドユーザーがアップロード時にメッセージを入力できるようにします。
-   * **[!UICONTROL Confirmation Modal Title Text.]** コンテンツが正常にアップロードされたことをエンドユーザーが確認することを確認するウィンドウのタイトル。
-   * **[!UICONTROL Confirmation Modal Description Text.]** ユーザーがコンテンツを正常にアップロードしたことを確認するために、ウィンドウに表示されるテキストです。
-   * **[!UICONTROL Confirmation Modal Done Button.]** ユーザーがコンテンツを正常にアップロードしたことを確認するために、ウィンドウに表示されるボタンのテキストです。
-   * **[!UICONTROL Enable Header.]** エンドユーザーにコンテキストを提供するには、ヘッダーを有効にします。ボタンの上部または右側にヘッダーを追加できます。
+   * **[!UICONTROL Upload Button Text.]** 「アップロード」ボタンに表示されるテキストを設定します。
+   * **[!UICONTROL Comment Modal Title.]** エンドユーザが「アップロード」ボタンをクリックしたときに表示されるウィンドウのタイトル。
+   * **[!UICONTROL Comment Modal Button.]** エンドユーザが「アップロード」ボタンをクリックした後にコンテンツをアップロードするウィンドウに表示されるテキスト。
+   * **[!UICONTROL Comment Modal Title Input.]** エンドユーザがアップロード時にタイトルを入力できるようにします。 「タイトルを含める」を選択した場合に表示されるコンテンツを変更できます。
+   * **[!UICONTROL Comment Modal Message Input.]** エンドユーザがアップロード時にメッセージを入力できるようにします。
+   * **[!UICONTROL Confirmation Modal Title Text.]** コンテンツが正常にアップロードされたことをエンドユーザーに確認するウィンドウのタイトル。
+   * **[!UICONTROL Confirmation Modal Description Text.]** ウィンドウに表示されるテキストで、コンテンツが正常にアップロードされたことをエンドユーザーに確認するものです。
+   * **[!UICONTROL Confirmation Modal Done Button.]** ウィンドウに表示されるボタンのテキストで、コンテンツが正常にアップロードされたことをエンドユーザーに確認します。
+   * **[!UICONTROL Enable Header.]** エンドユーザーにコンテキストを提供するヘッダーを有効にします。 ボタンの上部または右側にヘッダーを追加するように選択できます。
    * **[!UICONTROL Main Callout Title.]** ヘッダーのタイトルに使用するテキストです。
    * **[!UICONTROL Main Callout Message.]** ヘッダーに使用するテキストです。
 
-以下を使用して、「アップロード」ボタンをカスタマイズできます。
+「アップロード」ボタンは、次を使用してカスタマイズできます。
 
-* **[!UICONTROL Style]** およびすべてのアプリの **[!UICONTROL Config]** オプション **[!UICONTROL App Designer]** を参照してください。詳しく **[!UICONTROL Style]** は **[!UICONTROL Config]**、 **[!UICONTROL App Designer]** 
+* **[!UICONTROL Style]** 」と「」 **[!UICONTROL Config]** のすべてのアプリに対するオプションを追加しま **[!UICONTROL App Designer]**&#x200B;す。 標準およびすべてのアプリのオプションにつ **[!UICONTROL Style]** いて詳し **[!UICONTROL Config]** くは、「アプリのカスタマイズ」を参照してください。 **[!UICONTROL App Designer]**
 
-* 統合ツール。統合ツールを使用してアプリケーションをカスタマイズする方法について詳しくは、アプリ統合を参照してください。
+* 統合ツール。 統合ツールを使用してアプリをカスタマイズする方法について詳しくは、「アプリの統合」を参照してください。
 
