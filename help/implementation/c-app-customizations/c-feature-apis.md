@@ -1,9 +1,9 @@
 ---
-description: 機能APIを使用してプロセスを自動化する
-seo-description: 機能APIを使用してプロセスを自動化する
+description: 機能APIを使用したプロセスの自動化
+seo-description: 機能APIを使用したプロセスの自動化
 seo-title: 機能API
 title: 機能API
-uuid: eac3a156-0b60-4ffa-8b6f- e451eb03da77
+uuid: eac3a156-0b60-4ffa-8b6f-e451eb03da77
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -12,11 +12,11 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # 機能API{#feature-apis}
 
-機能APIを使用してプロセスを自動化する
+機能APIを使用したプロセスの自動化
 
-機能APIを使用して、コンテンツが特集されているプロセスを自動化します。例えば、ライブブログまたはコメントアプリを作成する場合、選択したモデレーターが投稿したすべてのコンテンツについて、会話を停止し、ストリーム内の一貫性を確立します。
+機能APIを使用して、コンテンツが特集されるプロセスを自動化します。 例えば、ライブブログやコメントアプリを作成する場合、選択したモデレーターによって投稿されたすべてのコンテンツを特集して会話の舵取りを行い、ストリーム内の一貫性を確立します。
 
-Livefyreは機能と機能機能のないAPIの両方を提供しています。
+Livefyreは、機能APIと機能解除APIの両方を提供しています。
 
 ## 機能 {#section_jpw_nqw_xz}
 
@@ -26,7 +26,7 @@ Livefyreは機能と機能機能のないAPIの両方を提供しています。
 POST: https://{networkName}.quill.fyre.co/api/v3.0/collection/<collectionId>/feature/<commentId>/?lftoken=<base64userToken>
 ```
 
-選択したモデレーターのユーザートークンを入力します。
+選択し&#x200B;たモデレーターのユーザートークンを入力します。
 
 **投稿データ**
 
@@ -34,7 +34,7 @@ POST: https://{networkName}.quill.fyre.co/api/v3.0/collection/<collectionId>/fea
 {value: <number>} 
 ```
 
-この値は、特集コンテンツの並べ替えに使用されます。最大から最小までの最大値は、特集コンテンツリストの1より前に表示されます。この値はデフォルトで **エポック** 時に設定されるので、重点的なコメントは通常、新しい順に並べ替えられます。
+この値を使用して、特集コンテンツを最大から最小の順に並べ替えます（10が重点コンテンツリストの1より前に表示されます）。 この値はデフォルトでエポ **ック時** になったので、特集されたコメントは通常、新しい順に並べ替えられます。
 
 **応答の例**
 
@@ -46,7 +46,7 @@ POST: https://{networkName}.quill.fyre.co/api/v3.0/collection/<collectionId>/fea
 >
 >データフィールドはまだ使用されていません。
 
-## 機能不能 {#section_knh_mqw_xz}
+## 機能解除 {#section_knh_mqw_xz}
 
 **リソース**
 
