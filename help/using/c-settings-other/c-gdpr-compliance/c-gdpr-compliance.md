@@ -1,18 +1,18 @@
 ---
-description: 一般的なデータ保護規則（GGPR）について説明し、Livefyreの使用で収集されるデータおよびその他の関連プライバシーコントロールについて、DGPRの下で許可されるアクセスおよび削除リクエストについて説明します。
-seo-description: 一般的なデータ保護規則（GGPR）について説明し、Livefyreの使用で収集されるデータおよびその他の関連プライバシーコントロールについて、DGPRの下で許可されるアクセスおよび削除リクエストについて説明します。
-seo-title: プライバシーリクエスト（GGPR- Ready）
+description: General Data Protection Regulation(GDPR)の概要と、Livefyreを使用して収集したデータに対するGDPRで許可されたアクセスおよび削除のリクエストの完了方法、およびその他のプライバシー管理に関する情報について説明します。
+seo-description: General Data Protection Regulation(GDPR)の概要と、Livefyreを使用して収集したデータに対するGDPRで許可されたアクセスおよび削除のリクエストの完了方法、およびその他のプライバシー管理に関する情報について説明します。
+seo-title: プライバシー・リクエスト（GDPR対応）
 solution: Experience Manager
-title: プライバシーリクエスト（GGPR- Ready）
-uuid: 8c8b2001- f94d-4abc-8acd- ff4c096dc2f9
+title: プライバシー・リクエスト（GDPR対応）
+uuid: 8c8b2001-f94d-4afc-8acd-ff4c096dc2f9
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# プライバシーリクエスト（GGPR- Ready）{#privacy-requests-gdpr-ready}
+# プライバシー・リクエスト（GDPR対応）{#privacy-requests-gdpr-ready}
 
-一般的なデータ保護規則（GGPR）について説明し、Livefyreの使用で収集されるデータおよびその他の関連プライバシーコントロールについて、DGPRの下で許可されるアクセスおよび削除リクエストについて説明します。
+General Data Protection Regulation(GDPR)の概要と、Livefyreを使用して収集したデータに対するGDPRで許可されたアクセスおよび削除のリクエストの完了方法、およびその他のプライバシー管理に関する情報について説明します。
 
-[一般的なデータ保護規制（GGPR）](https://adobe.io/apis/cloudplatform/gdpr.html) は、欧州連合（EU）内の個人のデータ保護を強化し統合するための規則です。他のプライバシーコントロールに加えて、エンドユーザー（データ件名）のアクセスおよび削除要求の完了に役立つ他のプライバシーコントロールに加えて、Livefyreの使用で収集されたデータをリクエストまたは削除するためのGGPR準備対応ソリューションを準備しました。
+The [General Data Protection Regulation (GDPR)](https://adobe.io/apis/cloudplatform/gdpr.html) is a regulation intended to strengthen and unify data protection for individuals within the European Union (EU). エンドユーザー（データサブジェクト）から受け取るアクセスおよび削除のリクエストを完了するためのプライバシー制御に加え、Livefyreで収集したデータをリクエストまたは削除できる、Livefyre用の導入された機能に対するGDPR対応のソリューションも用意しています。
