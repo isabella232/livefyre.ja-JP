@@ -11,21 +11,21 @@ source-git-commit: bf49abcfe0d29a1fa332161179d37ea14e7efb09
 
 # Experience Manager Livefyre導入ガイド {#livefyre-help}
 
-開発者ツールを使用してWebサイトにLivefyre StudioとLivefyreアプリを実装し、エクスペリエンスをカスタマイズします。
+開発者ツールを使用してLivefyre studioとLivefyre AppsをWebサイトに実装し、エクスペリエンスをカスタマイズします。
 
-Livefyre Studio内でLivefyre StudioとLivefyreアプリケーションを使用する方法について詳しくは、 [*Adobe Experience Manager Livefyreユーザーガイド*](/help/using/home.md)を参照してください。
+Livefyre studio内でのLivefyre studioおよびLivefyreアプリの使用方法について詳しくは、 [*Adobe Experience Manager Livefyreユーザーガイドを参照してください*](/help/using/home.md)。
 
 ## よく読まれるトピック
 
 * [導入の手引き](c-getting-started/c-getting-started.md)
 
-* [Adobe Experience ManagerでLivefyreアプリケーションを使用する](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html)
+* [Adobe Experience ManagerでのLivefyreアプリの使用](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html)
 
-* [Android SDK for Mobile](c-mobile-sdks/c-android-sdk.md)
+* [モバイル用Android SDK](c-mobile-sdks/c-android-sdk.md)
 
-* [開発ツールを使用したコメントの統合](/help/implementation/c-app-integrations/c-comments-integration/c-comments-integration.md)
+* [開発者ツールを使用したコメントの統合](/help/implementation/c-app-integrations/c-comments-integration/c-comments-integration.md)
 
-* [開発ツールを使用したアプリケーションの統合](/help/implementation/c-getting-started/c-implementation-process/c-implementation-process.md)
+* [開発者ツールを使用したアプリの統合](/help/implementation/c-getting-started/c-implementation-process/c-implementation-process.md)
 
 * [AnalyticsツールでのLivefyreの使用](/help/implementation/livefyre-analytics/livefyre-analytics.md)
 
