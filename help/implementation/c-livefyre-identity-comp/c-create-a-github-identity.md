@@ -1,8 +1,8 @@
 ---
-description: GitHub IDを使用してLivefyre IDを使用すると、ユーザーはGitHubログインを使用してサイトのアプリを操作できます。
-seo-description: GitHub IDを使用してLivefyre IDを使用すると、ユーザーはGitHubログインを使用してサイトのアプリを操作できます。
-seo-title: Livefyre IDで使用するGitHub IDアプリケーションの作成
-title: Livefyre IDで使用するGitHub IDアプリケーションの作成
+description: Livefyre IdentityをGitHub IDと共に使用して、ユーザーがGitHubログインを使用してサイト上のアプリとやり取りできるようにすることができます。
+seo-description: Livefyre IdentityをGitHub IDと共に使用して、ユーザーがGitHubログインを使用してサイト上のアプリとやり取りできるようにすることができます。
+seo-title: Livefyre IDで使用するGitHub IDアプリを作成する
+title: Livefyre IDで使用するGitHub IDアプリを作成する
 uuid: cf56164c-1521-4a42-89cb-39483764807e
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
@@ -10,24 +10,24 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 ---
 
 
-# Livefyre IDで使用するGitHub IDアプリケーションの作成{#create-a-github-identity-app-for-use-with-livefyre-identity}
+# Livefyre IDで使用するGitHub IDアプリを作成する{#create-a-github-identity-app-for-use-with-livefyre-identity}
 
-GitHub IDを使用してLivefyre IDを使用すると、ユーザーはGitHubログインを使用してサイトのアプリを操作できます。
+Livefyre IdentityをGitHub IDと共に使用して、ユーザーがGitHubログインを使用してサイト上のアプリとやり取りできるようにすることができます。
 
-ユーザーがGitHub ID資格情報を使用してログインできるようにするには、Livefyreに以下のGitHub ID情報が必要です。
+ユーザーがGitHub ID資格情報を使用してログインできるようにするには、Livefyreに次のGitHub ID情報が必要です。
 
 * クライアントID（秘密鍵）
 * クライアントシークレット（パスワード）
 
-Livefyre IDで使用するGitHub IDアプリケーションを作成するには:
+Livefyre idで使用するGitHub IDアプリを作成するには：
 
-1. GitHubアカウントに作成またはサインイン [](https://github.com/settings/developers)します。
-1. 新しいアプリケーションを登録するか、Livefyre IDで使用する既存のアプリケーションを選択します。
-1. フォームにすべての情報を入力します。ではなく、ネットワーク名を使用して、を **[!UICONTROL Authorization callback URL]** 入力してください `{network-name}: {network-name}: https://identy.livefyre.com/{network-name}.fyre.co/api/v.1.0/public/profile/social/complete/github_fyre`。
+1. でGitHubアカウントを作成するか、サインインしま [](https://github.com/settings/developers)す。
+1. Livefyre IDで使用する新しいアプリを登録するか、既存のアプリを選択します。
+1. フォームにすべての情報を入力します。 の代わりに、ネ **[!UICONTROL Authorization callback URL]**&#x200B;ットワーク名を使用して、を入力しま `{network-name}: {network-name}: https://identy.livefyre.com/{network-name}.fyre.co/api/v.1.0/public/profile/social/complete/github_fyre`す。
 
-1. で **[!UICONTROL Livefyre Integration Settings Livefyre Identity GitHub]** **[!UICONTROL Enable GitHub Login]**、切り替えをに切り替え **[!UICONTROL On]** ます。
+1. で、切 **[!UICONTROL Livefyre Integration Settings Livefyre Identity GitHub]**&#x200B;り替えをに **[!UICONTROL Enable GitHub Login]** 切り替えま **[!UICONTROL On]**&#x200B;す。
 
 1. GitHubクライアントIDとGitHubクライアントシークレットを入力します。
-1. **[!UICONTROL Save Settings]** をクリックします。
+1. Click **[!UICONTROL Save Settings]**.
 
-完了すると、GitHub IDのアプリケーションの詳細ページに、Studioの統合設定ページで使用するアプリケーションのクライアントID（Consumer Key）とクライアントシークレット（Consumer Secret）が一覧表示されます。
+完了すると、GitHub IDのアプリの詳細ページに、Studioの統合設定ページで使用するアプリのクライアントID（コンシューマーキー）とクライアントシークレット（コンシューマーシークレット）が表示されます。
