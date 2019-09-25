@@ -1,19 +1,19 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: ソーシャルアプリの作成
+seo-title: Socialアプリの作成
 solution: Experience Manager
-title: ソーシャルアプリの作成
-uuid: b3698e44-19ba-489f- a4d2-072ba5430974
+title: Socialアプリの作成
+uuid: b3698e44-19ba-489f-a4d2-072ba5430974
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# ソーシャルアプリの作成{#create-your-social-apps}
+# Socialアプリの作成{#create-your-social-apps}
 
-ユーザーがこれらのソーシャルプラットフォーム用に自分の資格情報を使用してログインできるようにするには:
+ユーザーがこれらのソーシャルプロバイダーの資格情報を使用してログインできるようにするには：
 
 1. Livefyreで使用するアプリを作成します。
 1. 選択したプロバイダーの開発者サイトにログインします。
