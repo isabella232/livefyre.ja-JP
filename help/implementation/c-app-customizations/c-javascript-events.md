@@ -4,7 +4,7 @@ seo-description: 会話アプリ（Comments、Chat、Live Blog、Reviews、Siden
 seo-title: JavaScriptイベントの定義と例
 solution: Experience Manager
 title: JavaScriptイベントの定義と例
-uuid: 61da2e2e-8fcd-482d-93df- c946f0475277
+uuid: 61da2e2e-8fcd-482d-93df-c946f0475277
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -15,11 +15,11 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 会話アプリ（Comments、Chat、Live Blog、Reviews、Sidenotes など）用に JavaScript をバインドできるものに対して使用できるイベントです。
 
-Livefyreアプリでユーザーアクティビティを追跡するためのJavaScriptイベントがLivefyreに提供されています。例えば、ユーザーがTwitterやFacebookにコンテンツを「いいね!&quot;または共有したり、新しいコンテンツが投稿されたときにページを更新したりできます。
+Livefyreは、Livefyreアプリでのユーザーアクティビティを追跡するJavaScriptイベントを提供します。 例えば、ユーザーがTwitterやFacebookにコンテンツを「いいね！」したり共有したりした場合や、新しいコンテンツが投稿された場合に、ページを更新したい場合があります。
 
-また、サードパーティの分析統合（Adobe Analytics JS、Google Analytics、Dynamic Tag Managementなど）にイベントを追加して、アプリイベントを追跡することもできます。詳しくは、サードパーティの統合マネージャーと協力して、適切なイベントを提供してください。
+また、Livefyreでは、サードパーティの解析統合（Adobe Analytics JS、Google Analytics、Dynamic Tag Managementなど）にイベントを追加して、アプリイベントを追跡することもできます。 詳しくは、サードパーティの統合マネージャーと協力して正しいイベントを指定してください。
 
-これらのイベントに連結するには、ページにアプリをインスタンス化するときに、ページに次のコードを追加します。イベント名を次のよう `{eventName}`に置き換えます。
+これらのイベントに連結するには、ページでアプリをインスタンス化する際に、次のコードをページに追加します。 イベント名を次の名前に置き換えま `{eventName}`す。
 
 ```
 Livefyre.require(['fyre.conv#3'], function(Conv) { 
@@ -33,15 +33,15 @@ Livefyre.require(['fyre.conv#3'], function(Conv) {
 
 >[!NOTE]
 >
->すべてのイベントハンドラーに対してデータオブジェクトが提供されます。データオブジェクトの例は、各イベントに従います。
+>データオブジェクトは、すべてのイベントハンドラーに対して提供されます。 各イベントの後には、サンプルデータオブジェクトが続きます。
 
 ## commentPosted {#section_qfr_51p_xz}
 
 ユーザーがコメントを投稿しました。
 
-* nullの親は、新しいコメントです。
+* nullの親は新しいコメントです。
 * 「なし」の親は、編集されたコメントです。
-* 親のnumberは、返信の親IDです。
+* 親の数値は、返信の親IDです。
 
 ```
 data = { 
@@ -56,7 +56,7 @@ data = {
 } 
 ```
 
-## CommentFlag {#section_szy_s1p_xz}
+## commentFlagged {#section_szy_s1p_xz}
 
 ユーザーがコメントにフラグを付けました。
 
@@ -68,9 +68,9 @@ data = {
 }
 ```
 
-## CommentHapped {#section_vc1_r1p_xz}
+## commentLinked {#section_vc1_r1p_xz}
 
-ユーザーがコメントを「いいね!&quot;しました。
+ユーザーがコメントに「いいね！」しました。
 
 ```
 data = { 
@@ -80,9 +80,9 @@ data = {
 } 
 ```
 
-## CommentShared {#section_nqb_31p_xz}
+## commentShared {#section_nqb_31p_xz}
 
-ユーザーがストリームからコメントを共有しました。（このイベントは、ユーザーがコメントエディターから共有したときに発生しません）。このイベントは、共有ボタンがクリックされたときにトリガーされます。
+ユーザーがストリームからコメントを共有しました。 （このイベントは、ユーザーがコメントエディターから共有した場合には実行されません）。このイベントは、「共有」ボタンがクリックされたときにトリガーされます。
 
 ```
 data = { 
@@ -94,7 +94,7 @@ data = {
 
 ## commentCountUpdated {#section_qdq_f1p_xz}
 
-この会話で表示されているコメントの合計数が変更されました（増分または減少）。
+この会話で表示されるコメントの総数が変更されました（増分または減分）。
 
 ```
 data: 34 // The total number of visible comments in the conversation (integer). 
@@ -102,7 +102,7 @@ data: 34 // The total number of visible comments in the conversation (integer).
 
 ## userLoggedIn {#section_yjt_vz4_xz}
 
-ユーザーがログインしています。
+ユーザーがログインしました。
 
 ```
 data = { 
@@ -120,9 +120,9 @@ data = {
 
 データが未定義です。
 
-## Socialメンション {#section_a1w_tz4_xz}
+## socialMention {#section_a1w_tz4_xz}
 
-ユーザーがコメントに@メンションを含めました。次の配列を返します。
+ユーザーがコメントに@メンションを含めました。 次の配列を返します。
 
 ```
 data = { 
@@ -134,9 +134,9 @@ data = {
 } 
 ```
 
-## CommentSights
+## commentFeatured
 
-モデレーターユーザーがコメントを特集しました。次の配列を返します。
+モデレーターユーザーがコメントを投稿しました。 次の配列を返します。
 
 ```
 data = { 
@@ -148,19 +148,19 @@ data = {
 
 ## initialRenderComplete {#section_odc_4z4_xz}
 
-コメントストリームが読み込まれ、最初のコンテンツセットがサーバーから取得され、ユーザーに表示されます。
+コメントストリームが読み込まれ、最初のコンテンツセットがサーバーから取得され、ユーザーに表示されました。
 
 データが未定義です。
 
 ## showMore {#section_pqg_nz4_xz}
 
-ユーザーが **[!UICONTROL Show More]** ボタンをクリックしました。
+ユーザーがボタンをクリッ **[!UICONTROL Show More]** クしました。
 
 データが未定義です。
 
-## userAffowed {#section_xxw_jz4_xz}
+## userFollowed {#section_xxw_jz4_xz}
 
-ユーザーが **[!UICONTROL Follow]** ボタンをクリックしたときにtrueを返し、コンテンツがストリームに投稿されたときにfalseを返します。
+ユーザーがボタンをクリックするとtrue **[!UICONTROL Follow]** を返し、ストリームにコンテンツが投稿されるとfalseを返します。
 
 ```
 data = { 
@@ -171,7 +171,7 @@ data = {
 
 ## userUnfollowed {#section_wm1_gz4_xz}
 
-ユーザーが **「フォロー解除** 」ボタンをクリックしたときにtrueを返し、コンテンツがストリームに投稿されたときにfalseを返します。
+ユーザーが「フォロー解除」ボタンをクリ **ックすると** 、trueを返し、ストリームにコンテンツが投稿されるとfalseを返します。
 
 ```
 data = { 
