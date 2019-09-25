@@ -1,6 +1,6 @@
 ---
-description: User Syncを使用すると、ユーザー管理システムからユーザープロファイルデータを取得するために使用するエンドポイントを入力できます。
-seo-description: User Syncを使用すると、ユーザー管理システムからユーザープロファイルデータを取得するために使用するエンドポイントを入力できます。
+description: ユーザー同期を使用すると、ユーザー管理システムからユーザープロファイルデータを取得するために使用するエンドポイントを入力できます。
+seo-description: ユーザー同期を使用すると、ユーザー管理システムからユーザープロファイルデータを取得するために使用するエンドポイントを入力できます。
 seo-title: ユーザー同期
 solution: Experience Manager
 title: ユーザー同期
@@ -13,12 +13,12 @@ source-git-commit: 30aa5cce5e7567208362cc35caeb7b7260c42f3b
 
 # ユーザー同期{#user-sync}
 
-User Syncを使用すると、ユーザー管理システムからユーザープロファイルデータを取得するために使用するエンドポイントを入力できます。
+ユーザー同期を使用すると、ユーザー管理システムからユーザープロファイルデータを取得するために使用するエンドポイントを入力できます。
 
-LivefyreがPing **[!UICONTROL Identity Integration > Your Identity Service]** for PullでユーザーデータをLivefyreと同期する方法について詳しくは、このURLを参照してください。
+Pingを使 **[!UICONTROL Identity Integration > Your Identity Service]** 用してPingでLivefyreとユーザーデータを同期するために、このURLをLivefyreが使用する方法について詳しくは、を参照してください。
 
-## カスタムユーザープロファイルの同期
+## カスタムユーザープロファイル同期
 
-**プロファイル同期URL:** Livefyreが更新したユーザープロファイル情報を取得するURLを入力します。
-* 次に例を示します。 `https://example.yoursite.com/some_path/?id={***id***}`
+**** プロファイル同期URL:livefyreが更新されたユーザープロファイル情報の取得元となるURLを入力します。
+* 例えば、`https://example.yoursite.com/some_path/?id={***id***}`
 
