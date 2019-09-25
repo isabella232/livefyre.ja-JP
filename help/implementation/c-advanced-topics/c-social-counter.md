@@ -4,7 +4,7 @@ seo-description: キュレーションされたソーシャルアイテムの数
 seo-title: ソーシャルカウンター
 solution: Experience Manager
 title: ソーシャルカウンター
-uuid: fa9aa1a8-6a04-4bc1-9bfe- e42c1250fd48
+uuid: fa9aa1a8-6a04-4bc1-9bfe-e42c1250fd48
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,15 +13,15 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # ソーシャルカウンター{#social-counter}
 
-キュレーションされたソーシャルアイテムの数をカウントします。使用可能なエンドポイントの一覧については、&quot;Livefyre [APIリファレンス](https://api.livefyre.com/docs) 」の節を参照してください。
+キュレーションされたソーシャルアイテムの数をカウントします。 使用可能なエンドポイントの完全なリストについては、Livefyre [API Referenceの節を参照してください](https://api.livefyre.com/docs) 。
 
-SocialカウンターAPIは、特定のコレクション内の一致するキュレーションルールのカウントを、一定期間の間隔で返します。
+SocialカウンターAPIは、特定のコレクション内のキュレーションルールに一致した数を一定期間の間隔で返します。
 
 >[!NOTE]
 >
->このAPIは、Twitterのハッシュタグでのみ使用できます。
+>このAPIは、Twitterのハッシュタグに対してのみ使用できます。
 
-SocialカウンターAPI:
+ソーシャルカウンターAPI:
 
 * リソース
 * ルールタイプ
@@ -33,30 +33,30 @@ SocialカウンターAPI:
 GET https://{networkName}.bootstrap.fyre.co/api/v3.0/stats.collections.curate/{query}.json
 ```
 
-* **NetworkName:** Livefyreが提供するネットワーク名。次に例を示します。 *ラボ*`labs.fyre.co`の
-* **query:** すべてのサイト、記事ID、ルールタイプの組のURLセーフベースのbase64エンコードハッシュ（事前エンコード済み）
+* **** networkName: Livefyreが提供するネットワーク名。 例：の *実習*`labs.fyre.co`。
+* **** クエリ：カウント情報を取得する（事前にエンコードされる）すべてのサイト、記事ID、ルールタイプのタプルのURLセーフbase64エンコードされたハッシュ。
 
    ```
    {site ID}:{article ID};{rule-type},  {article ID};{rule-type}|{site ID}:{article ID};{rule-type}
    ```
 
    >[!NOTE]
-   >クエリは10サイト、記事ID、ルールタイプ組に制限されています。（前述の例には3組が含まれています）。
+   >クエリは10サイト、記事ID、ルールタイプのタプルに制限されます。 （前の例では、3つのタプルが含まれています）。
 
-* **from**`(optional)` は、グラフの相対的または絶対的な期間を指定します。から開始する場合は、開始日を指定し、省略した場合は24時間前に指定します。
-* **を指定**`(optional)` します。を指定するまで、開始を指定し、省略した場合は現在の時刻（現在は）を指定します。
+* **fromは**`(optional)` 、グラフに表示する相対期間または絶対期間を指定します。fromは先頭を指定し、省略した場合はデフォルトで24時間前に設定されます。
+* **untilは**`(optional)` 、グラフに表示する相対期間または絶対期間を指定します。untilは開始を指定し、省略した場合は現在の時間（現在）をデフォルトにします。
 
 ### 相対時間
 
-| 省略形 | 単位 |
+| 略語 | 単位 |
 |---|---|
 | s | 秒 |
-| min | Minutes |
-| h | Hours |
-| d | Days |
-| w | 週 |
+| min | 分 |
+| h | 時間 |
+| d | 日 |
+| w | 週間 |
 | mon | 30日（月） |
-| y | 365Days（Year） |
+| y | 365日（年） |
 
 例：
 
@@ -66,13 +66,13 @@ https://labs-t402.bootstrap.fyre.co/api/v3.0/stats.collections.curate/MTIzNDU2On
 
 ## 絶対時間 {#section_xqr_jgc_11b}
 
-FORMAT:HH:MM_ YYYYMMDD
+形式：HH:MM_YYYYMMDD
 
-| 省略形 | つまり、 |
+| 略語 | 意味 |
 |---|---|
-| HH | Hours（24h時計形式） |
-| MM | Minutes |
-| YYYY | 4桁の年 |
+| HH | 時間（24時間形式） |
+| MM | 分 |
+| YYYY | 4桁表記の年 |
 | MM | 月 |
 | DD | 日 |
 
@@ -84,19 +84,19 @@ https://labs-t402.bootstrap.fyre.co/api/v3.0/stats.collections.curate/MTIzNDU2On
 
 ## ルールタイプ {#section_v53_xqb_11b}
 
-| Value | タイプ |
+| 値 | タイプ |
 |---|---|
 | 2 | Twitter |
 
 例：
 
-サイト `123456` IDと記事ID `some-article-id` とルールタイプ `2`の最後の分を取得するには、次のようにします。 `123456:some-article-id;2:`
+サイトと記事IDおよびルールタイプの最後の1分間 `123456` のカウントを取得するに `some-article-id` は、次のように `2`指定します。 `123456:some-article-id;2:`
 
 ```
 curl -XGET "https://labs-t402.bootstrap.fyre.co/api/v3.0/stats.collections.curate/MTIzNDU2OnNvbWUtYXJ0aWNsZS1pZDsy.json&from=-1min" 
 ```
 
-応答例:
+応答の例:
 
 ```
 { 
