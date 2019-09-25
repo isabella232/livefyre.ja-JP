@@ -1,10 +1,10 @@
 ---
-description: コメントをカスタマイズすると、サイトにリアルタイムの会話を埋め込むことができます。
-seo-description: コメントをカスタマイズすると、サイトにリアルタイムの会話を埋め込むことができます。
+description: コメントをカスタマイズして、リアルタイムの会話をサイトに埋め込みます。
+seo-description: コメントをカスタマイズして、リアルタイムの会話をサイトに埋め込みます。
 seo-title: コメントのカスタマイズ
 solution: Experience Manager
 title: コメントのカスタマイズ
-uuid: 7ec08aaf-553f-49a2- b237- d4bdcb5714ff
+uuid: 7ec08aaf-553f-49a2-b237-d4bdcb5714ff
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,67 +13,67 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # コメントのカスタマイズ{#comments-customizations}
 
-コメントをカスタマイズすると、サイトにリアルタイムの会話を埋め込むことができます。
+コメントをカスタマイズして、リアルタイムの会話をサイトに埋め込みます。
 
 
 
-利用可能なオプションを使用して、Twitter、Facebook、LinkedInでコンテンツを共有し、その友人をストリームに引き寄せることができます。
+利用可能なオプションを使用して、ユーザーがTwitter、FacebookおよびLinkedInでコンテンツを共有し、友達をストリームに誘い込むことができます。
 
-* **[!UICONTROL Number of comments to load]** 
+* **[!UICONTROL Number of comments to load]**
 
-   初回読み込み時に表示するコメントの数を入力します。1~50の範囲で入力できます。
+   初回の読み込み時に表示するコメントの数を入力します。 1 ～ 50の範囲で入力できます。
 
-* **[!UICONTROL Nest level for replies]** 
+* **[!UICONTROL Nest level for replies]**
 
-   返信用に表示されるネストレベルの数を定義します。2、3または4.（デフォルトは4です）。
+   返信に対して表示するネストされたレベルの数を定義します。2、3、4。 （初期設定は4です）。
 
-* **[!UICONTROL Posts appear in cards]** 
+* **[!UICONTROL Posts appear in cards]**
 
-   有効にすると、周囲のボックス内に投稿が表示され、選択した **[!UICONTROL Theme]** 選択によって指定された背景色が決まります。
+   有効にすると、投稿は周囲のボックス内に表示され、選択範囲によって指定された背景色が **[!UICONTROL Theme]** 適用されます。
 
-* **[!UICONTROL Expand media]** 
+* **[!UICONTROL Expand media]**
 
-   有効になっている場合、メディアの添付ファイルは、ストリーム内で完全に展開されたメディアとして表示されます。無効にした場合、メディアはリンクのみとして表示されます。
+   有効にすると、メディアの添付ファイルは、ストリーム内で完全に拡張されたメディアインラインとして表示されます。 無効にした場合、メディアはリンクとしてのみ表示されます。
 
-* **[!UICONTROL Number of listeners]** 
+* **[!UICONTROL Number of listeners]**
 
    有効にすると、ページでアクティブなユーザーの数が表示されます。
 
-* **[!UICONTROL User tags]** 
+* **[!UICONTROL User tags]**
 
-   有効にした場合、ユーザータグは投稿されたコンテンツと共に表示されます。
+   有効にすると、投稿されたコンテンツと共にユーザータグが表示されます。
 
-* **[!UICONTROL User avatars]** 
+* **[!UICONTROL User avatars]**
 
-   有効になっている場合、ユーザーアバターは投稿されたコンテンツと共に表示されます。
+   有効にすると、投稿されたコンテンツと共にユーザーアバターが表示されます。
 
-* **[!UICONTROL Number of replies to load]** 
+* **[!UICONTROL Number of replies to load]**
 
-   読み込むコメントへの返信の数。この数字の後にあるコメントに対する追加の返信は、折りたたんで表示され、カウンターが表示されます。
+   読み込むコメントへの返信数です。 この数より後のコメントに対する返信はすべて折りたたまれ、返信数を表示するカウンターが付きます。
 
-* **[!UICONTROL Users may upload photos]** 
+* **[!UICONTROL Users may upload photos]**
 
-   有効になっているユーザが写真をアップロードできる場合。
+   有効にすると、ユーザーが写真をアップロードできます。
 
-* **[!UICONTROL Users may share posts]** 
+* **[!UICONTROL Users may share posts]**
 
-   有効なユーザーが投稿を共有する場合。有効にした場合、ユーザーは投稿されたコンテンツをTwitter、FacebookまたはLinkedInに共有できます。共有の有効化について詳しくは、設定/統合設定/ソーシャルシェアを参照してください。
+   有効にした場合、ユーザーは投稿を共有できます。 有効にすると、ユーザーは投稿されたコンテンツをTwitter、FacebookまたはLinkedInで共有できます。 共有を有効にする方法について詳しくは、設定/統合設定/ソーシャルシェアを参照してください。
 
-* **[!UICONTROL Featured content at top of stream]** 
+* **[!UICONTROL Featured content at top of stream]**
 
-   有効にすると、アプリ内のエディターの上に特集コンテンツが表示されます。
+   有効にすると、アプリのエディターの上に特集コンテンツが表示されます。
 
-* **[!UICONTROL High velocity comment queuing]** 
+* **[!UICONTROL High velocity comment queuing]**
 
-   ページにコメントが表示される速度を制御でき、高速な会話に使用できます。有効にすると、コンテンツ全体を表示せずに、ストリームの上部に新しいコメントの数がLivefyreによって表示されます。この番号をクリックすると、10件の古いコメントがストリーム内に表示されます。
+   ページにコメントを表示する速度を制御でき、高速な会話に最適です。 有効にすると、Livefyreはコンテンツ全体を表示するのではなく、新しいコメントの数をストリームの先頭に表示します。 この番号をクリックすると、ストリーム内で最も古い10件のコメントが表示されます。
 
-* **[!UICONTROL Most liked comment sort]** 
+* **[!UICONTROL Most liked comment sort]**
 
-   有効にすると、ユーザーは（デフォルト **[!UICONTROL Top Comments]** **[!UICONTROL Hot Threads]** **[!UICONTROL Newest]** および **[!UICONTROL Oldest]** 並べ替えオプションに加えて）並べ替えを行うことができます。
+   有効な場合、ユーザーは(デフォルトと並べ替えオ **[!UICONTROL Top Comments]** プションに **[!UICONTROL Hot Threads]** 加えて)またはで並べ替 **[!UICONTROL Newest]** えるこ **[!UICONTROL Oldest]** とができます。
 
 次を使用してコメントをカスタマイズできます。
 
-* **[!UICONTROL Style]** およびすべてのアプリの **[!UICONTROL Config]** オプション **[!UICONTROL App Designer]** を参照してください。すべてのアプリの標準 **[!UICONTROL Style]** および **[!UICONTROL Config]** オプションについて詳しくは、アプリのカスタマイズを参照 **[!UICONTROL App Designer]** してください。
+* **[!UICONTROL Style]** 」と「」 **[!UICONTROL Config]** のすべてのアプリに対するオプションを追加しま **[!UICONTROL App Designer]**&#x200B;す。 の標準およびすべてのアプリのオプションについて詳しくは、ア **[!UICONTROL Style]** プリのカ **[!UICONTROL Config]** スタマイズを参照してくださ **[!UICONTROL App Designer]**&#x200B;い。
 
 * **[!UICONTROL Integration tools]**. 統合ツールを使用してコメントをカスタマイズする方法について詳しくは、コメントを参照してください。
 
