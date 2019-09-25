@@ -13,6 +13,6 @@ source-git-commit: 155791af94c277e7afdbd51521e00da77169911e
 
 Adobe Livefyre Extension for Adobe Launchの設定について説明します。
 
-起動は、アドビからの次世代のWebサイトタグおよびモバイルSDK管理機能です。起動によって、関連する顧客エクスペリエンスに必要な分析、マーケティングおよび広告統合をすべて簡単にデプロイおよび管理できます。
+Launch は、アドビが提供する次世代型の Web サイトタグおよびモバイル SDK の管理機能です。起動により、顧客は、関連する顧客エクスペリエンスを強化するために必要なすべての分析、マーケティングおよび広告統合を、シンプルに導入および管理できます。
 
-起動によって、「拡張機能」と呼ばれる「起動」との統合を構築し、独自の統合を維持できます。これらの拡張機能は、アプリケーションストアエクスペリエンスのWebおよびモバイル起動ユーザーに提供されるので、ユーザーは迅速にインストール、設定およびデプロイできます。Livefyre Extensionの実装方法と設定方法について詳しくは、Livefyre Extensionに関する [アドビの起動ドキュメント](https://docs.adobelaunch.com/extension-reference/web/adobe-livefyre-extension)を参照してください。
+Launch を利用すると、拡張と呼ばれる Launch との独自の統合を誰でも作成および管理できます。これらの拡張は、Web およびモバイルで Launch をご利用のお客様自身がアプリストアで利用できるので、統合をすばやくインストール、設定およびデプロイできます。Livefyre Extensionの実装および設定方法について詳しくは、Livefyre Extensionの [Adobe Launchドキュメントを参照してください](https://docs.adobelaunch.com/extension-reference/web/adobe-livefyre-extension)。
