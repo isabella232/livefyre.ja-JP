@@ -1,23 +1,23 @@
 ---
-description: 以前に設定されたユーザー同期URLからユーザー情報をプルするようLivefyreに指示します。ブール値を返します。
-seo-description: 以前に設定されたユーザー同期URLからユーザー情報をプルするようLivefyreに指示します。ブール値を返します。
-seo-title: SyncUserネットワークメソッド
+description: 事前に設定されたユーザー同期URLからユーザー情報を取得するようLivefyreに通知します。 ブール型(Boolean)の値を返します。
+seo-description: 事前に設定されたユーザー同期URLからユーザー情報を取得するようLivefyreに通知します。 ブール型(Boolean)の値を返します。
+seo-title: syncUserネットワークメソッド
 solution: Experience Manager
-title: SyncUserネットワークメソッド
-uuid: 2afb03d-3907-4b01-9a64-02ba1b06da14
+title: syncUserネットワークメソッド
+uuid: 2affb03d-3907-4b01-9a64-02ba1b06da14
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# SyncUserネットワークメソッド{#syncuser-network-method}
+# syncUserネットワークメソッド{#syncuser-network-method}
 
-以前に設定されたユーザー同期URLからユーザー情報をプルするようLivefyreに指示します。ブール値を返します。
+事前に設定されたユーザー同期URLからユーザー情報を取得するようLivefyreに通知します。 ブール型(Boolean)の値を返します。
 
 | 変数 | タイプ | 説明 |
 |--- |--- |--- |
-| userId | 文字列 | Livefyreと同期するユーザーID。このメソッドを呼び出す前に、Livefyreと共にユーザー同期URLを設定する必要があります。 |
+| userId | 文字列 | Livefyreと同期するユーザーID。 このメソッドを呼び出す前に、Livefyreでユーザー同期URLを設定しておく必要があります。 |
 
 ## Javaの例 {#section_nyl_ycs_rz}
 
@@ -25,7 +25,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 network.syncUser(userId); 
 ```
 
-サンプル出力:
+出力例：
 
 ```
 true
@@ -37,7 +37,7 @@ true
 network.syncUser(userId); 
 ```
 
-サンプル出力:
+出力例：
 
 ```
 true
@@ -49,7 +49,7 @@ true
 $network->syncUser(userId); 
 ```
 
-サンプル出力:
+出力例：
 
 ```
 true
@@ -61,19 +61,19 @@ true
 network.sync_user(userId) 
 ```
 
-サンプル出力:
+出力例：
 
 ```
 True
 ```
 
-## ルビの例 {#section_enh_gds_rz}
+## Rubyの例 {#section_enh_gds_rz}
 
 ```
 network.sync_user(userId) 
 ```
 
-サンプル出力:
+出力例：
 
 ```
 True
