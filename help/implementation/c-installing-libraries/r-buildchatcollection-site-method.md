@@ -1,19 +1,19 @@
 ---
-description: チャットタイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_ or_ update（）を実行します。
-seo-description: チャットタイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_ or_ update（）を実行します。
-seo-title: BuildChatCollectionサイトのメソッド
+description: Chat型としてインスタンス化されたCollectionオブジェクトを返します。 Collectionオブジェクトからcreate_or_update()を実行し、ビルドプロセスを完了します。
+seo-description: Chat型としてインスタンス化されたCollectionオブジェクトを返します。 Collectionオブジェクトからcreate_or_update()を実行し、ビルドプロセスを完了します。
+seo-title: buildChatCollectionサイトメソッド
 solution: Experience Manager
-title: BuildChatCollectionサイトのメソッド
-uuid: 39ee32d0-29c9-47a8- a458- a3cf7a96db30
+title: buildChatCollectionサイトメソッド
+uuid: 39ee32d0-29c9-47a8-a458-a3cf7a96db30
 translation-type: tm+mt
 source-git-commit: 2908c6988c706a49c391f0e607bb641bce3a7f0d
 
 ---
 
 
-# BuildChatCollectionサイトのメソッド{#buildchatcollection-site-method}
+# buildChatCollectionサイトメソッド{#buildchatcollection-site-method}
 
-チャットタイプとしてインスタンス化されたCollectionオブジェクトを返します。ビルドプロセスを完了するには、Collectionオブジェクトからcreate_ or_ update（）を実行します。
+Chat型としてインスタンス化されたCollectionオブジェクトを返します。 Collectionオブジェクトからcreate_or_update()を実行し、ビルドプロセスを完了します。
 
 | 変数 | タイプ | 説明 |
 |--- |--- |--- |
@@ -45,7 +45,7 @@ $collection = site->buildChatCollection(title, articleId, url);
 collection = site.build_chat_collection(title, articleId, url) 
 ```
 
-## ルビの例 {#section_enh_gds_rz}
+## Rubyの例 {#section_enh_gds_rz}
 
 ```
 collection = site.build_chat_collection(title, articleId, url)
