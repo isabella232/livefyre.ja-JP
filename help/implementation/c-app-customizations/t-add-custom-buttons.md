@@ -1,25 +1,25 @@
 ---
 description: Livefyreアプリにカスタムアクションを追加します。
 seo-description: Livefyreアプリにカスタムアクションを追加します。
-seo-title: カスタムボタンを追加
+seo-title: カスタムボタンの追加
 solution: Experience Manager
-title: カスタムボタンを追加
-uuid: 27d24c21- d83f-49df-9b3f-15d7abbd2bd7
+title: カスタムボタンの追加
+uuid: 27d24c21-d83f-49df-9b3f-15d7abbd2bd7
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# カスタムボタンを追加{#add-custom-buttons}
+# カスタムボタンの追加{#add-custom-buttons}
 
 Livefyreアプリにカスタムアクションを追加します。
 
-Livefyreでは、コンテンツの一部に、既存のアクションボタン（および **[!UICONTROL Share]** **[!UICONTROL Flag]** など）の横にカスタムボタンを追加できます。
+Livefyreでは、コンテンツ上の既存のアクションボタン（、など）の横にカ **[!UICONTROL Share]**&#x200B;スタムボ **[!UICONTROL Flag]**&#x200B;タンを追加できます。
 
-モバイルデバイスでボタンを表示するかどうかを定義するには、mobile引数を使用します。
+mobile引数を使用して、ボタンをモバイルデバイスに表示するかどうかを定義します。
 
-例えば、モバイルデバイスインターフェイスのカスタムアクションボタンを追加するには:
+例えば、モバイルデバイスインターフェイスにカスタムアクションボタンを追加するには：
 
 ```
 var convConfig = {...}; // Should have siteId, articleId, etc. 
@@ -39,8 +39,8 @@ convConfig.actionButtons = [
 fyre.conv.load(networkConfig, [convConfig]);
 ```
 
-1. 追加する各ボタンを説明するオブジェクトの配列を含む、ActionButtonsという名前の追加の引数を、ActionButtonsオブジェクトに渡します。
+1. ConvConfigオブジェクトに、追加する各ボタンを説明するオブジェクトの配列を含むactionButtonsという名前の追加の引数を渡します。
 1. 各ボタンに表示するテキストのキーを定義します。
-1. 各ボタンのclickイベント時に呼び出されるコールバックを追加します。
+1. 各ボタンのクリックイベント時に呼び出されるコールバックを追加します。
 
-The callback is invoked with an object with two keys: `authorId` and `contentId`.
+このコールバックは、2つのキーを持つオブジェクトを使用して呼び出されます。 `authorId` と `contentId`。
