@@ -1,42 +1,42 @@
 ---
-description: ユーザーIDシステムへのアクセスの要求を受信し、応答するためのプルリクエスト構造を構築します。
-seo-description: ユーザーIDシステムへのアクセスの要求を受信し、応答するためのプルリクエスト構造を構築します。
-seo-title: プルリクエストの構造
+description: プル要求構造を作成して、ユーザーIDシステムへのアクセス要求を受け取り、応答します。
+seo-description: プル要求構造を作成して、ユーザーIDシステムへのアクセス要求を受け取り、応答します。
+seo-title: プル要求構造
 solution: Experience Manager
-title: プルリクエストの構造
-uuid: bf6b9e45- d08a-48e6- acc6- e4fa56428d25
+title: プル要求構造
+uuid: bf6b9e45-d08a-48e6-acc6-e4fa56428d25
 translation-type: tm+mt
 source-git-commit: cf447db2cb3498fcb01b511848faeee4d1e48481
 
 ---
 
 
-# プルリクエストの構造{#pull-request-structure}
+# プル要求構造{#pull-request-structure}
 
-ユーザーIDシステムへのアクセスの要求を受信し、応答するためのプルリクエスト構造を構築します。
+プル要求構造を作成して、ユーザーIDシステムへのアクセス要求を受け取り、応答します。
 
-エンドポイントURLにプル要求を発行します。
+LivefyreがエンドポイントURLにプルリクエストを発行します。
 
-例えば、プルエンドポイントURLが次のようになっているとします。
+例えば、プルエンドポイントURLが次のような場合、
 
 ```
 https://example.yoursite.com/some_path/?id={id}
 ```
 
-このエンドポイントへのLivefyre Pullリクエストは次のようになります。
+このエンドポイントへのLivefyre Pullリクエストは、次のようになります。
 
 ```
 https://example.yoursite.com/some_path/?id={id}&lftoken={UserAuthToken}
 ```
 
-は `lftoken` 、ネットワークキーで署名されたJSON Webトークンで、 **[!UICONTROL {userAuthToken}]** Livefyreによって生成されるユーザー認証トークンです。
+ここで `lftoken` は、ネットワークキーで署名されたJSON webトークンで、Livefyreによって生 **[!UICONTROL {userAuthToken}]** 成されたユーザー認証トークンです。
 
-1. Ping `lftoken` for Pull URLに対するPingへのリクエストが、悪意のあるエージェントではなくLivefyreに送信されることを検証するために使用します。
-1. すべての受信リクエストの場合:
+1. Pingで取り込 `lftoken` みURLに対する要求が、悪意のあるエージェントではなくLivefyreによって送信されたことを検証する場合に使用します。
+1. すべての受信要求に対して：
 
-   * クエリ文字列が `lftoken` リクエストに存在することを確認します。
-   * Livefyreライブラリの `validateLivefyreToken` メソッドを使用して、ネットワークキーで署名 `lftoken` されていることを確認します。
+   * クエリ文字列がリク `lftoken` エストに存在することを確認します。
+   * Livefyreライブラリ `validateLivefyreToken` のメソッドを使用して、がネットワークキーで署名さ `lftoken` れていることを確認します。
 
-   * 存在しないか `lftoken` 、検証に失敗した場合は、エンドポイントがプロファイル情報で応答することを許可しないでください。代わりに、403（Forbidden）ステータスコードに応答し、応答本文を使用しないでください。
+   * が存在し `lftoken` ない場合、または検証に失敗した場合は、エンドポイントにプロファイル情報の応答を許可しないでください。 代わりに、403 （禁止）ステータスコードを使用し、応答本文を使用しないで応答します。
 
-1. `userAuthToken` はユーザーのLivefyre `buildUserAuthToken` メソッドによって生成され、ユーザーIDは&quot;system&quot;になります。このユーザーは、新規ネットワークごとに作成される最初のユーザーです。
+1. `userAuthToken` は、ユーザーIDが「system」 `buildUserAuthToken` のLivefyreメソッドによって生成されます。 このユーザーは、新しいネットワークごとに最初に作成されるユーザーです。
