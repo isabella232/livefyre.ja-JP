@@ -1,10 +1,10 @@
 ---
-description: API呼び出しのオン/オフのためのSSLを設定します。
-seo-description: API呼び出しのオン/オフのためのSSLを設定します。
+description: API呼び出しのSSLをオンまたはオフに設定します。
+seo-description: API呼び出しのSSLをオンまたはオフに設定します。
 seo-title: setSSLネットワークメソッド
 solution: Experience Manager
 title: setSSLネットワークメソッド
-uuid: 8d989e63- c859-456a-99ca-8d87933913ba
+uuid: 8d989e63-c859-456a-99ca-8d87933913ba
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,11 +13,11 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # setSSLネットワークメソッド{#setssl-network-method}
 
-API呼び出しのオン/オフのためのSSLを設定します。
+API呼び出しのSSLをオンまたはオフに設定します。
 
 | 変数 | タイプ | 説明 |
 |--- |--- |--- |
-| ssl | ブール値 | 初期設定はtrueです。SSLを使用する場合は、falseを指定します。 <br><ul><li>True- SSL </li><li>false- SSLオフ</li></ul> |
+| ssl | ブール値 | 初期設定は true です。sslを有効にする場合はfalse、それ以外の場合はfalseです。 <br><ul><li>True - SSLオン </li><li>False - SSLオフ</li></ul> |
 
 ## Javaの例 {#section_nyl_ycs_rz}
 
@@ -43,7 +43,7 @@ $network->setSsl(false);
 network.ssl = False 
 ```
 
-## ルビの例 {#section_enh_gds_rz}
+## Rubyの例 {#section_enh_gds_rz}
 
 ```
 network.ssl = false 
