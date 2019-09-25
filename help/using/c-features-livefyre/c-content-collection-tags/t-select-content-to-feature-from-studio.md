@@ -1,22 +1,22 @@
 ---
-description: アプリケーションではなく、Studioから機能するコンテンツを選択できます。
-seo-description: アプリケーションではなく、Studioから機能するコンテンツを選択できます。
-seo-title: Studioから機能するコンテンツを選択
+description: Appの代わりにStudioから機能させるコンテンツを選択できます。
+seo-description: Appの代わりにStudioから機能させるコンテンツを選択できます。
+seo-title: Studioからフィーチャのコンテンツを選択
 solution: Experience Manager
-title: Studioから機能するコンテンツを選択
-uuid: 50cb620c- ef45-4ccb-829f- f5b2e3c521dd
+title: Studioからフィーチャのコンテンツを選択
+uuid: 50cb620c-ef45-4ccb-829f-f5b2e3c521dd
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Studioから機能するコンテンツを選択{#select-content-to-feature-from-studio}
+# Studioからフィーチャのコンテンツを選択{#select-content-to-feature-from-studio}
 
-アプリケーションではなく、Studioから機能するコンテンツを選択できます。
+Appの代わりにStudioから機能させるコンテンツを選択できます。
 
-1. Studioから、コンテンツの横に **[!UICONTROL +]** ある記号をクリックします。
-1. ドロップダウンリストから **[!UICONTROL Featured]** タグを選択します。
-1. をクリック **[!UICONTROL Enter]** して、コンテンツの一部を表示します。
+1. Studioで、コンテンツの横 **[!UICONTROL +]** の記号をクリックします。
+1. ドロップダウン **[!UICONTROL Featured]** リストでタグを選択します。
+1. クリック **[!UICONTROL Enter]** して、コンテンツの一部を特集します。
 
-   タグが保存され、コンテンツの横に表示されます。1. コンテンツの一部を表示しないようにするには、コンテンツ **[!UICONTROL x]** の要素に表示されている **[!UICONTROL Featured]** タグをクリックします。
+   タグが保存され、コンテンツの横に表示されます。 1.コンテンツの特集を停止するには、そのコンテンツに表 **[!UICONTROL x]** 示されて **[!UICONTROL Featured]** いるタグをクリックします。
