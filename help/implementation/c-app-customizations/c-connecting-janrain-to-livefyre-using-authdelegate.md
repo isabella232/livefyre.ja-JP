@@ -1,20 +1,20 @@
 ---
-description: Livefyre. requireは、Janrain Callbackバスをリッスンするためのプラグインを提供します。
-seo-description: Livefyre. requireは、Janrain Callbackバスをリッスンするためのプラグインを提供します。
-seo-title: AuthDelegateを使用してJanfyreにJanrainを接続
-title: AuthDelegateを使用してJanfyreにJanrainを接続
-uuid: 9d56e3f4-960a-4108- aab5-2795b0e71c88
+description: Livefyre.requireは、Janrainバックプレーンバスをリッスンするためのプラグインを提供します。
+seo-description: Livefyre.requireは、Janrainバックプレーンバスをリッスンするためのプラグインを提供します。
+seo-title: AuthDelegateを使用したJanrainのLivefyreへの接続
+title: AuthDelegateを使用したJanrainのLivefyreへの接続
+uuid: 9d56e3f4-960a-4108-aab5-2795b0e71c88
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# AuthDelegateを使用してJanfyreにJanrainを接続{#connecting-janrain-to-livefyre-using-authdelegate}
+# AuthDelegateを使用したJanrainのLivefyreへの接続{#connecting-janrain-to-livefyre-using-authdelegate}
 
-Livefyre. requireは、Janrain Callbackバスをリッスンするためのプラグインを提供します。
+Livefyre.requireは、Janrainバックプレーンバスをリッスンするためのプラグインを提供します。
 
-コールバックチャネルでID/ログインメッセージがブロードキャストされると、ユーザーのLivefyre認証トークンがユーザーに対して呼び出されます。AuthDelegateを実装する必要があります。
+ID/ログインメッセージがバックプレーンチャネルでブロードキャストされると、ユーザーのLivefyre認証トークンを使用してauth.authenticate()が呼び出されます。 引き続きAuthDelegateを実装する必要があります。
 
 ```
 Livefyre.require(['auth', 'backplane-auth-plugin#0'], function(auth, backplanePluginFactory) { 
@@ -29,19 +29,19 @@ Livefyre.require(['auth', 'backplane-auth-plugin#0'], function(auth, backplanePl
 
 >[!NOTE]
 >
->window. Callbackオブジェクトは、Livefyreコールバックプラグインを使用してauth. pluginを呼び出す前に、ページ上で定義する必要があります。バックCallbackオブジェクトが使用可能になっていることを確認するには、onReadyコールバックからLivefyreインスタンス化コードを呼び出します。他のアプリケーションがバックCallbackオブジェクトを使用できるかどうかは、Janrainの連絡先に問い合わせて判断してください。
+>Livefyre Backplaneプラグインを使用してauth.pluginを呼び出す前に、window.Backplaneオブジェクトをページで定義する必要があります。 Backplaneオブジェクトが使用可能であることを確認するには、onReadyコールバックからLivefyreのインスタンス化コードを呼び出します。 Janrainの担当者に問い合わせて、他のアプリケーションがバックプレーンオブジェクトを使用する可能性があるかどうかを確認してください。
 
-以下は、認証デリゲートがJanrain Captureの統合をどのように探しているかの例です。
+次に、認証委任がJanrain Capture統合を検索する例を示します。
 
 >[!NOTE]
 >
->認証デリゲートは、JanRainインスタンスによって異なります。
+>認証委任は、10月のインスタンスによって異なります。
 
 <!--Hannah: Mystery stray bullet found here. Please check against source. -Bob -->
 
-* 認証デリゲートのログインメソッドに渡されるコールバック
+* 認証委任のログインメソッドに渡されるコールバック
 * Janrainキャプチャ変数への参照。
-* :コールバックオブジェクトへの参照です。
+* :バックプレーンオブジェクトへの参照。
 
 ```
 /** 
@@ -76,9 +76,9 @@ authDelegate.login = function(finishLogin) {
 
 ログアウト
 
-* **finishLogout:** 認証デリゲートのログインメソッドに渡されるコールバック。
+* **** finishLogout:認証委任のログインメソッドに渡されるコールバック。
 
-* **window. Callback:** コールバックオブジェクトへの参照です。
+* **** window.Backplane:バックプレーンオブジェクトへの参照。
 
 ```
 /** 
@@ -94,9 +94,9 @@ authDelegate.logout = function(finishLogout) {
 }; 
 ```
 
-プロファイルを編集
+プロファイルの編集
 
-これは、ユーザーが自分のプロファイルページを表示するために訪問したいサイトのどの部分にもリンクできます。この例では、渡された作成者オブジェクトを出力するだけです。
+これは、ユーザーが自分のプロファイルページを表示するために訪問したいサイトのどの部分にもリンクできます。 この例では、渡された作成者オブジェクトを印刷するだけです。
 
 ```
 /** 
@@ -110,7 +110,7 @@ authDelegate.editProfile = function(user) {
 
 プロファイルを表示
 
-プロファイルの編集と同様、これは現在ログインしているユーザーとは異なるユーザーのページにリンクする必要があります。これは実装できますが、実装できます。この例では、作成者パラメーターをコンソールに記録します。
+「プロファイルの編集」と同様に、このリンクは現在ログインしているユーザーとは異なるユーザーのページにリンクする必要があります。 これは、適切に実装できます。 この例では、作成者パラメーターをコンソールに記録します。
 
 ```
 /** 
