@@ -1,6 +1,6 @@
 ---
-description: ストリームまたはソーシャル検索で、権限をリクエストするか、UGCを検索するようにソーシャルアカウントを設定します。
-seo-description: ストリームまたはソーシャル検索で、権限をリクエストするか、UGCを検索するようにソーシャルアカウントを設定します。
+description: 権利をリクエストしたり、ストリームやソーシャル検索でUGCを検索したりするように、Socialアカウントを設定します。
+seo-description: 権利をリクエストしたり、ストリームやソーシャル検索でUGCを検索したりするように、Socialアカウントを設定します。
 seo-title: Socialアカウントの追加
 solution: Experience Manager
 title: Socialアカウントの追加
@@ -13,25 +13,25 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 # Socialアカウントの追加{#add-a-social-account}
 
-ストリームまたはソーシャル検索で、権限をリクエストするか、UGCを検索するようにソーシャルアカウントを設定します。
+権利をリクエストしたり、ストリームやソーシャル検索でUGCを検索したりするように、Socialアカウントを設定します。
 
-Livefyreは、TwitterおよびInstagram Socialアカウントを使用して、ソーシャル検索（ライブラリ）を実行したり、ストリームを使用したりします。
+Livefyreは、TwitterおよびInstagramのソーシャルアカウントを使用して、ソーシャル検索（ライブラリ内）やStreamsの使用を可能にします。
 
 ライブラリでTwitterソーシャル検索を使用するには、Twitterでアカウントを設定する必要があります。
 
-Instagramのソーシャルアカウントには、Adobe Livefyreの使用方法に応じて異なるルールがあります。Livefyreで使用できるソーシャルアカウントのタイプについて詳しくは、Instagramアカウント [について](/help/using/c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)を参照してください。
+Instagramには、Adobe Livefyreの使用方法に応じて、ソーシャルアカウントに関する様々なルールがあります。 Livefyreで使用できるソーシャルアカウントの種類について詳しくは、Instagramアカウントにつ [いてを参照してください](/help/using/c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)。
 
-ソーシャルアカウントを設定するには:
+Socialアカウントを設定するには：
 
-1. 次の場所へ移動 **[!UICONTROL Settings >]** **[!UICONTROL Network Settings.]** 
-1. 下 **[!UICONTROL Social Accounts]** のセクションに移動 **[!UICONTROL Network Settings]** します。
-1. 追加するソーシャルアカウントのタイプ **[!UICONTROL Add Account]** をクリックします。Livefyreのアカウントを認証するためのダイアログボックスがポップアップ表示されます。
+1. 移動先 **[!UICONTROL Settings >]** : **[!UICONTROL Network Settings.]**
+1. の下のセクションに **[!UICONTROL Social Accounts]** 移動しま **[!UICONTROL Network Settings]**&#x200B;す。
+1. 追加す **[!UICONTROL Add Account]** るソーシャルアカウントのタイプの下のをクリックします。 Livefyreのアカウントを承認するためのダイアログボックスが表示されます。
 
    ![](assets/i_settings_social_insta.png)
 
    >[!NOTE]
    >
-   >Instagramのビジネスアカウントを設定すると、Facebookログイン画面が表示されます。通常どおりログインを続行します。 ![](assets/i_insta_biz_facebook_dialog.png) &gt;
+   >Instagramのビジネスアカウントを設定すると、Facebookのログイン画面が表示されます。 通常どおりログインを続行します。 ![](assets/i_insta_biz_facebook_dialog.png) &gt;
 
-1. クリック **[!UICONTROL Authorize App]** して続行してください。
-1. アカウント **[!UICONTROL Display Name]** を追加し、をクリック **[!UICONTROL Save Settings.]** します。アカウント情報ボックスのヘッダー内を **[!UICONTROL Social Account]** クリックして、アカウントを折りたたみます。
+1. Click **[!UICONTROL Authorize App]** to continue.
+1. アカウント **[!UICONTROL Display Name]** を追加し、をクリックしま **[!UICONTROL Save Settings.]**&#x200B;す。 アカウントを折 **[!UICONTROL Social Account]** りたたむには、アカウント情報ボックスのヘッダーにあるをクリックします。
