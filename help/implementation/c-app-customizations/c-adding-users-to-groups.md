@@ -1,41 +1,41 @@
 ---
-description: ユーザーをグループに追加するためのユーザータグをアカウントに追加します。
-seo-description: ユーザーをグループに追加するためのユーザータグをアカウントに追加します。
+description: アカウントにユーザータグを追加して、ユーザーをグループに追加します。
+seo-description: アカウントにユーザータグを追加して、ユーザーをグループに追加します。
 seo-title: グループへのユーザーの追加
 solution: Experience Manager
 title: グループへのユーザーの追加
-uuid: 3633f2df-8d60-4cdd- b9a2-3807218c74a0
+uuid: 3633f2df-8d60-4cdd-b9a2-3807218c74a0
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# グループへのユーザーの追加{#adding-users-to-groups}
+# Adding Users to Groups{#adding-users-to-groups}
 
-ユーザーをグループに追加するためのユーザータグをアカウントに追加します。
+アカウントにユーザータグを追加して、ユーザーをグループに追加します。
 
-ユーザータグは、独自のプロファイルシステムとエンタープライズプロファイルシステムの両方に実装でき、いくつかの方法でアカウントに追加できます。
+ユーザータグは、独自仕様のプロファイルシステムとエンタープライズプロファイルシステムの両方に対して実装でき、次の方法でアカウントに追加できます。
 
-* Studioを使用して所有者およびモデレーターを作成すると、「モデレーター」ユーザータグがアカウントに割り当てられます。
-* ユーザーグループを作成し、ユーザーをStudio経由で追加すると、選択したユーザーのグループ名とともにユーザータグが自動的に適用されます。
-* ユーザータグは [、Add User Tag HTTP](https://api.livefyre.com/docs#add-user-tag) 呼び出しを使用して、またはPing for Pullを使用して直接アカウントに適用することもできます。
+* Studioを使用して所有者とモデレーターを作成すると、「モデレーター」ユーザータグがアカウントに割り当てられます。
+* ユーザーグループを作成し、Studioを使用してユーザーを追加すると、選択したユーザーに対して、グループ名の付いたユーザータグが自動的に適用されます。
+* ユーザータグは、 [Add User Tag HTTP呼び出しを使用してアカウントに直接適用するか](https://api.livefyre.com/docs#add-user-tag) 、Ping for Pullを使用して適用することもできます。
 
 >[!NOTE]
 >
->両方のAPIメソッド、HTTP追加のUser Tag呼び出しおよびPingのPingメソッドは、以前にアカウントに割り当てられていたタグを他の手段から上書きします。したがって、1つの方法を選択し、プロセス全体で一貫して使用してください。
+>APIメソッド（HTTP Add User Tag呼び出し）とPing for Pullメソッドの両方)は、他の方法を使用してアカウントに以前に割り当てられたタグを上書きします。 したがって、1つの方法を選択し、プロセス全体で一貫して使用してください。
 
-## Studioのユーザーページからのユーザーのグループへの追加 {#section_qgq_nbw_xz}
+## Studioのユーザーページからグループにユーザーを追加する {#section_qgq_nbw_xz}
 
-* 任意のユーザー名の下にあるクリック **[!UICONTROL Add Group]** またはグループラベルをクリックして、グループメニューを開きます。
-* リストをスクロールし、ユーザーを追加するグループを見つけます。ドロップダウンの上部にある **[!UICONTROL Search]** ボックスにグループ名を入力できます。
-* ユーザーを追加するグループの横にあるチェックボックスをクリックし、リターンをクリックします。
+* 任意のユ **[!UICONTROL Add Group]** ーザ名の下のグループラベルをクリックして、グループメニューを開きます。
+* リストをスクロールし、ユーザーを追加するグループを探します。 ドロップダウンの上部にあるボックスに **[!UICONTROL Search]** グループ名を入力することができます。
+* ユーザーを追加するグループの横にあるチェックボックスをクリックし、「return」をクリックします。
 
-ユーザーのプロファイルには、グループ名（ユーザーが1つだけの場合）またはユーザーが所属するグループの数が表示されます。
+ユーザーのプロファイルには、グループの名前（ユーザーが1つのグループにのみ存在する場合）またはユーザーが属するグループの数が表示されます。
 
-## Add User Tag呼び出しを使用したグループへのユーザーの追加 {#section_kn3_gbw_xz}
+## ユーザータグの追加の呼び出しを使用したグループへのユーザーの追加 {#section_kn3_gbw_xz}
 
-ユーザーのLfTokenと選択したタグ名をPOSTリクエストで渡します
+POSTリクエストを使用して、ユーザーのLFTokenと選択したタグ名を渡します
 
 次に例を示します。
 
@@ -44,11 +44,11 @@ curl -XPOST -d 'tag_name=tag&lftoken=eyJhbGciOiAiA_TOKENcGlyZXMiOiAxMzU3OTY3NTAx
 ```
 
 
-詳しくは、APIリファレンス/ユーザータグ [の追加](https://api.livefyre.com/docs/apis/by-category/user-management#operation=urn:livefyre:apis:quill:operations:api:v3.0:author:tags:method=post)を参照してください。
+詳しくは、API Reference/ [Add User tagを参照してください](https://api.livefyre.com/docs/apis/by-category/user-management#operation=urn:livefyre:apis:quill:operations:api:v3.0:author:tags:method=post)。
 
-## Ping for Pullを使用したグループへのユーザーの追加 {#section_kyj_11w_xz}
+## Pingを使用した引き出しによるグループへのユーザーの追加 {#section_kyj_11w_xz}
 
-ユーザーグループにユーザーを割り当てるには、タグ配列を使用します。（1~63の英数字とアンダースコア文字を含めることができます）。
+tags配列を使用して、ユーザーをユーザーグループに割り当てます。 （タグには、1 ～ 63文字の英数字とアンダースコアを含めることができます）。
 
 次に例を示します。
 
@@ -58,4 +58,4 @@ curl -XPOST -d 'tag_name=tag&lftoken=eyJhbGciOiAiA_TOKENcGlyZXMiOiAxMzU3OTY3NTAx
 
 ## リモートプロファイルを使用したグループへのユーザーの追加 {#section_uyn_scv_xz}
 
-ユーザータグをリモートプロファイルに追加し、カスタムプロファイルシステムとLivefyreの間でユーザーのデータを同期するために使用します。
+特定のユーザーのカスタムプロファイルシステムとLivefyreの間でユーザーデータを同期するために使用するユーザータグをリモートプロファイルに追加します。
