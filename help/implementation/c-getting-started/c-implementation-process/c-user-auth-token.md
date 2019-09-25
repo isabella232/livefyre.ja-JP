@@ -1,31 +1,31 @@
 ---
-description: この節では、ユーザーのアプリケーションへのログインに必要なUser Authenticationトークンを作成するUserAuth JSONオブジェクトの生成方法について説明します。
-seo-description: この節では、ユーザーのアプリケーションへのログインに必要なUser Authenticationトークンを作成するUserAuth JSONオブジェクトの生成方法について説明します。
-seo-title: User Authトークン
+description: ここでは、ユーザーのアプリへのログインに必要なユーザー認証トークンを作成するUserAuth JSONオブジェクトを生成する方法について説明します。
+seo-description: ここでは、ユーザーのアプリへのログインに必要なユーザー認証トークンを作成するUserAuth JSONオブジェクトを生成する方法について説明します。
+seo-title: ユーザー認証トークン
 solution: Experience Manager
-title: User Authトークン
-uuid: 6483dend-453c-4780- b19c-1d8041693617
+title: ユーザー認証トークン
+uuid: 6483debd-453c-4780-b19c-1d8041693617
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# User Authトークン{#user-auth-token}
+# ユーザー認証トークン{#user-auth-token}
 
-この節では、ユーザーのアプリケーションへのログインに必要なUser Authenticationトークンを作成するUserAuth JSONオブジェクトの生成方法について説明します。
+ここでは、ユーザーのアプリへのログインに必要なユーザー認証トークンを作成するUserAuth JSONオブジェクトを生成する方法について説明します。
 
-この節では、ユーザーのアプリケーションへのログインに必要なUser Authenticationトークンを作成するUserAuth JSONオブジェクトの生成方法について説明します。
+ここでは、ユーザーのアプリへのログインに必要なユーザー認証トークンを作成するUserAuth JSONオブジェクトを生成する方法について説明します。
 
-トークンを作成するには、以下のパラメーターを渡すために使用する言語ライブラリを使用します。
+トークンを作成するには、使用する言語ライブラリを使用して次のパラメーターを渡します。
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | タイプ | 説明 |
 |---|---|---|
-| NetworkName | 文字列 *が必要です* | Livefyreネットワークの名前（Livefyreが提供します）。 |
-| NetworkKey | 文字列 *が必要です* | この特定のネットワークの秘密鍵（Livefyreが提供します）。 |
-| userId | 文字列 *が必要です* | ユーザー管理システムに保存されているユーザーのID（英数字、ダッシュ、アンダースコアおよびドット文字のみ）。 [a- zA- Z0-9_-.]). **注意:** userIdは一意である必要があります。 |
-| expires | *必要な整数* | トークンの有効期限が今すぐ切れる場合（秒単位）。**注意:** この値は、floatとして渡すこともできます。生成されたJSON Webトークンは、この値をUNIXエポック時間に格納します。 |
-| displayName | 文字列 *が必要です* | UIおよびコメントでこのユーザーを識別するテキスト。（最大文字数:50.） |
+| networkName | 文字列が必要 *です* | Livefyreネットワークの名前（Livefyreが提供）。 |
+| networkKey | 文字列が必要 *です* | この特定のネットワークの秘密キー（Livefyreが提供）。 |
+| userId | 文字列が必要 *です* | ユーザー管理システムに保存されているときにログインするユーザーのID（英数字、ダッシュ、アンダースコアおよびドット文字のみ使用できます）。 [a-zA-Z0-9_-.] を参照してください）。**** 注意：userIdは一意である必要があります。 |
+| expires | 整数が必要 *です* | トークンの有効期限が今後切れる日時（秒）。 **** 注意：この値は、floatとして渡すこともできます。 生成されたJSON webトークンは、この値をUNIXエポック時間で保存します。 |
+| displayName | 文字列が必要 *です* | UIおよびコメントでこのユーザーを識別するテキスト。 (最大文字数：50.) |
 
 ## Java {#section_b42_mjz_1cb}
 
@@ -52,7 +52,7 @@ $network->buildUserAuthToken(userId, displayName, expires);
 network.build_user_auth_token(userId, displayName, expires) 
 ```
 
-## ルビ {#section_f42_mjz_1cb}
+## Ruby {#section_f42_mjz_1cb}
 
 ```
 network.build_user_auth_token(userId, displayName, expires) 
@@ -60,5 +60,5 @@ network.build_user_auth_token(userId, displayName, expires)
 
 >[!NOTE]
 >
->ネットワークキーはLivefyreの人口統計アカウントで共有されません。Livefyreが環境をプロビジョニングしたときにネットワークキーを受け取ります。このキーは非公開にする必要があります。
+>Livefyreデモサイトアカウントでネットワークキーが共有されません。 Livefyreが環境をプロビジョニングすると、ネットワークキーが送信されます。 このキーは非公開にする必要があります。
 
