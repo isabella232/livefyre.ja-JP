@@ -1,10 +1,10 @@
 ---
-description: authDelegateオブジェクトは、サイトの既存の認証システムとの統合をカスタマイズできるように、認証アクションおよびイベントの実行方法に対して必要な動作を実装します。
-seo-description: authDelegateオブジェクトは、サイトの既存の認証システムとの統合をカスタマイズできるように、認証アクションおよびイベントの実行方法に対して必要な動作を実装します。
+description: AuthDelegateオブジェクトは、サイトの既存の認証システムとの統合をカスタマイズできるように、認証アクションおよびイベントの実行方法に必要な動作を実装します。
+seo-description: AuthDelegateオブジェクトは、サイトの既存の認証システムとの統合をカスタマイズできるように、認証アクションおよびイベントの実行方法に必要な動作を実装します。
 seo-title: AuthDelegateオブジェクト
 solution: Experience Manager
 title: AuthDelegateオブジェクト
-uuid: a6acc4ef- d442-4782-9bfa- bbe494547c2e
+uuid: a6acc4ef-d442-4782-9bfa-bbe494547c2e
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,17 +13,17 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # AuthDelegateオブジェクト{#authdelegate-object}
 
-authDelegateオブジェクトは、サイトの既存の認証システムとの統合をカスタマイズできるように、認証アクションおよびイベントの実行方法に対して必要な動作を実装します。
+AuthDelegateオブジェクトは、サイトの既存の認証システムとの統合をカスタマイズできるように、認証アクションおよびイベントの実行方法に必要な動作を実装します。
 
 ## 認証委任の構築 {#section_wmn_tv2_gz}
 
-アクションを実行するには、認証パッケージに認証パッケージを提供する必要があります。認証delegateは、このトピックのいずれかのメソッドを実装するJavaScriptオブジェクトです。
+操作を実行する前に、認証パッケージに認証委任を指定する必要があります。 認証委任は、このトピックのいずれかのメソッドを実装する任意のJavaScriptオブジェクトです。
 
-## . login（finishLogin） {#section_mpk_lv2_gz}
+## .login(finishLogin) {#section_mpk_lv2_gz}
 
-有効なユーザーにログインし、エラーが発生した場合またはユーザーのLivefyre資格情報がある場合は、FinishLogin関数を呼び出します。このメソッドの一般的な実装では、ユーザーをログインページにリダイレクトするか、新しいウィンドウまたはモーダルを開きます。
+有効なユーザーにログインし、エラーが発生した場合はErrorオブジェクトを使用し、ユーザーのLivefyre資格情報を使用して、finishLogin関数を呼び出します。 このメソッドの一般的な実装では、ユーザーがログインページにリダイレクトされるか、新しいウィンドウまたはモーダルが開かれます。
 
-この例では、Livefyreユーザーの認証トークン、トークンを自動的に通知します。
+次の例では、認証トークン、トークンを使用してLivefyreユーザーの認証を自動的に通知します。
 
 ```
 authDelegate.login = function (finishLogin) { 
@@ -33,7 +33,7 @@ authDelegate.login = function (finishLogin) {
 };
 ```
 
-最も単純なログインのデリゲートは、Livefyre認証トークンのエンドユーザーに要求する可能性があります。
+最も簡単なログイン委任機能は、エンドユーザーにLivefyre認証トークンを要求する場合があります。
 
 ```
 authDelegate.login = function contrivedLogin(finishLogin) { 
@@ -47,9 +47,9 @@ authDelegate.login = function contrivedLogin(finishLogin) {
 };
 ```
 
-## . logout（complishLogout） {#section_uqz_2v2_gz}
+## .logout(finishLogout) {#section_uqz_2v2_gz}
 
-ユーザーをログアウトし、エラーが発生した場合はErrorオブジェクトを使用してcomplishLogout関数を起動し、ログアウトが成功したことを通知するにはnullを呼び出します。
+ユーザーをログアウトし、エラーが発生した場合はErrorオブジェクトを、ログアウトが成功したことを認証に通知する場合はnullを指定して、finishLogout関数を呼び出します。
 
 次に例を示します。
 
@@ -60,7 +60,7 @@ authDelegate.logout = function (finishLogout) {
 }
 ```
 
-## . viewProfile（user） {#section_kkv_dv2_gz}
+## .viewProfile(user) {#section_kkv_dv2_gz}
 
 ユーザーのプロファイルを表示するアクションを実行します。
 
@@ -70,7 +70,7 @@ authDelegate.viewProfile = function (user) {
 }
 ```
 
-## . editProfile（user） {#section_bkx_pq2_gz}
+## .editProfile(user) {#section_bkx_pq2_gz}
 
 ユーザーのプロファイルを編集するアクションを実行します。
 
@@ -80,7 +80,7 @@ authDelegate.editProfile = function (user) {
 }
 ```
 
-上記のすべてのメソッドを実装することで、認証をカスタム認証委任を使用して設定できます。委任が構築されると、delegateメソッドを使用して認証に提供できます。
+上記に示したすべてのメソッドを実装することで、authをカスタム認証委任を使用して設定できます。 委任は、構築された後、委任メソッドを使用して認証するために提供できます。
 
 ```
 var authDelegate = { 
