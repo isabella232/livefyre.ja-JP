@@ -1,8 +1,8 @@
 ---
-description: Livefyreリリース2019年3月21日リリースノートです。
-seo-description: Livefyreリリース2019年3月21日リリースノートです。
+description: Livefyre 2019年3月22日リリースのリリースノートです。
+seo-description: Livefyre 2019年3月22日リリースのリリースノートです。
 seo-title: リリースノート
-solution: Adobe Experience Manager
+solution: Experience Manager
 title: Livefyreリリースノート（2019年3月22日）
 translation-type: tm+mt
 source-git-commit: 8dfd0ba4f1c0097f7e42818fa5c1ca81f3a77394
@@ -10,17 +10,17 @@ source-git-commit: 8dfd0ba4f1c0097f7e42818fa5c1ca81f3a77394
 ---
 
 
-# 2019年3月21日アップデートのリリースノート
+# 2019年3月22日更新のリリースノート
 
 >[!NOTE]
 >
->5月23日木曜日にLivefyreが実稼働環境でHTTP（ポート80）を無効にします。これにより、セキュリティの更新がアドビセキュリティ標準に準拠して行われます。Please contact [prioritysupport@livefyre.com](mailto:prioritysupport@livefyre.com) if you experience any issues with your integration.
+>5月23日木曜日に、実稼働環境でLivefyreがHTTP（ポート80）を無効にします。  これにより、アドビのセキュリティ標準に準拠してセキュリティの更新が完了します。  統合に関して [問題が発生した場合は](mailto:prioritysupport@livefyre.com) 、prioritysupport@livefyre.comにお問い合わせください。
 
 ## 機能強化
 
-* デフォルトで「アクションへの呼び出し」ボタンの有効化を実装しました。
+* デフォルトで、誘い文句（CTA：コールトゥアクション）ボタンの有効化を実装。
 
 
 ## バグの修正
 
-* MOQで「未定義」のInstagram投稿を削除できない問題を修正しました。
+* ModQの「未定義」のInstagram投稿を削除できない問題を修正しました。
