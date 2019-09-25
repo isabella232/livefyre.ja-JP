@@ -1,73 +1,73 @@
 ---
-description: Janrain CaptureおよびCallbackを使用するお客様は、シングルサインオン（SSO）にLivefyre Authを使用することができます。これにより、ユーザーはサイトにログインする際に、Livefyreアプリにすぐに関与できます。
-seo-description: Janrain CaptureおよびCallbackを使用するお客様は、シングルサインオン（SSO）にLivefyre Authを使用することができます。これにより、ユーザーはサイトにログインする際に、Livefyreアプリにすぐに関与できます。
-seo-title: Janrain Capture/Callback
+description: Janrain Captureとバックプレーンを使用するお客様は、Livefyre Auth for Single Sign On(SSO)を使用して、Livefyre Appsをサイトにログインしたときにユーザーがすぐに利用できるようにすることができます。
+seo-description: Janrain Captureとバックプレーンを使用するお客様は、Livefyre Auth for Single Sign On(SSO)を使用して、Livefyre Appsをサイトにログインしたときにユーザーがすぐに利用できるようにすることができます。
+seo-title: ジャンレインキャプチャ/バックプレーン
 solution: Experience Manager
-title: Janrain Capture/Callback
-uuid: 776e9626- db04-4c34- adfe-681a71b552c5
+title: ジャンレインキャプチャ/バックプレーン
+uuid: 776e9626-db04-4c34-adfe-681a71b552c5
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Janrain Capture/Callback{#janrain-capture-backplane}
+# ジャンレインキャプチャ/バックプレーン{#janrain-capture-backplane}
 
-Janrain CaptureおよびCallbackを使用するお客様は、シングルサインオン（SSO）にLivefyre Authを使用することができます。これにより、ユーザーはサイトにログインする際に、Livefyreアプリにすぐに関与できます。
+Janrain Captureとバックプレーンを使用するお客様は、Livefyre Auth for Single Sign On(SSO)を使用して、Livefyre Appsをサイトにログインしたときにユーザーがすぐに利用できるようにすることができます。
 
-この組み込みのキャプチャ/バックフィル統合を活用するには、CaptureアプリとLivefyre. jsの統合の両方に設定を変更する必要があります。
+この組み込みのCapture/Backplane統合を利用するには、CaptureアプリとLivefyre.js統合の両方に設定を変更する必要があります。
 
 >[!NOTE]
 >
->Janrain Captureを使用しない場合は、このセクションをスキップしてください。
+>Janrain Captureを使用していない場合は、この節をスキップしてください。
 
-詳しくは [、Janrainのバックエンドドキュメント](https://developers.janrain.com/how-to/integrations/self-serve-integrations-and-tools/backplane-1-2/)を参照してください。
+詳しくは、Janrainのバックプレ [ーンのドキュメントを参照してください](https://developers.janrain.com/how-to/integrations/self-serve-integrations-and-tools/backplane-1-2/)。
 
 1. [Captureを設定します。](#c_janrain_capture_backplane/section_r2f_kxt_bbb)
-1. （オプション） [LivefyreのデフォルトをCaptureアプリに追加](#c_janrain_capture_backplane/section_z2s_txt_bbb)します。
-1. [AuthDelegateオブジェクトを構築します。](#c_janrain_capture_backplane/section_asv_vyt_bbb)
-1. [Ping for PullでLivefyreと同期します。](#c_janrain_capture_backplane/section_ilv_bzt_bbb)
+1. （オプション）Livefyreのデ [フォルトをCaptureアプリに追加します](#c_janrain_capture_backplane/section_z2s_txt_bbb)。
+1. [AuthDelegateオブジェクトを作成します。](#c_janrain_capture_backplane/section_asv_vyt_bbb)
+1. [引き出し用にPingを使用してLivefyreと同期します。](#c_janrain_capture_backplane/section_ilv_bzt_bbb)
 
 ## 手順1:キャプチャの設定 {#section_r2f_kxt_bbb}
 
 Livefyreには、Janrain Captureアプリから特定の資格情報が必要です。
 
 1. Janrain Captureアプリを設定します。
-1. Livefyreの次の情報を収集します。
+1. Livefyre用に次の情報を収集します。
 
-   * Janrain Captureインスタンスにアクセスします。
-   * Janrain Engingダッシュボードへのアクセス。
-   * キャプチャの設定および資格情報。
-   * エンゲージメント資格情報。
+   * Janrain Captureインスタンスへのアクセス。
+   * Janrain Engageダッシュボードにアクセスします。
+   * キャプチャの設定と資格情報。
+   * ソーシャル資格情報。
    * ID URL。
 
 >[!NOTE]
 >
->LivefyreはCNAMEからデータを直接受信します。このため、このID URLは、Janrain Captureの実際のCNAMEに解決されるCNAMEレコード（バニティURL CNAME）にすることはできません。
+>LivefyreはCNAMEから直接データを受け取ります。したがって、このID URLは、Janrain Captureの実際のCNAMEに解決されるCNAMEdレコード（バニティURL CNAME）にはできません。
 
-## 手順2:（オプション） LivefyreのデフォルトをCaptureアプリに追加する {#section_z2s_txt_bbb}
+## 手順2:（オプション）Livefyreのデフォルト設定をCaptureアプリに追加 {#section_z2s_txt_bbb}
 
-デフォルトのLivefyreをCaptureアプリに保存して、ユーザーの電子メール通知を送信したり、ユーザーがコメントを自動的にフォローしたりすることができるようにします。
+Captureアプリに保存されたユーザーにLivefyreのデフォルトを追加して、ユーザーに電子メール通知を送信したり、ユーザーがコメントする会話を自動的にフォローできるようにします。
 
-1. 手順 [1:Captureを設定](#c_janrain_capture_backplane/section_r2f_kxt_bbb)します。
-1. 次のLivefyreデフォルトフィールドを追加します。すべてのフィールドはオプションです。
+1. 手順1 [を完了します。Captureを設定します](#c_janrain_capture_backplane/section_r2f_kxt_bbb)。
+1. 次のLivefyreのデフォルトフィールドを追加します。 すべてのフィールドはオプションです。
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | タイプ | 説明 |
 |---|---|---|
-| **[!UICONTROL livefyre_comments]** | 文字列 | フォローしている記事に対するコメントをユーザーに通知します。即時、多く、または決して使用できません。 |
-| **[!UICONTROL livefyre_likes]** | 文字列 | 誰かが投稿の1つを好むときにユーザーに通知します。即時、多く、または決して使用できません。 |
-| **[!UICONTROL livefyre_replies]** | 文字列 | 誰かがその投稿の1つに返信したら、ユーザーに通知します。即時、多くの場合、または何もしないことができます。 |
-| **[!UICONTROL livefyre_moderator_comments]** | 文字列 | モデレートの対象となる会話について、誰かがモデレーターにコメントしたときに、モデレーターに通知します。即時、多く、または決して使用できません。 |
-| **[!UICONTROL livefyre_moderator_flags]** | 文字列 | モデレートの対象となる会話に対して誰かが投稿にフラグを付けたときに、モデレーターに通知します。即時、多く、または決して使用できません。 |
-| **[!UICONTROL livefyre_autofollow_conversations]** | ブール値 | ユーザーが投稿を終了したときに、自動的に会話に従います。trueまたはfalseに設定できます。 |
+| **[!UICONTROL livefyre_comments]** | 文字列 | 他のユーザーが記事にコメントしたときに、フォローしていることをユーザーに通知します。 即座に、頻繁に、またはないことが可能です。 |
+| **[!UICONTROL livefyre_likes]** | 文字列 | 誰かが自分の投稿に「いいね！」をしたら、ユーザーに通知します。 即座に、頻繁に、またはないことが可能です。 |
+| **[!UICONTROL livefyre_replies]** | 文字列 | ユーザーが投稿に返信したら通知します。すぐに通知するか、頻繁に通知しないかを指定できます。 |
+| **[!UICONTROL livefyre_moderator_comments]** | 文字列 | モデレート中の会話に対してコメントが出たら、モデレーターに通知します。すぐに実行できる場合と、頻繁に実行できない場合があります。 |
+| **[!UICONTROL livefyre_moderator_flags]** | 文字列 | モデレート中の会話で投稿にフラグが付いたら、モデレーターに通知します。即時、頻繁、または常に通知しないことができます。 |
+| **[!UICONTROL livefyre_autofollow_conversations]** | ブール値 | ユーザーが投稿を離れたときに会話を自動フォローするように設定します。 trueまたはfalseに設定できます。 |
 
-## 手順3:JanDelegate統合用のAuthDelegateオブジェクトの構築 {#section_asv_vyt_bbb}
+## 手順3:Janrain統合用のAuthDelegateオブジェクトの構築 {#section_asv_vyt_bbb}
 
-Livefyre. requireは、Janrain Callbackバスをリッスンするためのプラグインを提供します。
+Livefyre.requireは、Janrainバックプレーンバスをリッスンするためのプラグインを提供します。
 
 ### ログイン {#login}
 
-コールバックチャネルでID/ログインメッセージがブロードキャストされると、ユーザーのLivefyre認証トークンがユーザーに対して呼び出されます。AuthDelegateを実装する必要があります。
+ID/ログインメッセージがバックプレーンチャネルでブロードキャストされると、ユーザーのLivefyre認証トークンを使用してauth.authenticate()が呼び出されます。 引き続きAuthDelegateを実装する必要があります。
 
 ```
 Livefyre.require(['auth', 'backplane-auth-plugin#0'], function(auth, backplanePluginFactory) { 
@@ -82,19 +82,19 @@ Livefyre.require(['auth', 'backplane-auth-plugin#0'], function(auth, backplanePl
 
 >[!NOTE]
 >
->window. Callbackオブジェクトは、Livefyreコールバックプラグインを使用してauth. pluginを呼び出す前に、ページ上で定義する必要があります。バックCallbackオブジェクトが使用可能になっていることを確認するには、onReadyコールバックからLivefyreインスタンス化コードを呼び出します。他のアプリケーションがバックCallbackオブジェクトを使用できるかどうかは、Janrainの連絡先に問い合わせて判断してください。
+>Livefyre Backplaneプラグインを使用してauth.pluginを呼び出す前に、window.Backplaneオブジェクトをページで定義する必要があります。 Backplaneオブジェクトが使用可能であることを確認するには、onReadyコールバックからLivefyreのインスタンス化コードを呼び出します。 Janrainの担当者に問い合わせて、他のアプリケーションがバックプレーンオブジェクトを使用する可能性があるかどうかを確認してください。
 
 
 
 >[!NOTE]
 >
->認証デリゲートは、JanRainインスタンスによって異なります。
+>認証委任は、10月のインスタンスによって異なります。
 
-以下は、認証デリゲートがJanrain Captureの統合をどのように探しているかの例です。
+次に、認証委任がJanrain Capture統合を検索する例を示します。
 
-* `errback`:認証デリゲートのログインメソッドに渡されるコールバック
+* `errback`:認証委任のログインメソッドに渡されるコールバック
 * `janrain`:Janrainキャプチャ変数への参照。
-* `window.Backplane`:コールバックオブジェクトへの参照です。
+* `window.Backplane`:バックプレーンオブジェクトへの参照。
 
 ```
 /** 
@@ -129,9 +129,9 @@ authDelegate.login = function(finishLogin) {
 
 ### ログアウト {#logout}
 
-* `finishLogout`:認証デリゲートのログインメソッドに渡されるコールバック。
+* `finishLogout`:認証委任のログインメソッドに渡されるコールバック。
 
-* `window.Backplane`:コールバックオブジェクトへの参照です。
+* `window.Backplane`:バックプレーンオブジェクトへの参照。
 
 ```
 /** 
@@ -147,9 +147,9 @@ authDelegate.logout = function(finishLogout) {
 }; 
 ```
 
-### プロファイルを編集 {#editprofile}
+### プロファイルの編集 {#editprofile}
 
-これは、ユーザーが自分のプロファイルページを表示するために訪問したいサイトのどの部分にもリンクできます。この例では、渡された作成者オブジェクトを出力するだけです。
+これは、ユーザーが自分のプロファイルページを表示するために訪問したいサイトのどの部分にもリンクできます。 この例では、渡された作成者オブジェクトを印刷するだけです。
 
 ```
 /** 
@@ -163,7 +163,7 @@ authDelegate.editProfile = function(user) {
 
 ### プロファイルを表示 {#viewprofile}
 
-プロファイルの編集と同様、これは現在ログインしているユーザーとは異なるユーザーのページにリンクする必要があります。これは実装できますが、実装できます。この例では、作成者パラメーターをコンソールに記録します。
+「プロファイルの編集」と同様に、このリンクは現在ログインしているユーザーとは異なるユーザーのページにリンクする必要があります。 これは、適切に実装できます。 この例では、作成者パラメーターをコンソールに記録します。
 
 ```
 /** 
@@ -175,29 +175,29 @@ authDelegate.viewProfile = function(user) {
 };
 ```
 
-## 手順4:Ping for Pull for Pull for Janrain統合のLivefyreと同期 {#section_ilv_bzt_bbb}
+## 手順4:Pingを使用したLivefyreとの同期（Janrain統合のためのプル） {#section_ilv_bzt_bbb}
 
-Livefyre Remote ProfilesをCaptureユーザー管理システムと同期させるには、Pingと呼ばれる一連の手順をPingと呼びます。このプロセスでは、Janrainから有効なアクセストークンを取得し、そのトークンを手順3で指定したエンドポイントに渡す必要があります。
+LivefyreリモートプロファイルをCaptureのユーザー管理システムと同期させておくには、「引き出し用にping」と呼ばれる一連の手順が必要です。 このプロセスでは、Janrainから有効なアクセストークンを取得し、そのトークンを下の手順3で指定したエンドポイントに渡す必要があります。
 
-1. Janrainからアクセスコードを入手します。
+1. Janrainからアクセスコードを取得します。
 
-   アクセスコードを取得するには、必要な資格情報を指定し、user_ typeを&quot;user&quot;として指定し、現在のユーザーのuuidとしてuuidを更新します。詳しくは、 [https://developers.janrain.com/rest-api/methods/authentication/access-codes-and-tokens/getauthorizationcode/](https://developers.janrain.com/rest-api/methods/authentication/access-codes-and-tokens/getauthorizationcode/)を参照してください。
+   アクセスコードを取得するには、必要な資格情報を指定し、user_typeを「user」に指定し、uuidを更新する現在のユーザーのuuidに指定します。 詳しくは、https://developers.janrain.com/rest-api/methods/authentication/access-codes-and-tokens/getauthorizationcode/を参照してく [ださい](https://developers.janrain.com/rest-api/methods/authentication/access-codes-and-tokens/getauthorizationcode/)。
 
-1. アクセストークンのアクセスコードをトレードします。必要な資格情報を指定し、手順1から受け取ったアクセスコードを、gant_ typeを&quot;authorizment_ code&quot;と指定します。
+1. アクセストークンのアクセスコードを交換します。 必要な資格情報と手順1で受け取ったアクセスコードを指定し、grant_typeを「authorization_code」と指定します。
 
-   詳しくは、 [https://developers.janrain.com/rest-api/methods/authentication/oauth/token/](https://developers.janrain.com/rest-api/methods/authentication/oauth/token/)を参照してください。
+   詳しくは、https://developers.janrain.com/rest-api/methods/authentication/oauth/token/を参照してく [ださい](https://developers.janrain.com/rest-api/methods/authentication/oauth/token/)。
 
-1. Livefyre&quot;Ping to Pull Capture&quot;エンドポイントをヒットします。
+1. Livefyreの「Ping to Pull Capture」エンドポイントをヒットします。
 
-   エンドポイントURL: [!DNL https://{networkName}/api/v1.1/private/capture/profile_updated/?jrtoken={token}] ここ ***で、{networkName}は*** Livefyreによって提供されるネットワーク名で、jrtokenは手順2のJanrainから受け取ったトークンです。
+   エンドポイントURL:ここ [!DNL https://{networkName}/api/v1.1/private/capture/profile_updated/?jrtoken={token}] で、 ****** {networkName}はLivefyreから提供されたネットワーク名で、jrtokenは手順2でJanrainから受け取ったトークンです。
 
-   このエンドポイントをヒットすると、202応答が受信され、Livefyreは非同期処理を開始します。
+   このエンドポイントに到達すると、202応答を受信し、Livefyreが非同期プロセスを開始します。
 
-## 仕組み {#concept_mty_f31_2cb}
+## How It All Works {#concept_mty_f31_2cb}
 
-この組み込みのキャプチャ/バックフィル統合を活用するには、CaptureアプリとLivefyre. jsの統合の両方にいくつかの設定変更を加える必要があります。
+この組み込みのCapture/Backplane統合を利用するには、CaptureアプリとLivefyre.js統合の両方に対して設定を変更する必要があります。
 
-正しく設定されているときにLivefyreアプリのコールバックバスでログイン/ログアウトメッセージが正常に送信されるようになりました。これらのメッセージには、アプリユーザーをログインまたはログアウトするために必要なすべての情報が含まれています。開発者は、ブラウザーの開発者コンソールのネットワークタブを調査して、バックスラッシュバスメッセージを表示できます。
+Janrainは、Livefyre appが正しく設定されている場合にリッスンする、バックプレーンバスを通じて、成功したログイン/ログアウトメッセージを送信します。 これらのメッセージには、アプリのユーザーにログインまたはログアウトとして表示するのに必要なすべての情報が含まれます。 開発者は、ブラウザーの開発者コンソールの「Network」タブを調べることで、バックプレーンバスのメッセージを表示できます。
 
 ## ログインコードの例 {#section_ftt_tvp_mz}
 
@@ -207,7 +207,7 @@ Livefyre Remote ProfilesをCaptureユーザー管理システムと同期させ�
 https://backplane1.janrainbackplane.com//bus/{CUSTOMER_NAME}/channel/{CHANNEL}?callback=Backplane.response&rnd=0.15930617856793106
 ```
 
-回答:
+応答:
 
 ```
 Backplane.response([{ 
@@ -264,7 +264,7 @@ Backplane.response([{
 ]);
 ```
 
-空の応答:
+空の応答：
 
 ```
 Backplane.response([]);
@@ -278,10 +278,10 @@ Backplane.response([]);
 https://backplane1.janrainbackplane.com/v1.2/bus/{CUSTOMER}/channel/new?callback=Backplane.finishInit&amp;rnd=0.1057701709214598
 ```
 
-回答:
+応答:
 
 ```
 Backplane.finishInit("{CHANNEL}");
 ```
 
-これらのメッセージがネットワークリクエストに表示されない場合、Livefyreはログイン/ログアウトの試行を認識しないので、Livefyreはユーザーをアプリケーションに統合できません。
+これらのメッセージがネットワーク要求に表示されない場合、Livefyreはログイン/ログアウトの試行を認識しないので、Livefyreはユーザーをアプリに統合できません。
