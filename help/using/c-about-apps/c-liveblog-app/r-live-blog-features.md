@@ -1,10 +1,10 @@
 ---
-description: Live Blog Appは、サイトの次の機能を提供します。
-seo-description: Live Blog Appは、サイトの次の機能を提供します。
+description: Live Blogアプリは、サイトに対して次の機能を提供します。
+seo-description: Live Blogアプリは、サイトに対して次の機能を提供します。
 seo-title: ライブブログの機能
 solution: Experience Manager
 title: ライブブログの機能
-uuid: 5a9fude3- e150-4655- b5e1-3ddaee9a6ba1
+uuid: 5a9fede3-e150-4655-b5e1-3ddae9a6ba1
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,13 +13,13 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # ライブブログの機能{#live-blog-features}
 
-Live Blog Appは、サイトの次の機能を提供します。
+Live Blogアプリは、サイトに対して次の機能を提供します。
 
 
 
-* ライブブログに直接投稿してリアルタイムの更新を公開します。
-* ソーシャルコンテンツをキュレーションするルールを作成し、ブログに追加する特定のキュレーションコンテンツを検索します。
-* モバイルデバイスからLive Blogを更新します。
-* 各ブログの更新に対する返信を有効にして、各ライブブログの更新に対する会話とエンゲージメントを促進します。
-* 写真をアップロードし、最上位レベルの投稿にカスタムHTMLを追加する
+* Live Blogに直接投稿して、リアルタイムの更新を公開します。
+* ソーシャルコンテンツをキュレーションし、ブログに追加する特定のキュレーションコンテンツを検索するルールを作成します。
+* モバイルデバイスからライブブログを更新します。
+* 各ブログの更新に対する返信を有効にして、各ライブブログの更新に関する会話やアクションを促進します。
+* 写真のアップロードと最上位レベルの投稿へのカスタムHTMLの追加
 
