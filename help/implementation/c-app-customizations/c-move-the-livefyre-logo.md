@@ -1,6 +1,6 @@
 ---
-description: ページのLivefyreロゴを再配置します。
-seo-description: ページのLivefyreロゴを再配置します。
+description: ページ上のLivefyreロゴの位置を変更します。
+seo-description: ページ上のLivefyreロゴの位置を変更します。
 seo-title: Livefyreロゴの移動
 solution: Experience Manager
 title: Livefyreロゴの移動
@@ -13,17 +13,17 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Livefyreロゴの移動{#move-the-livefyre-logo}
 
-ページのLivefyreロゴを再配置します。
+ページ上のLivefyreロゴの位置を変更します。
 
-Livefyreとの契約では、Livefyreのロゴをコンテンツストリームの最上部から下に移動できます。
+Livefyreとの契約で許可されている場合は、Livefyreロゴをコンテンツストリームの上部から下部に移動できます。
 
-例えば、Livefyreアプリを含む要素の直後に、次のHTMLをページに追加します。
+例えば、Livefyreアプリを含む要素の直後のページに次のHTMLを追加します。
 
 ```
 <div id="powered_by_livefyre_new"><a href="https://livefyre.com" target="_blank">Powered by Livefyre</a></div>
 ```
 
-次に、ページのスタイルシートに以下を追加します。
+次に、ページのスタイルシートに次を追加します。
 
 ```
 /* Hide the top logo */ 
