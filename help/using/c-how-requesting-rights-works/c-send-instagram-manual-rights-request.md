@@ -1,47 +1,47 @@
 ---
-description: ハッシュタグ、URL、または場所ベースのInstagram検索またはストリームから得たInstagramアセットを手動ワークフローで再利用するように要求できます。
-seo-description: ハッシュタグ、URL、または場所ベースのInstagram検索またはストリームから得たInstagramアセットを手動ワークフローで再利用するように要求できます。
-seo-title: Instagram Rights Requestを手動で送信
-title: Instagram Rights Requestを手動で送信
-uuid: c07b3f6f- c14c-4e62- b18b-25934ea45bf
+description: ハッシュタグ、URLまたは場所ベースのInstagram検索またはストリームから取得したInstagramアセットを手動のワークフローで再利用する権限を要求できます。
+seo-description: ハッシュタグ、URLまたは場所ベースのInstagram検索またはストリームから取得したInstagramアセットを手動のワークフローで再利用する権限を要求できます。
+seo-title: Instagram権利要求の手動送信
+title: Instagram権利要求の手動送信
+uuid: c07b3f6f-c14c-4e62-b18b-25934ebe45bf
 translation-type: tm+mt
-source-git-commit: 4952830655e904cfba7d2dd98338c7fda02c4250
+source-git-commit: ed95681b0228e38900c73bd6d87a36bf51299c01
 
 ---
 
 
-# Instagram Rights Requestを手動で送信{#send-instagram-rights-request-manually}
+# Instagram権利要求の手動送信{#send-instagram-rights-request-manually}
 
-ハッシュタグ、URL、または場所ベースのInstagram検索またはストリームから得たInstagramアセットを手動ワークフローで再利用するように要求できます。
+ハッシュタグ、URLまたは場所ベースのInstagram検索またはストリームから取得したInstagramアセットを手動のワークフローで再利用する権限を要求できます。
 
-権限リクエストを送信するには、次の操作を行う必要があります。
+権限リクエストを送信する前に、次の操作を行う必要があります。
 
-* Instagram Socialアカウントを追加します。ソーシャルアカウントの設定方法について詳しくは、Socialアカウント [の追加を](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/t-configure-social-accout-instagram.md#t_configure_social_accout_instagram)参照してください。手動または一部自動化された権利リクエストを送信するには、Instagramのビジネスアカウントを設定する必要があります。Instagramアカウントについて詳しくは、Instagramアカウント [についてを参照してください](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)
+* Instagramソーシャルアカウントを追加します。 Socialアカウントの設定方法について詳しくは、「Socialアカウントの追加」 [を参照してください](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/t-configure-social-accout-instagram.md#t_configure_social_accout_instagram)。 手動または部分的に自動化された権限リクエストを送信するには、Instagramビジネスアカウントを設定する必要があります。 Instagramアカウントについて詳しくは、Instagramアカウントにつ [いてを参照してください](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)
 
-* Rights Managementを設定します。権限管理の設定方法について詳しくは、「権限 [の要求](../c-how-requesting-rights-works/c-how-requesting-rights-works.md)」を参照してください。
+* Rights Managementを設定します。 権限管理の設定方法について詳しくは、「権限のリクエスト」を参 [照してください](../c-how-requesting-rights-works/c-how-requesting-rights-works.md)。
 
-Instagramコンテンツの手動権利リクエストを送信するには:
+Instagramコンテンツに対する手動の権限リクエストを送信するには：
 
-1. **[!UICONTROL Rights options]** ウィンドウを開きます。
-1. 権限をリクエストするアカウントを選択します。アカウントはInstagramのビジネスアカウントである必要があります。
-1. （オプション）リクエストメッセージを編集します。メッセージに要素がないか、または必須要素がスペルミスのある場合は、正しくない情報または見つからない情報を指定するエラーメッセージが表示されます。
-1. クリック **[!UICONTROL Copy]** して、ボックス内のテキストをクリップボードにコピーします。
+1. ウィンドウを **[!UICONTROL Rights options]** 開きます。
+1. 権限の要求に使用するアカウントを選択します。 アカウントはInstagramのビジネスアカウントである必要があります。
+1. （オプション）リクエストメッセージを編集します。 メッセージに要素がない場合、または必須の要素のスペルが間違っている場合は、誤った情報や欠落した情報を示すエラーメッセージが表示されます。
+1. をクリック **[!UICONTROL Copy]** して、ボックス内のテキストをクリップボードにコピーします。
 
    ![](assets/rr_insta_workaround1.png)
 
-   Livefyreは、テキストをボックスからクリップボードに自動的にコピーし、テキストをコピーしたことを確認するメッセージを表示します。
+   Livefyreは、テキストをボックスからクリップボードに自動的にコピーし、テキストのコピーが完了したことを確認するメッセージを表示します。
 
-1. 確認メッセージのリンクをクリックして、権限をリクエストしているアセットを含む投稿を開きます。
+1. 確認メッセージ内のリンクをクリックして、権限を要求しているアセットを含む投稿を開きます。
 
    ![](assets/rr_insta_workaround2.png)
 
-   InstagyreがInstagramで投稿を開きます。
+   Instagramで投稿が開きます。
 
-1. コピーした権限リクエストテキストをInstagramのInstagram投稿に貼り付けます。
+1. コピーした権利要求テキストをInstagram上のInstagram投稿に貼り付けます。
 
-権限リクエストを手動で監視するには:
+権限リクエストを手動で監視するには：
 
-1. ユーザーが反応したかどうかを確認するには、その応答のInstagramで投稿を手動で監視する必要があります。
-1. Instagramユーザーが権利を付与すると、Livefyreのコンテンツの一部に手動で権利を付与できます。Livefyreに手動で権限を付与する方法については、アセットライブラリからのアセットの [手動付与または権限の失効を参照](../c-how-requesting-rights-works/t-manually-grant-the-rights-for-one-or-more-assets.md#t_manually_grant_the_rights_for_one_or_more_assets)してください。
+1. To find out if the user responded, you must manually monitor the post in Instagram for the response.
+1. When the Instagram user grants rights, you can manually grant the rights to the piece of content in Livefyre. For information on how to manually grant rights in Livefyre, see Manually Grant or Revoke Rights for an Asset from the Asset Library.[](../c-how-requesting-rights-works/t-manually-grant-the-rights-for-one-or-more-assets.md#t_manually_grant_the_rights_for_one_or_more_assets)
 
-アセットの手動権利リクエストの送信時、およびアセットの権限を付与するときにLivefyreが追跡されます。
+Livefyre tracks when you send a manual rights request for an asset and when you grant rights for an asset.
