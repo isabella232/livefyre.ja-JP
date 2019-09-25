@@ -1,10 +1,10 @@
 ---
-description: Livefyreアプリケーションからインラインでユーザーを禁止し、Livefyre経由でログインしたユーザーは、Studioのライブラリ/App Contentページから除外できます。
-seo-description: Livefyreアプリケーションからインラインでユーザーを禁止し、Livefyre経由でログインしたユーザーは、Studioのライブラリ/App Contentページから除外できます。
+description: Livefyre Appsからインラインでユーザーを禁止でき、Livefyre経由でログインしたユーザーはStudioのライブラリ/アプリのコンテンツページからのアクセスを禁止される場合があります。
+seo-description: Livefyre Appsからインラインでユーザーを禁止でき、Livefyre経由でログインしたユーザーはStudioのライブラリ/アプリのコンテンツページからのアクセスを禁止される場合があります。
 seo-title: ユーザーの禁止
 solution: Experience Manager
 title: ユーザーの禁止
-uuid: ce528a9a-7137-4c2b- a445-194feae61879
+uuid: ce528a9a-7137-4c2b-a445-194feae61879
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,13 +13,13 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # ユーザーの禁止{#ban-a-user}
 
-Livefyreアプリケーションからインラインでユーザーを禁止し、Livefyre経由でログインしたユーザーは、Studioのライブラリ/App Contentページから除外できます。
+Livefyre Appsからインラインでユーザーを禁止でき、Livefyre経由でログインしたユーザーはStudioのライブラリ/アプリのコンテンツページからのアクセスを禁止される場合があります。
 
 ![](assets/UsersBan2-1024x409.png)
 
-ユーザーページのユーザーを禁止するには:
+ユーザーページからのユーザーを禁止するには：
 
-1. をクリック **[!UICONTROL +Add]** **[!UICONTROL Bans]** します。
-1. ポップアップが表示され、ネットワーク全体または特定のサイトからユーザーを禁止できます。（複数のサイトを選択するには、CTRキーまたはCommandキーを使用します）。
-1. クリック **[!UICONTROL Remove this user’s comments]** して、ユーザーの前の投稿を禁止し、ストリームから削除します。このボックスを、禁止されているユーザーからの将来の投稿のみに&quot;Boszo&quot;のままにしておきます。
-1. をクリック **[!UICONTROL Ban]** してプロセスを完了します。
+1. をクリ **[!UICONTROL +Add]** ックしま **[!UICONTROL Bans]**&#x200B;す。
+1. ネットワーク全体または特定のサイトからユーザーを禁止できるポップアップが表示されます。 （複数のサイトを選択するには、CTRまたはCommandキーを使用します）。
+1. をクリ **[!UICONTROL Remove this user’s comments]** ックして、ユーザーを禁止し、以前の投稿をBozoにし、ストリームから削除します。 このチェックボックスをオフのままにして、禁止されたユーザーからの今後の投稿のみをBozoに送信します。
+1. をクリック **[!UICONTROL Ban]** して、プロセスを完了します。
