@@ -1,49 +1,49 @@
 ---
-description: ページにUserPrivacyOptOutフラグを追加して、サイト訪問者がこのトラッキングをオプトアウトできるようにします。
-seo-description: ページにUserPrivacyOptOutフラグを追加して、サイト訪問者がこのトラッキングをオプトアウトできるようにします。
-seo-title: UserPrivacyOptOut
-title: UserPrivacyOptOut
-uuid: a043c50e-0a02-4c83- bce-54b9b51316a5
+description: サイト訪問者がこの追跡をオプトアウトできるように、userPrivacyOptOutフラグをページに追加します。
+seo-description: サイト訪問者がこの追跡をオプトアウトできるように、userPrivacyOptOutフラグをページに追加します。
+seo-title: userPrivacyOptOut
+title: userPrivacyOptOut
+uuid: a043c50e-0a02-4c83-bbce-54b9b51316a5
 translation-type: tm+mt
-source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
+source-git-commit: 9e01dd4515c01154e3566a39b367b8efa4ec082a
 
 ---
 
 
-# UserPrivacyOptOut{#userprivacyoptout}
+# userPrivacyOptOut{#userprivacyoptout}
 
-ページに `userPrivacyOptOut` フラグを追加して、サイト訪問者がこのトラッキングをオプトアウトできるようにします。
+ページにフ `userPrivacyOptOut` ラグを追加して、サイト訪問者がこの追跡をオプトアウトできるようにします。
 
-Livefyreアプリでユーザーアクティビティを追跡するためのJavaScriptイベントがLivefyreに提供されています。
+Livefyreは、Livefyreアプリでのユーザーアクティビティを追跡するJavaScriptイベントを提供します。
 
-Livefyreアプリを埋め込むと、訪問者のプライバシーを確保する機能を無効にするLivefyreを動的に設定できます。
+Livefyreアプリを埋め込んで、訪問者が追跡に同意しない場合は、Livefyreを動的に設定して、訪問者のプライバシーを確保するための機能を無効にすることができます。
 
-設定時、Livefyreは次のことを行います。
+設定すると、Livefyreは次の処理を行います。
 
-* アプリの認証サポートを無効にします。
+* アプリで認証サポートを無効にします。
 * Livecountとイベントの生成の無効化
-* ページにある任意のアプリによって作成された既存のcookieを削除する
-* サードパーティドメインの画像を使用して、サードパーティのcookieを作成しないようにするプロキシメディア
-* 追加のクリックを必要とするサードパーティ製ビデオのビデオマスククリックスルーを有効にする
+* ページ上の任意のアプリで作成された既存のcookieを削除します
+* サードパーティがcookieを作成できないようにするために、サードパーティドメインからの画像を使用したプロキシメディア
+* 閲覧に追加のクリックが必要なサードパーティビデオに対するビデオマスクのクリックスルーを有効にする
 
-## オプトアウト用のページの設定
+## ページのオプトアウト設定
 
-Livefyreアプリの埋め込みでは、サイト訪問者が単一のJavaScript変数を使用して同意していない場合にLivefyreを設定できます。
+Livefyreアプリを埋め込んだ統合では、サイト訪問者が単一のJavaScript変数を使用して同意を与えていない場合にLivefyreを設定できます。
 
-手順:
+説明:
 
-1. JavaScriptの前に `userPrivacyOptOut` ページにフラグを追加 `Livefyre.js` します。
+1. ページの `userPrivacyOptOut` JavaScriptの前にフラグを追加し `Livefyre.js` ます。
 
    ```
    window.Livefyre = {userPrivacyOptOut: true};
    ```
 
-1. 後でページ `Livefyre.js` に追加 `userPrivacyOptOut`します。
+1. 後の任 `Livefyre.js` 意の場所でページに追加しま `userPrivacyOptOut`す。
 
-   Livefyreアプリケーションは、プライバシー設定を使用してインスタンス化されます。
+   Livefyreアプリは、管理者のプライバシー設定でインスタンス化されます。
 
    >[!NOTE]
    >
-   >Livefyreアプリケーションが読み込ま `userPrivacyOptOut` れたときの値は変更しないでください。
+   >Livefyreアプリが読み込まれた後は、の値 `userPrivacyOptOut` を変更しないでください。
 
-サイト訪問者がオプトアウトを選択した場合に、同意ワークフローでtrue `userPrivacyOptOut` に設定してください。
+サイトの訪問者がオプトアウトを選択した場合は、同 `userPrivacyOptOut` 意ワークフローで「true」に設定されていることを確認します。
