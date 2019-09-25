@@ -1,10 +1,10 @@
 ---
-description: Livefyreアプリケーションによってトリガーされないフロー経由でLivefyreを使用するユーザーを認証するには、LivefyreによってAuthDelegateオブジェクトにForegoPlayationメソッドを実装することをお勧めします。
-seo-description: Livefyreアプリケーションによってトリガーされないフロー経由でLivefyreを使用するユーザーを認証するには、LivefyreによってAuthDelegateオブジェクトにForegoPlayationメソッドを実装することをお勧めします。
+description: Livefyreアプリでトリガーされないフローを介してLivefyreでユーザーを認証する場合、AuthDelegateオブジェクトにforEachAuthenticationメソッドを実装することをお勧めします。
+seo-description: Livefyreアプリでトリガーされないフローを介してLivefyreでユーザーを認証する場合、AuthDelegateオブジェクトにforEachAuthenticationメソッドを実装することをお勧めします。
 seo-title: SSOの実装
 solution: Experience Manager
 title: SSOの実装
-uuid: c96d456c- b1ac-40e0-8d18-224652b9697f
+uuid: c96d456c-b1ac-40e0-8d18-224652b9697f
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,9 +13,9 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # SSOの実装{#implementing-sso}
 
-Livefyreアプリケーションによってトリガーされないフロー経由でLivefyreを使用するユーザーを認証するには、LivefyreによってAuthDelegateオブジェクトにForegoPlayationメソッドを実装することをお勧めします。
+Livefyreアプリでトリガーされないフローを介してLivefyreでユーザーを認証する場合、AuthDelegateオブジェクトにforEachAuthenticationメソッドを実装することをお勧めします。
 
-これは、渡さ `authDelegate` れると呼び出さ `auth.delegate`れ、複数回渡すことができる認証関数に渡されます。このメソッドは、認証イベントの制御を反転して、認証をグローバル `AuthDelegateobject` 参照することなく自己完結できるようにします。
+この関数は、がに渡さ `authDelegate` れると呼び出さ `auth.delegate`れ、複数回渡される認証関数が渡されます。 この方法は、認証イベントの制御を逆にするので、認証に対するグローバル参照を必要とす `AuthDelegateobject` ることなく、ユーザーが自己完結できるようにします。
 
 ```
 authDelegate.forEachAuthentication = function (authenticate) { 
@@ -25,9 +25,9 @@ authDelegate.forEachAuthentication = function (authenticate) {
 }
 ```
 
-Livefyreは、認証のためのユーザートークンに依存しています。そのため、Livefyreのユーザーを認証するには、IDサービスからこのトークンを返す必要があります。Livefyreユーザートークンの作成方法については、「ユーザー認証トークンの作成」を参照してください。
+Livefyreは、認証の調整にユーザートークンを使用します。 その結果、Livefyreでユーザーを認証するには、IDサービスからこのトークンを返す必要があります。 Livefyreユーザートークンの作成方法について詳しくは、ユーザー認証トークンの構築を参照してください。
 
 >[!NOTE]
 >
->ログインが成功すると、ユーザーのセッションが作成され、ページの更新とリロード時にユーザーのセッションの読み込みが試行されます。`auth.logout()` このセッションをクリアします。つまり、認証とは独立してユーザーのセッションを管理する必要はありません。
+>ログインに成功した後、authはユーザーのセッションを作成し、ページの更新と再読み込みの際にユーザーのセッションの読み込みを試みます。 `auth.logout()` は、このセッションをクリアします。 つまり、認証とは独立してユーザーのセッションを管理する必要はありません。
 
