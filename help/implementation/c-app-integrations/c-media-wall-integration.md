@@ -1,10 +1,10 @@
 ---
-description: コンテンツストリーミングを使用して、コンテンツのストリーミングをリアルタイムで作成します。
-seo-description: コンテンツストリーミングを使用して、コンテンツのストリーミングをリアルタイムで作成します。
+description: コンテンツストリーミングをリアルタイムで使用するメディアウォールを作成します。
+seo-description: コンテンツストリーミングをリアルタイムで使用するメディアウォールを作成します。
 seo-title: メディアウォール
 solution: Experience Manager
 title: メディアウォール
-uuid: c6087c80- a35b-44d2-9dd4- ba9cd471172d
+uuid: c6087c80-a35b-44d2-9dd4-ba9cd471172d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,15 +13,15 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # メディアウォール{#media-wall}
 
-コンテンツストリーミングを使用して、コンテンツのストリーミングをリアルタイムで作成します。
+コンテンツストリーミングをリアルタイムで使用するメディアウォールを作成します。
 
-Mediaウォールを使用すると、サイトのリアルタイムのソーシャルウォールを作成できます。Livefyre JavaScript SDKのStreamHub- warepackageを使用して、Livefyreのソーシャルフィードを視覚的に魅力的でフルスクリーンのコンテンツエクスペリエンスとして表示したり、ライブイベントをホスティングしたり、写真コンテストをホストしたり、Webサイトのソーシャルセクションを活用したりすることができます。
+Media wallを使用すると、サイトのリアルタイムのソーシャルウォールを作成できます。 Livefyre javaScript SDKのstreamhub-wallパッケージを使用して、Livefyreのソーシャルフィードを、ライブイベントのカバー、写真コンテストのホスト、Webサイトのソーシャルセクションのパワー化に最適な、視覚的に魅力的なフルスクリーンのタイル形式のコンテンツエクスペリエンスで表示します。
 
-## 統合{#section_jfm_bwb_c1b}
+## 統合 {#section_jfm_bwb_c1b}
 
-メディアウォールを追加する最も迅速な方法は、LivefyreのCDNでホストされているビルドバージョンを使用することです。
+Media wallを追加する最も簡単な方法は、LivefyreのCDN上でホストされているビルドバージョンを使用することです。
 
-まず、Livefyre. jsを [サイト](https://github.com/Livefyre/Livefyre.js) に追加します。
+まず、 [Livefyre.jsをサイトに追加します](https://github.com/Livefyre/Livefyre.js) 。
 
 ```
 <script src="//cdn.livefyre.com/Livefyre.js"></script> 
@@ -33,7 +33,7 @@ Mediaウォールを使用すると、サイトのリアルタイムのソーシ
 <div id="wall"></div>
 ```
 
-最後に、コンポーネントを構築 `Livefyre.require` します。
+最後に、を使用し `Livefyre.require` てコンポーネントを作成します。
 
 ```
 <script> 
@@ -52,19 +52,19 @@ Livefyre.require([
 </script>
 ```
 
-ウォールが表示されます。この例で [は、すべてを実行](https://codepen.io/gobengo/pen/dFwDL)中です。
+これで壁が出来た！ この例では、すべてを実際に使用し [ています](https://codepen.io/gobengo/pen/dFwDL)。
 
-**エラーをヒットしますか?** 正しい環境パラメーターを渡すことを確認してください。オプションには、 `livefyre.com` （実稼働）または `t402.livefyre.com` UATが含まれます。
+**エラーを発生させる？** 正しい環境パラメーターが渡されていることを確認します。 （実稼働）ま `livefyre.com` たは(UAT)のオ `t402.livefyre.com` プションがあります。
 
 >[!NOTE]
 >
->Mediaウォールアプリでレンダリングされるツイートのスタイル設定のカスタマイズは、Twitter [の表示要件に従って行う必要](https://dev.twitter.com/terms/display-requirements)があります。
+>Media Wallアプリでレンダリングされるツイートのスタイル設定のカスタマイズは、Twitterの表示要件に従って行う必要 [があります](https://dev.twitter.com/terms/display-requirements)。
 
-## Config Options {#section_ucv_qvb_c1b}
+## 設定オプション {#section_ucv_qvb_c1b}
 
 `columns`
 
-ウォールの構築時に、Mediaウォールの列数を定義できます。このオプションを設定した場合、各列の幅は、指定した数の列を維持しながら、メディアウォールのコンテナサイズに合わせて自動的に調整されます。
+壁を構築する際のメディアウォールの列数を定義できます。 このオプションを設定すると、各列の幅は、指定した数の列を維持しながら、メディアウォールのコンテナサイズに自動的に適合します。
 
 ```
 var wallView = new MediaWall({ 
@@ -75,7 +75,7 @@ var wallView = new MediaWall({
 
 `initial`
 
-ページ読み込み時にレンダリングするコンテンツアイテムの数。デフォルトは50です。
+ページの読み込み時にレンダリングされるコンテンツアイテムの数です。 初期設定は50です。
 
 ```
 var wallView = new MediaWall({ 
@@ -86,11 +86,11 @@ var wallView = new MediaWall({
 
 `minContentWidth`
 
-Mediaウォールのコンテナ要素内の各列の最小（ピクセル）幅を設定できます。（Mediaウォールでは、コンテナ要素の幅に応じて、適切な数の列が自動的に選択されます。デフォルトでは、Mediaウォールの幅が最小コンテンツの幅（300pxの場合）で割り、列数が決まります。
+メディアウォールのコンテナ要素内の各列の最小（ピクセル）幅を設定できます。 (メディアウォールは、コンテナ要素の幅に応じて、適切な数の列を自動的に選択します。 デフォルトでは、メディアウォールの幅を最小コンテンツの幅で割って（未定義の場合は300px）、列数を決定します。
 
 >[!NOTE]
 >
->このオプションは、列オプションと組み合わせて使用しないでください。
+>列オプションと組み合わせてこのオプションを使用しないでください。
 
 ```
 var wallView = new MediaWall({ 
@@ -101,7 +101,7 @@ var wallView = new MediaWall({
 
 `modal`
 
-デフォルトでは、コンテンツの一部の添付ファイルがある場合、メディアウォールにクリック可能なサムネールが表示されます。「アプリ」をクリックすると、写真/ビデオの添付ファイル全体がモーダル表示されます。このオプションを無効にするには、モーダルをfalseに設定します。
+デフォルトでは、コンテンツに添付ファイルがある場合、メディアウォールにクリック可能なサムネールが表示されます。 クリックすると、アプリがモーダルを開き、写真/ビデオの添付ファイル全体が表示されます。 このオプションを無効にするには、modalをfalseに設定します。
 
 ```
 var wallView = new MediaWall({ 
@@ -113,14 +113,14 @@ var wallView = new MediaWall({
 
 `postButton`
 
-ウォールに表示する [!UICONTROL Post Content] ボタンを定義します。このオプションを使用するには、 `opts.collection`ページにLivefyre. js認証の統合を渡す必要があります。
+壁に表示す [!UICONTROL Post Content] るボタンを定義します。 このオプションを使用するには、Livefyre.js `opts.collection`認証統合をページに渡して追加する必要があります。
 
-`postButton` パラメーター:
+`postButton` パラメーター：
 
-* `false` （デフォルト）:「投稿コンテンツ」ボタンを表示しない。（読み取り専用のMediaウォールを作成します）。
-* `true` （また `LiveMediaWall.postButtons.contentWithPhotos`は）:ユーザーがテキストコンテンツを追加できるボタンを追加します。
+* `false` （デフォルト）:「投稿のコンテンツ」ボタンを表示しません。 （読み取り専用のMedia Wallを作成します）。
+* `true` (または `LiveMediaWall.postButtons.contentWithPhotos`):ユーザーがテキストコンテンツを追加できるボタンと、写真が添付されているボタンを追加します。
 
-* `LiveMediaWall.postButtons.content`:ユーザーがテキストコンテンツを追加できるが、写真を添付できないボタンを含めます。
+* `LiveMediaWall.postButtons.content`:ユーザーがテキストコンテンツを追加できるが、写真は添付できないボタンを含めます。
 * `LiveMediaWall.postButtons.photo`:ユーザーが写真を追加できるがテキストは追加できないボタンを含めます。
 
 ```
@@ -134,7 +134,7 @@ var wallView = new MediaWall({
 
 `showMore`
 
-[!UICONTROL Show More] ボタンをクリックしたときにウォールに追加するコンテンツ項目の数を定義します。
+ボタンをクリックしたときに壁に追加するコンテンツ項目の数 [!UICONTROL Show More] を定義します。
 
 ```
 var wallView = new LiveMediaWall({ 
@@ -145,7 +145,7 @@ var wallView = new LiveMediaWall({
 
 ## スタイル設定オプション {#section_ztv_dvb_c1b}
 
-Media Wallには、テキストの色、スタイル、サイズをカスタマイズできるいくつかの設定オプションもあります。これらのオプションを実装するには、次の構文を使用します。
+Media wallには、テキストの色、スタイル、サイズをカスタマイズできる設定オプションもいくつか用意されています。 これらのオプションを実装するには、次の構文を使用します。
 
 ```
 var wall2 = window.wall2 = new MediaWall({ 
@@ -163,42 +163,42 @@ var wall2 = window.wall2 = new MediaWall({
 }); 
 ```
 
-有効な入力については、CSS [フォントファミリー](https://www.w3.org/TR/CSS2/fonts.html#propdef-font-family)、 [フォントサイズ](https://www.w3.org/TR/CSS2/fonts.html#font-size-props)、 [行の高さおよび](https://www.w3.org/TR/CSS2/visudet.html#propdef-line-height)[色](https://www.w3.org/TR/css3-color/#colorunits) のプロパティのW3C標準を参照してください。
+有効な入力については、W3C for CSS [Font Family](https://www.w3.org/TR/CSS2/fonts.html#propdef-font-family)、Font Size [、](https://www.w3.org/TR/CSS2/fonts.html#font-size-props)Line Height [、](https://www.w3.org/TR/CSS2/visudet.html#propdef-line-height) ColorPropertiesの各プロパティを参照し [](https://www.w3.org/TR/css3-color/#colorunits) てください。
 
-* **bodyFontSize***（CSSフォントサイズ文字列）* コンテンツ本文テキストのフォントサイズ。
+* **bodyFontSize** (CSS Font Size String) ** コンテンツの本文テキストのフォントサイズ。
 
-* **bodylineHeight***（CSS行の高さの文字列）* コンテンツ本文のテキストの高さの高さ。
+* **bodyLineHeight** (CSSの行の高さ *文字列)* ：コンテンツの本文の行の高さです。
 
-* **buttonActiveBackgroundColor***（CSSカラー文字列）**ボタンの背景のカラー。
+* **buttonActiveBackgroundColor** (CSS Color String) ***アクティブなボタンの背景のカラー。
 
-* **buttonBorderColor***（CSSカラー文字列）**ボタンの境界線のカラー。
+* **buttonBorderColor** (CSS Color String) ***ボタンの境界線のカラー。
 
-* **buttonHoverBackgroundColor***（CSSカラー文字列）* カーソルを合わせたときのボタンの背景色。
+* **buttonHoverBackgroundColor** (CSSカラ *ー文字列)* ：カーソルを合わせたときのボタンの背景の色。
 
-* **buttonTextColor***（CSSカラー文字列）* ボタンのラベルのカラー。
+* **buttonTextColor** (CSS Color String) ** ボタンのラベルのカラー。
 
-* **cardBackgroundColor***（CSSカラー文字列）* メディアウォール内のコンテンツカードの背景色。
+* **cardBackgroundColor** (CSS Color String) ** ：メディアウォール内のコンテンツカードの背景色。
 
-* **displayNameColor***（CSSカラー文字列）* Byline内の表示名のカラー。
+* **displayNameColor** (CSS Color String) ** 署名内の表示名のカラー。
 
-* **fontFamily***（CSS Font Family String）* 本文テキストのフォントファミリー。
+* **fontFamily** (CSS Font Family String) ** 本文テキストのフォントファミリー。
 
-* **FooterTextColor***（CSSカラー文字列）* セカンダリテキストのカラー（フッターテキスト、およびその後のユーザー名など）。
+* **footerTextColor** (CSS Color String) ** ：セカンダリテキストのカラー（フッターテキスト、バイライン内のユーザー名など）。
 
-* **linkAttachmentBackgroundColor***（CSSカラー文字列）* リンク添付ファイル（スタック添付ファイル）の背景色。
+* **linkAttachmentBackgroundColor** (CSS Color String) ** リンクの添付ファイル（スタックされた添付ファイル）の背景色。
 
-* **linkAttachmentBorderColor***（CSSカラー文字列）* リンク添付ファイル（スタック添付ファイル）の境界線のカラー。
+* **linkAttachmentBorderColor** (CSS Color String) ** リンクの添付ファイル（スタックされた添付ファイル）の境界線のカラー。
 
-* **linkAttachmentTextColor***（CSS Color String）* リンクの添付テキストのカラー。
+* **linkAttachmentTextColor** (CSS Color String) ** リンクの添付テキストのカラー。
 
-* **linkColor***（CSSカラー文字列）* ハイパーリンクの色（本文テキスト内のリンク、および表示名リンクなど）。
+* **linkColor** (CSS Color String) ** ：ハイパーリンク（本文内のリンク、表示名リンクなど）のカラー。
 
-* **TextColor***（CSSカラー文字列）* 本文テキストのカラー。
+* **textColor** (CSS Color String) ** 本文のテキストのカラー。
 
-* **TitleFontSize***（CSSフォントサイズ文字列）* コンテンツタイトルのフォントサイズ。
+* **titleFontSize** (CSS Font Size String) ** コンテンツタイトルのフォントサイズ。
 
-* **titleLineHeight***（CSS行の高さの文字列）* コンテンツタイトルの行の高さ。
+* **titleLineHeight** (CSSの *行の高さ文字列)* ：コンテンツタイトルの行の高さです。
 
-* **sourceToGColor***（CSSカラー文字列）* ソースロゴのカラー。
+* **sourceLogoColor** (CSS Color String) ** ソースロゴのカラー。
 
-* **userNameColor***（CSS Color String）* Byline内のusernameのカラー。
+* **usernameColor** (CSS Color String) ** ：バイライン内のユーザー名の色。
