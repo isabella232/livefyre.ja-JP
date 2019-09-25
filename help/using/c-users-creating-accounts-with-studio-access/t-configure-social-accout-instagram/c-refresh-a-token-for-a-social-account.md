@@ -1,35 +1,35 @@
 ---
-description: ソーシャルアカウントのトークンが期限切れになったときに更新します。
-seo-description: ソーシャルアカウントのトークンが期限切れになったときに更新します。
-seo-title: Socialアカウント用のトークンの更新
+description: ソーシャルアカウントの有効期限が切れたら、そのトークンを更新します。
+seo-description: ソーシャルアカウントの有効期限が切れたら、そのトークンを更新します。
+seo-title: Socialアカウントのトークンの更新
 solution: Experience Manager
-title: Socialアカウント用のトークンの更新
-uuid: 8a25305c- aaa3-460f- b782-404a55b491cd
+title: Socialアカウントのトークンの更新
+uuid: 8a25305c-aaa3-460f-b782-404a55b491cd
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Socialアカウント用のトークンの更新{#refresh-a-token-for-a-social-account}
+# Socialアカウントのトークンの更新{#refresh-a-token-for-a-social-account}
 
-ソーシャルアカウントのトークンが期限切れになったときに更新します。
+ソーシャルアカウントの有効期限が切れたら、そのトークンを更新します。
 
-Instagramトークンは期限切れになることがあります。多くの場合、警告はほとんどまたはまったくありません。以下のソーシャルネットワークでは、トークンを更新して、それらが使用されているかどうかを確認する必要があります。
+Instagramトークンの有効期限は、ほとんど警告を出さないでも、何も警告を出さないでもかまいません。 次のソーシャルネットワークでは、トークンが使用されアクティブであることを確認するために、トークンを更新する必要があります。
 
 * Twitter
 * Instagram個人アカウント
 * Instagramビジネスアカウント
 
-Instagramのビジネスアカウントでは、有効期限が切れるFacebookトークンが使用されます。トークンの期限が切れる前に10日と5日経過すると、Livefyreネットワークが自動的に通知され、更新できます。
+Instagramのビジネスアカウントは、有効期限が切れるFacebookトークンを使用します。 トークンの有効期限が切れるまでに10日と5日が経過すると、Livefyreネットワークから通知されるので、トークンを更新できます。
 
-トークンの有効期限が切れると、Livefyreに次の方法で通知されます。
+トークンの有効期限が切れると、Livefyreは次の方法で通知します。
 
-* Instagramコンテンツを検索すると、Instagramトークンが期限切れになったことを示すウィンドウが左下に表示されます。他のInstagramアカウントを設定した場合、Livefyreはリスト内の次のInstagramアカウントを使用してInstagramを自動的に検索します。
-* 特定の期限切れのInstagramアカウントを使用して権限をリクエストする場合、エラーが表示されます。別のInstagramアカウントを選択するか、期限切れのアカウントのトークンを更新して、再度リクエストをクリックする必要があります。
-* 期限切れのInstagramアカウントを使用してストリームが機能しない。
-* 有効期限切れのトークンが含まれているアカウント **[!UICONTROL Network Settings]** &gt; **[!UICONTROL Social Accounts]** エラー警告アイコン（ ![](assets/warningError.png)
+* Instagramのコンテンツを検索すると、左下に、Instagramトークンの有効期限が切れたことを示すウィンドウが表示されます。 他のInstagramアカウントを設定した場合、Livefyreはリスト内の次のInstagramアカウントを使用してInstagramを自動的に検索します。
+* 期限切れの特定のInstagramアカウントを使用して権限を要求すると、エラーが表示されます。別のInstagramアカウントを選択するか、期限切れのアカウントのトークンを更新して、もう一度「要求権限」をクリックする必要があります。
+* 期限切れのInstagramアカウントを使用するストリームは機能しません。
+* &gt;で期限切れのトークンを持つア **[!UICONTROL Network Settings]** カウントに **[!UICONTROL Social Accounts]** は、エラー警告アイコン( ![](assets/warningError.png)
 
-   ).
+   と呼ばれていました）のリリース情報も含まれています。
 
-トークンを更新するには **[!UICONTROL Network Settings]**、/ **[!UICONTROL Social Accounts]** &gt;のアカウントの横にある「更新トークン」をクリック **[!UICONTROL Instagram Accounts]** します。
+//のアカウントの横にある「トークンを更新」をクリックして、トークンを **[!UICONTROL Network Settings]** 更新 **[!UICONTROL Social Accounts]** できま **[!UICONTROL Instagram Accounts]**&#x200B;す。
