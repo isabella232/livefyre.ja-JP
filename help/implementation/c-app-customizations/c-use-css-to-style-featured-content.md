@@ -1,30 +1,30 @@
 ---
-description: 使用可能なCSSクラスを使用して、アプリ内の他のコンテンツとは異なるスタイル設定コンテンツをスタイル設定します。
-seo-description: 使用可能なCSSクラスを使用して、アプリ内の他のコンテンツとは異なるスタイル設定コンテンツをスタイル設定します。
-seo-title: CSSをスタイル設定コンテンツに使用する
+description: 利用可能なCSSクラスを使用して、特集コンテンツのスタイルをアプリ内の他のコンテンツとは異なる方法で設定できます。
+seo-description: 利用可能なCSSクラスを使用して、特集コンテンツのスタイルをアプリ内の他のコンテンツとは異なる方法で設定できます。
+seo-title: CSSを使用して重点コンテンツのスタイルを設定
 solution: Experience Manager
-title: CSSをスタイル設定コンテンツに使用する
-uuid: c4ab648c- d81f-41b9-9773- ef919649cc46
+title: CSSを使用して重点コンテンツのスタイルを設定
+uuid: c4ab648c-d81f-41b9-9773-ef919649cc46
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# CSSをスタイル設定コンテンツに使用する{#use-css-to-style-featured-content}
+# CSSを使用して重点コンテンツのスタイルを設定{#use-css-to-style-featured-content}
 
-使用可能なCSSクラスを使用して、アプリ内の他のコンテンツとは異なるスタイル設定コンテンツをスタイル設定します。
+利用可能なCSSクラスを使用して、特集コンテンツのスタイルをアプリ内の他のコンテンツとは異なる方法で設定できます。
 
-すべてのコメントCSSクラスを特集コンテンツに適用することもできます。
+すべてのコメントCSSクラスは、重点コンテンツにも適用できます。
 
-以下のクラスを特集コンテンツで使用できます。
+重点コンテンツでは、以下のクラスを使用できます。
 
 | クラス | 説明 |
 |---|---|
-| . fyre- social- content- wrapper | 読者のコンテナdivです。 |
-| . fyre- features- header | 先頭のタイトルバー。 |
-| . fyre- features- header- icon | ヘッダーの四重アイコン。 |
-| . fyre- features- title | ヘッダーテキスト。 |
-| . fyre- feasures- body | 読者の特集コンテンツのコンテナdiv。 |
-| . fyre- feasures- quotes | 各コンテンツアイテムを開始する引用符。 |
+| .fyre-featured-content-wrapper | リーダーのコンテナdiv。 |
+| .fyre-featured-header | 先頭のタイトルバー。 |
+| .fyre-featured-header-icon | ヘッダーのクイルアイコン。 |
+| .fyre-featured-title | ヘッダーのテキストです。 |
+| .fyre-featured-body | 読者の特集コンテンツのコンテナdiv。 |
+| .fyre-featured-quote | 各コンテンツアイテムを開始する引用符アイコン。 |
 
