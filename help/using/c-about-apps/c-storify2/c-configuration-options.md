@@ -1,6 +1,6 @@
 ---
-description: Livefyre Studioから、Storify2のスタイル、表示およびユーザーアクションの設定オプションを選択します。
-seo-description: Livefyre Studioから、Storify2のスタイル、表示およびユーザーアクションの設定オプションを選択します。
+description: Livefyre studioからStorify 2の「スタイル」、「表示」、「ユーザーエンゲージメント」の設定オプションを選択します。
+seo-description: Livefyre studioからStorify 2の「スタイル」、「表示」、「ユーザーエンゲージメント」の設定オプションを選択します。
 seo-title: 設定オプション
 solution: Experience Manager
 title: 設定オプション
@@ -13,67 +13,67 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # 設定オプション{#configuration-options}
 
-Livefyre Studioから、Storify2のスタイル、表示およびユーザーアクションの設定オプションを選択します。
+Livefyre studioからStorify 2の「スタイル」、「表示」、「ユーザーエンゲージメント」の設定オプションを選択します。
 
 **スタイルオプション**
 
-* **[!UICONTROL Theme]** 
+* **[!UICONTROL Theme]**
 
-   Select **Light** or **Dark** to define the background color for your displayed content. この設定に変更を加えると、すぐにプレビューに反映されます。この設定により、アプリに対する背景、コンテンツテキスト、ユーザーハンドル、タイムスタンプ、共有ボタンおよびソーシャルアイコンのカラー選択が制御されます。
+   「明」ま **たは「暗** 」を選 **択して** 、表示するコンテンツの背景色を定義します。 この設定に対する変更は、すぐに右側のプレビューに反映されます。 この設定は、アプリの背景、コンテンツテキスト、ユーザーハンドル、タイムスタンプ、共有ボタンおよびソーシャルアイコンの色選択を制御します。
 
-* **[!UICONTROL Brand color]** 
+* **[!UICONTROL Brand color]**
 
-   アプリケーションの色を選択します。このカラーは、プレビューパネルに表示されるように、ハッシュタグ、URL、ユーザー名、@メンション、棒グラフなどのアプリ固有のコンポーネントに使用されます。
+   アプリの色を選択します。 この色は、右側のプレビューペインに表示される、ハッシュタグ、URL、ユーザー名、@メンション、棒グラフおよびその他のアプリ固有のコンポーネントに使用されます。
 
-* **[!UICONTROL Font family]** 
+* **[!UICONTROL Font family]**
 
-   アプリでユーザーが生成したコンテンツのフォントを選択します。GeorgiaまたはTimes New Romanを選択すると、そのフォントがコンテンツに割り当てられ、Helvetica Neueにユーザー名と表示名が割り当てられます。Helvetica、VerdanaまたはTrebuchetを選択すると、それらのフォントがコンテンツ、ユーザー名、表示名に割り当てられます。
+   アプリでユーザーが生成したコンテンツのフォントを選択します。 「Georgia」または「Times New Roman」を選択すると、そのフォントがコンテンツに割り当てられ、Helvetica Neueがユーザー名と表示名に割り当てられます。 「Helvetica」、「Verdana」または「Trebuchet」を選択すると、これらのフォントがコンテンツ、ユーザー名および表示名に割り当てられます。
 
-* **[!UICONTROL Posts appear in cards]** 
+* **[!UICONTROL Posts appear in cards]**
 
-   有効にした場合、投稿は周囲のボックス内に表示され、テーマ選択によって指定された背景色が決定されます。
+   有効にすると、投稿は周囲のボックス内に表示され、「テーマ」の選択によって指定された背景色が適用されます。
 
-* **[!UICONTROL Show header]** 
+* **[!UICONTROL Show header]**
 
-   有効にすると、ストーリーのヘッダー（並べ替えメニューとビューアの数）が表示されます。
+   有効にすると、ストーリーのヘッダー（並べ替えメニューおよび閲覧者数）が表示されます。
 
 **表示**
 
-* **[!UICONTROL Byline]** 
+* **[!UICONTROL Byline]**
 
-   有効にすると、元の発言者の名前を一覧表示するか、チーム名をストーリーのBylineとして表示するかを選択できます。
-
-   >[!NOTE]
-   >
-   >個々のBylineは、その後のエディターではなく、常にコンテンツの元の作成者を反映します。
-
-* **[!UICONTROL Byline type]** 
-
-   この **[!UICONTROL Byline]** オプションを有効にすると、次のプルダウンで表示するBylineのタイプを選択できます。チームのBylineまたは個々のByline。次の **[!UICONTROL Byline type]** フィールドを使用して、表示するテキストをbylineとして入力します。
+   有効にした場合、元の発言者の名前を表示するか、ストーリーの署名としてチーム名を表示するかを選択できます。
 
    >[!NOTE]
    >
-   >任意のStorify2エディターによるこの設定の最新の変更は、パブリケーションに反映されます。
+   >個々の署名は、コンテンツの元の作成者を常に反映し、後続のエディターは反映しません。
 
-* **[!UICONTROL Set time zone]** 
+* **[!UICONTROL Byline type]**
 
-   ストーリーに使用するタイムゾーンを選択できます。この場所は、ストーリー内のすべての投稿のタイムスタンプに使用されます。（エンドユーザーは、これがローカル時間に変換されますが、表示されるタイムスタンプの上にマウスポインターを置くと、ストーリーに設定されているタイムスタンプが表示されることがあります）。
+   を有効 **[!UICONTROL Byline]** にすると、表示する署名の種類を選択できます。チームの署名または個々の署名 下のフィールドを使用し **[!UICONTROL Byline type]** て、署名として表示するテキストを入力します。
 
-* **[!UICONTROL Load more posts]** 
+   >[!NOTE]
+   >
+   >Storify 2エディターによるこの設定に対する最新の変更は、パブリケーションに反映されます。
 
-   投稿をスクロールダウンするかどうかを選択します。ユーザーがスクロールダウンするか、表示ボタンを表示するかを選択します。
+* **[!UICONTROL Set time zone]**
 
-**[!UICONTROL User Engagement]** 
+   ストーリーに使用するタイムゾーンを選択できます。 この場所は、ストーリー内のすべての投稿にタイムスタンプを付けるために使用されます。 （エンドユーザーは、これをローカル時間に変換して表示しますが、表示されるタイムスタンプの上にマウスポインターを置くと、ストーリーのタイムスタンプセットが表示される場合があります）。
 
-* **[!UICONTROL Users may share posts]** 
+* **[!UICONTROL Load more posts]**
 
-   有効にすると、ユーザーは自分のストーリーをTwitterやFacebookに共有できます。共有の有効化について詳しくは、設定/統合設定/ソーシャルシェアを参照してください。
+   ユーザーがスクロールダウンして投稿を連続的に表示するか、「表示を増やす」ボタンを表示するかを選択します。
 
-* **[!UICONTROL Users may add sidenotes]** 
+**[!UICONTROL User Engagement]**
 
-   有効にすると、ユーザーは投稿にSideesを追加できます。
+* **[!UICONTROL Users may share posts]**
 
-* **[!UICONTROL Number of views]** 
+   有効にすると、ユーザーはストーリーをTwitterやFacebookで共有できます。 共有を有効にする方法について詳しくは、設定/統合設定/ソーシャルシェアを参照してください。
 
-   有効にした場合、ストーリーが表示された回数が表示されます。
+* **[!UICONTROL Users may add sidenotes]**
+
+   有効にすると、ユーザーは投稿にサインを追加できます。
+
+* **[!UICONTROL Number of views]**
+
+   有効にすると、ストーリーが表示された回数が表示されます。
 
