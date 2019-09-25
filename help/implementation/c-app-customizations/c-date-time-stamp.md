@@ -1,9 +1,9 @@
 ---
-description: Livefyre. jsを使用して、日付およびタイムスタンプをカスタマイズします。
-seo-description: Livefyre. jsを使用して、日付およびタイムスタンプをカスタマイズします。
-seo-title: 日付と時間のスタンプのカスタマイズ
+description: Livefyre.jsを使用して日付とタイムスタンプをカスタマイズします。
+seo-description: Livefyre.jsを使用して日付とタイムスタンプをカスタマイズします。
+seo-title: 日付とタイムスタンプのカスタマイズ
 solution: Experience Manager
-title: 日付と時間のスタンプのカスタマイズ
+title: 日付とタイムスタンプのカスタマイズ
 uuid: 632ea405-56b7-4664-8d2b-0dd0a7611bd8
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
@@ -11,29 +11,29 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 ---
 
 
-# 日付と時間のスタンプのカスタマイズ{#customize-the-date-and-time-stamp}
+# 日付とタイムスタンプのカスタマイズ{#customize-the-date-and-time-stamp}
 
-Livefyre. jsを使用して、日付およびタイムスタンプをカスタマイズします。
+Livefyre.jsを使用して日付とタイムスタンプをカスタマイズします。
 
-Livefyreアプリでは、以下に説明するように、&quot;dateTimeFormat&quot;オプションを指定して日付形式を指定します。
+Livefyre Appsには、以下に説明するように日付形式を指定するオプションパラメーターdatetimeFormatが用意されています。
 
 * [用語](#c_date_time_stamp/section_xsk_jn4_xz)
-* [フォーマット](#c_date_time_stamp/section_ynx_gn4_xz)
-* [シンボルの指定](#c_date_time_stamp/section_inq_2n4_xz)
+* [形式](#c_date_time_stamp/section_ynx_gn4_xz)
+* [記号指定](#c_date_time_stamp/section_inq_2n4_xz)
 
 ## 用語 {#section_xsk_jn4_xz}
 
-* **絶対タイムスタンプ** は、正確で特定の時刻として定義されます（例:2012年1月1日、2012年1月1日）
-* **相対タイムスタンプ** は、一般的および精度の低い時刻として定義されています（例:25秒前、14分前、1日前、1年前など）。
+* **絶対タイムスタンプ** は、正確で具体的な時刻として定義されます（例：2012年1月1日午後12時）。
+* **相対タイムスタンプ** は、一般的で精度の低い時間（例：25秒前、14分前、1日前、1年前など）と定義されます。
 
-## フォーマット {#section_ynx_gn4_xz}
+## 形式 {#section_ynx_gn4_xz}
 
-引数が指定されていない場合、DateTimeFormatパラメーターには次のデフォルトの動作があります。
+引数が指定されない場合、datetimeFormatパラメーターは次のデフォルト動作を持ちます。
 
-* 日付形式:MMMM d yyyy（2012年1月8日）
-* 20160分（14日）（相対タイムスタンプが絶対タイムスタンプになるまで14日）
+* 日付の形式：yyyy年MMMM d（2012年1月8日）
+* 絶対時間（相対タイムスタンプが絶対タイムスタンプになるまで14日）までの20160分（14日）
 
-dateTimeFormatパラメーターでは、次の3つの引数タイプを使用できます。datetime、formatおよびstring。
+datetimeFormatパラメーターは、次の3つの引数型を受け付けます。datetime、formatおよびstring。
 
 ```
 // Example 1 (Datetime format string)  
@@ -48,7 +48,7 @@ var convConfig = {
 var conv = fyre.conv.load(networkConfig, [convConfig]);
 ```
 
-AbsoluteFormatおよびminuteUntilabtSolteTimeを指定するオブジェクトです。値-1のminuteUntilableTimeは、時間を絶対時間にします。
+absoluteFormatまたはminutesUntilAbsoluteTimeを指定するオブジェクトです。 値が —1のminutesUntilAbsoluteTimeは、時間の絶対時間を即時にします。
 
 ```
 // Example 2 (Object)  
@@ -66,7 +66,7 @@ var convConfig = {
 var conv = fyre.conv.load(networkConfig, [convConfig]);
 ```
 
-引数としてDateオブジェクトを受け取り、表示するdateTime文字列を返す関数
+Dateオブジェクトを引数として受け取り、表示する日時文字列を返す関数です
 
 ```
 // Example 3 (Function accepting a Date object, returning a datetime string to display) 
@@ -83,9 +83,9 @@ var convConfig = {
 var conv = fyre.conv.load(networkConfig, [convConfig]);
 ```
 
-## シンボルの指定 {#section_inq_2n4_xz}
+## 記号指定 {#section_inq_2n4_xz}
 
-JDK、CUCおよびCLDRで定義されているパターン仕様の後の日付形式関数。JSで一般的な使用方法を若干変更します。詳しくは [、Google Closure Libraryドキュメント](https://developers.google.com/closure/library/docs/overview)を参照してください。
+JDK、ICU、CLDRで定義されているパターン仕様に従う日時の書式設定関数。JSでの一般的な使用方法に対しては、若干の変更が加えられています。 詳しくは、 [Google Closure Library Documentationを参照してください](https://developers.google.com/closure/library/docs/overview)。
 
 ```
   Symbol Meaning Presentation        Example 
@@ -119,14 +119,14 @@ JDK、CUCおよびCLDRで定義されているパターン仕様の後の日付�
   ''       single quote            (Literal)           'o''clock'
 ```
 
-&quot;*&quot;のマークが付いている項目はまだサポートされていません。
+「*」のマークが付いた項目は、まだサポートされていません。
 
-&quot;#&quot;のマークが付いている項目は、Javaとは異なります。
+「#」でマークされた項目は、Javaとは異なる動作をします。
 
-パターンレターの数によって形式が決まります。
+パターン文字の数によって形式が決まります。
 
-* **テキスト:** 4つ以上の場合は、フルフォームを使用します。4より小さい場合は、短い形式または省略形のフォームが存在します。（例:&quot;EEEE&quot;は「月曜」を生成し、&quot;EEE&quot;は&quot;Mon&quot;を生成します。
-* **数値:** 小数点以上の桁数。この金額には、短い数値を入力します（例:&quot;m&quot;が&quot;6&quot;を生成する場合、&quot;mm&quot;は&quot;06&quot;を生成します。年は特別に処理されます。つまり、&quot;y&quot;の数が2の場合、年は2桁に切り捨てられます。（例:&quot;yyyy&quot;が&quot;1997&quot;を生成する場合、&quot;yy&quot;は&quot;97&quot;を生成します。他のフィールドとは異なり、小数部はゼロで埋められます。
-* **テキスト番号:** 3以上の場合は、テキストを使用します。3未満の数値。（例:&quot;M&quot;は&quot;1&quot;、&quot;MM&quot;は&quot;01&quot;、&quot;MMM&quot;は&quot;Jan&quot;、&quot;MMMM&quot;は&quot;January&quot;を生成します。
+* **** テキスト：4つ以上のフォームを使用します。 4未満の場合は、短い形式または短い形式を使用します（存在する場合）。 (例：「EEE」は「Monday」を生成し、「EEE」は「Mon」を生成します。)
+* **** 番号：最小桁数。 数値が小さいほど、この金額にゼロパディングされます(例：「m」の場合は「6」、「mm」の場合は「06」になります。) 年は特別に扱われる。つまり、「y」の数が2の場合、年は2桁に切り捨てられます。 (例：「yyyy」の場合は「1997」、「yy」の場合は「97」になります。)他のフィールドとは異なり、秒の小数部は右側にゼロで埋め込まれます。
+* **** テキストと番号：3回以上はテキストを使用します。 3未満の場合は、numberを使用します。 (例：「M」は「1」、「MM」は「01」、「MMM」は「Jan」、「MMM」は「January」を生成します。)
 
-&quot;a&quot;の [範囲にないパターンの文字。&#39;zと] &quot;A [」.&#39;Zは] 引用符で囲まれたテキストとして扱われます。例えば、&#39;:などの文字。&#39;，&#39;.「，」、&quot;#&quot;および&quot;@&quot;は、結果の時間テキストには一重引用符で囲まれずに表示されます。
+パターン内の「 [a」。..以外の文字zと] ‘ [A’..’Zは引用符で囲ま] れたテキストとして扱われます。 例えば、「:」、「。」、「,」、「@」などの文字は、一重引用符で囲まれていない場合でも、結果の時間テキストに表示されます。
