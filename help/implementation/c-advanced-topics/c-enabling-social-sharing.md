@@ -1,10 +1,10 @@
 ---
-description: ユーザーがコンテンツを様々なソーシャルネットワークに共有できるようにする資格情報を設定します。
-seo-description: ユーザーがコンテンツを様々なソーシャルネットワークに共有できるようにする資格情報を設定します。
+description: ユーザーが様々なソーシャルネットワークとコンテンツを共有できる資格情報を設定します。
+seo-description: ユーザーが様々なソーシャルネットワークとコンテンツを共有できる資格情報を設定します。
 seo-title: ソーシャルシェアを有効にする
 solution: Experience Manager
 title: ソーシャルシェアを有効にする
-uuid: f584a0ae-46c7-48c1- aea4-36da9f1e259b
+uuid: f584a0ae-46c7-48c1-aea4-36da9f1e259b
 translation-type: tm+mt
 source-git-commit: d77b633b9892e3ea4aaec860317887f1fdf66830
 
@@ -13,72 +13,72 @@ source-git-commit: d77b633b9892e3ea4aaec860317887f1fdf66830
 
 # ソーシャルシェアを有効にする {#enabling-social-sharing}
 
-ユーザーがコンテンツを様々なソーシャルネットワークに共有できるようにする資格情報を設定します。
+ユーザーが様々なソーシャルネットワークとコンテンツを共有できる資格情報を設定します。
 
-ソーシャルメディアサイト全体でコンテンツを共有できるようにするには、Livefyreのソーシャルシェア機能を実装し、これらのサイトに適切な認証を提供するOAuthシステムを作成します。このシステムでは、ソーシャルメディアを通じてコンテンツを共有することを選択すると、Livefyreがユーザーに代わって動作します。
-
->[!NOTE]
->
->異なるプロバイダーのOAuth要件が異なります。OAuthの実装に関連する情報を入手するには、プロバイダにご相談ください。
-
-## 必須のソーシャル資格情報 {#section_gff_cjm_b1b}
-
-カスタムユーザーIDシステムを使用する場合、ユーザーがLivefyreアプリからTwitter、FacebookまたはLinkedInと共有できるようにするには、ソーシャル資格情報を提供する必要があります。
+ユーザーがソーシャルメディアサイト間でコンテンツを共有できるようにするには、Livefyreのソーシャルシェア機能を実装し、OAuthシステムを作成して、これらのサイトに適切な認証を提供します。 このシステムを使用すると、Livefyreは、ソーシャルメディアを介してコンテンツを共有することを選択した場合に、ユーザーの代わりに動作します。
 
 >[!NOTE]
 >
->Janrain Engingを使用しているお客様は、自社のエンゲージメントドメインと&quot;APIキー」のみを提供する必要があります。
+>プロバイダーごとにOAuthの要件が異なります。 プロバイダーに問い合わせて、OAuthの実装に関連する情報を取得してください。
 
-管理コンソールの統合設定パネルを使用して、次のソーシャル資格情報を入力または更新します。
+## 必要なソーシャル資格情報 {#section_gff_cjm_b1b}
 
-### 必須資格情報:
+カスタムユーザーIDシステムを使用する場合は、ソーシャル資格情報を指定して、LivefyreアプリからTwitter、FacebookまたはLinkedInとユーザーが共有できるようにする必要があります。
 
-* **Facebook** クライアントIDクライアントシークレットOAuthプロキシリダイレクト
-* **LinkedIn** APIキーAPIシークレット
-* **Twitter** アクセストークンアクセストークンシークレットAPIキーAPIシークレット
+>[!NOTE]
+>
+>Janrain Engageを使用するお客様は、エンゲージメントドメインとエンゲージメントAPIキーの提供のみが必要です。
+
+管理コンソールの統合設定パネルを使用して、次のソーシャル秘密鍵証明書を入力または更新します。
+
+### 必要な資格情報：
+
+* **Facebook** Client ID Client Secret OAuthプロキシリダイレクト
+* **LinkedIn** API Key APIシークレット
+* **Twitter** Access Token Access Token Secret API Key APIシークレット
 
 ## Twitter {#section_qp5_1yl_b1b}
 
-Twitterの資格情報は、Twitter App Dashboardから利用できます。これらの資格情報を見つけるには:
+Twitterの資格情報は、Twitterアプリケーションダッシュボードから入手できます。 これらの資格情報を検索するには：
 
-* [Twitterのアプリ開発ページ](https://dev.twitter.com/apps) をアプリ所有者として開き、アプリを見つけて、タイトルをクリックします。
-* 「アクセストークン」まで下にスクロールし、「アクセストークン」および「アクセストークンシークレット」から値を取得します。
+* Twitterのアプ [リケーション開発ページを開き](https://dev.twitter.com/apps) 、アプリの所有者としてアプリを探し、タイトルをクリックします。
+* 「Your access token」まで下にスクロールし、「Access token」と「Access token secret」の値を取得します。
 
-次のように指定する必要があります。
+次の操作が必要です。
 
-* Twitterアプリの「コールバックURL&quot;フィールドに値を入力します。このフィールドは単純なプレースホルダーにすることができますが、空白のままにすることはできません。
-* アプリケーションの種類を読み取りおよび ******書き込み** アクセスの両方に設定します。
-* Twitter AppのWebサイトURLがLivefyre Coreアプリと同じホストドメインにあることを確認します。
+* Twitterアプリの「コールバックURL」フィールドに値を入力します。 このフィールドは単純なプレースホルダーである場合もありますが、空白にすることはできません。
+* 読み取りと書き込みの両方のアクセス権を持つアプリ **ケーション** ・タイプ **を設定** 。
+* TwitterアプリのWebサイトのURLが、Livefyre coreアプリと同じホストドメインにあることを確認します。
 
 >[!NOTE]
 >
->Twitterコンテンツを表示するすべてのアプリは、表示要件に従うために必要です。詳しくは [、Twitterの表示ガイドライン](https://dev.twitter.com/terms/display-requirements) を参照してください。
+>Twitterコンテンツを表示するアプリは、すべて、表示要件に従う必要があります。 詳しくは、 [Twitter表示のガイドライン](https://dev.twitter.com/terms/display-requirements) （英語のみ）を参照してください。
 
 ## LinkedIn {#section_lfz_zxl_b1b}
 
-LinkedIn資格情報は、LinkedInアプリケーションのAPIキーの&quot;OAuthキー」セクションから利用できます。
+LinkedIn資格情報は、LinkedInアプリケーションのAPIキーのOAuth keysセクションから利用できます。
 
-* LinkedInの開発者ページ [https://developer.linkedin.com/からアカウントにサインイン](https://developer.linkedin.com/)します。
-* 右上の名前にマウスポインターを置き、ドロップダウンメニューから&quot;APIキー」を選択します。
-* アプリケーションのタイトルをクリックします。
-* &quot;OAuthキー」セクションからAPIキーおよびシークレットキーの値を取得します
+* LinkedInの開発者ページhttps://developer.linkedin.com/からアカウントにサインインし [ます](https://developer.linkedin.com/)。
+* 右上の名前の上にマウスポインターを置き、ドロップダウンメニューから「APIキー」を選択します。
+* 「Application」タイトルをクリックします。
+* OAuth keysセクションからAPIキーと秘密キーの値を取得します
 
 ## Facebook {#section_zyb_gpl_b1b}
 
-Facebook資格情報は、開発者用アプリページから入手できます。
+Facebookの資格情報は、開発者用アプリページから入手できます。
 
-* [Facebookの開発者アプリページをアプリの所有者](https://developers.facebook.com/apps) として開き、アプリを見つけて、タイトルをクリックします。
-* アプリIDとアプリシークレットの値を取得します。アプリシークレットの場合は、「表示」ボタンをクリックして表示する必要があります。
+* アプリ [の所有者としてFacebookの開発者用アプリページを開き](https://developers.facebook.com/apps) 、アプリを探して、タイトルをクリックします。
+* アプリIDとアプリシークレットの値を取得します。 「App Secret」の場合は、「表示」ボタンをクリックして表示する必要があります。
 
-Facebookへの共有には、Facebookリクエストを行うためのリダイレクトページを設定し、 [Facebookに必要なドメインプラクティスに従っている必要](https://developers.facebook.com/docs/reference/dialogs/oauth/)があります。ページをドメイン上でホストする必要があるので、Facebookは、そのリクエストが正当なソースから来たことを確認できるようにします。
+Facebookに共有するには、Facebookリクエストを受け取るリダイレクトページを設定し、 [Facebookが必要とするドメインプラクティスに従う必要があります](https://developers.facebook.com/docs/reference/dialogs/oauth/)。 Facebookが正当なソースからのリクエストであることを確認できるように、ページはドメインでホストする必要があります。
 
 ### Facebookリダイレクト
 
-ホストされているページには次のコードが含まれている必要があります。
+ホストされるページには、次のコードを含める必要があります。
 
-### ルビ
+### Ruby
 
-これは、RubyとRailを使用してFacebook OAuthリダイレクトを行う例です。
+これは、RubyとRailsを使用してFacebook OAuthリダイレクトを行う例です。
 
 ```ruby
 require "base64" 
@@ -115,7 +115,7 @@ end
 
 ### Python
 
-これは、Facebook OAuthリダイレクトを行うPythonおよびDjangoを使用する例です。
+これは、PythonとDjangoを使用してFacebook OAuthリダイレクトを行う例です。
 
 ```python
 import base64, re 
@@ -157,7 +157,7 @@ def handle_lfoauth(request):
 
 ### NodeJS
 
-これは、NodeJSおよびTort/Expressを使用してFacebook OAuthリダイレクトを行う例です。
+これは、NodeJSとSail/Expressを使用してFacebook OAuthリダイレクトを行う例です。
 
 ```nodejs
 /* 
@@ -202,7 +202,7 @@ module.exports = {
 
 ### Java
 
-これは、JavaおよびSpringコントローラーを使用してFacebook OAuthリダイレクトを実行する例です。
+これは、JavaおよびSpringコントローラーを使用してFacebook OAuthリダイレクトを行う例です。
 
 ```java
 /* 
@@ -329,9 +329,9 @@ if (isset($_GET['lfoauth'])) {
 ?>
 ```
 
-## 「投稿」プロバイダーの設定 {#section_rdk_dpl_b1b}
+## 「投稿先」プロバイダーの設定 {#section_rdk_dpl_b1b}
 
-デフォルトでは、Facebook、LinkedInおよびTwitterの「投稿先」ボタンがLivefyreコアアプリケーションに表示されます。postToButtonsパラメーターを使用して、Livefyreアプリケーションを埋め込むときに表示するプロバイダーを設定します。
+デフォルトでは、Facebook、LinkedInおよびTwitterの「投稿先」ボタンがLivefyre coreアプリケーションに表示されます。 postToButtonsパラメーターを使用して、Livefyreアプリを埋め込むときに表示するプロバイダーを設定します。
 
 ```
 var convConfig = {}; // Ignoring other options for this example 
