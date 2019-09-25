@@ -1,10 +1,10 @@
 ---
-description: サイトにStorify2を公開します。
-seo-description: サイトにStorify2を公開します。
+description: Storify 2をサイトに公開します。
+seo-description: Storify 2をサイトに公開します。
 seo-title: ストーリーの投稿
 solution: Experience Manager
 title: ストーリーの投稿
-uuid: 2fbf0ab3- ae59-4cd-8a4d- e076bb5e477a
+uuid: 2fbf0ab3-ae59-4dac-8a4d-e076bb5e477a
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,13 +13,13 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # ストーリーの投稿{#publish-a-story}
 
-サイトにStorify2を公開します。
+Storify 2をサイトに公開します。
 
-設定オプションに変更を加えると、Studioは自動的にアプリを保存します。
+Studioは、設定オプションに変更が加えられた後、自動的にアプリを保存します。
 
 >[!NOTE]
 >
->クリック **[!UICONTROL Publish]** すると、アプリケーションの埋め込みコードが生成され、以前に発行した場合はアプリケーションのすべての既存インスタンスが更新されます。
+>をクリック **[!UICONTROL Publish]** すると、アプリの埋め込みコードが生成され、以前に公開されている場合は、アプリの既存のインスタンスがすべて更新されます。
 
-1. をクリック **[!UICONTROL Publish]** して埋め込みコードを生成したり、現在公開されているバージョンのアプリケーションを最新バージョンで更新したりします。
-1. ページに埋め込みコードを追加して、アプリを追加し、以前に公開したコンテンツを表示します。
+1. 埋め込み **[!UICONTROL Publish]** コードを生成する場合、またはこのアプリの以前に公開したバージョンを現在のバージョンで更新する場合にクリックします。
+1. ページに埋め込みコードを追加して、アプリを追加し、以前に公開されたコンテンツを表示します。
