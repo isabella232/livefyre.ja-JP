@@ -4,7 +4,7 @@ seo-description: 'null'
 seo-title: Livefyre Analyticsイベント
 solution: Experience Manager
 title: Livefyre Analyticsイベント
-uuid: 4eb5a196- ca33-40f8- a96d- ed46469223de
+uuid: 4eb5a196-ca33-40f8-a96d-ed46469223de
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,9 +13,9 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Livefyre Analyticsイベント {#livefyre-analytics-events}
 
-## イベントオブジェクト定義 {#section_dh1_yhn_pdb}
+## イベントオブジェクトの定義 {#section_dh1_yhn_pdb}
 
-次のコードは、ページ上のAnalyticsハンドラーによって受信されるイベントオブジェクトのフィールドを定義します。
+次のコードは、ページ上のAnalyticsハンドラーが受け取るイベントオブジェクトのフィールドを定義します。
 
 ```
 {
@@ -42,62 +42,62 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 }
 ```
 
-## Livefyre AnalyticsイベントおよびeVar {#section_u3k_tft_mcb}
+## Livefyre AnalyticsイベントとeVar {#section_u3k_tft_mcb}
 
-Report Suite Managerを使用してレポートで使用するカスタムイベントにマップするLivefyreイベント。Adobe Analyticsのレポートスイートについて詳しくは [、Report Suite Manager](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)を参照してください。Report Suite ManagerでLivefyreイベントを使用する方法について [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb)詳しくは、を参照してください。
+Report Suite Managerを使用したレポートで使用するカスタムイベントにマッピングするLivefyreイベントを次に示します。 Adobe Analyticsのレポートスイートについて詳しくは、Report Suite Managerを [参照してください](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)。 Report Suite ManagerでLivefyreイベントを使用する方法について詳しくは、を参照してくださ [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb)い。
 
 ## Livefyre Analyticsイベント
 
 | イベント | 説明 |
 |---|---|
-| Init | 少なくとも1つのLivefyreアプリケーションを含むページが読み込まれる場合 |
-| Load | ユーザー表示に関係なく、ページにアプリが読み込まれたとき |
+| Init | 少なくとも1つのLivefyreアプリを含むページが読み込まれたとき |
+| ロード | ユーザービューに関係なく、アプリがページに読み込まれた時間 |
 | 表示 | アプリが初めてビューポートに入ったとき。 |
-| Post | ユーザーがコメントまたはコンテンツの一部を投稿するときは、いつでも投稿を投稿できます。トップレベルの投稿，返信，レビュー，メディアウォールのアップロード |
+| 投稿 | ユーザーがコメントやコンテンツの一部(例：最上位レベルの投稿，返信，レビュー，メディアウォールのアップロード |
 | 投稿済み | 投稿が正常に完了したとき。 |
-| Twitter_ Reply | Twitterでユーザーが返信した時間 |
-| Twitter_ Like | コンテンツが共有された場所:リツイート |
-| Livefyre_ Like | アプリケーションでのLIivefyreの機能の使用 |
-| Livefyre_ Different | ユーザーが「いいね!&quot;を取り消したときの「いいね!&quot;の取り消し |
-| shareOnPost | ユーザーがコンテンツを投稿して投稿機能で共有を使用するたび |
-| ShareButtonClick | ユーザーがコメントの共有ボタンをクリックするたびに |
-| ShareTwitter | Twitterで共有をクリックしたとき |
-| ShareFacebook | &quot;Facebookで共有」がクリックされたとき |
-| shareURL | &quot;URLで共有」テキスト領域が選択/コピーされたとき。 |
-| expandReplies | ユーザーが&quot;+&quot;または「展開」リンクをクリックすると、上位レベルの投稿に対するすべての返信が表示されます |
-| collapseLeilies | ユーザーが-または折りたたみリンクをクリックして最上位レベルの投稿上のすべての返信を表示するとき |
-| flagClick | ユーザーがフラグモーダルを開くたびに |
-| flagスパム | ユーザーがコンテンツをスパムとしてフラグ付けする場合 |
-| flagInfix | ユーザーがコンテンツに同意しない場合 |
-| フラグ付き攻撃 | ユーザーがコンテンツに不快なフラグを付けたとき |
-| flagOffTopic | ユーザーがコンテンツをトピックとしてフラグ付けしたとき |
-| flagCancel | フラグを送信するときにユーザーがXまたは「キャンセル」をクリックしたとき |
-| followCollection | 会話にはいつでも入ります（レビューでは&quot;I&#39;m relite&quot;&quot;）。 |
-| unfollowCollection | 会話の後に |
-| requestMore | ユーザーがアプリケーションにより多くのコンテンツをロードしたとき（高速度にするために必要） |
-| modalView | ユーザーがモーダルでコンテンツを表示するときにいつでもクリック |
-| TwitterResetTweetClick | コンテンツが共有された場所:リツイート |
-| postButtonClick | ユーザーが投稿をクリックすると（&quot;Whats（お客様の心）」）。」）ボタン |
-| ログイン | ユーザーがログインしたときにいつでも |
-| ログアウト | ユーザーがログアウトしたときのいつでも |
+| Twitter_Reply | ユーザーがTwitterで返信したとき |
+| Twitter_Like | コンテンツの共有先：リツイート |
+| Livefyre_Like | アプリでlivefyreの「いいね！」機能が使用されるたび |
+| Livefyre_Inlike | ユーザーがLivefyreの「いいね！」を取り消すたびに、 |
+| ShareOnPost | ユーザーがコンテンツを投稿し、投稿時に共有機能を使用するたび |
+| ShareButtonClick | ユーザーがコメントの共有ボタンをクリックするたび |
+| ShareTwitter | 「Twitterで共有」をクリックした場合 |
+| ShareFacebook | 「Facebookで共有」をクリックした場合 |
+| ShareURL | 「URLに共有」テキスト領域が選択またはコピーされている場合。 |
+| ExpandReplies | ユーザーが「+」または「展開」リンクをクリックして、最上位の投稿のすべての返信を表示したとき |
+| CollapseReplies | ユーザーが「 — 」または「折りたたみ」リンクをクリックして、最上位の投稿のすべての返信を表示したとき |
+| FlagClick | ユーザーがフラグモーダルを開くたびに |
+| FlagSpam | ユーザーがコンテンツにスパムのフラグを付けたとき |
+| FlagDisagree | ユーザーが内容に異議のフラグを付けた場合 |
+| FlagOffense | ユーザーがコンテンツに不快なフラグを付けたとき |
+| FlagOffTopic | ユーザーがコンテンツにトピック以外のフラグを付けたとき |
+| FlagCancel | ユーザーがフラグを送信する際にXまたは「キャンセル」をクリックしたとき |
+| FollowCollection | 会話がフォローされるたびに（レビューで「興味がある」） |
+| UnfollowCollection | 会話がフォローされない場合 |
+| RequestMore | ユーザーがアプリにより多くのコンテンツを読み込んだとき（高速度のためにも必要） |
+| ModalView | ユーザーがクリックしてモーダルなコンテンツを表示するとき |
+| TwitterRetweetClick | コンテンツの共有先：リツイート |
+| PostButtonClick | ユーザーが投稿をクリックしたとき（「何を考えていますか？」）。ボタン |
+| ログイン | ユーザーがログインしたとき |
+| ログアウト | ユーザーがログアウトしたとき |
 
-Livefyreが提供するコンバージョン変数（eVar）のリストを次に示します。
+Livefyreが提供するコンバージョン変数(eVar)のリストを次に示します。
 
-## コンバージョン変数- eVar
+## コンバージョン変数 — eVar
 
 | イベント | 説明 |
 |--- |--- |
 | ネットワークID | LivefyreのネットワークID/名前 |
-| アプリID | アプリケーションの終了 |
+| アプリケーション ID | アプリのURN |
 | コンテキストID | LivefyreのコンテンツID |
-| アプリケーションのタイプ | Livefyreアプリケーションのタイプオプション: <br><ul><li>Live Blog  </li><li> Feature Card</li><li>カルーセル</li><li>チャット </li><li>コメント</li><li>フィルムストリップ</li><li>マップ</li><li>モザイク</li><li>メディアウォール</li><li>トレンド</li><li>アップロードボタン</li></ul> |
-| コンテンツタイプ | Instagram、Twitter、Facebook、Livefyre、YouTubeなど |
+| アプリの種類 | Livefyreアプリのタイプを参照してください。 オプション: <br><ul><li>ライブブログ  </li><li> 機能カード</li><li>カルーセル</li><li>チャット </li><li>コメント</li><li>Filmstrip</li><li>マップ</li><li>モザイク</li><li>メディアウォール</li><li>トレンド</li><li>アップロードボタン</li></ul> |
+| コンテンツタイプ | Instagram、Twitter、Facebook、LiveFyre、YouTubeなど |
 
 ## 詳細情報 {#section_b3d_4yl_pdb}
 
-このページで説明するトピックについて詳しくは、以下を参照してください。
+このページで説明するトピックの詳細については、次を参照してください。
 
-* [Report Suite ManagerDTM](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)[](https://marketing.adobe.com/resources/help/en_US/livefyre/c_filmstrip_app.html)
+* [Report Suite](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)[ManagerDTM](https://marketing.adobe.com/resources/help/en_US/livefyre/c_filmstrip_app.html)
 
 * [ルール](https://marketing.adobe.com/resources/help/en_US/dtm/rules.html)
-* [Livefyre. js](/help/implementation/c-livefyre.js.md)
+* [Livefyre.js](/help/implementation/c-livefyre.js.md)
