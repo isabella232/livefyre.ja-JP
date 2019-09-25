@@ -1,9 +1,9 @@
 ---
-description: サイト訪問者がアプリとどのようにやり取りするか、およびコンテンツとのやり取り方法を選択します。
-seo-description: サイト訪問者がアプリとどのようにやり取りするか、およびコンテンツとのやり取り方法を選択します。
-seo-title: オンサイト貢献度の機能
+description: サイト訪問者がアプリとどのようにやり取りするか、およびコンテンツとどのようなやり取りができるかを選択します。
+seo-description: サイト訪問者がアプリとどのようにやり取りするか、およびコンテンツとどのようなやり取りができるかを選択します。
+seo-title: オンサイト貢献度機能
 solution: Experience Manager
-title: オンサイト貢献度の機能
+title: オンサイト貢献度機能
 uuid: 1f441490-28eb-4fc4-9fe8-0879c62c4b4a
 translation-type: tm+mt
 source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
@@ -11,70 +11,70 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 ---
 
 
-# オンサイト貢献度の機能{#on-site-contribution-features}
+# オンサイト貢献度機能{#on-site-contribution-features}
 
-サイト訪問者がアプリとどのようにやり取りするか、およびコンテンツとのやり取り方法を選択します。
+サイト訪問者がアプリとどのようにやり取りするか、およびコンテンツとどのようなやり取りができるかを選択します。
 
 ## 投票貢献度 {#section_tdg_zsr_d1b}
 
-エンドユーザーが投票に投票する機能を追加できます。サイト訪問者が投票して投票を行うために、ページにポールを埋め込みます。
+エンドユーザーが投票で投票する機能を追加できます。 サイト訪問者が投票に貢献できるように、調査をページに埋め込みます。
 
 この機能を使用するために認証を設定する必要はありません。
 
-この機能を使用するアプリ:
+この機能を使用するアプリ：
 
-* [ポール](../c-about-apps/c-polls-app/c-polls-app.md#c_polls_app)
+* [投票](../c-about-apps/c-polls-app/c-polls-app.md#c_polls_app)
 
 ## テキストのアップロード {#section_pwy_m2s_d1b}
 
-サイト訪問者は、テキスト投稿を書いてアプリに寄稿できます。これは、コンバージョンアプリまたはビジュアライゼーションアプリの「アップロード」ボタンを使用して行うことができます。
+サイトの訪問者は、テキスト投稿を記述することで、アプリに貢献できます。 これは、会話アプリまたはビジュアライゼーションアプリの「アップロード」ボタンを使用して行うことができます。
 
 この機能を使用するには、認証を設定する必要があります。
 
-この機能を使用するアプリ:
+この機能を使用するアプリ：
 
 * [チャット](../c-about-apps/c-chat-app/c-chat-app.md#c_chat_app)
-* [コメント](/help/using/c-about-apps/c-comments/c-comments.md)
-* [ポール](../c-about-apps/c-polls-app/c-polls-app.md#c_polls_app)
+* [Comments](/help/using/c-about-apps/c-comments/c-comments.md)
+* [投票](../c-about-apps/c-polls-app/c-polls-app.md#c_polls_app)
 * [レビュー](../c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
-* [Ssiindes](../c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
-* [Storify2](../c-about-apps/c-storify2/c-storify2.md#c_storify2)
+* [サイデン](../c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
+* [Storify 2](../c-about-apps/c-storify2/c-storify2.md#c_storify2)
 * [アップロードボタン](../c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
 
-## ビデオアップロード {#section_mlm_42s_d1b}
+## ビデオのアップロード {#section_mlm_42s_d1b}
 
-サイト訪問者は、ビデオをアップロードしてアプリに寄稿できます。これは、視覚化アプリのための会話アプリまたは「アップロードボタン」を使用して行うことができます。アプリケーションがこの機能をサポートしているかどうかについて詳しくは、個々のアプリのドキュメントを参照してください。認証が必要
+サイトの訪問者は、ビデオをアップロードすることで、アプリに貢献できます。 これは、会話アプリまたはビジュアライゼーションアプリの「アップロードボタン」を使用して行うことができます。 アプリがこの機能をサポートしているかどうかについて詳しくは、個々のアプリのドキュメントを参照してください。 認証が必要です
 
 この機能を使用するには、認証を設定する必要があります。
 
-この機能を使用するアプリ:
+この機能を使用するアプリ：
 
 * [アップロードボタン](../c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
 
 ## アップロードボタン互換 {#section_vzs_t2s_d1b}
 
-アプリに「アップロード」ボタンを表示して、サイト訪問者がテキストまたはメディアをアプリまたはライブラリにアップロードできるようにすることができます。
+アプリに「アップロード」ボタンを表示するように選択して、サイトの訪問者がテキストやメディアをアプリまたはライブラリにアップロードできるようにします。
 
-トレンド、調査およびStorify2は、アップロードボタンと互換性がありません。
+「トレンド」、「ポーリング」、「Storify 2」は、「アップロード」ボタンと互換性がありません。
 
 この機能を使用するには、認証を設定する必要があります。
 
-この機能を使用するアプリ:
+この機能を使用するアプリ：
 
 * [カルーセル](../c-about-apps/c-carousel-app/c-carousel-app.md#c_carousel_app)
 * [チャット](../c-about-apps/c-chat-app/c-chat-app.md#c_chat_app)
-* [コメント](/help/using/c-about-apps/c-comments/c-comments.md)
-* [Feature Card](../c-about-apps/c-feature-card-app/c-feature-card-app.md#c_feature_card_app)
+* [Comments](/help/using/c-about-apps/c-comments/c-comments.md)
+* [機能カード](../c-about-apps/c-feature-card-app/c-feature-card-app.md#c_feature_card_app)
 * [マップ](../c-about-apps/c-map-app/c-map-app.md#c_map_app)
 * [メディアウォール](../c-about-apps/c-media-wall-app/c-media-wall-app.md#c_media_wall_app)
 * [モザイク](../c-about-apps/c-mosaic-app/c-mosaic-app.md#c_mosaic_app)
-* [Ssiindes](../c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
+* [サイデン](../c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 
 ## ユーザーの結果 {#section_azw_dx4_h1b}
 
-ユーザーが投票で各回答を選択した回数を表示します。
+投票でユーザーが各回答を選択した回数を表示します。
 
-この機能を使用するアプリ:
+この機能を使用するアプリ：
 
-* [ポール](../c-about-apps/c-polls-app/c-polls-app.md#c_polls_app)
+* [投票](../c-about-apps/c-polls-app/c-polls-app.md#c_polls_app)
 
