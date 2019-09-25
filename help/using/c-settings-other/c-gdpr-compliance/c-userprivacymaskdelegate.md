@@ -1,27 +1,27 @@
 ---
-description: ビデオマスクに表示される警告テキストを変更できます。
-seo-description: ビデオマスクに表示される警告テキストを変更できます。
-seo-title: UserPrivacyMaskDelegate
+description: ビデオマスクに表示される警告テキストは、を使用して変更できます。
+seo-description: ビデオマスクに表示される警告テキストは、を使用して変更できます。
+seo-title: userPrivacyMaskDelegate
 solution: Experience Manager
-title: UserPrivacyMaskDelegate
-uuid: 8e5a2750- bf45-4e70- a5f9-37f5e7c61f8e
+title: userPrivacyMaskDelegate
+uuid: 8e5a2750-bf45-4e70-a5f9-37f5e7c61f8e
 translation-type: tm+mt
-source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
+source-git-commit: 9e01dd4515c01154e3566a39b367b8efa4ec082a
 
 ---
 
 
-# UserPrivacyMaskDelegate{#userprivacymaskdelegate}
+# userPrivacyMaskDelegate{#userprivacymaskdelegate}
 
-ビデオマスクに表示される警告テキストを変更できます。
+ビデオマスクに表示される警告テキストは、を使用して変更できます。
 
-GDPR規則に準拠するためにこのテキストが存在します。ソースがプロキシをサポートしていない場合、ユーザーがビデオをクリックし、そのソースからの潜在的なトラッキングを承認しない限り、Livefyreはコンテンツにこのテキストとマスクを表示します。
+このテキストは、GDPR規則に準拠するために存在します。 ソースがプロキシをサポートしていない場合、ユーザーがビデオをクリックしてそのソースから潜在的な追跡を承認しない限り、Livefyreはこのテキストとマスクをコンテンツに表示します。
 
-使用 `userPrivacyMaskDelegate`しない場合、次のデフォルトのテキストが表示されます。
+を使用しない場合、次のデ `userPrivacyMaskDelegate`フォルトのテキストが表示されます。
 
-`userPrivacyMaskDelegate` 後 `userPrivacyOptOut`に追加Livefyreのプライバシーフラグはすべて1つのLivefyreオブジェクトの一部として追加できます。
+後に追 `userPrivacyMaskDelegate` 加しま `userPrivacyOptOut`す。 すべてのLivefyreプライバシーフラグを、1つのLivefyreオブジェクトの一部として一度に追加できます。
 
-`userPrivacyMaskDelegate`以下に、使用例を示します。
+使用方法の例を次に示します `userPrivacyMaskDelegate`。
 
 ```
 userPrivacyMaskDelegate: function () { 
