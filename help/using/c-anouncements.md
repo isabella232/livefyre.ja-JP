@@ -6,12 +6,18 @@ solution: Experience Manager
 title: 発表
 uuid: c05963db-4d96-494e-bdb3-da3570a14dfe
 translation-type: tm+mt
-source-git-commit: 087a40bf77c3b630acb661b58ffa8cfdedc0aec0
+source-git-commit: 82fde64518079ba1f08f4676449ec0e087ca1f36
 
 ---
 
 
 # お知らせ{#announcements}
+
+## 2019年10月26日
+
+2019年9月4日、FacebookはLivefyreワークフローから特定の権限および機能へのアクセスを予期せず削除し、Facebookコンテンツの検索やストリーミングの機能を中断しました。 アプリがpublish_pages、user_friendsまたはページの公開コンテンツにアクセスする必要がある場合は、既存のアプリレビュープロセスを通じてリクエストしてください。 これらの権限へのアクセスを正式に復元するように要求し、Facebookの承認を待っています。 承認が行われ、コンテンツが再び利用可能になったらすぐにお知らせします。
+
+Webサイトに既に公開されているコンテンツは影響を受けません。
 
 ## 2019年6月12日
 
