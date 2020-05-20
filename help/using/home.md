@@ -4,16 +4,19 @@ solution: Experience Manager
 title: Livefyreユーザーガイド
 uuid: ccdede9b-88d3-4e6e-9105-662e984002d5
 translation-type: tm+mt
-source-git-commit: 155791af94c277e7afdbd51521e00da77169911e
+source-git-commit: 3664bc1c51d2b372c358385127a1ca9c2f0cfef8
+workflow-type: tm+mt
+source-wordcount: '102'
+ht-degree: 4%
 
 ---
 
 
-# Experience Manager Livefyreユーザーガイド {#livefyre-help}
+# Livefyreユーザーガイド {#livefyre-help}
 
-Livefyre studioを使用して、アプリの作成、ユーザー生成コンテンツの収集、コンテンツのモデレートを行います。
+Livefyre Studioを使用して、アプリケーションの作成、ユーザー生成コンテンツの収集、コンテンツのモデレートを行います。
 
-開発者ツールを使用してLivefyre Appsを実装し、サイトでカスタマイズする方法について詳しくは、 [*Adobe Experience Manager Livefyre導入ガイドを参照してください*](/help/implementation/home.md)。
+開発者ツールを使用してLivefyre Appsを実装し、サイトでカスタマイズする方法について詳しくは、 [*Adobe Experience Manager Livefyre導入ガイドを参照してください&#x200B;*](/help/implementation/home.md)。
 
 ## よく読まれるトピック
 
@@ -21,18 +24,18 @@ Livefyre studioを使用して、アプリの作成、ユーザー生成コン�
 
 * [Livefyreについて](c-product.md#c_product)
 
-   Livefyre studioを使用して、アプリ、ユーザーおよびコンテンツを管理します。
+   Livefyre Studioを使用して、アプリケーション、ユーザーおよびコンテンツを管理します。
 
 * [アプリの操作](c-about-apps/c-about-apps.md#c_about_apps)
 
-   Livefyreアプリを作成して公開します（コメントを含む）。
+   Livefyreアプリ（コメントを含む）を作成して公開します。
 
 * [Adobe Experience ManagerでのLivefyreアプリの使用](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html)
 
 
-* [Adobe targetでのLivefyreの使用](/help/using/c-library/livefyre-target.md)
+* [LivefyreとAdobeターゲットの使用](/help/using/c-library/livefyre-target.md)
 
-* [Adobe Launch Livefyre ExtensionでのLivefyreの使用](https://docs.adobelaunch.com/extension-reference/web/adobe-livefyre-extension)
+* [LivefyreとAdobe Launch Livefyre Extensionの使用](https://docs.adobelaunch.com/extension-reference/web/adobe-livefyre-extension)
 
 * [リリースノート](c-rn/c-rn.md#c_rn)
 
