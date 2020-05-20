@@ -1,14 +1,17 @@
 ---
 product: livefyre
-audience: エンドユーザー
-user-guide-title: Experience Manager Livefyreユーザーガイド
+audience: end-user
+user-guide-title: Livefyreドキュメント
 translation-type: tm+mt
-source-git-commit: 685989c827db6d14a6f56d1595f9272b83cf2348
+source-git-commit: 3664bc1c51d2b372c358385127a1ca9c2f0cfef8
+workflow-type: tm+mt
+source-wordcount: '843'
+ht-degree: 5%
 
 ---
 
 
-# Experience Manager Livefyreユーザーガイド {#using}
+# Livefyreドキュメント {#using}
 
 + [Livefyreヘルプ](home.md)
 + [お知らせ](c-anouncements.md)
@@ -51,41 +54,41 @@ source-git-commit: 685989c827db6d14a6f56d1595f9272b83cf2348
       + [メディアウォールのカスタマイズ](c-about-apps/c-media-wall-app/r-media-wall-customizations.md)
    + モザイク {#mosaic}
       + [モザイク](c-about-apps/c-mosaic-app/c-mosaic-app.md)
-      + [モザイク機能](c-about-apps/c-mosaic-app/r-mosaic-features.md)
-      + [Mosaicのカスタマイズ](c-about-apps/c-mosaic-app/c-mosaic-customizations.md)
+      + [モザイクの機能](c-about-apps/c-mosaic-app/r-mosaic-features.md)
+      + [モザイクのカスタマイズ](c-about-apps/c-mosaic-app/c-mosaic-customizations.md)
    + 投票 {#polls}
       + [投票](c-about-apps/c-polls-app/c-polls-app.md)
-      + [コメントまたはライブブログアプリへの投票の追加](c-about-apps/c-polls-app/t-integrate-poll-site.md)
-      + [投票への画像の追加](c-about-apps/c-polls-app/t-add-images-to-a-poll.md)
+      + [コメントまたはラ追加イブブログアプリに対する調査](c-about-apps/c-polls-app/t-integrate-poll-site.md)
+      + [投追加票の画像](c-about-apps/c-polls-app/t-add-images-to-a-poll.md)
       + [調査のカスタマイズ](c-about-apps/c-polls-app/r-polls-customizations.md)
    + レビュー {#reviews}
       + [レビュー](c-about-apps/c-reviews-app/c-reviews-app.md)
       + [レビューアプリの作成](c-about-apps/c-reviews-app/c-creating-reviews.md)
       + [レビューの投稿](c-about-apps/c-reviews-app/t-using-reviews.md)
-   + サイデン {#sidenotes}
-      + [サイデン](c-about-apps/c-sidenotes-app/c-sidenotes-app.md)
-      + [サイド機能](c-about-apps/c-sidenotes-app/r-sidenotes-features.md)
-      + [サイドのカスタマイズ](c-about-apps/c-sidenotes-app/r-sidenotes-customizations.md)
-      + [サイドのベストプラクティス](c-about-apps/c-sidenotes-app/c-best-practices-for-sidenotes.md)
+   + Sidenots {#sidenotes}
+      + [Sidenots](c-about-apps/c-sidenotes-app/c-sidenotes-app.md)
+      + [サイトの機能](c-about-apps/c-sidenotes-app/r-sidenotes-features.md)
+      + [サイトのカスタマイズ](c-about-apps/c-sidenotes-app/r-sidenotes-customizations.md)
+      + [サイト表示のベストプラクティス](c-about-apps/c-sidenotes-app/c-best-practices-for-sidenotes.md)
    + Storify 2 {#storify2}
       + [Storify 2](c-about-apps/c-storify2/c-storify2.md)
       + [設定オプション](c-about-apps/c-storify2/c-configuration-options.md)
       + [設定の保存](c-about-apps/c-storify2/c-storify-settings.md)
-      + [Storify 2でのGoogle AMPの使用](c-about-apps/c-storify2/t-use-google-amp-with-storify-2.md)
+      + [Storify 2でGoogle AMPを使用](c-about-apps/c-storify2/t-use-google-amp-with-storify-2.md)
       + [ストーリーの作成](c-about-apps/c-storify2/t-create-a-story.md)
-      + [ソーシャルコンテンツを追加](c-about-apps/c-storify2/t-add-social-content.md)
-      + [テキストを追加](c-about-apps/c-storify2/t-add-local-content.md)
-      + [ストーリーのプレビュー](c-about-apps/c-storify2/t-preview-a-story.md)
+      + [追加ソーシャルコンテンツ](c-about-apps/c-storify2/t-add-social-content.md)
+      + [追加テキスト](c-about-apps/c-storify2/t-add-local-content.md)
+      + [プレビュー・ア・ストーリー](c-about-apps/c-storify2/t-preview-a-story.md)
       + [ストーリーの投稿](c-about-apps/c-storify2/t-publish-a-story.md)
       + [レビュー履歴](c-about-apps/c-storify2/t-review-storify2-history.md)
-      + [同じストーリーでの複数のエディターの操作](c-about-apps/c-storify2/t-working-with-multiple-editors-on-same-story.md)
-      + [Streamsを使用したストーリーへのソーシャルコンテンツの追加](c-about-apps/c-storify2/t-use-streams-to-add-social-content.md)
-      + [投稿のStorifyへの固定2](c-about-apps/c-storify2/t-pin-posts-to-storify2.md)
+      + [同じストーリーでの複数のエディタの操作](c-about-apps/c-storify2/t-working-with-multiple-editors-on-same-story.md)
+      + [ストリームを使用し追加てソーシャルコンテンツをストーリーに追加](c-about-apps/c-storify2/t-use-streams-to-add-social-content.md)
+      + [投稿をStorifyに固定2](c-about-apps/c-storify2/t-pin-posts-to-storify2.md)
       + ナビゲーションガイド {#navigation-guide}
          + [ナビゲーションガイド](c-about-apps/c-storify2/c-navigation-guide.md)
-         + [ナビゲーションガイドのStorifyへの追加2](c-about-apps/c-storify2/t-add-navigation-guide-to-storify2.md)
-         + [ナビゲーションガイドへのタイトルの追加](c-about-apps/c-storify2/t-add-a-title-to-the-navigation-guide.md)
-         + [ナビゲーションガイドへの投稿の追加](c-about-apps/c-storify2/t-add-posts-to-the-navigation-guide.md)
+         + [Storify 追加 2のナビゲーションガイド](c-about-apps/c-storify2/t-add-navigation-guide-to-storify2.md)
+         + [ナビゲ追加ーションガイドのタイトル](c-about-apps/c-storify2/t-add-a-title-to-the-navigation-guide.md)
+         + [ナビゲ追加ーションガイドへの投稿](c-about-apps/c-storify2/t-add-posts-to-the-navigation-guide.md)
          + [ナビゲーションガイドでの投稿数の設定](c-about-apps/c-storify2/t-set-the-number-of-posts-nav-guide.md)
          + [ナビゲーションガイドの定着](c-about-apps/c-storify2/t-make-nav-guide-sticky.md)
          + [ナビゲーションガイドの移動](c-about-apps/c-storify2/t-move-navigation-guide.md)
@@ -110,33 +113,33 @@ source-git-commit: 685989c827db6d14a6f56d1595f9272b83cf2348
       + [コレクションの変更](c-features-livefyre/c-content-collection-tags/c-change-collection.md)
       + [コレクションまたはコンテンツタグで検索をフィルター](c-features-livefyre/c-content-collection-tags/t-filter-search-by-tag.md)
       + [コンテンツタグで検索をフィルター](c-features-livefyre/c-content-collection-tags/t-filter-search-by-content-tag.md)
-      + [Embedly 統合](c-features-livefyre/c-content-collection-tags/c-embedly-integration.md)
+      + [Embedly 統合 ](c-features-livefyre/c-content-collection-tags/c-embedly-integration.md)
       + [重点コンテンツ](c-features-livefyre/c-content-collection-tags/c-featured-content.md)
       + [機能の内容](c-features-livefyre/c-content-collection-tags/t-feature-content.md)
       + [Studioからフィーチャのコンテンツを選択](c-features-livefyre/c-content-collection-tags/t-select-content-to-feature-from-studio.md)
       + [アプリから機能するコンテンツを選択](c-features-livefyre/c-content-collection-tags/t-select-content-to-feature.md)
-      + [Studioでコンテンツを特集する](c-features-livefyre/c-content-collection-tags/t-enable-featuring-content-in-studio.md)
-      + [パーマリンク](c-features-livefyre/c-content-collection-tags/c-permalinks.md)
+      + [Studioでフィーチャーコンテンツを有効にする](c-features-livefyre/c-content-collection-tags/t-enable-featuring-content-in-studio.md)
+      + [ペルマリンク](c-features-livefyre/c-content-collection-tags/c-permalinks.md)
    + カスタム HTML {#custom-html}
       + [カスタム HTML](c-features-livefyre/c-custom-html/c-custom-html.md)
       + [コメントにカスタムHTMLを埋め込む](c-features-livefyre/c-custom-html/t-embed-custom-html.md)
-      + [コメントに投票を埋め込む](c-features-livefyre/c-custom-html/t-embed-polls-in-comments.md)
-      + [StudioでのカスタムHTMLコメントの表示](c-features-livefyre/c-custom-html/t-view-custom-html-comments-in-studio.md)
-   + [管理機能](c-features-livefyre/c-enagement-features.md)
+      + [コメントにポーリングを埋め込む](c-features-livefyre/c-custom-html/t-embed-polls-in-comments.md)
+      + [Studioでの表示カスタムHTMLコメント](c-features-livefyre/c-custom-html/t-view-custom-html-comments-in-studio.md)
+   + [エンゲージメント機能](c-features-livefyre/c-enagement-features.md)
    + [リスナー数](c-features-livefyre/c-listener-count.md)
    + [その他の機能](c-features-livefyre/c-miscellaneous-features.md)
    + モデレートとフィルター {#moderation-filtering}
       + [モデレートの設定](c-features-livefyre/c-about-moderation/c-setting-up-moderation.md)
-      + [Twitterユーザーからのコンテンツの制限](c-features-livefyre/c-about-moderation/t-moderate-streams.md)
+      + [Twitterユーザーに対するコンテンツの制限](c-features-livefyre/c-about-moderation/t-moderate-streams.md)
       + [IPアドレスの禁止](c-features-livefyre/c-about-moderation/t-set-up-bans.md)
       + [不敬な言葉のフィルターの使用](c-features-livefyre/c-about-moderation/c-profanity-filter.md)
       + [ユーザーのモデレート](c-features-livefyre/c-about-moderation/t-moderate-users-modq.md)
       + [ModQを使用したコンテンツのモデレート](c-features-livefyre/c-about-moderation/c-modq.md)
-      + [トラッシュされたアイテムのアプリへの追加](c-features-livefyre/c-about-moderation/t-add-trashed-item-back-into-app.md)
+      + [ト追加ラッシュされたアイテムをアプリに戻す](c-features-livefyre/c-about-moderation/t-add-trashed-item-back-into-app.md)
       + [ModQのキーボードショートカット](c-features-livefyre/c-about-moderation/r-modq-keyboard-shortcuts.md)
       + [ストリームのコンテンツのモデレート](c-features-livefyre/c-about-moderation/c-moderate-inline.md)
       + [アプリのコンテンツを使用したコンテンツのモデレート](c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md)
-      + [セーフルール](c-features-livefyre/c-about-moderation/c-moderation.md)
+      + [安全なルール](c-features-livefyre/c-about-moderation/c-moderation.md)
    + 通知機能 {#notifications-features}
       + [コメント通知](c-features-livefyre/c-notifications-features/c-comment-notifier.md)
       + [電子メール通知](c-features-livefyre/c-notifications-features/c-email-notifications.md)
@@ -145,7 +148,7 @@ source-git-commit: 685989c827db6d14a6f56d1595f9272b83cf2348
    + [照会の追跡](c-features-livefyre/c-referral-tracking.md)
    + スマートタグ {#smart-tags}
       + [スマートタグ](c-features-livefyre/c-smart-tags/c-smart-tags.md)
-      + [スマートタグの表示](c-features-livefyre/c-smart-tags/c-view-smart-tags.md)
+      + [表示スマートタグ](c-features-livefyre/c-smart-tags/c-view-smart-tags.md)
    + ソーシャルシェア {#social-sharing}
       + [ソーシャルシェア](c-features-livefyre/c-social-sharing/c-social-sharing.md)
       + [ソーシャルシェアの設定](c-features-livefyre/c-social-sharing/c-setting-up-social-sharing.md)
@@ -153,15 +156,15 @@ source-git-commit: 685989c827db6d14a6f56d1595f9272b83cf2348
       + [機能の並べ替え](c-features-livefyre/c-sort-features-composite/c-sort-features-composite.md)
       + [上位のコメント](c-features-livefyre/c-sort-features-composite/c-top-comments.md)
       + [ホットスレッド](c-features-livefyre/c-sort-features-composite/c-hot-threads.md)
-   + スタイル設定機能 {#styling-features}
-      + [スタイル設定機能](c-features-livefyre/c-styling-features/c-styling-features.md)
-      + [CSSのスタイルとブランド](c-features-livefyre/c-styling-features/c-css-styling-branding.md)
+   + スタイル設定の機能 {#styling-features}
+      + [スタイル設定の機能](c-features-livefyre/c-styling-features/c-styling-features.md)
+      + [CSSのスタイルとブランディング](c-features-livefyre/c-styling-features/c-css-styling-branding.md)
       + [日付とタイムスタンプ](c-features-livefyre/c-styling-features/c-date-and-timestamp.md)
       + [埋め込みメディアの管理](c-features-livefyre/c-styling-features/c-manage-embedded-media.md)
       + [アバター](c-features-livefyre/c-styling-features/c-avatars.md)
       + [ホバーカード](c-features-livefyre/c-styling-features/c-hovercards.md)
       + [ユーザーバッジ](c-features-livefyre/c-styling-features/c-user-badges.md)
-      + [アカウントへのユーザータグの追加](c-features-livefyre/c-styling-features/t-add-user-tags.md)
+      + [ア追加カウントのユーザータグ](c-features-livefyre/c-styling-features/t-add-user-tags.md)
    + [翻訳とカスタムテキスト文字列](c-features-livefyre/c-custom-text-strings.md)
    + [UGCコマース](c-features-livefyre/c-ugc-commerce.md)
    + [UGCのキュレーションと表示](c-features-livefyre/curate-display-ugc.md)
@@ -171,7 +174,7 @@ source-git-commit: 685989c827db6d14a6f56d1595f9272b83cf2348
       + [Assets](c-library/c-assets/c-assets.md)
       + [アセットフォルダの作成](c-library/c-assets/t-create-folders.md)
       + [アセットフォルダの管理](c-library/c-assets/t-manage-folders.md)
-      + [アセットの詳細の表示](c-library/c-assets/t-manage-assets.md)
+      + [表示資産の詳細](c-library/c-assets/t-manage-assets.md)
       + [アセットをアプリに公開](c-library/c-assets/t-publish-assets-to-apps.md)
       + [ライブラリでの保存済みアセットの検索](c-library/c-assets/t-search-for-assets.md)
       + [写真のアップロード](c-features-livefyre/c-content-behavior-features/t-upload-photos.md)
@@ -179,41 +182,41 @@ source-git-commit: 685989c827db6d14a6f56d1595f9272b83cf2348
    + [YouTubeコンテンツの検索](c-library/t-search-for-youtube-content.md)
    + [Twitterコンテンツの検索](c-streams/c-youtube-rules/t-search-for-twitter-content.md)
    + [Instagramコンテンツの検索](c-library/t-search-for-content.md)
-   + [コンテンツの詳細を表示](c-library/c-view-content-details.md)
+   + [表示コンテンツの詳細](c-library/c-view-content-details.md)
    + [コンテンツをアセットライブラリに保存](c-library/t-save-content-to-asset-library.md)
    + [ライブラリを使用した製品とコンテンツの関連付け](c-library/t-associate-products-with-content-using-the-library.md)
    + [コンテンツを公開](c-library/t-publish-content.md)
-   + [「アプリのコンテンツ」タブ](c-library/c-app-content.md)
-   + [Adobe Experience Manager LivefyreとHootsuiteの連携](c-library/c-hootsuite-livefyre.md)
-   + [Adobe Experience Manager LivefyreとAdobe targetの連携](c-library/livefyre-target.md)
+   + [「アプリコンテンツ」タブ](c-library/c-app-content.md)
+   + [Adobe Experience Manager LivefyreとHootsuiteの使用](c-library/c-hootsuite-livefyre.md)
+   + [Adobe Experience Manager LivefyreとAdobeターゲットの使用](c-library/livefyre-target.md)
    + [Adobe Launch Livefyre Extensionの使用](c-library/launch-extension.md)
 + ストリーム {#streams}
    + [ストリーム](c-streams/c-streams.md)
    + [新しいストリームの作成](c-streams/t-create-a-new-stream.md)
-   + [ストリームのルールの追加](c-streams/t-add-rules-for-your-stream.md)
+   + [ストリーム追加のルール](c-streams/t-add-rules-for-your-stream.md)
    + [すべてのストリームルールのストリームルールオプション](c-streams/c-stream-rule-options-for-all-stream-rules.md)
-   + [Facebookページルール](c-streams/c-facebook-page-rules.md)
-   + [電子メールルール](c-streams/c-email-rules.md)
-   + [Instagramルール](c-streams/c-instagram-rules.md)
+   + [Facebookページのルール](c-streams/c-facebook-page-rules.md)
+   + [E メールルール](c-streams/c-email-rules.md)
+   + [Instagramのルール](c-streams/c-instagram-rules.md)
    + [Instagramコンテンツのガイドライン](c-streams/c-instagram-content-guidelines.md)
    + [Instagramのレート制限](c-streams/c-instagram-rate-limiting.md)
    + [RSSルール](c-streams/c-rss-rules-streams.md)
-   + [Tumblrルール](c-streams/c-tumblr-rules.md)
+   + [Tumblrのルール](c-streams/c-tumblr-rules.md)
    + [Twitterルール](c-streams/c-twitter-rules.md)
-   + [ツイートの数と頻度](c-streams/c-throttling-and-frequency-of-tweets.md)
+   + [ツイートの数の制限と頻度](c-streams/c-throttling-and-frequency-of-tweets.md)
    + [YouTubeルール](c-streams/c-youtube-rules/c-youtube-rules.md)
-+ 権利要求 {#rights-requests}
++ 権限の要求 {#rights-requests}
    + [権限の要求](c-how-requesting-rights-works/c-how-requesting-rights-works.md)
    + [権限要求の管理](c-how-requesting-rights-works/c-managing-rights-requests.md)
    + [Rights Managementの設定](c-how-requesting-rights-works/t-set-up-rights-management.md)
    + [Twitter権限リクエストの送信](c-how-requesting-rights-works/t-send-a-rights-request-to-own-a-digital-asset.md)
-   + [部分的に自動化されたInstagram権利要求の送信](c-how-requesting-rights-works/c-send-an-instagram-rights-request-from-the-library.md)
-   + [Instagram権利要求の手動送信](c-how-requesting-rights-works/c-send-instagram-manual-rights-request.md)
-   + [権利活動履歴の表示](c-how-requesting-rights-works/c-view-rights-activity-history.md)
-   + [アセットライブラリからの保留中の権限要求を含むコンテンツの管理](c-how-requesting-rights-works/t-manage-content-with-pending-rights-request.md)
-   + [アセットライブラリからのアセットの権限の手動での付与または取り消し](c-how-requesting-rights-works/t-manually-grant-the-rights-for-one-or-more-assets.md)
-+ ユーザー：StudioおよびLivefyreネットワークユーザーの管理 {#users-managing}
-   + [ユーザー：StudioおよびLivefyreネットワークユーザーの管理](c-users/c-users.md)
+   + [部分的に自動化されたInstagram権限リクエストの送信](c-how-requesting-rights-works/c-send-an-instagram-rights-request-from-the-library.md)
+   + [Instagram権限要求を手動で送信](c-how-requesting-rights-works/c-send-instagram-manual-rights-request.md)
+   + [表示権限アクティビティの履歴](c-how-requesting-rights-works/c-view-rights-activity-history.md)
+   + [アセットライブラリからの保留中の権限の要求を含むコンテンツの管理](c-how-requesting-rights-works/t-manage-content-with-pending-rights-request.md)
+   + [アセットライブラリからの手動によるアセットの権限の付与または取り消し](c-how-requesting-rights-works/t-manually-grant-the-rights-for-one-or-more-assets.md)
++ ユーザー： StudioとLivefyreネットワークユーザーの管理 {#users-managing}
+   + [ユーザー： StudioとLivefyreネットワークユーザーの管理](c-users/c-users.md)
    + [ユーザーの検索](c-users/t-search-for-users.md)
    + [アカウントの詳細の表示](c-users/c-viewing-account-details.md)
    + [ユーザーの禁止](c-users/t-ban-a-user.md)
@@ -221,46 +224,46 @@ source-git-commit: 685989c827db6d14a6f56d1595f9272b83cf2348
    + [ユーザーアカウントのリンク](c-users/t-link-user-accounts.md)
    + [ネットワークの切り替え](c-users/c-users-switching-networks.md)
    + [ユーザー同期](c-users/t-set-up-user-sync.md)
-+ ユーザー：ユーザーアカウントの作成 {#users-creating-accounts}
-   + [ユーザー：ユーザーアカウントの作成](c-users-creating-accounts-with-studio-access/c-users-creating-accounts-with-studio-access.md)
++ ユーザー： ユーザーアカウントの作成 {#users-creating-accounts}
+   + [ユーザー： ユーザーアカウントの作成](c-users-creating-accounts-with-studio-access/c-users-creating-accounts-with-studio-access.md)
    + [Studioアカウントを作成するためのユーザーの招待](c-users-creating-accounts-with-studio-access/t-invite-a-user-to-create-a-studio-account.md)
    + [Studioアカウント作成の招待の受諾](c-users-creating-accounts-with-studio-access/t-accept-an-invitation-to-create-a-studio-account.md)
    + [Studioにログインする](c-users-creating-accounts-with-studio-access/t-log-into-studio.md)
    + [ユーザーのStudio権限の管理](c-users-creating-accounts-with-studio-access/t-manage-studio-permissions-for-users.md)
    + [ユーザーの役割と権限](c-users-creating-accounts-with-studio-access/c-user-types.md)
-   + Socialアカウントの追加 {#add-social-account}
-      + [Socialアカウントの追加](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/t-configure-social-accout-instagram.md)
+   + Social追加アカウント {#add-social-account}
+      + [Social追加アカウント](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/t-configure-social-accout-instagram.md)
       + [Instagramアカウントについて](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md)
       + [Socialアカウントのトークンの更新](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-refresh-a-token-for-a-social-account.md)
-+ 設定：その他 {#settings-other}
++ 設定： その他 {#settings-other}
    + [資格情報の設定](c-settings-other/t-set-up-credentials.md)
-   + [ネットワークにサイトを追加する](c-settings-other/t-add-a-site.md)
+   + [ネット追加ワークへのサイト](c-settings-other/t-add-a-site.md)
    + 翻訳セット {#translation-sets}
       + [翻訳セット](c-settings-other/c-translation-sets/c-translation-sets.md)
-      + [翻訳セットの作成と変更](c-settings-other/c-translation-sets/t-create-modify-translation-sets.md)
+      + [変換セットの作成と変更](c-settings-other/c-translation-sets/t-create-modify-translation-sets.md)
       + [翻訳セットをネットワークに適用する](c-settings-other/c-translation-sets/t-apply-a-translation-set-to-a-network.md)
-      + [サイトへの翻訳セットの適用](c-settings-other/c-translation-sets/t-apply-a-translation-set-to-a-site.md)
+      + [翻訳セットのサイトへの適用](c-settings-other/c-translation-sets/t-apply-a-translation-set-to-a-site.md)
       + [翻訳セットの削除](c-settings-other/c-translation-sets/t-delete-a-translation-set.md)
-      + [文字列のローカライズ](c-settings-other/c-translation-sets/c-localize-strings.md)
+      + [文字列をローカライズする](c-settings-other/c-translation-sets/c-localize-strings.md)
       + [テキスト文字列の確認](c-settings-other/c-translation-sets/c-review-text-strings.md)
       + [テキスト文字列を表示](c-settings-other/c-translation-sets/c-sidenotes-text-strings.md)
-   + SSL強制 {#ssl-enforcement}
-      + [SSL強制](c-settings-other/c-ssl-enforcement/c-ssl-enforcement.md)
+   + SSLの強制 {#ssl-enforcement}
+      + [SSLの強制](c-settings-other/c-ssl-enforcement/c-ssl-enforcement.md)
       + [SSLチェックリスト](c-settings-other/c-ssl-enforcement/c-ssl-checklist.md)
-   + プライバシーリクエスト {#privacy-requests}
-      + [プライバシー・リクエスト（GDPR対応）](c-settings-other/c-gdpr-compliance/c-gdpr-compliance.md)
-      + [プライバシーリクエストFAQ](c-settings-other/c-gdpr-compliance/c-privacy-request-faqs.md)
+   + プライバシーの要請 {#privacy-requests}
+      + [プライバシー要求（GDPR対応）](c-settings-other/c-gdpr-compliance/c-gdpr-compliance.md)
+      + [プライバシーリクエストに関するFAQ](c-settings-other/c-gdpr-compliance/c-privacy-request-faqs.md)
       + [プライバシーリクエストの作成](c-settings-other/c-gdpr-compliance/c-privacy-requests.md)
-      + [プライバシーレポートの表示](c-settings-other/c-gdpr-compliance/c-view-a-privacy-report.md)
+      + [表示プライバシーレポート](c-settings-other/c-gdpr-compliance/c-view-a-privacy-report.md)
       + [userPrivacyOptOut](c-settings-other/c-gdpr-compliance/c-userprivacyoptout.md)
 + リリースノート {#release-notes}
    + [最新のリリースノート](c-rn/c-rn.md)
    + Release Notes 2019 {#rn2019}
       + [2019年3月22日](c-rn/previous-rns/rn2019/c-rn-2019-march-21.md)
-      + [March 14, 2019](c-rn/previous-rns/rn2019/c-rn-2019-march-14.md)
-      + [February 21, 2019](c-rn/previous-rns/rn2019/c-rn-2019-february-21.md)
+      + [2019年3月15日](c-rn/previous-rns/rn2019/c-rn-2019-march-14.md)
+      + [2019年2月22日](c-rn/previous-rns/rn2019/c-rn-2019-february-21.md)
       + [2019 年 2 月 8 日](c-rn/previous-rns/rn2019/c-rn-2019-february-7.md)
-      + [January 31, 2019](c-rn/previous-rns/rn2019/c-rn-2019-january-31.md)
+      + [2019年1月31日](c-rn/previous-rns/rn2019/c-rn-2019-january-31.md)
       + [2019年1月18日](c-rn/previous-rns/rn2019/c-rn-2019-january-17.md)
    + Release Notes 2018 {#rn2018}
       + [2018年12月19日](c-rn/previous-rns/rn2018/c-rn-2018-december-18.md)
@@ -279,13 +282,13 @@ source-git-commit: 685989c827db6d14a6f56d1595f9272b83cf2348
       + [2018年4月27日](c-rn/previous-rns/rn2018/c-rn-2018-april-26.md)
       + [2018年4月13日](c-rn/previous-rns/rn2018/c-rn-2018-april-12.md)
       + [2018年3月24日](c-rn/previous-rns/rn2018/c-rn-2018-march-23.md)
-      + [March 8, 2018](c-rn/previous-rns/rn2018/c-rn-2018-march-8.md)
+      + [2018年3月9日](c-rn/previous-rns/rn2018/c-rn-2018-march-8.md)
       + [2018年2月16日](c-rn/previous-rns/rn2018/c-rn-2018-february-15.md)
       + [2018 年 2 月 2 日](c-rn/previous-rns/rn2018/c-2018-february-1.md)
       + [2018年1月19日](c-rn/previous-rns/rn2018/c-rn-2018-january-18.md)
    + Release Notes 2017 {#rn2017}
       + [2017年11月17日](c-rn/previous-rns/rn2017/c-rn-2017-november-16.md)
-      + [2017年11月2日](c-rn/previous-rns/rn2017/c-rn-2017-november-2.md)
+      + [2017年11月3日](c-rn/previous-rns/rn2017/c-rn-2017-november-2.md)
       + [2017年10月20日](c-rn/previous-rns/rn2017/c-rn-2017-october-19.md)
       + [2017年10月6日](c-rn/previous-rns/rn2017/c-rn-2017-october-5.md)
       + [2017年9月29日](c-rn/previous-rns/rn2017/c-rn-2017-september-28.md)
