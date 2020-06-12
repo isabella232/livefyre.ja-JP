@@ -1,28 +1,31 @@
 ---
-description: You can whitelist your video domain using .
-seo-description: を使用して、ビデオドメインをホワイトリストに登録できます。
+description: ビデオドメインのリストを許可できます。
+seo-description: ビデオドメインのリストを許可できます。
 seo-title: userPrivacyVideoWhitelist
 solution: Experience Manager
 title: userPrivacyVideoWhitelist
 uuid: adfead18-b73b-4ac4-97a0-d39f528b7606
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 0%
 
 ---
 
 
 # userPrivacyVideoWhitelist{#userprivacyvideowhitelist}
 
-独自のカスタムビデオおよびプレーヤーをLivefyreビジュアライゼーションアプリに表示するビデオの一部として使用する場合、ビデオドメインをホワイトリストに登録できます。 ビデオドメインをホワイトリストに登録すると、カスタムビデオおよびプレーヤーのビデオマスクが削除されます。
+独自のカスタムビデオおよびプレーヤーをLivefyreのビジュアライゼーションアプリに表示されるビデオの一部として使用する場合、ビデオドメインのリストを許可できます。 ビデオドメインを許可リストに登録すると、カスタムビデオおよびプレーヤーのビデオマスクが削除されます。
 
 >[!NOTE]
 >
->特定のパスを使用して、安全なビデオのみをホワイトリストに登録します。 部分一致のパス（例：sampledomain.com）を設定すると、安全でないビデオをホワイトリストに登録できます。
+>特定のパスを使用して、安全なビデオのみを許可リストに記載します。 部分的なパス（例えば、sampledomain.com）を指定すると、安全でないビデオをリストできる場合があります。
 
-* 後に追 `userPrivacyVideoWhitelist` 加しま `userPrivacyOptOut`す。 すべてのLivefyreプライバシーフラグを、1つのLivefyreオブジェクトの一部として一度に追加できます。
+* 追加 `userPrivacyVideoWhitelist``userPrivacyOptOut`後に すべてのLivefyreのプライバシーフラグを、1つのLivefyreオブジェクトの一部として一度に追加できます。
 * `userPrivacyVideoWhitelist` ソーシャルメディアに埋め込まれていないコンテンツにのみ適用されます。
 
-次の例では、パスが指定されたアプリに表示されるビデオはホワイトリス `sampledomain.com/cdn/videos` トに登録されています。
+次の例では、 `sampledomain.com/cdn/videos` パスが指定されたアプリに表示されているビデオを一覧表示します。
 
 ```
 userPrivacyVideoWhitelist: ["sampledomain.com/cdn/videos"]
