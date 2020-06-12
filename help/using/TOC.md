@@ -3,7 +3,7 @@ product: livefyre
 audience: end-user
 user-guide-title: Livefyreドキュメント
 translation-type: tm+mt
-source-git-commit: 3664bc1c51d2b372c358385127a1ca9c2f0cfef8
+source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 5%
@@ -188,7 +188,7 @@ ht-degree: 5%
    + [コンテンツを公開](c-library/t-publish-content.md)
    + [「アプリコンテンツ」タブ](c-library/c-app-content.md)
    + [Adobe Experience Manager LivefyreとHootsuiteの使用](c-library/c-hootsuite-livefyre.md)
-   + [Adobe Experience Manager LivefyreとAdobeターゲットの使用](c-library/livefyre-target.md)
+   + [Adobe Experience Manager LivefyreをAdobe Targetと併用する](c-library/livefyre-target.md)
    + [Adobe Launch Livefyre Extensionの使用](c-library/launch-extension.md)
 + ストリーム {#streams}
    + [ストリーム](c-streams/c-streams.md)
@@ -220,7 +220,7 @@ ht-degree: 5%
    + [ユーザーの検索](c-users/t-search-for-users.md)
    + [アカウントの詳細の表示](c-users/c-viewing-account-details.md)
    + [ユーザーの禁止](c-users/t-ban-a-user.md)
-   + [ユーザーをホワイトリストに登録](c-users/t-whitelist-a-user.md)
+   + [ユーザーのリストを許可](c-users/allow-list-a-user.md)
    + [ユーザーアカウントのリンク](c-users/t-link-user-accounts.md)
    + [ネットワークの切り替え](c-users/c-users-switching-networks.md)
    + [ユーザー同期](c-users/t-set-up-user-sync.md)
