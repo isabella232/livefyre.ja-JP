@@ -6,7 +6,10 @@ solution: Experience Manager
 title: CollectionMeta Token
 uuid: d5db0b0f-2807-4392-874a-94ac3c1e7550
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: acba83da6abd919062025322beeced500a3db662
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 2%
 
 ---
 
@@ -15,20 +18,20 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 作成するすべてのコレクションを識別する一意のトークンをサーバー上に作成します。
 
-Livefyreは、作成するすべてのコレクションに一意の識別子を割り当てます。 Livefyreは、タイトル、URLおよび次のような他のパラメーターを割り当てます。
+Livefyreは、作成するすべてのコレクションに一意の識別子を割り当てます。 Livefyreは、タイトル、URL、その他のパラメーターを割り当てます。次に例を示します。
 
-## collectionMetaトークンのパラメーター
+## collectionMeta Tokenパラメーター
 
 | パラメーター | タイプ | 説明 |
 |--- |--- |--- |
 | networkName | 文字列（オプション） | Livefyreネットワークの名前（{!UICONTROL Studio/設定/統合設定/資格情報]から入手できます）。 ライブラリを使用してcollectionMetaトークンを作成する場合は、このオプションです。 |
-| networkKey | 文字列（オプション） | 特定のネットワークの秘密キー（Studio/設定/統合設定/秘密鍵証明書から使用可能）。 ライブラリを使用してcollectionMetaトークンを作成する場合は、このオプションです。 |
-| siteId | 文字列（オプション） | サイトのID(から利用でき [!UICONTROL Studio > Settings > Integration Settings > Credentials] ます)。 ライブラリを使用してcollectionMetaトークンを作成する場合はオプションです。 |
-| siteKey | 文字列（オプション） | サイトの秘密キー（{!UICONTROL Studio/設定/統合設定/資格情報]から利用できます）。 |
+| networkKey | 文字列（オプション） | 特定のネットワークの秘密鍵（Studio/設定/統合設定/秘密鍵証明書から選択できます）。 ライブラリを使用してcollectionMetaトークンを作成する場合は、このオプションです。 |
+| siteId | 文字列（オプション） | サイトのID(から入手でき [!UICONTROL Studio > Settings > Integration Settings > Credentials] ます)。 ライブラリを使用してcollectionMetaトークンを作成する場合はオプションです。 |
+| siteKey | 文字列（オプション） | サイトの秘密キー（{!UICONTROL Studio/設定/統合設定/資格情報]から選択できます）。 |
 | articleId | 文字列（オプション） | コレクションの一意のID。 |
-| title | 文字列（オプション） | コレクションに適用するタイトル。 通常、これはアプリを表示するページのタイトルに対応します。 <br>例：「統合はとても楽しい！」<br>注意： タイトルの最大文字長は255文字です。 タイトルフィールドはHTMLエンティティをサポートしていません。 UTF-8を使用して特殊文字をエンコードしてください。 |
-| url | 文字列 (オプション) | このコレクションに添付する正規の絶対URLです。 このURLは、FacebookやTwitterで共有されたコンテンツ、電子メール通知およびLivefyre studioからアプリへのリンクを生成するために使用されます。 <br>注意： ローカルでテストする場合は、有効なベースURLドメインを使用します(例：有効： `https://customer.com`;無効： `https://localhost:5995`)。 |
-| タグ | 文字列（オプション） | 単一のキーワードまたはフレーズのコンマ区切りリスト。 Studioを使用してタグでコレクションを検索します。  </br>注意：タグにスペースを含めることはできません。 UIにスペースを表示する場合は、アンダースコアを使用します。 |
+| title | 文字列（オプション） | コレクションに適用するタイトル。 通常、これはアプリを表示するページのタイトルに対応します。 <br>次に例を示します。 「Integration is So Fun!」 <br>注意：  タイトルの最大文字長は255文字です。 タイトルフィールドはHTMLエンティティをサポートしていません。 特殊文字はUTF-8を使用してエンコードしてください。 |
+| url | 文字列 (オプション) | このコレクションに添付する正規の絶対URLです。 このURLは、FacebookやTwitterで共有されるコンテンツ、電子メール通知およびLivefyre Studioからアプリへ戻るリンクを生成するために使用されます。 <br>注意：  ローカルでテストする場合は、有効なベースURLドメインを使用します(例： 有効： `https://customer.com`; 無効： `https://localhost:5995`)をクリックします。 |
+| タグ | 文字列（オプション） | 1つのキーワードまたはフレーズをコンマで区切ったリスト。 Studioを使用してタグでコレクションを検索します。  </br>注意：  タグにスペースを含めることはできません。 UIにスペースを表示する場合は、アンダースコアを使用します。 |
 | extensions | JSON（オプション） | コレクションに渡すJSON形式のパラメーターのセットです。 |
 
 ## Java {#section_orz_m4n_sz}
@@ -97,7 +100,6 @@ collection.data.tags = 'tags'
 collection_meta_token = collection.build_collection_meta_token 
 ```
 
->[!NOTE] {importance="high"}
+>[!NOTE]
 >
->Livefyreは、構築したcollectionMetaトークンを受け取り、siteId（Livefyreが提供）とarticleId（顧客が指定）を組み合わせて一意性を判定します。
-
+>Livefyreは、作成したcollectionMetaトークンを受け取り、siteId（Livefyreが提供）とarticleId（お客様が指定）を組み合わせて、一意性を決定します。
