@@ -6,7 +6,10 @@ solution: Experience Manager
 title: コメント数を表示
 uuid: 0f39b25e-11e0-4945-be71-55fb4798b6c7
 translation-type: tm+mt
-source-git-commit: c287e7a880f956f0444af746adee682571fe5a72
+source-git-commit: c2594f919f153d1230b3dc0370f31d64cb698146
+workflow-type: tm+mt
+source-wordcount: '381'
+ht-degree: 0%
 
 ---
 
@@ -15,11 +18,11 @@ source-git-commit: c287e7a880f956f0444af746adee682571fe5a72
 
 特定のコレクションの投稿数とコメント数を取得して、インデックスページに表示します。
 
-Livefyreでは、サイ `CommentCount.js` ト上のコレクションのコンテンツ数を取得できます。 「アプリ」には現在のコレクションのコメント数が表示されますが、サイト全体でこれらの数を同時に表示すると便利です。 この機能は、データベース内のコンテンツを保持しない（またはCMSデータベースがLivefyreと同期されない）場合に特に便利です。
+Livefyreでは、サイト上のコレクションのコンテンツ数を取得でき `CommentCount.js` ます。 アプリでは現在のコレクションのコメント数が表示されますが、サイト全体でこれらのコメント数を同時配分すると便利です。 この機能は、データベース内のコンテンツを保持しない（またはCMSデータベースがLivefyreと同期されない）場合に特に便利です。
 
 1. JavaScriptを読み込みます。
 
-   使用する `CommentCount.js`には、まず、JavaScriptファイルを使用するペ `<head>` ージまたはテンプレートのセクションに埋め込みます。
+   を使用するに `CommentCount.js`は、まず使用するページまたはテンプレートの `<head>` セクションにJavaScriptファイルを埋め込みます。
 
    ```
    <script 
@@ -31,9 +34,9 @@ Livefyreでは、サイ `CommentCount.js` ト上のコレクションのコン�
 
 1. HTML要素を連結します。
 
-   スクリプトが読み込まれると、クラス名がという他の要素がページ上で検索されます `livefyre-commentcount`。 これらの各要素に対して、スクリプトは `data-lf-site-id``data-lf-article-id` HTML属性とHTML属性を探し、これらを使用してLivefyreからコンテンツを取得し、各要素を最新の値で更新します。
+   スクリプトが読み込まれると、ページ上のクラス名がという他の要素の検索が試行され `livefyre-commentcount`ます。 これらの各エレメントに対して、スクリプトは `data-lf-site-id``data-lf-article-id` HTML属性とHTML属性を探し、それらを使用してLivefyreからコンテンツを取得し、各エレメントを最新の値に更新します。
 
-   例えば、次の要素が更新されます。
+   例えば、次の要素は更新されます。
 
    ```
    <span class="livefyre-commentcount" data-lf-site-id="{site_id}" data-lf-article-id="{article_id}"> 
@@ -41,11 +44,11 @@ Livefyreでは、サイ `CommentCount.js` ト上のコレクションのコン�
    </span>
    ```
 
-   >[!NOTE] {importance="high"}
+   >[!NOTE]
    >
-   >コー `CommentCount.js` ドは、実際の数で更新する数値を確認します。 タグの間に必ず数値を含めてください。
+   >コー `CommentCount.js` ドは、実際の数で更新する数値をチェックします。 タグの間に必ず数値を含めてください。
 
-   **例1** （URLを記事IDとして使用）:
+   **例1** （URLを記事IDとして使用する）:
 
    ```
    <span class="livefyre-commentcount" data-lf-site-id="311458" data-lf-article-id="https://mikesoldner.com/blog.php">  
@@ -53,7 +56,7 @@ Livefyreでは、サイ `CommentCount.js` ト上のコレクションのコン�
    </span>
    ```
 
-   **例2** （番号付きシステムを記事IDとして使用する）:
+   **例2** （番号付きのシステムを記事IDとして使用する）:
 
    ```
    <span class="livefyre-commentcount" data-lf-site-id="311458" data-lf-article-id="25"> 0 Comments </span>
@@ -61,18 +64,18 @@ Livefyreでは、サイ `CommentCount.js` ト上のコレクションのコン�
 
 1. オプションを設定します。
 
-   コンテンツ数の置き換え方法をより詳細に制御するには、設定オプシ `LF.CommentCount()` ョンを含むオブジェクトを呼び出して渡します。 置き換える必要があるすべての要素がDOM内にある場合は、必ず関数を呼び出してください。 このメソッドを呼び出すのに最適な場所はフッター内にあるので、DOMが読み込まれるが、ドキュメントおよびウィンドウ準備完了イベントの前に発生します。
+   コンテンツカウントの置き換え方法を制御するには、設定オプションを含むオブジェクトを呼び出 `LF.CommentCount()` して渡します。 置換する必要のあるすべての要素がDOMに含まれている場合は、必ず関数を呼び出してください。 このメソッドを呼び出すのに最適な場所はフッターです。このメソッドは、DOMが読み込まれるが、ドキュメントおよびウィンドウ対応イベントの前に発生します。
 
-   次の設定オプションを許可します。
+   次の設定オプションを使用できます。
 
-* **** replacer:各コンテンツカウントのテキストを置き換えるために使用される関数またはRegexです。
+* **replacer:** 各コンテンツカウントのテキストを置き換えるために使用する関数またはRegexです。
 
-* **** 関数：各要素で置換を行うために使用します。 関数の引数は次のとおりです。
+* **関数：** 各要素で置換を行うために使用します。 関数の引数は次のとおりです。
 
-   **** element:更新中のHTML要素です。
-   **** count:この要素のコンテンツ数。
+   **要素：** 更新中のHTML要素です。
+   **count:** この要素のコンテンツ数。
 
-* **** regex:要素のテキストのどの部分を数で置き換えるかを決定するために使用します。
+* **regex:** 要素のテキストのどの部分をカウントで置き換えるかを決定するために使用します。
 
    **例**：
 
@@ -87,4 +90,4 @@ Livefyreでは、サイ `CommentCount.js` ト上のコレクションのコン�
 
    >[!NOTE]
    >
-   >置換機能を使用して、コメント数のメッセージをカスタマイズまたは国際化します。
+   >置き換え子を使用して、コメント数のメッセージをカスタマイズまたは国際化します。
