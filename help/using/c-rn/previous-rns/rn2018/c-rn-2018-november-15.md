@@ -6,7 +6,10 @@ solution: Experience Manager
 title: リリースノート
 uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
 translation-type: tm+mt
-source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
+source-git-commit: efb031b58f01ec69c8297a808998d25a0015f102
+workflow-type: tm+mt
+source-wordcount: '371'
+ht-degree: 7%
 
 ---
 
@@ -33,7 +36,7 @@ source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
 
 Instagramアカウントの権限を要求する方法について詳しくは、Instagram権限リクエストの手動 [送信](/help/using/c-how-requesting-rights-works/c-send-instagram-manual-rights-request.md) および部分的に自動化されたInstagram権限リクエストの [送信を参照してください](/help/using/c-how-requesting-rights-works/c-send-an-instagram-rights-request-from-the-library.md)。
 
-* **Adobe Target の統合.** Adobeターゲットとの統合が追加され、Livefyre Appsを直接Adobeターゲットオファーライブラリと共有できるようになりました。 LivefyreをAdobeターゲットと併用する方法について詳しくは、 [ターゲットドキュメントを参照してください](hhttps://docs.adobe.com/content/help/en/livefyre/using/library/livefyre-target.html)。
+* **Adobe Target の統合.** Adobe Targetとの統合が追加され、Livefyre Appsを直接Adobe Targetオファーライブラリで共有できるようになりました。 LivefyreをAdobe Targetと併用する方法について詳しくは、 [ターゲットドキュメントを参照してください](hhttps://docs.adobe.com/content/help/en/livefyre/using/library/livefyre-target.html)。
 
 ## タスク {#section_ehw_ndt_wcb}
 
@@ -43,15 +46,15 @@ Instagramアカウントの権限を要求する方法について詳しくは�
 
 | 問題のタイプ | コンポーネント | リリースノート |
 |--- |--- |--- |
-| 問題 | AppService: Livefyre ID | クリックしても [! UICONTROL Reset to Default] （デフォルトにリセット）を選択しても、Studio/統合設定/Livefyre IDの「ログインモーダル」の下のロゴがデフォルトの画像にリセットされませんでした。 |
+| 問題 | AppService:Livefyre ID | Studio/統合設定/Livefyre IDの「ログインモーダル」で、をクリックしてもロゴがデフォルトの画像にリセットされなかった問題を修正しました。 [!UICONTROL Reset to Default] |
 | 問題 | ライブラリ | ビデオがライブラリにアップロードされ、アセットの詳細で表示されると正しく表示されない問題を修正しました。 |
 | 問題 | ストリーム | ストリームルールで製品が表示されない問題を修正しました。 |
 | 問題 | ストリーム | ストリームルールで製品タグが使用できない問題を修正しました。 |
 | 機能強化 | スタジオ | 製品IDがLivefyre Studioに表示されない問題を修正しました。 |
-| 問題 | スタジオ： ModQ | 削除したコンテンツが削除後もModQに表示され続ける問題を修正しました。 |
+| 問題 | スタジオ：ModQ | 削除したコンテンツが削除後もModQに表示され続ける問題を修正しました。 |
 
 ### UATリリース
 
 | **問題のタイプ** | **コンポーネント** | **リリースノート** |
 |---|---|---|
-| 問題 | Socialコンポーネント： カルーセル | IE11およびMozilla Firefoxで、共有リンクが期待どおりに応答してURLをコピーしない問題を修正しました。 |
+| 問題 | Socialコンポーネント：カルーセル | IE11およびMozilla Firefoxで、共有リンクが期待どおりに応答してURLをコピーしない問題を修正しました。 |
