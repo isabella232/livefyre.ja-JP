@@ -1,9 +1,9 @@
 ---
 product: livefyre
 audience: end-user
-user-guide-title: Livefyreドキュメント
+user-guide-title: Livefyreガイド
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: c8f274185f642c528ec684373c63b80cee8fab35
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 5%
@@ -11,7 +11,7 @@ ht-degree: 5%
 ---
 
 
-# Livefyreドキュメント {#using}
+# Livefyreガイド {#using}
 
 + [Livefyreヘルプ](home.md)
 + [お知らせ](c-anouncements.md)
@@ -61,8 +61,8 @@ ht-degree: 5%
       + [コメントまたはラ追加イブブログアプリに対する調査](c-about-apps/c-polls-app/t-integrate-poll-site.md)
       + [投追加票の画像](c-about-apps/c-polls-app/t-add-images-to-a-poll.md)
       + [調査のカスタマイズ](c-about-apps/c-polls-app/r-polls-customizations.md)
-   + レビュー {#reviews}
-      + [レビュー](c-about-apps/c-reviews-app/c-reviews-app.md)
+   + コンテンツ {#reviews}
+      + [コンテンツ](c-about-apps/c-reviews-app/c-reviews-app.md)
       + [レビューアプリの作成](c-about-apps/c-reviews-app/c-creating-reviews.md)
       + [レビューの投稿](c-about-apps/c-reviews-app/t-using-reviews.md)
    + Sidenots {#sidenotes}
@@ -187,9 +187,9 @@ ht-degree: 5%
    + [ライブラリを使用した製品とコンテンツの関連付け](c-library/t-associate-products-with-content-using-the-library.md)
    + [コンテンツを公開](c-library/t-publish-content.md)
    + [「アプリコンテンツ」タブ](c-library/c-app-content.md)
-   + [Adobe Experience Manager LivefyreとHootsuiteの使用](c-library/c-hootsuite-livefyre.md)
-   + [Adobe Experience Manager LivefyreをAdobe Targetと併用する](c-library/livefyre-target.md)
-   + [Adobe Launch Livefyre Extensionの使用](c-library/launch-extension.md)
+   + [HootusiteでのAdobe Experience ManagerLivefyreの使用](c-library/c-hootsuite-livefyre.md)
+   + [Adobe Experience ManagerLivefyreとAdobe Targetの使用](c-library/livefyre-target.md)
+   + [Adobe起動Livefyre拡張機能の使用](c-library/launch-extension.md)
 + ストリーム {#streams}
    + [ストリーム](c-streams/c-streams.md)
    + [新しいストリームの作成](c-streams/t-create-a-new-stream.md)
@@ -215,17 +215,17 @@ ht-degree: 5%
    + [表示権限アクティビティの履歴](c-how-requesting-rights-works/c-view-rights-activity-history.md)
    + [アセットライブラリからの保留中の権限の要求を含むコンテンツの管理](c-how-requesting-rights-works/t-manage-content-with-pending-rights-request.md)
    + [アセットライブラリからの手動によるアセットの権限の付与または取り消し](c-how-requesting-rights-works/t-manually-grant-the-rights-for-one-or-more-assets.md)
-+ ユーザー： StudioとLivefyreネットワークユーザーの管理 {#users-managing}
-   + [ユーザー： StudioとLivefyreネットワークユーザーの管理](c-users/c-users.md)
++ ユーザー：StudioとLivefyreネットワークユーザーの管理 {#users-managing}
+   + [ユーザー：StudioとLivefyreネットワークユーザーの管理](c-users/c-users.md)
    + [ユーザーの検索](c-users/t-search-for-users.md)
    + [アカウントの詳細の表示](c-users/c-viewing-account-details.md)
    + [ユーザーの禁止](c-users/t-ban-a-user.md)
-   + [ユーザーのリストを許可](c-users/allow-list-a-user.md)
+   + [ユーザーの許可リスト](c-users/allow-list-a-user.md)
    + [ユーザーアカウントのリンク](c-users/t-link-user-accounts.md)
    + [ネットワークの切り替え](c-users/c-users-switching-networks.md)
    + [ユーザー同期](c-users/t-set-up-user-sync.md)
-+ ユーザー： ユーザーアカウントの作成 {#users-creating-accounts}
-   + [ユーザー： ユーザーアカウントの作成](c-users-creating-accounts-with-studio-access/c-users-creating-accounts-with-studio-access.md)
++ ユーザー：ユーザーアカウントの作成 {#users-creating-accounts}
+   + [ユーザー：ユーザーアカウントの作成](c-users-creating-accounts-with-studio-access/c-users-creating-accounts-with-studio-access.md)
    + [Studioアカウントを作成するためのユーザーの招待](c-users-creating-accounts-with-studio-access/t-invite-a-user-to-create-a-studio-account.md)
    + [Studioアカウント作成の招待の受諾](c-users-creating-accounts-with-studio-access/t-accept-an-invitation-to-create-a-studio-account.md)
    + [Studioにログインする](c-users-creating-accounts-with-studio-access/t-log-into-studio.md)
@@ -235,7 +235,7 @@ ht-degree: 5%
       + [Social追加アカウント](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/t-configure-social-accout-instagram.md)
       + [Instagramアカウントについて](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md)
       + [Socialアカウントのトークンの更新](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-refresh-a-token-for-a-social-account.md)
-+ 設定： その他 {#settings-other}
++ 設定：その他 {#settings-other}
    + [資格情報の設定](c-settings-other/t-set-up-credentials.md)
    + [ネット追加ワークへのサイト](c-settings-other/t-add-a-site.md)
    + 翻訳セット {#translation-sets}
