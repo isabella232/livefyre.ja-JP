@@ -6,12 +6,15 @@ solution: Experience Manager
 title: Livefyre Analyticsのイベント
 uuid: 4eb5a196-ca33-40f8-a96d-ed46469223de
 translation-type: tm+mt
-source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
+source-git-commit: 5dc11c42a9f8bf3fa088f3245e21b6942d4865fe
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 5%
 
 ---
 
 
-# Livefyre Analyticsのイベント {#livefyre-analytics-events}
+# Livefyre Analyticsのイベント
 
 ## イベントオブジェクトの定義 {#section_dh1_yhn_pdb}
 
@@ -44,7 +47,7 @@ source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
 
 ## Livefyre AnalyticsイベントとeVar {#section_u3k_tft_mcb}
 
-Report Suite Managerを使用したレポートで使用するカスタムイベントにマッピングするLivefyreのイベントを以下に示します。 Adobe Analyticsのレポートスイートについて詳しくは、 [Report Suite Managerを参照してください](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)。 LivefyreイベントとReport Suite Managerの使用方法について詳しくは、を参照してくだ [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb)さい。
+Report Suite Managerを使用したレポートで使用するカスタムイベントにマッピングするLivefyreのイベントを以下に示します。 Adobe Analyticsのレポートスイートについて詳しくは、「 [Report Suite Manager](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)」を参照してください。 LivefyreイベントとReport Suite Managerの使用方法について詳しくは、を参照してくだ [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb)さい。
 
 ## Livefyre Analyticsのイベント
 
@@ -53,10 +56,10 @@ Report Suite Managerを使用したレポートで使用するカスタムイベ
 | Init | 1つ以上のLivefyreアプリを含むページが読み込まれたとき |
 | ロード | ユーザーの表示に関係なく、アプリがページに読み込まれた時 |
 | 表示 | アプリが初めてビューポートに入ったとき。 |
-| 投稿 | ユーザーがコメントやコンテンツの一部(例： 最上位レベルの投稿，返信，レビュー，メディアウォールのアップロード |
+| 投稿 | ユーザーがコメントやコンテンツの一部(例：最上位レベルの投稿，返信，レビュー，メディアウォールのアップロード |
 | 投稿済み | 投稿が成功したとき。 |
 | Twitter_Reply | ユーザーがTwitterで返信した場合 |
-| Twitter_Like | コンテンツの共有先： リツイート |
+| Twitter_Like | コンテンツの共有先：リツイート |
 | Livefyre_Like | アプリケーションでlivefyreの「いいね！」機能が使用された場合は常に |
 | Livefyre_Inlike | ユーザーがlivefyreの「いいね！」を取り消したとき |
 | ShareOnPost | ユーザーがコンテンツを投稿し、投稿時に共有機能を使用するたびに |
@@ -76,7 +79,7 @@ Report Suite Managerを使用したレポートで使用するカスタムイベ
 | UnfollowCollection | 会話のフォローが解除されたとき |
 | RequestMore | ユーザーがアプリにより多くのコンテンツを読み込んだとき（高速の場合にも必要） |
 | ModalView | モーダル内の表示コンテンツに対してユーザーがクリックしたとき |
-| TwitterRetweetClick | コンテンツの共有先： リツイート |
+| TwitterRetweetClick | コンテンツの共有先：リツイート |
 | PostButtonClick | ユーザーが投稿をクリックしたとき（「何を考えていますか？」）。 ボタン |
 | ログイン | ユーザーがログインしたとき |
 | ログアウト | ユーザーがログアウトしたとき |
