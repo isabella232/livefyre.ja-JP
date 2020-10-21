@@ -1,15 +1,18 @@
 ---
-source-git-commit: 06ed2854bc5905e963c5dbf6c6b04725670796ec
+source-git-commit: cdc5645b1bc3f2e9cf47329063635e20ec5c2e5e
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '517'
 ht-degree: 6%
 
 ---
 # Contribute記事
 
-ドキュメントチーム以外のAdobe社員の方々から、コミュニティからの寄付を歓迎します。
+| EXL-PR | EXL | プレビュー | アクティブ化 | 発行数 | ヘルプ |
+|--- |--- |--- |--- |--- |--- |
+| [![ビルドの状態](https://docs.ci.corp.adobe.com/view/exl-pr/job/livefyre.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/livefyre.en_pr-exl/lastBuild/) | [![ビルドの状態](https://docs.ci.corp.adobe.com/view/exl-pr/job/livefyre.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/livefyre.en_exl/lastBuild/lastBuild) | [プレビューURL](https://experienceleague.corp.adobe.com/docs/livefyre/using/home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [ライブURL](https://experienceleague.adobe.com/docs/livefyre/using/home.html?lang=en) | [オーサリングガイド](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
+ドキュメントチーム以外のAdobe社員の方々から、コミュニティからの寄付を歓迎します。
 
 ## Adobeオープンソースコード
 
@@ -56,5 +59,5 @@ Adobe Experience Cloudソリューションのテクニカルライター、プ�
 
 パブリック・リポジトリでは、プル・リクエストのワークフローを管理し、プル・リクエストの状況を把握できるように、プル・リクエストの自動ラベルが割り当てられます。
 
-* **変更の作成者への送信**: 作成者は保留中のプル要求を通知されました。
-* **結合準備完了**: 引き出し要求レビューチームによるレビューの準備が整いました。
+* **変更の作成者への送信**:作成者は保留中のプル要求を通知されました。
+* **結合準備完了**:引き出し要求レビューチームによるレビューの準備が整いました。
