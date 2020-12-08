@@ -1,16 +1,12 @@
 ---
-source-git-commit: cdc5645b1bc3f2e9cf47329063635e20ec5c2e5e
+source-git-commit: 59f12a4dde987614e412838161bb5e8f6613630b
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '435'
 ht-degree: 6%
 
 ---
 # Contribute記事
-
-| EXL-PR | EXL | プレビュー | アクティブ化 | 発行数 | ヘルプ |
-|--- |--- |--- |--- |--- |--- |
-| [![ビルドの状態](https://docs.ci.corp.adobe.com/view/exl-pr/job/livefyre.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/livefyre.en_pr-exl/lastBuild/) | [![ビルドの状態](https://docs.ci.corp.adobe.com/view/exl-pr/job/livefyre.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/livefyre.en_exl/lastBuild/lastBuild) | [プレビューURL](https://experienceleague.corp.adobe.com/docs/livefyre/using/home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [ライブURL](https://experienceleague.adobe.com/docs/livefyre/using/home.html?lang=en) | [オーサリングガイド](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 ドキュメントチーム以外のAdobe社員の方々から、コミュニティからの寄付を歓迎します。
 
