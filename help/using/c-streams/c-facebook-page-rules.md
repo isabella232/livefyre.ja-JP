@@ -1,32 +1,35 @@
 ---
-description: Facebookページからコンテンツを取り込むストリームルールを作成できます。
-seo-description: Facebookページからコンテンツを取り込むストリームルールを作成できます。
-seo-title: Facebookページルール
+description: Facebookページからコンテンツを引き出すストリームルールを作成できます。
+seo-description: Facebookページからコンテンツを引き出すストリームルールを作成できます。
+seo-title: Facebookページのルール
 solution: Experience Manager
-title: Facebookページルール
+title: Facebookページのルール
 uuid: 2be63476-1a92-409d-a22f-e1ec66b6dcc8
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '288'
+ht-degree: 1%
 
 ---
 
 
 # Facebookページルール{#facebook-page-rules}
 
-Facebookページからコンテンツを取り込むストリームルールを作成できます。
+Facebookページからコンテンツを引き出すストリームルールを作成できます。
 
-Facebookページルールを使用して、Facebookページから公開投稿されたコンテンツをストリーミング配信できます。 コンテンツは、SocialSyncと同じ頻度でアプリまたはフォルダーに取り込まれます。SocialSyncは、Facebookページや投稿のトラフィックパターンに基づいて変化します。 Facebookページ内のリンクもサポートされ、ストリームに表示されます。
+Facebookページルールを使用して、Facebookページから公開投稿されたコンテンツをストリーミングできます。 コンテンツは、SocialSyncと同じ頻度でアプリまたはフォルダーに取り込まれます。SocialSyncは、Facebookページや投稿のトラフィックパターンに基づいて変化します。 Facebookページ内のリンクもサポートされ、ストリームに表示されます。
 
-Facebookページのルールを作成してFacebookページからコンテンツをアプリまたはフォルダーに取り込むには、次のようにフィルターします。
+Facebookページのルールを作成してFacebookページからコンテンツを取り込み、アプリまたはフォルダーに送るには、次の条件を満たすフィルターを使用します。
 
 * **[!UICONTROL Facebook Page]**
 
-   * ページの **[!UICONTROL Name]** を入力します。 URLの末尾のテキストのみを入力します。 **** 例：コンテンツを追加するに `https://facebook.com/KellysSuperFunFanPage`は、フィ *ールドに* KellysSuperFunFanPageと入 **[!UICONTROL Name]** 力します。
+   * ページの&#x200B;**[!UICONTROL Name]**&#x200B;を入力します。 URLの末尾のテキストのみを入力します。 **例えば、コンテンツ** を追加するに `https://facebook.com/KellysSuperFunFanPage`は、フ ** ィールドに「 **[!UICONTROL Name]** KellysSuperFunFanPages」と入力します。
 
-   * ページ **[!UICONTROL Include Facebook Comments for each post]** 投稿にユーザーコメントを含める場合は、オンにします。
-   * 他のユ **[!UICONTROL Only Show Author Posts]** ーザーから投稿を除外する場合は、オンにします。
+   * ページ投稿にユーザーコメントを含める場合は、**[!UICONTROL Include Facebook Comments for each post]**&#x200B;をオンに切り替えます。
+   * 他のユーザーから投稿を除外する場合は、**[!UICONTROL Only Show Author Posts]**&#x200B;をオンにします。
 
-すべてのストリームルールに対する追加のストリームルールオプションについては、「すべてのストリ [ームルールのストリームルールオプション」を参照してくださ](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)い。
+すべてのストリームルールに対する追加のストリームルールオプションについては、[すべてのストリームルールのストリームルールオプション](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)を参照してください。
 
 >[!NOTE]
 >
@@ -34,7 +37,7 @@ Facebookページのルールを作成してFacebookページからコンテン�
 
 >[!NOTE]
 >
->特定のFacebookページに対してFacebook SocialSyncとFacebookページルールの両方が有効になっていて、Facebookページルールに対してユーザーコメントが有効になっている場合、ストリームルールはSocialSyncを上書きします。 コンテンツは、Facebookページキュレーションルールに基づいてのみアプリにストリーミングされ、SocialSyncは使用されません。
+>Facebook SocialSyncとFacebookページルールの両方が特定のFacebookページに対して有効になっており、Facebookページルールに対してユーザーコメントが有効になっている場合、ストリームルールはSocialSyncを上書きします。 コンテンツは、Facebookページキュレーションルールに基づいてのみアプリにストリーミングされ、SocialSyncは使用されません。
 
 Facebookページキュレーションでサポートされるコンテンツのタイプは次のとおりです。
 
