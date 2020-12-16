@@ -14,7 +14,7 @@ ht-degree: 4%
 ---
 
 
-# 外部システムへのユーザー権限の投稿（オプション）{#posting-user-permissions-to-external-systems-optional}
+# 外部システムへのユーザー権限の送信（オプション）{#posting-user-permissions-to-external-systems-optional}
 
 LivefyreはPUSHインターフェイスを使用して、ユーザー権限への変更に関する外部システム情報を送信します。
 
@@ -42,11 +42,11 @@ POST https://{networkName}.quill.fyre.co/?actor_token={token}&push_affiliation_u
 | token | 有効なシステムトークン。 |
 | url | 登録するURL。 |
 
-登録されたURLは、次のデータを持つPOSTをコンテンツタイプとして受け取る必要があります。 application/x-www-form-urlencoded
+登録されたURLは、次のデータを持つPOSTをコンテンツタイプとして受け取る必要があります。application/x-www-form-urlencoded
 
 | パラメーター | 説明 |
 |--- |--- |
-| jid | 所属を変更したユーザーのJID。 JIDはフォームの文字列で `user_id@network`す。 |
-| 所属 | 割り当てられる権限の名前。次のいずれかである必要があります。  `{admin | member | none | outcast | owner}` |
+| jid | 所属を変更したユーザーのJID。 JIDは`user_id@network`の形式の文字列です。 |
+| 所属 | 割り当てられる権限の名前。次のいずれかである必要があります。 `{admin | member | none | outcast | owner}` |
 
-ユーザー所属設定の更新について詳しくは、 [追加 User Affiliation API Referenceを参照してください](https://api.livefyre.com/docs/apis/by-category/user-management#operation=urn:livefyre:apis:quill:operations:api:v3.0:affiliation:add:method=post)。
+ユーザー所属設定の更新について詳しくは、[追加ユーザー所属APIリファレンス](https://api.livefyre.com/docs/apis/by-category/user-management#operation=urn:livefyre:apis:quill:operations:api:v3.0:affiliation:add:method=post)を参照してください。
