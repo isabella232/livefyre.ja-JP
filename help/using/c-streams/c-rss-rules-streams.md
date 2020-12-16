@@ -7,6 +7,9 @@ title: RSSルール
 uuid: 3c9e2069-bb85-41dc-8b35-6237642a538a
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '245'
+ht-degree: 0%
 
 ---
 
@@ -17,13 +20,13 @@ RSSフィードからコンテンツを取り込むストリームルールを�
 
 RSSストリームは5分ごとに更新され、フィード内の最初の50項目から、Livefyreにまだ存在しないコンテンツを探します。 Livefyreは、フィード内の最初の50項目を超える項目をすべて無視します。
 
-RSSフィードからコンテンツを取り込むRSSルールを作成するには、次の条件でフィルタリングします。
+RSSフィードからコンテンツを取り込むRSSルールを作成するには、次のフィルタを使用します。
 
-* **[!UICONTROL URL]** のRSSフィードを参照してください。
-* **[!UICONTROL Include recent items.]** これを次に設定すると、
+* **[!UICONTROL URL]** のRSSフィードの
+* **[!UICONTROL Include recent items.]** 次に設定する場合：
 
-   * **[!UICONTROL Enabled]**&#x200B;に設定されている場合、Livefyreは、投稿日に関係なく、フィード内の最初の50個のコンテンツ項目をストリームに追加します。
-   * **[!UICONTROL Disabled]**&#x200B;に設定されている場合、Livefyreは、ストリームルール作成日以降と同じ発行日を持つストリームに、フィード内の最初の50個のコンテンツ項目を追加します。
+   * **[!UICONTROL Enabled]**&#x200B;投稿日に関係なく、Livefyreは、フィード内の最初の50個のコンテンツ項目をストリームに追加します。
+   * **[!UICONTROL Disabled]** Livefyreは、フィード内の最初の50個のコンテンツ項目を、ストリームルール作成日以降と同じ発行日付のストリームに追加します。
 
 * **[!UICONTROL Extract post information from item link (when disabled, post information is extracted from XML).]** 項目リンクまたはXMLから情報を取得します。
 
@@ -33,8 +36,8 @@ Livefyreは、以下のRSS仕様に基づいてRSSフィードを解析します
 
 * [RSS 2.0](https://en.wikipedia.org/wiki/RSS)
 * [メディアRSS](https://en.wikipedia.org/wiki/Media_RSS)
-* [アトムフィード](https://validator.w3.org/feed/docs/atom.html)
+* [原子フィード](https://validator.w3.org/feed/docs/atom.html)
 
-Livefyreは、これらの仕様に準拠しないフィードを読み取らず、そのコンテンツはストリームに取り込まれません。 WC3 Feed Validation Serviceを使用してRSSフィードの構文を確認し、有効であることを確認します。
+これらの仕様に従っていないフィードは読み取られず、そのコンテンツはストリームに取り込まれません。 WC3 Feed Validation Serviceを使用してRSSフィードの構文を確認し、有効であることを確認します。
 
-すべてのストリームルールに対する追加のストリームルールオプションについては、「すべてのストリ [ームルールのストリームルールオプション」を参照してくださ](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)い。
+すべてのストリームルールに対する追加のストリームルールオプションについては、[すべてのストリームルールのストリームルールオプション](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)を参照してください。
