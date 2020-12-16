@@ -1,51 +1,54 @@
 ---
-description: これらのオプションは、すべてのソーシャルネットワークまたは投稿方法からのすべてのストリームルールに適用されます。
-seo-description: これらのオプションは、すべてのソーシャルネットワークまたは投稿方法からのすべてのストリームルールに適用されます。
+description: これらのオプションは、すべてのソーシャルネットワークまたは投稿方法のすべてのストリームルールに適用されます。
+seo-description: これらのオプションは、すべてのソーシャルネットワークまたは投稿方法のすべてのストリームルールに適用されます。
 seo-title: すべてのストリームルールのストリームルールオプション
 solution: Experience Manager
 title: すべてのストリームルールのストリームルールオプション
 uuid: 4072ee83-31e7-4de6-918c-134b8b8032e1
 translation-type: tm+mt
 source-git-commit: 8bdb537b38d78dba033d6671b710c2a61934d6b2
+workflow-type: tm+mt
+source-wordcount: '412'
+ht-degree: 5%
 
 ---
 
 
 # すべてのストリームルールのストリームルールオプション{#stream-rule-options-for-all-stream-rules}
 
-これらのオプションは、すべてのソーシャルネットワークまたは投稿方法からのすべてのストリームルールに適用されます。
+これらのオプションは、すべてのソーシャルネットワークまたは投稿方法のすべてのストリームルールに適用されます。
 
 テキストフィールドとキーワードフィールドの検索機能：
 
-* キーワードを入力すると、Livefyreは個々の単語に対してブール演算子 **OR** (OR)を自動的に使用します。 例えば、「 *cakes* 」または「recipe」という単語を含む投稿を検索するには、「 *cake*」と入力し、「recipe *」と「recipe」と入力し*****[!UICONTROL keyword]** ます。
+* キーワードを入力すると、Livefyreは、個々の単語に対してブール演算子&#x200B;**OR**&#x200B;を自動的に使用します。 例えば、*cake*&#x200B;または&#x200B;*recipe*&#x200B;という単語を含む投稿を検索するには、*cake*&#x200B;と入力し、**[!UICONTROL keyword]**&#x200B;フィールドに&#x200B;*recipe*&#x200B;と入力します。
 
-* 完全一致のフレーズテキストを引用符で囲むと、完全一致のフレーズを検索できます。 例えば、正確なフレーズ「cake recipe *」を検索するに*&#x200B;は、フィールドに「cake recipe *」と入力し***[!UICONTROL keyword]** ます。
+* 完全に一致するフレーズを引用符で囲むと、完全に一致するフレーズを検索できます。 例えば、「*cake recipe*」というフレーズを検索するには、「**[!UICONTROL keyword]**」フィールドに「*&quot;cake recipe&quot;*」と入力します。
 
-* 1つのストリームルールで、ブール検索と完全一致フレーズ検索を組み合わせることができます。 例えば、各フレーズを一度に1 *つずつ入力して、* cake *、recipe*、 *およびcake recipe* を検索できます。
+* ブール検索と完全一致のフレーズ検索を1つのストリームルールで組み合わせることができます。 例えば、*cake*、*recipe*、*&quot;cake recipe&quot;*&#x200B;を一度に1つずつ入力して検索できます。
 
-**[!UICONTROL Additional Filters]**:
+ を使用します&#x200B;**[!UICONTROL Additional Filters]**。
 
-* **[!UICONTROL Media]**. 次のいずれかを選択します。
+* **[!UICONTROL Media]**&#x200B;をインストールします。次のいずれかを選択します。
 
    * **[!UICONTROL All Content.]** 任意のコンテンツを許可します。
-   * **[!UICONTROL Media Required.]** 画像とビデオを含むコンテンツのみを許可する。 (InstagramおよびFacebookコンテンツの場合は、またはのみを **[!UICONTROL Photos]** 指定で **[!UICONTROL Videos]** きます)。
+   * **[!UICONTROL Media Required.]** 画像とビデオのあるコンテンツのみを許可します。（InstagramとFacebookコンテンツの場合は、**[!UICONTROL Photos]**&#x200B;または&#x200B;**[!UICONTROL Videos]**&#x200B;のみ指定できます）。
 
-* **[!UICONTROL Language]**. 検索する言語を選択します。 デフォルトの言語は英語です。
-* **[!UICONTROL Smart Tags]**. コンテンツの識別に使用するタグを選択します。 Livefyreは、コンピューターの視覚技術を使用して、特定のスマートタグを使用して写真やビデオを識別し、より正確に検索できるようにします。 修飾子を使用し **[!UICONTROL ANY]** て任意のタグを使用してコンテンツをストリームにフィルターしたり、修飾子を使用し **[!UICONTROL ALL]** てすべてのタグを使用するストリームにコンテンツをフィルターしたりします。 このフィール **[!UICONTROL Image contains none of these smart tags]** ドを使用して、ストリームに含めないコンテンツを含む写真のタグを入力します。 このオプションは、テキストコンテンツに対しては機能しません。
+* **[!UICONTROL Language]**&#x200B;をインストールします。検索する言語を選択します。 デフォルトの言語は英語です。
+* **[!UICONTROL Smart Tags]**&#x200B;をインストールします。コンテンツの識別に使用するタグを選択します。 Livefyreは、コンピューターの視覚技術を使用して、特定のスマートタグで写真やビデオを識別し、より正確に検索できるようにします。 **[!UICONTROL ANY]**&#x200B;修飾子を使用して任意のタグを使用してコンテンツをストリームにフィルターしたり、**[!UICONTROL ALL]**&#x200B;修飾子を使用してコンテンツをすべてのタグを使用するストリームにフィルターしたりします。 **[!UICONTROL Image contains none of these smart tags]**&#x200B;フィールドを使用して、ストリームに含めないコンテンツを含む写真のタグを入力します。 このオプションは、テキストコンテンツに対しては機能しません。
 
-* **[!UICONTROL Products]**. ストリームルールと製品カタログの製品を一致させる製品タグを追加します。
-* **[!UICONTROL Premoderate]**. 次のいずれかを選択します。
+* **[!UICONTROL Products]**&#x200B;をインストールします。製品追加タグを使用して、ストリームルールと製品カタログの製品を一致させます。
+* **[!UICONTROL Premoderate]**&#x200B;をインストールします。次のいずれかを選択します。
 
-   * **[!UICONTROL On]**. 受信するすべてのルールコンテンツを事前モデレートします。 モデレート済みコンテンツは、ModQのStreamsセクションから表示できます。 **[!UICONTROL On]** は、アプリ設定の設定を上書きします。
-   * **[!UICONTROL Off]**. 受信したルールのコンテンツを事前にモデレートしないでください。 **[!UICONTROL Off]** は、アプリ設定の設定を上書きします。
-   * **[!UICONTROL Inherited (Off)]**. サイトのプレモデレート設定を使用しま **[!UICONTROL Site Settings]**&#x200B;す()。
+   * **[!UICONTROL On]**&#x200B;をインストールします。受信するすべてのルールコンテンツを事前モデレートします。 ModQのStreamsセクションから、モデレート済みコンテンツを表示できます。 **[!UICONTROL On]** は、「アプリ設定」の設定を上書きします。
+   * **[!UICONTROL Off]**&#x200B;をインストールします。受信するルールの内容を事前にモデレートしないでください。 **[!UICONTROL Off]** は、「アプリ設定」の設定を上書きします。
+   * **[!UICONTROL Inherited (Off)]**&#x200B;をインストールします。サイト（**[!UICONTROL Site Settings]**&#x200B;の下）のプレモデレート設定を使用します。
 
-* **[!UICONTROL SAFE Rules]**. 次のいずれかを選択します。
-   * **[!UICONTROL Apply SAFE Rules]**. すべてのSAFEルールをこのストリームに適用します。
-   * **[!UICONTROL Apply SAFE Rules for:]** このストリームルールにセーフルールを適用するオプションを1つ以上選択します。
-   * **[!UICONTROL Disable SAFE Rules]**. このストリームにSAFEルールを適用しないでください。
+* **[!UICONTROL SAFE Rules]**&#x200B;をインストールします。次のいずれかを選択します。
+   * **[!UICONTROL Apply SAFE Rules]**&#x200B;をインストールします。このストリームにすべてのセーフルールを適用します。
+   * **[!UICONTROL Apply SAFE Rules for:]** 1つ以上のオプションを選択して、このストリームルールにセーフルールを適用します。
+   * **[!UICONTROL Disable SAFE Rules]**&#x200B;をインストールします。このストリームにセーフルールを適用しないでください。
 
-ソーシャルネットワークまたはコンテンツタイプに固有のストリームルールオプションについては、各ソーシャルネットワークまたはコンテンツタイプに関する次のドキュメントを参照してください。
+ソーシャルネットワークまたはコンテンツタイプに固有のストリームルールオプションについては、それぞれのソーシャルネットワークまたはコンテンツタイプに関する次のドキュメントを参照してください。
 
 * [Facebook ページ](../c-streams/c-facebook-page-rules.md#c_facebook_page_rules)
 * [Email](../c-streams/c-email-rules.md#c_email_rules)
