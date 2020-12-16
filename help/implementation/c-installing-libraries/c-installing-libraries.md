@@ -1,12 +1,15 @@
 ---
-description: Livefyreサーバー側タスク用のライブラリのインストール
-seo-description: Livefyreサーバー側タスク用のライブラリのインストール
+description: Livefyreサーバー側タスク用ライブラリのインストール
+seo-description: Livefyreサーバー側タスク用ライブラリのインストール
 seo-title: インストール
 solution: Experience Manager
 title: インストール
 uuid: f60b4cc7-178f-4a16-ba75-f1d0d171c52f
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '317'
+ht-degree: 1%
 
 ---
 
@@ -56,7 +59,7 @@ Javaライブラリは、次のモジュールに依存しています。
 </dependency> 
 ```
 
-詳しくは、Javaドキュメントを読むか、 [GitHubのソースを参照してください](https://github.com/Livefyre/livefyre-java-utils)。
+詳しくは、Javaドキュメントを読むか、[GitHub](https://github.com/Livefyre/livefyre-java-utils)のソースを参照してください。
 
 ## NodeJS {#section_swj_pwq_rz}
 
@@ -72,9 +75,9 @@ NodeJSライブラリは、次のモジュールに依存しています。
 "jsonwebtoken": ">=5.0.0" 
 ```
 
-詳しくは、NodeJsドキュメントを読むか、 [GitHubのソースを参照してください](https://github.com/Livefyre/livefyre-nodejs-utils)。
+詳しくは、NodeJsドキュメントを読むか、[GitHub](https://github.com/Livefyre/livefyre-nodejs-utils)のソースを参照してください。
 
-リンク： [Restler](https://github.com/danwrong/restler)、 [Validator](https://www.npmjs.org/package/validator)、 [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken)。
+リンク：[Restler](https://github.com/danwrong/restler), [バリデーター](https://www.npmjs.org/package/validator), [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken)。
 
 ## PHP {#section_txj_xwq_rz}
 
@@ -92,7 +95,7 @@ ComposerでPHPライブラリをインストールするには、composer.json�
 composer.phar install 
 ```
 
-Composerを使用しな **い場合** 、次を使用してライブラリの最新バージョンを取得します。
+Composerを&#x200B;**使用しない**&#x200B;場合は、次を使用してライブラリの最新バージョンを取得します。
 
 ```
 git clone https://github.com/Livefyre/livefyre-php-utils 
@@ -104,7 +107,7 @@ git clone https://github.com/Livefyre/livefyre-php-utils
 require_once("/path/to/livefyre-php-utils/src/Livefyre.php"); 
 ```
 
-PHPライブラリは、次のモジュールに依存しています。
+PHPライブラリは、次のモジュールと依存関係があります。
 
 ```
 "ext-json": "*", 
@@ -112,9 +115,9 @@ PHPライブラリは、次のモジュールに依存しています。
 "firebase/php-jwt": ">=2.0" 
 ```
 
-詳しくは、PHPドキュメントを読むか、 [GitHubのソースを参照してください](https://github.com/Livefyre/livefyre-php-utils)。
+詳しくは、PHPドキュメントを読むか、[GitHub](https://github.com/Livefyre/livefyre-php-utils)のソースを参照してください。
 
-リンク： [ext-json](https://php.net/manual/en/book.json.php)、 [Requests](https://github.com/rmccue/Requests/)、 [PHP-JWT](https://github.com/firebase/php-jwt/tree/v2.0.0)
+リンク：[ext-json](https://php.net/manual/en/book.json.php), [リクエスト](https://github.com/rmccue/Requests/), [PHP-JWT](https://github.com/firebase/php-jwt/tree/v2.0.0)
 
 ## Python {#section_irk_fxq_rz}
 
@@ -132,9 +135,9 @@ enum34 == 1.0
 ordereddict == 1.1 if sys.version_info[:2] < 2.7 
 ```
 
-詳しくは、Pythonドキュメントを読むか、 [GitHubのソースを参照してください](https://github.com/Livefyre/livefyre-python-utils)。
+詳しくは、Pythonドキュメントを読むか、[GitHub](https://github.com/Livefyre/livefyre-python-utils)のソースを参照してください。
 
-リンク：PyJWT [, Requests](https://github.com/progrium/pyjwt), [Python-Dateutil](https://github.com/kennethreitz/requests), [Enum](https://pypi.python.org/pypi/python-dateutil)Enum 34, Ordered Dict [](https://pypi.python.org/pypi/enum34)[Requests, Python-Dateutil, Enum 34](https://pypi.python.org/pypi/ordereddict)
+リンク：[PyJWT](https://github.com/progrium/pyjwt), [リクエスト](https://github.com/kennethreitz/requests), [Python-Dateutil](https://pypi.python.org/pypi/python-dateutil), [Enum34](https://pypi.python.org/pypi/enum34), [OrderedDict](https://pypi.python.org/pypi/ordereddict)
 
 ## Ruby {#section_fv2_tzq_rz}
 
@@ -156,6 +159,6 @@ Rubyライブラリは、次のモジュールに依存しています。
 "addressable", '~> 2.3', ">= 2.3.6" 
 ```
 
-詳しくは、Rubyドキュメントを読むか、 [GitHubのソースを参照してください](https://github.com/Livefyre/livefyre-ruby-utils)。
+詳しくは、Rubyドキュメントを読むか、[GitHub](https://github.com/Livefyre/livefyre-ruby-utils)のソースを参照してください。
 
-リンク： [Ruby JWT](https://github.com/firebase/php-jwt/tree/v2.0.0)、 [REST Client](https://github.com/rest-client/rest-client/)、アドレス [指定](https://github.com/sporkmonger/addressable)
+リンク：[Ruby JWT](https://github.com/firebase/php-jwt/tree/v2.0.0), [RESTクライアント](https://github.com/rest-client/rest-client/), [アドレス指定可能](https://github.com/sporkmonger/addressable)
