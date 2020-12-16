@@ -14,7 +14,7 @@ ht-degree: 0%
 ---
 
 
-# User Roles and Permissions{#user-roles-and-permissions}
+# ユーザーの役割と権限{#user-roles-and-permissions}
 
 Livefyreには、様々なレベルの権限を持つ複数のユーザータイプが用意されています。
 
@@ -43,9 +43,9 @@ Studioでは、次のユーザの役割と一覧表示されたアクセス権�
 
 * **User Manager**
    * エンドユーザーアカウントの詳細の表示と編集
-   * エンドリストの禁止または許可
+   * エンドユーザーの禁止または許可リスト
 
-* **データマネージャ：** livefyre Analyticsダッシュボードの使用権限を付与します。
+* **Data Manager:Livefyre Analyticsダッシュボードを使用するためのアクセス権を** 付与します。
 * **App Manager**
    * アプリの作成と編集
    * アプリを指すストリームの作成および編集
