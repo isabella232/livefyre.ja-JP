@@ -1,25 +1,28 @@
 ---
-description: 顧客が製品の評価とレビューを行えるようにします。
-seo-description: 顧客が製品の評価とレビューを行えるようにします。
+description: お客様が製品の評価やレビューを行えるようにします。
+seo-description: お客様が製品の評価やレビューを行えるようにします。
 seo-title: レビュー
 solution: Experience Manager
 title: レビュー
-uuid: b740ee28-f6f9-4ae7-9fe7-61a5cde97bb
+uuid: b740ee28-f6f9-4ae7-9fe7-61a5cde97bbb
 translation-type: tm+mt
 source-git-commit: 987e682f9c7cd94543fd269f386fd2a971ee9934
+workflow-type: tm+mt
+source-wordcount: '692'
+ht-degree: 1%
 
 ---
 
 
-# レビュー {#reviews}
+# レビュー{#reviews}
 
-顧客が製品の評価とレビューを行えるようにします。
+お客様が製品の評価やレビューを行えるようにします。
 
-レビューを使用すると、コミュニティのメンバーは、あらゆる製品やサービスに関して星の評価や定性のレビューを行うことができます。
+レビューを使用すると、コミュニティのメンバーは、あらゆる製品やサービスに関する評価や定性評価に貢献できます。
 
 ## 統合 {#section_kk5_15b_c1b}
 
-レビューアプリを統合するには、会話アプリの統合の手順に従います。 詳しくは、ア [プリの埋め込みを参照してください](/help/implementation/c-livefyre-identity-comp/t-using-studio-to-connect-your-social-apps-to-your-livefyre-implementation.md)。 次に、埋め込みReviewsアプリの例を示します。
+レビューアプリを統合するには、会話アプリの統合の手順に従います。 [アプリを埋め込む](/help/implementation/c-livefyre-identity-comp/t-using-studio-to-connect-your-social-apps-to-your-livefyre-implementation.md)を参照してください。 次に、埋め込みレビューアプリの例を示します。
 
 ### 例
 
@@ -48,7 +51,7 @@ Livefyre.require(['fyre.conv#3'], function (Review) {
 });
 ```
 
-「Building」の節で説明したように、はエ `CollectionMeta` ンコードさ `CollectionMeta` れたJSONオブジェクトです。 上の例では、JSONオブジェクトはJWTエンコードされる前に次の形式をとります。
+「`CollectionMeta`の構築」の節で説明したように、`CollectionMeta`はエンコードされたJSONオブジェクトです。 上記の例では、JSONオブジェクトはJWTエンコードされる前に次の形式を取ります。
 
 ```
 { 
@@ -60,44 +63,44 @@ Livefyre.require(['fyre.conv#3'], function (Review) {
 }
 ```
 
-## convConfigオブジェクト {#section_pzv_ytb_c1b}
+## convConfigオブジェクト{#section_pzv_ytb_c1b}
 
-「はじめに」の節を既に完了している場合は、convConfigオブジェクトについて理解しておく必要があります。 レビューを有効にするには、次のフィールドでconvConfigを更新します。
+「はじめに」の節の内容がすでに完了している場合は、convConfigオブジェクトについて理解しておく必要があります。 レビューを有効にするには、convConfigを次のフィールドに更新します。
 
-* **alwaysShowEditorオプション***のboolean* :デフォルトでは、レビューエディターは、ユーザーが「レビューを書き込み」ボタンを押した後にのみ表示されます。 常にエディターを表示するには、このパラメーターをtrueに設定します。
+* **** ** alwaysShowEditoroptionalboolean:デフォルトでは、レビューエディタはユーザーが「書き込みレビュー」ボタンを押した後にのみ表示されます。このパラメーターをtrueに設定すると、常にエディターが表示されます。
 
-* **app** required ** string:レビューに使用するアプリ名です。 「レビュー」にする必要があります。
+* **** ** apprequiredstring:レビューに使用するアプリ名です。「reviews」にする必要があります。
 
-* **defaultSortオプシ** ョン ** 文字列：レビューのデフォルトの並べ替えオプションを選択できます。 使用可能な値は次のとおりです。mostHenveled、highestRated、lowestRated、newestおよびorest。
+* **** ** defaultSortoptionalstring:「レビュー」のデフォルトの並べ替えオプションを選択できます。使用できる値は次のとおりです。mostHelved、highestRated、lowestRated、newest、olestの順に並べ替えます。
 
-* **disableTitleオプシ** ョン ** boolean:レビューエディターのタイトルフィールドの有効/無効を切り替えます。デフォルトでは必須で表示されます。 初期設定は true です。
+* **disableTitleoptionalboolean:** ** レビューエディターのタイトルフィールドの有効/無効を切り替えます。デフォルトでは必須で表示可能です。初期設定は true です。
 
-* **enableHalfRatingオプション***のboolean* :デフォルトの星選択モジュールで、レーティングの半分を有効にするために使用します。 初期設定は true です。
+* **enableHalfRatingoptionalboolean** ** :デフォルトの星選択モジュールで半分の評価を有効にするために使用します。初期設定は true です。
 
-* **hideShowReviewButtonオプション***のboolean* :ボタンを表示す [!UICONTROL Show My Review] るかどうかを制御します。 ユーザーが自分のレビューを表示するか表示するかを選択できるようにするには、trueに設定します。
+* **hideShowReviewButtonoptionalboolean** ** :ボ [!UICONTROL Show My Review] タンを表示するかどうかを制御します。自分のレビューを表示するか表示するかをユーザーが選択できるようにするには、trueに設定します。
 
-* **maxRating** optional ** integerデフォルトの星選択モジュールに表示する星の数を設定するために使用します。 デフォルトは 5 です。これは最大100個まで設定できます。
+* **maxRatingoptionalintegerデフォルトの星選択モジュールに表示される星の数を設定するために使用します。** ** デフォルトは 5 です。これは、最大100個まで設定できます。
 
-* **ratingSummaryEnabledオプション***のboolean* :レビューアプリの上に評価の概要ビューを表示するために使用します。 ratingSummaryDelegateを使用するには、これを有効にする必要があります。 初期設定は true です。
+* **** ** ratingSummaryEnabledoptionalboolean:レビューアプリの上に評価概要表示を表示するために使用します。ratingSummaryDelegateを使用するには、これを有効にする必要があります。 初期設定は true です。
 
-## コレクションのメタデータの確認 {#section_k1s_sqb_c1b}
+## コレクションメタデータのレビュー{#section_k1s_sqb_c1b}
 
-* **** type:必 *須文字列* :コレクションの種類を定義します。 必ず `reviews`。
+* **type:** ** requiredstring:コレクションの種類を定義します。`reviews`にする必要があります。
 
-* **ratingDimensionsオプショ** ンの配列 ** :このコレクションで使用するディメンションのタイプごとの文字列の配列です。 これを指定しない場合は、1つのディメンションのみが許可されます。
+* **** ** ratingDimensionsoptionalarray:このコレクションで使用するディメンションのタイプごとの文字列の配列です。これを指定しない場合、1つのディメンションのみが許可されます。
 
-   例えば、ユーザーが製品を「デザイン」、「機能」、「パフォーマンス」に評価できるようにするには、アレイを次のように設定します。 `ratingDimensions: [‘design’, ‘features’, ‘performance’]`
+   例えば、ユーザーが「design」、「features」、「performance」に対して製品の評価を行えるようにするには、アレイを次のように設定します。`ratingDimensions: [‘design’, ‘features’, ‘performance’]`
 
-* **ratingSubparts** optional ** integer:レビューのテキストボックスに表示するパーティションの数。 下図に示すように、サブパーツのラベルはパラメータと共に渡されます。
+* **** ** ratingSubpartionalinteger:レビューのテキストボックスに表示するパーティションの数。サブパーツのラベルは、次の図に示すように、パラメータと共に渡されます。
 
    >[!NOTE]
    >各サブパーツのラベルを定義する必要があります。
 
-* **ratingSubpartsIdsオプショ** ンの配 ** 列：評価コレクション内の各サブパーツのIDを定義できます。このIDは、CSSおよびJavaScriptでこれらのサブパーツ要素をターゲットにするために使用できます。 ユーザーがレビューを投稿す `ratingSubpart` ると、それぞれに「 `data-lf-subpart-id`」属性が付き、このIDが設定されます。
+* **** ** ratingSubpartsIdsoptionalarray:評価コレクションの各サブパーツに対してIDを定義できます。IDは、CSSやJavaScriptでこれらのサブパーツ要素をターゲットするのに使用できます。ユーザーがレビューを投稿すると、各`ratingSubpart`には「`data-lf-subpart-id`」属性が割り当てられ、このIDが設定されます。
 
 >[!NOTE]
 >
->を使用する `ratingSubpartsIds`には、パ `ratingSubparts` ラメータも定義し、2つの配列の長さが一致する必要があります。
+>`ratingSubpartsIds`を使用するには、`ratingSubparts`パラメータも定義する必要があり、2つの配列の長さは一致する必要があります。
 
 ```
 networkConfig["strings"] = { 
@@ -115,26 +118,26 @@ fyre.conv.load(networkConfig, [{
 
 >[!NOTE]
 >
->を使用している場合は、、 `ratingDimensions`およびを使用する必要があります( `ratingSelectionDelegate`レ `ratingDisplayDelegate`ーテ `ratingSummaryDelegate` ィングの概要を表示する場合は、を使用する必要があります)。
+>`ratingDimensions`を使用する場合は、`ratingSelectionDelegate`、`ratingDisplayDelegate`、`ratingSummaryDelegate`を使用する必要があります（評価概要を表示したい場合）。
 
-## レビューのカスタマイズ {#section_khz_xmb_c1b}
+## レビューのカスタマイズ{#section_khz_xmb_c1b}
 
 ### スター画像の設定
 
-星全体の画像を変更する場合、クラスはです `goog-ratings-star`。 背景画像を任意の画像に変更します。 デフォルトでは、星は28 x 28ピクセルです。
+星全体のイメージを変更する場合、クラスは`goog-ratings-star`です。 背景画像を任意の画像に変更します。 デフォルトでは、星は28 x 28ピクセルです。
 
-### 星形（半分）の画像の設定
+### 星形の半分の星を使用した星形画像の設定
 
-星は半分で、星の両側に1つずつ、2つのクラスがあります。 ハーフスターの左 `fyre-rating-half-odd` 辺は右辺は `fyre-rating-half-even`。 初期設定では、半星は28 x 14ピクセルです。
+星の数が半分の場合、星の両側に1つずつ、2つのクラスがあります。 ハーフスターの左辺は`fyre-rating-half-odd`、右辺は`fyre-rating-half-even`です。 初期設定では、半星は28 x 14ピクセルです。
 
-### 星のツールチップ値の設定
+### 星のツールチップ値を設定
 
-星のツールチップ値を設定するには、「文字列のカスタマイズ」で説明されているカスタムテキストに従います。 設定が完了したら、キーと値、およびツールチッ `ratingValues` プ文字列を含む配列を使用します。 ハーフスターを無効にした場合、配列内の要素数は上記と同じにする必要 `maxRating` があります。 「半星」を有効にしている場合、要素の数は2倍にする必要がありま `maxRating`す。 配列の最初の要素は、一番左の星（または半星）要素に対応し、左から右に続きます。
+星のツールチップ値を設定するには、「文字列のカスタマイズ」で説明されているカスタムテキストに従います。 設定が完了したら、キー`ratingValues`と値、およびツールチップ文字列を含む配列を使用します。 ハーフスターを無効にした場合、配列内の要素数は`maxRating` （上記）と同じにする必要があります。 ハーフスターを有効にしている場合、要素数は2x `maxRating`にする必要があります。 配列の最初の要素は、一番左の星（または半星）要素に対応し、左から右に続きます。
 
 ### 「レビューを表示」オプションを切り替える
 
-このオプションのオ [!UICONTROL Show My Review] ン/オフを切り替えるには、アプリ設定でパラメ `hideShowReviewButton` ーターをターゲットにします。
+[!UICONTROL Show My Review]オプションのオン/オフを切り替えるには、アプリ設定で`hideShowReviewButton`パラメーターをターゲットします。
 
-### デフォルトでテキストエディターを表示
+### デフォルトでテキストエディタを表示
 
-レビューエディターは、ユーザーがボタンを押した後にのみ表示さ [!UICONTROL write review] れます。 デフォルトでこのフォームを表示するには、アプリ設定でパラメ `alwaysShowEditor` ーターをターゲットにします。
+レビューエディターは、ユーザーが[!UICONTROL write review]ボタンを押した後にのみ表示されます。 デフォルトでこのフォームを表示するには、アプリ設定で`alwaysShowEditor`パラメーターをターゲットします。
