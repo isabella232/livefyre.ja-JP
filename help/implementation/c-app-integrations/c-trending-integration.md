@@ -7,6 +7,9 @@ title: トレンド
 uuid: 3031523d-b487-4eea-bba6-5d8f9971874f
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 3%
 
 ---
 
@@ -15,13 +18,13 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 サイトまたはネットワーク上で最もアクティブなコレクションを表示します。
 
-「トレンド」を使用して、サイトまたはネットワークの最新のアクティビティでコレクションを表示します。
+「トレンド」を使用して、サイトまたはネットワーク内の最新のアクティビティでコレクションを表示します。
 
 ## 統合 {#section_wtz_whb_c1b}
 
-Trendingとの統合を最も迅速に行う方法は、LivefyreのCDN上でホストされているビルドバージョンを使用することです。
+トレンド分析との統合に最も迅速な方法は、LivefyreのCDN上でホストされているビルトバージョンを使用することです。
 
-まず、 [Livefyre.jsをページに追加します](https://github.com/Livefyre/Livefyre.js) 。
+まず、[Livefyre.js](https://github.com/Livefyre/Livefyre.js)をページに追加します。
 
 ```
 <script src="//cdn.livefyre.com/Livefyre.js"></script> 
@@ -33,7 +36,7 @@ Trendingとの統合を最も迅速に行う方法は、LivefyreのCDN上でホ�
 <div id="trending"></div>
 ```
 
-最後に、を使用し `Livefyre.require` てコンポーネントを作成します。
+最後に、`Livefyre.require`を使用してコンポーネントを構築します。
 
 ```
 <script> 
@@ -49,7 +52,7 @@ Livefyre.require([
 </script>
 ```
 
-トレンドアプリが作成されました。 この例では、すべてを実際に使用し [ています](https://codepen.io/gobengo/pen/GijEy)。
+トレンド分析アプリが作成されました。 [この例](https://codepen.io/gobengo/pen/GijEy)で実際に起こっているものをすべて見て下さい。
 
 ## 設定 {#section_k5k_qhb_c1b}
 
