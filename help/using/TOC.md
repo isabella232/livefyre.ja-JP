@@ -12,7 +12,7 @@ ht-degree: 7%
 ---
 
 
-# Livefyre ガイド {#using}
+# Livefyre ガイド  {#using}
 
 + [Livefyreヘルプ](home.md)
 + [お知らせ](c-anouncements.md)
@@ -34,14 +34,14 @@ ht-degree: 7%
       + [Comments](c-about-apps/c-comments/c-comments.md)
       + [コメント機能](c-about-apps/c-comments/r-comments-features.md)
       + [コメントのカスタマイズ](c-about-apps/c-comments/r-comments-customizations.md)
-   + 機能カード {#featurecard}
+   + 機能カード{#featurecard}
       + [機能カード](c-about-apps/c-feature-card-app/c-feature-card-app.md)
       + [機能カードのカスタマイズ](c-about-apps/c-feature-card-app/r-feature-card-customizations.md)
-   + Filmstrip {#filmstrip}
+   + フィルムストリップ{#filmstrip}
       + [Filmstrip](c-about-apps/c-filmstrip-app/c-filmstrip-app.md)
       + [フィルムストリップの機能](c-about-apps/c-filmstrip-app/c-filmstrip-features.md)
       + [Filmstripのカスタマイズ](c-about-apps/c-filmstrip-app/c-filmstrip-customizations.md)
-   + ライブブログ {#liveblog}
+   + ライブブログ{#liveblog}
       + [ライブブログ](c-about-apps/c-liveblog-app/c-liveblog-app.md)
       + [ライブブログの機能](c-about-apps/c-liveblog-app/r-live-blog-features.md)
       + [ライブブログのカスタマイズ](c-about-apps/c-liveblog-app/r-live-blog-customizations.md)
@@ -49,24 +49,24 @@ ht-degree: 7%
       + [マップ](c-about-apps/c-map-app/c-map-app.md)
       + [マップ機能](c-about-apps/c-map-app/r-map-features.md)
       + [カスタマイズのマッピング](c-about-apps/c-map-app/r-map-customizations.md)
-   + メディアウォール {#mediawall}
+   + メディアウォール{#mediawall}
       + [メディアウォール](c-about-apps/c-media-wall-app/c-media-wall-app.md)
       + [メディアウォール機能](c-about-apps/c-media-wall-app/r-media-wall-features.md)
       + [メディアウォールのカスタマイズ](c-about-apps/c-media-wall-app/r-media-wall-customizations.md)
-   + モザイク {#mosaic}
+   + モザイク{#mosaic}
       + [モザイク](c-about-apps/c-mosaic-app/c-mosaic-app.md)
       + [モザイクの機能](c-about-apps/c-mosaic-app/r-mosaic-features.md)
       + [モザイクのカスタマイズ](c-about-apps/c-mosaic-app/c-mosaic-customizations.md)
-   + 投票 {#polls}
+   + 投票{#polls}
       + [投票](c-about-apps/c-polls-app/c-polls-app.md)
       + [コメントまたはラ追加イブブログアプリに対する調査](c-about-apps/c-polls-app/t-integrate-poll-site.md)
       + [投追加票の画像](c-about-apps/c-polls-app/t-add-images-to-a-poll.md)
       + [調査のカスタマイズ](c-about-apps/c-polls-app/r-polls-customizations.md)
-   + レビュー {#reviews}
+   + レビュー{#reviews}
       + [レビュー](c-about-apps/c-reviews-app/c-reviews-app.md)
       + [レビューアプリの作成](c-about-apps/c-reviews-app/c-creating-reviews.md)
       + [レビューの投稿](c-about-apps/c-reviews-app/t-using-reviews.md)
-   + Sidenots {#sidenotes}
+   + {#sidenotes}を意味
       + [Sidenots](c-about-apps/c-sidenotes-app/c-sidenotes-app.md)
       + [サイトの機能](c-about-apps/c-sidenotes-app/r-sidenotes-features.md)
       + [サイトのカスタマイズ](c-about-apps/c-sidenotes-app/r-sidenotes-customizations.md)
@@ -85,7 +85,7 @@ ht-degree: 7%
       + [同じストーリーでの複数のエディタの操作](c-about-apps/c-storify2/t-working-with-multiple-editors-on-same-story.md)
       + [ストリームを使用し追加てソーシャルコンテンツをストーリーに追加](c-about-apps/c-storify2/t-use-streams-to-add-social-content.md)
       + [投稿をStorifyに固定2](c-about-apps/c-storify2/t-pin-posts-to-storify2.md)
-      + ナビゲーションガイド {#navigation-guide}
+      + ナビゲーションガイド{#navigation-guide}
          + [ナビゲーションガイド](c-about-apps/c-storify2/c-navigation-guide.md)
          + [Storify 追加 2のナビゲーションガイド](c-about-apps/c-storify2/t-add-navigation-guide-to-storify2.md)
          + [ナビゲ追加ーションガイドのタイトル](c-about-apps/c-storify2/t-add-a-title-to-the-navigation-guide.md)
@@ -101,15 +101,15 @@ ht-degree: 7%
       + [アップロードボタン](c-about-apps/c-upload-button-app/c-upload-button-app.md)
       + [アップロードボタンのカスタマイズ](c-about-apps/c-upload-button-app/r-upload-button-customizations.md)
       + [アップロードボタンのテキスト文字列](c-about-apps/c-upload-button-app/c-upload-button-text-strings.md)
-+ アプリの機能 {#app-features}
++ アプリの機能{#app-features}
    + [アクセシビリティ機能](c-features-livefyre/c-accessibility-features.md)
    + [認証機能](c-features-livefyre/c-authentication.md)
    + [カスタムの誘い文句（CTA：コールトゥアクション）ボタン](c-features-livefyre/c-call-to-action-button.md)
-   + コンテンツ動作機能 {#content-behavior-features}
+   + コンテンツ動作機能{#content-behavior-features}
       + [コンテンツ動作機能](c-features-livefyre/c-content-behavior-features/c-content-behavior-features.md)
       + [写真のアップロード](c-features-livefyre/c-content-behavior-features/c-photo-upload.md)
       + [ユーザー投稿](c-features-livefyre/c-content-behavior-features/c-user-posts.md)
-   + コレクションおよびコンテンツタグ {#collection-content-tags}
+   + コレクションおよびコンテンツタグ{#collection-content-tags}
       + [コレクションおよびコンテンツタグ](c-features-livefyre/c-content-collection-tags/c-content-collection-tags.md)
       + [コレクションの変更](c-features-livefyre/c-content-collection-tags/c-change-collection.md)
       + [コレクションまたはコンテンツタグで検索をフィルター](c-features-livefyre/c-content-collection-tags/t-filter-search-by-tag.md)
@@ -129,7 +129,7 @@ ht-degree: 7%
    + [エンゲージメント機能](c-features-livefyre/c-enagement-features.md)
    + [リスナー数](c-features-livefyre/c-listener-count.md)
    + [その他の機能](c-features-livefyre/c-miscellaneous-features.md)
-   + モデレートとフィルター {#moderation-filtering}
+   + モデレートとフィルター{#moderation-filtering}
       + [モデレートの設定](c-features-livefyre/c-about-moderation/c-setting-up-moderation.md)
       + [Twitterユーザーに対するコンテンツの制限](c-features-livefyre/c-about-moderation/t-moderate-streams.md)
       + [IPアドレスの禁止](c-features-livefyre/c-about-moderation/t-set-up-bans.md)
@@ -141,23 +141,23 @@ ht-degree: 7%
       + [ストリームのコンテンツのモデレート](c-features-livefyre/c-about-moderation/c-moderate-inline.md)
       + [アプリのコンテンツを使用したコンテンツのモデレート](c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md)
       + [安全なルール](c-features-livefyre/c-about-moderation/c-moderation.md)
-   + 通知機能 {#notifications-features}
+   + 通知機能{#notifications-features}
       + [コメント通知](c-features-livefyre/c-notifications-features/c-comment-notifier.md)
       + [電子メール通知](c-features-livefyre/c-notifications-features/c-email-notifications.md)
       + [ネットワーク電子メールの設定](c-features-livefyre/c-notifications-features/t-set-up-network-email.md)
    + [オンサイト貢献度機能](c-features-livefyre/c-on-site-contribution-features.md)
    + [照会の追跡](c-features-livefyre/c-referral-tracking.md)
-   + スマートタグ {#smart-tags}
+   + スマートタグ{#smart-tags}
       + [スマートタグ](c-features-livefyre/c-smart-tags/c-smart-tags.md)
       + [表示スマートタグ](c-features-livefyre/c-smart-tags/c-view-smart-tags.md)
    + ソーシャルシェア {#social-sharing}
       + [ソーシャルシェア](c-features-livefyre/c-social-sharing/c-social-sharing.md)
       + [ソーシャルシェアの設定](c-features-livefyre/c-social-sharing/c-setting-up-social-sharing.md)
-   + 機能の並べ替え {#sort-features}
+   + 機能の並べ替え{#sort-features}
       + [機能の並べ替え](c-features-livefyre/c-sort-features-composite/c-sort-features-composite.md)
       + [上位のコメント](c-features-livefyre/c-sort-features-composite/c-top-comments.md)
       + [ホットスレッド](c-features-livefyre/c-sort-features-composite/c-hot-threads.md)
-   + スタイル設定の機能 {#styling-features}
+   + スタイル設定機能{#styling-features}
       + [スタイル設定の機能](c-features-livefyre/c-styling-features/c-styling-features.md)
       + [CSSのスタイルとブランディング](c-features-livefyre/c-styling-features/c-css-styling-branding.md)
       + [日付とタイムスタンプ](c-features-livefyre/c-styling-features/c-date-and-timestamp.md)
@@ -191,7 +191,7 @@ ht-degree: 7%
    + [HootusiteでのAdobe Experience ManagerLivefyreの使用](c-library/c-hootsuite-livefyre.md)
    + [Adobe Experience ManagerLivefyreとAdobe Targetの使用](c-library/livefyre-target.md)
    + [Adobe起動Livefyre拡張機能の使用](c-library/launch-extension.md)
-+ ストリーム {#streams}
++ ストリーム{#streams}
    + [ストリーム](c-streams/c-streams.md)
    + [新しいストリームの作成](c-streams/t-create-a-new-stream.md)
    + [ストリーム追加のルール](c-streams/t-add-rules-for-your-stream.md)
@@ -206,7 +206,7 @@ ht-degree: 7%
    + [Twitterルール](c-streams/c-twitter-rules.md)
    + [ツイートの数の制限と頻度](c-streams/c-throttling-and-frequency-of-tweets.md)
    + [YouTubeルール](c-streams/c-youtube-rules/c-youtube-rules.md)
-+ 権限の要求 {#rights-requests}
++ 権限要求{#rights-requests}
    + [権限の要求](c-how-requesting-rights-works/c-how-requesting-rights-works.md)
    + [権限要求の管理](c-how-requesting-rights-works/c-managing-rights-requests.md)
    + [Rights Managementの設定](c-how-requesting-rights-works/t-set-up-rights-management.md)
@@ -216,7 +216,7 @@ ht-degree: 7%
    + [表示権限アクティビティの履歴](c-how-requesting-rights-works/c-view-rights-activity-history.md)
    + [アセットライブラリからの保留中の権限の要求を含むコンテンツの管理](c-how-requesting-rights-works/t-manage-content-with-pending-rights-request.md)
    + [アセットライブラリからの手動によるアセットの権限の付与または取り消し](c-how-requesting-rights-works/t-manually-grant-the-rights-for-one-or-more-assets.md)
-+ ユーザー：StudioとLivefyreネットワークユーザーの管理 {#users-managing}
++ ユーザー：StudioとLivefyreネットワークユーザーの管理{#users-managing}
    + [ユーザー：StudioとLivefyreネットワークユーザーの管理](c-users/c-users.md)
    + [ユーザーの検索](c-users/t-search-for-users.md)
    + [アカウントの詳細の表示](c-users/c-viewing-account-details.md)
@@ -225,21 +225,21 @@ ht-degree: 7%
    + [ユーザーアカウントのリンク](c-users/t-link-user-accounts.md)
    + [ネットワークの切り替え](c-users/c-users-switching-networks.md)
    + [ユーザー同期](c-users/t-set-up-user-sync.md)
-+ ユーザー：ユーザーアカウントの作成 {#users-creating-accounts}
++ ユーザー：ユーザーアカウントの作成{#users-creating-accounts}
    + [ユーザー：ユーザーアカウントの作成](c-users-creating-accounts-with-studio-access/c-users-creating-accounts-with-studio-access.md)
    + [Studioアカウントを作成するためのユーザーの招待](c-users-creating-accounts-with-studio-access/t-invite-a-user-to-create-a-studio-account.md)
    + [Studioアカウント作成の招待の受諾](c-users-creating-accounts-with-studio-access/t-accept-an-invitation-to-create-a-studio-account.md)
    + [Studioにログインする](c-users-creating-accounts-with-studio-access/t-log-into-studio.md)
    + [ユーザーのStudio権限の管理](c-users-creating-accounts-with-studio-access/t-manage-studio-permissions-for-users.md)
    + [ユーザーの役割と権限](c-users-creating-accounts-with-studio-access/c-user-types.md)
-   + Social追加アカウント {#add-social-account}
+   + Social追加アカウント{#add-social-account}
       + [Social追加アカウント](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/t-configure-social-accout-instagram.md)
       + [Instagramアカウントについて](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md)
       + [Socialアカウントのトークンの更新](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-refresh-a-token-for-a-social-account.md)
-+ 設定：その他 {#settings-other}
++ 設定：その他{#settings-other}
    + [資格情報の設定](c-settings-other/t-set-up-credentials.md)
    + [ネット追加ワークへのサイト](c-settings-other/t-add-a-site.md)
-   + 翻訳セット {#translation-sets}
+   + 変換セット{#translation-sets}
       + [翻訳セット](c-settings-other/c-translation-sets/c-translation-sets.md)
       + [変換セットの作成と変更](c-settings-other/c-translation-sets/t-create-modify-translation-sets.md)
       + [翻訳セットをネットワークに適用する](c-settings-other/c-translation-sets/t-apply-a-translation-set-to-a-network.md)
@@ -248,10 +248,10 @@ ht-degree: 7%
       + [文字列をローカライズする](c-settings-other/c-translation-sets/c-localize-strings.md)
       + [テキスト文字列の確認](c-settings-other/c-translation-sets/c-review-text-strings.md)
       + [テキスト文字列を表示](c-settings-other/c-translation-sets/c-sidenotes-text-strings.md)
-   + SSLの強制 {#ssl-enforcement}
+   + SSL強制{#ssl-enforcement}
       + [SSLの強制](c-settings-other/c-ssl-enforcement/c-ssl-enforcement.md)
       + [SSLチェックリスト](c-settings-other/c-ssl-enforcement/c-ssl-checklist.md)
-   + プライバシーの要請 {#privacy-requests}
+   + プライバシーリクエスト{#privacy-requests}
       + [プライバシー要求（GDPR対応）](c-settings-other/c-gdpr-compliance/c-gdpr-compliance.md)
       + [プライバシーリクエストに関するFAQ](c-settings-other/c-gdpr-compliance/c-privacy-request-faqs.md)
       + [プライバシーリクエストの作成](c-settings-other/c-gdpr-compliance/c-privacy-requests.md)
@@ -259,14 +259,14 @@ ht-degree: 7%
       + [userPrivacyOptOut](c-settings-other/c-gdpr-compliance/c-userprivacyoptout.md)
 + リリースノート {#release-notes}
    + [最新のリリースノート](c-rn/c-rn.md)
-   + Release Notes 2019 {#rn2019}
+   + リリースノート2019 {#rn2019}
       + [2019年3月22日](c-rn/previous-rns/rn2019/c-rn-2019-march-21.md)
       + [2019年3月15日](c-rn/previous-rns/rn2019/c-rn-2019-march-14.md)
       + [2019年2月22日](c-rn/previous-rns/rn2019/c-rn-2019-february-21.md)
       + [2019 年 2 月 8 日](c-rn/previous-rns/rn2019/c-rn-2019-february-7.md)
       + [2019年1月31日](c-rn/previous-rns/rn2019/c-rn-2019-january-31.md)
       + [2019年1月18日](c-rn/previous-rns/rn2019/c-rn-2019-january-17.md)
-   + Release Notes 2018 {#rn2018}
+   + リリースノート2018 {#rn2018}
       + [2018年12月19日](c-rn/previous-rns/rn2018/c-rn-2018-december-18.md)
       + [2018年12月14日](c-rn/previous-rns/rn2018/c-rn-2018-december-13.md)
       + [2018年11月16日](c-rn/previous-rns/rn2018/c-rn-2018-november-15.md)
@@ -287,7 +287,7 @@ ht-degree: 7%
       + [2018年2月16日](c-rn/previous-rns/rn2018/c-rn-2018-february-15.md)
       + [2018 年 2 月 2 日](c-rn/previous-rns/rn2018/c-2018-february-1.md)
       + [2018年1月19日](c-rn/previous-rns/rn2018/c-rn-2018-january-18.md)
-   + Release Notes 2017 {#rn2017}
+   + リリースノート2017 {#rn2017}
       + [2017年11月17日](c-rn/previous-rns/rn2017/c-rn-2017-november-16.md)
       + [2017年11月3日](c-rn/previous-rns/rn2017/c-rn-2017-november-2.md)
       + [2017年10月20日](c-rn/previous-rns/rn2017/c-rn-2017-october-19.md)
