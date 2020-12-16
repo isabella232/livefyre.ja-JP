@@ -7,19 +7,22 @@ title: Pingの構築
 uuid: cb8cc043-9ea5-407c-b70f-3f1e37accdae
 translation-type: tm+mt
 source-git-commit: f76dcd31e58b94856bf551009c2ac50c3233e516
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 0%
 
 ---
 
 
-# Pingの構築{#build-the-ping}
+# Ping{#build-the-ping}を構築する
 
 ユーザーがプロファイルを更新したときにLivefyreにpingを送信するようにpingを作成します。
 
-Livefyreは、とと共に更新通知を受け取る `networkName``user_id`と、プルURLを取得するためにPingにプル要求を送信します。
+`networkName`と`user_id`のアップデート通知を受け取ると、PingにプルURLを要求するプル要求が送信されます。
 
 >[!NOTE]
 >
->403/Not Authorized in response to your Pingは、無効な値がPing要求に追加されたこ `lftoken` とを示します。 がネットワーク所有者権限 `lftoken` を持つユーザーまたはシステムユーザー `user_id` のためのものであることを確認してください。 Livefyreライブラリを使用している場合は、この `buildLivefyreToken` 方法を使用して、リクエストに対して有効なシステムトークンを生成します。
+>403/Not Authorized in response to your Pingは、無効な`lftoken`がPing要求に追加されたことを示します。 `lftoken`がネットワーク所有者権限を持つ`user_id`またはシステムユーザー用であることを確認してください。 Livefyreライブラリを使用している場合は、`buildLivefyreToken`メソッドを使用して、リクエストに対して有効なシステムトークンを生成します。
 
 1. ユーザーがプロファイルを追加更新したときにLivefyreにpingを送信するコード。 次のようにURLを作成します。
 
