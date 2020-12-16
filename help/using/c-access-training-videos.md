@@ -5,6 +5,9 @@ title: トレーニングビデオへのアクセス
 uuid: 64438e2f-dd51-4c10-98ff-e1b62db1b0ca
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 0%
 
 ---
 
@@ -13,12 +16,12 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Livefyreトレーニングビデオにアクセスするには：
 
-1. [Adobe Experience Managerチュートリアルにアクセスします](https://helpx.adobe.com/experience-manager/tutorials.html)。
-1. ページを下にスクロールして、Livefyreの3つのチュートリアルカテゴリが表示されます。
+1. [Adobe Experience ManagerTutorials](https://helpx.adobe.com/experience-manager/tutorials.html)にアクセスします。
+1. ページを下にスクロールして、Livefyreチュートリアルの次の3つのカテゴリが表示されるまで確認します。
 
-   * Adobe Experience Manager LivefyreでStudioアカウントを作成、管理および操作します。
-   * Adobe Experience Manager Livefyreでの自動コンテンツストリームの作成とソーシャルコンテンツの検索
-   * Adobe Experience Manager Livefyreでのアセットの操作
+   * Adobe Experience ManagerLivefyreでStudioアカウントを作成、管理およびナビゲート
+   * 自動コンテンツストリームの作成とAdobe Experience ManagerLivefyreでのソーシャルコンテンツの検索
+   * Adobe Experience ManagerLivefyreでのアセットの操作
 
 1. 目的のビデオをクリックして、チュートリアルにアクセスします。
 
