@@ -14,7 +14,7 @@ ht-degree: 4%
 ---
 
 
-# スタイルユーザーグループのコンテンツ{#style-user-group-content}
+# Style User Group Content{#style-user-group-content}
 
 独自のスタイル設定を使用してユーザーを区別します。
 
@@ -30,6 +30,6 @@ Livefyreオファーのカスタムスタイル機能。特定の種類のユー
 
 ## ユーザーグループの作成 {#section_sjf_2zw_2cb}
 
-User GroupsとUser Tagsは、Studioで同等です。 Adding a user to a User Group appends a User Tag to their account, which you can style using the Livefyre CSS customizations.
+User GroupsとUser Tagsは、Studioで同等です。 ユーザーグループにユーザーを追加すると、ユーザータグがアカウントに追加され、Livefyre CSSのカスタマイズを使用してスタイルを設定できます。
 
 コレクションにコンテンツを投稿したすべてのユーザーは、Studioを使用して1つ以上のユーザーグループに追加できます。 これには、禁止および許可された一覧に記載されたユーザー、SocialSyncおよびキュレーションから提供されるコンテンツの両方が含まれます。
