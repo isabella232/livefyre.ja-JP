@@ -24,14 +24,14 @@ Livefyreは、作成するすべてのコレクションに一意の識別子を
 
 | パラメーター | タイプ | 説明 |
 |--- |--- |--- |
-| networkName | 文字列（オプション） | Livefyreネットワークの名前(//から選択でき [!UICONTROL Studio] ます [!UICONTROL Settings][!UICONTROL Integration Settings][!UICONTROL Credentials] )。 ライブラリを使用してcollectionMetaトークンを作成する場合は、このオプションです。 |
+| networkName | 文字列（オプション） | Livefyreネットワークの名前（[!UICONTROL Studio] > [!UICONTROL Settings] > [!UICONTROL Integration Settings] > [!UICONTROL Credentials]から入手できます）。 ライブラリを使用してcollectionMetaトークンを作成する場合は、このオプションです。 |
 | networkKey | 文字列（オプション） | 特定のネットワークの秘密鍵（Studio/設定/統合設定/秘密鍵証明書から選択できます）。 ライブラリを使用してcollectionMetaトークンを作成する場合は、このオプションです。 |
-| siteId | 文字列（オプション） | サイトのID(から入手でき [!UICONTROL Studio > Settings > Integration Settings > Credentials] ます)。 ライブラリを使用してcollectionMetaトークンを作成する場合はオプションです。 |
-| siteKey | 文字列（オプション） | サイトの秘密キー(から入手可能 [!UICONTROL Studio > Settings > Integration Settings > Credentials] )。 |
+| siteId | 文字列（オプション） | サイトのID（[!UICONTROL Studio > Settings > Integration Settings > Credentials]から入手可能）。 ライブラリを使用してcollectionMetaトークンを作成する場合はオプションです。 |
+| siteKey | 文字列（オプション） | サイトの秘密キー（[!UICONTROL Studio > Settings > Integration Settings > Credentials]から入手可能）。 |
 | articleId | 文字列（オプション） | コレクションの一意のID。 |
-| title | 文字列（オプション） | コレクションに適用するタイトル。 通常、これはアプリを表示するページのタイトルに対応します。 <br>次に例を示します。「Integration is So Fun!」 <br>注意： タイトルの最大文字長は255文字です。 タイトルフィールドはHTMLエンティティをサポートしていません。 特殊文字はUTF-8を使用してエンコードしてください。 |
-| url | 文字列 (オプション) | このコレクションに添付する正規の絶対URLです。 このURLは、FacebookやTwitterで共有されるコンテンツ、電子メール通知およびLivefyre Studioからアプリへ戻るリンクを生成するために使用されます。 <br>注意： ローカルでテストする場合は、有効なベースURLドメインを使用します(例：有効： `https://customer.com`;無効： `https://localhost:5995`)をクリックします。 |
-| タグ | 文字列（オプション） | 1つのキーワードまたはフレーズをコンマで区切ったリスト。 Studioを使用してタグでコレクションを検索します。  </br>注意： タグにスペースを含めることはできません。 UIにスペースを表示する場合は、アンダースコアを使用します。 |
+| title | 文字列（オプション） | コレクションに適用するタイトル。 通常、これはアプリを表示するページのタイトルに対応します。 <br>次に例を示します。「Integration is So Fun!」<br>注意：タイトルの最大文字長は255文字です。タイトルフィールドはHTMLエンティティをサポートしていません。 特殊文字はUTF-8を使用してエンコードしてください。 |
+| url | 文字列 (オプション) | このコレクションに添付する正規の絶対URLです。 このURLは、FacebookやTwitterで共有されるコンテンツ、電子メール通知およびLivefyre Studioからアプリへ戻るリンクを生成するために使用されます。 <br>注意：ローカルでテストする場合は、有効なベースURLドメインを使用します(例：有効： `https://customer.com`;無効： `https://localhost:5995`)をクリックします。 |
+| タグ | 文字列（オプション） | 1つのキーワードまたはフレーズをコンマで区切ったリスト。 Studioを使用してタグでコレクションを検索します。  </br>注意：タグにスペースを含めることはできません。UIにスペースを表示する場合は、アンダースコアを使用します。 |
 | extensions | JSON（オプション） | コレクションに渡すJSON形式のパラメーターのセットです。 |
 
 ## Java {#section_orz_m4n_sz}
