@@ -7,6 +7,9 @@ title: カスタムスタイルの適用
 uuid: 0556aa2f-4fcd-4bde-abb5-479ec682f573
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 0%
 
 ---
 
@@ -15,18 +18,18 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ユーザーグループのカスタムスタイルコンテンツを作成するには、最初にユーザータグをアカウントに追加し、次にCSSを使用してコンテンツのスタイルを設定する必要があります。
 
-StudioまたはPingでPull用に追加された各ユーザータグに対して、Livefyreは2つのCSSクラスを作成し、両方を使用してグループのコンテンツのスタイルを設定できます。
+StudioまたはPingでPull用に追加された各ユーザータグに対して、Livefyreは2つのCSSクラスを作成します。両方のCSSクラスを使用して、グループのコンテンツのスタイルを設定できます。
 
 ユーザタグをCSSクラスに変換する場合：
 
-* Livefyreは2つのクラスを作成します。fyre-author-tag-***&lt;your_group&gt;***およびfyre-tag-author-**&lt;your_group&gt;***. 両方を使用して、コンテンツのスタイルを設定できます。
+* Livefyreは2つのクラスを作成します。fyre-author-tag-**&lt;your_group>***およびfyre-tag-author-**&lt;your_group>***. 両方を使用して、コンテンツのスタイルを設定できます。
 
-* タグに含まれるスペースはすべてアンダースコアに変換されます。 例：「お気に入りユーザー」がfavorite_userになります。
-* グループ名に含まれるUnicode文字は変換されず、クラス名にUnicodeとして表示されます。 例：ユーザーグループ「moderateur」がfyre-comment-author-tag-moderateurになります。
+* タグに含まれるスペースはすべてアンダースコアに変換されます。 次に例を示します。「お気に入りユーザー」がfavorite_userになります。
+* グループ名に含まれるUnicode文字は変換されず、クラス名にUnicodeとして表示されます。 次に例を示します。ユーザーグループ「modérature」がfyre-comment-author-tag-moderaturになります。
 
 ユーザーグループを作成したら、LivefyreのCSSクラスを使用して、コンテンツのカスタムスタイル設定を適用します。
 
-## モデレーター（および所有者）のスタイルコンテンツ {#section_vjv_2cv_xz}
+## モデレーター（および所有者）のスタイルコンテンツ{#section_vjv_2cv_xz}
 
 * CSSクラス.fyre-moderatorを使用します。
 
@@ -34,7 +37,7 @@ StudioまたはPingでPull用に追加された各ユーザータグに対して
    >
    >所有者もモデレーターなので、このクラスはストリーム内のコンテンツにも適用されます。
 
-* グループのバッジを表示またはスタイル設定するCSSルールを作成します。
+* CSSルールを作成して、グループのバッジを表示またはスタイル設定します。
 
    ```
    .fyre-moderator { 
@@ -46,9 +49,9 @@ StudioまたはPingでPull用に追加された各ユーザータグに対して
    }
    ```
 
-## ユーザーグループのスタイルコンテンツ {#section_ghn_s1v_xz}
+## ユーザーグループのスタイル内容{#section_ghn_s1v_xz}
 
-グループのバッジを表示またはスタイル設定するCSSルールを作成します。
+CSSルールを作成して、グループのバッジを表示またはスタイル設定します。
 
 ```
 <span class="fyre-comment-author-tag fyre-comment-author-tag-writer fyre-comment-plus" data-fyre-author-tag="staff">Staff Writer</span>
@@ -68,7 +71,7 @@ StudioまたはPingでPull用に追加された各ユーザータグに対して
 }
 ```
 
-CSSクラスfyre-author-tag-***&lt;your_group&gt;***またはfyre-tag-author-**&lt;your_group&gt;****を使用して、選択したタグに関連付けられたアカウントから投稿された各項目のフォントと背景のスタイルを設定します。
+CSSクラスfyre-author-tag-**&lt;your_group>***またはfyre-tag-author-**&lt;your_group>***を使用して、選択したタグに関連付けられたアカウントから投稿された各項目のフォントと背景のスタイルを設定します。
 
 ```
 .fyre-comment-author-tag-<your_group> .fyre-comment-author-tag { 
