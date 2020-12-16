@@ -16,7 +16,7 @@ ht-degree: 5%
 
 # Livefyre Analyticsのイベント
 
-## イベントオブジェクトの定義 {#section_dh1_yhn_pdb}
+## イベントオブジェクト定義{#section_dh1_yhn_pdb}
 
 次のコードは、ページ上のanalyticsハンドラーが受け取るイベントオブジェクトのフィールドを定義します。
 
@@ -47,7 +47,7 @@ ht-degree: 5%
 
 ## Livefyre AnalyticsイベントとeVar {#section_u3k_tft_mcb}
 
-Report Suite Managerを使用したレポートで使用するカスタムイベントにマッピングするLivefyreのイベントを以下に示します。 Adobe Analyticsのレポートスイートについて詳しくは、「 [Report Suite Manager](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)」を参照してください。 LivefyreイベントとReport Suite Managerの使用方法について詳しくは、を参照してくだ [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb)さい。
+Report Suite Managerを使用したレポートで使用するカスタムイベントにマッピングするLivefyreのイベントを以下に示します。 Adobe Analyticsのレポートスイートについて詳しくは、[Report Suite Manager](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)を参照してください。 LivefyreイベントとReport Suite Managerの使用方法について詳しくは、[](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb)を参照してください。
 
 ## Livefyre Analyticsのイベント
 
@@ -100,7 +100,7 @@ Report Suite Managerを使用したレポートで使用するカスタムイベ
 
 このページで説明されているトピックの詳細については、次を参照してください。
 
-* [Report Suite](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)[ManagerDTM](https://docs.adobe.com/content/help/en/livefyre/using/apps/filmstrip/c-filmstrip-app.html)
+* [Report Suite ](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)[ManagerDTM](https://docs.adobe.com/content/help/en/livefyre/using/apps/filmstrip/c-filmstrip-app.html)
 
 * [ルール](https://docs.adobe.com/content/help/en/dtm/using/resources/rules/create-rules.html)
 * [Livefyre.js](/help/implementation/c-livefyre.js.md)
