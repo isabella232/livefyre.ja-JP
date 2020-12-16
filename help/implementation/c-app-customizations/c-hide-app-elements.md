@@ -1,21 +1,24 @@
 ---
-description: アプリから標準のLivefyre appコンポーネントを削除します。
-seo-description: アプリから標準のLivefyre appコンポーネントを削除します。
+description: アプリから標準的なLivefyre Appコンポーネントを削除します。
+seo-description: アプリから標準的なLivefyre Appコンポーネントを削除します。
 seo-title: アプリ要素を非表示
 solution: Experience Manager
 title: アプリ要素を非表示
 uuid: ea090b6e-99f5-4bd7-aa9e-d39a4dff1543
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '67'
+ht-degree: 1%
 
 ---
 
 
 # アプリ要素を非表示{#hide-app-elements}
 
-アプリから標準のLivefyre appコンポーネントを削除します。
+アプリから標準的なLivefyre Appコンポーネントを削除します。
 
-CSSを使用して、初期設定のLivefyre appエレメントをページから非表示にし、必要に応じてユーザーエクスペリエンスをカスタマイズできます。
+CSSを使用して、初期設定のLivefyre Appエレメントをページに表示しないようにします。これにより、ニーズに合わせてユーザーエクスペリエンスをカスタマイズできます。
 
 アプリから要素を非表示にするには、displayをnoneに設定します。
 
