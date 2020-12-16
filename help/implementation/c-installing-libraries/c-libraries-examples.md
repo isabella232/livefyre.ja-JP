@@ -1,21 +1,24 @@
 ---
-description: ライブラリの使用に関する例をいくつか示します。
-seo-description: ライブラリの使用に関する例をいくつか示します。
+description: ライブラリの使用例をいくつか示します。
+seo-description: ライブラリの使用例をいくつか示します。
 seo-title: 例
 solution: Experience Manager
 title: 例
 uuid: 94e38dab-6234-43a2-a840-13a87f0237f1
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '31'
+ht-degree: 9%
 
 ---
 
 
 # 例{#examples}
 
-ライブラリの使用に関する例をいくつか示します。
+ライブラリの使用例をいくつか示します。
 
-## Javaの例 {#section_nyl_ycs_rz}
+## Javaの例{#section_nyl_ycs_rz}
 
 ```
 package com.example; 
@@ -103,7 +106,7 @@ public static void main(String...args) {
 }
 ```
 
-## NodeJSの例 {#section_xkd_gds_rz}
+## NodeJSの例{#section_xkd_gds_rz}
 
 ```
 var Livefyre = require('./lib/livefyre');
@@ -195,7 +198,7 @@ LivefyreExample.example = function example() {
 };
 ```
 
-## PHPの例 {#section_ghf_gds_rz}
+## PHPの例{#section_ghf_gds_rz}
 
 ```
 <?php 
@@ -280,7 +283,7 @@ class LivefyreExample {
 }
 ```
 
-## Pythonの例 {#section_dwg_gds_rz}
+## Pythonの例{#section_dwg_gds_rz}
 
 ```
 from livefyre import Livefyre 
@@ -358,7 +361,7 @@ class LivefyreExample(object):
       collection_urn = sidenotes_collection.urn
 ```
 
-## Rubyの例 {#section_enh_gds_rz}
+## Rubyの例{#section_enh_gds_rz}
 
 ```
 require 'livefyre' 
