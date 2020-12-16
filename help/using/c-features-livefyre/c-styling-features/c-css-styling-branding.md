@@ -1,28 +1,31 @@
 ---
 description: CSSを使用して、ブランドに合わせてLivefyreアプリの要素のスタイルを設定します。
 seo-description: CSSを使用して、ブランドに合わせてLivefyreアプリの要素のスタイルを設定します。
-seo-title: CSSのスタイルとブランド
-title: CSSのスタイルとブランド
+seo-title: CSSのスタイルとブランディング
+title: CSSのスタイルとブランディング
 uuid: 729a2780-f757-4c54-b446-ff832cecf620
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '277'
+ht-degree: 2%
 
 ---
 
 
-# CSSのスタイルとブランド{#css-styling-and-branding}
+# CSSのスタイルとブランディング{#css-styling-and-branding}
 
 CSSを使用して、ブランドに合わせてLivefyreアプリの要素のスタイルを設定します。
 
-Livefyreアプリには、広範なCSSスタイル設定インターフェイスが用意されており、現在のデザイン標準に合わせてユーザーエクスペリエンスをカスタマイズできます。
+Livefyreアプリのオファーには広範なCSSスタイル設定インターフェイスがあり、現在のデザイン標準に合わせてユーザーエクスペリエンスをカスタマイズできます。
 
-スタイル設定オプションには次のものがあります。
+スタイル設定のオプションは次のとおりです。
 
-* **[!UICONTROL Styling the Stream:]** Livefyreストリームは、ブランドやサイトの他の部分に合わせてスタイル設定やカスタマイズが可能です。 詳しくは、「CSSのカスタマイズ」を参照してください。
-* **[!UICONTROL Styling the Comment Editor:]** コメントエディターは、フォントの色、サイズ、ファミリーを変更するか、コメントボックスの背景色を変更することでカスタマイズできます。 詳しくは、「エディターのCSS」を参照してください。
-* **[!UICONTROL Moving the Livefyre Logo:]** Livefyreロゴのデフォルトの場所がストリームの上部にある場合、この画像は削除され、ストリームの下部にある小さな「Powered by Livefyre」ロゴに置き換えることができます。 詳しくは、Livefyreロゴの移動を参照してください。
-* **[!UICONTROL Hiding elements of the stream:]** コミュニティに関連しないストリームの要素は、非表示になる場合があります。 削除できる要素には、返信ボタン、プロファイルの編集メニュー、ログアウトメニュー、コメント通知者、ユーザーアバターなどがあります。 これらの要素の削除について詳しくは、アプリ要素の非表示を参照してください。
-* **[!UICONTROL Customizing the Friend Tagging Logo:]** デフォルトでは、Livefyreのロゴは、ページ上のストリーム内でコメントを付けたすべてのユーザーの友達のタグドロップダウンリストに表示されます。 この画像を独自のロゴに置き換えるには、Studioでのブランディングを参照してください。
+* **[!UICONTROL Styling the Stream:]** Livefyreストリームは、ブランドやサイトの他の部分に合わせてスタイルやカスタマイズが可能です。詳しくは、「CSSのカスタマイズ」を参照してください。
+* **[!UICONTROL Styling the Comment Editor:]** コメントエディターは、フォントの色、サイズ、ファミリーを変更するか、コメントボックスの背景色を変更することでカスタマイズできます。詳しくは、「CSSの編集」を参照してください。
+* **[!UICONTROL Moving the Livefyre Logo:]** Livefyreロゴの初期設定の場所はストリームの上部ですが、この画像は削除して、ストリームの下部にある小さな「Powered by Livefyre」ロゴに置き換えることができます。詳しくは、Livefyreロゴの移動を参照してください。
+* **[!UICONTROL Hiding elements of the stream:]** コミュニティに関連しないストリームの要素は、非表示になる場合があります。削除できる要素には、返信ボタン、プロファイルの編集メニュー、ログアウトメニュー、コメント通知、ユーザーアバターなどがあります。 これらの要素の削除について詳しくは、「アプリ要素を非表示にする」を参照してください。
+* **[!UICONTROL Customizing the Friend Tagging Logo:]** デフォルトでは、Livefyreのロゴは、ページ上のストリーム内でコメントを付けたすべてのユーザーの友達のタグドロップダウンリストに表示されます。この画像を独自のロゴに置き換えるには、Studioでのブランディングを参照してください。
 
 この機能を使用するアプリ：
 
@@ -35,7 +38,7 @@ Livefyreアプリには、広範なCSSスタイル設定インターフェイス
 * [モザイク](/help/using/c-about-apps/c-mosaic-app/c-mosaic-app.md#c_mosaic_app)
 * [投票](/help/using/c-about-apps/c-polls-app/c-polls-app.md#c_polls_app)
 * [レビュー](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
-* [サイデン](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
+* [Sidenots](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 * [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
 * [トレンド](/help/using/c-about-apps/c-trending-app/c-trending-app.md#c_trending_app)
 * [アップロードボタン](/help/using/c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
