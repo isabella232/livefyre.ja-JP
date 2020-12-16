@@ -1,23 +1,26 @@
 ---
-description: サイドアプリのサイズ、幅およびインタラクションオプションを変更します。
-seo-description: サイドアプリのサイズ、幅およびインタラクションオプションを変更します。
-seo-title: サイドのカスタマイズ
+description: Sidenotesアプリのサイズ、幅、および操作オプションを変更します。
+seo-description: Sidenotesアプリのサイズ、幅、および操作オプションを変更します。
+seo-title: サイトのカスタマイズ
 solution: Experience Manager
-title: サイドのカスタマイズ
+title: サイトのカスタマイズ
 uuid: fb50285a-3b2d-497d-bfda-7e89c485b65c
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '80'
+ht-degree: 0%
 
 ---
 
 
-# サイドのカスタマイズ{#sidenotes-customizations}
+# サイズのカスタマイズ{#sidenotes-customizations}
 
-サイドアプリのサイズ、幅およびインタラクションオプションを変更します。
+Sidenotesアプリのサイズ、幅、および操作オプションを変更します。
 
-サイドは、次を使用してカスタマイズできます。
+次を使用してサイドをカスタマイズできます。
 
-* **[!UICONTROL Style]** 」と「」 **[!UICONTROL Config]** のすべてのアプリに対するオプションを追加しま **[!UICONTROL App Designer]**&#x200B;す。 の標準およびすべてのアプリのオプションについて詳しくは、ア **[!UICONTROL Style]** プリのカ **[!UICONTROL Config]** スタマイズを参照してくださ **[!UICONTROL App Designer]**&#x200B;い。
+* **[!UICONTROL Style]** 」および「」のすべてのアプリの **[!UICONTROL Config]** オプションを選択し **[!UICONTROL App Designer]**&#x200B;ます。**[!UICONTROL App Designer]**&#x200B;のすべてのアプリの標準&#x200B;**[!UICONTROL Style]**&#x200B;および&#x200B;**[!UICONTROL Config]**&#x200B;オプションについて詳しくは、「アプリのカスタマイズ」を参照してください。
 
-* 統合ツール。 統合ツールを使用したアプリのカスタマイズ方法について詳しくは、ポーリングを参照してください。
+* 統合ツール。 統合ツールを使用したアプリのカスタマイズ方法について詳しくは、「投票」を参照してください。
 
