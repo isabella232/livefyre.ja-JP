@@ -6,6 +6,9 @@ title: 日付とタイムスタンプ
 uuid: 3022059f-cfdc-4e13-aa3d-7537875ef431
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 3%
 
 ---
 
@@ -14,9 +17,9 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 必要に応じて、日付とタイムスタンプの形式を変更できます。
 
-デフォルトでは、Livefyreアプリでは、ストリームへの投稿の相対タイムスタンプが表示されます（4分前、5時間前、8日前、2か月前）。
+デフォルトでは、Livefyreアプリでは、ストリームに対する投稿の相対タイムスタンプが表示されます（4分前、5時間前、8日前、2か月前）。
 
-「日付とタイムスタンプのカスタマイズ」を使用して表示されるタイムスタンプをカスタマイズできます。これにより、使用可能な形式のリストから選択できます。 詳しくは、日付とタイムスタンプ [を参照してください。](/help/using/c-features-livefyre/c-styling-features/c-date-and-timestamp.md)
+「日付とタイムスタンプのカスタマイズ」を使用して表示されるタイムスタンプをカスタマイズできます。これにより、使用可能な形式のリストから選択できます。 詳しくは、[日付とタイムスタンプ](/help/using/c-features-livefyre/c-styling-features/c-date-and-timestamp.md)を参照してください
 
 この機能を使用するアプリ：
 
@@ -28,6 +31,6 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 * [メディアウォール](/help/using/c-about-apps/c-media-wall-app/c-media-wall-app.md#c_media_wall_app)
 * [モザイク](/help/using/c-about-apps/c-mosaic-app/c-mosaic-app.md#c_mosaic_app)
 * [レビュー](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
-* [サイデン](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
+* [Sidenots](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 * [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
 
