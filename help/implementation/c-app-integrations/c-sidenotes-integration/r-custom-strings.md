@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: カスタム文字列をサイト化
-title: カスタム文字列をサイト化
+seo-title: カスタム文字列を示す
+title: カスタム文字列を示す
 uuid: 73745273-d3fb-4569-8910-d149fb37a7b4
 translation-type: tm+mt
 source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 12%
 
 ---
 
 
-# カスタム文字列をサイト化{#sidenotes-custom-strings}
+# サイズのカスタム文字列{#sidenotes-custom-strings}
 
-カスタム文字列は、Sidentsコンストラクターに挿入されたオブジェクトを通じて適用され、アプリケーションを通じて使用されるデフォルト文字列を上書きします。 これらは、言語の任意の部分を、スタイルや言語の仕様に合わせてカスタマイズするために使用できます。 文字列は自動的にデフォルトとマージされます。
+カスタム文字列は、Sidentsコンストラクターに挿入されたオブジェクトを通じて適用され、アプリケーションを通じて使用されるデフォルト文字列を上書きします。 これらは、スタイルや言語の仕様に合わせて言語の任意の部分をカスタマイズするために使用できます。 文字列は自動的にデフォルトと結合されます。
 
 ```
 var customStrings = { 
@@ -25,7 +28,7 @@ new Livefyre.Sidenotes({
 
 | キー | デフォルト |
 |---|---|
-| appName | サイデン |
+| appName | Sidenots |
 | commentModeratorTag | Mod |
 | commentPendingTag | 保留 |
 | commentReadMoreLink | 詳細情報 |
@@ -34,20 +37,20 @@ new Livefyre.Sidenotes({
 | commentVoteCount | 票 |
 | commentVoteCountSing | 件の投票 |
 | editorPlaceholder | どう思う？ |
-| editorPostBtn | 投稿のサイト |
+| editorPostBtn | ポストサイド |
 | editorPostBtnMobile | 投稿 |
 | editorPosting | 投稿中… |
 | editorReplyBtn | 返信を投稿 |
-| editorReplyTitle | 返信の書き込み |
-| editorTitle | メモの書き込み |
+| editorReplyTitle | Write Reply |
+| editorTitle | メモを書き込む |
 | emptyImageBlockTxt | どう思う？ |
 | emptyTextBlockTxt | + |
-| errorConnection | ああ。 君は良い関係がないようだ |
-| errorDuplicate | お客様のメモも気に入っていますが、2回投稿することはできません。 |
+| errorConnection | ああ。 良い関係がないようです |
+| errorDuplicate | メモも気に入っていますが、2回投稿することはできません。 |
 | errorGeneral | エラーが発生しました. もう一度お試しください。 |
-| errorServer | サーバーで問題が発生しました。 もう一度？ |
-| facebookShareCaption | "{title}"のサイドノート |
-| menuAuthSignedInMsg | {action}にサインインする必要があります |
+| errorServer | サーバーで問題が発生しました。 もう一度やってみる？ |
+| facebookShareCaption | &quot;{title}&quot;のサイドノート |
+| menuAuthSignedInMsg | {action}にサインインしている必要があります |
 | menuAuthSignInBtn | サインイン |
 | menuBackBtn | 戻る |
 | menuConfirmAccept | はい、{action} |
@@ -60,9 +63,9 @@ new Livefyre.Sidenotes({
 | menuEtcOptionShare | 共有 |
 | menuEtcPostedAt | 投稿日： {date} |
 | menuEtcTitle | 詳細情報 |
-| menuFlagOptionDisagree | 同意しない |
-| menuFlagOptionOffense | 不快な |
-| menuFlagOptionOffTopic | トピック外 |
+| menuFlagOptionDisagreet | 同意しない |
+| menuFlagOptionOffense | 攻撃的 |
+| menuFlagOptionOffTopic | トピックを除外 |
 | menuFlagOptionSpam | スパム |
 | menuFlagTitle | フラグの設定… |
 | menuInfoCopyright | © Livefyre, Inc. 2014 |
@@ -71,9 +74,9 @@ new Livefyre.Sidenotes({
 | menuRepliesViewReply | 会話に返信 |
 | menuRepliesViewTitle | 詳細 |
 | menuShareOptionFacebook | Facebook |
-| menuShareOptionLink | パーマリンクをコピー |
+| menuShareOptionLink | パーマリンクのコピー |
 | menuShareOptionLinkComplete | コピー済み |
-| menuShareOptionLinkFailed | コピー失敗 |
+| menuShareOptionLinkFailed | コピーに失敗しました |
 | menuShareOptionTwitter | Twitter |
 | menuShareTitle | 共有 |
 | notificationApproved | 承認済み |
@@ -81,20 +84,20 @@ new Livefyre.Sidenotes({
 | notificationFlagged | フラグあり |
 | permalinkBackBtn | すべて |
 | permalinkTitle | パーマリンク |
-| questionExplation | 文章、段落、画像、引用符に対するコメントの読み取りと書き込みを直接行えるようになりました。<br><br>テキストをハイライトし、「fycon-write」アイコンをクリックするか、各段落の末尾にある「fycon-action-view」アイコンをクリックします。 |
-| questionMockText | 「親しみ深い」ものは、「親しみ深い」という理由だけで、正しく知られていません。 |
+| questionExplation | センテンス、段落、画像、引用符に対するコメントの読み取りと書き込みを直接行えるようになりました。<br><br>テキストをハイライト表示し、「fycon-write」アイコンをクリックするか、各段落の最後にある「fycon-action-action」表示をクリックします。 |
+| questionMockText | 「よく知られている」ものは、「慣れ親しんでいる」という理由だけで、正しく知られていません。 |
 | questionTitle | 「サイド」とは |
 | queuedCommentsPlural | {number}新しいサイド |
-| queuedCommentsSingular | 新しいサイトを1つ |
+| queuedCommentsSingular | 1個の新しいサイドポイント |
 | queuedRepliesPlural | {number}件の新しい返信 |
 | queuedRepliesSingular | 1件の新しい返信 |
 | replyBtn | 返信 |
-| signInToPost | サインインしてサイドを書き込む |
+| signInToPost | サインインしてサインマークを書き込む |
 | sliderCommentTally | of |
 | sliderInviteRead | 詳しくは、 |
 | sliderInviteWrite | 書き込み |
 | sliderWriteText | どう思う？ タップして書き込み |
 | threadCollapseBtn | 折りたたみ |
-| threadExpandBtnPlural | {number}件の返信を展開 |
+| threadExpandBtnPlural | {number}件の返信の展開 |
 | threadExpandBtnSingular | 1件の返信を展開 |
 | threadReplyBtn | 会話に返信 |
