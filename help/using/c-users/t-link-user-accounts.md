@@ -1,29 +1,32 @@
 ---
-description: LivefyreアカウントにStudioアカウントをリンクして、1か所からすべてのLivefyreサイトまたはネットワークをモデレートまたは管理します。
-seo-description: LivefyreアカウントにStudioアカウントをリンクして、1か所からすべてのLivefyreサイトまたはネットワークをモデレートまたは管理します。
+description: StudioアカウントをLivefyreアカウントにリンクして、すべてのLivefyreサイトまたはネットワークを1か所でモデレートまたは管理します。
+seo-description: StudioアカウントをLivefyreアカウントにリンクして、すべてのLivefyreサイトまたはネットワークを1か所でモデレートまたは管理します。
 seo-title: ユーザーアカウントのリンク
 solution: Experience Manager
 title: ユーザーアカウントのリンク
 uuid: f1106367-64f9-4304-aa04-f931f79ffd6d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '161'
+ht-degree: 0%
 
 ---
 
 
 # ユーザーアカウントのリンク{#link-user-accounts}
 
-LivefyreアカウントにStudioアカウントをリンクして、1か所からすべてのLivefyreサイトまたはネットワークをモデレートまたは管理します。
+StudioアカウントをLivefyreアカウントにリンクして、すべてのLivefyreサイトまたはネットワークを1か所でモデレートまたは管理します。
 
 >[!NOTE]
 >
->Livefyreアプリとやりとりするには（例えば、コメントを残し、Sidefortsを追加、コンテンツを共有する）、Studioアカウントのユーザー名とパスワードではなく、Livefyreアカウントのユーザー名とパスワードを使用してログインする必要があります。
+>Livefyre Appとのやり取り（例えば、コメントを残して、Sifekesを追加、コンテンツを共有）を行うには、Studioアカウントのユーザー名とパスワードではなく、Livefyreアカウントのユーザー名とパスワードを使用してログインする必要があります。
 
 アカウントをリンクするには：
 
-1. ネットワーク上にLivefyreユーザープロファイルを作成した後、Studioにログインします。
-1. に移動し、ユ **[!UICONTROL Users]**&#x200B;ーザープロファイルを探し、ダブルクリックして詳細を表示します。
-1. Click **[!UICONTROL Connect account]**.
+1. ネットワークにLivefyreユーザープロファイルを作成した後、Studioにログインします。
+1. **[!UICONTROL Users]**&#x200B;に移動し、ユーザープロファイルを探し、重複がクリックして表示の詳細を表示します。
+1. クリック **[!UICONTROL Connect account]**.
 1. 開いたウィンドウで、このアカウントにリンクするユーザーアカウントを選択します。
-1. 情報を確認し **[!UICONTROL Link Profile]** 、をクリックしま **[!UICONTROL Link]**&#x200B;す。 ![](assets/UsersConnectAccount-1024x311.png)
+1. **[!UICONTROL Link Profile]**&#x200B;情報を確認し、**[!UICONTROL Link]**&#x200B;をクリックします。 ![](assets/UsersConnectAccount-1024x311.png)
 
