@@ -7,29 +7,32 @@ title: 照会の追跡
 uuid: 5206cc16-9671-4b3d-a013-be1a3e8c029d
 translation-type: tm+mt
 source-git-commit: bd989c97ae5cf06a5ac3deec215f865b0fe95d16
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 2%
 
 ---
 
 
-# 照会の追跡{#referral-tracking}
+# 参照の追跡{#referral-tracking}
 
 照会トラフィックからページに戻るクリックを追跡します。
 
-Livefyreは、ソーシャルネットワークにコメントが投稿または共有された場合、およびLivefyreの電子メールに含まれるパーマリンクに対して、URLにリファラル変数を追加します。 この変数を使用して、Livefyre Appsからソーシャルまたは所有するプロパティへのリファラルトラフィックを追跡します。
+Livefyreは、ソーシャルネットワークにコメントが投稿または共有されるとき、およびLivefyre電子メールに含まれる永続的なリンクに対して、URLに参照変数を追加します。 この変数を使用して、Livefyre AppsからSocialまたは所有するプロパティへの参照トラフィックを追跡します。
 
-Livefyreアプリでは、参照トラフィックに起因するデータストリームを追跡し、サイトのトラフィックを分析できます。
+Livefyreアプリを使用すると、照会トラフィックから生じるデータストリームを追跡し、サイトのトラフィックを分析できます。
 
-## Livefyre照会トラフィックの追跡 {#section_nsy_qp4_xz}
+## Livefyre参照トラフィックの追跡{#section_nsy_qp4_xz}
 
-ソーシャルネットワークや電子メールからのLivefyreリファラルトラフィックは、ページのURL内のクエリ文字列パラメーターを調べ、ページにコードを導入して、分析プロバイダーを通じて追跡することで追跡できます。 Livefyreは、ソーシャルネットワークにコメントが投稿または共有されるとき、およびLivefyreの電子メールに含まれる永続的なリンクに対して、URLにリファラルリンクを追加します。
+ソーシャルネットワークや電子メールからのLivefyre参照トラフィックは、ページのURL内のクエリ文字列パラメーターを検査し、ページにコードを導入して、分析プロバイダー経由で追跡することで追跡できます。 Livefyreは、ソーシャルネットワークにコメントが投稿または共有されるとき、およびLivefyre電子メールに含まれる永続的なリンクに対して、URLにリファラルリンクを追加します。
 
 ## 導入例 {#section_xvs_x44_xz}
 
-トラフィックがStreamHubを使用した通知から送信された場合、hubRefSrcクエリ文字列パラメーターが存在し、値はemail、facebook、twitter、linkedinまたはpermalinkになります。 hubRefSrcパラメーター名は、Livefyre配信チームがネットワークレベルで設定できます。
+トラフィックがStreamHubによる通知から送信された場合、hubRefSrcクエリ文字列パラメーターが存在し、値はemail、facebook、twitter、linkedinまたはpermalinkになります。 hubRefSrcパラメーター名は、Livefyre配信チームがネットワークレベルで設定できます。
 
-解析プラットフォームと統合するには、ページで読み込み時にhubRefSrcを探し、トラフィックが存在する場合は記録する必要があります。
+分析プラットフォームと統合するには、ページでhubRefSrcの読み込み時に探し、トラフィックが存在する場合は記録する必要があります。
 
-次に例を示します。
+例：
 
 ```
 (function () { 
@@ -53,4 +56,4 @@ Livefyreアプリでは、参照トラフィックに起因するデータスト
 * [チャット](/help/using/c-about-apps/c-chat-app/c-chat-app.md)
 * [Comments](/help/using/c-about-apps/c-comments/c-comments.md)
 * [レビュー](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md)
-* [サイデン](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md)
+* [Sidenots](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md)
