@@ -1,28 +1,31 @@
 ---
 description: Networkオブジェクトを作成します。
 seo-description: Networkオブジェクトを作成します。
-seo-title: Network Classメソッド
+seo-title: ネットワーククラスメソッド
 solution: Experience Manager
-title: Network Classメソッド
+title: ネットワーククラスメソッド
 uuid: 4130beda-dd09-49ae-aafb-f6b956e30b51
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '68'
+ht-degree: 10%
 
 ---
 
 
-# Network Classメソッド{#network-class-methods}
+# ネットワーククラスメソッド{#network-class-methods}
 
 Networkオブジェクトを作成します。
 
-ネットワークオブジェクトを作成すると、ページの残りの部分では、セッション内にインスタンス化されたNetworkオブジェクトが存在すると想定されます。
+ネットワークオブジェクトを作成すると、残りのページでは、セッション内にインスタンス化されたNetworkオブジェクトがあると想定されます。
 
 ## Networkオブジェクト
 
 | パラメーター | タイプ | 説明 |
 |---|---|---|
-| *`network`* | 文字列 | Livefyreネットワーク。 For example: “`labs.fyre.co`”. |
-| *`networkKey`* | 文字列 | Livefyreが提供するネットワークの秘密キー。 |
+| *`network`* | 文字列 | Livefyreネットワーク。 次に例を示します。&quot;`labs.fyre.co`&quot;に置き換えます。 |
+| *`networkKey`* | 文字列 | ネットワーク用にLivefyreが提供する秘密キー。 |
 
 ## Java {#section_myk_dzs_kbb}
 
