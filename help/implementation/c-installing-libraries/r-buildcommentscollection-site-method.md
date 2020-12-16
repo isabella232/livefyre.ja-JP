@@ -1,19 +1,22 @@
 ---
-description: Comments型としてインスタンス化されたCollectionオブジェクトを返します。 CollectionオブジェクトからcreateOrUpdate()を実行し、ビルドプロセスを完了します。
-seo-description: Comments型としてインスタンス化されたCollectionオブジェクトを返します。 CollectionオブジェクトからcreateOrUpdate()を実行し、ビルドプロセスを完了します。
+description: Comments型としてインスタンス化されたCollectionオブジェクトを返します。 CollectionオブジェクトからcreateOrUpdate()を実行して、ビルドプロセスを完了します。
+seo-description: Comments型としてインスタンス化されたCollectionオブジェクトを返します。 CollectionオブジェクトからcreateOrUpdate()を実行して、ビルドプロセスを完了します。
 seo-title: buildCommentsCollectionサイトメソッド
 solution: Experience Manager
 title: buildCommentsCollectionサイトメソッド
 uuid: 0e5c062e-960d-4ab0-ba32-0965731a1571
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 7%
 
 ---
 
 
 # buildCommentsCollectionサイトメソッド{#buildcommentscollection-site-method}
 
-Comments型としてインスタンス化されたCollectionオブジェクトを返します。 CollectionオブジェクトからcreateOrUpdate()を実行し、ビルドプロセスを完了します。
+Comments型としてインスタンス化されたCollectionオブジェクトを返します。 CollectionオブジェクトからcreateOrUpdate()を実行して、ビルドプロセスを完了します。
 
 | 変数 | タイプ | 説明 |
 |--- |--- |--- |
@@ -21,31 +24,31 @@ Comments型としてインスタンス化されたCollectionオブジェクト�
 | articleId | 文字列 | サイト内のコレクションを識別するために選択した一意の記事ID。 |
 | url | 文字列 | このコレクションの正規の絶対URLです。 |
 
-## Javaの例 {#section_nyl_ycs_rz}
+## Javaの例{#section_nyl_ycs_rz}
 
 ```
 Collection collection = site.buildCommentsCollection(title, articleId, url);
 ```
 
-## NodeJSの例 {#section_xkd_gds_rz}
+## NodeJSの例{#section_xkd_gds_rz}
 
 ```
 var collection = site.buildCommentsCollection(title, articleId, url); 
 ```
 
-## PHPの例 {#section_ghf_gds_rz}
+## PHPの例{#section_ghf_gds_rz}
 
 ```
 $collection = site->buildCommentsCollection(title, articleId, url); 
 ```
 
-## Pythonの例 {#section_dwg_gds_rz}
+## Pythonの例{#section_dwg_gds_rz}
 
 ```
 collection = site.build_comments_collection(title, articleId, url) 
 ```
 
-## Rubyの例 {#section_enh_gds_rz}
+## Rubyの例{#section_enh_gds_rz}
 
 ```
 collection = site.build_comments_collection(title, articleId, url) 
