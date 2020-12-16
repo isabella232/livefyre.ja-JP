@@ -11,7 +11,7 @@ ht-degree: 4%
 ---
 
 
-# Livefyre導入ガイド {#implementation}
+# Livefyre導入ガイド{#implementation}
 
 + [Livefyre導入ガイド](home.md)
 + はじめに {#getting-started}
@@ -29,15 +29,15 @@ ht-degree: 4%
       + [ユーザー認証トークン](c-getting-started/c-implementation-process/c-user-auth-token.md)
       + [CollectionMetaトークンを使用したコレクションの作成](t-create-a-collectionmeta-token.md)
       + [チェックサムの作成](c-creating-a-checksum.md)
-+ IDの統合 {#identity-integration}
++ ID統合{#identity-integration}
    + [IDの統合](t-about-identity-integration/t-about-identity-integration.md)
    + [認証パッケージ](t-about-identity-integration/c-authorization-package.md)
    + [AuthDelegateオブジェクト](t-about-identity-integration/c-building-an-auth-delegate.md)
    + [外部システムへのユーザー権限の投稿（オプション）](t-about-identity-integration/c-posting-user-permissions-to-external-systems.md)
-   + SSOの実装 {#implementing-sso}
+   + SSOの実装{#implementing-sso}
       + [SSOの実装](t-about-identity-integration/c-implementing-sso/c-implementing-sso.md)
       + [認証委任のデバッグ](t-about-identity-integration/c-implementing-sso/c-debugging-auth.md)
-   + Livefyreと同期 {#sync-ping-for-pull}
+   + Livefyreと同期{#sync-ping-for-pull}
       + [Pingを使用したLivefyreとの同期（取り込み用）](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/t-sync-with-livefyre-using-ping-for-pull.md)
       + [プルエンドポイントの構築](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/t-build-the-pull-endpoint.md)
       + [エンドポイントのStudioへの登録](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/c-register-the-endpoint-with-studio.md)
@@ -47,11 +47,11 @@ ht-degree: 4%
 + Livefyre ID {#livefyre-identity}
    + [Livefyre ID](c-livefyre-identity-comp/c-livefyre-identity-comp.md)
    + [Livefyre IDを有効にする](c-livefyre-identity-comp/t-enable-livefyre-identity.md)
-   + Livefyre IDでのソーシャルアプリの使用 {#use-social-apps-with-livefyre-identity}
+   + Livefyre IDでのソーシャルアプリの使用{#use-social-apps-with-livefyre-identity}
       + [Socialアプリの作成](c-livefyre-identity-comp/t-create-your-social-apps.md)
       + [Livefyre IDと共に使用するFacebookアプリを作成する](c-livefyre-identity-comp/t-create-a-facebook-app-for-use-with-livefyre-identity.md)
       + [Livefyre IDと共に使用するTwitterアプリを作成する](c-livefyre-identity-comp/t-create-a-twitter-app-for-use-with-livefyre-identity.md)
-      + [Yahoo！の作成 Livefyre IDで使用するアプリ](c-livefyre-identity-comp/t-create-a-yahoo-app-for-use-with-livefyre-identity.md)
+      + [Yahoo！の作成Livefyre IDと共に使用するアプリ](c-livefyre-identity-comp/t-create-a-yahoo-app-for-use-with-livefyre-identity.md)
       + [Livefyre Idで使用するMicrosoft Live Identityアプリケーションの作成](c-livefyre-identity-comp/t-create-a-microsoft-live-id-app-for-use-with-livefyre-identity.md)
       + [Livefyre IDで使用するLinkedInアプリの作成](c-livefyre-identity-comp/t-create-a-linkedin-app-for-use-with-livefyre-identity.md)
       + [Livefyre IDで使用するGitHub IDアプリを作成する](c-livefyre-identity-comp/c-create-a-github-identity.md)
@@ -98,13 +98,13 @@ ht-degree: 4%
       + [Android SDK](c-mobile-sdks/c-android-sdk.md)
 + [Livefyre.js](c-livefyre.js.md)
 + [LivefyreトークンC#の作成](c-creating-livefyre-tokens-c-.md)
-+ アプリの統合 {#app-integrations}
++ アプリの統合{#app-integrations}
    + [チャット](c-app-integrations/c-app-integratios-chat.md)
    + コメント {#comments}
       + [Comments](c-app-integrations/c-comments-integration/c-comments-integration.md)
    + [ライブブログ](c-app-integrations/c-live-blog-integration.md)
    + [レビュー](c-app-integrations/c-reviews-integration.md)
-   + Sidenots {#sidenotes}
+   + {#sidenotes}を意味
       + [Sidents統合](c-app-integrations/c-sidenotes-integration/r-sidenotes-integration.md)
       + [ページへのサイトの追加](c-app-integrations/c-sidenotes-integration/r-adding-sidenotes-to-a-page.md)
       + [Sidents Appイベント](c-app-integrations/c-sidenotes-integration/r-app-events.md)
@@ -116,7 +116,7 @@ ht-degree: 4%
    + [マップ](c-app-integrations/c-map-integration.md)
    + [メディアウォール](c-app-integrations/c-media-wall-integration.md)
    + [トレンド](c-app-integrations/c-trending-integration.md)
-+ アプリのカスタマイズ {#app-customizations}
++ アプリのカスタマイズ{#app-customizations}
    + [アプリのカスタマイズ](c-app-customizations/c-app-customizations.md)
    + [表示オプションの変更](c-app-customizations/c-change-display-options.md)
    + [CSSクラス](c-app-customizations/c-css-classes.md)
@@ -128,7 +128,7 @@ ht-degree: 4%
    + [アイコンを変更（@mention）](c-app-customizations/c-change-mention-icon.md)
    + [コンテンツをハイライト](c-app-customizations/c-highlight-content.md)
    + [日付と時間スタンプのカスタマイズ](c-app-customizations/c-date-time-stamp.md)
-   + 機能の内容 {#feature-content}
+   + 機能の内容{#feature-content}
       + [機能の内容](c-app-customizations/t-feature-content.md)
       + [Studioでフィーチャーコンテンツを有効にする](c-app-customizations/t-enable-featuring-content-in-studio.md)
       + [アプリから機能するコンテンツを選択](c-app-customizations/t-select-content-to-feature.md)
@@ -137,13 +137,13 @@ ht-degree: 4%
       + [機能API](c-app-customizations/c-feature-apis.md)
    + [AuthDelegateを使用したJanrainのLivefyreへの接続](c-app-customizations/c-connecting-janrain-to-livefyre-using-authdelegate.md)
    + [特集APIを使用した集計された特集コンテンツ](c-app-customizations/c-aggregated-featured-content-using-the-featured-apis.md)
-   + スタイルコンテンツ {#style-content}
+   + スタイル内容{#style-content}
       + [スタイルユーザーグループのコンテンツ](c-app-customizations/c-style-user-group-content.md)
       + [グループへのユーザーの追加](c-app-customizations/c-adding-users-to-groups.md)
-   + カスタムスタイルの適用 {#apply-custom-styles}
+   + カスタムスタイルの適用{#apply-custom-styles}
       + [カスタムスタイルの適用](c-app-customizations/c-applying-custom-styles-.md)
       + [追加カスタムボタン](c-app-customizations/t-add-custom-buttons.md)
-   + Javascript Events {#javascript-events}
+   + JavaScriptイベント{#javascript-events}
       + [JavaScriptイベントの定義と例](c-app-customizations/c-javascript-events.md)
       + [ビジュアライゼーションアプリのJavaScriptイベント](c-app-customizations/c-javascript-events-for-visualization-apps.md)
       + [メディアウォールのJavaScriptイベント](c-app-customizations/c-javascript-events-media-wall.md)
@@ -155,15 +155,15 @@ ht-degree: 4%
 + [ストレステストポリシー](c-stress-test-policy.md)
 + Analytics {#analytics}
    + [Analytics](livefyre-analytics/livefyre-analytics.md)
-   + [Adobe AnalyticsおよびDynamic Tag Manager(DTM)とLivefyreを使用する](livefyre-analytics/c-use-livefyre-with-adobe-analytics.md)
+   + [LivefyreをAdobe AnalyticsおよびDynamic Tag Manager(DTM)と共に使用する](livefyre-analytics/c-use-livefyre-with-adobe-analytics.md)
    + [他のAnalyticsツールとLivefyreを使用する](livefyre-analytics/c-livefyre-analytics.md)
    + [Livefyre Analyticsのイベント](livefyre-analytics/c-livefyre-analytics-events.md)
 + [LivefyreとAEMの統合](c-livefyre-aem-integration.md)
-+ 高度なトピック {#advanced-topics}
++ 高度なトピック{#advanced-topics}
    + [コメント数を表示](c-advanced-topics/t-display-comment-count.md)
    + [ソーシャルシェアを有効にする](c-advanced-topics/c-enabling-social-sharing.md)
    + [アクティビティストリーム](c-advanced-topics/c-activity-stream.md)
-   + [Bootstrap HTML](c-advanced-topics/c-bootstrap-html.md)
+   + [BootstrapHTML](c-advanced-topics/c-bootstrap-html.md)
    + [コレクションの変更](c-advanced-topics/c-change-collection.md)
    + [複数のコレクション](c-advanced-topics/c-multiple-collections.md)
    + [コアアプリの種類の切り替え](c-advanced-topics/c-switch-core-app-types.md)
