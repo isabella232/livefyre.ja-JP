@@ -1,23 +1,26 @@
 ---
-description: 国際化対応またはブランド化のために、アプリ内のテキスト文字列をカスタマイズします。
-seo-description: 国際化対応またはブランド化のために、アプリ内のテキスト文字列をカスタマイズします。
+description: 国際化対応またはブランディングのために、アプリ内のテキスト文字列をカスタマイズします。
+seo-description: 国際化対応またはブランディングのために、アプリ内のテキスト文字列をカスタマイズします。
 seo-title: 翻訳とカスタムテキスト文字列
 solution: Experience Manager
 title: 翻訳とカスタムテキスト文字列
 uuid: 3c79b8ea-37a0-465d-8fb0-30e13e0cd7f7
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 6%
 
 ---
 
 
-# 翻訳とカスタムテキスト文字列{#translation-and-custom-text-strings}
+# 変換とカスタムテキスト文字列{#translation-and-custom-text-strings}
 
-国際化対応またはブランド化のために、アプリ内のテキスト文字列をカスタマイズします。
+国際化対応またはブランディングのために、アプリ内のテキスト文字列をカスタマイズします。
 
-コミュニティの体験を向上させるために、任意のテキストラベルのテキスト文字列を、サイトの言語やブランドに合わせてカスタマイズできます。 例えば、「いいね！」を「おすすめ」に、または「削除」を「ボラー」に変更できます。
+コミュニティの体験を向上させるには、任意のテキストラベルのテキスト文字列を、サイトの言語やブランディングに合わせてカスタマイズします。 例えば、「いいね！」を「おすすめ」に変更したり、「削除」を「ボラー」に変更したりできます。
 
-For more information, see [](../c-settings-other/c-translation-sets/c-translation-sets.md#c_translation_sets).
+詳しくは、[](../c-settings-other/c-translation-sets/c-translation-sets.md#c_translation_sets)を参照してください。
 
 この機能を使用するアプリ：
 
@@ -30,7 +33,7 @@ For more information, see [](../c-settings-other/c-translation-sets/c-translatio
 * [モザイク](../c-about-apps/c-mosaic-app/c-mosaic-app.md#c_mosaic_app)
 * [投票](../c-about-apps/c-polls-app/c-polls-app.md#c_polls_app)
 * [レビュー](../c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
-* [サイデン](../c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
+* [Sidenots](../c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 * [トレンド](../c-about-apps/c-trending-app/c-trending-app.md#c_trending_app)
 * [アップロードボタン](../c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
 
