@@ -1,25 +1,28 @@
 ---
-description: 会話アプリのタイプを別のタイプに変更する方法について説明します。
-seo-description: 会話アプリのタイプを別のタイプに変更する方法について説明します。
+description: 会話アプリのタイプを変更する方法を説明します。
+seo-description: 会話アプリのタイプを変更する方法を説明します。
 seo-title: コアアプリの種類の切り替え
 solution: Experience Manager
 title: コアアプリの種類の切り替え
 uuid: 442a517c-3809-46c5-bb5f-8668a29dc3e8
 translation-type: tm+mt
 source-git-commit: fcee9dc152e7f8284e64248fdcc5bf81d39618ff
+workflow-type: tm+mt
+source-wordcount: '156'
+ht-degree: 1%
 
 ---
 
 
 # コアアプリの種類の切り替え{#switch-core-app-types}
 
-会話アプリのタイプを別のタイプに変更する方法について説明します。
+会話アプリのタイプを変更する方法を説明します。
 
-Lifefyreでは、データの一部の設定を変更するだけで、Livefyreコアアプリケーションタイプのコレクションを別のタイプ（コメント、ライブブログまたはチャット）に変更で `collectionMeta` きます。
+Lifefyreでは、`collectionMeta`データの一部の設定を変更するだけで、Livefyreコアアプリケーションのタイプのコレクションを別のタイプ（コメント、ライブブログまたはチャット）に変更できます。
 
-特定のタイプのアプリを実装するには、オブジェクトに新しいフィールドを追加 `collectionMeta` します。 コメントがデフォルトなので、必要な場合は、これらの更新を行う必要はありません。 コレクションの作成後に別のアプリに変更するには、アプリの初期化時にチェックサム値を渡します。 チェックサム値の作成について詳しくは、トークンのドキュメントを参 `collectionMeta` 照してください。
+特定の種類のアプリを実装するには、`collectionMeta`オブジェクトに新しいフィールドを追加します。 コメントはデフォルトなので、ご希望のアプリであれば、コメントを更新する必要はありません。 コレクションの作成後に別のアプリに変更するには、アプリの初期化時にチェックサム値を渡します。 チェックサム値の作成について詳しくは、`collectionMeta`トークンのドキュメントを参照してください。
 
-## ライブブログ {#section_kvj_3jj_11b}
+## ライブブログ{#section_kvj_3jj_11b}
 
 ### PHPの例
 
@@ -110,7 +113,7 @@ conv_config = {
 }
 ```
 
-## ライブブログ {#section_bqt_cjj_11b}
+## ライブブログ{#section_bqt_cjj_11b}
 
 ### PHPの例
 
