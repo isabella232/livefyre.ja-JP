@@ -1,22 +1,25 @@
 ---
-description: Appの代わりにStudioから機能させるコンテンツを選択できます。
-seo-description: Appの代わりにStudioから機能させるコンテンツを選択できます。
+description: アプリケーションの代わりに、Studioから機能するコンテンツを選択できます。
+seo-description: アプリケーションの代わりに、Studioから機能するコンテンツを選択できます。
 seo-title: Studioからフィーチャのコンテンツを選択
 solution: Experience Manager
 title: Studioからフィーチャのコンテンツを選択
 uuid: 50cb620c-ef45-4ccb-829f-f5b2e3c521dd
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '108'
+ht-degree: 0%
 
 ---
 
 
-# Studioからフィーチャのコンテンツを選択{#select-content-to-feature-from-studio}
+# Studioからフィーチャするコンテンツを選択{#select-content-to-feature-from-studio}
 
-Appの代わりにStudioから機能させるコンテンツを選択できます。
+アプリケーションの代わりに、Studioから機能するコンテンツを選択できます。
 
-1. Studioで、コンテンツの横 **[!UICONTROL +]** の記号をクリックします。
-1. ドロップダウン **[!UICONTROL Featured]** リストでタグを選択します。
-1. クリック **[!UICONTROL Enter]** して、コンテンツの一部を特集します。
+1. Studioで、コンテンツの横の&#x200B;**[!UICONTROL +]**&#x200B;記号をクリックします。
+1. ドロップダウンリストで&#x200B;**[!UICONTROL Featured]**&#x200B;タグを選択します。
+1. **[!UICONTROL Enter]**&#x200B;をクリックして、コンテンツの特徴を指定します。
 
-   タグが保存され、コンテンツの横に表示されます。 1.コンテンツの特集を停止するには、そのコンテンツに表 **[!UICONTROL x]** 示されて **[!UICONTROL Featured]** いるタグをクリックします。
+   タグが保存され、コンテンツの横に表示されます。 1.コンテンツの特徴を停止するには、コンテンツに表示されている&#x200B;**[!UICONTROL Featured]**&#x200B;タグの&#x200B;**[!UICONTROL x]**&#x200B;をクリックします。
