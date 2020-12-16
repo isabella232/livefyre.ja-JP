@@ -7,6 +7,9 @@ title: JavaScriptイベントの定義と例
 uuid: 61da2e2e-8fcd-482d-93df-c946f0475277
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '401'
+ht-degree: 15%
 
 ---
 
@@ -15,11 +18,11 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 会話アプリ（Comments、Chat、Live Blog、Reviews、Sidenotes など）用に JavaScript をバインドできるものに対して使用できるイベントです。
 
-Livefyreは、Livefyreアプリでのユーザーアクティビティを追跡するJavaScriptイベントを提供します。 例えば、ユーザーがTwitterやFacebookにコンテンツを「いいね！」したり共有したりした場合や、新しいコンテンツが投稿された場合に、ページを更新したい場合があります。
+Livefyreは、Livefyre Appsでユーザーのアクティビティを追跡するJavaScriptイベントを提供しています。 例えば、ユーザーがTwitterやFacebookにコンテンツに「いいね！」をしたり共有したりした場合、または新しいコンテンツが投稿された場合に、ページを更新したい場合があります。
 
-また、Livefyreでは、サードパーティの解析統合（Adobe Analytics JS、Google Analytics、Dynamic Tag Managementなど）にイベントを追加して、アプリイベントを追跡することもできます。 詳しくは、サードパーティの統合マネージャーと協力して正しいイベントを指定してください。
+また、Livefyreでは、サードパーティの解析イベント(Adobe AnalyticsJS、Google Analytics、Dynamic Tag Managementなど)に統合を追加して、アプリのイベントを追跡することもできます。 詳しくは、サードパーティのIntegration Managerを使用して正しいイベントを提供してください。
 
-これらのイベントに連結するには、ページでアプリをインスタンス化する際に、次のコードをページに追加します。 イベント名を次の名前に置き換えま `{eventName}`す。
+これらのイベントに連結するには、ページ上でアプリをインスタンス化する際に、次のコードをページに追加します。 イベント名を`{eventName}`に置き換えます。
 
 ```
 Livefyre.require(['fyre.conv#3'], function(Conv) { 
@@ -33,14 +36,14 @@ Livefyre.require(['fyre.conv#3'], function(Conv) {
 
 >[!NOTE]
 >
->データオブジェクトは、すべてのイベントハンドラーに対して提供されます。 各イベントの後には、サンプルデータオブジェクトが続きます。
+>データオブジェクトは、すべてのイベントハンドラーに対して提供されます。 データオブジェクトの例は、各イベントの後に続きます。
 
 ## commentPosted {#section_qfr_51p_xz}
 
-ユーザーがコメントを投稿しました。
+あるユーザーがコメントを投稿しました。
 
-* nullの親は新しいコメントです。
-* 「なし」の親は、編集されたコメントです。
+* 親がnullの場合は新しいコメントです。
+* 親が「なし」の場合は、編集済みのコメントです。
 * 親の数値は、返信の親IDです。
 
 ```
@@ -70,7 +73,7 @@ data = {
 
 ## commentLinked {#section_vc1_r1p_xz}
 
-ユーザーがコメントに「いいね！」しました。
+ユーザーがコメントに「いいね！」をしました。
 
 ```
 data = { 
@@ -82,7 +85,7 @@ data = {
 
 ## commentShared {#section_nqb_31p_xz}
 
-ユーザーがストリームからコメントを共有しました。 （このイベントは、ユーザーがコメントエディターから共有した場合には実行されません）。このイベントは、「共有」ボタンがクリックされたときにトリガーされます。
+あるユーザーがストリームからコメントを共有しました。 (このイベントは、ユーザーがコメントエディターから共有した場合には実行されません)。 このイベントは、「共有」ボタンがクリックされた場合にトリガーされます。
 
 ```
 data = { 
@@ -94,7 +97,7 @@ data = {
 
 ## commentCountUpdated {#section_qdq_f1p_xz}
 
-この会話で表示されるコメントの総数が変更されました（増分または減分）。
+この会話で表示されているコメントの総数が変更されました（増分または減分）。
 
 ```
 data: 34 // The total number of visible comments in the conversation (integer). 
@@ -136,7 +139,7 @@ data = {
 
 ## commentFeatured
 
-モデレーターユーザーがコメントを投稿しました。 次の配列を返します。
+モデレーターユーザーがコメントを表示しました。 次の配列を返します。
 
 ```
 data = { 
@@ -148,19 +151,19 @@ data = {
 
 ## initialRenderComplete {#section_odc_4z4_xz}
 
-コメントストリームが読み込まれ、最初のコンテンツセットがサーバーから取得され、ユーザーに表示されました。
+コメントストリームが読み込まれ、コンテンツの初期セットがサーバーから取得され、ユーザーに表示されました。
 
 データが未定義です。
 
 ## showMore {#section_pqg_nz4_xz}
 
-ユーザーがボタンをクリッ **[!UICONTROL Show More]** クしました。
+ユーザーが&#x200B;**[!UICONTROL Show More]**&#x200B;ボタンをクリックしました。
 
 データが未定義です。
 
 ## userFollowed {#section_xxw_jz4_xz}
 
-ユーザーがボタンをクリックするとtrue **[!UICONTROL Follow]** を返し、ストリームにコンテンツが投稿されるとfalseを返します。
+ユーザーが&#x200B;**[!UICONTROL Follow]**&#x200B;ボタンをクリックするとtrueを返し、ストリームにコンテンツが投稿されるとfalseを返します。
 
 ```
 data = { 
@@ -171,7 +174,7 @@ data = {
 
 ## userUnfollowed {#section_wm1_gz4_xz}
 
-ユーザーが「フォロー解除」ボタンをクリ **ックすると** 、trueを返し、ストリームにコンテンツが投稿されるとfalseを返します。
+ユーザーが「**フォロー解除**」ボタンをクリックするとtrueを返し、ストリームにコンテンツが投稿されるとfalseを返します。
 
 ```
 data = { 
