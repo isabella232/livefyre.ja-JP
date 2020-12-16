@@ -12,11 +12,11 @@ ht-degree: 4%
 ---
 
 
-# Livefyreユーザーガイド {#livefyre-help}
+# Livefyreユーザーガイド{#livefyre-help}
 
 Livefyre Studioを使用して、アプリケーションの作成、ユーザー生成コンテンツの収集、コンテンツのモデレートを行います。
 
-開発者ツールを使用してLivefyre Appsを実装し、サイトでカスタマイズする方法について詳しくは、 [*Adobe Experience Manager Livefyre導入ガイドを参照してください&#x200B;*](/help/implementation/home.md)。
+開発者ツールを使用してLivefyreアプリケーションを実装およびカスタマイズする方法について詳しくは、『[*Adobe Experience ManagerLivefyre導入ガイド*](/help/implementation/home.md)』を参照してください。
 
 ## よく読まれるトピック
 
@@ -30,12 +30,12 @@ Livefyre Studioを使用して、アプリケーションの作成、ユーザ�
 
    Livefyreアプリ（コメントを含む）を作成して公開します。
 
-* [Adobe Experience ManagerでのLivefyreアプリの使用](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html)
+* [LivefyreアプリをAdobe Experience Managerで使用する](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html)
 
 
-* [LivefyreとAdobeターゲットの使用](/help/using/c-library/livefyre-target.md)
+* [LivefyreをAdobe Targetと併用する](/help/using/c-library/livefyre-target.md)
 
-* [LivefyreとAdobe Launch Livefyre Extensionの使用](https://docs.adobelaunch.com/extension-reference/web/adobe-livefyre-extension)
+* [LivefyreとAdobe起動Livefyre Extensionの使用](https://docs.adobelaunch.com/extension-reference/web/adobe-livefyre-extension)
 
 * [リリースノート](c-rn/c-rn.md#c_rn)
 
