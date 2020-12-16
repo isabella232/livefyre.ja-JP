@@ -1,27 +1,37 @@
 ---
-description: Livefyreサイドのテキスト文字列のカスタマイズ
-seo-description: Livefyreサイドのテキスト文字列のカスタマイズ
+description: Livefyreサイト用のテキスト文字列のカスタマイズ
+seo-description: Livefyreサイト用のテキスト文字列のカスタマイズ
 seo-title: テキスト文字列を表示
 solution: Experience Manager
 title: テキスト文字列を表示
 uuid: a3735237-e55d-4bc0-b88d-8a323980ee09
 translation-type: tm+mt
 source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+workflow-type: tm+mt
+source-wordcount: '501'
+ht-degree: 13%
 
 ---
 
 
-# テキスト文字列を表示{#sidenotes-text-strings}
+# サイトテキスト文字列{#sidenotes-text-strings}
 
-Livefyreサイドのテキスト文字列のカスタマイズ
+Livefyreサイト用のテキスト文字列のカスタマイズ
 
-このページには、サイドアプリのカスタマイズに使用できるすべての文字列の一覧と説明が表示されます。 コアLivefyreアプリで使用できる文字列について詳しくは、文字列のカスタマイズを参照してください。
+このページのリストと、Sidetsアプリのカスタマイズに使用できるすべての文字列について説明します。 コアLivefyreアプリで使用できる文字列について詳しくは、文字列のカスタマイズを参照してください。
 
-ImplementationAuthStream infoAuthor / Content infoUser ActionsPost FunctionsModerator InterfaceErrors
+導入
+認証
+ストリーム情報
+作成者/コンテンツ情報
+ユーザーアクション
+投稿関数
+モデレーターインターフェイス
+エラー
 
 ## 実装 {#section_wp2_ql4_xz}
 
-この機能を実装するには、上書きする文字列の1 ～ 1個のオブジェクトマッピングをJavaScript設定オブジェクトに渡します。 フィールドを指定しない場合は、デフォルトのテキストが使用されます。
+この機能を実装するには、オーバーライドする文字列の1 ～ 1個のオブジェクトマッピングをJavaScript設定オブジェクトに渡します。 フィールドを指定しない場合は、デフォルトのテキストが使用されます。
 
 例：
 
@@ -39,18 +49,18 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 
 ## Authentication {#section_pqf_3l4_xz}
 
-認証プロセスで使用できる文字列、および認証済みユーザーメニューから使用できます。
+認証プロセスおよび認証済みユーザーのメニューから使用できる文字列。
 
 | 要素 | キー | デフォルトのテキスト |
 |---|---|---|
 | 認証メニュー文字列 | menuAuthSignInBtn | サインイン |
-|  | menuAuthSignedInMsg | {action}にサインインする必要があります |
+|  | menuAuthSignedInMsg | {action}にサインインしている必要があります |
 |  | menuUserEditProfile | プロファイルの編集 |
 |  | menuUserAdmin | Admin Console |
 |  | menuUserLogout | サインアウト |
 |  | menuUserBackBtn | すべて |
 
-## ストリーム情報 {#section_wpy_gl4_xz}
+## ストリーム情報{#section_wpy_gl4_xz}
 
 コンテンツストリーム情報および表示に使用できる文字列。
 
@@ -60,9 +70,9 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | menuInfoHelp | ヘルプ |
 |  | menuInfoLivefyreLink | Livefyre.comにアクセス |
 
-## 作成者/コンテンツ情報 {#section_dhb_gl4_xz}
+## 作成者/コンテンツ情報{#section_dhb_gl4_xz}
 
-発言者および個々のコンテンツ情報に関する設定。
+発言者および個々のコンテンツの情報に使用できる文字列です。
 
 | 要素 | キー | デフォルトのテキスト |
 |---|---|---|
@@ -75,13 +85,13 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | commentVoteCountSing | 件の投票 |
 |  | datetimeMinutePrefix | m |
 |  | datetimeMonths | 配列. デフォルト =`[‘January’, ‘February’, ‘March’, ‘April’, ‘May’, ‘June’, ‘July’, ‘August’, ‘September’, ‘October’, ‘November’, ‘December’]` |
-|  | questionExplation | 文章、段落、画像、引用符に対するコメントの読み取りと書き込みを直接行えるようになりました。<br><br><span class="&rdquo;lf-highlight-text&rdquo;">テキストをハイライトし</span> 、各段落 <span class="&rdquo;fycon-write&rdquo;"></span> の最後にあるアイコン <span class="&rdquo;fycon-action-view&rdquo;"></span> をクリックするか、アイコンをクリックします。 |
-|  | questionMockText | 「親しみ深い」ものは、「親しみ深い」という理由だけで、正しく知られていません。 |
+|  | questionExplation | センテンス、段落、画像、引用符に対するコメントの読み取りと書き込みを直接行えるようになりました。<br><br><span class="&rdquo;lf-highlight-text&rdquo;">テ</span> キストをハイライト表示し、 <span class="&rdquo;fycon-write&rdquo;"></span> アイコンをクリックするか、各段落の最後にある <span class="&rdquo;fycon-action-view&rdquo;"></span> アイコンをクリックします。 |
+|  | questionMockText | 「よく知られている」ものは、「慣れ親しんでいる」という理由だけで、正しく知られていません。 |
 |  | questionTitle | 「サイド」とは |
 
-## ユーザーアクション {#section_qxd_fl4_xz}
+## ユーザーアクション{#section_qxd_fl4_xz}
 
-ユーザーアクションに使用できる文字列：既存のコンテンツにフラグを付け、共有し、「いいね！」をクリックします。
+ユーザーアクションで使用できる文字列：既存のコンテンツにフラグを付け、共有し、「いいね！」を付けます。
 
 | 要素 | キー | デフォルトのテキスト |
 |---|---|---|
@@ -90,35 +100,35 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 | 共有メニューのオプション | menuShareOptionFacebook | Facebook |
 |  | menuShareOptionTwitter | Twitter |
 |  | menuShareTitle | 共有 |
-| フラグメニューオプション | menuFlagOptionDisagree | 同意しない |
-|  | menuFlagOptionOffense | 不快な |
-|  | menuFlagOptionOffTopic | トピック外 |
+| フラグメニューのオプション | menuFlagOptionDisagreet | 同意しない |
+|  | menuFlagOptionOffense | 攻撃的 |
+|  | menuFlagOptionOffTopic | トピックを除外 |
 |  | menuFlagOptionSpam | スパム |
 |  | menuFlagTitle | フラグの設定… |
-|  | facebookShareCaption | 「{title}」のサイド |
+|  | facebookShareCaption | 「{title}」上のサイン |
 | モバイルユーザーオプション | sliderCommentTally | of |
 |  | sliderInviteRead | 詳しくは、 |
 |  | sliderInviteWrite | 書き込み |
 |  | sliderLoading | ロードしています… |
 |  | sliderWriteText | どう思う？ タップして書き込みます。 |
 
-## 投稿関数 {#section_xzf_2l4_xz}
+## ポスト関数{#section_xzf_2l4_xz}
 
-ユーザーがコンテンツを投稿する際に使用できる文字列です。
+コンテンツを投稿するユーザーが使用できる文字列です。
 
 | 要素 | キー | デフォルトのテキスト |
 |---|---|---|
 |  | editorEditBtn | 保存 |
 |  | editorEditPosting | 保存中… |
 |  | editorEditReplyTitle | 返信の編集 |
-|  | editorEditTitle | サイトの編集 |
+|  | editorEditTitle | サイトを編集 |
 |  | editorPlaceholder | どう思う？ |
-|  | editorPostBtn | 投稿のサイト |
+|  | editorPostBtn | ポストサイド |
 |  | editorPostBtnMobile | 投稿 |
 |  | editorPosting | 投稿中… |
 |  | editorReplyBtn | 返信を投稿 |
-|  | editorReplyTitle | 返信の書き込み |
-|  | editorTitle | 書き込みサイト |
+|  | editorReplyTitle | Write Reply |
+|  | editorTitle | 書き込みサイド |
 |  | emptyImageBlockTxt | どう思う？ |
 |  | emptyTextBlockTxt | + |
 |  | replyBtn | 返信 |
@@ -134,7 +144,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | menuEtcPostedAt | 投稿日： {date} |
 |  | menuEtcTitle | 詳細情報 |
 
-## モデレーターインターフェイス {#section_o5f_dl4_xz}
+## モデレーターインターフェイス{#section_o5f_dl4_xz}
 
 ユーザー認証モデレーターインターフェイスで使用できる文字列です。
 
@@ -146,12 +156,12 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 
 ## エラー {#section_gtk_cl4_xz}
 
-一般的なエラーメッセージに使用できる文字列。
+一般的なエラーメッセージに使用できる文字列です。
 
 | 要素 | キー | デフォルトのテキスト |
 |---|---|---|
-|  | errorConnection | ああ。 君は良い関係がないようだ |
-|  | errorDuplicate | お客様のメモも気に入っていますが、2回投稿することはできません。 |
+|  | errorConnection | ああ。 良い関係がないようです |
+|  | errorDuplicate | メモも気に入っていますが、2回投稿することはできません。 |
 |  | errorGeneral | エラーが発生しました. もう一度お試しください。 |
-|  | errorServer | サーバーで問題が発生しました。 もう一度？ |
+|  | errorServer | サーバーで問題が発生しました。 もう一度やってみる？ |
 
