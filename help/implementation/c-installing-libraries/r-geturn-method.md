@@ -7,6 +7,9 @@ title: getUrnネットワークメソッド
 uuid: e525bc54-d4df-490f-bd6a-f524f7eff211
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '53'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 このメソッドは、このネットワークのURNを返します。
 
-## Javaの例 {#section_nyl_ycs_rz}
+## Javaの例{#section_nyl_ycs_rz}
 
 ```
 network.getUrn(); 
@@ -27,7 +30,7 @@ network.getUrn();
 "urn:livefyre:network=`example.fyre.co`" 
 ```
 
-## NodeJSの例 {#section_xkd_gds_rz}
+## NodeJSの例{#section_xkd_gds_rz}
 
 ```
 network.getUrn(); 
@@ -39,7 +42,7 @@ network.getUrn();
 "urn:livefyre:network=`example.fyre.co`" 
 ```
 
-## PHPの例 {#section_ghf_gds_rz}
+## PHPの例{#section_ghf_gds_rz}
 
 ```
 $network->getUrn(); 
@@ -51,7 +54,7 @@ $network->getUrn();
 "urn:livefyre:network=`example.fyre.co`" 
 ```
 
-## Pythonの例 {#section_dwg_gds_rz}
+## Pythonの例{#section_dwg_gds_rz}
 
 ```
 network.urn 
@@ -63,7 +66,7 @@ network.urn
 "urn:livefyre:network=`example.fyre.co`" 
 ```
 
-## Rubyの例 {#section_enh_gds_rz}
+## Rubyの例{#section_enh_gds_rz}
 
 ```
 network.urn 
