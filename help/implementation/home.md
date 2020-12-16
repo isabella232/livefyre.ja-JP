@@ -12,17 +12,17 @@ ht-degree: 6%
 ---
 
 
-# Livefyre導入ガイド {#livefyre-help}
+# Livefyre導入ガイド{#livefyre-help}
 
 開発者ツールを使用してLivefyre StudioとLivefyre AppsをWebサイトに実装し、エクスペリエンスをカスタマイズします。
 
-Livefyre Studio内でLivefyre StudioとLivefyre Appsを使用する方法について詳しくは、 [*Adobe Experience Manager Livefyreユーザーガイドを参照してください&#x200B;*](/help/using/home.md)。
+Livefyre Studio内でLivefyre StudioとLivefyre Appsを使用する方法について詳しくは、『[*Adobe Experience ManagerLivefyreユーザーガイド*](/help/using/home.md)』を参照してください。
 
 ## よく読まれるトピック
 
 * [導入の手引き](c-getting-started/c-getting-started.md)
 
-* [Adobe Experience ManagerでのLivefyreアプリの使用](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html)
+* [LivefyreアプリをAdobe Experience Managerで使用する](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html)
 
 * [モバイル用Android SDK](c-mobile-sdks/c-android-sdk.md)
 
