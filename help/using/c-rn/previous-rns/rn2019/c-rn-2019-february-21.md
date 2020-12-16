@@ -1,17 +1,20 @@
 ---
 description: Livefyreの2019年2月22日リリースのリリースノートです。
-seo-description: 2019年2月22日リリースのLReleaseに関する注意事項
+seo-description: 2019年2月21日リリースのLReleaseリリースノート
 seo-title: リリースノート
 solution: Experience Manager
 title: リリースノート
-uuid: 34e64943-dea6-46ac-9fc-8febeab6aa42
+uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
 translation-type: tm+mt
 source-git-commit: 4051e0d55c7fa1cf02d8b01c239d040c0a3baf14
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 77%
 
 ---
 
 
-# リリースノート — 2019年2月22日 {#rn022119}
+# リリースノート — 2019年2月22日{#rn022119}
 
 **2019年2月22日更新のリリースノートです。**
 
