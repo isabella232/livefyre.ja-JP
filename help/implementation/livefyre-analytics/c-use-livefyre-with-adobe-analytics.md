@@ -1,58 +1,61 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: LivefyreをAdobe Analyticsと共に使用し、Dynamic Tag Manager(DTM)lk xavvn vefyreをAdobe AnalyticsおよびDynamic Tag Manager(DTM)と共に使用する
+seo-title: LivefyreをAdobe AnalyticsおよびDynamic Tag Manager(DTM)lk xavvnと共に使用する   vefyreとAdobe AnalyticsおよびDynamic Tag Manager(DTM)の連携
 uuid: 9a1c25c0-c474-46ff-82ac-e89357007c7f
 translation-type: tm+mt
 source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
+workflow-type: tm+mt
+source-wordcount: '1025'
+ht-degree: 1%
 
 ---
 
 
-# Adobe AnalyticsおよびDynamic Tag Manager(DTM)とLivefyreを使用する{#use-livefyre-with-adobe-analytics-and-dynamic-tag-manager-dtm}
+# LivefyreをAdobe AnalyticsおよびDynamic Tag Manager(DTM)と共に使用{#use-livefyre-with-adobe-analytics-and-dynamic-tag-manager-dtm}
 
-Adobe AnalyticsとDynamic Tag Manager(DTM)を設定して、Livefyreアプリのデータを収集します。
+Livefyre Appsのデータを収集するためのAdobe AnalyticsおよびDynamic Tag Manager(DTM)の設定
 
-## 手順1: Adobe Analyticsでのイベントの設定 {#section_iks_kgd_4cb}
+## 手順1:Adobe Analytics{#section_iks_kgd_4cb}でイベントを設定
 
-Adobe Analytics Report Suite Managerで、Livefyreイベントを1つ以上のカスタム成功イベントにマッピングします。
+Adobe Analyticsレポートスイートマネージャーで、Livefyreイベントを1つ以上のカスタム成功イベントにマッピングします。
 
-Report Suite Managerについて詳しくは、「Report Suite Manager [」を参照してください](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)。
+Report Suite Managerについて詳しくは、[Report Suite Manager](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)を参照してください。
 
 1. 管理者ユーザーとしてAdobe Analyticsにログインします。
-1. Adobe Analytics管理者Report Suite Managerを開きます。
+1. [Adobe Analytics管理] [Report Suite Manager]を開きます。
 1. 新しいレポートスイートを作成するか、既存のレポートスイートを選択します。
-1. 変更するレポートスイートをクリックし、に移動して、レポートスイートを編集し **[!UICONTROL Edit Settings > Conversion > Success Events]**&#x200B;ます。
+1. 変更するレポートスイートをクリックし、**[!UICONTROL Edit Settings > Conversion > Success Events]**&#x200B;に移動して、レポートスイートを編集します。
 1. Livefyreイベントを1つ以上のカスタム成功イベントーにマップします。
 
-## 手順2: コンバージョン変数の設定
+## 手順2:コンバージョン変数の設定
 
-Adobe Analytics管理者Report Suite Managerで、Livefyreコンバージョン変数(eVar)をコンバージョン変数にマップします。 コンバージョン変数は、Livefyreイベントから収集されたデータを識別する方法を決定するための並べ替え関数のような働きをします。
+Livefyreコンバージョン変数(eVar)のコンバージョン変数へのマッピング(Adobe Analytics管理者Report Suite Manager)。 コンバージョン変数は、Livefyreイベントから収集されたデータを識別する方法を決定するための並べ替え関数のような働きをします。
 
-1. 「Report Suite Manager」で、をクリックし **[!UICONTROL Edit Settings > Conversion > Conversion Variables]**&#x200B;ます。
+1. Report Suite Managerで&#x200B;**[!UICONTROL Edit Settings > Conversion > Conversion Variables]**&#x200B;をクリックします。
 1. 使用するカスタムコンバージョン変数(eVar)を選択し、それらをLivefyreコンバージョン変数にマッピングします。 Livefyreコンバージョン変数をカスタムコンバージョン変数にマップするには：
 * コンバージョン変数の有効化
 * コンバージョン変数の名前の設定
 * コンバージョン変数に型を指定します
 1. カスタムコンバージョン変数を保存します。
 
-## 手順3: Livefyreイベントを使用し追加たレポートスイートへのDTMの使用 {#section_t15_2hd_4cb}
+## 手順3:Livefyreイベント追加を使用したレポートスイートでDTMを使用する{#section_t15_2hd_4cb}
 
-追加Adobe AnalyticsからDTMへのアップグレードを参照してください。 これを行うには、新しいプロパティとツールを作成し、Livefyreイベントを含む新しいレポートスイートをプロパティに追加します。 DTMについて詳しくは、「 [DTM](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html)」を参照してください。
+追加Adobe AnalyticsからDTMにアクセスして、Analyticsを機能させます。 これを行うには、新しいプロパティとツールを作成し、Livefyreイベントを含む新しいレポートスイートをプロパティに追加します。 DTMについて詳しくは、[DTM](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html)を参照してください。
 
 Livefyreイベントで設定したレポートスイート用に既にプロパティまたはツールが設定されている場合は、この手順を実行する必要はありません。
 
 1. DTMで、既存のプロパティを作成または編集します。
 1. 既存のAdobe Analyticsツールを作成または編集します。
-1. 既存のAdobe Analyticsツールが存在しない場合は、 **[!UICONTROL Add a Tool]** ボタンをクリックします。
+1. 既存のAdobe Analyticsツールが存在しない場合は、**[!UICONTROL Add a Tool]**ボタンをクリックします。
 ツールの次のパラメータを設定します。
 
-   * Set **[!UICONTROL Tool Type]** to **[!UICONTROL Adobe Analytics]**.
+   * **[!UICONTROL Tool Type]**&#x200B;を&#x200B;**[!UICONTROL Adobe Analytics]**&#x200B;に設定します。
    * 有効にする **[!UICONTROL Automatic Configuration]**.
    * 有効にする **[!UICONTROL Authenticate via Marketing Cloud]**.
-1. または、フィールドにLivefyreイベントを追加含むレポートスイートの名前を確認し **[!UICONTROL Report Suites]** ます。
+1. または追加、**[!UICONTROL Report Suites]**&#x200B;フィールドにLivefyreイベントを設定してレポートスイート名を確認します。
 
-## 手順4: Analytics処理を設定するためのページ型ルールの設定 {#section_jfj_j3d_4cb}
+## 手順4:解析処理を設定するためのページ型ルールの設定{#section_jfj_j3d_4cb}
 
 ページ型ルールを設定して、すべてのデータを取り込みます。 ページ型ルールを使用すると、ページの読み込み時にイベントを記録するルールにカスタムjavascriptを設定できます。
 
@@ -60,17 +63,17 @@ Livefyreイベントで設定したレポートスイート用に既にプロパ
 >
 >イベント型ルールやダイレクト型ルールは使用しないでください。
 
-1. DTMで、「 **[!UICONTROL Rules]** tab」を選択します。
+1. DTMで、「**[!UICONTROL Rules]**」タブを選択します。
 1. クリック **[!UICONTROL Page Load Rules]**.
-1. ボタンをクリックし **[!UICONTROL Create New Rule]** ます。
-1. ボタンをクリックして、 **[!UICONTROL Conditions]** セクションを開き **[!UICONTROL Plus]** ます。
-1. ルールをトリガーします。 ルールを非同期に遅延または実装する場合は、タイプ **[!UICONTROL DOM Ready]** を選択または **[!UICONTROL Onload]** トリガーします。
-1. （オプション）Livefyre Appsを表示するページを追加制限するための追加のパラメーター。 その他の設定オプションについて詳しくは、「 [DTM](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html)」を参照してください。
-1. の下 **[!UICONTROL Javascript/ Third Party Tags]**&#x200B;で、 **[!UICONTROL Non-sequential]** タブをクリックし、をクリックし **[!UICONTROL Add New Script]**&#x200B;ます。
-1. スクリプトの種類 **[!UICONTROL Sequential HTML]** としてを選択します。
-1. 次追加のスクリプトをコードエディターに入力し、をクリックし **[!UICONTROL Save Code]**&#x200B;ます。
+1. 「**[!UICONTROL Create New Rule]**」ボタンをクリックします。
+1. **[!UICONTROL Conditions]**&#x200B;セクションを開くには、**[!UICONTROL Plus]**&#x200B;ボタンをクリックします。
+1. ルールをトリガーします。 ルールを非同期に遅延または実装する場合は、**[!UICONTROL DOM Ready]**&#x200B;または&#x200B;**[!UICONTROL Onload]**&#x200B;トリガータイプを選択します。
+1. （オプション）Livefyre Appsを表示するページを追加制限するための追加のパラメーター。 その他の設定オプションについて詳しくは、[DTM](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html)を参照してください。
+1. **[!UICONTROL Javascript/ Third Party Tags]**&#x200B;の下の「**[!UICONTROL Non-sequential]**」タブをクリックし、「**[!UICONTROL Add New Script]**」をクリックします。
+1. スクリプトの種類として&#x200B;**[!UICONTROL Sequential HTML]**&#x200B;を選択します。
+1. 次追加のスクリプトをコードエディターに入力し、**[!UICONTROL Save Code]**&#x200B;をクリックします。
 
-   次のスクリプトは、Livefyre JavaScriptの読み込み後に `livefyre_analytics` ダイレクト型ルールを呼び出します。 次のスクリプトの例では、がページ上にあるかどうかを400ミリ秒ごとに確認 `livefyre.analytics` します。 ページが読み込まれた後、livefyre.analyticsはトラッキング情報を送信します。
+   次のスクリプトは、Livefyre JavaScriptの読み込み後に`livefyre_analytics`ダイレクト型ルールを呼び出します。 次のスクリプトの例では、400ミリ秒ごとにチェックを実行し、`livefyre.analytics`がページ上にあるかどうかを確認します。 ページが読み込まれた後、livefyre.analyticsはトラッキング情報を送信します。
 
    ```
    /** 
@@ -91,19 +94,19 @@ Livefyreイベントで設定したレポートスイート用に既にプロパ
 1. クリック **[!UICONTROL Save Code]**.
 1. クリック **[!UICONTROL Save Rule]**.
 
-## 手順5: LivefyreのAdobe Analyticsマッピング設定を構築するためのダイレクト型ルールの作成 {#section_gvp_b1g_pdb}
+## 手順5:Livefyre {#section_gvp_b1g_pdb}のAdobe Analyticsマッピング設定を構築するためのダイレクト型ルールの作成
 
-カスタムイベント、DTM内のAdobe Analytics UIフィールド、データ要素を使用してLivefyreをDTMと共に実装する方法は他にもあります。 このドキュメントでは、カスタムJavaScriptを使用して同じ効果を実現します。
+カスタムイベント、DTM内のAdobe AnalyticsUIフィールド、データ要素を使用してLivefyreをDTMと共に実装する方法は他にもあります。 このドキュメントでは、カスタムJavaScriptを使用して同じ効果を実現します。
 
-1. DTMで「 **ルール** 」タブを選択し、「 **直接呼び出しルール**」をクリックします。
-1. Click on the **Create New Rule** button.
-1. 新しいルールにLivefyre **Analytics**&#x200B;という名前を付けます。
-1. 「 **条件** 」設定領域を展開します。
-1. 「 **文字列** 」フィールドに、と入力し `livefyre_analytics`ます。
-1. 「JavaScript /サードパーティタグ」セクションを展開し、「 **追加新規スクリプト** 」ボタンをクリックします。
-1. 「 **タグ名** 」入力ボックスにLivefyre Analytics Config **** と入力します。
-1. 「 **非順次JavaScript**」を選択します。
-1. 次のLivefyre設定コードをコードエディターに入力し、「コードを **保存** 」ボタンをクリックします。
+1. DTMで「**ルール**」タブを選択し、「**直接呼び出しルール**」をクリックします。
+1. 「**新しいルールを作成**」ボタンをクリックします。
+1. 新しいルールに&#x200B;**Livefyre Analytics**&#x200B;という名前を付けます。
+1. **conditions**&#x200B;構成領域を展開します。
+1. 「**文字列**」フィールドに`livefyre_analytics`と入力します。
+1. 「JavaScript /サードパーティタグ」セクションを展開し、「**追加新しいスクリプト**」ボタンをクリックします。
+1. **Livefyre Analytics Config**&#x200B;を&#x200B;**タグ名**&#x200B;入力ボックスに入力します。
+1. 「**非順次JavaScript**」を選択します。
+1. 次のLivefyre設定コードをコードエディターに入力し、「**コードを保存**」ボタンをクリックします。
 
    ```
    var s = _satellite.getToolsByType('sc')[0].getS(); 
@@ -188,21 +191,21 @@ Livefyreイベントで設定したレポートスイート用に既にプロパ
    addAnalyticsHandler();  
    ```
 
-1. 「ルールを **保存**」をクリックします。
+1. 「**ルールを保存**」をクリックします。
 
-## 手順6: ページ型ルールの変更の承認 {#section_pxc_11t_ycb}
+## 手順6:ページ型ルールの変更を承認{#section_pxc_11t_ycb}
 
-1. 移動先 **[!UICONTROL Approvals]** タブ
+1. **[!UICONTROL Approvals]**&#x200B;タブに移動します。
 1. クリック **[!UICONTROL Approve]**.
-1. をクリック **[!UICONTROL Yes, approve]** して、承認を確認します。
+1. **[!UICONTROL Yes, approve]**&#x200B;をクリックして承認を確定します。
 1. 移動 **[!UICONTROL Overview > Publish Queue]**.
 1. 発行するルールを選択します。
 1. クリック **[!UICONTROL Publish Selected]**.
-1. をクリック **[!UICONTROL Publish]** して、公開することを確認します。
+1. **[!UICONTROL Publish]**&#x200B;をクリックして、公開することを確認します。
 
 ## script {#section_xkb_vft_mcb}
 
-以下のサンプルコードは、特定のeVarを利用可能なLivefyre eVarにマップしています。 Livefyreコンバージョン変数( `eVar`)名(例えば、 `appId`)は、Report Suite Managerで設定した名前(例えば、 `eVar81`)に対応付けられます。 このスクリプトの `eVar` 名前をカスタムコンバージョン変数に変更します。
+以下のサンプルコードは、特定のeVarを利用可能なLivefyre eVarにマップしています。 Livefyreコンバージョン変数(`eVar`)名（例えば`appId`）は、Report Suite Managerで設定した名前（例えば`eVar81`）にマップされます。 このスクリプトの`eVar`名前をカスタムコンバージョン変数に変更します。
 
 
 ```
@@ -213,7 +216,7 @@ var evarMap = {
 };
 ```
 
-以下のサンプルコードは、Report Suite Managerで使用可能なLivefyreイベントと共に設定した特定のイベントをマップしています。 この例では、 `event82` はどの種類のユーザーインタラクションイベント（コンテンツの「いいね！」や共有など）を区別しないで、任意のユーザーインタラクションイベントとして設定します。 これは、すべてのユーザインタラクション情報をブロックに記録する効率的な方法です。 また、DTM Analytics UIのイベントを、データ要素の参照を使用してマッピングすることもできます。
+以下のサンプルコードは、Report Suite Managerで使用可能なLivefyreイベントと共に設定した特定のイベントをマップしています。 この例では、`event82`はユーザーインタラクションイベントとして設定され、どの種類のユーザーインタラクションイベント（例えば、コンテンツの「いいね！」や共有）を区別する必要はありません。 これは、すべてのユーザインタラクション情報をブロックに記録する効率的な方法です。 また、DTM Analytics UIのイベントを、データ要素の参照を使用してマッピングすることもできます。
 
 ```
 var eventMap = { 
@@ -252,7 +255,7 @@ function trackLivefyreEvent(data) {
   }
 ```
 
-次のコードは、 `event82` 記録するイベントタイプを区別します。 コンバージョン変数は、ユーザーインタラクションのタイプを `eVar83` 記録し、スクリプトは、ユーザーインタラクションデータをタイプ `eVar83` 別に分けるように設定します。 記録されたデータを特定のタイプのユーザーインタラクションに分割で `eVar83` きます。
+次のコードは、`event82`が記録するイベントタイプを区別します。 コンバージョン変数`eVar83`は、ユーザーインタラクションのタイプを記録し、スクリプトは、ユーザーインタラクションデータを型で区切るように`eVar83`を設定します。 `eVar83`を使うと、記録されたデータを特定の種類のユーザー操作に分割できます。
 
 ```
   var vars = ['events'];  
