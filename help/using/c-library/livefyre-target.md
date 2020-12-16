@@ -1,23 +1,26 @@
 ---
-description: LivefyreとAdobeターゲットの統合により、Livefyre Appsをターゲットオファーライブラリと直接共有できます。
-seo-description: LivefyreとAdobeターゲットの統合により、Livefyre Appsをターゲットオファーライブラリと直接共有できます。
-seo-title: Adobe Experience Manager LivefyreとAdobeターゲットの使用
-title: Adobe Experience Manager LivefyreとAdobeターゲットの使用
+description: LivefyreとAdobe Targetの統合により、Livefyre Appsをターゲットオファーライブラリで直接共有できます。
+seo-description: LivefyreとAdobe Targetの統合により、Livefyre Appsをターゲットオファーライブラリで直接共有できます。
+seo-title: Adobe Experience ManagerLivefyreとAdobe Targetの使用
+title: Adobe Experience ManagerLivefyreとAdobe Targetの使用
 uuid: 98108ddb-5710-4331-891b-7e1bbb106059
 translation-type: tm+mt
 source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 1%
 
 ---
 
-# Adobe Experience Manager LivefyreとAdobeターゲットの使用 {#livefyre-target}
+# Adobe Experience ManagerLivefyreとAdobe Target{#livefyre-target}を使用
 
-LivefyreとAdobeターゲットの統合により、Livefyre Appsをターゲットオファーライブラリと直接共有できます。
+LivefyreとAdobe Targetの統合により、Livefyre Appsをターゲットオファーライブラリで直接共有できます。
 
-## Livefyreインスタンスとターゲットの接続 {#connect-livefyre-target}
+## Livefyreインスタンスとターゲット{#connect-livefyre-target}の接続
 
-ユーザー設定でAdobe IMSアカウントをリンクして、LivefyreインスタンスをAdobeターゲットに接続します。
+ユーザー設定でAdobeのIMSアカウントをリンクして、LivefyreインスタンスをAdobe Targetに接続します。
 
-1. Livefyre Studioで、 **[!UICONTROL Users]** タブをクリックします。
+1. Livefyre Studioで、「**[!UICONTROL Users]**」タブをクリックします。
 
 1. IMSアカウント統合を介してターゲットに接続するユーザーアカウントを選択します。
 
@@ -25,23 +28,23 @@ LivefyreとAdobeターゲットの統合により、Livefyre Appsをターゲッ
 
 1. IMS資格情報を入力します。
 
-Adobe IMSアカウントがアクセス権を持つ製品インスタンスをAdobe IMS統合ウィンドウに表示します。
+AdobeIMSアカウントがアクセス権を持つAdobeインスタンスを[製品IMS統合]ウィンドウに表示します。
 
 ![](assets/livefyre-target-connect.png)
 
-これで、LivefyreインスタンスがAdobeターゲットに接続されました。
+これで、LivefyreインスタンスがAdobe Targetに接続されました。
 
-## Livefyreアプリをアドビのターゲットと共有する {#share-livefyre-target}
+## LivefyreアプリをAdobe Targetと共有{#share-livefyre-target}
 
-Livefyre Studioで作成したアプリケーションをAdobeターゲットと直接共有します。
+Livefyre Studioで作成したアプリケーションをAdobe Targetと直接共有します。
 
-1. Livefyre Studioで、 **[!UICONTROL Apps]** タブをクリックします。
+1. Livefyre Studioで、「**[!UICONTROL Apps]**」タブをクリックします。
 
-1. アドビターゲットに共有するアプリを選択します。
+1. Adobe Targetに共有するアプリを選択します。
 
 1. クリック **[!UICONTROL Publish]**.
 
-1. 「公開設定」で、Adobeターゲットスイッチをクリックします。
+1. 公開設定で、Adobe Targetのスイッチをクリックします。
 
 ターゲットインスタンスのリストが表示されます。
 
@@ -51,4 +54,4 @@ Livefyre Studioで作成したアプリケーションをAdobeターゲットと
 
 1. クリック  **[!UICONTROL Publish]**.
 
-これで、Livefyreアプリがターゲットオファーライブラリで使用できるようになります。 アプリの公開について詳しくは、ターゲットドキュメントのコンテンツ [と](/help/using/c-library/t-publish-content.md) オファー [](https://docs.adobe.com/content/help/en/target/using/experiences/offers/manage-content.html) 「公開」を参照してください。
+これで、Livefyreアプリがターゲットオファーライブラリで使用できるようになります。 アプリの公開について詳しくは、ターゲットドキュメントの[コンテンツを公開](/help/using/c-library/t-publish-content.md)および[オファー](https://docs.adobe.com/content/help/en/target/using/experiences/offers/manage-content.html)を参照してください。
