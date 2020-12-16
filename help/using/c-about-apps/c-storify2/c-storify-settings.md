@@ -7,6 +7,9 @@ title: 設定の保存
 uuid: 030936fb-7c8b-487e-b468-7128b641c8ed
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '133'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +20,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 >[!NOTE]
 >
->「Storify 2 Apps」に表示されるほとんどの設定は、「Sident」のオプションを制御します（有効な場合）。
+>「Storify 2 Apps」に表示されるほとんどの設定は、「Sidenotes」のオプションを制御します（有効な場合）。
 
 * **[!UICONTROL Tags]**
 
@@ -25,15 +28,15 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 * **[!UICONTROL Allow New Content]**
 
-   新しいサイドのストーリーへの追加を許可します。
+   ストーリーに新しいサイトの追加を許可します。
 
 * **[!UICONTROL Article URL]**
 
-   SocialSyncで使用するURLおよび固定リンク。
+   SocialSyncおよびpermalinksで使用するURLです。
 
 * **[!UICONTROL Premoderate Content]**
 
-   モデレーターの承認が必要な場合は、サイドが公開されます。
+   Sidenotが公開される前にモデレーターの承認が必要です。
 
 * **[!UICONTROL Display Media]**
 
@@ -41,11 +44,11 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 * **[!UICONTROL Premoderate Media]**
 
-   サイドのメディアコンテンツを公開する前にモデレーターの承認が必要です。
+   Sidenotのメディアコンテンツを公開する前にモデレーターの承認が必要です。
 
 * **[!UICONTROL Queue New Content]**
 
-   ライブストリーミングを無効にし、新しいコンテンツと返信をキューに追加します。
+   ライブストリーミングを無効にし、新しいコンテンツと返信をキューに入れます。
 
 * **[!UICONTROL Throttle Content]**
 
