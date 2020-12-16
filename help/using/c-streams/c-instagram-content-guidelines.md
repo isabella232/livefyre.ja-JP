@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Instagramのコンテンツをキュレーションする場合は、そのコンテンツのガイドラインとベストプラクティスに従う必要があります。
 
-Instagramのビジネスアカウントを設定して *、別の特定のInstagramビジネスアカウントからInstagramストリームを作成する場合は、この***[!UICONTROL By Author]** フィールドを使用する必要があります。 フィールドで識別するユーザーアカウントは、ビジネスアカウントである **[!UICONTROL By Author]** 必要があります。
+**[!UICONTROL By Author]**&#x200B;フィールドを使用して、別の特定のInstagramビジネスアカウントからInstagramストリームを作成するように、*Instagramビジネスアカウント*&#x200B;を構成する必要があります。 **[!UICONTROL By Author]**&#x200B;フィールドで識別するユーザーアカウントは、ビジネスアカウントである必要があります。
 
-LivefyreでInstagramビジネスアカウントを設定する方法について詳しくは、Instagramアカウント [についてを参照してください](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)。
+LivefyreでInstagramのビジネスアカウントを設定する方法について詳しくは、[Instagramのアカウントについて](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)を参照してください。
 
 Instagramでは、プラットフォームからコンテンツを取得する際に次のルールが適用されます。
 
@@ -41,4 +41,4 @@ Instagramは、他のブランドと同様、ブランドアセットの使用�
 * Instagramとコンテンツの所有者に属性を提供します。
 * 他のネットワークのメディアと共に表示する場合は、他のソーシャルメディアコンテンツと明確に区別してください。
 
-詳しくは、Instagramのドキュメントを参照してください。 [Instagramのブランドアセットの使用を参照してください](https://help.instagram.com/304689166306603)。
+詳しくは、Instagramのドキュメントを参照してください。[Instagramのブランドアセット](https://help.instagram.com/304689166306603)を使用。
