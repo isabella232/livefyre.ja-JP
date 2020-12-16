@@ -6,6 +6,9 @@ title: コンテンツをアセットライブラリに保存
 uuid: 5f076a55-4358-4ee5-866e-5b6c0199b580
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 「ソーシャル検索」タブからコンテンツを保存し、アプリで使用するコンテンツを保存します。
 
-1. アセットのコンテンツの詳細を表示します。
-1. をクリ **[!UICONTROL +Save]** ックして、アセットライブラリの最上位に項目を保存します。
+1. アセットの表示コンテンツの詳細。
+1. **[!UICONTROL +Save]**&#x200B;をクリックして、アセットライブラリの最上位に項目を保存します。
 
-   アイテムが保存されると、ボタンがに変わり、必要に応 **[!UICONTROL Add to Folder]**&#x200B;じてライブラリ内でアイテムを検索できるようになります。1.をクリ **[!UICONTROL … (More Actions) > Advanced]** ックして、アイテムをライブラリに追加したり、タグを追加したり、再利用権限をリクエストしたり、アプリにアイテムを公開したりします。
+   アイテムを保存すると、ボタンが&#x200B;**[!UICONTROL Add to Folder]**&#x200B;に変わり、必要に応じてライブラリ内で見つけることができます。1. [a1/>]をクリックしてライブラリにアイテムを追加し、タグを追加し、再利用を要求するか、アプリにアイテムを公開します。**[!UICONTROL … (More Actions) > Advanced]**
