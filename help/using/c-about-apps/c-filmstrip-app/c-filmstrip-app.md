@@ -1,14 +1,14 @@
 ---
-description: Filmstripは、ユーザーが生成したコンテンツを、カメラのフィルムのストリップと同様に、動的な単一の水平の写真ストリップに表示するビジュアライゼーションアプリです。
+description: 'Filmstripアプリに関する詳細なガイドをご覧ください。 ビジュアライゼーションアプリは、レトロなカメラフィルムの帯状に画像を表示します。 チップを使ってマスターを行う。 '
 seo-description: Filmstripは、ユーザーが生成したコンテンツを、カメラのフィルムのストリップと同様に、動的な単一の水平の写真ストリップに表示するビジュアライゼーションアプリです。
 seo-title: Filmstrip
 solution: Experience Manager
-title: Filmstrip
+title: Guide to Filmstrip App
 uuid: 2e3cb6f4-15db-4509-8a5b-a651511cdbd6
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: 2584041dd080c08ee769bd897e55157ec05ce8b6
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '821'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 Filmstripは、ユーザーが生成したコンテンツを、カメラのフィルムのストリップと同様に、動的な単一の水平の写真ストリップに表示するビジュアライゼーションアプリです。
 
-## フィルムストリップについて{#section_tng_slj_yy}
+## フィルムストリップの使用方法を学ぶ{#section_tng_slj_yy}
 
 製品ページやトランザクションWebサイトなどのeコマースシナリオでは、FilmstripとUGCを使用できます。 エンドユーザーは、横矢印をクリックしてフィルムストリップに移動し、使用可能なコンテンツを左から右にスクロールできます。 新しいコンテンツは、アプリに入ると左側に表示されます。 新たにストリーミングされたUGCに、*新しい*&#x200B;というラベルを付けるかどうかを選択して、サイト訪問者が新しいコンテンツを迅速に識別できるようにします。
 
