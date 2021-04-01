@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 solution: Experience Manager
 solution-title: 学習とサポート
 solution-hub-url: https://helpx.adobe.com/support/experience-manager/6-4.html
@@ -11,7 +11,7 @@ tutorials-url: https://helpx.adobe.com/experience-manager/kt/index/aem-6-4-video
 mini-toc-levels: 2
 git-repo: https://git.corp.adobe.com/AdobeDocs/livefyre.ja-JP
 translation-type: tm+mt
-source-git-commit: deae9c7c98fa0417f1ed553239da630817c13f02
+source-git-commit: b9c4f73af9e71079b2ef1ec081111e83c7d299b1
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 4%
