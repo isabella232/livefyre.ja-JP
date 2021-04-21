@@ -1,18 +1,14 @@
 ---
 description: Sident型としてインスタンス化されたCollectionオブジェクトを返します。 Collectionオブジェクトからcreate_or_update()を実行し、ビルドプロセスを完了します。
-seo-description: Sident型としてインスタンス化されたCollectionオブジェクトを返します。 Collectionオブジェクトからcreate_or_update()を実行し、ビルドプロセスを完了します。
-seo-title: buildSitenotesCollectionサイトメソッド
-solution: Experience Manager
 title: buildSitenotesCollectionサイトメソッド
-uuid: 2bfbc032-4c0c-48d2-8ce6-02460b38bd6c
+exl-id: c722baf2-91d4-4c05-97e1-ea585e91c416
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 6%
+source-wordcount: '94'
+ht-degree: 8%
 
 ---
-
 
 # buildSitenotesCollectionサイトメソッド{#buildsitenotescollection-site-method}
 
