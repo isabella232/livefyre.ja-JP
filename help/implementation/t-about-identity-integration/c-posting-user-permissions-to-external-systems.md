@@ -1,18 +1,14 @@
 ---
 description: LivefyreはPUSHインターフェイスを使用して、ユーザー権限への変更に関する外部システム情報を送信します。
-seo-description: LivefyreはPUSHインターフェイスを使用して、ユーザー権限への変更に関する外部システム情報を送信します。
-seo-title: 外部システムへのユーザー権限の投稿（オプション）
-solution: Experience Manager
 title: 外部システムへのユーザー権限の投稿（オプション）
-uuid: 9c18b20d-3b93-4666-b7de-1ec60318cf88
+exl-id: 335c9ff2-e392-4310-aad2-7890c8e82eba
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '242'
 ht-degree: 4%
 
 ---
-
 
 # 外部システムへのユーザー権限の送信（オプション）{#posting-user-permissions-to-external-systems-optional}
 
