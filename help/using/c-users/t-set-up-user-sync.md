@@ -1,18 +1,14 @@
 ---
 description: ユーザー同期を使用すると、ユーザー管理システムからユーザープロファイルデータを取得するために使用するエンドポイントを入力できます。
-seo-description: ユーザー同期を使用すると、ユーザー管理システムからユーザープロファイルデータを取得するために使用するエンドポイントを入力できます。
-seo-title: ユーザー同期
-solution: Experience Manager
 title: ユーザー同期
-uuid: 6259e6fa-0541-4f5b-9d14-4c7c932ef997
+exl-id: 6a7a4bb3-a344-48be-8ba1-fd6d27a3b4af
 translation-type: tm+mt
-source-git-commit: 30aa5cce5e7567208362cc35caeb7b7260c42f3b
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 1%
+source-wordcount: '85'
+ht-degree: 2%
 
 ---
-
 
 # ユーザー同期{#user-sync}
 
@@ -24,4 +20,3 @@ Pingを使用してPingを実行し、LivefyreがこのURLを使用してPullを
 
 **プロファイル同期URL:Livefyreが更新されたユーザープロファイル情報の取得元となるURLを** 入力します。
 * 例えば、`https://example.yoursite.com/some_path/?id={***id***}`
-
