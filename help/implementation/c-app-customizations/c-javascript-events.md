@@ -1,24 +1,20 @@
 ---
 description: 会話アプリ（Comments、Chat、Live Blog、Reviews、Sidenotes など）用に JavaScript をバインドできるものに対して使用できるイベントです。
-seo-description: 会話アプリ（Comments、Chat、Live Blog、Reviews、Sidenotes など）用に JavaScript をバインドできるものに対して使用できるイベントです。
-seo-title: JavaScriptイベントの定義と例
-solution: Experience Manager
 title: JavaScriptイベントの定義と例
-uuid: 61da2e2e-8fcd-482d-93df-c946f0475277
+exl-id: 5b865974-69aa-4d51-ac26-60f1d8a114fc
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 15%
+source-wordcount: '375'
+ht-degree: 11%
 
 ---
-
 
 # JavaScriptイベントの定義と例{#javascript-events-definitions-and-examples}
 
 会話アプリ（Comments、Chat、Live Blog、Reviews、Sidenotes など）用に JavaScript をバインドできるものに対して使用できるイベントです。
 
-Livefyreは、Livefyre Appsでユーザーのアクティビティを追跡するJavaScriptイベントを提供しています。 例えば、ユーザーがTwitterやFacebookにコンテンツに「いいね！」をしたり共有したりした場合、または新しいコンテンツが投稿された場合に、ページを更新したい場合があります。
+Livefyreは、Livefyre Appsでユーザーのアクティビティを追跡するJavaScriptイベントを提供しています。 例えば、ユーザーがTwitterやFacebookにコンテンツを「いいね！」したり共有したりした場合、または新しいコンテンツが投稿された場合に、ページを更新したい場合があります。
 
 また、Livefyreでは、サードパーティの解析イベント(Adobe AnalyticsJS、Google Analytics、Dynamic Tag Managementなど)に統合を追加して、アプリのイベントを追跡することもできます。 詳しくは、サードパーティのIntegration Managerを使用して正しいイベントを提供してください。
 
@@ -182,4 +178,3 @@ data = {
    optOut: true 
 }
 ```
-
