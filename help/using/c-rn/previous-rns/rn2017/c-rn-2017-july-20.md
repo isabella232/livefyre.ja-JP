@@ -1,17 +1,14 @@
 ---
 description: 2017年7月21日リリースのリリースノートです。
-seo-description: 2017年7月21日リリースのリリースノートです。
-seo-title: 2017 年 7 月 21 日
 title: 2017 年 7 月 21 日
-uuid: 550815a9-a6e2-4e98-b5d6-7f4897373716
+exl-id: 1bf17703-0913-41f0-a897-ba8323992f71
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '354'
 ht-degree: 7%
 
 ---
-
 
 # 2017年7月20日{#july}
 
@@ -43,8 +40,7 @@ UGCコマースを使用すると、Livefyre Appsから直接誘い文句（CTA�
 
 | **問題のタイプ** | **コンポーネント** | **リリースノート** |
 |---|---|---|
-| バグ | カルーセル | キャプションを含まないInstagram Carouselの投稿がStudioに取り込めない問題を修正しました。 |
-| 機能強化 | Storify 2 | Facebookではこの機能が廃止されているので、「Storify Search」の「Facebookコメント（ID検索）」オプションを削除しました。 |
-| バグ | Storify 2 | Storify 2でのFacebookコメントのURLによる取得結果の安定性が向上しました。 |
+| バグ | カルーセル | キャプションを含まないInstagramカルーセル投稿がStudioに取り込まれない問題を修正しました。 |
+| 機能強化 | Storify 2 | facebookではこの機能が廃止されているので、Storify Searchの「IDによるFacebookコメント」検索オプションを削除しました。 |
+| バグ | Storify 2 | Storify 2で、URLによるFacebookコメントの取得の安定性が向上しました。 |
 | バグ | ストリーム | クリック時に、ストリームルール設定テキストボックスのテキストピルが削除される問題を修正しました。 |
-
