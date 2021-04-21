@@ -1,18 +1,14 @@
 ---
 description: このコレクションのチェックサムを返します。
-seo-description: このコレクションのチェックサムを返します。
-seo-title: buildChecksumコレクションメソッド
-solution: Experience Manager
 title: buildChecksumコレクションメソッド
-uuid: 692e8e13-6218-4e38-abc8-7cf49bebde9c
+exl-id: 91b2911e-bcca-4a61-9c59-4df084e0d778
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '38'
 ht-degree: 0%
 
 ---
-
 
 # buildChecksum収集メソッド{#buildchecksum-collection-method}
 
@@ -77,4 +73,3 @@ collection.build_checksum
 ```
 6e2e4faf7b95f896260fe695eafb34ba 
 ```
-
