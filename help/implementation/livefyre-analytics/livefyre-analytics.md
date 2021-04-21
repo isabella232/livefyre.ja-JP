@@ -1,18 +1,14 @@
 ---
 description: サイトのユーザー、コンテンツおよびモデレーターのアクティビティを分析します。
-seo-description: サイトのユーザー、コンテンツおよびモデレーターのアクティビティを分析します。
-seo-title: Analytics
-solution: Experience Manager
-title: 解析
-uuid: b022aa77-59b9-422a-8d9f-fb9d8a1b0478
+title: Analytics
+exl-id: dc0545ec-2294-44ab-87c4-67eb30c3f787
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '720'
 ht-degree: 1%
 
 ---
-
 
 # Analytics{#analytics}
 
@@ -114,4 +110,3 @@ Livefyre Analyticsでは、会話、モデレート、ユーザーの各デー�
 ユーザダッシュボードは、ユーザ別のサイトアクティビティを表示し、個々のユーザが貴社サイトとどのように関わり合っているかを分析できます。 このダッシュボードを使用して、サイト内で最もアクティブなユーザを見つけ、最も人気のあるサイトアクティビティを評価します。
 
 ![](assets/analytics-users.png)
-
