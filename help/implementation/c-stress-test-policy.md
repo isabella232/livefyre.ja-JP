@@ -1,18 +1,14 @@
 ---
 description: Livefyreプラットフォームに対して応力テストを実行します。
-seo-description: Livefyreプラットフォームに対して応力テストを実行します。
-seo-title: ストレステストポリシー
-solution: Experience Manager
 title: ストレステストポリシー
-uuid: f2d49b55-f4fc-485f-9aea-a17ce64813ee
+exl-id: cb87b6ca-4107-46fc-9b1e-dc9399ec6d3a
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
-
 
 # 応力テストポリシー{#stress-test-policy}
 
