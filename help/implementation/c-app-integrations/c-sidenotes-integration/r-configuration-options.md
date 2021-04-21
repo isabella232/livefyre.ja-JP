@@ -1,18 +1,14 @@
 ---
 description: Sidenots configオブジェクトは、Livefyre Appがページ上でレンダリングするコンテンツを指定するために使用するJSONオブジェクトです。
-seo-description: Sidenots configオブジェクトは、Livefyre Appがページ上でレンダリングするコンテンツを指定するために使用するJSONオブジェクトです。
-seo-title: サイトの設定オプション
-solution: Experience Manager
 title: サイトの設定オプション
-uuid: 067e51e6-9720-4226-a805-c7a07c8cdaa0
+exl-id: efebf9e5-6623-4953-a8f6-c58495304ac1
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '455'
 ht-degree: 2%
 
 ---
-
 
 # サイズ構成オプション{#sidenotes-configuration-options}
 
@@ -35,4 +31,3 @@ Sidenots configオブジェクトは、Livefyre Appがページ上でレンダ�
 | セレクター | ** 必須オブジェクト、文字列、または配列 | ランチャーアイコンを表示する要素を指定します。 （CSS3 DOMセレクター仕様を使用）。 オブジェクトの場合、「含む」セクションと「除外する」セクションを含み、一致する「含む」に対してCSSセレクターを適用し、除外に一致する要素を削除します。 文字列の場合、一致する要素がページに含まれます。 配列の場合、含める要素をリストします。 |
 | 文字列 | ** optionalobject | カスタムテキスト文字列を追加して、アプリケーション全体の任意の言語またはテキストを変更します。 詳しくは、「カスタム文字列」を参照してください。 |
 | threadContainerEl | ** optionalobject、string、またはarray | サイドのねじを表示する要素を指定します。 このパラメーターを使用すると、ねじの位置を変更できます。 文字列セレクターが複数の要素と一致する場合は、最初の要素が選択されます。 （CSS3 DOMセレクター仕様を使用）。 |
-
