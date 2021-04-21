@@ -1,17 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: カスタムの誘い文句（CTA：コールトゥアクション）ボタン
 title: カスタムの誘い文句（CTA：コールトゥアクション）ボタン
-uuid: 8c653799-1602-4e38-a2bc-6de0f99c40ff
+description: カスタムの誘い文句（CTA：コールトゥアクション）ボタン
+exl-id: bcbde20f-7fc3-4a15-970d-6500ea888b59
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 1%
+source-wordcount: '287'
+ht-degree: 0%
 
 ---
-
 
 # カスタム誘い文句（CTA：コールトゥアクション）ボタン{#custom-call-to-action-button}
 
