@@ -1,18 +1,14 @@
 ---
 description: 作成するすべてのコレクションを識別する一意のトークンをサーバー上に作成します。
-seo-description: 作成するすべてのコレクションを識別する一意のトークンをサーバー上に作成します。
-seo-title: CollectionMeta Token
-solution: Experience Manager
 title: CollectionMeta Token
-uuid: d5db0b0f-2807-4392-874a-94ac3c1e7550
+exl-id: 52edfe75-5ce6-40c9-9afe-c34a3812f1e7
 translation-type: tm+mt
-source-git-commit: 6978f0f36b5698c9c599c1828edea67703423397
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 2%
+source-wordcount: '329'
+ht-degree: 3%
 
 ---
-
 
 # CollectionMeta Token{#collectionmeta-token}
 
@@ -30,7 +26,7 @@ Livefyreは、作成するすべてのコレクションに一意の識別子を
 | siteKey | 文字列（オプション） | サイトの秘密キー（[!UICONTROL Studio > Settings > Integration Settings > Credentials]から入手可能）。 |
 | articleId | 文字列（オプション） | コレクションの一意のID。 |
 | title | 文字列（オプション） | コレクションに適用するタイトル。 通常、これはアプリを表示するページのタイトルに対応します。 <br>次に例を示します。「Integration is So Fun!」<br>注意：タイトルの最大文字長は255文字です。タイトルフィールドはHTMLエンティティをサポートしていません。 特殊文字はUTF-8を使用してエンコードしてください。 |
-| url | 文字列 (オプション) | このコレクションに添付する正規の絶対URLです。 このURLは、FacebookやTwitterで共有されるコンテンツ、電子メール通知およびLivefyre Studioからアプリへ戻るリンクを生成するために使用されます。 <br>注意：ローカルでテストする場合は、有効なベースURLドメインを使用します(例：有効： `https://customer.com`;無効： `https://localhost:5995`)をクリックします。 |
+| url | 文字列 (オプション) | このコレクションに添付する正規の絶対URLです。 このURLは、FacebookとTwitterで共有されたコンテンツ、電子メール通知およびLivefyre Studioからアプリへ戻るリンクを生成するために使用されます。 <br>注意：ローカルでテストする場合は、有効なベースURLドメインを使用します(例：有効： `https://customer.com`;無効： `https://localhost:5995`)をクリックします。 |
 | タグ | 文字列（オプション） | 1つのキーワードまたはフレーズをコンマで区切ったリスト。 Studioを使用してタグでコレクションを検索します。  </br>注意：タグにスペースを含めることはできません。UIにスペースを表示する場合は、アンダースコアを使用します。 |
 | extensions | JSON（オプション） | コレクションに渡すJSON形式のパラメーターのセットです。 |
 
