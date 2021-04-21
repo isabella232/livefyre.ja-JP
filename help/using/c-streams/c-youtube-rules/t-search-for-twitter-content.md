@@ -1,28 +1,25 @@
 ---
-description: ソーシャル検索を使用して、アセットライブラリに含めるTwitterコンテンツを検索したり、アプリに投稿したりします。
-seo-description: ソーシャル検索を使用して、アセットライブラリに含めるTwitterコンテンツを検索したり、アプリに投稿したりします。
-seo-title: Twitterコンテンツの検索
-title: Twitterコンテンツの検索
-uuid: 7e36cc1f-7dce-446b-84b6-22939e8dcaf5
+description: ソーシャル検索を使用して、アセットライブラリに含めるTwitterのコンテンツを検索したり、アプリに投稿したりします。
+title: twitterコンテンツの検索
+exl-id: 25cb5b74-0e6c-4f00-90f9-1022a13406ca
 translation-type: tm+mt
-source-git-commit: df5991d9d70282b289f2cca954dc8727c82d699f
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
 
+# twitterコンテンツの検索{#search-for-twitter-content}
 
-# Twitterコンテンツの検索{#search-for-twitter-content}
-
-ソーシャル検索を使用して、アセットライブラリに含めるTwitterコンテンツを検索したり、アプリに投稿したりします。
+ソーシャル検索を使用して、アセットライブラリに含めるTwitterのコンテンツを検索したり、アプリに投稿したりします。
 
 検索結果は保存して再利用できます。 検索バーをクリックすると、最近の検索と保存済みの検索のリストが表示されます。
 
 ライブラリに新しいアセットを追加すると、ライブラリに既に含まれているアセットにはチェックマークが付きます。
 
 1. **[!UICONTROL Social Search]**&#x200B;に移動します。
-1. Twitterコンテンツを検索するには、**[!UICONTROL Twitter]**&#x200B;を選択します。
+1. **[!UICONTROL Twitter]**&#x200B;を選択して、Twitterのコンテンツを検索します。
 1. キーワード、#hashtag、または@personを入力します。 検索バーの右側のプルダウンメニューから検索タイプを選択して、検索を絞り込むことができます。
 
    * **[!UICONTROL Subject Search:]** デフォルトでは、入力テキスト用の使用可能なすべてのフィールドを検索します。
