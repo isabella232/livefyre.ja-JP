@@ -1,18 +1,14 @@
 ---
 description: 2018年1月19日リリースのリリースノートです。
-seo-description: 2018年1月19日リリースのリリースノートです。
-seo-title: 2018年1月19日
-solution: Experience Manager
 title: 2018年1月19日
-uuid: 8141f431-c154-4c8f-bbcd-b7c712fe5f7d
+exl-id: aaf49dc9-64eb-4354-8bcb-04039fa25f10
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '255'
 ht-degree: 7%
 
 ---
-
 
 # 2018年1月18日{#january}
 
@@ -35,7 +31,6 @@ ht-degree: 7%
 |---|---|---|
 | バグ | ライブラリ | セキュリティのバグ修正。 すべての認証呼び出しは、HTTPではなくHTTPSプロトコルを使用して行われるようになりました。 |
 | 機能強化 | スマートタグ | ストリームコンテンツがフォルダーに保存されたりアプリに公開されたりする際に、自動的にAdobe Senseiによってスマートタグ付けされるようになりました。 |
-| バグ | ストリーム | Instagramのストリームルールで日本語文字が認識されない問題を修正しました。 |
+| バグ | ストリーム | instagramのストリームルールで日本語文字が認識されない問題を修正しました。 |
 | 機能強化 | ストリーム | お客様は、論理演算子(ANY、ALL、NOT)を使用して、より正確なコンテンツをキュレーションするストリーム内に、詳細なスマートタグフィルターを作成できるようになりました。 例えば、ハッシュタグ#himalyasを使用する場合、「雪」の「山」を含む画像のみを表示するよう選択できます。 |
 | バグ | スタジオ | 名前に特殊文字がHTMLとして表示されるバグを修正しました。 |
-
