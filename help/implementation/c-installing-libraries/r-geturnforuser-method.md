@@ -1,18 +1,14 @@
 ---
 description: このメソッドは、このネットワークのユーザーのURNを返します。
-seo-description: このメソッドは、このネットワークのユーザーのURNを返します。
-seo-title: getUrnForUserネットワークメソッド
-solution: Experience Manager
 title: getUrnForUserネットワークメソッド
-uuid: b70b8b0f-2b3a-4a1d-90d0-93a97a137ad4
+exl-id: 272e724e-d09d-4d7d-9967-a229707ff47f
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 7%
+source-wordcount: '56'
+ht-degree: 8%
 
 ---
-
 
 # getUrnForUserネットワークメソッド{#geturnforuser-network-method}
 
