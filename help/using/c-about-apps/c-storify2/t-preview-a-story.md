@@ -1,18 +1,14 @@
 ---
 description: App Designerを使用すると、複数の配信形式でアプリをプレビューし、独自のデータやサンプルデータを表示できます。
-seo-description: App Designerを使用すると、複数の配信形式でアプリをプレビューし、独自のデータやサンプルデータを表示できます。
-seo-title: プレビュー・ア・ストーリー
-solution: Experience Manager
 title: プレビュー・ア・ストーリー
-uuid: 3b5321c3-1fab-4439-86ab-efa2ffc24f41
+exl-id: b86798dc-2b03-456a-9179-7474fd2f19c3
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
-
 
 # プレビューaストーリー{#preview-a-story}
 
