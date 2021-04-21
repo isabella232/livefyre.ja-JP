@@ -1,18 +1,14 @@
 ---
 description: 1つのStudioアカウントから複数のネットワークを管理できます。
-seo-description: 1つのStudioアカウントから複数のネットワークを管理できます。
-seo-title: ネットワークの切り替え
-solution: Experience Manager
 title: ネットワークの切り替え
-uuid: 1f1f172b-6444-4161-9396-8f6b6d738593
+exl-id: 5f48a4a5-a951-40db-bf73-609041b469fb
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
-
 
 # ユーザーがネットワークを切り替える{#users-switching-networks}
 
@@ -29,4 +25,3 @@ ht-degree: 0%
 >ほとんどのユーザは1つのネットワークに対する権限を持ちますが、Studioの一部のユーザは複数のサイトを所有またはモデレートできます。 Studioアカウントを使用すると、ユーザーは1人のユーザー名とパスワードでログインし、複数のサイトアクセスレベルを切り替えることができます。
 
 ![](assets/UsersChangeAccount-285x300.png)
-
