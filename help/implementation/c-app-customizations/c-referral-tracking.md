@@ -1,18 +1,14 @@
 ---
 description: 照会トラフィックからページに戻るクリックを追跡します。
-seo-description: 照会トラフィックからページに戻るクリックを追跡します。
-seo-title: 照会の追跡
-solution: Experience Manager
 title: 照会の追跡
-uuid: 5206cc16-9671-4b3d-a013-be1a3e8c029d
+exl-id: 9955d4a4-184d-421f-bcde-b19342b0b181
 translation-type: tm+mt
-source-git-commit: bd989c97ae5cf06a5ac3deec215f865b0fe95d16
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '227'
 ht-degree: 2%
 
 ---
-
 
 # 参照の追跡{#referral-tracking}
 
@@ -28,7 +24,7 @@ Livefyreアプリを使用すると、照会トラフィックから生じるデ
 
 ## 導入例 {#section_xvs_x44_xz}
 
-トラフィックがStreamHubによる通知から送信された場合、hubRefSrcクエリ文字列パラメーターが存在し、値はemail、facebook、twitter、linkedinまたはpermalinkになります。 hubRefSrcパラメーター名は、Livefyre配信チームがネットワークレベルで設定できます。
+トラフィックがStreamHubを使用した通知から送信された場合、hubRefSrcクエリ文字列パラメーターが存在し、値はemail、facebook、twitter、linkedinまたはpermalinkになります。 hubRefSrcパラメーター名は、Livefyre配信チームがネットワークレベルで設定できます。
 
 分析プラットフォームと統合するには、ページでhubRefSrcの読み込み時に探し、トラフィックが存在する場合は記録する必要があります。
 
