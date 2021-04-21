@@ -1,18 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Socialアプリの作成
-solution: Experience Manager
 title: Socialアプリの作成
-uuid: b3698e44-19ba-489f-a4d2-072ba5430974
+description: Socialアプリの作成
+exl-id: 414953f4-ae5e-4b45-a4e1-ec1e77c67d79
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 3%
+source-wordcount: '56'
+ht-degree: 0%
 
 ---
-
 
 # ソーシャルアプリの作成{#create-your-social-apps}
 
