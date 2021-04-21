@@ -1,18 +1,14 @@
 ---
 description: コンテンツを特集するには、まずStudioで「特集のコメントを有効にする」設定を有効にする必要があります。
-seo-description: コンテンツを特集するには、まずStudioで「特集のコメントを有効にする」設定を有効にする必要があります。
-seo-title: Studioでフィーチャーコンテンツを有効にする
-solution: Experience Manager
 title: Studioでフィーチャーコンテンツを有効にする
-uuid: 6c599525-4c48-4536-9300-add384ba1051
+exl-id: 1bb34e7d-be1d-4796-a1d5-2b3bbc38be30
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 2%
+source-wordcount: '54'
+ht-degree: 3%
 
 ---
-
 
 # Studioでコンテンツを特集する機能を有効にする{#enable-featuring-content-in-studio}
 
