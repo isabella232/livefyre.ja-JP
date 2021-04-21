@@ -1,18 +1,14 @@
 ---
 description: Filmstripアプリの機能について説明します。
-seo-description: Filmstripアプリの機能について説明します。
-seo-title: フィルムストリップの機能
-solution: Experience Manager
 title: フィルムストリップの機能
-uuid: 0d7d59dc-0465-44d3-8348-b59e51312aab
+exl-id: ba327da8-9a7c-4819-abdf-b66412999da0
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 3%
+source-wordcount: '46'
+ht-degree: 4%
 
 ---
-
 
 # フィルムストリップの機能{#filmstrip-features}
 
