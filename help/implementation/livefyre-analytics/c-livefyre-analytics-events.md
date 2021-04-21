@@ -1,18 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Livefyre Analyticsのイベント
-solution: Experience Manager
 title: Livefyre Analyticsのイベント
-uuid: 4eb5a196-ca33-40f8-a96d-ed46469223de
+description: Livefyre Analyticsのイベント
+exl-id: ec32414c-0580-44dc-ae5b-6df0b42c0ec3
 translation-type: tm+mt
-source-git-commit: 5dc11c42a9f8bf3fa088f3245e21b6942d4865fe
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 5%
+source-wordcount: '540'
+ht-degree: 4%
 
 ---
-
 
 # Livefyre Analyticsのイベント
 
@@ -58,14 +54,14 @@ Report Suite Managerを使用したレポートで使用するカスタムイベ
 | 表示 | アプリが初めてビューポートに入ったとき。 |
 | 投稿 | ユーザーがコメントやコンテンツの一部(例：最上位レベルの投稿，返信，レビュー，メディアウォールのアップロード |
 | 投稿済み | 投稿が成功したとき。 |
-| Twitter_Reply | ユーザーがTwitterで返信した場合 |
-| Twitter_Like | コンテンツの共有先：リツイート |
+| Twitter_返信 | ユーザーがTwitterで返信したとき |
+| Twitter_いいね！ | コンテンツの共有先：リツイート |
 | Livefyre_Like | アプリケーションでlivefyreの「いいね！」機能が使用された場合は常に |
 | Livefyre_Inlike | ユーザーがlivefyreの「いいね！」を取り消したとき |
 | ShareOnPost | ユーザーがコンテンツを投稿し、投稿時に共有機能を使用するたびに |
 | ShareButtonClick | ユーザーがコメントの共有ボタンをクリックしたとき |
-| ShareTwitter | 「Twitterで共有」をクリックした場合 |
-| ShareFacebook | 「Facebookで共有」をクリックした場合 |
+| ShareTwitter | 「Twitterに共有」をクリックした場合 |
+| ShareFacebook | 「Facebookに共有」をクリックした場合 |
 | ShareURL | 「URLと共有」テキスト領域が選択またはコピーされたとき。 |
 | ExpandReplies | ユーザーが「+」または「表示へ展開」リンクをクリックしたとき、最上位レベルの投稿でのすべての返信が表示されます。 |
 | CollapseReplies | ユーザーが「 — 」または「表示へのリンクを折りたたむ」をクリックしたとき、最上位レベルの投稿ですべての返信が行われます。 |
