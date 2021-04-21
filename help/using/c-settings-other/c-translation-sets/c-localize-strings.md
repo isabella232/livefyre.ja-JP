@@ -1,18 +1,14 @@
 ---
 description: Livefyreアプリの文字列のカスタマイズ
-seo-description: Livefyreアプリの文字列のカスタマイズ
-seo-title: 文字列をローカライズする
-solution: Experience Manager
 title: 文字列をローカライズする
-uuid: c0ab352d-5d3a-45d7-bbd0-aed165835646
+exl-id: 5eb452e3-3b33-4861-9b62-5a41221defab
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '1996'
+source-wordcount: '1987'
 ht-degree: 8%
 
 ---
-
 
 # 文字列をローカライズする{#localize-strings}
 
@@ -259,7 +255,7 @@ var customStrings = {
 
 | キー | デフォルトのテキスト |  |
 |---|---|---|
-| Twitter @メンションモーダル | mentionTitle | メンションを共有 |
+| Twitter@メンションモーダル | mentionTitle | メンションを共有 |
 |  | mentionSubtitleTwitter | ツイートの共有先： |
 |  | mentionDefaultText | Livefyreのコメントで言った！ |
 |  | mentionConfirmButton | OK |
@@ -267,7 +263,7 @@ var customStrings = {
 |  | mentionErrorGeneral | おっと！ 何か問題が発生しました！ Livefyreに警告が送信されました。 |
 |  | mentionErrorNoneSelected | 少なくとも1つのメンションを有効にする必要があります。 |
 |  | mentionMenuTitle | 友達に会ってメンションするには |
-|  | mentionTwitterConnect | Twitterに接続 |
+|  | mentionTwitterConnect | twitterに接続 |
 |  | mentionTwitterFetching | 友達を取得中… |
 |  | mentionSuccessMsg | メンションが正常に送信されました。 |
 
@@ -545,5 +541,3 @@ Livefyre IDで使用できる文字列。
 | passwordErrorMissingUppercase | パスワードには、少なくとも1つの大文字を含める必要があります |
 | passwordErrorMissingLowercase | パスワードには、少なくとも1文字の小文字を含める必要があります |
 | passwordErrorMissingSymbol | パスワードには、`!@#$%^&*()?.,<>\’;:”[]{}|`セット内に最低1つの記号を含める必要があります |
-
-
