@@ -1,14 +1,10 @@
 ---
 description: ビデオマスクに表示される警告テキストは、を使用して変更できます。
-seo-description: ビデオマスクに表示される警告テキストは、を使用して変更できます。
-seo-title: userPrivacyMaskDelegate
-solution: Experience Manager
 title: userPrivacyMaskDelegate
-uuid: 8e5a2750-bf45-4e70-a5f9-37f5e7c61f8e
 translation-type: tm+mt
-source-git-commit: 9e01dd4515c01154e3566a39b367b8efa4ec082a
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
