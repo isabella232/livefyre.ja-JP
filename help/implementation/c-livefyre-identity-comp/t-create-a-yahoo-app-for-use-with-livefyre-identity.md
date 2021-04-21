@@ -1,18 +1,14 @@
 ---
 description: Livefyre IDはYahoo! を使用して、ユーザがYahoo! サイトのアプリとやり取りするためのログイン。
-seo-description: Livefyre IDはYahoo! を使用して、ユーザがYahoo! サイトのアプリとやり取りするためのログイン。
-seo-title: Yahoo！の作成 Livefyre IDで使用するアプリ
-solution: Experience Manager
 title: Yahoo！の作成 Livefyre IDで使用するアプリ
-uuid: 6863cd2e-eb0d-465b-b706-88ecaccf41bc
+exl-id: 6b4c6ea9-1cb0-4496-aabe-70811f464a3d
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
-
 
 # Yahoo！の作成 Livefyre IDと共に使用するアプリ{#create-a-yahoo-app-for-use-with-livefyre-identity}
 
