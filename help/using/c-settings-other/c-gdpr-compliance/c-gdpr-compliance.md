@@ -1,18 +1,14 @@
 ---
 description: Livefyreの使用中に収集されたデータ、および他の関連するプライバシー管理に関する一般的なデータ保護規則(GDPR)、およびGDPRに基づいて許可されたアクセスおよび削除のリクエストを完了する方法について説明します。
-seo-description: Livefyreの使用中に収集されたデータ、および他の関連するプライバシー管理に関する一般的なデータ保護規則(GDPR)、およびGDPRに基づいて許可されたアクセスおよび削除のリクエストを完了する方法について説明します。
-seo-title: プライバシー要求（GDPR対応）
-solution: Experience Manager
 title: プライバシー要求（GDPR対応）
-uuid: 8c8b2001-f94d-4afc-8acd-ff4c096dc2f9
+exl-id: 46565fe8-d9f0-4374-bf67-1a0bca28588a
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
-
 
 # プライバシー要求（GDPR対応）{#privacy-requests-gdpr-ready}
 
