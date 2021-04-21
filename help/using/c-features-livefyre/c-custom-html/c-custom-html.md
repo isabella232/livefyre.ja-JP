@@ -1,18 +1,14 @@
 ---
 description: モデレーター、所有者およびブロガーが、コメントやライブブログを通じて投稿されたコンテンツにカスタムのHTML添付ファイルを追加できるようにします。
-seo-description: モデレーター、所有者およびブロガーが、コメントやライブブログを通じて投稿されたコンテンツにカスタムのHTML添付ファイルを追加できるようにします。
-seo-title: カスタム HTML
-solution: Experience Manager
 title: カスタム HTML
-uuid: 1d0041bc-f45f-4f36-a377-e3bcff3f2eb4
+exl-id: 193317dc-4650-43a9-aeba-cad9ecfaf755
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '122'
 ht-degree: 4%
 
 ---
-
 
 # カスタム HTML{#custom-html}
 
@@ -25,4 +21,3 @@ ht-degree: 4%
 この機能を使用するアプリ：
 
 * [Comments](/help/using/c-about-apps/c-comments/c-comments.md)
-
