@@ -1,18 +1,14 @@
 ---
 description: 特集コンテンツを強調表示するには、カスタムのスタイルを使用します。
-seo-description: 特集コンテンツを強調表示するには、カスタムのスタイルを使用します。
-seo-title: 機能の内容
-solution: Experience Manager
 title: 機能の内容
-uuid: 0e347703-f119-4778-9609-2d6500844d6e
+exl-id: e11d7d1c-b249-4bb0-84c3-04f9f19f120e
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
-
 
 # 機能の内容{#feature-content}
 
@@ -40,4 +36,3 @@ ht-degree: 0%
    * [おすすめ（サイト）](/help/implementation/c-app-customizations/c-aggregated-featured-content-using-the-featured-apis.md#section_lq5_ymw_xz)
    * [おすすめ（コレクション）](/help/implementation/c-app-customizations/c-aggregated-featured-content-using-the-featured-apis.md#section_kgc_xmw_xz)
    * [特集（先頭）](/help/implementation/c-app-customizations/c-aggregated-featured-content-using-the-featured-apis.md#section_n4b_lmw_xz)
-
