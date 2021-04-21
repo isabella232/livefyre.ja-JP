@@ -1,18 +1,14 @@
 ---
 description: マップアプリのサイズ、幅およびインタラクションオプションを変更します。
-seo-description: マップアプリのサイズ、幅およびインタラクションオプションを変更します。
-seo-title: カスタマイズのマッピング
-solution: Experience Manager
 title: カスタマイズのマッピング
-uuid: 3a3bffde-5d1b-41da-9aa8-d25b43d0df76
+exl-id: 71d3bb65-cd10-48c6-bf6b-8442b0fdb891
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
-
 
 # カスタマイズのマッピング{#map-customizations}
 
@@ -59,4 +55,3 @@ Mapアプリでは、次のオプションを使用できます。
 * **[!UICONTROL Style]** 」および「」のすべてのアプリの **[!UICONTROL Config]** オプションを選択し **[!UICONTROL App Designer]**&#x200B;ます。**[!UICONTROL App Designer]**&#x200B;のすべてのアプリの標準&#x200B;**[!UICONTROL Style]**&#x200B;および&#x200B;**[!UICONTROL Config]**&#x200B;オプションについて詳しくは、「アプリのカスタマイズ」を参照してください。
 
 * 統合ツール。 統合ツールを使用したアプリのカスタマイズ方法について詳しくは、「マップ」を参照してください。
-
