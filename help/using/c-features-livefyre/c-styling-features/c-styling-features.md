@@ -1,17 +1,14 @@
 ---
 description: Livefyreアプリのスタイルを設定して、様々な動作方法にしたり、他のブランドキャンペーンの外観や雰囲気に変えたりすることができます。
-seo-description: Livefyreアプリのスタイルを設定して、様々な動作方法にしたり、他のブランドキャンペーンの外観や雰囲気に変えたりすることができます。
-seo-title: スタイル設定の機能
 title: スタイル設定の機能
-uuid: 72a3843d-692a-43ff-b72b-6bd840de87d6
+exl-id: d2ba6865-566a-4258-9c5f-3b4c6780907f
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 7%
+source-wordcount: '112'
+ht-degree: 8%
 
 ---
-
 
 # スタイル設定機能{#styling-features}
 
@@ -45,4 +42,3 @@ CSSを使用してアプリをアニメーション化できます。
 
 * [チャット](/help/using/c-about-apps/c-chat-app/c-chat-app.md#c_chat_app)
 * [コメント](/help/using/c-about-apps/c-comments/c-comments.md)
-
