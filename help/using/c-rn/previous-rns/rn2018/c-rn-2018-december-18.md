@@ -1,18 +1,14 @@
 ---
 description: 2018年12月19日リリースのリリースノートです。
-seo-description: 2018年12月19日リリースのリリースノートです。
-seo-title: リリースノート
-solution: Experience Manager
 title: Livefyreリリースノート（2018年12月19日）
-uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
+exl-id: a8efbc26-043e-4c0f-8d60-2d894d03f67a
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 5%
+source-wordcount: '81'
+ht-degree: 3%
 
 ---
-
 
 # リリースノート — 2018年12月19日
 
@@ -20,11 +16,11 @@ ht-degree: 5%
 
 ## 機能強化
 
-* デフォルトで、Instagramのビジネスアカウント設定を有効にする設定を実装しました。
+* デフォルトで、Instagramビジネスアカウント設定を有効にする設定を実装しました。
 
 ## バグの修正
 
-* Instagramのルールを使用したソーシャル検索が常に機能しない問題を修正しました。
+* instagramルールを使用したソーシャル検索が常に機能しない問題を修正しました。
 * 結果を返す際にURLの検索に一貫性がないと思われる問題を修正しました。
 * 韓国語の文字を含むストリームがコンテンツを取り込まない問題を修正しました。
-* Instagramルールを使用したストリームで、新しい投稿を取得できない問題を修正しました。
+* instagramルールのストリームで新しい投稿を取得できない問題を修正しました。
