@@ -1,17 +1,14 @@
 ---
 description: サイト全体でのユーザーカードの有効/無効を切り替えます。
-seo-description: サイト全体でのユーザーカードの有効/無効を切り替えます。
-seo-title: ホバーカード
 title: ホバーカード
-uuid: a7336a4d-b92f-4b3b-a3de-713aa388b58a
+exl-id: 958fbf18-e045-4a6e-baa0-03213963fca5
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 0%
+source-wordcount: '196'
+ht-degree: 1%
 
 ---
-
 
 # ホバーカード{#hovercards}
 
@@ -41,4 +38,3 @@ Livefyre Hovercardは、表示名、プロフィール、ソーシャルネッ�
 * [Comments](/help/using/c-about-apps/c-comments/c-comments.md)
 * [レビュー](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
 * [Sidenots](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
-
