@@ -1,26 +1,22 @@
 ---
-description: Facebookページからコンテンツを引き出すストリームルールを作成できます。
-seo-description: Facebookページからコンテンツを引き出すストリームルールを作成できます。
-seo-title: Facebookページのルール
-solution: Experience Manager
-title: Facebookページのルール
-uuid: 2be63476-1a92-409d-a22f-e1ec66b6dcc8
+description: facebookページからコンテンツを引き出すストリームルールを作成できます。
+title: Facebookページルール
+exl-id: 1dc728c6-81fa-4c6c-acba-d9a4aea71ed2
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '274'
 ht-degree: 1%
 
 ---
 
-
 # Facebookページルール{#facebook-page-rules}
 
-Facebookページからコンテンツを引き出すストリームルールを作成できます。
+facebookページからコンテンツを引き出すストリームルールを作成できます。
 
-Facebookページルールを使用して、Facebookページから公開投稿されたコンテンツをストリーミングできます。 コンテンツは、SocialSyncと同じ頻度でアプリまたはフォルダーに取り込まれます。SocialSyncは、Facebookページや投稿のトラフィックパターンに基づいて変化します。 Facebookページ内のリンクもサポートされ、ストリームに表示されます。
+facebookページルールを使用すると、Facebookページから公開投稿されたコンテンツをストリーミングできます。 コンテンツは、SocialSyncと同じ頻度でアプリまたはフォルダーに取り込まれます。SocialSyncは、Facebookページや投稿のトラフィックパターンに基づいて変化します。 facebookページ内のリンクもサポートされ、ストリームに表示されます。
 
-Facebookページのルールを作成してFacebookページからコンテンツを取り込み、アプリまたはフォルダーに送るには、次の条件を満たすフィルターを使用します。
+facebookページのルールを作成して、Facebookページからコンテンツをアプリまたはフォルダーに取り込むには、次の条件でフィルターします。
 
 * **[!UICONTROL Facebook Page]**
 
@@ -33,13 +29,13 @@ Facebookページのルールを作成してFacebookページからコンテン�
 
 >[!NOTE]
 >
->LivefyreはFacebookから受け取ったコンテンツに制限されているので、Facebookページ上のすべての投稿がストリームに含まれることを保証できません。
+>LivefyreはFacebookから受け取ったコンテンツに制限されているので、Facebookページのすべての投稿がストリームに含まれることを保証できません。
 
 >[!NOTE]
 >
->Facebook SocialSyncとFacebookページルールの両方が特定のFacebookページに対して有効になっており、Facebookページルールに対してユーザーコメントが有効になっている場合、ストリームルールはSocialSyncを上書きします。 コンテンツは、Facebookページキュレーションルールに基づいてのみアプリにストリーミングされ、SocialSyncは使用されません。
+>特定のFacebookページに対してFacebookのSocialSyncとFacebookのページルールの両方が有効になっていて、Facebookのページルールに対してユーザーコメントが有効になっている場合、ストリームルールはSocialSyncを上書きします。 コンテンツは、Facebookページキュレーションルールに基づいてのみアプリにストリーミングされ、SocialSyncは使用されません。
 
-Facebookページキュレーションでサポートされるコンテンツのタイプは次のとおりです。
+facebookページキュレーションでサポートされるコンテンツのタイプは次のとおりです。
 
 * ページ所有者または管理者
 
@@ -47,7 +43,7 @@ Facebookページキュレーションでサポートされるコンテンツの
    * 写真
    * リンクとしてのビデオ
 
-* 標準のFacebookユーザー
+* 標準Facebookユーザ
 
    * ステータス
    * 写真
@@ -56,4 +52,3 @@ Facebookページキュレーションでサポートされるコンテンツの
 * 第三者
 
    * ステータス
-
