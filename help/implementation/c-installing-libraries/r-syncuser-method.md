@@ -1,18 +1,14 @@
 ---
 description: 以前に設定したユーザー同期URLからユーザー情報を取り込むようにLivefyreに通知します。 ブール型( Boolean )の値を返します。
-seo-description: 以前に設定したユーザー同期URLからユーザー情報を取り込むようにLivefyreに通知します。 ブール型( Boolean )の値を返します。
-seo-title: syncUserネットワークメソッド
-solution: Experience Manager
 title: syncUserネットワークメソッド
-uuid: 2affb03d-3907-4b01-9a64-02ba1b06da14
+exl-id: a21ff487-2ab1-4788-b455-84941f03a98f
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 4%
+source-wordcount: '84'
+ht-degree: 5%
 
 ---
-
 
 # syncUserネットワークメソッド{#syncuser-network-method}
 
