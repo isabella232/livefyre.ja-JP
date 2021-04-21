@@ -1,18 +1,14 @@
 ---
 description: 呼び出し元のネットワーク用の他のLivefyre APIとのやり取りに使用できる、暗号化された有効なLivefyreトークンを返します。
-seo-description: 呼び出し元のネットワーク用の他のLivefyre APIとのやり取りに使用できる、暗号化された有効なLivefyreトークンを返します。
-seo-title: buildLivefyreTokenネットワークメソッド
-solution: Experience Manager
 title: buildLivefyreTokenネットワークメソッド
-uuid: 7c72a05f-669b-4df3-8117-aa4af2f7a179
+exl-id: 2b303606-e8de-41e5-9c01-b41cc7bd8437
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
-
 
 # buildLivefyreTokenネットワークメソッド{#buildlivefyretoken-network-method}
 
@@ -81,4 +77,3 @@ network.build_livefyre_token()
 ```
 eyJhbGciOiJIUzI1NiJ9.eyJkb21haW4iOiJ0ZXN0LmZ5cmUuY29tIiwidXNlcl9pZCI6InN5c3RlbSIsImRpc3BsYXlfbmFtZSI6InN5c3RlbSIsImV4cGlyZXMiOjEzOTY2NTUwODN9.33GuJF_ou2O6CCV22Y3PlLUgP2Igy9vAXfmLONkt-Yo 
 ```
-
