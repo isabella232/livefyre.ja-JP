@@ -1,18 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: 不敬な言葉のフィルターの使用
-solution: Experience Manager
 title: 不敬な言葉のフィルターの使用
-uuid: b0b1fbae-c88c-403c-9b91-df6620675f39
+description: 不敬な言葉のフィルターの使用
+exl-id: 6ea7d913-f562-42a5-a6ea-241aa4e1089a
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 1%
+source-wordcount: '689'
+ht-degree: 0%
 
 ---
-
 
 # 不敬な言葉のフィルターの使用{#using-the-profanity-filter}
 
@@ -90,4 +86,3 @@ Livefyreには、デフォルトの不敬な言葉のリストがあります。
 >[!NOTE]
 >
 >Studio管理者とモデレーターのみが、不敬なリストを編集できます。
-
