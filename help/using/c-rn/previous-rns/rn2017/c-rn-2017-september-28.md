@@ -1,17 +1,14 @@
 ---
 description: 2017年9月29日リリースのリリースノートです。
-seo-description: 2017年9月29日リリースのリリースノートです。
-seo-title: 2017 年 9 月 29 日
 title: 2017 年 9 月 29 日
-uuid: 496134d2-1c1e-4097-9af2-6ea65efeb8e2
+exl-id: fa572f36-0b6f-4451-8a4e-1437469ce906
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '98'
 ht-degree: 11%
 
 ---
-
 
 # 2017年9月28日{#september}
 
@@ -29,4 +26,3 @@ ht-degree: 11%
 | **問題のタイプ** | **コンポーネント** | **リリースノート** |
 |---|---|---|
 | 機能強化 | ライブラリ | 顧客がライブラリにアップロードしたファイルは、自動的に権限が付与されます。 これは、ユーザーがアプリで「権限を付与する必要がある」フィルターをオンにした場合に便利な機能です。 |
-
