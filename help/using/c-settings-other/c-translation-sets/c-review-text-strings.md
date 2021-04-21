@@ -1,18 +1,14 @@
 ---
 description: Livefyre Reviews用のテキスト文字列のカスタマイズ
-seo-description: Livefyre Reviews用のテキスト文字列のカスタマイズ
-seo-title: テキスト文字列の確認
-solution: Experience Manager
 title: テキスト文字列の確認
-uuid: 86251e49-bc73-4eec-9f9b-b4b0a5b42099
+exl-id: 82ced091-d573-4514-9b91-3451a94ed5d3
 translation-type: tm+mt
-source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '700'
 ht-degree: 5%
 
 ---
-
 
 # レビューテキスト文字列{#review-text-strings}
 
@@ -163,4 +159,3 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | errorShowMore | それ以上のレビューを読み込む際にエラーが発生しました。 |
 |  | errorTitleMaxChars | 申し訳ございません。肩書が長すぎます。 編集して、もう一度お試しください。 |
 |  | errorVoteOwnComment | 自分のレビューに対しては投票できません |
-
