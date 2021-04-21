@@ -1,13 +1,13 @@
 ---
-cloud: Experience Cloud
 solution: Experience Manager
+cloud: Experience Cloud
 type: Documentation
 mini-toc-levels: 2
 git-repo: https://git.corp.adobe.com/AdobeDocs/livefyre.ja-JP
 translation-type: tm+mt
-source-git-commit: 104dc36f5ef1ea395d52f3404411c3bc449ae70a
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '130'
 ht-degree: 3%
 
 ---
