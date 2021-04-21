@@ -1,18 +1,14 @@
 ---
 description: サイト訪問者がアプリにログインするかどうか、およびログイン方法を選択できます。
-seo-description: サイト訪問者がアプリにログインするかどうか、およびログイン方法を選択できます。
-seo-title: 認証機能
-solution: Experience Manager
 title: 認証機能
-uuid: 6f1236a0-7766-47c6-b6b5-1e6b8f1c0781
+exl-id: 4d0691e2-1327-4008-bf12-82cc91ed0612
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 5%
+source-wordcount: '67'
+ht-degree: 7%
 
 ---
-
 
 # 認証機能{#authentication-features}
 
@@ -31,4 +27,3 @@ livefyre.jsを使用して認証を設定します。 詳しくは、[Livefyre.j
 * [Sidenots](../c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 * [Storify 2](../c-about-apps/c-storify2/c-storify2.md#c_storify2)
 * [アップロードボタン](../c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
-
