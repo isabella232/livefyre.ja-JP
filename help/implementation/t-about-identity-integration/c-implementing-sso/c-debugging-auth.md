@@ -1,18 +1,14 @@
 ---
 description: 統合およびテスト中に、コンソールを通じてユーザーをログインし、認証のデバッグを行うことができます。
-seo-description: 統合およびテスト中に、コンソールを通じてユーザーをログインし、認証のデバッグを行うことができます。
-seo-title: 認証委任のデバッグ
-solution: Experience Manager
 title: 認証委任のデバッグ
-uuid: fb0c7396-190e-4dc9-bf26-23dde9efd45d
+exl-id: fa1c17fa-5aba-4f4c-9217-5823af30af61
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
-
 
 # 認証委任のデバッグ{#debugging-auth-delegate}
 
@@ -29,4 +25,3 @@ window.addEventListener('userAuthenticated', function(data) {
  }); 
 });
 ```
-
