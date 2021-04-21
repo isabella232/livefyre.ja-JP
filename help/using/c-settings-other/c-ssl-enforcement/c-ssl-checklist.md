@@ -1,17 +1,14 @@
 ---
 description: チェックリストの手順に従って、HTTPからHTTPSへの変換が正常に行われることを確認します。
-seo-description: チェックリストの手順に従って、HTTPからHTTPSへの変換が正常に行われることを確認します。
-seo-title: SSLチェックリスト
 title: SSLチェックリスト
-uuid: 2b176c73-8a6a-4835-88b3-047c6661cba9
+exl-id: 20161aa5-57c9-417b-af0e-c9e1e771f861
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
-
 
 # SSLチェックリスト{#ssl-checklist}
 
@@ -26,4 +23,3 @@ ht-degree: 0%
 * カスタムのJavaScript統合（StreamhubSDKまたは直接APIを使用）では、すべてHTTPSを使用しています。
 * Livefyre JavaScriptをバンドルした場合は、最新バージョンを使用しています。
 * サードパーティのサービス（コンテンツ分析、モデレートなど）を通知しました。 これらの変更に代わってLivefyre APIを使用する
-
