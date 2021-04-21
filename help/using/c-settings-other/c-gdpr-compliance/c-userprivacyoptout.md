@@ -1,17 +1,14 @@
 ---
 description: サイトの訪問者追加がこの追跡を許可するために、userPrivacyOptOutフラグをページにオプトアウト設定します。
-seo-description: サイトの訪問者追加がこの追跡を許可するために、userPrivacyOptOutフラグをページにオプトアウト設定します。
-seo-title: userPrivacyOptOut
 title: userPrivacyOptOut
-uuid: a043c50e-0a02-4c83-bbce-54b9b51316a5
+exl-id: 1e935e69-60af-4151-905c-93a1cccbeb49
 translation-type: tm+mt
-source-git-commit: 9e01dd4515c01154e3566a39b367b8efa4ec082a
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
-
 
 # userPrivacyOptOut{#userprivacyoptout}
 
