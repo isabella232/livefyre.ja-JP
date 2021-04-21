@@ -1,18 +1,14 @@
 ---
 description: Networkクラスメソッドの説明です。
-seo-description: Networkクラスメソッドの説明です。
-seo-title: ネットワークメソッド
-solution: Experience Manager
 title: ネットワークメソッド
-uuid: f237fead-36b5-4ea1-bfdd-55194d3306e1
+exl-id: 9d43ae5f-1f59-4d0e-8bd4-2f22bacc90b6
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '73'
 ht-degree: 2%
 
 ---
-
 
 # ネットワークメソッド{#network-methods}
 
@@ -38,4 +34,3 @@ Networkオブジェクトでは、次のメソッドを使用できます。
 * PHP
 * Python
 * Ruby
-
