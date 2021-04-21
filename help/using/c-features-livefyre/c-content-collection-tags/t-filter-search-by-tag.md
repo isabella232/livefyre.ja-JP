@@ -1,18 +1,14 @@
 ---
 description: Studio内のコンテンツ検索をコレクションタグでフィルタリングします。
-seo-description: Studio内のコンテンツ検索をコレクションタグでフィルタリングします。
-seo-title: コレクションまたはコンテンツタグで検索をフィルター
-solution: Experience Manager
 title: コレクションまたはコンテンツタグで検索をフィルター
-uuid: e690a6fd-f584-490d-89d3-f22550766698
+exl-id: 2ebbd16a-3e24-463e-bad1-2097dc8b586c
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '64'
 ht-degree: 0%
 
 ---
-
 
 # コレクションまたはコンテンツタグで検索をフィルター{#filter-search-by-collection-or-content-tag}
 
