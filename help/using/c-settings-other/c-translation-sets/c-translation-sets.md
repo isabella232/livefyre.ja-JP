@@ -1,18 +1,14 @@
 ---
 description: 翻訳セットを使用すると、アプリの代替言語を指定できます。
-seo-description: 翻訳セットを使用すると、アプリの代替言語を指定できます。
-seo-title: 翻訳セット
-solution: Experience Manager
 title: 翻訳セット
-uuid: 88b705e5-57c8-4065-8a41-a73546bd929a
+exl-id: 1de99602-b97e-42e9-8450-39abd4ba2f9b
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1335'
 ht-degree: 7%
 
 ---
-
 
 # 変換セット{#translation-sets}
 
@@ -332,4 +328,3 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | errorDuplicate | メモも気に入っていますが、2回投稿することはできません。 |
 |  | errorGeneral | エラーが発生しました. もう一度お試しください。 |
 |  | errorServer | サーバーで問題が発生しました。 もう一度やってみる？ |
-
