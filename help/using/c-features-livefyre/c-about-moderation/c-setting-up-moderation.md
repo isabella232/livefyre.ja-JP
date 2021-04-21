@@ -1,18 +1,14 @@
 ---
 description: 「モデレート」タブを使用して、不敬なリスト、フラグルール、禁止されたIPアドレスなど、受信コンテンツに対するプリモデレートルールを設定します。
-seo-description: 「モデレート」タブを使用して、不敬なリスト、フラグルール、禁止されたIPアドレスなど、受信コンテンツに対するプリモデレートルールを設定します。
-seo-title: モデレートの設定
-solution: Experience Manager
 title: モデレートの設定
-uuid: 0ec53fdb-08c2-4058-88cb-2f6f4b56a95b
+exl-id: 09fc44c4-7ee1-47fd-ae68-885532a6f03f
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1276'
 ht-degree: 0%
 
 ---
-
 
 # モデレートの設定{#setting-up-moderation}
 
@@ -33,7 +29,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Settings > Moderation > Rules]**
    * **[!UICONTROL Settings > Moderation > Rules]**&#x200B;を使用してSAFEルールを設定する
-   * **[!UICONTROL Settings > Streams]**&#x200B;を使用して特定のTwitterユーザーを禁止する
+   * **[!UICONTROL Settings > Streams]**&#x200B;を使用する特定のTwitterユーザーを禁止する
    * **[!UICONTROL Settings > Bans]**&#x200B;を使用してIPアドレスを禁止する
    * 要求に応じて、国コード別のIP地域を禁止します。 禁止されたコンテンツはスパムとしてマークされます。
 
@@ -85,7 +81,7 @@ Livefyreは、コンテンツを&#x200B;**[!UICONTROL Approved]**、**[!UICONTRO
 
 ## バルクフィルター{#section_lyk_ktx_vy}
 
-バルクフィルターは、短い期間内にすべてのLivefyreネットワークに投稿された繰り返しコンテンツを探します。 検出された場合、このコンテンツは一括としてフラグ付けされ、デフォルトでトラッシュされます。 バルクコンテンツはユーザー生成が可能ですが（「Touchdown!」など） 人気のサッカーゲーム中にチャットで繰り返し投稿される)、ほとんどはスパムキャンペーンに由来する。 このフィルターは言語に依存せず、任意の言語で機能します。 バルクフィルターをカスタマイズするには、Livefyreサポートにお問い合わせください。
+バルクフィルターは、短い期間内にすべてのLivefyreネットワークに投稿された繰り返しコンテンツを探します。 検出された場合、このコンテンツは一括としてフラグ付けされ、デフォルトでトラッシュされます。 バルクコンテンツはユーザー生成が可能です（「Touchdown!」など） 人気のサッカーゲーム中にチャットで繰り返し投稿される)、ほとんどはスパムキャンペーンに由来する。 このフィルターは言語に依存せず、任意の言語で機能します。 バルクフィルターをカスタマイズするには、Livefyreサポートにお問い合わせください。
 
 ## ルール {#section_gqz_ksk_f1b}
 
