@@ -1,18 +1,14 @@
 ---
 description: 2018年2月16日リリースのリリースノートです。
-seo-description: 2018年2月16日リリースのリリースノートです。
-seo-title: 2018 年 2 月 16 日
-solution: Experience Manager
 title: 2018 年 2 月 16 日
-uuid: ee46f088-9fb7-49e2-a42c-e0d4b2f24a32
+exl-id: 7276de37-c8cd-4e85-bc92-90c272e5bf94
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '294'
 ht-degree: 5%
 
 ---
-
 
 # 2018 年 2 月 15 日{#february}
 
@@ -43,8 +39,8 @@ ht-degree: 5%
 
 | **問題のタイプ** | **コンポーネント** | **リリースノート** |
 |---|---|---|
-| 問題 | ModQ | 承認またはトラッシュとマークされたInstagram投稿がキューに再び入る問題を修正しました。 |
-| 機能強化 | Rights Management | 権限リクエストを行う際に、期限切れのInstagramアカウントを使用しようとした場合に警告を表示する機能が強化されました。 |
+| 問題 | ModQ | 承認済みまたはトラッシュ済みとマークされたInstagram投稿がキューに再び入る問題を修正しました。 |
+| 機能強化 | Rights Management | 権利要求を行う際に、期限切れのInstagramアカウントを使用しようとした場合に警告を表示する機能が強化されました。 |
 | 問題 | トレンド | トレンドアプリで、HTTPSではなく、HTTPが許可される場合がある問題を修正しました。 |
 
 ## UATリリース
@@ -54,4 +50,3 @@ ht-degree: 5%
 | 機能強化 | Apps | Livefyreからアプリを削除する機能が追加されました。 |
 | 問題 | 投票 | ポーリングでHTTPSのみを使用するように変更しました。 以前は、ポーリングはHTTPでの使用が許可されていました。 |
 | 問題 | UGC | ビジュアライゼーションアプリのUGCが、製品IDで期待どおりにフィルターされなかった問題を修正しました。 |
-
