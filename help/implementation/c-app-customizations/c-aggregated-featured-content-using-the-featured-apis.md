@@ -1,18 +1,14 @@
 ---
 description: Livefyreは4つの特集APIを備えており、入力ネットワーク、サイト、コレクション、または入力コレクションの上部にある2つの特集コンテンツを取得できます。
-seo-description: Livefyreは4つの特集APIを備えており、入力ネットワーク、サイト、コレクション、または入力コレクションの上部にある2つの特集コンテンツを取得できます。
-seo-title: 特集APIを使用した集計された特集コンテンツ
-solution: Experience Manager
 title: 特集APIを使用した集計された特集コンテンツ
-uuid: e9c9ff26-37b6-4328-af85-aa550e7ffdfd
+exl-id: 19f146bf-f406-4667-8ed9-7c7fb3672c05
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 4%
+source-wordcount: '200'
+ht-degree: 6%
 
 ---
-
 
 # 特集API{#aggregated-featured-content-using-the-featured-apis}を使用した集計された特集コンテンツ
 
@@ -466,4 +462,3 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/{network}/{siteId}/{b64articleId
    } 
 }
 ```
-
