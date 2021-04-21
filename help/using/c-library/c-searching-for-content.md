@@ -1,18 +1,14 @@
 ---
 description: URLでコンテンツを検索し、アセットライブラリに保存します。
-seo-description: URLでコンテンツを検索し、アセットライブラリに保存します。
-seo-title: URLで検索
-solution: Experience Manager
 title: URLで検索
-uuid: 45be6a85-e615-46c6-9601-82df02839315
+exl-id: 24744ab8-6077-4595-a46d-7496ee0ca0b5
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
-
 
 # URL{#search-by-url}で検索
 
@@ -24,5 +20,4 @@ Web上の任意の追加URLのコンテンツ。 ページに埋め込むURLを�
 
 >[!NOTE]
 >
->「URL」フィールドを使用してInstagramで検索を行う場合、作成者は「Instagram」として返されます。
-
+>「URL」フィールドを使用したInstagram検索の場合、作成者は「Instagram」として返されます。
