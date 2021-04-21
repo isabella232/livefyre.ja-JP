@@ -1,21 +1,18 @@
 ---
-description: 権限リクエストの機能について説明します。 ユーザー生成コンテンツ(UGC)をLivefyreアプリに取り込むと、コンテンツには再利用のための暗黙の権限が含まれます。 TwitterまたはInstagramのコンテンツを使用するには、発言者の権限が必要です。
-seo-description: 権限リクエストの機能について説明します。 ユーザー生成コンテンツ(UGC)をLivefyreアプリに取り込むと、コンテンツには再利用のための暗黙の権限が含まれます。 TwitterまたはInstagramのコンテンツを使用するには、発言者の権限が必要です。
-seo-title: 権限の要求
+description: 権限リクエストの機能について説明します。 ユーザー生成コンテンツ(UGC)をLivefyreアプリに取り込むと、コンテンツには再利用のための暗黙の権限が含まれます。 twitterまたはInstagramのコンテンツを使用するには、作成者の権限が必要です。
 title: 権限の要求
-uuid: d3194afa-f3c6-44ed-b03f-9b1ecb50c1d3
+exl-id: c709f55b-1773-4de6-82c2-6d3963671095
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
 
-
 # 権限{#requesting-rights}の要求
 
-権限リクエストの機能について説明します。 ユーザー生成コンテンツ(UGC)をLivefyreアプリに取り込むと、コンテンツには再利用のための暗黙の権限が含まれます。 TwitterまたはInstagramのコンテンツを使用するには、発言者の権限が必要です。
+権限リクエストの機能について説明します。 ユーザー生成コンテンツ(UGC)をLivefyreアプリに取り込むと、コンテンツには再利用のための暗黙の権限が含まれます。 twitterまたはInstagramのコンテンツを使用するには、作成者の権限が必要です。
 
 ライブラリ、アプリケーションコンテンツ、ModQ、AEMコマースでは、次の権限ステータスを使用できます。
 
@@ -28,13 +25,12 @@ ht-degree: 0%
 * **[!UICONTROL Request Failed]**&#x200B;をインストールします。要求を送信できませんでした（トークンの有効期限などが原因です）。
 * **[!UICONTROL Request Pending]**&#x200B;をインストールします。権限要求をキューに入れ、一度に送信される権限が多くならないようにします。
 
-TwitterおよびInstagramから取得したアセットの権限を要求できます。 アセットをライブラリに保存して、権限を要求する必要があります。
+twitterとInstagramから取得した資産に対する権利を要求できます。 アセットをライブラリに保存して、権限を要求する必要があります。
 
-部分的に自動化されたワークフローを使用してInstagramのアセットの権限を要求するには、*Instagramビジネスアカウント*&#x200B;を設定する必要があります。
+部分的に自動化されたワークフローを使用して、Instagramにアセットの権限を要求するには、*Instagramビジネスアカウント*&#x200B;を構成する必要があります。
 
-この機能は、ビジネスアカウントによる検索またはストリーム検索で取得したコンテンツに対してのみ使用できます。 個人のInstagramアカウントから取得したコンテンツに対する権限をリクエストするには、権限リクエストを手動で送信する必要があります。
+この機能は、ビジネスアカウントによる検索またはストリーム検索で取得したコンテンツに対してのみ使用できます。 個人のInstagramアカウントから取得したコンテンツに対する権利を要求するには、権利要求を手動で送信する必要があります。
 
 >[!NOTE]
 >
->様々な種類のInstagramアカウントとその使用方法について詳しくは、[Instagramアカウントについて](/help/using/c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)を参照してください。 Instagramアカウントの権限を要求する方法について詳しくは、[手動の権限要求の送信](/help/using/c-how-requesting-rights-works/c-send-instagram-manual-rights-request.md#c_send_instagram_manual_rights_request)および[部分的に自動化された権限要求の送信](/help/using/c-how-requesting-rights-works/c-send-an-instagram-rights-request-from-the-library.md#c_send_an_instagram_rights_request_from_the_library)を参照してください。
-
+>様々な種類のInstagramアカウントとその使用方法について詳しくは、[Instagramアカウントについて](/help/using/c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)を参照してください。 instagramアカウントの権限を要求する方法について詳しくは、[手動の権限要求の送信](/help/using/c-how-requesting-rights-works/c-send-instagram-manual-rights-request.md#c_send_instagram_manual_rights_request)および[部分的に自動化された権限要求の送信](/help/using/c-how-requesting-rights-works/c-send-an-instagram-rights-request-from-the-library.md#c_send_an_instagram_rights_request_from_the_library)を参照してください。
