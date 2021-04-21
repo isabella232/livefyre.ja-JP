@@ -1,18 +1,14 @@
 ---
 description: ブランドやスタイルに合わせてアプリの表示オプションをカスタマイズします。
-seo-description: ブランドやスタイルに合わせてアプリの表示オプションをカスタマイズします。
-seo-title: 表示オプションの変更
-solution: Experience Manager
 title: 表示オプションの変更
-uuid: 121bb921-d9a7-4925-ab46-8e3d7dd0cbfe
+exl-id: 30da2022-9ec8-4f71-be94-facaa5971938
 translation-type: tm+mt
-source-git-commit: bd989c97ae5cf06a5ac3deec215f865b0fe95d16
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
-
 
 # 表示オプションの変更{#change-display-options}
 
@@ -31,4 +27,3 @@ Livefyreオファーには、CSSクラス、ローカライズされたテキス
 * 指定したメディアの埋め込みの種類をユーザがアップロードできないようにするには、「メディアを制限」を選択します。
 * アプリの要素を非表示にすると、ユーザーエクスペリエンスが簡単になります。
 * Livefyre `@mention`アイコンを変更し、Livefyreオーディエンスのメンバー用にプルダウンメニュー(@mention)に表示するカスタムアイコンを選択します。
-
