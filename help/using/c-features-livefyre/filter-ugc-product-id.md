@@ -1,17 +1,14 @@
 ---
 description: 製品IDでUGCをフィルタリングすると、同一のアプリを複数のページに埋め込むと同時に、各ページに対して製品固有の異なるUGCを表示できます。
-seo-description: 製品IDでUGCをフィルタリングすると、同一のアプリを複数のページに埋め込むと同時に、各ページに対して製品固有の異なるUGCを表示できます。
-seo-title: 製品IDでUGCをフィルター
 title: 製品IDでUGCをフィルター
-uuid: 98108ddb-5710-4331-891b-7e1bbb106059
+exl-id: c98ee899-fcac-45dd-a26a-f678814776fd
 translation-type: tm+mt
-source-git-commit: 76efa427b59a709009a3c2d3744ea65e0c959816
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
-
 
 # 製品IDでUGCをフィルタ{#filter-ugc-product-id}
 
