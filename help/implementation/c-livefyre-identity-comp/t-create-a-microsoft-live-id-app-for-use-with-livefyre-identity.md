@@ -1,22 +1,18 @@
 ---
-description: Livefyre IDをMicrosoft Live Identityと組み合わせて使用すると、ユーザーはFacebookのログインを使用してサイト上のアプリを操作できます。
-seo-description: Livefyre IDをMicrosoft Live Identityと組み合わせて使用すると、ユーザーはFacebookのログインを使用してサイト上のアプリを操作できます。
-seo-title: Livefyre Idで使用するMicrosoft Live Identityアプリケーションの作成
-solution: Experience Manager
+description: Livefyre IDをMicrosoft Live Identityと共に使用すると、ユーザーはFacebookログインを使用してサイト上のアプリを操作できます。
 title: Livefyre Idで使用するMicrosoft Live Identityアプリケーションの作成
-uuid: 0c13e1bc-817f-43ed-85d5-09c9e95b6234
+exl-id: 7702c956-ecb5-424a-9866-d6f73d4d4bc9
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
 
-
 # Livefyre Identityと共に使用するMicrosoft Live Identityアプリケーションの作成{#create-a-microsoft-live-identity-app-for-use-with-livefyre-identity}
 
-Livefyre IDをMicrosoft Live Identityと組み合わせて使用すると、ユーザーはFacebookのログインを使用してサイト上のアプリを操作できます。
+Livefyre IDをMicrosoft Live Identityと共に使用すると、ユーザーはFacebookログインを使用してサイト上のアプリを操作できます。
 
 ユーザーがMicrosoft Live Idの資格情報を使用してログインできるようにするには、Livefyreに次のMicrosoft Live Identity情報が必要です。
 
