@@ -1,18 +1,14 @@
 ---
 description: ページ上の小さなポップアップを有効にして、コメントが追加されたことをユーザーに通知できます。
-seo-description: ページ上の小さなポップアップを有効にして、コメントが追加されたことをユーザーに通知できます。
-seo-title: コメント通知
-solution: Experience Manager
 title: コメント通知
-uuid: 36907977-8233-4978-9413-232c7b2fae20
+exl-id: ebeb7ddb-a82b-40ab-907a-bfac24eb19e3
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
-
 
 # コメント通知{#comment-notifier}
 
@@ -45,4 +41,3 @@ CSSのカスタマイズを使用して、ネットワーク全体で通知ウ�
 この機能を使用するアプリ：
 
 * [Comments](/help/using/c-about-apps/c-comments/c-comments.md)
-
