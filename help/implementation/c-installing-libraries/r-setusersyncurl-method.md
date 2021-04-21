@@ -1,18 +1,14 @@
 ---
 description: ネットワークのユーザー同期URLを指定されたURLに更新するようにLivefyreに通知します。 ブール型( Boolean )の値を返します。
-seo-description: ネットワークのユーザー同期URLを指定されたURLに更新するようにLivefyreに通知します。 ブール型( Boolean )の値を返します。
-seo-title: setUserSyncUrlネットワークメソッド
-solution: Experience Manager
 title: setUserSyncUrlネットワークメソッド
-uuid: cd067e90-a2da-4e3d-8e60-7eabfd86fc7f
+exl-id: 8124ac0f-013f-4943-a33c-6cf8fe696f95
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 4%
+source-wordcount: '82'
+ht-degree: 6%
 
 ---
-
 
 # setUserSyncUrlネットワークメソッド{#setusersyncurl-network-method}
 
