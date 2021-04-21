@@ -1,13 +1,11 @@
 ---
 description: LivefyreとAdobe Targetの統合により、Livefyre Appsをターゲットオファーライブラリで直接共有できます。
-seo-description: LivefyreとAdobe Targetの統合により、Livefyre Appsをターゲットオファーライブラリで直接共有できます。
-seo-title: Adobe Experience ManagerLivefyreとAdobe Targetの使用
 title: Adobe Experience ManagerLivefyreとAdobe Targetの使用
-uuid: 98108ddb-5710-4331-891b-7e1bbb106059
+exl-id: 0110fb81-9051-4f8c-9195-dff1a5eed029
 translation-type: tm+mt
-source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '225'
 ht-degree: 1%
 
 ---
