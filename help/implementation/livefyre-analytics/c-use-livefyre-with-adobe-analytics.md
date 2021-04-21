@@ -1,16 +1,13 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: LivefyreをAdobe AnalyticsおよびDynamic Tag Manager(DTM)lk xavvnと共に使用する   vefyreとAdobe AnalyticsおよびDynamic Tag Manager(DTM)の連携
-uuid: 9a1c25c0-c474-46ff-82ac-e89357007c7f
+exl-id: a866782d-fca6-48bf-9fb8-5080e396919b
 translation-type: tm+mt
-source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1003'
 ht-degree: 1%
 
 ---
-
 
 # LivefyreをAdobe AnalyticsおよびDynamic Tag Manager(DTM)と共に使用{#use-livefyre-with-adobe-analytics-and-dynamic-tag-manager-dtm}
 
@@ -67,7 +64,7 @@ Livefyreイベントで設定したレポートスイート用に既にプロパ
 1. クリック **[!UICONTROL Page Load Rules]**.
 1. 「**[!UICONTROL Create New Rule]**」ボタンをクリックします。
 1. **[!UICONTROL Conditions]**&#x200B;セクションを開くには、**[!UICONTROL Plus]**&#x200B;ボタンをクリックします。
-1. ルールをトリガーします。 ルールを非同期に遅延または実装する場合は、**[!UICONTROL DOM Ready]**&#x200B;または&#x200B;**[!UICONTROL Onload]**&#x200B;トリガータイプを選択します。
+1. ルールのトリガー。 ルールを非同期で遅延または実装する場合は、**[!UICONTROL DOM Ready]**&#x200B;または&#x200B;**[!UICONTROL Onload]**&#x200B;トリガータイプを選択します。
 1. （オプション）Livefyre Appsを表示するページを追加制限するための追加のパラメーター。 その他の設定オプションについて詳しくは、[DTM](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html)を参照してください。
 1. **[!UICONTROL Javascript/ Third Party Tags]**&#x200B;の下の「**[!UICONTROL Non-sequential]**」タブをクリックし、「**[!UICONTROL Add New Script]**」をクリックします。
 1. スクリプトの種類として&#x200B;**[!UICONTROL Sequential HTML]**&#x200B;を選択します。
