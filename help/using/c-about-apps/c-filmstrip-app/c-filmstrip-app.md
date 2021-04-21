@@ -1,18 +1,14 @@
 ---
 description: 'Filmstripアプリに関する詳細なガイドをご覧ください。 ビジュアライゼーションアプリは、レトロなカメラフィルムの帯状に画像を表示します。 チップを使ってマスターを行う。 '
-seo-description: Filmstripは、ユーザーが生成したコンテンツを、カメラのフィルムのストリップと同様に、動的な単一の水平の写真ストリップに表示するビジュアライゼーションアプリです。
-seo-title: Filmstrip
-solution: Experience Manager
 title: Guide to Filmstrip App
-uuid: 2e3cb6f4-15db-4509-8a5b-a651511cdbd6
+exl-id: a96e5de0-bebb-42ee-ae10-813ad8b9e960
 translation-type: tm+mt
-source-git-commit: 2584041dd080c08ee769bd897e55157ec05ce8b6
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '794'
 ht-degree: 1%
 
 ---
-
 
 # フィルムストリップ{#filmstrip}
 
