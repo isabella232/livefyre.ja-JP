@@ -1,18 +1,14 @@
 ---
 description: Storify Appsで使用できるCSSクラス。
-seo-description: Storify Appsで使用できるCSSクラス。
-seo-title: CSSクラスの保存
-solution: Experience Manager
 title: CSSクラスの保存
-uuid: 168a0db0-a209-417a-ba91-a33b4d411c8d
+exl-id: b0e61aaf-0da9-45fa-9ce3-3c633940480d
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '379'
 ht-degree: 2%
 
 ---
-
 
 # CSSクラスの保存{#storify-css-classes}
 
@@ -77,7 +73,7 @@ CSSを使用してStorify Appsをカスタマイズし、ページとの統合�
 | .s-element-text blockquote:after | ブロック引用符の終わりのアイコン |
 | .s-element-image | インライン画像要素のコンテナ |
 | .s-img | `<img>` element |
-| .s-image-caption | ソーシャルメディア上の画像とビデオのキャプション(例：Instagramの画像) |
+| .s-image-caption | ソーシャルメディア上の画像とビデオのキャプション(例：Instagram像) |
 | .s-upload-image-caption | ストーリーエディターでアップロードした画像およびビデオのキャプション。 |
 | .s-element-video | ビデオ要素 |
 | .s-element-quote | 見積もり要素(例：ツイート（テキストのみ） |
