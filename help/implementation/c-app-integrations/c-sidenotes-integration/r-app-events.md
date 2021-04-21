@@ -1,18 +1,14 @@
 ---
 description: Sidentのインスタンスでイベントをリッスンできます。
-seo-description: Sidentのインスタンスでイベントをリッスンできます。
-seo-title: Sidents Appイベント
-solution: Experience Manager
 title: Sidents Appイベント
-uuid: afca4b03-c370-41ca-aa12-45bc357517ca
+exl-id: e341ca76-002d-425c-8d1a-35c3253fb254
 translation-type: tm+mt
-source-git-commit: 987e682f9c7cd94543fd269f386fd2a971ee9934
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
-
 
 # Sidents Appイベント{#sidenotes-app-events}
 
