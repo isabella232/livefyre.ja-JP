@@ -1,22 +1,18 @@
 ---
-description: InstagramおよびTwitterの投稿の権限をリクエストする設定を定義します。
-seo-description: InstagramおよびTwitterの投稿の権限をリクエストする設定を定義します。
-seo-title: Rights Managementの設定
-solution: Experience Manager
+description: instagramおよびTwitterの投稿の権限をリクエストする設定を定義します。
 title: Rights Managementの設定
-uuid: 3ffcbc95-484f-4eba-b817-658c1d658bf8
+exl-id: d3d3e837-0ed0-47a8-ac5c-7b9da431d149
 translation-type: tm+mt
-source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
 
-
 # Rights Management{#set-up-rights-management}の設定
 
-InstagramおよびTwitterの投稿の権限をリクエストする設定を定義します。
+instagramおよびTwitterの投稿の権限をリクエストする設定を定義します。
 
 権限要求の設定を定義する前に、InstagramまたはTwitterの1つ以上のソーシャルアカウントを設定する必要があります。 Socialアカウントの設定方法について詳しくは、「[Socialアカウント追加](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/t-configure-social-accout-instagram.md#t_configure_social_accout_instagram)」を参照してください。
 
@@ -35,18 +31,18 @@ InstagramおよびTwitterの投稿の権限をリクエストする設定を定�
 
    >[!NOTE]
    >
-   >Instagramアカウントの場合、部分的な自動化を使用して権限をリクエストするには、Instagramのビジネスアカウントが必要です。 様々な種類のInstagramアカウントとその使用方法について詳しくは、[Instagramアカウントについて](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)を参照してください。
+   >instagramアカウントの場合、部分的な自動化を使用して権利を要求するには、Instagramビジネスアカウントが必要です。 様々な種類のInstagramアカウントとその使用方法について詳しくは、[Instagramアカウントについて](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)を参照してください。
 
 1. 表示されたフィールドに入力します。 すべてのフィールドが必須です。
 
-   * **[!UICONTROL Display name:]** 権利要求アカウントに使用するTwitterまたはInstagramアカウントを識別する表示名を入力します。この名前は内部でのみ使用されます。
+   * **[!UICONTROL Display name:]** 権利要求アカウントに使用するTwitterアカウントまたはInstagramアカウントを識別する表示名を入力します。この名前は内部でのみ使用されます。
    * **[!UICONTROL Enabled:]**デフォルトでonに設定されます。 アカウントの権限管理を有効にします。
    * **[!UICONTROL Approval hashtag:]** コンテンツの所有者がコンテンツの使用に同意したことを示すために使用するハッシュタグ。
    * **[!UICONTROL Terms and conditions:]** コンテンツを再利用するためのネットワーク利用規約へのリンク。このフィールドでは大文字と小文字が区別されます。
    * **[!UICONTROL Network and sites:]** このアカウントがコンテンツの再利用権限を要求できるネットワークまたはサイトです。このアカウントをネットワーク全体で使用できるようにするには、リストの最初の項目を選択するか、Command/Ctrlキーを押しながら特定のサイトに制限します。
-   * **[!UICONTROL Default message:]** 権限リクエストで表示するメッセージです。権限を要求するときに、このメッセージを上書きできます。
+   * **[!UICONTROL Default message:]** 権限リクエストと共に表示するメッセージです。権限を要求するときに、このメッセージを上書きできます。
 
-      * モデレーターがコンテンツ作成者にリクエストを発行すると、Livefyreがモデレーターにデフォルトメッセージの1つを表示します。 モデレーターは、別のデフォルトメッセージを生成したり、送信前にメッセージを編集したりできます。 メッセージには、発言者のTwitterまたはInstagramのハンドル({handle})、承認ハッシュタグ({grantTag})、利用条件へのリンク({termsLink})が含まれている必要があります。
+      * モデレーターがコンテンツ作成者にリクエストを発行すると、Livefyreがモデレーターにデフォルトメッセージの1つを表示します。 モデレーターは、別のデフォルトメッセージを生成したり、送信前にメッセージを編集したりできます。 メッセージには、発言者のTwitterハンドル({handle})、承認ハッシュタグ({grantTag})、利用条件へのリンク({termsLink})が含まれている必要があります。
 
          **[!UICONTROL Note:]** {handle}、{grantTag}、{termsLink}はすべて大文字と小文字が区別されます。
 
