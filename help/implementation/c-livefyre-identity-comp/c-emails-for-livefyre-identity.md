@@ -1,18 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Livefyre ID用電子メール
-solution: Experience Manager
 title: Livefyre ID用電子メール
-uuid: 4e807803-687e-4df0-94d1-b18a48d024e8
+description: Livefyre ID用電子メール
+exl-id: c8127eef-8fb8-4703-ba34-ef12453f1754
 translation-type: tm+mt
-source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '526'
 ht-degree: 1%
 
 ---
-
 
 # Livefyre ID用の電子メール{#emails-for-livefyre-identity}
 
