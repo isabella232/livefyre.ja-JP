@@ -1,18 +1,14 @@
 ---
 description: Livefyre StudioからStorify 2のスタイル、表示、ユーザーエンゲージメントの設定オプションを選択します。
-seo-description: Livefyre StudioからStorify 2のスタイル、表示、ユーザーエンゲージメントの設定オプションを選択します。
-seo-title: 設定オプション
-solution: Experience Manager
 title: 設定オプション
-uuid: 4a7f03b3-6d97-46e9-8832-81e665f06d3a
+exl-id: bdb5210e-860c-477f-95cd-37a1233469f1
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
-
 
 # 構成オプション{#configuration-options}
 
@@ -56,7 +52,7 @@ Livefyre StudioからStorify 2のスタイル、表示、ユーザーエンゲ�
 
    >[!NOTE]
    >
-   >Storify 2の任意のエディターによるこの設定に対する最新の変更が、パブリケーションに反映されます。
+   >Storify 2の任意のエディターによるこの設定に対する最新の変更は、パブリケーションに反映されます。
 
 * **[!UICONTROL Set time zone]**
 
@@ -70,7 +66,7 @@ Livefyre StudioからStorify 2のスタイル、表示、ユーザーエンゲ�
 
 * **[!UICONTROL Users may share posts]**
 
-   有効にすると、ユーザーがTwitterやFacebookでストーリーを共有できます。 共有を有効にする方法について詳しくは、設定/統合の設定/ソーシャルシェアを参照してください。
+   有効にすると、ユーザーがTwitterやFacebookとストーリーを共有できます。 共有を有効にする方法について詳しくは、設定/統合の設定/ソーシャルシェアを参照してください。
 
 * **[!UICONTROL Users may add sidenotes]**
 
@@ -79,4 +75,3 @@ Livefyre StudioからStorify 2のスタイル、表示、ユーザーエンゲ�
 * **[!UICONTROL Number of views]**
 
    有効にすると、ストーリーが表示された回数が表示されます。
-
