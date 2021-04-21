@@ -1,18 +1,14 @@
 ---
 description: 追加Livefyreをネイティブのモバイルアプリケーションにアップロードします。
-seo-description: 追加Livefyreをネイティブのモバイルアプリケーションにアップロードします。
-seo-title: モバイル SDK
-solution: Experience Manager
 title: モバイル SDK
-uuid: 84c7ca1c-3401-492a-bfa5-62b996947a44
+exl-id: e05001a4-6199-4d98-a661-123e031b657b
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 5%
+source-wordcount: '367'
+ht-degree: 4%
 
 ---
-
 
 # モバイル SDK{#mobile-sdks}
 
@@ -66,4 +62,3 @@ HTTP APIは、Livefyreプラットフォーム上で会話やコンテンツを�
 >[!IMPORTANT]
 >
 >**ユーザー認証トークンはモバイルクライアント内に作成しないで** ください。作成するには、保護されていないアプリ内でLivefyre秘密ネットワークキーを公開する必要があります。より堅牢で安全なソリューションについては、「ユーザー認証トークン」の節を参照してください。
-
