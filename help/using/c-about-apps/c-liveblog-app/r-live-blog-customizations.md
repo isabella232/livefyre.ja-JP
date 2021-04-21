@@ -1,18 +1,14 @@
 ---
 description: ライブブログでのコメントのスタイルと表示方法をカスタマイズします。
-seo-description: ライブブログでのコメントのスタイルと表示方法をカスタマイズします。
-seo-title: ライブブログのカスタマイズ
-solution: Experience Manager
 title: ライブブログのカスタマイズ
-uuid: f07d4c33-4aef-4d69-b9dd-3fd3c27ffd6d
+exl-id: 388b700b-c7bc-47ef-a0f3-dac0b01fcb2b
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
-
 
 # ライブブログのカスタマイズ{#live-blog-customizations}
 
@@ -20,7 +16,7 @@ ht-degree: 0%
 
 
 
-Live Blogを使用して、進行中のストーリーにリアルタイムで更新を投稿し、サイトを魅力的なライブニュースソースに変換します。
+Live Blogを使用して、進行中の記事にリアルタイムで更新を投稿し、サイトを魅力的なライブニュースソースに変換します。
 
 * **[!UICONTROL Number of comments to load]**
 
@@ -60,11 +56,10 @@ Live Blogを使用して、進行中のストーリーにリアルタイムで�
 
 * **[!UICONTROL Users may share comments]**
 
-   有効にすると、ユーザーは投稿したコンテンツをTwitter、FacebookまたはLinkedInで共有できます。 共有を有効にする方法について詳しくは、設定/統合の設定/ソーシャルシェアを参照してください。
+   有効にすると、ユーザーは投稿したコンテンツをTwitter、Facebook、LinkedInで共有できます。 共有を有効にする方法について詳しくは、設定/統合の設定/ソーシャルシェアを参照してください。
 
 Live Blogは次の形式でカスタマイズできます。
 
 * **[!UICONTROL Style]** 」および「」のすべてのアプリの **[!UICONTROL Config]** オプションを選択し **[!UICONTROL App Designer]**&#x200B;ます。**[!UICONTROL App Designer]**&#x200B;のすべてのアプリの標準&#x200B;**[!UICONTROL Style]**&#x200B;および&#x200B;**[!UICONTROL Config]**&#x200B;オプションについて詳しくは、「アプリのカスタマイズ」を参照してください。
 
 * 統合ツール。 統合ツールを使用してアプリをカスタマイズする方法について詳しくは、Live Blogを参照してください。
-
