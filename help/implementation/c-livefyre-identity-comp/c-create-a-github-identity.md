@@ -1,17 +1,14 @@
 ---
 description: Livefyre IDをGitHub IDと共に使用して、ユーザーがGitHubログインを使用してサイト上のアプリを操作できるようにすることができます。
-seo-description: Livefyre IDをGitHub IDと共に使用して、ユーザーがGitHubログインを使用してサイト上のアプリを操作できるようにすることができます。
-seo-title: Livefyre IDで使用するGitHub IDアプリを作成する
 title: Livefyre IDで使用するGitHub IDアプリを作成する
-uuid: cf56164c-1521-4a42-89cb-39483764807e
+exl-id: f25ffd0e-ea4f-42ac-abfc-c02018421b85
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
-
 
 # Livefyre Identity{#create-a-github-identity-app-for-use-with-livefyre-identity}で使用するGitHub IDアプリを作成する
 
