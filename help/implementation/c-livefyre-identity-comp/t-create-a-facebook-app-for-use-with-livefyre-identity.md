@@ -1,24 +1,20 @@
 ---
-description: Livefyre IDとFacebookを使用して、ユーザーがFacebookのログインを使用してサイト上のアプリとやり取りできるようにすることができます。
-seo-description: Livefyre IDとFacebookを使用して、ユーザーがFacebookのログインを使用してサイト上のアプリとやり取りできるようにすることができます。
-seo-title: Livefyre IDと共に使用するFacebookアプリを作成する
-solution: Experience Manager
+description: Livefyre IDとFacebookを使用すると、ユーザーがFacebookログインを使用してサイト上のアプリとやり取りできるようになります。
 title: Livefyre IDと共に使用するFacebookアプリを作成する
-uuid: a7f7be4e-8986-4e79-831a-0bb0ae555599
+exl-id: ec320865-6ea3-4f6f-a5f6-31f3d5cbdc93
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 0%
+source-wordcount: '190'
+ht-degree: 1%
 
 ---
 
+# Livefyre IDと共に使用するFacebookアプリを作成{#create-a-facebook-app-for-use-with-livefyre-identity}
 
-# Livefyre IDと共に使用するFacebookアプリの作成{#create-a-facebook-app-for-use-with-livefyre-identity}
+Livefyre IDとFacebookを使用すると、ユーザーがFacebookログインを使用してサイト上のアプリとやり取りできるようになります。
 
-Livefyre IDとFacebookを使用して、ユーザーがFacebookのログインを使用してサイト上のアプリとやり取りできるようにすることができます。
-
-ユーザーがFacebookの資格情報を使用してログインできるようにするには、Livefyreに次のFacebookアプリ情報が必要です。
+ユーザーがFacebookの資格情報を使用してログインできるようにするには、Livefyreで次のFacebookアプリ情報が必要です。
 
 * アプリケーション ID
 * アプリの秘密
@@ -26,7 +22,7 @@ Livefyre IDとFacebookを使用して、ユーザーがFacebookのログイン�
 Livefyre Idで使用するFacebookアプリを作成するには：
 
 1. [https://developers.facebook.com/apps](https://developers.facebook.com/apps)に移動します。
-1. Facebook開発者アカウントにログインします。
+1. facebook開発者アカウントにログインします。
 1. **[!UICONTROL Add New App]**&#x200B;をクリックするか、Livefyre Idで使用する既存のアプリを選択します。
 1. 「**[!UICONTROL Settings]**」、「**[!UICONTROL Basic]**」の順にクリックします。 **[!UICONTROL Contact Email]**&#x200B;アドレス、**[!UICONTROL Display Name]**、**[!UICONTROL Privacy Policy URL]**、**[!UICONTROL Terms of Service URL]**&#x200B;を入力します。
 1. **[!UICONTROL Products]**&#x200B;の横のプラス記号(**[!UICONTROL +]**)をクリックします。
@@ -44,4 +40,4 @@ Livefyre Idで使用するFacebookアプリを作成するには：
    * アプリを公開にします。
    * **[!UICONTROL Login Permissions]**&#x200B;の&#x200B;**[!UICONTROL Approved Items]**&#x200B;には`email`、`public_profile`、`user_friends`が含まれていることを確認してください。
 
-完了すると、Facebook開発者のダッシュボードページに、Studioの統合設定で使用するApp IDとApp Secretがリストされます。
+完了すると、Facebook開発者のダッシュボードページに、Studioの統合設定で使用するApp IDとApp Secretのリストが表示されます。
