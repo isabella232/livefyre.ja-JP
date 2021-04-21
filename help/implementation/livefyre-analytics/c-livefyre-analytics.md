@@ -1,18 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: 他のAnalyticsツールとLivefyreを使用する
-solution: Experience Manager
 title: 他のAnalyticsツールとLivefyreを使用する
-uuid: 26c835f6-aced-41f7-aabe-418afce8a829
+description: 他のAnalyticsツールとLivefyreを使用する
+exl-id: da29e281-5095-4e99-a248-19390f2059a2
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
-
 
 # Livefyreを他のAnalyticsツールと共に使用する{#use-livefyre-with-other-analytics-tool}
 
@@ -61,4 +57,3 @@ pollForAnalytics();
 1. 解析ハンドラーは、個別に、またはプロバイダーがサポートしている場合はバッチとして、繰り返し処理および送信する必要があるイベントの配列を受け取ります。
 1. ハンドラーが受信したイベントデータを、Analyticsプロバイダーが必要とする形式にマップします。
 1. データをAnalyticsプロバイダーに送信します。
-
