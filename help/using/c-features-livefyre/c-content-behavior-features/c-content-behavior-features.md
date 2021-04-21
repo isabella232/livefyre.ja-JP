@@ -1,18 +1,14 @@
 ---
 description: Livefyreオファー機能は、サイト訪問者の表示アプリのコンテンツの選択を可能にします。
-seo-description: Livefyreオファー機能は、サイト訪問者の表示アプリのコンテンツの選択を可能にします。
-seo-title: コンテンツ動作機能
-solution: Experience Manager
 title: コンテンツ動作機能
-uuid: 4a1c6d6e-8785-49e8-aaf5-6fa4576d7232
+exl-id: ef477ca0-516f-45bf-9753-e050fe4cc6a1
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '453'
 ht-degree: 2%
 
 ---
-
 
 # コンテンツ動作機能{#content-behavior-features}
 
@@ -91,4 +87,3 @@ Livefyre Appsは、コンテンツがStudioから手動またはコンテンツ�
 
 * [チャット](/help/using/c-about-apps/c-chat-app/c-chat-app.md#c_chat_app)
 * [コメント](/help/using/c-about-apps/c-comments/c-comments.md)
-
