@@ -1,30 +1,26 @@
 ---
 description: embed.ly を使用して、複数のメディア形式を直接アプリに表示します。
-seo-description: embed.ly を使用して、複数のメディア形式を直接アプリに表示します。
-seo-title: Embedly 統合
-solution: Experience Manager
 title: Embedly 統合
-uuid: 1f27e32c-c2c3-4f7c-93de-c9c7bf783d6a
+exl-id: 859fe306-367e-4207-b9f7-c730ba0cd24d
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 14%
+source-wordcount: '325'
+ht-degree: 10%
 
 ---
-
 
 # Embedly 統合 {#embedly-integration}
 
 複数のメディア形式をアプリに直接表示するには、`embed.ly`を使用します。
 
-Google Maps、YouTube、Flickr、Facebook、Instagram、Spotify、Tumblrなど、様々なソースから埋め込みメディアコンテンツをより有効にするため、LivefyreアプリはURL拡張のサードパーティプロバイダーとして明示的に使用します。 ユーザーまたはモデレーターが、サポートされているリンクを投稿に含めると、リンクに含まれるメディアは、コレクションへの投稿時に展開されます。
+Google Maps、YouTube、Flickr、Facebook、Instagram、Spotify、Tumblrなど、様々なソースから埋め込みメディアコンテンツをより有効にするため、Livefyre AppsはEmbedlyをURL拡張のサードパーティプロバイダーとして使用します。 ユーザーまたはモデレーターが、サポートされているリンクを投稿に含めると、リンクに含まれるメディアは、コレクションへの投稿時に展開されます。
 
 これにより、Livefyreアプリで、Embedlyがサポートする250種類以上の埋め込みメディアオプションにアクセスできます。
 
 >[!NOTE]
 >
->Livefyreは、Embedlyの完全なプロバイダーリストのサブセットのみを展開します。 埋め込み画像は、プロバイダーがTwitter、YouTube、Imgur、Vine、Wikipedia、SoundCloudの場合にのみ、HTTPSページで拡張されます。 リンクの拡張やソースに関するその他の質問は、テクニカルアカウントマネージャーにお問い合わせください。
+>Livefyreは、Embedlyの完全なプロバイダーリストのサブセットのみを展開します。 埋め込み画像は、プロバイダーがTwitter、YouTube、Imgur、Vine、Wikipedia、またはSoundCloudの場合にのみ、HTTPSページで拡張されます。 リンクの拡張やソースに関するその他の質問は、テクニカルアカウントマネージャーにお問い合わせください。
 
 このページには、一般的な埋め込みメディアの種類の例と、そのURLパターンの許容リストが示されています。 `Embed.ly` が新しいソースを継続的に追加しています。プロバイダの完全なリストについては、`https://embed.ly/embed/features/providers`を参照してください。
 
@@ -32,7 +28,7 @@ Google Maps、YouTube、Flickr、Facebook、Instagram、Spotify、Tumblrなど�
 >
 >Embedly書式には、完全なパーマリンクが必要です。 短縮リンクは機能しません。
 
-埋め込み可能なコンテンツは公開可能です。 公開以外のコンテンツを埋め込もうとすると、そのコンテンツへのリンクがブログ投稿に表示され、プレースホルダアイコンが付属します。 クリックすると、リンクにより、読者に対して、コンテンツがホストされているサービス（友達のみの写真のFacebookメッセージなど）のエラーメッセージが表示されます。 メディアが期待どおりに拡張されない場合は、担当のアカウントマネージャーにお問い合わせください。
+埋め込み可能なコンテンツは公開可能です。 公開以外のコンテンツを埋め込もうとすると、そのコンテンツへのリンクがブログ投稿に表示され、プレースホルダアイコンが付属します。 クリックすると、リンクにより、読者に対して、コンテンツがホストされているサービス(友達のみの写真のFacebookメッセージなど)のエラーメッセージが表示されます。 メディアが期待どおりに拡張されない場合は、担当のアカウントマネージャーにお問い合わせください。
 
 ## 埋め込みURLの例
 
@@ -67,4 +63,3 @@ Google Maps、YouTube、Flickr、Facebook、Instagram、Spotify、Tumblrなど�
 * [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
 * [トレンド](/help/using/c-about-apps/c-trending-app/c-trending-app.md#c_trending_app)
 * [アップロードボタン](/help/using/c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
-
