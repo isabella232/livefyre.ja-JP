@@ -1,18 +1,14 @@
 ---
 description: Storify 2ストーリーにストリームを指定します。
-seo-description: Storify 2ストーリーにストリームを指定します。
-seo-title: ストリームを使用し追加てソーシャルコンテンツをストーリーに追加
-solution: Experience Manager
 title: ストリームを使用し追加てソーシャルコンテンツをストーリーに追加
-uuid: 4999c880-a896-4ad2-bf8f-3fd9736a64d6
+exl-id: 1228ed16-df6f-4af7-9082-5c598f72163d
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
-
 
 # Streamsを使用してソーシャル追加コンテンツをストーリーに使用{#use-streams-to-add-social-content-to-your-story}
 
