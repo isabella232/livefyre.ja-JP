@@ -1,18 +1,14 @@
 ---
 description: 2018年11月1日リリースのリリースノートです。
-seo-description: 2018年11月1日リリースのリリースノートです。
-seo-title: 2018 年 11 月 2 日
-solution: Experience Manager
 title: 2018 年 11 月 2 日
-uuid: ed1a3bf1-b3f1-4746-8462-07283723ba62
+exl-id: b12b6a56-f14f-4447-9fde-25cb3acf6665
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 5%
+source-wordcount: '353'
+ht-degree: 4%
 
 ---
-
 
 # 2018 年 11 月 2 日{#november}
 
@@ -35,9 +31,9 @@ ht-degree: 5%
 
    詳しくは、[スマートタグ](/help/using/c-features-livefyre/c-smart-tags/c-smart-tags.md#c_smart_tags)を参照してください
 
-* Instagramのレート制限
+* Instagramレート制限
 
-   Instagramは、Livefyreを含むInstagram APIを使用する会社が1トークンあたり5,000個のリクエストから200個のリクエストに行えるリクエストの数を変更しました。 これは、*レート制限*&#x200B;と呼ばれます。 詳しくは、[Instagramのレート制限](/help/using/c-streams/c-instagram-rate-limiting.md)を参照してください。
+   Instagramは、InstagramAPI（Livefyreを含む）を使用している会社が1トークンあたり1時間あたり5,000リクエストから200リクエストに変更しました。 これは、*レート制限*&#x200B;と呼ばれます。 詳しくは、[Instagramレート制限](/help/using/c-streams/c-instagram-rate-limiting.md)を参照してください。
 
 * ライブラリのオーディオファイル
 
@@ -61,6 +57,5 @@ ht-degree: 5%
 |---|---|---|
 | 機能強化 | GDPR | Analytics内の以前のお客様に関連付けられたデータはすべて削除されます。 |
 | バグ | ライブラリ | ビデオがライブラリにアップロードされ、アセットの詳細で表示されると正しく表示されない問題を修正しました。 |
-| バグ | モザイク | Instagramのカルーセルのコンテンツの最後の部分が、カードではなくサムネールとして表示される問題を修正しました。 |
-| バグ | ソーシャル検索 | Instagramのソーシャル検索が期待どおりに機能しない問題を修正しました。 |
-
+| バグ | モザイク | instagramのカルーセルのコンテンツの最後の部分が、カードではなくサムネールとして表示される問題を修正しました。 |
+| バグ | ソーシャル検索 | instagramのソーシャル検索が期待どおりに機能しない問題を修正しました。 |
