@@ -1,18 +1,14 @@
 ---
 description: マップアプリのサイズ、幅およびインタラクションオプションを変更します。
-seo-description: マップアプリのサイズ、幅およびインタラクションオプションを変更します。
-seo-title: 機能カードのカスタマイズ
-solution: Experience Manager
 title: 機能カードのカスタマイズ
-uuid: dd43c076-027f-42c8-be2e-7d863d4e3976
+exl-id: b907885a-211d-4628-9955-5f1a5ec577cf
 translation-type: tm+mt
-source-git-commit: a014b5cd618672934843f1adf20d6b2cc504e2d8
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
-
 
 # 機能カードのカスタマイズ{#feature-card-customizations}
 
@@ -49,4 +45,3 @@ r_feature_card_customization.dita
    * **[!UICONTROL Filter UGC by Product ID]**&#x200B;をインストールします。複数の製品ページに対して1つのアプリを作成する場合は、このオプションを選択します。 各製品ページで、製品固有のUGCをアプリにフィルターします。 1つ以上のフォルダーを選択して、特定のコレクションをアプリに関連付けることができます。
    * **[!UICONTROL Select Product folders]**&#x200B;をインストールします。UGCのフィルタリングに使用する最上位の製品フォルダを選択します。 `CTRL/Command + click`を使用して、複数のフォルダーを選択します。 Livefyreはこのフォルダーを使用して、そのフォルダー内のどの製品を様々なページのアプリに表示するかを決定します。
    * **[!UICONTROL Show related content]**&#x200B;をインストールします。これを切り替えて、アプリに投稿されたが、異なる製品IDでタグ付けされたコンテンツを表示します。 アプリ用の製品固有のコンテンツが表示されると、Livefyreは他の製品のコンテンツと製品に関連付けられていないコンテンツを表示します。 Livefyreは、最初に同じ製品IDを持つコンテンツを優先順位付けし、次に他の製品IDを持つアプリに公開したコンテンツ、次に製品IDを持たないアプリに公開したコンテンツを優先順位付けします。
-
