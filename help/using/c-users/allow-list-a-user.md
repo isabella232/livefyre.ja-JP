@@ -1,16 +1,14 @@
 ---
 description: モデレートされることなく、ユーザーがアプリに直接投稿できるように、ユーザーを許可リストに記載します。
-solution: Experience Manager
 title: ユーザーの許可リスト
-uuid: c58f7279-5fde-419a-a833-3c639d469421
+exl-id: d291c62a-03a1-4a1e-a0b3-efeb270e519a
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 0%
 
 ---
-
 
 # ユーザーの許可一覧{#allow-list-a-user}
 
