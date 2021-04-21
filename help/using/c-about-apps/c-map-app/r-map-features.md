@@ -1,18 +1,14 @@
 ---
 description: マップアプリでは、サイトに対してこれらの機能をオファーします。
-seo-description: マップアプリでは、サイトに対してこれらの機能をオファーします。
-seo-title: マップ機能
-solution: Experience Manager
 title: マップ機能
-uuid: fdad5f0c-8292-4f59-bac1-c96c01e96ff5
+exl-id: 71ad1b93-ba8a-41ce-ad3d-1ade68c37c45
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
-
 
 # マップフィーチャ{#map-features}
 
@@ -23,4 +19,3 @@ ht-degree: 0%
 * コンテンツがリアルタイムでマップに入ります。
 * 同じ領域のコンテンツはクラスター化されており、ギャラリーモーダルで表示できます。
 * Mapにズームインして、特定の領域のコンテンツに焦点を当てます。
-
