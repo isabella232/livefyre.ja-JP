@@ -1,18 +1,14 @@
 ---
 description: コレクション内のデータを更新するには、Collectionクラスオブジェクトメソッドの内容を変更します。
-seo-description: コレクション内のデータを更新するには、Collectionクラスオブジェクトメソッドの内容を変更します。
-seo-title: コレクションクラスのメソッド
-solution: Experience Manager
 title: コレクションクラスのメソッド
-uuid: fd3163c6-981f-44b3-a7ba-6b4e85b0830d
+exl-id: e54fe99d-381a-433e-b42f-8be609864ca8
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 1%
+source-wordcount: '99'
+ht-degree: 2%
 
 ---
-
 
 # コレクションクラスのメソッド{#collection-class-methods}
 
@@ -33,4 +29,3 @@ Collectionオブジェクトの作成手順については、Siteクラスのメ
 * PHP
 * Python
 * Ruby
-
