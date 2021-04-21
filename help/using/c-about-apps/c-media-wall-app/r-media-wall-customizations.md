@@ -1,18 +1,14 @@
 ---
 description: Media Wallアプリケーションのサイズ、幅、および操作オプションを変更します。
-seo-description: Media Wallアプリケーションのサイズ、幅、および操作オプションを変更します。
-seo-title: メディアウォールのカスタマイズ
-solution: Experience Manager
 title: メディアウォールのカスタマイズ
-uuid: 79aecd92-3937-4bb4-a1a6-b090fb39afb0
+exl-id: bc34d8da-9e14-4226-b38d-128889bc31cc
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
-
 
 # メディアウォールのカスタマイズ{#media-wall-customizations}
 
@@ -34,13 +30,13 @@ Media Wallは、ライブ画像やその他のコンテンツをリアルタイ�
 
 * **[!UICONTROL Load content with animation.]** このオプションをオンにすると、アニメーションを含むページにメディアウォールが読み込まれます。このオプションをオフにすると、アニメーションを使用しないページにメディアウォールが読み込まれます。
 * **[!UICONTROL Number of columns.]** メディアウォールの列数を設定列数は、ウィンドウやブラウザのサイズに関係なく同じままです。 「自動」を選択すると、列数が画面サイズに合わせて最適化された列数で表示されるように調整されます。
-* **[!UICONTROL Fit content to width]**&#x200B;をインストールします。このオプションをオフにすると、コンテンツは四角形に切り抜かれます。 このオプションをオンにすると、カード全体に画像が入るかどうかに関係なく、カードに画像全体が表示されます。
+* **[!UICONTROL Fit content to width]**&#x200B;をインストールします。このオプションをオフにすると、コンテンツは四角形に切り抜かれます。 このオプションをオンにすると、カード全体を占めるかどうかに関係なく、カードに画像全体が表示されます。
 * **[!UICONTROL Include content modal]**
 
    ストリーム内の写真をクリックして、オーバーレイされたポップアップウィンドウで開くことができます。
 
 * **[!UICONTROL Require rights]**&#x200B;をインストールします。権限要求のステータスが「許可済み」であるコンテンツのみを表示する場合は、このオプションを有効にします。
-* **[!UICONTROL Hide social branding when rights granted]** コンテンツの権限が付与されたときに、元のソーシャルメディアネットワーク（TwitterまたはInstagram）のロゴを削除するには、これをオンにします。
+* **[!UICONTROL Hide social branding when rights granted]** コンテンツの権限が付与されたときに、元のソーシャルメディアネットワーク(TwitterまたはInstagram)のロゴを削除するには、これをオンにします。
 
 * **[!UICONTROL Upload Button]**
 
@@ -82,4 +78,3 @@ Media Wallは、ライブ画像やその他のコンテンツをリアルタイ�
 * **[!UICONTROL Style]** 」および「」のすべてのアプリの **[!UICONTROL Config]** オプションを選択し **[!UICONTROL App Designer]**&#x200B;ます。**[!UICONTROL App Designer]**&#x200B;のすべてのアプリの標準&#x200B;**[!UICONTROL Style]**&#x200B;および&#x200B;**[!UICONTROL Config]**&#x200B;オプションについて詳しくは、「アプリのカスタマイズ」を参照してください。
 
 * 統合ツール。 統合ツールを使用してメディアウォールをカスタマイズする方法については、[メディアウォールの統合](/help/implementation/c-app-integrations/c-media-wall-integration.md)を参照してください。
-
