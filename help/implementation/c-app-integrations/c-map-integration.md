@@ -1,18 +1,14 @@
 ---
 description: ユーザコンテンツをインタラクティブマップにプロットします。
-seo-description: ユーザコンテンツをインタラクティブマップにプロットします。
-seo-title: マップ
-solution: Experience Manager
 title: マップ
-uuid: 1c3e399d-a610-4b80-a3b2-a5502b31480d
+exl-id: 836b475e-0ec6-49f8-b89f-3af3209cf1f2
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '244'
 ht-degree: 2%
 
 ---
-
 
 # マップ{#map}
 
@@ -40,7 +36,7 @@ Mapを最もすばやく使用するには、LivefyreのCDN上でホストされ
 <div id="map" style="height: 500px;"></div>
 ```
 
-最後に、Livefyre.requireを使用してマップを作成し、streamhub-sdkからパイプインするコレクションを取得します。 マップには、ジオタグ付きメタデータを含むコンテンツのみを表示できることに注意してください。 この機能は、TwitterおよびInstagram Curateでサポートされています。 最高のパフォーマンスを確保するには、コレクションのキュレーションルールすべてに位置情報フィルターを含めます。
+最後に、Livefyre.requireを使用してマップを作成し、streamhub-sdkからパイプインするコレクションを取得します。 マップには、ジオタグ付きメタデータを含むコンテンツのみを表示できることに注意してください。 この機能は、twitterとInstagramキュレートでサポートされています。 最高のパフォーマンスを確保するには、コレクションのキュレーションルールすべてに位置情報フィルターを含めます。
 
 ```
 <script> 
@@ -87,4 +83,3 @@ var map = new Map({
     } 
 });
 ```
-
