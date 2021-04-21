@@ -1,18 +1,14 @@
 ---
 description: ライブラリの使用例をいくつか示します。
-seo-description: ライブラリの使用例をいくつか示します。
-seo-title: 例
-solution: Experience Manager
 title: 例
-uuid: 94e38dab-6234-43a2-a840-13a87f0237f1
+exl-id: 73b17607-0374-4037-8b0a-77e6d4b94691
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 9%
+source-wordcount: '24'
+ht-degree: 8%
 
 ---
-
 
 # 例{#examples}
 
@@ -442,4 +438,3 @@ class LivefyreExample
    end 
 end
 ```
-
