@@ -1,14 +1,10 @@
 ---
 description: ビデオドメインを許可リストに含めることができます。
-seo-description: ビデオドメインを許可リストに含めることができます。
-seo-title: userPrivacyVideoWhitelist
-solution: Experience Manager
 title: userPrivacyVideoWhitelist
-uuid: adfead18-b73b-4ac4-97a0-d39f528b7606
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
