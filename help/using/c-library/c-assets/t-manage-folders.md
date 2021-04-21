@@ -1,18 +1,14 @@
 ---
 description: Studioオファーには、フォルダを管理するためのいくつかのオプションがあります。
-seo-description: Studioオファーには、フォルダを管理するためのいくつかのオプションがあります。
-seo-title: アセットフォルダの管理
-solution: Experience Manager
 title: アセットフォルダの管理
-uuid: 9ce510df-4f7a-4178-b2c4-7d59e4868add
+exl-id: a7f434aa-463c-4646-a498-b8be9767019a
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
-
 
 # アセットフォルダの管理{#manage-asset-folders}
 
