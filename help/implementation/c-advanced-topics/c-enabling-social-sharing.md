@@ -1,18 +1,14 @@
 ---
 description: ユーザーが様々なソーシャルネットワークとコンテンツを共有できる資格情報を設定します。
-seo-description: ユーザーが様々なソーシャルネットワークとコンテンツを共有できる資格情報を設定します。
-seo-title: ソーシャルシェアを有効にする
-solution: Experience Manager
 title: ソーシャルシェアを有効にする
-uuid: f584a0ae-46c7-48c1-aea4-36da9f1e259b
+exl-id: 08ac9766-52ea-432f-8b4f-bf68cb8b62bc
 translation-type: tm+mt
-source-git-commit: d77b633b9892e3ea4aaec860317887f1fdf66830
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
-
 
 # ソーシャルシェアを有効にする{#enabling-social-sharing}
 
@@ -26,7 +22,7 @@ ht-degree: 0%
 
 ## 必要なソーシャル資格情報{#section_gff_cjm_b1b}
 
-カスタムユーザーIDシステムを使用する場合は、ソーシャル資格情報を指定して、Livefyre AppからTwitter、FacebookまたはLinkedInと共有できるようにする必要があります。
+カスタムユーザーIDシステムを使用する場合は、ソーシャル資格情報を指定して、LivefyreアプリからTwitter、FacebookまたはLinkedInにユーザーが共有できるようにする必要があります。
 
 >[!NOTE]
 >
@@ -42,24 +38,24 @@ Admin Consoleの統合設定パネルを使用して、次のソーシャル秘�
 
 ## Twitter {#section_qp5_1yl_b1b}
 
-Twitterの資格情報は、Twitterアプリのダッシュボードから入手できます。 これらの資格情報を検索するには：
+Twitterの資格情報は、Twitterアプリダッシュボードから入手できます。 これらの資格情報を検索するには：
 
-* [Twitterのアプリ開発ページ](https://dev.twitter.com/apps)をアプリの所有者として開き、アプリを探して、タイトルをクリックします。
+* [Twitterのアプリ開発ページ](https://dev.twitter.com/apps)をアプリの所有者として開き、アプリを探し、タイトルをクリックします。
 * 「アクセストークン」まで下にスクロールし、「アクセストークン」と「アクセストークン秘密鍵」の値を取得します。
 
 次の操作が必要です。
 
-* Twitterアプリの「コールバックURL」フィールドに値を入力します。 このフィールドは単純なプレースホルダーの場合がありますが、空白にすることはできません。
+* twitterアプリの「コールバックURL」フィールドに値を入力します。 このフィールドは単純なプレースホルダーの場合がありますが、空白にすることはできません。
 * アプリケーションタイプを&#x200B;**read**&#x200B;と&#x200B;**write**&#x200B;の両方のアクセス権を持つように設定します。
-* TwitterアプリのWebサイトのURLが、Livefyre Coreアプリと同じホストドメインにあることを確認します。
+* twitterアプリのWebサイトのURLが、Livefyre Coreアプリと同じホストドメインにあることを確認します。
 
 >[!NOTE]
 >
->Twitterコンテンツを表示するすべてのアプリは、必要な表示構成に従う必要があります。 詳しくは、[Twitter表示のガイドライン](https://dev.twitter.com/terms/display-requirements)を参照してください。
+>twitterのコンテンツを表示するアプリはすべて、画面の要件に従う必要があります。 詳細については、[Twitterディスプレイのガイドライン](https://dev.twitter.com/terms/display-requirements)を参照してください。
 
 ## LinkedIn {#section_lfz_zxl_b1b}
 
-LinkedIn資格情報は、LinkedInアプリケーションのAPIキーのOAuth Keysセクションから利用できます。
+linkedInの資格情報は、LinkedInアプリケーションのAPIキーの「OAuth Keys」セクションから入手できます。
 
 * LinkedInの開発者ページ[https://developer.linkedin.com/](https://developer.linkedin.com/)からアカウントにサインインします。
 * 右上の名前の上にマウスポインターを置き、ドロップダウンメニューから「APIキー」を選択します。
@@ -68,12 +64,12 @@ LinkedIn資格情報は、LinkedInアプリケーションのAPIキーのOAuth K
 
 ## Facebook {#section_zyb_gpl_b1b}
 
-Facebookの資格情報は、開発者用アプリページから入手できます。
+Facebookの資格情報は、開発版Appsページから入手できます。
 
-* [Facebookの開発者向けアプリページ](https://developers.facebook.com/apps)をアプリの所有者として開き、アプリを見つけて、タイトルをクリックします。
+* [Facebookの開発版Appsページ](https://developers.facebook.com/apps)を開き、アプリの所有者としてアプリを探し、タイトルをクリックします。
 * アプリIDとアプリシークレットの値を取得します。 アプリシークレットを表示するには、「表示」ボタンをクリックする必要があります。
 
-Facebookに共有するには、Facebookリクエストを受け取り、[Facebook](https://developers.facebook.com/docs/reference/dialogs/oauth/)が求めるドメインプラクティスに従うリダイレクトページを設定する必要があります。 ページは、Facebookが正当なソースからの要求であることを検証できるように、ドメインでホストする必要があります。
+facebookへの共有では、リダイレクトページを設定して、Facebookのリクエストを受け取り、[Facebook](https://developers.facebook.com/docs/reference/dialogs/oauth/)が求めるドメイン慣行に従う必要があります。 ページは、Facebookが正当なソースからの要求であることを検証できるように、ドメインでホストする必要があります。
 
 ### Facebookリダイレクト
 
@@ -81,7 +77,7 @@ Facebookに共有するには、Facebookリクエストを受け取り、[Facebo
 
 ### Ruby
 
-これは、RubyとRailsを使用してFacebook OAuthのリダイレクトを行う例です。
+これは、RubyとRailsを使用して、FacebookOAuthのリダイレクトを行う例です。
 
 ```ruby
 require "base64" 
@@ -118,7 +114,7 @@ end
 
 ### Python
 
-これは、PythonとDjangoを使用してFacebook OAuthのリダイレクトを行う例です。
+これは、PythonとDjangoを使用して、FacebookのOAuthリダイレクトを行う例です。
 
 ```python
 import base64, re 
@@ -160,7 +156,7 @@ def handle_lfoauth(request):
 
 ### NodeJS
 
-これは、NodeJSとSail/Expressを使用してFacebook OAuthのリダイレクトを行う例です。
+これは、NodeJSとSail/Expressを使用して、FacebookのOAuthリダイレクトを行う例です。
 
 ```nodejs
 /* 
@@ -205,7 +201,7 @@ module.exports = {
 
 ### Java
 
-これは、JavaおよびSpringコントローラーを使用してFacebook OAuthリダイレクトを行う例です。
+これは、JavaおよびSpringコントローラを使用して、FacebookOAuthのリダイレクトを行う例です。
 
 ```java
 /* 
@@ -334,7 +330,7 @@ if (isset($_GET['lfoauth'])) {
 
 ## 「投稿先」プロバイダーの設定{#section_rdk_dpl_b1b}
 
-デフォルトでは、Facebook、LinkedInおよびTwitterの「投稿先」ボタンがLivefyreコアアプリケーションに表示されます。 postToButtonsパラメーターを使用して、Livefyreアプリを埋め込む際に表示するプロバイダーを設定します。
+デフォルトでは、Facebook、LinkedIn、Twitterの「投稿先」ボタンがLivefyre Coreアプリケーションに表示されます。 postToButtonsパラメーターを使用して、Livefyreアプリを埋め込む際に表示するプロバイダーを設定します。
 
 ```
 var convConfig = {}; // Ignoring other options for this example 
@@ -346,4 +342,4 @@ fyre.conv.load(networkConfig, [convConfig], function() {});
 
 * tw:Twitter
 * fb:Facebook
-* li:LinkedIn
+* li:linkedIn
