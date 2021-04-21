@@ -1,18 +1,14 @@
 ---
 description: 「アップロード」ボタンでは、これらのテキスト文字列を変更できます。
-seo-description: 「アップロード」ボタンでは、これらのテキスト文字列を変更できます。
-seo-title: アップロードボタンのテキスト文字列
-solution: Experience Manager
 title: アップロードボタンのテキスト文字列
-uuid: f4d24af3-c7cb-468d-96b9-b5360047b5dc
+exl-id: 10467ae3-294a-4c8f-99a4-201019b81ff1
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 0%
+source-wordcount: '389'
+ht-degree: 1%
 
 ---
-
 
 # アップロードボタンテキスト文字列{#upload-button-text-strings}
 
@@ -39,4 +35,3 @@ ht-degree: 0%
 |  | ヘッダーを有効にする | サイトの訪問者にコンテキストを提供するためのヘッダーを有効にします。 ボタンの上部または右側にヘッダーを追加するよう選択できます。 |
 |  | メイン吹き出しタイトル | ヘッダーのタイトルに使用するテキストです。 |
 |  | メイン引き出し線メッセージ | ヘッダーに使用するテキストです。 |
-
