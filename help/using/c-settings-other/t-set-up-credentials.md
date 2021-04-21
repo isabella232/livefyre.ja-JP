@@ -1,18 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: 資格情報の設定
-solution: Experience Manager
 title: 資格情報の設定
-uuid: 688af27e-97ba-4bff-8edd-6be82f48e6c7
+description: 資格情報の設定
+exl-id: cfbb40b6-e13b-4869-87f9-a1f2f6ddd5d3
 translation-type: tm+mt
-source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 4%
+source-wordcount: '130'
+ht-degree: 3%
 
 ---
-
 
 # 資格情報の設定{#set-up-credentials}
 
@@ -28,4 +24,3 @@ ht-degree: 4%
 * サイトURL
 * サイト ID
 * サイトキー
-
