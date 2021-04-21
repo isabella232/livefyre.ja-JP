@@ -1,18 +1,14 @@
 ---
 description: Livefyreネットワーク全体でのコンテンツの管理を参照してください。
-seo-description: Livefyreネットワーク全体でのコンテンツの管理を参照してください。
-seo-title: 「アプリコンテンツ」タブ
-solution: Experience Manager
 title: 「アプリコンテンツ」タブ
-uuid: 65b23085-2b79-4a6f-96c9-44b421805312
+exl-id: 8b3e5281-59ba-4321-8fee-4160ab7a5d5e
 translation-type: tm+mt
-source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
-
 
 # 「App Content」タブ{#app-content-tab}
 
@@ -134,7 +130,7 @@ Livefyre検索フィールドではワイルドカードがサポートされて
 
 ## コンテンツの機能を取り消すには{#section_ojx_3qm_zz}
 
-* Studioで、コンテンツの横の&#x200B;**[!UICONTROL +]**&#x200B;記号をクリックし、ドロップダウンリストで&#x200B;**[!UICONTROL Featured]**&#x200B;タグを選択して、**[!UICONTROL Enter]**&#x200B;をクリックしてコンテンツを編集します。 タグが保存され、コンテンツの横に表示されます。
+* Studioで、コンテンツの横の&#x200B;**[!UICONTROL +]**&#x200B;記号をクリックし、ドロップダウンリストで&#x200B;**[!UICONTROL Featured]**&#x200B;タグを選択して、**[!UICONTROL Enter]**&#x200B;をクリックしてコンテンツを機能させます。 タグが保存され、コンテンツの横に表示されます。
 
 * 機能を解除するには、コンテンツの一部に表示されている&#x200B;**[!UICONTROL Featured]**&#x200B;タグの&#x200B;**[!UICONTROL x]**&#x200B;をクリックします。
 
@@ -150,4 +146,3 @@ Livefyre検索フィールドではワイルドカードがサポートされて
 
 * 重点コンテンツにフラグを付けることはできません。
 * ユーザーは「特集」を設定した後はコンテンツを編集できませんが、必要に応じてコンテンツを削除できます。 モデレーターは重点コンテンツを編集できます。
-
