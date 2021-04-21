@@ -1,18 +1,14 @@
 ---
 description: YouTubeルールからコンテンツを引き出すストリームルールを作成できます。
-seo-description: YouTubeルールからコンテンツを引き出すストリームルールを作成できます。
-seo-title: YouTubeルール
-solution: Experience Manager
 title: YouTubeルール
-uuid: ec6a3780-7119-45c3-8ab2-fb0f9803d161
+exl-id: 720a6fc6-d5de-4c78-a14e-51bced6e8dda
 translation-type: tm+mt
-source-git-commit: 30aa5cce5e7567208362cc35caeb7b7260c42f3b
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
-
 
 # YouTubeルール{#youtube-rules}
 
@@ -20,7 +16,7 @@ YouTubeルールからコンテンツを引き出すストリームルールを�
 
 ユーザー、チャネルまたはプレイリストに基づいてYouTubeルールを作成します。
 
-YouTubeのコンテンツをYouTubeからアプリまたはフォルダーに取り込むためのYouTubeルールを作成するには、次のフィルターを使用できます。
+YouTubeからコンテンツをアプリまたはフォルダーに取り込むYouTubeルールを作成するには、次のフィルターを使用できます。
 
 * **[!UICONTROL User]**
    * **[!UICONTROL User]**&#x200B;のバニティ文字列を入力して、ユーザーのビデオをストリームに含めます。
