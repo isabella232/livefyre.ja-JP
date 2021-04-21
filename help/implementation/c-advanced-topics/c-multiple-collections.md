@@ -1,18 +1,14 @@
 ---
 description: 1つのページに複数のコレクションを表示します。
-seo-description: 1つのページに複数のコレクションを表示します。
-seo-title: 複数のコレクション
-solution: Experience Manager
 title: 複数のコレクション
-uuid: 9675ffd7-1a59-42a1-b3ba-40af1744cfd1
+exl-id: 748b6ca6-635e-4bae-9b95-cfbd4651751f
 translation-type: tm+mt
-source-git-commit: 5bf937c8cb1a9ca12216ee1884142b8787ff063e
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '108'
 ht-degree: 1%
 
 ---
-
 
 # 複数のコレクション{#multiple-collections}
 
