@@ -1,18 +1,14 @@
 ---
 description: タグ、モデレート、許可されているコンテンツなど、Storify 2のストーリーの設定を調整します。
-seo-description: タグ、モデレート、許可されているコンテンツなど、Storify 2のストーリーの設定を調整します。
-seo-title: 設定の保存
-solution: Experience Manager
 title: 設定の保存
-uuid: 030936fb-7c8b-487e-b468-7128b641c8ed
+exl-id: 11eed2ef-5e6d-4a7c-b6bb-b195b89fc79d
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
-
 
 # 設定の保存{#storify-settings}
 
@@ -57,4 +53,3 @@ ht-degree: 0%
 * **[!UICONTROL Allow Bulk Content]**
 
    一致するテキストを含む複数の投稿を許可します。
-
