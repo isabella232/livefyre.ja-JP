@@ -1,18 +1,14 @@
 ---
 description: サイトにアプリを追加するには、まずLivefyre Studioでアプリを作成する必要があります。
-seo-description: サイトにアプリを追加するには、まずLivefyre Studioでアプリを作成する必要があります。
-seo-title: アプリを作成
-solution: Experience Manager
 title: アプリを作成
-uuid: 8c2c07fb-a951-47d9-b498-4c487ee83a18
+exl-id: 1d87ae99-3529-497c-b533-13f212abeacd
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 1%
+source-wordcount: '1264'
+ht-degree: 0%
 
 ---
-
 
 # アプリを作成 {#create-an-app}
 
@@ -174,4 +170,3 @@ Livefyre StudioのAppsリストーからアプリケーションを削除でき�
 1. クリック **[!UICONTROL Apps]**.
 1. 削除するアプリケーション名の右側の省略記号をクリックします。
 1. **[!UICONTROL Delete App]**&#x200B;をクリックして、アプリを削除します。
-
