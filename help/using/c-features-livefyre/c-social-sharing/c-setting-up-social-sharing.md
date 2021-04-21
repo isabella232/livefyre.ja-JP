@@ -1,17 +1,14 @@
 ---
 description: ソーシャルシェアパネルでは、ソーシャルメディアネットワークアプリの資格情報を追加できます。
-seo-description: ソーシャルシェアパネルでは、ソーシャルメディアネットワークアプリの資格情報を追加できます。
-seo-title: ソーシャルシェアの設定
 title: ソーシャルシェアの設定
-uuid: e1940e30-9fbb-41e8-b5bb-497a5b06643f
+exl-id: aa940263-4cec-4ca3-aa74-84749e4cf2d0
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '337'
 ht-degree: 2%
 
 ---
-
 
 # ソーシャルシェアの設定{#setting-up-social-sharing}
 
@@ -19,11 +16,11 @@ ht-degree: 2%
 
 Livefyreはこの情報を使用して、ソーシャルアプリケーションに代わって、リストに記載されたソーシャルネットワークに接続し、ユーザーに代わって共有コンテンツを投稿します。 ソーシャル統合を有効にするには、次の値を入力します。 いつでも編集できます。
 
-このページの設定は、Livefyre統合プロセスで定義されたソーシャルシェアシステムを反映して更新されます。 独自のカスタムユーザーIDシステムを使用して統合するユーザーは、エンドユーザーがこれらのプラットフォームと共有できるようにする場合、Facebook、LinkedInおよびTwitterのソーシャルネットワーク資格情報を指定する必要があります。 Janrain Engageのお客様は、Janrainの資格情報の提供のみを必要とし、Facebook、Twitter、LinkedInは必要としません。
+このページの設定は、Livefyre統合プロセスで定義されたソーシャルシェアシステムを反映して更新されます。 独自のカスタムユーザーIDシステムを使用する統合機能では、エンドユーザーがこれらのプラットフォームと共有できるようにする場合、Facebook、LinkedInおよびTwitterにソーシャルネットワークの資格情報を提供する必要があります。 Janrain Engageのお客様は、ジャンレイン資格情報の提供のみを必要とし、Facebook、Twitter、LinkedInは必要としません。
 
 >[!NOTE]
 >
->ネットワークで有効にできるのは、ソーシャルメディアサイトあたり1つのアプリのみです。 これらのアプリを複数のサイトに含めることができますが、ネットワークには1つのFacebook、1つのTwitter、1つのLinkedIn、1つのBitly統合しか含められていません。
+>ネットワークで有効にできるのは、ソーシャルメディアサイトあたり1つのアプリのみです。 これらのアプリを複数のサイトに含めることができますが、ネットワークには、1つのFacebook、1つのTwitter、1つのLinkedIn、1つのBitly統合しか含めることができません。
 
 ## ジャンレインエンゲージメント{#section_dzq_1p1_21b}
 
@@ -34,27 +31,27 @@ Janrain Engageとの統合を有効にするには、次の資格情報を入力
 
 ## Facebook {#section_tch_gp1_21b}
 
-Facebookで共有するには、次のFacebookアプリケーションの資格情報を入力します。
+facebookと共有するには、次のFacebookアプリの資格情報を入力します。
 
-* **[!UICONTROL Client ID:]** Facebookアプリで提供されるクライアントID。
-* **[!UICONTROL Client Secret:]** Facebookアプリで提供されるクライアントシークレット。
-* **[!UICONTROL OAuth Proxy Redirect:]** Facebookリクエストを受け取るためのリダイレクトページ。
+* **[!UICONTROL Client ID:]** facebookアプリで提供されるクライアントID。
+* **[!UICONTROL Client Secret:]** facebookアプリで提供されるクライアントシークレット。
+* **[!UICONTROL OAuth Proxy Redirect:]** facebookのリクエストを受け取るためのリダイレクトページ。
 
 ## Twitter {#section_xkd_kp1_21b}
 
-Twitterで共有するには、次のTwitterアプリの資格情報を入力します。
+twitterと共有するには、次のTwitterアプリの資格情報を入力します。
 
-* **[!UICONTROL Access Token:]** APIリクエストを行うためのTwitterで提供されたトークン。
-* **[!UICONTROL Access Token Secret:]** APIリクエストを行うためのTwitterで提供される秘密。
-* **[!UICONTROL API Key:]** Twitterが提供するAPIキー。
-* **[!UICONTROL API Secret:]** Twitterが提供するAPIシークレット。
+* **[!UICONTROL Access Token:]** APIリクエストを行うためのTwitterが提供するトークン。
+* **[!UICONTROL Access Token Secret:]** APIリクエストを行うためのTwitterから提供された秘密。
+* **[!UICONTROL API Key:]** twitterが提供するAPIキー。
+* **[!UICONTROL API Secret:]** twitterから提供されたAPIシークレット。
 
 ## LinkedIn {#section_tqh_mp1_21b}
 
-LinkedInと共有するには、LinkedIn APIリクエストの次の資格情報を入力します。
+LinkedInと共有するには、LinkedInAPIリクエストに対して次の資格情報を入力します。
 
 * **[!UICONTROL API Key:]** LinkedInが提供するAPIキー。
-* **[!UICONTROL API Secret:]** LinkedInが提供するAPIシークレット。
+* **[!UICONTROL API Secret:]** LinkedInから提供されたAPIシークレット。
 
 ## ビットリ{#section_ur2_np1_21b}
 
@@ -78,4 +75,3 @@ Bitlyパーマリンクを有効にするには、Bitly統合の次の情報を�
 * [Sidenots](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 * [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
 * [トレンド](/help/using/c-about-apps/c-trending-app/c-trending-app.md#c_trending_app)
-
