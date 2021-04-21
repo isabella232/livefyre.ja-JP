@@ -1,18 +1,14 @@
 ---
 description: Storify 2をサイトに公開します。
-seo-description: Storify 2をサイトに公開します。
-seo-title: ストーリーの投稿
-solution: Experience Manager
 title: ストーリーの投稿
-uuid: 2fbf0ab3-ae59-4dac-8a4d-e076bb5e477a
+exl-id: 5252418a-cb91-4c4c-b488-c77a1f8fdc29
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
-
 
 # ストーリーの投稿{#publish-a-story}
 
