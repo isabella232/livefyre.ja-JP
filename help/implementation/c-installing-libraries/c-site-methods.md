@@ -1,18 +1,14 @@
 ---
 description: サイトクラスのメソッドを使用してサイトオブジェクトを作成します。
-seo-description: サイトクラスのメソッドを使用してサイトオブジェクトを作成します。
-seo-title: サイトクラスメソッド
-solution: Experience Manager
 title: サイトクラスメソッド
-uuid: cf1e641a-d4ef-4c92-a7d1-985380434fc2
+exl-id: 77d6585e-2397-4539-a5b8-5c8f6b13933e
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 1%
+source-wordcount: '90'
+ht-degree: 2%
 
 ---
-
 
 # サイトクラスメソッド{#site-class-methods}
 
@@ -37,4 +33,3 @@ Siteオブジェクトの作成手順については、Networkクラスを参照
 * PHP
 * Python
 * Ruby
-
