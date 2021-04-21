@@ -1,18 +1,14 @@
 ---
 description: Studioでは、すべてのエディタが行ったすべての変更が自動的に保存され、表示される変更ごとに新しいバージョンが生成されます。
-seo-description: Studioでは、すべてのエディタが行ったすべての変更が自動的に保存され、表示される変更ごとに新しいバージョンが生成されます。
-seo-title: レビュー履歴
-solution: Experience Manager
 title: レビュー履歴
-uuid: c2f8a45b-54c1-4667-893a-b3bd4be4546a
+exl-id: d0ed17ae-0878-4477-8ec7-49b7f6e638d1
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
-
 
 # レビュー履歴{#review-history}
 
