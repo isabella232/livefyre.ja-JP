@@ -1,18 +1,14 @@
 ---
 description: ネットワークアカウントがStudioアカウントに接続されると、ブックマークを付けたリンクまたはLivefyre Appを介してStudioにアクセスできます。
-seo-description: ネットワークアカウントがStudioアカウントに接続されると、ブックマークを付けたリンクまたはLivefyre Appを介してStudioにアクセスできます。
-seo-title: Studioにログインする
-solution: Experience Manager
 title: Studioにログインする
-uuid: b2e565c0-895e-402d-a9dd-d407571d18c9
+exl-id: 1c03c260-187b-47e8-8f0a-0cd2a46d7021
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
-
 
 # Studioにログイン{#log-into-studio}
 
