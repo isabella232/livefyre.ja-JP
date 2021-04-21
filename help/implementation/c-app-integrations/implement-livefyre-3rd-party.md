@@ -1,18 +1,14 @@
 ---
 description: Livefyreアプリを最初から作成して、カスタマイズしたエクスペリエンスとデータのビジュアライゼーションを作成します。
-seo-description: Livefyreアプリを最初から作成して、カスタマイズしたエクスペリエンスとデータのビジュアライゼーションを作成します。
-seo-title: Livefyreとサードパーティの統合の統合
-solution: Experience Manager
 title: LivefyreをCMSに統合する
-uuid: 5a3e18e8-8568-45bb-9070-d0fa43dd819b
+exl-id: 05d85792-de97-47b1-90cc-ad7e841754b5
 translation-type: tm+mt
-source-git-commit: 2436c389cbe14c7d64dd8c0392a3e0f031468836
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
-
 
 # Livefyreのサードパーティとの統合の実装
 
@@ -39,7 +35,7 @@ b.Livefyre.jsの埋め込みコード構造を使用して、Livefyreアプリ�
    * Sidentsアプリの統合方法について詳しくは、[Sidents](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md)を参照してください。
 
 1. 認証統合を実行します。
-a.ユーザー認証トークンを作成して、Livefyreにユーザーデータを渡して保存します。
+a.ユーザー認証トークンを作成して、Livefyreでユーザーデータを渡し、保存します。
 b.サードパーティのユーザーおよび認証プラットフォームを統合する。 サポートされるプラットフォームのリストについては、[ID統合](/help/implementation/t-about-identity-integration/t-about-identity-integration.md)を参照してください。
 
 1. アプリのカスタマイズを実行します。 アプリのカスタマイズオプションを使用して、ブランドやスタイルに合わせたり、カスタム機能を追加したりできます。
