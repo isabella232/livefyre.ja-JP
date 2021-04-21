@@ -1,18 +1,14 @@
 ---
 description: Blog型としてインスタンス化されたCollectionオブジェクトを返します。 Collectionオブジェクトからcreate_or_update()を実行し、ビルドプロセスを完了します。
-seo-description: Blog型としてインスタンス化されたCollectionオブジェクトを返します。 Collectionオブジェクトからcreate_or_update()を実行し、ビルドプロセスを完了します。
-seo-title: buildBlogCollectionサイトメソッド
-solution: Experience Manager
 title: buildBlogCollectionサイトメソッド
-uuid: 6a5ec6b9-bc32-467a-abe6-a57c6defe067
+exl-id: 93565eff-dc4e-4868-9d75-50f16ddb4fa4
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 6%
+source-wordcount: '94'
+ht-degree: 8%
 
 ---
-
 
 # buildBlogCollectionサイトメソッド{#buildblogcollection-site-method}
 
@@ -53,4 +49,3 @@ collection = site.build_blog_collection(title, articleId, url)
 ```
 collection = site.build_blog_collection(title, articleId, url) 
 ```
-
