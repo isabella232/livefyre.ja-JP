@@ -1,18 +1,14 @@
 ---
 description: アプリストリームに含めるメディアのタイプを制限する。
-seo-description: アプリストリームに含めるメディアのタイプを制限する。
-seo-title: メディアの制限
-solution: Experience Manager
 title: メディアの制限
-uuid: c470c985-d221-4f39-8bd4-4e44ec14db95
+exl-id: ae09a058-41de-4b63-8654-cc82f5abad14
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
-
 
 # メディアを制限{#restrict-media}
 
@@ -24,7 +20,7 @@ ht-degree: 0%
 >
 >LivefyreとEmbedlyのパートナーがメディア統合に関与しています。 詳しくは、コンテンツの統合/統合を参照してください。 リンクの拡張やソースに関するご質問は、担当のテクニカルアカウントマネージャーにお問い合わせください。
 
-次の例では、YouTubeおよびVimeoがコメントストリームから埋め込むのをブロックします。
+次の例では、YouTubeとVimeoがコメントストリームから埋め込むのをブロックします。
 
 ```
 var attachmentDelegate = function(embedObj) { 
@@ -44,4 +40,3 @@ var attachmentDelegate = function(embedObj) {
 networkConfig["attachmentDelegate"] = attachmentDelegate; 
 fyre.conv.load(networkConfig, [convConfig]);
 ```
-
