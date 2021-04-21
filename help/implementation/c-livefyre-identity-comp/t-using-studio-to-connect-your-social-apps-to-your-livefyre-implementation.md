@@ -1,17 +1,14 @@
 ---
 description: ソーシャルログインを有効にするには、Studioを使用してLivefyre統合にソーシャルアプリケーションの資格情報を追加し、ログインモーダルをカスタマイズします。
-seo-description: ソーシャルログインを有効にするには、Studioを使用してLivefyre統合にソーシャルアプリケーションの資格情報を追加し、ログインモーダルをカスタマイズします。
-seo-title: Studioを使用したSocialアプリケーションのLivefyre実装への接続
 title: Studioを使用したSocialアプリケーションのLivefyre実装への接続
-uuid: be14869c-e0df-48cd-a1f3-99eb953dd9ce
+exl-id: 2ccb9737-8c59-4c1d-93d3-61f913b3cdd6
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 0%
+source-wordcount: '584'
+ht-degree: 1%
 
 ---
-
 
 # Studioを使用したLivefyre実装へのソーシャルアプリケーションの接続{#using-studio-to-connect-your-social-apps-to-your-livefyre-implementation}
 
@@ -43,17 +40,17 @@ Livefyreネイティブアカウントを使用したログインを有効にす
 1. Livefyre Studioの&#x200B;**[!UICONTROL Integration Settings]**&#x200B;に移動します。
 1. **[!UICONTROL Enable Login with Email]**&#x200B;トグルを&#x200B;**[!UICONTROL On]**&#x200B;に切り替えます。
 
-## Facebookアカウントを使用したログインを有効にする{#section_ph3_515_bbb}
+## facebookアカウントを使用したログインを有効にする{#section_ph3_515_bbb}
 
-FacebookアカウントをLivefyreに接続して、ユーザーがFacebookのログインを使用してサイト上のアプリとやり取りできるようにします。
+facebookアカウントをLivefyreに接続して、ユーザーがFacebookログインを使用してサイト上のアプリとやり取りできるようにします。
 
-Facebookアカウントを使用したログインを有効にするには：
+facebookアカウントを使用したログインを有効にするには：
 
 1. **[!UICONTROL Enable Login with Facebook]**&#x200B;トグルを&#x200B;**[!UICONTROL ON]**&#x200B;に切り替えます。
 
 1. 追加Facebookアプリの&#x200B;**[!UICONTROL App ID]**&#x200B;と&#x200B;**[!UICONTROL App Secret]**。
 
-   これらの値は、アプリのFacebook開発者ダッシュボードに一覧表示されます。これは[https://developers.facebook.com/apps/](https://developers.facebook.com/apps/675503539257343/dashboard/)から入手できます。
+   これらの値は、[https://developers.facebook.com/apps/](https://developers.facebook.com/apps/675503539257343/dashboard/)から入手できる、アプリのFacebook開発者ダッシュボードに一覧表示されます。
 
 ## Googleでのログインを有効にする{#section_fq3_kb5_bbb}
 
@@ -67,17 +64,17 @@ Google+アカウントを使用したログインを有効にするには：
 
    これらの値は、Google Cloud Platformプロジェクトインターフェイスに一覧表示されます。このインターフェイスは、[https://console.cloud.google.com/](https://console.cloud.google.com/apis/library)から入手できます。 この情報を取得するには、**[!UICONTROL API Manager > Credentials]**&#x200B;に移動し、プロジェクト名をクリックします。
 
-## Twitterアカウントを使用したログインの有効化{#section_iyz_wb5_bbb}
+## twitterアカウントを使用したログインの有効化{#section_iyz_wb5_bbb}
 
-TwitterアカウントをLivefyreに接続して、ユーザーがTwitterログインを使用してサイト上のアプリとやり取りできるようにします。
+twitterアカウントをLivefyreに接続して、ユーザーがTwitterログインを使用してサイト上のアプリとやり取りできるようにします。
 
-Twitterアカウントを使用したログインを有効にするには：
+twitterアカウントを使用したログインを有効にするには：
 
 1. **[!UICONTROL Enable Login with Twitter]**&#x200B;トグルを&#x200B;**[!UICONTROL ON]**&#x200B;に切り替えます。
 
 1. 追加Twitterアプリの&#x200B;**[!UICONTROL Consumer Key (API Key)]**&#x200B;と&#x200B;**[!UICONTROL Consumer Secret (API Secret)]**。
 
-   これらの値はTwitterアプリの&#x200B;**[!UICONTROL Keys and Access Tokens]**&#x200B;ページに一覧表示され、[https://apps.twitter.com/](https://apps.twitter.com/)から入手できます。
+   これらの値は、Twitterアプリの&#x200B;**[!UICONTROL Keys and Access Tokens]**&#x200B;ページに一覧表示され、[https://apps.twitter.com/](https://apps.twitter.com/)から入手できます。
 
 ## Yahoo！を使用したログインを有効にする アカウント {#section_s1q_3c5_bbb}
 
