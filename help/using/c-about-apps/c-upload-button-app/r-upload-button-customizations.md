@@ -1,18 +1,14 @@
 ---
 description: アップロードボタンのサイズ、幅およびインタラクションオプションを変更します。
-seo-description: アップロードボタンのサイズ、幅およびインタラクションオプションを変更します。
-seo-title: アップロードボタンのカスタマイズ
-solution: Experience Manager
 title: アップロードボタンのカスタマイズ
-uuid: d820bbec-8c76-4864-9e70-55394010c35d
+exl-id: 7481911f-2fb5-4721-8345-cbdd5e4ea202
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 8%
+source-wordcount: '384'
+ht-degree: 5%
 
 ---
-
 
 # アップロードボタンのカスタマイズ{#upload-button-customizations}
 
@@ -52,4 +48,3 @@ ht-degree: 8%
 * **[!UICONTROL Style]** 」および「」のすべてのアプリの **[!UICONTROL Config]** オプションを選択し **[!UICONTROL App Designer]**&#x200B;ます。**[!UICONTROL App Designer]**&#x200B;のすべてのアプリの標準&#x200B;**[!UICONTROL Style]**&#x200B;および&#x200B;**[!UICONTROL Config]**&#x200B;オプションの詳細については、「アプリのカスタマイズ」を参照してください
 
 * 統合ツール。 統合ツールを使用してアプリをカスタマイズする方法について詳しくは、「アプリの統合」を参照してください。
-
