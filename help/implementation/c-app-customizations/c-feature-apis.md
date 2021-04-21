@@ -1,17 +1,14 @@
 ---
 description: 機能APIを使用してプロセスを自動化する
-seo-description: 機能APIを使用してプロセスを自動化する
-seo-title: 機能API
 title: 機能API
-uuid: eac3a156-0b60-4ffa-8b6f-e451eb03da77
+exl-id: 765e47fe-a406-44e6-b4fb-b2e85fc83c01
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '146'
 ht-degree: 4%
 
 ---
-
 
 # 機能API{#feature-apis}
 
@@ -68,4 +65,3 @@ POST: https://{networkName}.quill.fyre.co/api/v3.0/collection/<collectionId>/unf
 >[!NOTE]
 >
 >データフィールドはまだ使用されていません。
-
