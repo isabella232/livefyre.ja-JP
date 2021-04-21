@@ -1,18 +1,14 @@
 ---
 description: 2018年11月16日リリースのリリースノートです。
-seo-description: 2018年11月16日リリースのリリースノートです。
-seo-title: リリースノート
-solution: Experience Manager
 title: リリースノート
-uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
+exl-id: 3f904022-b770-4f35-a3b0-790e15748763
 translation-type: tm+mt
-source-git-commit: efb031b58f01ec69c8297a808998d25a0015f102
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 7%
+source-wordcount: '363'
+ht-degree: 6%
 
 ---
-
 
 # リリースノート{#release-notes}
 
@@ -22,19 +18,19 @@ ht-degree: 7%
 
 このリリースの実稼働版でリリースされた新機能：
 
-* **Instagramの検索とストリームに対する更新。** Instagramのビジネス *アカウン* トは次のように使用できます。
+* **instagram検索とストリームの更新。** 次の目的で、 *Instagramビジネス* アカウントを使用できます。
 
-   * ユーザーによるInstagramのソーシャル検索を実行します（ユーザーはInstagramのビジネスアカウントである必要もあります）。
+   * ユーザーによるInstagramのソーシャル検索を実行します(ユーザーは、Instagramのビジネスアカウントである必要もあります)。
 
-   * 特定のInstagramユーザーアカウント（アカウントは、会社のアカウントも含む）からInstagramストリームを作成します。
+   * 特定のInstagramユーザーアカウント（自分のアカウントを含む、ビジネスアカウントのアカウント）からInstagramストリームを作成します。
 
    * 部分的に自動化されたワークフローを使用して、Instagramにアセットの権限を要求します。
 
-   * Instagramアカウントの設定と要求に必要な種類について詳しくは、[Instagramアカウントについて](/help/using/c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md)を参照してください。
+   * 設定してInstagramから権限を要求する必要があるInstagramアカウントの種類については、[Instagramアカウントについて](/help/using/c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md)を参照してください。
 
 * **ビジネスアカウントベースの検索に対する使用権限リクエストの応答を自動で監視する。** ビジネスアカウントベースの検索のみ — 権限要求への応答を自動的に監視し、Livefyreのアクティビティ履歴を更新する機能を使用できます。
 
-Instagramアカウントの権限を要求する方法について詳しくは、[Instagram権限要求を手動で送信](/help/using/c-how-requesting-rights-works/c-send-instagram-manual-rights-request.md)および[部分的に自動化されたInstagram権限要求の送信](/help/using/c-how-requesting-rights-works/c-send-an-instagram-rights-request-from-the-library.md)を参照してください。
+instagramアカウントの権限を要求する方法の詳細については、[「Instagram権限要求を手動で送信](/help/using/c-how-requesting-rights-works/c-send-instagram-manual-rights-request.md)」および「[部分的に自動化されたInstagram権限要求の送信](/help/using/c-how-requesting-rights-works/c-send-an-instagram-rights-request-from-the-library.md)」を参照してください。
 
 * **Adobe Target の統合.** Adobe Targetとの統合が追加され、Livefyre Appsを直接Adobe Targetオファーライブラリで共有できるようになりました。LivefyreをAdobe Targetと併用する方法について詳しくは、[ターゲットドキュメント](hhttps://docs.adobe.com/content/help/en/livefyre/using/library/livefyre-target.html)を参照してください。
 
