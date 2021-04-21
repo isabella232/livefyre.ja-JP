@@ -1,18 +1,14 @@
 ---
 description: 保存したアセットをライブラリからLivefyreアプリに公開します。
-seo-description: 保存したアセットをライブラリからLivefyreアプリに公開します。
-seo-title: アセットをアプリに公開
-solution: Experience Manager
 title: アセットをアプリに公開
-uuid: 42d39142-b047-4055-b946-15bcc91d5a95
+exl-id: 15c33394-da32-4057-a9ba-0323c85f7f92
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
-
 
 # アプリにアセットを公開{#publish-assets-to-apps}
 
