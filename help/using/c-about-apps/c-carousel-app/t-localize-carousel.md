@@ -1,18 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: カルーセルのローカライズ
-solution: Experience Manager
 title: カルーセルのローカライズ
-uuid: 168b061d-dc60-4a4a-b6f7-154a3f81dc00
+description: カルーセルのローカライズ
+exl-id: 9ebe390c-be72-4381-b7b9-8c8fb5afe1c9
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 8%
+source-wordcount: '46'
+ht-degree: 4%
 
 ---
-
 
 # カルーセルのローカライズ{#localize-a-carousel}
 
@@ -21,4 +17,3 @@ ht-degree: 8%
    * [カルーセルの翻訳セットの作成と変更](/help/using/c-settings-other/c-translation-sets/t-create-modify-translation-sets.md)
    * [翻訳セットのサイトへの適用](/help/using/c-settings-other/c-translation-sets/t-apply-a-translation-set-to-a-site.md)
    * [翻訳セットをネットワークに適用する](/help/using/c-settings-other/c-translation-sets/t-apply-a-translation-set-to-a-network.md)
-
