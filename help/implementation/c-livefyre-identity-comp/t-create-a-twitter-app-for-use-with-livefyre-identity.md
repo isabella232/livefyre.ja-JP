@@ -1,29 +1,25 @@
 ---
-description: Livefyre IDとTwitterを使用して、Twitterログインを使用してサイト上のアプリを操作できるようにすることができます。
-seo-description: Livefyre IDとTwitterを使用して、Twitterログインを使用してサイト上のアプリを操作できるようにすることができます。
-seo-title: Livefyre IDと共に使用するTwitterアプリを作成する
-solution: Experience Manager
+description: Livefyre IDとTwitterを使用して、ユーザーがTwitterログインを使用してサイト上のアプリを操作できるようにすることができます。
 title: Livefyre IDと共に使用するTwitterアプリを作成する
-uuid: 841cce7c-618d-4154-85a3-1de96d04bb69
+exl-id: 4f2b919f-fe5d-49a3-8432-04ffb3d68ce4
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '170'
 ht-degree: 1%
 
 ---
 
+# Livefyre IDと共に使用するTwitterアプリを作成{#create-a-twitter-app-for-use-with-livefyre-identity}
 
-# Livefyre IDと共に使用するTwitterアプリを作成する{#create-a-twitter-app-for-use-with-livefyre-identity}
+Livefyre IDとTwitterを使用して、ユーザーがTwitterログインを使用してサイト上のアプリを操作できるようにすることができます。
 
-Livefyre IDとTwitterを使用して、Twitterログインを使用してサイト上のアプリを操作できるようにすることができます。
-
-Twitterのログインを有効にするには、Livefyreで次のTwitterアプリ情報が必要です。
+twitterログインを有効にするには、Livefyreで次のTwitterアプリ情報が必要です。
 
 * Consumer key（APIキー）
 * Consumer secret（APIシークレット）
 
-Livefyre Idで使用するTwitterアプリを作成するには：
+Livefyre IDで使用するTwitterアプリを作成するには：
 
 1. [https://apps.twitter.com/](https://apps.twitter.com/)に移動し、Twitterアカウントにサインインして、Livefyre IDで使用する新しいアプリを作成するか、既存のアプリを選択します。
 1. アプリの設定ページから、次の操作を行います。
