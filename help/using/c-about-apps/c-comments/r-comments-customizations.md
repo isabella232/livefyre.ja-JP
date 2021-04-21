@@ -1,18 +1,14 @@
 ---
 description: コメントをカスタマイズして、リアルタイムの会話をサイトに埋め込みます。
-seo-description: コメントをカスタマイズして、リアルタイムの会話をサイトに埋め込みます。
-seo-title: コメントのカスタマイズ
-solution: Experience Manager
 title: コメントのカスタマイズ
-uuid: 7ec08aaf-553f-49a2-b237-d4bdcb5714ff
+exl-id: 6a1de42c-4a0f-41c6-ba0d-8cdf0ebfbcea
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
-
 
 # コメントのカスタマイズ{#comments-customizations}
 
@@ -20,7 +16,7 @@ ht-degree: 0%
 
 
 
-利用可能なオプションを使用して、ユーザーがTwitter、FacebookおよびLinkedInでコンテンツを共有し、友達をストリームに引き込むことを許可します。
+利用可能なオプションを使用して、ユーザーがTwitter、Facebook、LinkedInでコンテンツを共有し、友達をストリームに引き込むことを許可します。
 
 * **[!UICONTROL Number of comments to load]**
 
@@ -36,7 +32,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Expand media]**
 
-   有効にすると、メディアの添付ファイルは、ストリーム内で完全に拡張されたメディアとしてインラインで表示されます。 無効にすると、メディアはリンクとしてのみ表示されます。
+   有効にすると、メディア添付ファイルは、ストリーム内で完全に拡張されたメディアとしてインラインで表示されます。 無効にすると、メディアはリンクとしてのみ表示されます。
 
 * **[!UICONTROL Number of listeners]**
 
@@ -60,7 +56,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Users may share posts]**
 
-   有効にすると、ユーザーが投稿を共有できます。 有効にすると、ユーザーは投稿したコンテンツをTwitter、FacebookまたはLinkedInで共有できます。 共有を有効にする方法について詳しくは、設定/統合の設定/ソーシャルシェアを参照してください。
+   有効にすると、ユーザーが投稿を共有できます。 有効にすると、ユーザーは投稿したコンテンツをTwitter、Facebook、LinkedInで共有できます。 共有を有効にする方法について詳しくは、設定/統合の設定/ソーシャルシェアを参照してください。
 
 * **[!UICONTROL Featured content at top of stream]**
 
@@ -79,4 +75,3 @@ ht-degree: 0%
 * **[!UICONTROL Style]** 」および「」のすべてのアプリの **[!UICONTROL Config]** オプションを選択し **[!UICONTROL App Designer]**&#x200B;ます。**[!UICONTROL App Designer]**&#x200B;のすべてのアプリの標準&#x200B;**[!UICONTROL Style]**&#x200B;および&#x200B;**[!UICONTROL Config]**&#x200B;オプションについて詳しくは、「アプリのカスタマイズ」を参照してください。
 
 * **[!UICONTROL Integration tools]**&#x200B;をインストールします。統合ツールを使用してコメントをカスタマイズする方法について詳しくは、コメントを参照してください。
-
