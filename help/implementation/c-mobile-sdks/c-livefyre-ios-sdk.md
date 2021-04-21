@@ -1,18 +1,14 @@
 ---
 description: 追加LivefyreをネイティブのiOSアプリケーションにアップロードします。
-seo-description: 追加LivefyreをネイティブのiOSアプリケーションにアップロードします。
-seo-title: Livefyre iOS SDK
-solution: Experience Manager
 title: Livefyre iOS SDK
-uuid: bfdef31a-49fc-4b25-b0c5-300f27067302
+exl-id: 961c41dc-fee8-480c-a189-a20a689e705f
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
-
 
 # Livefyre iOS SDK{#livefyre-ios-sdk}
 
