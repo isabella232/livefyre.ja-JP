@@ -1,17 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: スマートタグ
 title: スマートタグ
-uuid: f978fa83-e79b-46ae-bb3e-0f9449bd0440
+description: スマートタグ
+exl-id: cbbc5550-d6cf-42e5-bce7-2c270cc968cd
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
-
 
 # スマートタグ{#smart-tags}
 
