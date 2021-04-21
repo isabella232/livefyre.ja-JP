@@ -1,18 +1,14 @@
 ---
 description: Livefyre Studioの実装時の期待値
-seo-description: Livefyre Studioの実装時の期待値
-seo-title: 実装プロセス
-solution: Experience Manager
 title: 実装プロセス
-uuid: 9a0f394e-3467-47d1-9816-45e2130db440
+exl-id: 82bf8c09-946a-4be8-97bf-5b9868a4e031
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '291'
 ht-degree: 3%
 
 ---
-
 
 # 実装プロセス{#implementation-process}
 
@@ -49,4 +45,3 @@ Livefyreの統合には、主に次の3つの手順があります。
 * カスタマイズ
 
    カスタマイズはオプションですが、ほとんどのお客様はブランドに合わせてアプリをカスタマイズできます。
-
