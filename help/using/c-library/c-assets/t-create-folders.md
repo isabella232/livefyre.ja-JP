@@ -1,18 +1,14 @@
 ---
 description: フォルダーを作成してアセットを整理します。
-seo-description: フォルダーを作成してアセットを整理します。
-seo-title: アセットフォルダの作成
-solution: Experience Manager
 title: アセットフォルダの作成
-uuid: fe5eb098-ac8c-44e9-aee4-6c0b88f82747
+exl-id: f9c83081-c1c8-4e3a-b975-55d6738995f5
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
-
 
 # アセットフォルダの作成{#create-asset-folders}
 
