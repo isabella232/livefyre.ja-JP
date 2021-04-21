@@ -1,18 +1,14 @@
 ---
 description: StudioアカウントをLivefyreアカウントにリンクして、すべてのLivefyreサイトまたはネットワークを1か所でモデレートまたは管理します。
-seo-description: StudioアカウントをLivefyreアカウントにリンクして、すべてのLivefyreサイトまたはネットワークを1か所でモデレートまたは管理します。
-seo-title: ユーザーアカウントのリンク
-solution: Experience Manager
 title: ユーザーアカウントのリンク
-uuid: f1106367-64f9-4304-aa04-f931f79ffd6d
+exl-id: 68f47cb1-fc14-4f7c-a8ff-ac407ca3ffe1
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
-
 
 # ユーザーアカウントのリンク{#link-user-accounts}
 
@@ -25,8 +21,7 @@ StudioアカウントをLivefyreアカウントにリンクして、すべての
 アカウントをリンクするには：
 
 1. ネットワークにLivefyreユーザープロファイルを作成した後、Studioにログインします。
-1. **[!UICONTROL Users]**&#x200B;に移動し、ユーザープロファイルを探し、重複がクリックして表示の詳細を表示します。
+1. **[!UICONTROL Users]**&#x200B;に移動し、ユーザープロファイルを探し、重複が表示の詳細をクリックします。
 1. クリック **[!UICONTROL Connect account]**.
 1. 開いたウィンドウで、このアカウントにリンクするユーザーアカウントを選択します。
 1. **[!UICONTROL Link Profile]**&#x200B;情報を確認し、**[!UICONTROL Link]**&#x200B;をクリックします。 ![](assets/UsersConnectAccount-1024x311.png)
-
