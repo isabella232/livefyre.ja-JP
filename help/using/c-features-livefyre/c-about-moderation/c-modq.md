@@ -1,17 +1,14 @@
 ---
 description: インテリジェントな単一のインターフェイスからコンテンツをモデレートします。
-seo-description: インテリジェントな単一のインターフェイスからコンテンツをモデレートします。
-seo-title: ModQを使用したコンテンツのモデレート
 title: ModQを使用したコンテンツのモデレート
-uuid: c630fb85-7bd0-4da0-ac7e-080e970fb4f9
+exl-id: 694b1f45-2b24-4e80-99a1-788e2cecc8a4
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
-
 
 # ModQ{#moderate-content-using-modq}を使用したコンテンツのモデレート
 
@@ -32,7 +29,7 @@ LivefyreのコンテンツはModQで最大6週間、アドレスが指定され�
 
 >[!NOTE]
 >
->ModQに含める複数のルールと一致する場合は、1つのコンテンツを複数回リストすることができます。 例えば、コンテンツの一部が不快なユーザーフラグルールをトリガーし、後でProfanceの別のルールをトリガーした場合、そのルールはModQに2回表示されます。
+>ModQに含める複数のルールと一致する場合は、1つのコンテンツを複数回リストすることができます。 例えば、コンテンツの一部が不快なときのユーザーフラグルールをトリガーし、後で別のトリガーが不快なときの別のルールをユーザーに送信した場合、そのルールはModQに2回表示されます。
 
 ModQに表示されないコンテンツには、以下が含まれます。
 
@@ -45,7 +42,7 @@ ModQに表示されないコンテンツには、以下が含まれます。
 ModQは2つのタブ付きパネルに分割されます。
 
 * **[!UICONTROL Items]** モデレート用に作成された、ネイティブのLivefyreおよびSocialSyncのすべてのコンテンツをリストします。このタブには、モデレート後にフラグ付けまたは編集されたソーシャル検索またはストリームコンテンツが含まれます。
-* **[!UICONTROL Streams Premoderation]** プリモデレートが有効な状態で、Streamsからアプリを開くコンテンツにリストがアクセスします。（詳細は、「ストリームの作成」を参照）。
+* **[!UICONTROL Streams Premoderation]** プリモデレートが有効な状態で、Streamsからアプリケーションに入るすべてのコンテンツをリストします。（詳細は、「ストリームの作成」を参照）。
 
 両方のタブに、同じフィルターおよびモデレートツールの多くがオファーされています。
 
@@ -125,7 +122,7 @@ ModQの各コンテンツで何を行うかはユーザが決めます。
 
    >[!NOTE]
    >
-   >ModQでInstagramのコンテンツに対する権限を要求することはできません。 Instagramからコンテンツの権限要求を送信するには、ライブラリまたはアプリのコンテンツを使用する必要があります。
+   >ModQでのコンテンツの権限をInstagramからリクエストすることはできません。 ライブラリまたはアプリのコンテンツを使用して、Instagramからコンテンツの権利要求を送信する必要があります。
 
 * **[!UICONTROL Feature and Approve]** コンテンツを承認し、コンテンツの一部を特集する場合。
 * **[!UICONTROL Product Tag and Approve]** を使用して、商品カタログからコンテンツに商品を追加し、承認します。
@@ -171,4 +168,3 @@ ModQを使用するアプリ：
 * [Sidenots](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 * [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
 * [アップロードボタン](/help/using/c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
-
