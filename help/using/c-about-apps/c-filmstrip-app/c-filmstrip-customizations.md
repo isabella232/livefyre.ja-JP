@@ -1,18 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Filmstripのカスタマイズ
-solution: Experience Manager
 title: Filmstripのカスタマイズ
-uuid: 99f8b697-4aa3-4813-bcac-d0e0bdee252d
+description: Filmstripのカスタマイズ
+exl-id: 2765699f-7adc-4b17-acfb-ef594ff65e89
 translation-type: tm+mt
-source-git-commit: bd989c97ae5cf06a5ac3deec215f865b0fe95d16
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
-
 
 # フィルムストリップのカスタマイズ{#filmstrip-customizations}
 
@@ -24,7 +20,7 @@ App Designerの次の追加オプションを使用して、フィルムスト�
 * **[!UICONTROL Tile Size]**&#x200B;をインストールします。タイルのサイズをピクセル単位で入力します。
 * **[!UICONTROL Show Notifications]**&#x200B;をインストールします。フィルムストリップアプリにストリーミングされる新しいコンテンツの通知を表示するかどうかを選択します。
 * **[!UICONTROL Require rights]**&#x200B;をインストールします。権限要求のステータスが「許可済み」であるコンテンツのみを表示する場合は、このオプションを有効にします。
-* **[!UICONTROL Hide social branding when rights granted]** コンテンツの権限が付与されたときに、元のソーシャルメディアネットワーク（TwitterまたはInstagram）のロゴを削除するには、これをオンにします。
+* **[!UICONTROL Hide social branding when rights granted]** コンテンツの権限が付与されたときに、元のソーシャルメディアネットワーク(TwitterまたはInstagram)のロゴを削除するには、これをオンにします。
 * **[!UICONTROL Call-to-action button]** 誘い文句（CTA：コールトゥアクション）ボタンを製品カタログと組み合わせて使用すると、ユーザーを製品やサイトに誘導して、その後のアクションを実現できます。
 
    * **[!UICONTROL Call-to-action button]** トグルをオンに切り替えて、誘い文句（CTA：コールトゥアクション）ボタンを表示します。
@@ -54,4 +50,3 @@ App Designerの次の追加オプションを使用して、フィルムスト�
    * **[!UICONTROL Show related content]**&#x200B;をインストールします。これを切り替えて、アプリに投稿されたが、異なる製品IDでタグ付けされたコンテンツを表示します。 アプリ用の製品固有のコンテンツが表示されると、Livefyreは他の製品のコンテンツと製品に関連付けられていないコンテンツを表示します。 Livefyreは、最初に同じ製品IDを持つコンテンツを優先順位付けし、次に他の製品IDを持つアプリに公開したコンテンツ、次に製品IDを持たないアプリに公開したコンテンツを優先順位付けします。
 
 Livefyre.jsを使用してFilmstripをカスタマイズする方法について詳しくは、[Filmstrip Options](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)を参照してください。
-
