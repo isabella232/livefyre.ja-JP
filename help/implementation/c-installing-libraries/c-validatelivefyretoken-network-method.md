@@ -1,18 +1,14 @@
 ---
 description: Livefyreトークンがこのネットワークに対してまだ有効かどうかを確認します。 ブール型( Boolean )の値を返します。
-seo-description: Livefyreトークンがこのネットワークに対してまだ有効かどうかを確認します。 ブール型( Boolean )の値を返します。
-seo-title: validateLivefyreTokenネットワークメソッド
-solution: Experience Manager
 title: validateLivefyreTokenネットワークメソッド
-uuid: 2bac11de-d6c4-419f-9c7b-92cfb541d07e
+exl-id: c311005d-65fa-4f82-b482-8d173d6275cd
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 4%
+source-wordcount: '67'
+ht-degree: 5%
 
 ---
-
 
 # validateLivefyreTokenネットワークメソッド{#validatelivefyretoken-network-method}
 
@@ -81,4 +77,3 @@ network.validate_livefyre_token(lfToken)
 ```
 true 
 ```
-
