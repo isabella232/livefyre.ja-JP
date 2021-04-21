@@ -1,18 +1,14 @@
 ---
 description: Livefyre.jsを使用して、Livefyre Appsのページ全体の認証を追加します。
-seo-description: Livefyre.jsを使用して、Livefyre Appsのページ全体の認証を追加します。
-seo-title: 追加Livefyre.jsを使用したアプリの認証
-solution: Experience Manager
 title: 追加Livefyre.jsを使用したアプリの認証
-uuid: b7c61e07-e341-45d7-9112-c50155e38f1d
+exl-id: 6246a2bc-e7ff-4f86-a63a-36261c71d460
 translation-type: tm+mt
-source-git-commit: a6aebcc14325632cab0415e4aa4a24fda8a19bfc
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
-
 
 # Livefyre.js追加を使用したアプリへの認証{#add-authetication-to-an-app-using-livefyre-js}
 
