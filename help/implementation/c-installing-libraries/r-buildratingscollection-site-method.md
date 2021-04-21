@@ -1,17 +1,14 @@
 ---
 description: Ratings型としてインスタンス化されたCollectionオブジェクトを返します。 Collectionオブジェクトからcreate_or_update()を実行し、ビルドプロセスを完了します。
-seo-description: Ratings型としてインスタンス化されたCollectionオブジェクトを返します。 Collectionオブジェクトからcreate_or_update()を実行し、ビルドプロセスを完了します。
-seo-title: buildRatingsCollectionサイトメソッド
 title: buildRatingsCollectionサイトメソッド
-uuid: 5eea2ba3-48e1-4cd2-aa73-ea81788af1df
+exl-id: 84af3bb2-95f0-40e0-9a4e-830772a71862
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 6%
+source-wordcount: '94'
+ht-degree: 8%
 
 ---
-
 
 # buildRatingsCollectionサイトメソッド{#buildratingscollection-site-method}
 
@@ -52,4 +49,3 @@ collection = site.build_ratings_collection(title, articleId, url)
 ```
 collection = site.build_ratings_collection(title, articleId, url) 
 ```
-
