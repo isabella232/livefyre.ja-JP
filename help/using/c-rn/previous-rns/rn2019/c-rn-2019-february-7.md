@@ -1,18 +1,14 @@
 ---
 description: Livefyreの2019年2月7日リリースのリリースノートです。
-seo-description: Livefyreの2019年2月7日リリースのリリースノートです。
-seo-title: リリースノート
-solution: Experience Manager
 title: リリースノート
-uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
+exl-id: b04ded96-ebeb-4385-8fcf-a870044fbd85
 translation-type: tm+mt
-source-git-commit: 46f00bccc617b5d5ddc2e205c912d52d3602a8a0
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 11%
+source-wordcount: '51'
+ht-degree: 9%
 
 ---
-
 
 # リリースノート — 2019年2月7日{#rn020719}
 
