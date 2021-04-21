@@ -1,17 +1,14 @@
 ---
 description: Experience ManagerLivefyreをHootusiteと共に使用し、ユーザー生成コンテンツをHootusiteダッシュボードから直接キュレーション、管理および共有する方法について説明します。
-seo-description: Experience ManagerLivefyreをHootusiteと共に使用し、ユーザー生成コンテンツをHootusiteダッシュボードから直接キュレーション、管理および共有する方法について説明します。
-seo-title: HootusiteでのAdobe Experience ManagerLivefyreの使用
 title: HootusiteでのAdobe Experience ManagerLivefyreの使用
-uuid: ebf2ba17-1622-4bbe-a374-fb325357ef9f
+exl-id: 1ca84c72-95ec-485d-9c8e-ace4487225d6
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '649'
 ht-degree: 1%
 
 ---
-
 
 # HootusiteでAdobe Experience ManagerLivefyreを使用{#use-adobe-experience-manager-livefyre-with-hootsuite}
 
@@ -63,8 +60,8 @@ Experience ManagerLivefyreをHootusiteと共に使用し、ユーザー生成コ
 |--- |--- |
 | アセットの表示元 | 「すべてのソース」または1つの個別のソースからアセットを表示する場合に選択します。 次に例を示します。Instagram、Twitter、Facebookなど |
 | 権限 | 特定の権限設定を持つアセットのみを表示する場合に選択します。 |
-| キーワード | キーワードまたはタグで結果をフィルターする場合に選択します。 キーワードでフィルタリングすると、投稿のテキストコンテンツに加えて、発言者の表示名や発言者のユーザー名も検索されます。 |
-| タグ | キーワードまたはタグで結果をフィルターする場合に選択します。 キーワードでフィルタリングすると、投稿のテキストコンテンツに加えて、発言者の表示名や発言者のユーザー名も検索されます。 |
+| キーワード | キーワードまたはタグで結果をフィルターする場合に選択します。 キーワードでフィルタリングすると、投稿のテキストコンテンツと、発言者の表示名、発言者のユーザー名が検索されます。 |
+| タグ | キーワードまたはタグで結果をフィルターする場合に選択します。 キーワードでフィルタリングすると、投稿のテキストコンテンツと、発言者の表示名、発言者のユーザー名が検索されます。 |
 
 検索パラメーターを選択すると、検索時にアセットがストリーム内に表示されます。
 
@@ -96,7 +93,7 @@ Experience ManagerLivefyreをHootusiteと共に使用し、ユーザー生成コ
 
 ## Experience ManagerLivefyre App Plugin {#task_33C8CEF4F5E44830B970BB3A7AAA2AA6}
 
-アセットライブラリをHootusiteストリームで表示できるだけでなく、Instagram、Twitter、FacebookおよびYouTubeのストリームの項目をExperience ManagerのLivefyreライブラリに保存することもできます。
+アセットライブラリをHootuiteストリームに表示できるだけでなく、Instagram、Twitter、Facebook、YouTubeの各ストリームの項目をExperience ManagerのLivefyreライブラリに保存することもできます。
 
 1. 各アイテムの下部にあるメニューアイコンをクリックします。
 
@@ -109,11 +106,11 @@ Experience ManagerLivefyreをHootusiteと共に使用し、ユーザー生成コ
 
 1. 「**ライブラリに保存**」をクリックすると、選択したライブラリにアイテムが保存されます。
 
-## Experience ManagerLivefyreメディアライブラリコンポーネント{#task_9CA2D5D49F8E463F9EF475BC09C8ACC9}
+## Experience ManagerLivefyreMedia Libraryコンポーネント{#task_9CA2D5D49F8E463F9EF475BC09C8ACC9}
 
 Hootsuite Composerのメディアコンポーネントを使用して、アセットにアクセスできます。
 
-1. Composerで、「**メディア**」セクションの「メディアライブラリを開く&#x200B;**」リンクをクリックします。**
+1. Composerで、「**メディア**」セクションの「**Media Libraryを開く**」リンクをクリックします。
 
    ![](assets/hootsuite-open-media-library.png)
 
