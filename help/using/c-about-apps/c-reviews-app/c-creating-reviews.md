@@ -1,18 +1,14 @@
 ---
 description: レビューオファーは幅広いカスタマイズ範囲にわたり、ニーズやブランディングに合ったレビューアプリを作成できます。
-seo-description: レビューオファーは幅広いカスタマイズ範囲にわたり、ニーズやブランディングに合ったレビューアプリを作成できます。
-seo-title: レビューアプリの作成
-solution: Experience Manager
 title: レビューアプリの作成
-uuid: 6caeafe7-c04e-484e-b02f-98dc6d9b3184
+exl-id: 14f074d2-922c-4997-8d7d-f2c92f069e07
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
-
 
 # レビューアプリの作成{#creating-a-reviews-app}
 
@@ -83,6 +79,6 @@ ht-degree: 0%
 
 * **[!UICONTROL Average User Ratings]** 平均ユーザーレーティングAPIは1つ以上のレビューコレクションの平均ユーザーレーティングを取得し、この情報のビジュアライゼーションをインデックスページに作成したり、検索インデックスページに追加したりできます。
 
-* **[!UICONTROL Ratings Breakdown]** 評価分類APIは、特定のレビューコレクションのすべての評価の内訳を取得し、各星評価に関連付けられているレビューの数を表示するビジュアライゼーションを作成できます。
+* **[!UICONTROL Ratings Breakdown]** 評価分類APIは、特定のレビューコレクションのすべての評価の分類を取得し、各星評価に関連付けられているレビューの数を表示するビジュアライゼーションを作成できます。
 
 * **[!UICONTROL User Reviews]** ユーザーレビューAPIは、特定のユーザーに関する最新のレビューを取得します。このアクティビティを使用して、ユーザーのレビューを公開プロファイルページに表示できます。
