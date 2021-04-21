@@ -1,18 +1,14 @@
 ---
 description: 独自のスタイル設定を使用してユーザーを区別します。
-seo-description: 独自のスタイル設定を使用してユーザーを区別します。
-seo-title: スタイルユーザーグループのコンテンツ
-solution: Experience Manager
 title: スタイルユーザーグループのコンテンツ
-uuid: 2205d2c9-1892-427d-a289-bab0bf1dfe19
+exl-id: ed9cd412-5775-4d49-be34-c8b8f6df6358
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '221'
 ht-degree: 4%
 
 ---
-
 
 # Style User Group Content{#style-user-group-content}
 
