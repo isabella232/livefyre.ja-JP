@@ -1,18 +1,14 @@
 ---
 description: キュレーションされたソーシャルアイテムの数をカウントします。
-seo-description: キュレーションされたソーシャルアイテムの数をカウントします。
-seo-title: ソーシャルカウンター
-solution: Experience Manager
 title: ソーシャルカウンター
-uuid: fa9aa1a8-6a04-4bc1-9bfe-e42c1250fd48
+exl-id: def7fba4-1c2e-4c7b-84f7-f9ede592d675
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 11%
+source-wordcount: '233'
+ht-degree: 12%
 
 ---
-
 
 # ソーシャルカウンタ{#social-counter}
 
@@ -22,7 +18,7 @@ SocialカウンターAPIは、特定のコレクション内の一致したキ�
 
 >[!NOTE]
 >
->このAPIは、Twitterのハッシュタグに対してのみ使用できます。
+>このAPIは、Twitterのハッシュタグに対してのみ利用できます。
 
 ソーシャルカウンタAPI:
 
