@@ -1,17 +1,14 @@
 ---
 description: Livefyre App Suiteでサポートされるブラウザーとデバイスのリスト。
-seo-description: Livefyre App Suiteでサポートされるブラウザーとデバイスのリスト。
-seo-title: デバイスとブラウザーのサポート
 title: デバイスとブラウザーのサポート
-uuid: 338f78b2-051d-4831-a0b9-e987f92660ce
+exl-id: 75e424a2-9ef5-4a49-8d0d-7c4bcb865f7b
 translation-type: tm+mt
-source-git-commit: 7d7af443eeffdbb09c2fa58006813c328785ad56
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 8%
+source-wordcount: '133'
+ht-degree: 9%
 
 ---
-
 
 # デバイスとブラウザのサポート{#device-and-browser-support}
 
@@ -41,4 +38,3 @@ Livefyreは、以下のデバイス、オペレーティングシステムおよ
 >[!NOTE]
 >
 >Microsoftのサポートが終了したため、Internet Explorer 11より前のバージョンのInternet ExplorerではLivefyreはサポートされません。
-
