@@ -1,18 +1,14 @@
 ---
 description: カスタムHTMLをサイトに埋め込むには、次の手順に従います。
-seo-description: カスタムHTMLをサイトに埋め込むには、次の手順に従います。
-seo-title: コメントにカスタムHTMLを埋め込む
-solution: Experience Manager
 title: コメントにカスタムHTMLを埋め込む
-uuid: f7d07286-b3b3-447d-8281-51735f24ddd9
+exl-id: efeefdd8-6f1f-44c2-80c7-1c0d7da1958c
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
-
 
 # カスタムHTMLをコメントに埋め込む{#embed-custom-html-in-comments}
 
