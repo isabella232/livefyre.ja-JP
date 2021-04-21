@@ -1,18 +1,14 @@
 ---
 description: 会話アプリ（Comments、Chat、Live Blog、Reviews、Sidenotes など）用に JavaScript をバインドできるものに対して使用できるイベントです。
-seo-description: 会話アプリ（Comments、Chat、Live Blog、Reviews、Sidenotes など）用に JavaScript をバインドできるものに対して使用できるイベントです。
-seo-title: 会話アプリ用のJavaScriptイベント
-solution: Experience Manager
 title: 会話アプリ用のJavaScriptイベント
-uuid: cce112b5-7c3a-4721-9854-fc8471f3d5d0
+exl-id: 2497346e-b2cc-44b2-bcd9-906dd443fe38
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '516'
 ht-degree: 73%
 
 ---
-
 
 # 会話アプリのJavaScriptイベント{#javascript-events-for-conversation-apps}
 
@@ -32,13 +28,13 @@ ht-degree: 73%
 | 投稿 | X | X | X | X |  | 該当なし | 該当なし |
 | 投稿済み | X | X | X | X | X | 該当なし | 該当なし |
 | Twitter 返信 | X | X | X | 該当なし | 該当なし | 該当なし | 該当なし |
-| Twitterの「いいね！」 | X | X | X | 該当なし | 該当なし | 該当なし | 該当なし |
+| Twitterライク | X | X | X | 該当なし | 該当なし | 該当なし | 該当なし |
 | 低周波のような | X | X | X | X | 該当なし | 該当なし | 該当なし |
 | 低周波の異常 | X | X | X | X | 該当なし | 該当なし | 該当なし |
 | 投稿で共有 | X | X |  | X | 該当なし | 該当なし | 該当なし |
 | 共有ボタン | X | X | X | X |  | 該当なし | 該当なし |
-| Twitterを共有 | X | X | X | X | X | 該当なし | 該当なし |
-| Facebookを共有 | X | X | X | X | X | 該当なし | 該当なし |
+| twitterを共有 | X | X | X | X | X | 該当なし | 該当なし |
+| facebookを共有 | X | X | X | X | X | 該当なし | 該当なし |
 | 共有URL | X | X | X | X |  | 該当なし | 該当なし |
 | ExpandReplies | X | 該当なし | X | X | 該当なし | 該当なし | 該当なし |
 | 返信を折りたたむ | X | 該当なし | X | X | 該当なし | 該当なし | 該当なし |
@@ -66,4 +62,3 @@ ht-degree: 73%
 | コンテンツタイプ | X | X | X | X |  |  |  |
 | 公開日をアプリに |  |  |  |  |  |  |  |
 | エンドユーザーアプリにログインしました |  |  |  |  |  |  |  |
-
