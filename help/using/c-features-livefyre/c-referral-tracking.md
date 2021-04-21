@@ -1,18 +1,14 @@
 ---
 description: 照会トラフィックからページに戻るクリックを追跡します。
-seo-description: 照会トラフィックからページに戻るクリックを追跡します。
-seo-title: 照会の追跡
-solution: Experience Manager
 title: 照会の追跡
-uuid: 7daf615d-0c07-49d1-adb2-1ac67ea563e7
+exl-id: 44cc221c-1603-4e6e-ae4a-1b993f7dc446
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '227'
 ht-degree: 2%
 
 ---
-
 
 # 参照の追跡{#referral-tracking}
 
@@ -28,7 +24,7 @@ Livefyreアプリを使用すると、照会トラフィックから生じるデ
 
 ## 導入例 {#section_xvs_x44_xz}
 
-トラフィックがStreamHubによる通知から送信された場合、hubRefSrcクエリ文字列パラメーターが存在し、値はemail、facebook、twitter、linkedinまたはpermalinkになります。 hubRefSrcパラメーター名は、Livefyre配信チームがネットワークレベルで設定できます。
+トラフィックがStreamHubを使用した通知から送信された場合、hubRefSrcクエリ文字列パラメーターが存在し、値はemail、facebook、twitter、linkedinまたはpermalinkになります。 hubRefSrcパラメーター名は、Livefyre配信チームがネットワークレベルで設定できます。
 
 分析プラットフォームと統合するには、ページでhubRefSrcの読み込み時に探し、トラフィックが存在する場合は記録する必要があります。
 
@@ -59,4 +55,3 @@ Livefyreアプリを使用すると、照会トラフィックから生じるデ
 * [Comments](/help/using/c-about-apps/c-comments/c-comments.md)
 * [レビュー](../c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
 * [Sidenots](../c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
-
