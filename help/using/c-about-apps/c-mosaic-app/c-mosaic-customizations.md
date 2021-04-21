@@ -1,18 +1,14 @@
 ---
 description: Mosaicアプリのサイズ、幅およびインタラクションオプションを変更します。
-seo-description: Mosaicアプリのサイズ、幅およびインタラクションオプションを変更します。
-seo-title: モザイクのカスタマイズ
-solution: Experience Manager
 title: モザイクのカスタマイズ
-uuid: 4e226d68-f517-4922-bc25-655d524d7d52
+exl-id: 0223a64c-ec33-4e01-85d7-11845c9b8476
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
-
 
 # モザイクのカスタマイズ{#mosaic-customizations}
 
@@ -29,7 +25,7 @@ Mosaicは、App Designerの次の追加オプションを使用してカスタ�
    * **[!UICONTROL Click]** サイト訪問者がコンテンツ上でマウスをクリックしたときに、カードの反対側を表示する。
 
 * **[!UICONTROL Number of Tiles to Load]**&#x200B;をインストールします。モザイクに読み込むタイルの数です。 これは出力の表示に影響を与える可能性があります。 コンテナの幅に対応する正しい数のタイルを選択しない限り、モザイクはグリッドに表示されません。 グリッドが正しく表示されるように、これらを調整する必要がある場合があります。
-* **[!UICONTROL Hide social branding when rights granted]** コンテンツの権限が付与されたときに、元のソーシャルメディアネットワーク（TwitterまたはInstagram）のロゴを削除するには、これをオンにします。
+* **[!UICONTROL Hide social branding when rights granted]** コンテンツの権限が付与されたときに、元のソーシャルメディアネットワーク(TwitterまたはInstagram)のロゴを削除するには、これをオンにします。
 
 * **[!UICONTROL Call-to-action button]** 誘い文句（CTA：コールトゥアクション）ボタンを製品カタログと共に使用して、ユーザーを製品やサイトに誘導し、その後のアクションを促すことができます。
 
