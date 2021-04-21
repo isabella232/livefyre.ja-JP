@@ -1,18 +1,14 @@
 ---
 description: サイトの認証システムにログインしているユーザーは、このプロセスを使用してレビューを投稿できます。
-seo-description: サイトの認証システムにログインしているユーザーは、このプロセスを使用してレビューを投稿できます。
-seo-title: レビューの投稿
-solution: Experience Manager
 title: レビューの投稿
-uuid: b5744b06-9e6b-425b-9a49-a919d32dfe1d
+exl-id: b1edf142-8cb7-4bc6-974b-a749cb631709
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
-
 
 # レビューの投稿{#post-a-review}
 
