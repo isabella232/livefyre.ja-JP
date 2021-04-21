@@ -1,18 +1,14 @@
 ---
 description: これらのオプションは、すべてのソーシャルネットワークまたは投稿方法のすべてのストリームルールに適用されます。
-seo-description: これらのオプションは、すべてのソーシャルネットワークまたは投稿方法のすべてのストリームルールに適用されます。
-seo-title: すべてのストリームルールのストリームルールオプション
-solution: Experience Manager
 title: すべてのストリームルールのストリームルールオプション
-uuid: 4072ee83-31e7-4de6-918c-134b8b8032e1
+exl-id: eff1a3cb-395f-4eb1-be93-f0f09bba95e2
 translation-type: tm+mt
-source-git-commit: 8bdb537b38d78dba033d6671b710c2a61934d6b2
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '391'
 ht-degree: 5%
 
 ---
-
 
 # すべてのストリームルールのストリームルールオプション{#stream-rule-options-for-all-stream-rules}
 
@@ -31,7 +27,7 @@ ht-degree: 5%
 * **[!UICONTROL Media]**&#x200B;をインストールします。次のいずれかを選択します。
 
    * **[!UICONTROL All Content.]** 任意のコンテンツを許可します。
-   * **[!UICONTROL Media Required.]** 画像とビデオのあるコンテンツのみを許可します。（InstagramとFacebookコンテンツの場合は、**[!UICONTROL Photos]**&#x200B;または&#x200B;**[!UICONTROL Videos]**&#x200B;のみ指定できます）。
+   * **[!UICONTROL Media Required.]** 画像とビデオのあるコンテンツのみを許可します。(InstagramとFacebookのコンテンツの場合は、**[!UICONTROL Photos]**&#x200B;または&#x200B;**[!UICONTROL Videos]**&#x200B;のみ指定できます)。
 
 * **[!UICONTROL Language]**&#x200B;をインストールします。検索する言語を選択します。 デフォルトの言語は英語です。
 * **[!UICONTROL Smart Tags]**&#x200B;をインストールします。コンテンツの識別に使用するタグを選択します。 Livefyreは、コンピューターの視覚技術を使用して、特定のスマートタグで写真やビデオを識別し、より正確に検索できるようにします。 **[!UICONTROL ANY]**&#x200B;修飾子を使用して任意のタグを使用してコンテンツをストリームにフィルターしたり、**[!UICONTROL ALL]**&#x200B;修飾子を使用してコンテンツをすべてのタグを使用するストリームにフィルターしたりします。 **[!UICONTROL Image contains none of these smart tags]**&#x200B;フィールドを使用して、ストリームに含めないコンテンツを含む写真のタグを入力します。 このオプションは、テキストコンテンツに対しては機能しません。
