@@ -1,18 +1,14 @@
 ---
 description: Storifyは、複数のエディタを同時に管理し、誤った上書きを防いだり、編集内容の損失を防いだりします。
-seo-description: Storifyは、複数のエディタを同時に管理し、誤った上書きを防いだり、編集内容の損失を防いだりします。
-seo-title: 同じストーリーでの複数のエディタの操作
-solution: Experience Manager
 title: 同じストーリーでの複数のエディタの操作
-uuid: c9b8bf70-84c3-4e58-bbd0-f3d0ea74fc68
+exl-id: e3cb4326-134d-443a-9087-a48e77243230
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
-
 
 # 同じストーリーで複数のエディターを使用する{#working-with-multiple-editors-on-the-same-story}
 
@@ -29,4 +25,3 @@ Storifyを使用すると、複数の編集者が共同作業や編集、1つの
 * コンテンツの削除
 * テキストブロックを編集する。
 * 追加見出し。
-
