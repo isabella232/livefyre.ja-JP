@@ -1,17 +1,14 @@
 ---
 description: 「ソーシャル検索」タブからコンテンツを保存し、アプリで使用するコンテンツを保存します。
-seo-description: 「ソーシャル検索」タブからコンテンツを保存し、アプリで使用するコンテンツを保存します。
-seo-title: コンテンツをアセットライブラリに保存
 title: コンテンツをアセットライブラリに保存
-uuid: 5f076a55-4358-4ee5-866e-5b6c0199b580
+exl-id: 7a3adf14-2a93-4ef8-912b-b8dc21078337
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
-
 
 # コンテンツをアセットライブラリに保存{#save-content-to-asset-library}
 
