@@ -1,18 +1,14 @@
 ---
 description: ユーザーがLivefyreにアクセスするよう招待されると、そのユーザーは電子メール内のリンクを使用してログインとアカウントを作成します。
-seo-description: ユーザーがLivefyreにアクセスするよう招待されると、そのユーザーは電子メール内のリンクを使用してログインとアカウントを作成します。
-seo-title: Studioアカウント作成の招待の受諾
-solution: Experience Manager
 title: Studioアカウント作成の招待の受諾
-uuid: 7c3d11a3-9799-43ae-a63c-9ce2cb15782c
+exl-id: 7cea7f1e-ad4a-4a90-bcda-d6cb8a1e9016
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
-
 
 # Studioアカウント作成の招待の受諾{#accept-an-invitation-to-create-a-studio-account}
 
