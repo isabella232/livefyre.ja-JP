@@ -1,18 +1,14 @@
 ---
 description: C 系言語の `C#` 言語を使用して Livefyre トークンを生成する方法について説明します。
-seo-description: C 系言語の `C#` 言語を使用して Livefyre トークンを生成する方法について説明します。
-seo-title: Livefyreトークン'C#'の作成
-solution: Experience Manager
 title: Livefyreトークン'C#'の作成
-uuid: c5e05625-8550-4b51-9211-134600e20ec7
+exl-id: 6360c325-0c3f-4ecb-90f7-951ef4e6f410
 translation-type: tm+mt
-source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 4%
+source-wordcount: '784'
+ht-degree: 3%
 
 ---
-
 
 # Livefyreトークンの作成C\# {#creating-livefyre-tokens-c}
 
