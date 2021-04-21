@@ -1,28 +1,24 @@
 ---
-description: Instagramのコンテンツをキュレーションする場合は、そのコンテンツのガイドラインとベストプラクティスに従う必要があります。
-seo-description: Instagramのコンテンツをキュレーションする場合は、そのコンテンツのガイドラインとベストプラクティスに従う必要があります。
-seo-title: Instagramコンテンツのガイドライン
-solution: Experience Manager
+description: instagramからのコンテンツのキュレーションを行う場合は、そのガイドラインとベストプラクティスに従う必要があります。
 title: Instagramコンテンツのガイドライン
-uuid: 4c5ba96b-a242-407f-aa36-3a4e431832b8
+exl-id: 74ef8556-8f65-4406-871c-5b9f1887ec9c
 translation-type: tm+mt
-source-git-commit: 6978f0f36b5698c9c599c1828edea67703423397
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
 
-
 # Instagramコンテンツのガイドライン{#instagram-content-guidelines}
 
-Instagramのコンテンツをキュレーションする場合は、そのコンテンツのガイドラインとベストプラクティスに従う必要があります。
+instagramからのコンテンツのキュレーションを行う場合は、そのガイドラインとベストプラクティスに従う必要があります。
 
-**[!UICONTROL By Author]**&#x200B;フィールドを使用して、別の特定のInstagramビジネスアカウントからInstagramストリームを作成するように、*Instagramビジネスアカウント*&#x200B;を構成する必要があります。 **[!UICONTROL By Author]**&#x200B;フィールドで識別するユーザーアカウントは、ビジネスアカウントである必要があります。
+*Instagramビジネスアカウント*&#x200B;は、**[!UICONTROL By Author]**&#x200B;フィールドを使用して、別の特定のInstagramビジネスアカウントからInstagramストリームを作成するように構成する必要があります。 **[!UICONTROL By Author]**&#x200B;フィールドで識別するユーザーアカウントは、ビジネスアカウントである必要があります。
 
-LivefyreでInstagramのビジネスアカウントを設定する方法について詳しくは、[Instagramのアカウントについて](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)を参照してください。
+LivefyreでInstagramのビジネスアカウントを設定する方法について詳しくは、[Instagramアカウントについて](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)を参照してください。
 
-Instagramでは、プラットフォームからコンテンツを取得する際に次のルールが適用されます。
+Instagramでは、自社のプラットフォームからコンテンツを取得する際に次のルールを適用します。
 
 * コンテンツはユーザーに属し、ユーザーのコンテンツを使用するための権限を与える必要があります
 * 7日ごとに、Instagramのビジネスアカウントあたり最大30個の固有ハッシュタグを検索できます。
@@ -36,9 +32,9 @@ Livefyreでは、検索機能と有効性を最大限にするために、次の
 * 複数のネットワークでのビジネスアカウントの使用を避けます。
 * アクティブなストリームに優先順位を付け、未使用のストリームを削除して、使用するハッシュタグの数を減らします。
 
-Instagramは、他のブランドと同様、ブランドアセットの使用に関する要件もあります。 例えば、写真は次の条件を満たす必要があります。
+Instagramも他のブランドと同様、ブランド資産の使用に関する要件を持っています。 例えば、写真は次の条件を満たす必要があります。
 
-* Instagramとコンテンツの所有者に属性を提供します。
+* instagramおよびコンテンツの所有者にアトリビューションを提供します。
 * 他のネットワークのメディアと共に表示する場合は、他のソーシャルメディアコンテンツと明確に区別してください。
 
-詳しくは、Instagramのドキュメントを参照してください。[Instagramのブランドアセット](https://help.instagram.com/304689166306603)を使用。
+詳しくは、Instagramのドキュメントを参照してください。[Instagramブランド資産](https://help.instagram.com/304689166306603)を使用。
