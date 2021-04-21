@@ -1,17 +1,14 @@
 ---
 description: ライブラリを使用して、ストリームからのコンテンツをモデレートします。
-seo-description: ライブラリを使用して、ストリームからのコンテンツをモデレートします。
-seo-title: ストリームのコンテンツのモデレート
 title: ストリームのコンテンツのモデレート
-uuid: 38faf651-c547-49b3-b3d1-1a1d65c0f81c
+exl-id: 60111467-be63-4236-a06a-eb59b4c29bbe
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
-
 
 # ストリームからのコンテンツのモデレート{#moderate-content-from-a-stream}
 
@@ -34,7 +31,7 @@ ht-degree: 0%
 * **[!UICONTROL Bozo:]** コンテンツの作成者をボゾスします。Sidenoteの場合、ユーザーはStudio内からのみボゾに任せられ、ストリーム内からはボゾに任せられません。
 * **[!UICONTROL Delete:]** スレッドから内容を削除します。
 * **[!UICONTROL Flag:]** フラグモーダルを開き、コンテンツ（スパム、攻撃者、同意しない、またはオフトピック）のフラグを選択したり、必要に応じてフラグに関連付ける電子メールアドレスを入力したり、メモを追加したりできます。
-* **[!UICONTROL Share:]** 共有モーダルを開きます。このモーダルを使用すると、FacebookやTwitterで共有したり、テキストを編集したり、コンテンツ自体にパーマリンクを含めたりできます。
+* **[!UICONTROL Share:]** 共有モーダルを開きます。このモーダルを使用すると、FacebookまたはTwitterと共有したり、テキストを編集したり、コンテンツ自体にパーマリンクを含めたりできます。
 * **[!UICONTROL Feature:]** コンテンツの特徴。
 
 
@@ -46,4 +43,3 @@ ht-degree: 0%
 * [レビュー](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
 * [Sidenots](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 * [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
-
