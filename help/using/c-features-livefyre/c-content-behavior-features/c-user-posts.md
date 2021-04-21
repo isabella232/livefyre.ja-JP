@@ -1,30 +1,26 @@
 ---
 description: コレクション内のコンテンツの投稿、編集、フラグ付け、削除、返信、「いいね！」を、ユーザーが行えるようにします。また、様々なリッチテキスト形式設定オプションも使用できます。
-seo-description: コレクション内のコンテンツの投稿、編集、フラグ付け、削除、返信、「いいね！」を、ユーザーが行えるようにします。また、様々なリッチテキスト形式設定オプションも使用できます。
-seo-title: ユーザー投稿
-solution: Experience Manager
 title: ユーザー投稿
-uuid: 41242f4d-614c-4737-a1f6-6f0a914f5f7f
+exl-id: 8a9e2bef-d53c-4693-bc54-6186d08ac7d0
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '630'
 ht-degree: 1%
 
 ---
-
 
 # ユーザー投稿{#user-posts}
 
 コレクション内のコンテンツの投稿、編集、フラグ付け、削除、返信、「いいね！」を、ユーザーが行えるようにします。また、様々なリッチテキスト形式設定オプションも使用できます。
 
-Livefyre Appsを使用すると、ユーザーはコンテンツをシームレスに直感的に投稿および操作できます。 Livefyreインターフェイスは、リッチテキストや画像入力、他のユーザーのコメントに対する「いいね！」、フラグ付けまたは返信機能、および以前の自分の投稿を編集または削除する機能を提供します。
+Livefyre Appsを使用すると、ユーザーはコンテンツをシームレスに、直感的に投稿したり操作したりできます。 Livefyreインターフェイスは、リッチテキストや画像入力、他のユーザーのコメントに対する「いいね！」、フラグ付けまたは返信機能、および以前の自分の投稿を編集または削除する機能を提供します。
 
 ## 投稿 {#section_bty_ww2_wy}
 
 ユーザーは、ログイン時に、エディターボックスにコメントまたはメディアのリンクを入力し、**[!UICONTROL Post comment]**&#x200B;をクリックして、コンテンツを投稿できます。
 
-ログインしていないときにコンテンツを投稿するには、ユーザーがエディターにコメントまたはメディアのリンクを入力し、**[!UICONTROL Post comment as…]**&#x200B;をクリックします。 ログインウィンドウが表示され、ログインを促します。
+ログインしていないときにコンテンツを投稿するには、ユーザーがエディターにコメントまたはメディアのリンクを入力し、**[!UICONTROL Post comment as…]**&#x200B;をクリックします。 ログインウィンドウが開いて、ログインを求めるプロンプトが表示されます。
 
 (ほとんどのブラウザでは8,000文字のコメントが可能です。Internet Explorerでは1,500文字を使用できます)。
 
@@ -46,7 +42,7 @@ Livefyre Appsを使用すると、ユーザーはコンテンツをシームレ�
 
 ユーザーは、他のユーザーのコンテンツと同様にログインする必要があり、自分のコンテンツに対して「いいね！」をしない場合があります。
 
-「いいね！」の数と最大4つのユーザーアバターが&#x200B;**[!UICONTROL Like]**&#x200B;ボタンの横に表示されます。
+「いいね！」の数と最大4人のユーザーアバターが&#x200B;**[!UICONTROL Like]**&#x200B;ボタンの横に表示されます。
 
 コンテンツに「いいね！」をクリックすると、**[!UICONTROL Like]**&#x200B;リンクは&#x200B;**[!UICONTROL Unlike]**&#x200B;に変更されます。 **[!UICONTROL Unlike]**&#x200B;をクリックすると、そのユーザーのアバターが削除され、数値が1ずつ減ります。
 
@@ -102,4 +98,3 @@ Livefyre Appsを使用すると、ユーザーはコンテンツをシームレ�
 * [Sidenots](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 * [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
 * [アップロードボタン](/help/using/c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
-
