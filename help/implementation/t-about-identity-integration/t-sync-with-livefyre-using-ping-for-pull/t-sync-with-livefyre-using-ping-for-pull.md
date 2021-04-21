@@ -1,18 +1,14 @@
 ---
 description: Pingを使用して引き出しを行い、Livefyreをユーザー管理システムと同期させます。
-seo-description: Pingを使用して引き出しを行い、Livefyreをユーザー管理システムと同期させます。
-seo-title: Pingを使用したLivefyreとの同期（取り込み用）
-solution: Experience Manager
 title: Pingを使用したLivefyreとの同期（取り込み用）
-uuid: 7b059064-1cca-46d7-8055-dfe59f493ac1
+exl-id: 01b5851d-9dc0-44dc-9c0d-0c467502450d
 translation-type: tm+mt
-source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
-
 
 # Pingを使用したプル{#sync-with-livefyre-using-ping-for-pull}のLivefyreとの同期
 
