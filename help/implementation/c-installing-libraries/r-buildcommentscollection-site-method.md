@@ -1,18 +1,14 @@
 ---
 description: Comments型としてインスタンス化されたCollectionオブジェクトを返します。 CollectionオブジェクトからcreateOrUpdate()を実行して、ビルドプロセスを完了します。
-seo-description: Comments型としてインスタンス化されたCollectionオブジェクトを返します。 CollectionオブジェクトからcreateOrUpdate()を実行して、ビルドプロセスを完了します。
-seo-title: buildCommentsCollectionサイトメソッド
-solution: Experience Manager
 title: buildCommentsCollectionサイトメソッド
-uuid: 0e5c062e-960d-4ab0-ba32-0965731a1571
+exl-id: 9534c25a-fd1c-4a09-92e2-d196ac218ef3
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 7%
+source-wordcount: '90'
+ht-degree: 8%
 
 ---
-
 
 # buildCommentsCollectionサイトメソッド{#buildcommentscollection-site-method}
 
