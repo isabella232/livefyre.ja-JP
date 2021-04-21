@@ -1,18 +1,14 @@
 ---
 description: ページ上のLivefyreロゴの位置を変更します。
-seo-description: ページ上のLivefyreロゴの位置を変更します。
-seo-title: Livefyreロゴを移動する
-solution: Experience Manager
 title: Livefyreロゴを移動する
-uuid: 807304ae-6070-4505-87db-169a925f714c
+exl-id: dc6c26cf-e0b9-4af3-8a3c-e58ea4ecbc44
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
-
 
 # Livefyreロゴを移動{#move-the-livefyre-logo}
 
@@ -48,4 +44,3 @@ Livefyreとの契約で許可される場合は、Livefyreロゴをコンテン�
     text-decoration: underline; 
 }
 ```
-
