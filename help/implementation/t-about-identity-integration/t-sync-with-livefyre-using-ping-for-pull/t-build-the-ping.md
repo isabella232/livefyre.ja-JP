@@ -1,18 +1,14 @@
 ---
 description: ユーザーがプロファイルを更新したときにLivefyreにpingを送信するようにpingを作成します。
-seo-description: ユーザーがプロファイルを更新したときにLivefyreにpingを送信するようにpingを作成します。
-seo-title: Pingの構築
-solution: Experience Manager
 title: Pingの構築
-uuid: cb8cc043-9ea5-407c-b70f-3f1e37accdae
+exl-id: 626c200b-eaff-483f-b1eb-7d8993fe5e7c
 translation-type: tm+mt
-source-git-commit: f76dcd31e58b94856bf551009c2ac50c3233e516
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
-
 
 # Ping{#build-the-ping}を構築する
 
