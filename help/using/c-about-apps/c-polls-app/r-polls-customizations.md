@@ -1,18 +1,14 @@
 ---
 description: 投票アプリのサイズ、幅、および操作オプションを変更します。
-seo-description: 投票アプリのサイズ、幅、および操作オプションを変更します。
-seo-title: 調査のカスタマイズ
-solution: Experience Manager
 title: 調査のカスタマイズ
-uuid: 788a4fa7-aafb-4508-b9c0-cd54e4cd9b86
+exl-id: f82dce69-8ad0-48bd-a293-e5501374d5d6
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
-
 
 # 調査のカスタマイズ{#polls-customizations}
 
@@ -61,4 +57,3 @@ ht-degree: 0%
 * **[!UICONTROL Style]** 」および「」のすべてのアプリの **[!UICONTROL Config]** オプションを選択し **[!UICONTROL App Designer]**&#x200B;ます。**[!UICONTROL App Designer]**&#x200B;のすべてのアプリの標準&#x200B;**[!UICONTROL Style]**&#x200B;および&#x200B;**[!UICONTROL Config]**&#x200B;オプションについて詳しくは、「アプリのカスタマイズ」を参照してください。
 
 * 統合ツール。 統合ツールを使用したアプリのカスタマイズ方法について詳しくは、「投票」を参照してください。
-
