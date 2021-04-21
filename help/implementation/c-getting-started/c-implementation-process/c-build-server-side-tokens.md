@@ -1,18 +1,14 @@
 ---
 description: collectionMetaトークンと認証トークンの構築に関するガイドです。
-seo-description: collectionMetaトークンと認証トークンの構築に関するガイドです。
-seo-title: サーバー側トークンの構築
-solution: Experience Manager
 title: サーバー側トークンの構築
-uuid: 8313f26e-5ceb-414e-a61a-480bb7a8ba66
+exl-id: f709b79e-9236-443e-b862-c7d281815d91
 translation-type: tm+mt
-source-git-commit: 5bf937c8cb1a9ca12216ee1884142b8787ff063e
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
-
 
 # サーバー側トークンの構築{#build-server-side-tokens}
 
@@ -41,4 +37,3 @@ Livefyreが要求を検証する際に使用するトークンを作成すると
 | userId | 文字列&#x200B;*必須* | ユーザー管理システムに保存されている、ログインするユーザーのID（英数字、ダッシュ、アンダースコアおよびドット文字のみ使用できます）。`[a-zA-Z0-9_-.]`)。 **注意：userId** は一意である必要があります。 |
 | expires | 整数&#x200B;*必須* | トークンの有効期限が切れる時間（秒）。 **注意：** この値は、floatとして渡すこともできます。生成されたJSON Webトークンは、UNIXエポック時間にこの値を格納します。 |
 | displayName | 文字列&#x200B;*必須* | UIおよびコメントでこのユーザーを識別するテキスト。 (最大文字数：50.) |
-
