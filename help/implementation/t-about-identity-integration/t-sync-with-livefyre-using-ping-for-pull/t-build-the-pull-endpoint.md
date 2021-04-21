@@ -1,18 +1,14 @@
 ---
 description: プルエンドポイントを構築して、ユーザーIDシステムへのアクセス要求を受け取り、応答します。
-seo-description: プルエンドポイントを構築して、ユーザーIDシステムへのアクセス要求を受け取り、応答します。
-seo-title: プルエンドポイントの構築
-solution: Experience Manager
 title: プルエンドポイントの構築
-uuid: 1703152f-aaa7-4a88-aa33-d9f8957ad42b
+exl-id: cc66365b-0d5f-4a0b-954f-ee014e75d4a2
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
-
 
 # プルエンドポイントの構築{#build-the-pull-endpoint}
 
