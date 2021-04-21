@@ -1,17 +1,14 @@
 ---
 description: Livefyreでプライバシーリクエストを作成します。
-seo-description: Livefyreでプライバシーリクエストを作成します。
-seo-title: プライバシーリクエストの作成
 title: プライバシーリクエストの作成
-uuid: 9fdbd564-0cea-4e4f-bdea-d5b8744fe63a
+exl-id: 117e1edb-becd-45f2-bfe5-12fb19ad01e0
 translation-type: tm+mt
-source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
-
 
 # プライバシーリクエストの作成{#create-a-privacy-request}
 
@@ -52,23 +49,23 @@ Livefyreでプライバシーリクエストを作成します。
          * 許可されている値：255文字までの英数字の文字列。 電子メールアドレスが有効な入力ではありません
       * **[!UICONTROL Facebook User]**
 
-         * Facebookから提供される数値IDでアカウントを識別します。 要求者はこれを提供する必要があります。 数字のFacebook IDを探す方法については、[ここ](https://www.facebook.com/help/1397933243846983?helpref=faq_content)を参照してください
+         * facebookが提供する数値IDでアカウントを識別します。 要求者はこれを提供する必要があります。 数値のFacebookIDを探す方法については、[](https://www.facebook.com/help/1397933243846983?helpref=faq_content)を参照してください。
          * 許可されている値：6 ～ 16文字の数字
       * **[!UICONTROL Instagram User]**
 
-         * Instagramが提供する数値IDでアカウントを識別します。 要求者はこれを提供する必要があります。 Instagramアカウントで数値のInstagram IDを見つける方法については、オンラインで検索して説明を参照してください
+         * instagramが提供する数値IDでアカウントを識別します。 要求者はこれを提供する必要があります。 instagramアカウントでInstagramIDの番号を見つける方法については、オンラインで検索する方法を参照してください
          * 許可されている値：5 ～ 16文字の数字
       * **[!UICONTROL Twitter User]**
 
-         * Twitterから提供される数値IDでアカウントを識別します。 プライバシーの変更を要求するユーザは、この情報を提供する必要があります。 オンライン検索を使用して、Twitterアカウントの数字のTwitter IDを見つける方法について説明します
+         * twitterが提供する数値IDでアカウントを識別します。 プライバシーの変更を要求するユーザは、この情報を提供する必要があります。 twitterアカウントのTwitterIDの番号を見つける方法については、オンラインで検索する方法を参照してください
          * 許可されている値：5 ～ 16文字の数字
       * **[!UICONTROL YouTube User]**
 
-         * YouTubeから提供される数値IDでアカウントを識別します。 プライバシーの変更を要求するユーザは、この情報を提供する必要があります。 YouTubeアカウントでYouTube IDの番号を特定する方法については、[ここ](https://support.google.com/youtube/answer/3250431?hl=en)を参照してください
+         * YouTubeが提供する数値IDでアカウントを識別します。 プライバシーの変更を要求するユーザは、この情報を提供する必要があります。 YouTubeアカウントでYouTubeIDの番号を見つける方法については、[](https://support.google.com/youtube/answer/3250431?hl=en)を参照してください。
          * 許可されている値：5 ～ 16文字の数字
       * **[!UICONTROL Generic Author]**
 
-         * Livefyre作成者ID(JID)でアカウントを識別します。 このオプションは、RSS、TumblrまたはURLを通じて提供されるコンテンツに使用します。 このIDを探すには、**アプリコンテンツ**&#x200B;または&#x200B;**アセットライブラリ**&#x200B;で、作成者に関連付けられたコンテンツを検索し、項目を選択します。 このIDは、**情報**&#x200B;の下の&#x200B;**アプリコンテンツ**&#x200B;または&#x200B;**アセットライブラリ**&#x200B;の&#x200B;**作成者**&#x200B;の&#x200B;**詳細**&#x200B;セクションの下の&lt;a4/>作成者&lt;a7/>で入手できます
+         * Livefyre作成者ID(JID)でアカウントを識別します。 このオプションは、RSS、TumblrまたはURLを通じて提供されるコンテンツに使用します。 このIDを探すには、**アプリコンテンツ**&#x200B;または&#x200B;**アセットライブラリ**&#x200B;で、作成者に関連付けられたコンテンツを検索し、項目を選択します。 このIDは、**情報**&#x200B;の下の&#x200B;**アプリコンテンツ**&#x200B;または&#x200B;**アセットライブラリ**&#x200B;の&#x200B;**作成者**&#x200B;の&#x200B;**詳細**&#x200B;セクションの下の作成者で入手できます
 
          * 許可されている値：255文字までの英数字の文字列
 
@@ -90,4 +87,3 @@ Livefyreでプライバシーリクエストを作成します。
    >[!IMPORTANT]
    >
    >アカウントのデータを削除すると、そのアカウントに関連付けられたデータが完全に削除または破棄されます。 この操作を元に戻すことはできません。また、削除後にデータを元に戻すこともできません。
-
