@@ -1,18 +1,14 @@
 ---
 description: 管理者、モデレーター、サイト訪問者など、様々なレベルのユーザーの権限を変更します。
-seo-description: 管理者、モデレーター、サイト訪問者など、様々なレベルのユーザーの権限を変更します。
-seo-title: ユーザーのStudio権限の管理
-solution: Experience Manager
 title: ユーザーのStudio権限の管理
-uuid: 15c395c8-a9bb-4b0b-9586-61ac36810730
+exl-id: 14540432-a1be-4a33-b9ed-670425112df2
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
-
 
 # ユーザーのStudio権限の管理{#manage-studio-permissions-for-users}
 
