@@ -1,18 +1,14 @@
 ---
 description: マップアプリのサイズ、幅およびインタラクションオプションを変更します。
-seo-description: マップアプリのサイズ、幅およびインタラクションオプションを変更します。
-seo-title: トレンドのカスタマイズ
-solution: Experience Manager
 title: トレンドのカスタマイズ
-uuid: 4dc58d90-8924-4c89-8f2a-650ac6e0538a
+exl-id: 224fc481-0c71-4d56-b73b-adf53451e968
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
-
 
 # トレンドのカスタマイズ{#trending-customizations}
 
@@ -32,4 +28,3 @@ ht-degree: 0%
 * **[!UICONTROL Style]** 」および「」のすべてのアプリの **[!UICONTROL Config]** オプションを選択し **[!UICONTROL App Designer]**&#x200B;ます。**[!UICONTROL App Designer]**&#x200B;のすべてのアプリの標準&#x200B;**[!UICONTROL Style]**&#x200B;および&#x200B;**[!UICONTROL Config]**&#x200B;オプションについて詳しくは、「アプリのカスタマイズ」を参照してください。
 
 * 統合ツール。 統合ツールを使用してアプリをカスタマイズする方法について詳しくは、「トレンド」を参照してください。
-
