@@ -1,18 +1,14 @@
 ---
 description: 2018年3月8日リリースのリリースノートです。
-seo-description: 2018年3月8日リリースのリリースノートです。
-seo-title: 2018 年 3 月 9 日
-solution: Experience Manager
 title: 2018 年 3 月 9 日
-uuid: 4ed67147-0837-4d5e-8e99-532a4278bcce
+exl-id: 46d4a425-17e0-48a2-a596-5cc7163f9edd
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '295'
 ht-degree: 5%
 
 ---
-
 
 # 2018 年 3 月 8 日{#march}
 
@@ -40,7 +36,6 @@ ht-degree: 5%
 | 問題のタイプ | コンポーネント | リリースノート |
 |--- |--- |--- |
 | 機能強化 | Filmstrip | Filmstripの次のアクセシビリティ機能が更新されました。<br><ul><li>&lt;div>から&lt;button>に修正された左向き/右向き矢印 </li><li>プレビューの画像要素が、わかりにくい「Open attached photo」というARIAのラベルから、プラットフォーム名と投稿テキストを読むラベルに変更されました。</li></ul> |
-| バグ | メディアウォール | Instagramの投稿がストリームルールから追加された場合に、メディアウォールでタグがクリックできない問題を修正しました。 |
+| バグ | メディアウォール | instagramの投稿がストリームルールから追加された場合に、メディアウォールでタグがクリックできない問題を修正しました。 |
 | 機能強化 | メディアウォール | 次の点で、Media Wallのアクセシビリティが向上しました。<br><ul><li>キーボードコマンドを使用してモデルを開いたり閉じたりした場合に、フォーカスがページの先頭に戻ることはなくなりました。 フォーカスは、モーダルポップアップの前に最後にフォーカスされた要素に留まります。</li><li>「さらに読み込み」ボタンは、キーボードのEnterキーを使用してタブで移動し、トリガーできます。</li></ul> |
-| バグ | Rights Management | Instagramアセットの権限が付与された後、権限要求モーダルを表示できないエラーを修正しました。 |
-
+| バグ | Rights Management | instagramアセットの権限が付与された後、権限要求モーダルを表示できないエラーを修正しました。 |
