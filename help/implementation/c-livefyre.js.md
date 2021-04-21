@@ -1,18 +1,14 @@
 ---
 description: サイトでLivefyreの電源を投入するために使用するコアLivefyreライブラリ。
-seo-description: サイトでLivefyreの電源を投入するために使用するコアLivefyreライブラリ。
-seo-title: Livefyre.js
-solution: Experience Manager
 title: Livefyre.js
-uuid: 7b3eca57-d5e8-416d-badf-a9c51d10dadd
+exl-id: 82083dc0-3b4a-467c-bad7-dbf242ab5bbd
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
-
 
 # Livefyre.js {#livefyre-js}
 
@@ -40,7 +36,7 @@ ht-degree: 0%
 
 * **package-name#1：メジャーバージョンv1に** 固定します。下位互換性のあるAPIを維持する新しいアップデートがすべて入手できます。 メジャーバージョンに固定すると、そのバージョンのバグ修正とマイナー機能の拡張を受け取ることができます。
 * **package-name#1.1：マイナーバージョンv1.1に** 固定します。このマイナーバージョンに対するバグ修正はすべて行われます。Webページ上で新しく予期しない動作が発生する可能性があるようにパッケージのデフォルトの動作や機能範囲が変化した場合、Livefyre Engineeringは常にマイナーバージョンのパッケージをぶつけます。 自動バグ修正を受け取りたいが、デフォルト動作の追加機能や変更は受け取りたくない場合は、マイナーバージョンに固定します。
-* **package-name#1.1.1：バージョンv1.1.1にパッチを適用します。バグ修正があっても、この埋め込みの動作は変わりません。** 変更される可能性のあるパッケージのマークアップ構造に依存する、サイトを広範にCSSをカスタマイズしている場合、または実行中のLivefyreバージョンが変更されないことを望む他の理由がある場合は、パッチバージョンに固定します。
+* **package-name#1.1.1：バージョンv1.1.1にパッチを適用します。バグ修正が行われた場合でも、この埋め込みの動作は変更されません。** 変更される可能性のあるパッケージのマークアップ構造に依存する、サイトを広範にCSSをカスタマイズしている場合、または実行中のLivefyreバージョンが変更されないことを望む他の理由がある場合は、パッチバージョンに固定します。
 
 `Livefyre.require`を使用した統合の例を次に示します。
 
