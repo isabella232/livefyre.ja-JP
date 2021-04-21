@@ -1,17 +1,14 @@
 ---
 description: 2017年9月7日リリースのリリースノートです。
-seo-description: 2017年9月7日リリースのリリースノートです。
-seo-title: 2017 年 9 月 8 日
 title: 2017 年 9 月 8 日
-uuid: a736cc77-8989-4066-b19c-8cac7bf6d7f9
+exl-id: 761debfa-676b-456f-812a-8e1516ab7689
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '406'
 ht-degree: 6%
 
 ---
-
 
 # 2017 年 9 月 8 日{#september}
 
@@ -41,6 +38,5 @@ ht-degree: 6%
 | バグ | ライブラリ | 製品を削除してからライブラリ内のアセットに再度追加すると、製品が正しく表示されない問題を修正しました。 |
 | バグ | モバイル | このバグは、アバターが無効でネストに使用されなかった場合にMobileにレンダリングされるネストされた返信の問題を修正しますが、この修正によって修正されます。 |
 | 機能強化 | モザイク | これは、ユーザーがMosaicビジュアライゼーションアプリで表示するカードの数を指定できる新しい設定です。 |
-| バグ | Rights Management | StudioユーザーがInstagram Carouselコンテンツの権限を要求できなかった問題を修正しました。 |
+| バグ | Rights Management | StudioユーザーがInstagramカルーセルコンテンツに対する権限を要求できなかった問題を修正しました。 |
 | バグ | スタジオ | 新しいサイトを作成する際の明確なエラーメッセージを追加しました。 |
-
