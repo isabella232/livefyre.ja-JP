@@ -1,18 +1,14 @@
 ---
 description: Janrain Captureとバックプレーンを使用しているお客様は、Livefyre Authをシングルサインオン(SSO)用に使用している場合があり、ユーザーはサイトにログインしたときにLivefyre Appsと即座に連携できます。
-seo-description: Janrain Captureとバックプレーンを使用しているお客様は、Livefyre Authをシングルサインオン(SSO)用に使用している場合があり、ユーザーはサイトにログインしたときにLivefyre Appsと即座に連携できます。
-seo-title: ジャンレインキャプチャ/バックプレーン
-solution: Experience Manager
 title: ジャンレインキャプチャ/バックプレーン
-uuid: 776e9626-db04-4c34-adfe-681a71b552c5
+exl-id: c7e6cfef-7570-4f9c-9d2c-79f890ee5c49
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '926'
 ht-degree: 1%
 
 ---
-
 
 # ジャンレインキャプチャ/バックプレーン{#janrain-capture-backplane}
 
