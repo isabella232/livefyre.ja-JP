@@ -1,18 +1,14 @@
 ---
 description: bit.ly URL短縮サービスを使用して、コンテンツの固定リンクをカスタマイズします。
-seo-description: bit.ly URL短縮サービスを使用して、コンテンツの固定リンクをカスタマイズします。
-seo-title: ペルマリンク
-solution: Experience Manager
 title: ペルマリンク
-uuid: 40ef30ec-dc3e-47fe-87a9-f9073cd4c4ff
+exl-id: a21cbcca-9173-42ec-910d-7ec2edc60676
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '236'
 ht-degree: 1%
 
 ---
-
 
 # パーマリンク{#permalinks}
 
@@ -48,4 +44,3 @@ bit.ly URL短縮サービスを使用して、コンテンツの固定リンク�
 * [レビュー](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
 * [Sidenots](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 * [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
-
