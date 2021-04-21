@@ -1,18 +1,14 @@
 ---
 description: Livefyre Appsからインラインでユーザーを禁止できます。また、Livefyreを使用してログインしたユーザーは、Studioのライブラリ/アプリケーションコンテンツページからアクセスできない場合があります。
-seo-description: Livefyre Appsからインラインでユーザーを禁止できます。また、Livefyreを使用してログインしたユーザーは、Studioのライブラリ/アプリケーションコンテンツページからアクセスできない場合があります。
-seo-title: ユーザーの禁止
-solution: Experience Manager
 title: ユーザーの禁止
-uuid: ce528a9a-7137-4c2b-a445-194feae61879
+exl-id: b9e045d8-0fb4-4ce5-ba0a-e22de5e22c6c
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
-
 
 # ユーザーの禁止{#ban-a-user}
 
