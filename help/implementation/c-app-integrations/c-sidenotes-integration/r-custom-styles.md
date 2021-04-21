@@ -1,17 +1,14 @@
 ---
 description: カスタムスタイルは、Sidentsコンストラクタに挿入されたオブジェクトを通して適用されます。
-seo-description: カスタムスタイルは、Sidentsコンストラクタに挿入されたオブジェクトを通して適用されます。
-seo-title: カスタムスタイルを示す
 title: カスタムスタイルを示す
-uuid: 0f6d7ad6-1f6a-4ed2-b86a-0d03782e591e
+exl-id: 846605b7-a21e-4600-bf17-18841d2ed96d
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
-
 
 # カスタムスタイルを示す{#sidenotes-custom-styles}
 
@@ -47,8 +44,8 @@ new Livefyre.Sidenotes({
 | `editorTextarea` | 「height」、「width」、「fontColor」、「fontFamily」、「fontSize」、「fontWeight」、「lineHeight」 | メモを残すためのテキスト領域入力ボックス。 |
 | `mediaBlockBtn` | 「fontColor」、「fontSize」、「left」、「position」、「right」、「top」 | メディア項目(img、video)の上に表示された場合のメディアランチャーアイコン |
 | `mediaBlockBtnActive` | 「fontColor」、「fontSize」、「left」、「position」、「right」、「top」 | アクティブ状態のメディアランチャーアイコン。 |
-| `numSidenotes` | 「fontColor」、「fontFamily」、「fontSize」、「fontWeight」、「lineHeight」、「backgroundColor」、「borderColor」、「borderWidth」、「height」、「width」 | コレクション内のサイト数を表示するクリック可能なボタン。 |
-| `numSidenotesPopover` | 「fontColor」、「fontFamily」、「fontSize」、「fontWeight」、「lineHeight」、「backgroundColor」、「borderColor」、「borderWidth」、「height」、「width」 | ユーザーのサイドに関する簡単な説明を含むポーバー。 |
+| `numSidenotes` | 「fontColor」、「fontFamily」、「fontSize」、「fontWeight」、「lineHeight」、「backgroundColor」、「borderColor」、「borderWidth」、「height」、「width」、「width」 | コレクション内のサイト数を表示するクリック可能なボタン。 |
+| `numSidenotesPopover` | 「fontColor」、「fontFamily」、「fontSize」、「fontWeight」、「lineHeight」、「backgroundColor」、「borderColor」、「borderWidth」、「height」、「width」、「width」 | ユーザーのサイドに関する簡単な説明を含むポーバー。 |
 | `popover` | ‘backgroundColor’ | ランチャーアイコンを呼び出したときに表示されるポーバー。 |
 | `popoverArrowLeft` | 「backgroundImage」、「height」、「left」、「right」、「top」、「width」 | ランチャーアイコンが含まれているDOM要素を指すポーバー上の左向き矢印要素。 |
 | `popoverArrorRight` | 「backgroundImage」、「height」、「left」、「right」、「top」、「width」 | ランチャーアイコンが含まれているDOM要素を指すポーバー上の右向き矢印要素。 |
@@ -57,4 +54,3 @@ new Livefyre.Sidenotes({
 | `streamPoweredBy` | 「backgroundColor」、「borderColor」、「lineHeight」 | 「powered by」フッターがポーバーに表示されます。 |
 | `streamQueueButton` | 「backgroundColor」、「borderColor」、「borderWidth」、「fontColor」、「fontFamily」、「fontSize」、「fontWeight」、「lineHeight」 | 開いているポーバーに新しいメモがストリーミングされるタイミングを示すボタンです。 |
 | `userAvatar` | ‘height’、‘width’ | テキスト領域エディターの左にある、認証済みユーザーのアバター画像。 |
-
