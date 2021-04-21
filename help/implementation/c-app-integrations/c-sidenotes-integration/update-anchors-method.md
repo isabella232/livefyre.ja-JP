@@ -1,18 +1,15 @@
 ---
 description: サイトでLivefyreの電源を投入するために使用するコアLivefyreライブラリ。
-seo-description: サイトでLivefyreの電源を投入するために使用するコアLivefyreライブラリ。
-seo-title: updateAnchorsメソッド
-solution: Experience Manager
 title: Livefyre.js
 uuid: null
+exl-id: 5f60ce54-5669-4768-912d-c1b13946d8b8
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 1%
+source-wordcount: '96'
+ht-degree: 2%
 
 ---
-
 
 # updateAnchorsメソッド{#updateAnchorsMethod}
 
