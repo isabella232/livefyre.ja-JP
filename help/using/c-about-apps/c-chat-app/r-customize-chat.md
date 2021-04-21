@@ -1,18 +1,14 @@
 ---
 description: チャットアプリをカスタマイズして、スレッド化されていないチャットの連続的なストリームとしてコンテンツを表示し、オーディエンスがライブイベントやお知らせに関するリアルタイムの会話を行えるようにします。
-seo-description: チャットアプリをカスタマイズして、スレッド化されていないチャットの連続的なストリームとしてコンテンツを表示し、オーディエンスがライブイベントやお知らせに関するリアルタイムの会話を行えるようにします。
-seo-title: チャットのカスタマイズ
-solution: Experience Manager
 title: チャットのカスタマイズ
-uuid: eac7be2f-2dcd-4a6b-ac84-e5e650af82e0
+exl-id: da6a3d41-426a-4734-a3e7-951cbe9e9988
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
-
 
 # チャットのカスタマイズ{#chat-customizations}
 
@@ -32,7 +28,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Preview media]**
 
-   有効にすると、メディアの添付ファイルは、ストリーム内で完全に拡張されたメディアとしてインラインで表示されます。 無効にすると、メディアはリンクとしてのみ表示されます。
+   有効にすると、メディア添付ファイルは、ストリーム内で完全に拡張されたメディアとしてインラインで表示されます。 無効にすると、メディアはリンクとしてのみ表示されます。
 
 * **[!UICONTROL Number of listeners]**
 
@@ -48,7 +44,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Users may share comments]**
 
-   有効にすると、ユーザーはTwitter、FacebookまたはLinkedInで投稿済みのコメントを共有できます。 共有を有効にする方法について詳しくは、設定/統合の設定/ソーシャルシェアを参照してください。
+   有効にすると、ユーザーは投稿されたコメントをTwitter、FacebookまたはLinkedInに共有できます。 共有を有効にする方法について詳しくは、設定/統合の設定/ソーシャルシェアを参照してください。
 
 * **[!UICONTROL Additional sort option]**
 
@@ -59,4 +55,3 @@ ht-degree: 0%
 * **[!UICONTROL Style]** 」および「」のすべてのアプリの **[!UICONTROL Config]** オプションを選択し **[!UICONTROL App Designer]**&#x200B;ます。**[!UICONTROL App Designer]**&#x200B;のすべてのアプリの標準&#x200B;**[!UICONTROL Style]**&#x200B;および&#x200B;**[!UICONTROL Config]**&#x200B;オプションについて詳しくは、「アプリのカスタマイズ」を参照してください。
 
 * 統合ツール。 統合ツールを使用してチャットをカスタマイズする方法について詳しくは、チャットを参照してください。
-
