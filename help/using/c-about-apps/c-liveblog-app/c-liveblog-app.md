@@ -1,18 +1,14 @@
 ---
 description: Live Blogを使用すると、ライターや編集者はリアルタイムの更新を投稿し、サイトを魅力的なライブニュースソースに変換できます。
-seo-description: Live Blogを使用すると、ライターや編集者はリアルタイムの更新を投稿し、サイトを魅力的なライブニュースソースに変換できます。
-seo-title: ライブブログ
-solution: Experience Manager
 title: ライブブログ
-uuid: 40ae3120-c630-440e-b224-49cd99677dc2
+exl-id: 9a356e8b-7120-466b-8c78-4e7d6d21d0c4
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
-
 
 # ライブブログ{#live-blog}
 
@@ -31,4 +27,3 @@ Live Blogは、次の点でコメントとは異なります。
 スレート氏は、再び吹雪が来ると、読者に東海岸での荒れ狂った天候の揺れに関する情報をすぐに提供したいと考えていた。 スレート編集者はライブブログを使って、自分の写真、ユーザツイート、降雪に関する情報など、嵐に関する更新情報を即座に共有できました。 ライブブログはとても役に立ったのでスレートのサイトの一面を飾った。
 
 ![](assets/LiveBlogSlate_example.png)
-
