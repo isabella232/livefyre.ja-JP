@@ -1,18 +1,14 @@
 ---
 description: GDPR対応のプライバシー・リクエストに関するFAQ(Faq)への回答
-seo-description: GDPR対応のプライバシー・リクエストに関するFAQ(Faq)への回答
-seo-title: プライバシーリクエストに関するFAQ
-solution: Experience Manager
 title: プライバシーリクエストに関するFAQ
-uuid: 0cd6f0d2-504d-46e9-ac46-070536cda086
+exl-id: 6d0add45-589a-46d0-b15a-63a7599aad73
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '412'
 ht-degree: 1%
 
 ---
-
 
 # プライバシーリクエストFAQ{#privacy-request-faqs}
 
@@ -40,5 +36,4 @@ GDPR対応のプライバシー・リクエストに関するFAQ(Faq)への回�
 
 * **現在の従業員または以前の従業員を追跡したデータのレポートを作成する方法を教えてください。** [プライバシー](../../c-settings-other/c-gdpr-compliance/c-view-a-privacy-report.md#c_view_a_privacy_report) レポートを表示して、ユーザーアカウントに対して追跡されたデータのレポートを生成します。
 
-* **Livefyreのソーシャルストリームは準拠しているか。** ユーザーがソーシャルネットワークから投稿またはツイートを削除すると、24時間以内にLivefyreのすべてのソースからもコンテンツが削除されます。これは、TwitterとFacebookに適用されます。
-
+* **Livefyreのソーシャルストリームは準拠しているか。** ユーザーがソーシャルネットワークから投稿またはツイートを削除すると、24時間以内にLivefyreのすべてのソースからもコンテンツが削除されます。これはTwitterとFacebookに当てはまる。
