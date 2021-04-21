@@ -1,18 +1,14 @@
 ---
 description: ビジュアライゼーションアプリ（Media Wall など）用に JavaScript をバインドできるものに対して使用できるイベントです。
-seo-description: ビジュアライゼーションアプリ（Media Wall など）用に JavaScript をバインドできるものに対して使用できるイベントです。
-seo-title: ビジュアライゼーションアプリのJavaScriptイベント
-solution: Experience Manager
 title: ビジュアライゼーションアプリのJavaScriptイベント
-uuid: 0797c384-7e8e-44fc-9738-a10a48d490cc
+exl-id: 93406d36-881d-4f35-a9a6-b42805f47c85
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '533'
 ht-degree: 74%
 
 ---
-
 
 # ビジュアライゼーションアプリのJavaScriptイベント{#javascript-events-for-visualization-apps}
 
@@ -30,13 +26,13 @@ ht-degree: 74%
 | 投稿 |  | 該当なし | 該当なし | 該当なし | 該当なし |  | 該当なし |
 | 投稿済み |  | 該当なし | 該当なし | 該当なし | 該当なし |  | 該当なし |
 | Twitter 返信 | X | X |  | X | X | 該当なし | X |
-| Twitterの「いいね！」 | X | X |  | X | X | 該当なし | X |
+| Twitterライク | X | X |  | X | X | 該当なし | X |
 | 低周波のような | X |  | 該当なし | 該当なし | 該当なし | 該当なし | 該当なし |
 | 低周波の異常 | X |  | 該当なし | 該当なし | 該当なし | 該当なし | 該当なし |
 | 投稿で共有 | 該当なし |  | 該当なし | 該当なし | 該当なし | 該当なし | 該当なし |
 | 共有ボタン | X | X |  | X | X | 該当なし | X |
-| Twitterを共有 | X | X |  | X | X | 該当なし | X |
-| Facebookを共有 | X | X |  | X | X | 該当なし | X |
+| twitterを共有 | X | X |  | X | X | 該当なし | X |
+| facebookを共有 | X | X |  | X | X | 該当なし | X |
 | 共有URL | X | X |  | X | X | 該当なし | X |
 | ExpandReplies | 該当なし | 該当なし | 該当なし | 該当なし | 該当なし | 該当なし | 該当なし |
 | 返信を折りたたむ | 該当なし | 該当なし | 該当なし | 該当なし | 該当なし | 該当なし | 該当なし |
