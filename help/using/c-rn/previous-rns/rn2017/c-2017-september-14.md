@@ -1,17 +1,14 @@
 ---
 description: 2017年9月15日リリースのリリースノートです。
-seo-description: 2017年9月15日リリースのリリースノートです。
-seo-title: 2017年9月15日
 title: 2017年9月15日
-uuid: 6d802e5c-b029-40ad-ada6-dc380f1bcfd5
+exl-id: 5667629a-1b65-454b-953c-2119d3d093db
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '114'
 ht-degree: 7%
 
 ---
-
 
 # 2017年9月14日{#september}
 
@@ -29,4 +26,3 @@ ht-degree: 7%
 | **問題のタイプ** | **コンポーネント** | **リリースノート** |
 |---|---|---|
 | バグ | モザイク | UGCのIE11で、Mosaicでグレーのボックスが表示される制作のバグです。 私たちはこれを修正しました。 -SP |
-
