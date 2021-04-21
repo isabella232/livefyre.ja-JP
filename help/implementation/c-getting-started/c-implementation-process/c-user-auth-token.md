@@ -1,18 +1,14 @@
 ---
 description: この節では、ユーザーのアプリへのログインに必要なユーザー認証トークンを作成するUserAuth JSONオブジェクトを生成する方法について説明します。
-seo-description: この節では、ユーザーのアプリへのログインに必要なユーザー認証トークンを作成するUserAuth JSONオブジェクトを生成する方法について説明します。
-seo-title: ユーザー認証トークン
-solution: Experience Manager
 title: ユーザー認証トークン
-uuid: 6483debd-453c-4780-b19c-1d8041693617
+exl-id: 564144dd-6db4-447b-80ac-b743ecac833d
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '237'
 ht-degree: 2%
 
 ---
-
 
 # ユーザー認証トークン{#user-auth-token}
 
@@ -64,4 +60,3 @@ network.build_user_auth_token(userId, displayName, expires)
 >[!NOTE]
 >
 >ネットワークキーがLivefyreデモサイトのアカウントで共有されません。 Livefyreが環境のプロビジョニングを完了すると、ネットワークキーを受け取ります。 このキーは秘密にする必要があります。
-
