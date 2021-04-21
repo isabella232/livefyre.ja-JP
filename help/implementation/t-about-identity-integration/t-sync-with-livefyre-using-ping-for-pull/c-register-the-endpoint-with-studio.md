@@ -1,18 +1,14 @@
 ---
 description: URLエンドポイントを登録して、LivefyreがURLを使用して更新されたプロファイル情報を取り込めるようにします。
-seo-description: URLエンドポイントを登録して、LivefyreがURLを使用して更新されたプロファイル情報を取り込めるようにします。
-seo-title: エンドポイントのStudioへの登録
-solution: Experience Manager
 title: エンドポイントのStudioへの登録
-uuid: 4eb816ee-d743-43bf-bfee-d9b9fd98b482
+exl-id: 2910a13a-ae88-41d7-ba7c-88d7a1dbe445
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
-
 
 # エンドポイントをStudioに登録{#register-the-endpoint-with-studio}
 
@@ -24,4 +20,3 @@ URLエンドポイントを登録して、LivefyreがURLを使用して更新さ
 1. Livefyreが更新されたユーザープロファイル情報の取得元となるURLを登録し、**[!UICONTROL Studio > Settings > Integration Settings > Remote Profiles]**&#x200B;に移動して&#x200B;**[!UICONTROL Ping for Pull URL]**&#x200B;フィールドに入力します。
 
    例えば、URLは次のようになります。`https://example.yoursite.com/some_path/?id={id}`
-
