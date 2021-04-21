@@ -1,18 +1,14 @@
 ---
 description: Livefyreには、様々なレベルの権限を持つ複数のユーザータイプが用意されています。
-seo-description: Livefyreには、様々なレベルの権限を持つ複数のユーザータイプが用意されています。
-seo-title: ユーザーの役割と権限
-solution: Experience Manager
 title: ユーザーの役割と権限
-uuid: d9261cfd-ae60-40d8-9816-25aef541506f
+exl-id: 0e590857-74c5-4fdc-82a9-1673909d5eb7
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
-
 
 # ユーザーの役割と権限{#user-roles-and-permissions}
 
