@@ -1,18 +1,14 @@
 ---
 description: アップロードボタンを使用すると、サイト訪問者はコンテンツをアップロードすることができます。
-seo-description: アップロードボタンを使用すると、サイト訪問者はコンテンツをアップロードすることができます。
-seo-title: アップロードボタン
-solution: Experience Manager
 title: アップロードボタン
-uuid: 6f51057b-040b-413e-a9b0-b20440acff08
+exl-id: ab6e7620-8545-4257-b5e0-54cf2b7882ea
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 53%
+source-wordcount: '69'
+ht-degree: 43%
 
 ---
-
 
 # アップロードボタン{#upload-button}
 
