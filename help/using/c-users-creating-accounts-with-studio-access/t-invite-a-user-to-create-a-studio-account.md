@@ -1,18 +1,14 @@
 ---
 description: Studio Managersと管理者は、新しいユーザーまたは既存のユーザーを招待してStudioアカウントを作成できます。
-seo-description: Studio Managersと管理者は、新しいユーザーまたは既存のユーザーを招待してStudioアカウントを作成できます。
-seo-title: Studioアカウントを作成するためのユーザーの招待
-solution: Experience Manager
 title: Studioアカウントを作成するためのユーザーの招待
-uuid: 2cfa4639-1624-4a28-a06d-b6b0180bf3b0
+exl-id: 5b4f5bb9-6bd0-413a-9cf9-9604bc2fb8af
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
-
 
 # Studioアカウントを作成するユーザーの招待{#invite-a-user-to-create-a-studio-account}
 
