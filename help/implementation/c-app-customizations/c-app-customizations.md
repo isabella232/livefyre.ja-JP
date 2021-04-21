@@ -1,18 +1,14 @@
 ---
 description: ブランドやスタイルに合わせてアプリの表示オプションをカスタマイズし、カスタム機能を追加します。
-seo-description: ブランドやスタイルに合わせてアプリの表示オプションをカスタマイズし、カスタム機能を追加します。
-seo-title: アプリのカスタマイズ
-solution: Experience Manager
 title: アプリのカスタマイズ
-uuid: 6f27654d-c2b4-45b5-aae7-6fbf312fb829
+exl-id: 897579fb-11b5-4a00-b2bf-86f505b79003
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
-
 
 # アプリのカスタマイズ{#app-customizations}
 
@@ -36,9 +32,8 @@ Livefyreオファーは、アプリのインタラクションや表示オプシ
 
 * **追加カスタムボタン**
 
-   ユーザーがLivefyre Appとやり取りしたときにカスタムアクションをトリガーします。
+   トリガーがLivefyre Appとやり取りしたときのユーザーのカスタムアクション。
 
 * **アプリイベントのリッスン**
 
    使用可能なJavaScriptイベントを使用して、ユーザーエクスペリエンスをさらにカスタマイズし、追跡します。
-
