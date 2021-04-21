@@ -1,18 +1,14 @@
 ---
 description: Mosaic追加アプリを使用して、色、写真、ビデオのぎらぎらした動的なウォールをサイトに提供します。
-seo-description: Mosaic追加アプリを使用して、色、写真、ビデオのぎらぎらした動的なウォールをサイトに提供します。
-seo-title: モザイク
-solution: Experience Manager
 title: モザイク
-uuid: 331c5f80-7440-4b91-8ac6-4f56a8a5befe
+exl-id: 79259c77-169d-4819-a7b0-39f64d92ea1e
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '789'
 ht-degree: 1%
 
 ---
-
 
 # モザイク{#mosaic}
 
@@ -103,4 +99,3 @@ Mosaicは、常に新しいコンテンツを持つコレクションで最も�
 * Mosaicの翻訳セットの作成と変更
 * 翻訳セットのサイトへの適用
 * 翻訳セットをネットワークに適用する
-
