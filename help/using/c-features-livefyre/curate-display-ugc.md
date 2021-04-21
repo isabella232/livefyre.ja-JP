@@ -1,18 +1,15 @@
 ---
 description: Livefyreを使用して、カスタムのビジュアライゼーションを使用してUGCをキュレーションし、表示します。
-seo-description: Livefyreを使用して、カスタムのビジュアライゼーションを使用してUGCをキュレーションし、表示します。
-seo-title: UGCのキュレーションと表示
-solution: Experience Manager
 title: UGCのキュレーションと表示
 uuid: null
+exl-id: 1af48d91-0f24-4759-b6c2-41828de158a9
 translation-type: tm+mt
-source-git-commit: c5fd168c0ed74dada9fb85423c92cf6955c4b8c9
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
-
 
 # UGCのキュレーションと表示{#curatedisplayugc}
 
