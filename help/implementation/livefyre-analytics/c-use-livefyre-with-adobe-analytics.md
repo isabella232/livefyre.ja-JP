@@ -2,9 +2,9 @@
 description: Livefyre アプリのデータを収集するためのAdobe Analyticsと Dynamic Tag Manager(DTM) の設定。
 title: Livefyre とAdobe Analyticsおよび Dynamic Tag Manager(DTM) の使用
 exl-id: a866782d-fca6-48bf-9fb8-5080e396919b
-source-git-commit: 53aead87db517e6f68266a66115889509287a287
+source-git-commit: 3091db9d7b9611e26ad65c1432856c9465694e92
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1009'
 ht-degree: 1%
 
 ---
@@ -31,14 +31,16 @@ Livefyre コンバージョン変数 (eVar) をAdobe Analytics Admin Report Suit
 
 1. Report Suite Manager で **[!UICONTROL Edit Settings > Conversion > Conversion Variables]** をクリックします。
 1. 使用するカスタムコンバージョン変数 (eVar) を選択し、Livefyre コンバージョン変数にマッピングします。 Livefyre コンバージョン変数をカスタムコンバージョン変数にマッピングするには：
-* コンバージョン変数の有効化
-* コンバージョン変数の名前を設定します。
-* コンバージョン変数に型を指定します。
+
+   * コンバージョン変数の有効化
+   * コンバージョン変数の名前を設定します。
+   * コンバージョン変数に型を指定します。
+
 1. カスタムコンバージョン変数を保存します。
 
 ## 手順 3:DTM を使用した Livefyre イベントでのレポートスイートの追加 {#section_t15_2hd_4cb}
 
-Adobe Analyticsを DTM に追加して、Analytics を機能させます。 これをおこなうには、新しいプロパティとツールを作成し、Livefyre イベントを含む新しいレポートスイートをプロパティに追加します。 DTM について詳しくは、[DTM](https://experienceleague.adobe.com/docs/dtm/using/c-overview.html?lang=en) を参照してください。
+タグを使用して Analytics と Livefyre イベントを統合する。 これをおこなうには、新しいプロパティとツールを作成し、Livefyre イベントを含む新しいレポートスイートをプロパティに追加します。 詳しくは、[ タグの概要 ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) を参照してください。
 
 Livefyre イベントで設定したレポートスイート用に既にプロパティまたはツールが設定されている場合は、この手順を実行する必要はありません。
 
@@ -65,7 +67,7 @@ Livefyre イベントで設定したレポートスイート用に既にプロ�
 1. **[!UICONTROL Create New Rule]** ボタンをクリックします。
 1. **[!UICONTROL Plus]** ボタンをクリックして、**[!UICONTROL Conditions]** セクションを開きます。
 1. ルールをトリガーします。 ルールを遅延または非同期で実装する場合は、 **[!UICONTROL DOM Ready]** または **[!UICONTROL Onload]**&#x200B;トリガータイプを選択します。
-1. （オプション）追加のパラメーターを追加して、Livefyre Apps を表示するページを制限します。 追加の設定オプションについて詳しくは、[DTM](https://experienceleague.adobe.com/docs/dtm/using/c-overview.html?lang=en) を参照してください。
+1. （オプション）追加のパラメーターを追加して、Livefyre Apps を表示するページを制限します。 追加の設定オプションについて詳しくは、[ タグの概要 ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) を参照してください。
 1. **[!UICONTROL Javascript/ Third Party Tags]** の下の「**[!UICONTROL Non-sequential]**」タブをクリックし、「**[!UICONTROL Add New Script]**」をクリックします。
 1. スクリプトタイプとして **[!UICONTROL Sequential HTML]** を選択します。
 1. 次のスクリプトをコードエディターに追加して、**[!UICONTROL Save Code]** をクリックします。
@@ -306,6 +308,5 @@ function addAnalyticsHandler() {
 このページで取り上げるトピックの詳細は、次を参照してください。
 
 * [Report Suite Manager](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=en)
-* [DTM](https://experienceleague.adobe.com/docs/dtm/using/c-overview.html?lang=en)
-* [ルール](https://experienceleague.adobe.com/docs/dtm/using/resources/rules/create-rules.html?lang=en)
+* [タグの概要](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)
 * [Livefyre.js](/help/implementation/c-livefyre.js.md)

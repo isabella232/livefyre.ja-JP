@@ -1,9 +1,8 @@
 ---
-description: Livefyreサーバー側タスク用ライブラリのインストール
+description: Livefyre サーバー側タスク用のライブラリのインストール
 title: インストール
 exl-id: d74f85be-14c0-4f6d-8f16-b688282c0eb0
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: 3091db9d7b9611e26ad65c1432856c9465694e92
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 1%
@@ -15,7 +14,7 @@ ht-degree: 1%
 
 ## Java {#section_yd3_3zk_rz}
 
-Javaライブラリをインストールするには、プロジェクトのPOMに次の依存関係を追加します。
+Java ライブラリをインストールするには、次の依存関係をプロジェクトの POM に追加します。
 
 ```
 <dependency> 
@@ -25,7 +24,7 @@ Javaライブラリをインストールするには、プロジェクトのPOM�
 </dependency>
 ```
 
-Javaライブラリは、次のモジュールに依存しています。
+Java ライブラリは、次のモジュールに依存します。
 
 ```
 <dependency> 
@@ -55,15 +54,15 @@ Javaライブラリは、次のモジュールに依存しています。
 </dependency> 
 ```
 
-詳しくは、Javaドキュメントを読むか、[GitHub](https://github.com/Livefyre/livefyre-java-utils)のソースを参照してください。
+詳しくは、Java のドキュメントを読むか、[GitHub](https://github.com/Livefyre/livefyre-java-utils) のソースを参照してください。
 
 ## NodeJS {#section_swj_pwq_rz}
 
-NodeJSライブラリをインストールするには、次の行を実行します。
+NodeJS ライブラリをインストールするには、次の行を実行します。
 
 `$ npm install livefyre`
 
-NodeJSライブラリは、次のモジュールに依存しています。
+NodeJS ライブラリは、次のモジュールに依存しています。
 
 ```
 "restler":">=3.2.0", 
@@ -71,13 +70,13 @@ NodeJSライブラリは、次のモジュールに依存しています。
 "jsonwebtoken": ">=5.0.0" 
 ```
 
-詳しくは、NodeJsドキュメントを読むか、[GitHub](https://github.com/Livefyre/livefyre-nodejs-utils)のソースを参照してください。
+詳しくは、 NodeJs のドキュメントを読むか、[GitHub](https://github.com/Livefyre/livefyre-nodejs-utils) のソースを参照してください。
 
-リンク：[Restler](https://github.com/danwrong/restler), [バリデーター](https://www.npmjs.org/package/validator), [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken)。
+リンク：[Restler](https://github.com/danwrong/restler)、[ バリデーター ](https://www.npmjs.org/package/validator)、[jsonwebtoken](https://github.com/auth0/node-jsonwebtoken)。
 
 ## PHP {#section_txj_xwq_rz}
 
-ComposerでPHPライブラリをインストールするには、composer.jsonに次を追加します。
+Composer で PHP ライブラリをインストールするには、次のコードを composer.json に追加します。
 
 ```
 "require": { 
@@ -85,25 +84,25 @@ ComposerでPHPライブラリをインストールするには、composer.json�
 }
 ```
 
-次に、次を使用してインストールします。
+次に、以下を使用してをインストールします。
 
 ```
 composer.phar install 
 ```
 
-Composerを&#x200B;**使用しない**&#x200B;場合は、次を使用してライブラリの最新バージョンを取得します。
+Composer を使用 **しない** 場合は、次を使用して最新バージョンのライブラリを取得します。
 
 ```
 git clone https://github.com/Livefyre/livefyre-php-utils 
 ```
 
-ライブラリを使用するには、PHPスクリプトに次を追加します。
+ライブラリを使用するには、次の内容を PHP スクリプトに追加します。
 
 ```
 require_once("/path/to/livefyre-php-utils/src/Livefyre.php"); 
 ```
 
-PHPライブラリは、次のモジュールと依存関係があります。
+PHP ライブラリは、次のモジュールに依存します。
 
 ```
 "ext-json": "*", 
@@ -111,17 +110,17 @@ PHPライブラリは、次のモジュールと依存関係があります。
 "firebase/php-jwt": ">=2.0" 
 ```
 
-詳しくは、PHPドキュメントを読むか、[GitHub](https://github.com/Livefyre/livefyre-php-utils)のソースを参照してください。
+詳しくは、PHP のドキュメントを読むか、[GitHub](https://github.com/Livefyre/livefyre-php-utils) のソースを参照してください。
 
-リンク：[ext-json](https://php.net/manual/en/book.json.php), [リクエスト](https://github.com/rmccue/Requests/), [PHP-JWT](https://github.com/firebase/php-jwt/tree/v2.0.0)
+リンク：[ext-json](https://www.php.net/manual/en/book.json.php)、[ リクエスト ](https://github.com/rmccue/Requests/)、[PHP-JWT](https://github.com/firebase/php-jwt/tree/v2.0.0)
 
 ## Python {#section_irk_fxq_rz}
 
-Pythonライブラリをインストールするには、次の行を実行します。
+Python ライブラリをインストールするには、次の行を実行します。
 
 `$ pip install livefyre`
 
-Pythonライブラリは、次のモジュールに依存しています。
+Python ライブラリは、次のモジュールに依存します。
 
 ```
 PyJWT >= 1.0.1  
@@ -131,13 +130,13 @@ enum34 == 1.0
 ordereddict == 1.1 if sys.version_info[:2] < 2.7 
 ```
 
-詳しくは、Pythonドキュメントを読むか、[GitHub](https://github.com/Livefyre/livefyre-python-utils)のソースを参照してください。
+詳しくは、Python ドキュメントを読むか、[GitHub](https://github.com/Livefyre/livefyre-python-utils) のソースを参照してください。
 
-リンク：[PyJWT](https://github.com/progrium/pyjwt), [リクエスト](https://github.com/kennethreitz/requests), [Python-Dateutil](https://pypi.python.org/pypi/python-dateutil), [Enum34](https://pypi.python.org/pypi/enum34), [OrderedDict](https://pypi.python.org/pypi/ordereddict)
+リンク：[PyJWT](https://github.com/progrium/pyjwt)、[ リクエスト ](https://github.com/kennethreitz/requests)、[Python-Dateutil](https://pypi.python.org/pypi/python-dateutil)、[Enum34](https://pypi.python.org/pypi/enum34)、[OrderedDict](https://pypi.python.org/pypi/ordereddict)
 
 ## Ruby {#section_fv2_tzq_rz}
 
-Rubyライブラリをインストールするには、次の行をアプリケーションのGemfileに追加します。
+Ruby ライブラリをインストールするには、次の行をアプリケーションの Gemfile に追加します。
 
 ```
 gem 'livefyre' 
@@ -147,7 +146,7 @@ gem 'livefyre'
 
 `$ gem install livefyre`
 
-Rubyライブラリは、次のモジュールに依存しています。
+Ruby ライブラリは、次のモジュールに依存します。
 
 ```
 "jwt", '~> 1.4', ">= 1.4.1"  
@@ -155,6 +154,6 @@ Rubyライブラリは、次のモジュールに依存しています。
 "addressable", '~> 2.3', ">= 2.3.6" 
 ```
 
-詳しくは、Rubyドキュメントを読むか、[GitHub](https://github.com/Livefyre/livefyre-ruby-utils)のソースを参照してください。
+詳しくは、Ruby のドキュメントを読むか、[GitHub](https://github.com/Livefyre/livefyre-ruby-utils) のソースを参照してください。
 
-リンク：[Ruby JWT](https://github.com/firebase/php-jwt/tree/v2.0.0), [RESTクライアント](https://github.com/rest-client/rest-client/), [アドレス指定可能](https://github.com/sporkmonger/addressable)
+リンク：[Ruby JWT](https://github.com/firebase/php-jwt/tree/v2.0.0)、[REST クライアント ](https://github.com/rest-client/rest-client/)、[ アドレス可能 ](https://github.com/sporkmonger/addressable)
