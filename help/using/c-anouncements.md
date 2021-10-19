@@ -2,9 +2,9 @@
 title: Livefyre サービスの終了通知
 description: Livefyre Livefyre および Livefyre Studio 用のサービス終了通知およびアーカイブされたアナウンス
 exl-id: 78fe3f11-2365-4765-a0af-f817e9c80ea9
-source-git-commit: c1f1f501203ea64a282abc631318983011eb4e5b
+source-git-commit: 96f4e5f196446834cdf92a2774bd26f02b6b58a4
 workflow-type: tm+mt
-source-wordcount: '1867'
+source-wordcount: '1866'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 去年、Facebook や Twitter を含むソーシャルメディアプロバイダーでダイナミクスを変更することにより、Adobe ユーザーに、堅牢な UGC (ユーザーによって生成されたコンテンツ) ソリューションを提供することが困難になりました。 このような問題があるので、Adobe では Livefyre サービスを終了することを困難にしていました。 最後に Livefyre がアクセスされるのは、11月30日、つまり2021になります。 2021年1月以降、Adobe は、Livefyre を使用して、Adobe パートナーにスムーズに移行し、代替ソリューションを推奨しています。 このアラームは、Livefyre サービスの終了日を表示するために設定されています。 Adobe では、円滑なハンドオフを行うために必要な機能を提供することに取り組んでいます。 ご不明な点がある場合は、カスタマーの成功/管理担当者にご連絡ください。
 
-## Livefyre エンドのサービスについてよく寄せられる質問 {#livefyre-eos-faq}
+## Livefyre のサービス終了についてよく寄せられる質問 {#livefyre-eos-faq}
 
 ### **_Livefyre の変更点_**
 
