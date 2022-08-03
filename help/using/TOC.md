@@ -5,8 +5,8 @@ user-guide-title: Livefyre ガイド
 user-guide-description: Livefyre Studio を使用してアプリを作成、ユーザー作成コンテンツを収集、およびコンテンツをモデレートします。
 source-git-commit: fac5ebba6a8d67efe59e4daabc8c11955ed04480
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '857'
+ht-degree: 10%
 
 ---
 
